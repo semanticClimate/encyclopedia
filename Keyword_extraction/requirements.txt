@@ -1,0 +1,6 @@
+beautifulsoup4==4.12.3
+transformers==4.44.2
+torch==2.4.0
+pandas==2.2.2
+tqdm==4.66.5
+sentencepiece==0.2.0
