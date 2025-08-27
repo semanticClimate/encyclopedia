@@ -142,6 +142,13 @@ class KeywordExtraction:
         df = pd.DataFrame(self.keyphrase_counts.most_common(self.top_n), columns=["keyword", "count"])
         df.to_csv(output_file, index=False)
         print(f"\nCSV saved successfully: {output_file}")
+        
+        
+        keywords_only_file = os.path.join(self.saving_path, "top_keywords_only.txt")
+        with open(keywords_only_file, "w", encoding="utf-8") as f:
+            for kw in top_keywords:
+                f.write(kw + "\n")
+        print(f"Keywords-only text file saved: {keywords_only_file}")           
 
         print(f"Total unique keywords: {len(self.keyphrases)}")
         print(f"Top 10 keywords: {self.keyphrase_counts.most_common(10)}")
