@@ -28,22 +28,11 @@ venv\Scripts\activate
 ```sh
 pip install -r requirements.txt
 ```
-## Convert Html to txt 
- If your chapter is in HTML (for example, html_with_ids_ch6.html), convert it to text:
- ```
-python html_to_text.py -i html_with_ids_ch6.html -o Chapter6_text.txt
-```
--i = input HTML file
-
--o = output text file
-
-After this, you will get a file like Chapter6_text.txt.
-
 ## Extract Keywords
 ```
-python keyword_extraction.py -t Chapter6_text.txt -s results/ -o chapter6_keywords.csv -n 500
+python keyword_extraction.py -i Chapter6_text.html -s results/ -o chapter6_keywords.csv -n 500
 ```
--t → text file (from Step 4)
+-i → input html file (from Step 4)
 
 -s → folder where results are saved (for example, results/)
 
