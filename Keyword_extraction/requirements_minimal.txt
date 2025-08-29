@@ -1,0 +1,20 @@
+# Minimal requirements for Keyword_extraction tool
+# No version pinning for maximum compatibility
+
+# HTML parsing and text extraction
+beautifulsoup4
+
+# AI/NLP models and transformers
+transformers
+
+# Data manipulation and CSV export
+pandas
+
+# Progress bars for batch processing
+tqdm
+
+# PyTorch backend for transformers
+torch
+
+# Note: This minimal version allows pip to install the latest compatible versions
+# Use requirements_optimized.txt if you need specific versions for reproducibility
