@@ -1,46 +1,82 @@
-# Keyword Extraction Tool  
+# Workflow for Keyword Extraction and Classification
 
-This project helps you:  
-1. Convert a chapter in HTML format into plain text (.txt).  
-2. Extract the most important keywords from that text using Artificial Intelligence.  
-3. Save those keywords into a CSV file (which you can open in Excel).  
+This document outlines the step-by-step process for using the tools provided in this project to extract keywords from HTML files, process them, and classify them into general and chapter-specific categories.
+
 ---
-## Step 1: Clone the Repository  
+
+## Step 1: Convert HTML Files to Text
+
+### Script: `html_to_text.py`
+
+This script processes a folder containing HTML files and converts each file into a plain text file.
+
+### Input:
+- A folder containing HTML files.
+
+### Output:
+- A folder containing `.txt` files, where each `.txt` file corresponds to an HTML file from the input folder.
+
+### Command:
 ```bash
-https://github.com/semanticClimate/encyclopedia/new/main/Keyword_extraction
+python html_to_text.py -i <html_folder> -o <output_folder>
 ```
+
+### Parameters:
+- `-i, --input`: Path to the folder containing HTML files.
+- `-o, --output`: Path to the folder where the converted `.txt` files will be saved.
+
 ---
-## Create a Virtual Environment
 
-Open the terminal and execute the following commands:
+## Step 2: Extract Keywords from Text Files
 
-### a) Create a new virtual environment
-```sh
-python -m venv venv
+### Script: `Keyword_extraction.py`
+
+This script extracts keywords from text files. It supports two types of input:
+1. A single `.txt` file.
+2. A folder containing multiple `.txt` files.
+
+### Input:
+- Either a single `.txt` file or a folder containing `.txt` files.
+
+### Output:
+- A CSV file for each input file, containing the extracted keywords.
+- The CSV files include columns for the keyword, frequency, and rank.
+
+### Command:
+```bash
+python Keyword_extraction.py -i <input_path> -s <save_directory> -o <output_file> -n <number_of_keywords>
 ```
 
-### b) Activate the virtual environment
-```sh
-venv\Scripts\activate
+### Parameters:
+- `-i, --input`: Path to the input file or folder (must be `.txt` files).
+- `-s, --save_path`: Directory where the output CSV files will be saved.
+- `-o, --output`: Name of the output CSV file (default: `top_keywords.csv`).
+- `-n, --top_n`: Number of top keywords to extract (default: 1000).
+
+### Example:
+To process a folder of `.txt` files and extract the top 500 keywords for each file:
+```bash
+python Keyword_extraction.py -i text_files/ -s results/ -n 500
 ```
 
-## Install required dependencies
-```sh
-pip install -r requirements.txt
-```
-## Extract Keywords
-```
-python keyword_extraction.py -i Chapter6_text.html -s results/ -o chapter6_keywords.csv -n 500
-```
--i → input html file (from Step 4)
+---
 
--s → folder where results are saved (for example, results/)
+## Step 3: Classify Keywords
 
--o → name of CSV file (for example, chapter6_keywords.csv)
+### Script: `classification.py`
 
--n → number of top keywords (for example, 100, 500, 1000)
+This script takes the keyword CSV files generated in Step 2 and classifies the keywords into three categories:
+1. **Merged**: A single file containing all keywords from all chapters.
+2. **General**: A file containing keywords that appear in all chapters.
+3. **Specific**: Separate files for each chapter, containing keywords unique to that chapter.
 
-This extracts the top 1000 keywords.
+### Input:
+- A folder containing the keyword CSV files generated in Step 2.
+
+### Output:
+- `merged_keywords.csv`: Contains all keywords from all chapters.
+- `general_keywords.csv`: Contains keywords common to all chapters.
+
 
 
 

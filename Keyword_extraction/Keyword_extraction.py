@@ -4,7 +4,6 @@ from collections import Counter
 import pandas as pd
 from tqdm import tqdm
 from argparse import ArgumentParser
-from bs4 import BeautifulSoup
 from transformers import (
     TokenClassificationPipeline,
     AutoModelForTokenClassification,
@@ -47,7 +46,7 @@ class KeywordExtraction:
     Extracts the most important keywords from a text file using a model.
     """
 
-    def __init__(self, textfile, saving_path, output_filename="top_keywords.csv", top_n=1000):
+    def __init__(self, textfile, saving_path, output_filename="keywords.csv", top_n=1000):
         self.text = []
         self.keyphrases = []
         self.output_filename = output_filename
@@ -111,12 +110,6 @@ class KeywordExtraction:
         df.to_csv(output_file, index=False)
         print(f"\nCSV saved successfully: {output_file}")
 
-        # Save keywords-only file
-        keywords_only_file = os.path.join(self.saving_path, "top_keywords_only.txt")
-        with open(keywords_only_file, "w", encoding="utf-8") as f:
-            for kw in top_keywords:
-                f.write(kw + "\n")
-        print(f"Keywords-only text file saved: {keywords_only_file}")
 
         print(f"Total unique keywords: {len(self.keyphrases)}")
         print(f"Top 10 keywords: {self.keyphrase_counts.most_common(10)}")
@@ -124,40 +117,34 @@ class KeywordExtraction:
 
 
 # -----------------------------
-# HTML to Text Converter
-# -----------------------------
-def html_to_text(input_html, output_txt):
-    with open(input_html, "r", encoding="utf-8") as file:
-        soup = BeautifulSoup(file, "html.parser")
-    text = soup.get_text()
-    with open(output_txt, "w", encoding="utf-8") as output:
-        output.write(text)
-    print(f"✅ Extracted text saved to: {output_txt}")
-
-
-# -----------------------------
 # CLI
 # -----------------------------
 if __name__ == "__main__":
-    parser = ArgumentParser(description="Convert HTML to text and extract keywords.")
-    parser.add_argument("-i", "--input_html", required=True, help="Path to input HTML file")
-    parser.add_argument("-s", "--saving_path", required=True, help="Path to save outputs")
-    parser.add_argument("-o", "--output_filename", default="top_keywords.csv",
-                        help="Name of the output CSV file (default: top_keywords.csv)")
-    parser.add_argument("-n", "--top_n", type=int, default=1000,
+    parser = ArgumentParser(description="Extract keywords from all TXT files in a folder.")
+    parser.add_argument("-i", "--input_folder", required=True, help="Folder containing TXT files")
+    parser.add_argument("-o", "--output_folder", required=True, help="Folder to save outputs")
+    parser.add_argument("-n", "--top_n", type=int, default=3500,
                         help="Number of top keywords to extract")
+
     args = parser.parse_args()
 
-    # Convert HTML -> TXT
-    txt_file = os.path.join(args.saving_path, "chapter_text.txt")
-    html_to_text(args.input_html, txt_file)
+    # Process each txt file in input folder
+    os.makedirs(args.output_folder, exist_ok=True)
+    txt_files = [f for f in os.listdir(args.input_folder) if f.endswith(".txt")]
 
-    # Extract Keywords
-    extractor = KeywordExtraction(
-        textfile=txt_file,
-        saving_path=args.saving_path,
-        output_filename=args.output_filename,
-        top_n=args.top_n
-    )
-    extractor.extract_keywords()
+    for txt_file in txt_files:
+        input_path = os.path.join(args.input_folder, txt_file)
+        base_name = os.path.splitext(txt_file)[0]
+        output_filename = base_name + "_keywords.csv"
+
+        print(f"\nProcessing {txt_file} ...")
+
+        extractor = KeywordExtraction(
+            textfile=input_path,
+            saving_path=args.output_folder,
+            output_filename=output_filename,
+            top_n=args.top_n
+        )
+        extractor.extract_keywords()
+
 
