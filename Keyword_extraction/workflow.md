@@ -5,6 +5,8 @@ This document outlines the step-by-step process for using the tools provided in 
 ---
 
 ## Step 1: Convert HTML Files to Text
+###  Download the Chapter
+First, download the required chapter from the [IPCC cleaned content repository](https://github.com/semanticClimate/ipcc/tree/main/cleaned_content).
 
 ### Script: `html_to_text.py`
 
