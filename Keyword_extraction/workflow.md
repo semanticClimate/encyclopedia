@@ -74,6 +74,13 @@ This script takes the keyword CSV files generated in Step 2 and classifies the k
 
 ### Input:
 - A folder containing the keyword CSV files generated in Step 2.
+### Command
+```
+python Keyword_extraction.py -i <input_folder> -o <output_folder>
+```
+```
+-i,--input_dir:Path of input folder which contains keyword.csv file
+-o,--output_dir:Path of output folder 
 
 ### Output:
 - `merged_keywords.csv`: Contains all keywords from all chapters.
