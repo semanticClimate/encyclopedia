@@ -1,101 +1,76 @@
-# classification.py
 import os
 import pandas as pd
 from collections import defaultdict
 from argparse import ArgumentParser
+from sklearn.feature_extraction.text import TfidfTransformer
 
-
-def classify_keywords(input_dir, output_dir):
+def classify_keywords(input_dir, output_dir, threshold=0.6):
     """
-    Classify keywords into general or specific and generate:
-    - general_keywords.csv : global general words with all chapters
-    - chapterX_specific_keywords.csv : specific words for each chapter
-    - merged_keywords.csv : all words with chapter + category
+    Classify keywords into 'General' or 'Specific' using TF-IDF.
+    Output CSV will contain: keyword, chapter, category
     """
 
     os.makedirs(output_dir, exist_ok=True)
 
-    # Step 1: Build dictionary mapping keyword → chapters
-    keyword_to_chapters = defaultdict(set)
+    # Step 1: Load all CSV files
+    chapter_files = [f for f in os.listdir(input_dir) if f.endswith(".csv")]
+    keyword_chapter_freq = defaultdict(dict)
 
-    for file in os.listdir(input_dir):
-        if file.endswith("_keywords.csv"):
-            chapter_name = file.replace("_keywords.csv", "")
-            df = pd.read_csv(os.path.join(input_dir, file))
+    for file in chapter_files:
+        chapter = os.path.splitext(file)[0]  # chapter name = filename without extension
+        df = pd.read_csv(os.path.join(input_dir, file))
 
-            for kw in df['keyword'].dropna().unique():
-                keyword_to_chapters[kw].add(chapter_name)
+        # Expecting columns: keyword, frequency
+        for _, row in df.iterrows():
+            keyword = row["keyword"]
+            freq = row["count"]
+            keyword_chapter_freq[keyword][chapter] = freq
 
-    # Step 2: Classify and collect records
-    merged_records = []
+    # Step 2: Build keyword-chapter frequency matrix
+    chapters = sorted(chapter_files)
+    keywords = list(keyword_chapter_freq.keys())
 
-    for file in os.listdir(input_dir):
-        if file.endswith("_keywords.csv"):
-            chapter_name = file.replace("_keywords.csv", "")
-            df = pd.read_csv(os.path.join(input_dir, file))
+    data = []
+    for keyword in keywords:
+        row = []
+        for file in chapters:
+            chapter = os.path.splitext(file)[0]
+            row.append(keyword_chapter_freq[keyword].get(chapter, 0))
+        data.append(row)
 
-            chapter_specific_records = []  # collect specific words for this chapter
+    df_matrix = pd.DataFrame(data, index=keywords, columns=[os.path.splitext(f)[0] for f in chapters])
 
-            for kw in df['keyword'].dropna().unique():
-                if len(keyword_to_chapters[kw]) > 1:
-                    category = "general"
-                else:
-                    category = "specific"
+    # Step 3: Compute TF-IDF
+    transformer = TfidfTransformer()
+    tfidf_matrix = transformer.fit_transform(df_matrix)
 
-                # Add to merged file
-                merged_records.append({
-                    "chapter": chapter_name,
-                    "keyword": kw,
-                    "category": category
-                })
+    # Step 4: Assign categories
+    results = []
+    for i, keyword in enumerate(df_matrix.index):
+        for j, chapter in enumerate(df_matrix.columns):
+            score = tfidf_matrix[i, j]
+            category = "Specific" if score >= threshold else "General"
+            results.append([keyword, chapter, category])
 
-                # Add to chapter-specific file if specific
-                if category == "specific":
-                    chapter_specific_records.append({
-                        "chapter": chapter_name,
-                        "keyword": kw
-                    })
+    # Step 5: Save final CSV
+    output_df = pd.DataFrame(results, columns=["keyword", "chapter", "category"])
+    output_file = os.path.join(output_dir, "classified_keywords.csv")
+    output_df.to_csv(output_file, index=False)
 
-            # Save specific file for this chapter only
-            if chapter_specific_records:
-                specific_df = pd.DataFrame(chapter_specific_records).drop_duplicates()
-                specific_out = os.path.join(output_dir, f"{chapter_name}_specific_keywords.csv")
-                specific_df.to_csv(specific_out, index=False)
-                print(f"🔎 Specific keywords saved for {chapter_name}: {specific_out}")
-
-    # Step 3: Save general keywords file (unique across all)
-    general_keywords = {
-        kw: sorted(list(chapters))
-        for kw, chapters in keyword_to_chapters.items()
-        if len(chapters) > 1
-    }
-
-    general_df = pd.DataFrame([
-        {"keyword": kw, "chapters": ", ".join(chapters)}
-        for kw, chapters in general_keywords.items()
-    ])
-
-    general_out = os.path.join(output_dir, "general_keywords.csv")
-    general_df.to_csv(general_out, index=False)
-    print(f"🌍 General keywords saved: {general_out}")
-
-    # Step 4: Save merged file (all words with chapter + category)
-    merged_df = pd.DataFrame(merged_records)
-    merged_out = os.path.join(output_dir, "merged_keywords.csv")
-    merged_df.to_csv(merged_out, index=False)
-    print(f"📑 Merged keywords saved: {merged_out}")
+    print(f"Classification saved to {output_file}")
 
 
-# -----------------------------
-# CLI
-# -----------------------------
 if __name__ == "__main__":
-    parser = ArgumentParser(description="Classify extracted keywords into general/specific")
+    parser = ArgumentParser(description="Classify extracted keywords into general/specific using TF-IDF")
     parser.add_argument("-i", "--input_dir", required=True, help="Path to folder with *_keywords.csv files")
     parser.add_argument("-o", "--output_dir", required=True, help="Path to save classified files")
+    parser.add_argument("-t", "--threshold", type=float, default=0.6, help="TF-IDF threshold for specific classification")
     args = parser.parse_args()
 
-    classify_keywords(args.input_dir, args.output_dir)
+    classify_keywords(args.input_dir, args.output_dir, args.threshold)
+
+
+
 
 
 
