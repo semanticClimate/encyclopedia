@@ -35,7 +35,7 @@ class KeyphraseExtractionPipeline(TokenClassificationPipeline):
             aggregation_strategy=AggregationStrategy.SIMPLE,
             **kwargs
         )
-        return [result.get("word").strip() for result in results if result.get("word")]
+        return [result.get("word", "").strip() for result in results if result.get("word")]
 
 
 # -----------------------------
@@ -60,7 +60,22 @@ class KeywordExtraction:
         if os.path.isdir(saving_path):
             self.saving_path = saving_path
         else:
-            raise ValueError('Please provide a valid saving path')
+            raise ValueError("Please provide a valid saving path")
+
+    # -----------------------------
+    # Cleaning Function
+    # -----------------------------
+    @staticmethod
+    def clean_text(text: str) -> str:
+        """
+        Cleans text to remove chat-like tokens and special markers.
+        """
+        text = re.sub(r"</?s>", " ", text)  # remove <s>, </s>
+        text = re.sub(r"<\|.*?\|>", " ", text)  # remove <|...|>
+        text = re.sub(r"(?i)\b(user|assistant|system|human|bot):", " ", text)  # remove chat roles
+        text = re.sub(r"(?i)\b(q|a):", " ", text)  # remove Q:, A:
+        text = re.sub(r"\s+", " ", text)  # normalize whitespace
+        return text.strip()
 
     # -----------------------------
     # Read and split text file
@@ -69,22 +84,26 @@ class KeywordExtraction:
         with open(self.textfile, encoding="utf-8") as f:
             full_text = f.read().strip()
 
+        # Pre-clean full text
+        full_text = self.clean_text(full_text)
+
         if method == "sentence":
-            self.text = re.split(r'(?<=[.!?])\s+', full_text)
+            self.text = re.split(r"(?<=[.!?])\s+", full_text)
         elif method == "chunk":
             words = full_text.split()
             chunk_size = 300
-            self.text = [" ".join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
+            self.text = [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
         else:
             self.text = [full_text]
 
         print(f"Total text chunks to process: {len(self.text)}")
-        print(f"First chunk preview: {self.text[0][:200]}...\n")
+        if self.text:
+            print(f"First chunk preview: {self.text[0][:200]}...\n")
 
     # -----------------------------
     # Extract Keywords in batches
     # -----------------------------
-    def extract_keywords(self, batch_size=16):
+    def extract_keywords(self, batch_size=8):
         self.read_from_text_file(method="sentence")
 
         model_name = "ml6team/keyphrase-extraction-kbir-inspec"
@@ -92,13 +111,24 @@ class KeywordExtraction:
 
         for i in tqdm(range(0, len(self.text), batch_size), desc="Extracting keywords"):
             batch_lines = self.text[i:i + batch_size]
-            batch_keyphrases_list = extractor(batch_lines)
-            for keyphrases in batch_keyphrases_list:
-                self.keyphrases.extend(keyphrases)
+
+            # Clean each chunk again before feeding
+            batch_lines = [self.clean_text(line) for line in batch_lines if line.strip()]
+
+            if not batch_lines:
+                continue
+
+            try:
+                batch_keyphrases_list = extractor(batch_lines)
+                for keyphrases in batch_keyphrases_list:
+                    self.keyphrases.extend(keyphrases)
+            except Exception as e:
+                print(f"\n⚠️ Skipping batch {i // batch_size} due to error: {e}\n")
+                continue
 
         # Count keywords
         self.keyphrase_counts = Counter(self.keyphrases)
-        self.keyphrases = list(set(self.keyphrases))
+        self.keyphrases = list(self.keyphrase_counts.keys())
 
         # Top N
         top_keywords = [kw for kw, _ in self.keyphrase_counts.most_common(self.top_n)]
@@ -109,7 +139,6 @@ class KeywordExtraction:
         df = pd.DataFrame(self.keyphrase_counts.most_common(self.top_n), columns=["keyword", "count"])
         df.to_csv(output_file, index=False)
         print(f"\nCSV saved successfully: {output_file}")
-
 
         print(f"Total unique keywords: {len(self.keyphrases)}")
         print(f"Top 10 keywords: {self.keyphrase_counts.most_common(10)}")
@@ -146,5 +175,7 @@ if __name__ == "__main__":
             top_n=args.top_n
         )
         extractor.extract_keywords()
+
+
 
 
