@@ -69,7 +69,7 @@ class KeywordExtraction:
         return text.strip()
 
     # -----------------------------
-    # Read and split text file
+    # Read and split text file 
     # -----------------------------
     def read_from_text_file(self, method="sentence"):
         with open(self.textfile, encoding="utf-8") as f:
