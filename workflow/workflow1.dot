@@ -8,8 +8,7 @@ digraph KeywordExtractionWorkflow {
     C [label="Load Text Files"];
     D [label="Extract Keywords using TF-IDF"];
     E [label="Classify Keywords\n(General / Specific)"];
-    F [label="Visualize Workflow in Graphviz"];
     
     // Edges
-    A -> B -> C -> D -> E -> F;
+    A -> B -> C -> D -> E;
 }
