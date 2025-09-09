@@ -1,0 +1,193 @@
+keyword,tfidf,count
+photosynthesis,1.0,24
+Earth system feedbacks,1.0,24
+CH4 emissions,1.0,21
+N2O emissions,1.0,19
+airborne fraction,1.0,18
+ocean sink,1.0,16
+CH4,1.0,16
+anthropogenic CO2,1.0,16
+carbon budget estimates,1.0,16
+atmospheric inversions,1.0,16
+ocean carbon uptake,1.0,15
+afforestation,1.0,14
+Bio,1.0,14
+land carbon storage,1.0,13
+carbon sequestration,1.0,13
+carbon storage,1.0,13
+ZEC,1.0,13
+biochar,1.0,13
+Ocean Acidification,1.0,12
+DGVMs,1.0,12
+Biochar,1.0,12
+biogeochemical cycles,1.0,11
+surface ocean,1.0,11
+CDR methods,1.0,11
+denitrification,1.0,11
+land carbon sink,1.0,10
+ocean carbon sinks,1.0,10
+wetlands,1.0,10
+ensemble mean,1.0,10
+respiration,1.0,10
+SSTs,1.0,10
+Deep Sea Research,1.0,10
+soil carbon,1.0,9
+carbon sinks,1.0,9
+CO2 fertilization effect,1.0,9
+ocean carbon sink,1.0,9
+permafrost carbon,1.0,9
+Geophysical Research,1.0,9
+buffering capacity,1.0,8
+CO2 sinks,1.0,8
+zero emissions commitment,1.0,8
+negative emissions,1.0,8
+Methane emissions,1.0,8
+carbon stocks,1.0,8
+BECCS,1.0,8
+permafrost region,1.0,8
+eutrophication,1.0,8
+Biogeochemistry,1.0,8
+nitrous oxide emissions,1.0,8
+Topical Studies,1.0,8
+Biogeochemical Cycles,1.0,7
+wetland emissions,1.0,7
+manure,1.0,7
+LULUCF flux,1.0,7
+carbon fluxes,1.0,7
+temporal variability,1.0,7
+nitrogen cycle,1.0,7
+coastal ocean,1.0,7
+OMZs,1.0,7
+biogeochemistry,1.0,7
+primary production,1.0,7
+Earth System Models,1.0,7
+land carbon uptake,1.0,7
+productivity,1.0,7
+permafrost carbon feedbacks,1.0,7
+blended global mean SAT,1.0,7
+intermediate complexity,1.0,7
+ventilation,1.0,6
+carbon sink,1.0,6
+soil respiration,1.0,6
+carbonate chemistry,1.0,6
+ocean biogeochemistry,1.0,6
+fluxes,1.0,6
+terrestrial carbon cycle,1.0,6
+upwelling,1.0,6
+forestry,1.0,6
+fossil CO2 emissions,1.0,6
+cement production,1.0,6
+soils,1.0,6
+GOBMs,1.0,6
+inversions,1.0,6
+carbon capture,1.0,6
+landfills,1.0,6
+coal mining,1.0,6
+4,1.0,6
+inland waters,1.0,6
+nitrification,1.0,6
+nutrient availability,1.0,6
+Baltic Sea,1.0,6
+elevated CO2,1.0,6
+peatlands,1.0,6
+pathway independence,1.0,6
+reforestation,1.0,6
+terrestrial carbon sink,1.0,6
+global change,1.0,6
+atmospheric methane,1.0,6
+land sinks,1.0,5
+oceanic N2O emissions,1.0,5
+ocean CO2 sink,1.0,5
+land sink,1.0,5
+carbon release,1.0,5
+CO2 release,1.0,5
+non-CO2 emissions,1.0,5
+CO,1.0,5
+carbon cycle processes,1.0,5
+food production,1.0,5
+climate stabilization,1.0,5
+meridional overturning circulation,1.0,5
+negative feedbacks,1.0,5
+negative feedback,1.0,5
+net primary production,1.0,5
+ocean ventilation,1.0,5
+anthrop,1.0,5
+growth rates,1.0,5
+ice age,1.0,5
+iron fertilization,1.0,5
+anthropogenic carbon,1.0,5
+CO2 sink,1.0,5
+CO2 fluxes,1.0,5
+ocean carbon storage,1.0,5
+ocean carbonate chemistry,1.0,5
+tropical oceans,1.0,5
+land CO2 sink,1.0,5
+interannual variations,1.0,5
+soil carbon stocks,1.0,5
+enteric fermentation,1.0,5
+permafrost soils,1.0,5
+N2O production,1.0,5
+ocean deoxygenation,1.0,5
+pH decline,1.0,5
+alkalinity,1.0,5
+deoxygenation,1.0,5
+CMIP5 ESMs,1.0,5
+northern permafrost region,1.0,5
+organic carbon,1.0,5
+permafrost carbon feedback,1.0,5
+global ocean carbon sink,1.0,5
+carbon cycle feedbacks,1.0,5
+non,1.0,5
+predictive skill,1.0,5
+predictability,1.0,5
+UVic ESCM,1.0,5
+crop yields,1.0,5
+TCRE,0.9935929451473501,70
+permafrost thaw,0.9849178845091018,28
+Global Biogeochemical Cycles,0.9817996924030495,51
+acidification,0.9732004541925603,23
+carbon budget,0.9731883147267344,45
+ocean acidification,0.96682454504932,67
+cumulative emissions,0.959725075201487,17
+ocean interior,0.9541596836589404,21
+carbon budgets,0.9539920010770715,44
+anthropogenic CO2 emissions,0.935303558943551,21
+global carbon cycle,0.9348323626773231,14
+cumulative CO2 emissions,0.9246503289641854,36
+CMIP6 ESMs,0.9026878955293101,14
+biodiversity,0.8921111415154799,21
+Global Change Biology,0.8757758507826214,46
+industrial era,0.8751288964484358,9
+CO2 emissions,0.8649511385907673,88
+tropical forests,0.8560337759946248,9
+CO2,0.8469651846193739,13
+carbon cycle,0.8270594799511631,28
+fossil fuels,0.821093607181172,8
+observational constraints,0.821093607181172,8
+ocean,0.8171253889943734,15
+land management,0.8166089779044914,10
+carbon uptake,0.8108810387597691,10
+Earth system,0.7797055926081573,8
+Atlantic Ocean,0.7584985925668016,6
+CDR,0.7574529772272428,39
+warming,0.7464270808870358,5
+nitrogen deposition,0.723781836403925,7
+human activities,0.7130950189631674,26
+wind stress,0.7128705986997043,5
+nitrous oxide,0.7090849089427111,17
+transient climate response,0.6942997337684849,19
+Earth system models,0.6918946635412639,27
+terrestrial ecosystems,0.6850400976882857,8
+tipping points,0.6850022653942847,5
+poverty,0.6825527519944457,5
+solar radiation modification,0.6825527519944455,6
+global greenhouse gas emission pathways,0.6825527519944455,6
+2,0.6759464988686348,9
+Oceanography,0.6754931877085019,10
+marine organisms,0.6733864840783399,7
+anthropogenic activities,0.668582652749987,5
+biomass burning,0.6685826527499868,7
+Earth System Science Data,0.6315127061024018,21
+SRM,0.6288044555411382,30
+anthropogenic emissions,0.6238485013487841,17
+LDT,0.6104532206821375,11

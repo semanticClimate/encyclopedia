@@ -1,0 +1,25 @@
+digraph SemanticClimate {
+    rankdir=TB;
+    node [shape=box, style=filled, fontsize=12];
+
+    Q  [label="Search Query", shape=oval, fillcolor="#f9f9a9"];
+    P  [label="PyGetPapers\n(Download Papers)", fillcolor="#add8e6"];
+    C  [label="Corpus", fillcolor="#d0f0c0"];
+    M  [label="Manual Differentiation\n(True Positive / False Positive)", shape=diamond, fillcolor="#ffcccb"];
+    TP [label="True Positive (TP)", shape=ellipse, fillcolor="#b3e6b3"];
+    FP [label="False Positive (FP)", shape=ellipse, fillcolor="#ffb3b3"];
+    K  [label="Keyword Extraction\n(AMIlib + NLP)", fillcolor="#c2c2f0"];
+    DTP [label="Dictionary (TP)", shape=folder, fillcolor="#a9f5a9"];
+    DFP [label="Dictionary (FP)", shape=folder, fillcolor="#f5a9a9"];
+
+    Q -> P;
+    P -> C;
+    C -> M;
+    M -> TP [label="Relevant"];
+    M -> FP [label="Irrelevant"];
+    TP -> K;
+    FP -> K;
+    K -> DTP;
+    K -> DFP;
+    DTP -> P[style=dashed, label="Refine Query"];
+}

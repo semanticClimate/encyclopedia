@@ -1,0 +1,116 @@
+keyword,tfidf,count
+air quality,1.0,70
+SLCF emissions,1.0,40
+Eastern Asia,1.0,38
+surface ozone,1.0,36
+Southern Asia,1.0,28
+HFCs,1.0,27
+air pollution control,1.0,26
+NOx,1.0,21
+SLCF,1.0,20
+waste management,1.0,18
+sulphate aerosols,1.0,18
+air pollutants,1.0,17
+methane lifetime,1.0,17
+Kigali Amendment,1.0,16
+BVOC emissions,1.0,16
+CCMs,1.0,16
+SO2 emissions,1.0,15
+NOx emissions,1.0,15
+atmospheric chemistry,1.0,14
+NMVOCs,1.0,13
+AerChemMIP,1.0,13
+carbonaceous aerosols,1.0,12
+industry,1.0,11
+Latin America,1.0,11
+methane mitigation,1.0,11
+Air Quality,1.0,11
+nitrate aerosols,1.0,11
+aviation,1.0,11
+GSAT response,1.0,10
+ammonia,1.0,10
+ACCMIP,1.0,10
+LLGHGs,1.0,10
+particulate matter,1.0,9
+carbon monoxide,1.0,9
+atmospheric composition,1.0,9
+BVOCs,1.0,9
+chemical composition,1.0,9
+Air quality,1.0,9
+SDGs,1.0,9
+open biomass burning,1.0,8
+Climate Model Intercomparison Project,1.0,8
+DMS,1.0,8
+tropospheric OH,1.0,8
+hydrofluorocarbons,1.0,7
+organic aerosols,1.0,7
+Community Emissions Data System,1.0,7
+NH3,1.0,7
+isoprene,1.0,7
+tropospheric ozone burden,1.0,7
+Time evolution,1.0,7
+Satellite Observations,1.0,7
+thermal inertia,1.0,6
+lightning NOx,1.0,6
+SSP3,1.0,6
+LCFs,1.0,6
+lightning NOx emissions,1.0,6
+nitric acid,1.0,6
+AeroCom,1.0,6
+AOD,1.0,6
+sulphate,1.0,6
+Atmospheric Chemistry,1.0,6
+ozone precursors,1.0,5
+World Health Organization,1.0,5
+WHO,1.0,5
+climate effects,1.0,5
+SLCF mitigation,1.0,5
+fossil fuel use,1.0,5
+economic growth,1.0,5
+biomass burning emissions,1.0,5
+chemical mechanisms,1.0,5
+ozone precursor emissions,1.0,5
+ammonium nitrate,1.0,5
+ammonia emissions,1.0,5
+optical properties,1.0,5
+impulse response function,1.0,5
+cooling effect,1.0,5
+meteorology,1.0,5
+S,1.0,5
+shipping,1.0,5
+United Nations Environment Programme,1.0,5
+HFC emissions,1.0,5
+Kenya,1.0,5
+SLCFs,0.9948157076668186,152
+tropospheric ozone,0.9725442721029792,33
+UNEP,0.9527724532948441,24
+air pollution,0.9417602094966981,16
+ozone,0.9371360691123931,64
+chemistry,0.9332039883913664,15
+black carbon,0.9292110837629495,18
+climate change mitigation,0.9209256765775374,32
+methane,0.9135660437651028,83
+human health,0.9066402667735768,21
+Montreal Protocol,0.8673822917217211,10
+stratospheric ozone,0.8506793272591266,9
+methane emissions,0.8484678816265142,20
+climate,0.8420015114363835,22
+Middle East,0.8215166635438701,14
+BC,0.8068662971478071,11
+Sustainable Development Goals,0.7820706522915953,6
+biogeochemical feedbacks,0.7707484079657457,10
+aerosols,0.7617317119958847,72
+spatial distribution,0.7609617622846778,7
+South East Asia,0.7555989755017412,11
+agriculture,0.7509886928326293,25
+climate feedback,0.7452067337440964,7
+biomass burning,0.7436378395709773,7
+anthropogenic activities,0.7436378395709773,5
+climate policy,0.7227525680444189,6
+nitrogen deposition,0.6900288785926004,6
+Anthropocene,0.6680118534971128,9
+emissions,0.6620991169952213,7
+anthropogenic emissions,0.6530652477754927,16
+SSPs,0.6337274776153986,18
+Atmospheric Measurement Techniques,0.6147526744348267,7
+Representative Concentration Pathways,0.6075661078952369,5

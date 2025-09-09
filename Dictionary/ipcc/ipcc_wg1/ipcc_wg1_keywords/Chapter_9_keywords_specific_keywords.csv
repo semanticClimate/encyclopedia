@@ -1,0 +1,200 @@
+keyword,tfidf,count
+ISMIP6,1.0,38
+MICI,1.0,29
+SMB,1.0,21
+MISI,1.0,21
+Greenland ice sheet,1.0,19
+ESL,1.0,16
+WAIS,1.0,15
+SROCC assessment,1.0,14
+sea ice cover,1.0,14
+Glaciology,1.0,14
+marine ice cliff instability,1.0,13
+sea level change,1.0,13
+sea level projections,1.0,13
+GMSL rise,1.0,12
+peak warming,1.0,12
+Amundsen Sea Embayment,1.0,12
+GMSL projections,1.0,12
+tide gauges,1.0,11
+Weddell Sea,1.0,11
+Nordic Seas,1.0,11
+deep convection,1.0,11
+peripheral glaciers,1.0,11
+ISMIP6 emulator,1.0,11
+sea level contribution,1.0,11
+Physical Oceanography,1.0,11
+surface melt,1.0,10
+Glaciers,1.0,10
+sea level budget,1.0,10
+GlacierMIP,1.0,10
+Labrador Sea,1.0,10
+calving,1.0,10
+Thwaites Glacier,1.0,10
+ice shelves,1.0,9
+Indonesian Throughflow,1.0,9
+CMIP6 ensemble,1.0,9
+overturning,1.0,9
+subpolar gyre,1.0,9
+GMTSL,1.0,9
+Antarctic ice sheet,1.0,9
+ocean forcing,1.0,9
+historical dynamic response,1.0,9
+Pine Island Glacier,1.0,9
+Antarctic ice shelves,1.0,9
+High Mountain Asia,1.0,9
+RSL change,1.0,9
+extreme sea levels,1.0,8
+Antarctic,1.0,8
+medium agreement,1.0,8
+sea level contributions,1.0,8
+tides,1.0,8
+Antarctic Peninsula,1.0,8
+outlet glaciers,1.0,8
+climate forcing,1.0,8
+grounding line retreat,1.0,8
+West Antarctica,1.0,8
+Sea Level Change,1.0,7
+heat content,1.0,7
+marine ice sheet instability,1.0,7
+West Antarctic Ice Sheet,1.0,7
+thermal expansion,1.0,7
+global average,1.0,7
+atmospheric forcing,1.0,7
+stratification,1.0,7
+sea ice coverage,1.0,7
+Antarctic sea ice thickness,1.0,7
+melt rates,1.0,7
+ocean surface,1.0,6
+subtropical gyres,1.0,6
+global mean sea level rise,1.0,6
+vertical land motion,1.0,6
+observational record,1.0,6
+Wilkes Subglacial Basin,1.0,6
+Southern Ocean warming,1.0,6
+global OHC,1.0,6
+surface fluxes,1.0,6
+mean ocean temperature,1.0,6
+SAMW,1.0,6
+NADW,1.0,6
+AABW,1.0,6
+CDW,1.0,6
+Agulhas leakage,1.0,6
+EBUS,1.0,6
+Svalbard,1.0,6
+IMBIE Team,1.0,6
+median,1.0,6
+ice discharge,1.0,6
+bedrock topography,1.0,6
+Greenland SMB,1.0,6
+dynamic response,1.0,6
+basal melt rates,1.0,6
+glacier,1.0,6
+EAIS,1.0,6
+2300,1.0,6
+SEJ,1.0,6
+Southern Andes,1.0,6
+parametric fit,1.0,6
+Eurasia,1.0,6
+tide gauge reconstructions,1.0,6
+Last,1.0,6
+land ice,1.0,5
+extreme still water levels,1.0,5
+spring snow cover extent,1.0,5
+permafrost volume,1.0,5
+Circumpolar Deep Water,1.0,5
+ocean stratification,1.0,5
+ocean density,1.0,5
+ocean temperature,1.0,5
+westerly winds,1.0,5
+Coupled Model Intercomparison Project Phase 6,1.0,5
+Antarctic Bottom Water,1.0,5
+redistributed heat,1.0,5
+ocean heat transport,1.0,5
+OHT,1.0,5
+ocean models,1.0,5
+thermosteric sea level rise,1.0,5
+Pacific Ocean,1.0,5
+sea level commitment,1.0,5
+ocean dynamic sea level change,1.0,5
+sea ice area,1.0,5
+satellite period,1.0,5
+Amundsen Sea,1.0,5
+ice thickness,1.0,5
+West Greenland,1.0,5
+sea level equivalent,1.0,5
+ISMIP,1.0,5
+tidewater glaciers,1.0,5
+submarine melting,1.0,5
+ice mélange,1.0,5
+structured expert judgement,1.0,5
+GIA,1.0,5
+VLM,1.0,5
+ESWL,1.0,5
+Ocean Dynamics,1.0,5
+Continental Shelf Research,1.0,5
+Glac,1.0,5
+SROCC,0.9785899596864612,151
+Gulf Stream,0.969307985689502,22
+OHC,0.9655803141765702,29
+Iceland,0.9610109131351662,16
+Greenland Ice Sheet,0.9583704262406477,70
+surface mass balance,0.950332069741116,16
+East Antarctica,0.9442266813695616,16
+mass loss,0.942353742593585,22
+Antarctic Ice Sheet,0.9372100421215823,35
+Ocean Modelling,0.9356244653654643,25
+Greenland,0.9293584389409271,80
+salinity,0.9274876795757674,13
+ice sheet,0.913148918671896,15
+greenhouse gas emissions,0.9117630443854059,12
+Ross Sea,0.9067628336594606,12
+GMSL,0.905099349076848,97
+Antarctica,0.9049597077759244,83
+glacier mass,0.8902879337116997,9
+European Alps,0.880973652240947,12
+Antarctic ice sheets,0.8797004318944865,12
+glacier mass loss,0.8785239378963451,10
+global mean sea level,0.8507476162602454,14
+glaciers,0.8456741848266374,24
+AIS,0.8380626422380014,24
+ACC,0.8319538805194651,11
+OHC change,0.8290507549268997,9
+Antarctic sea ice,0.8190108904131864,12
+sea ice loss,0.8130256603293707,9
+sensitivity,0.810514262819777,7
+ice sheets,0.7943045937533404,34
+snow,0.7897311636751274,7
+projections,0.789482403281898,7
+ocean circulation,0.7863221286774236,17
+subpolar North Atlantic,0.7819601099618406,7
+Periglacial Processes,0.7819601099618406,7
+Arctic Ocean,0.7772538269512785,21
+Atlantic Meridional Overturning Circulation,0.7738159984153042,24
+Southern Ocean,0.7631112647638446,74
+coupled climate models,0.7531942501696277,6
+snowfall,0.7409862976726956,9
+high model agreement,0.7409862976726955,7
+low model agreement,0.7409862976726955,7
+GRACE,0.7409862976726955,6
+glacier retreat,0.7356626667485273,6
+ocean warming,0.7317817519324433,19
+storm surges,0.7313847054819018,7
+sea level rise,0.7160919728998709,47
+last,0.7102665801906892,10
+wind stress,0.7012955935335152,5
+AMOC,0.6998141387021091,57
+GMSL change,0.6969172738216134,17
+equatorial Pacific,0.6903397049206315,5
+CMIP models,0.6903397049206315,5
+sea level,0.6821319842489653,15
+Russian Arctic,0.6710417993416249,5
+Little Ice Age,0.6673441049383378,6
+overlay,0.661624072964468,8
+deep ocean,0.641716499002681,6
+Permafrost,0.6341610234628537,15
+CMIP5 ensemble,0.6290021678834186,6
+sea ice,0.627555282565863,18
+North Atlantic,0.6177453856226854,28
+Arctic Sea Ice,0.6079185764068874,5
+decadal variability,0.6034065575661571,12

@@ -1,0 +1,171 @@
+keyword,tfidf,count
+radiative feedbacks,1.0,49
+total aerosol ERF,1.0,31
+climate feedbacks,1.0,29
+ERFaci,1.0,29
+cloud feedbacks,1.0,28
+Climate Sensitivity,1.0,25
+SARF,1.0,25
+feedback,1.0,24
+net feedback parameter,1.0,22
+IRFaci,1.0,21
+global energy inventory,1.0,20
+emergent constraints,1.0,20
+emissions metrics,1.0,19
+emulators,1.0,19
+tropospheric adjustments,1.0,18
+surface albedo,1.0,18
+IRFari,1.0,18
+cloud feedback,1.0,17
+forcing agents,1.0,17
+Radiative Forcing,1.0,15
+surface solar radiation,1.0,15
+LWP,1.0,15
+TOA,1.0,14
+effective ECS,1.0,14
+Climate Feedbacks,1.0,13
+radiative response,1.0,13
+E,1.0,13
+aerosol effects,1.0,13
+pattern effect,1.0,13
+ERFari,1.0,13
+ESM simulations,1.0,13
+GWP,1.0,12
+global energy budget,1.0,11
+radiative efficiencies,1.0,11
+Planck response,1.0,11
+lapse rate,1.0,11
+stratospheric water vapour,1.0,10
+CGTP,1.0,10
+energy budget,1.0,10
+cloud fraction,1.0,10
+GTP,1.0,9
+radiative fluxes,1.0,9
+tropospheric adjustment,1.0,9
+ice clouds,1.0,9
+MAGICC7,1.0,9
+net climate feedback,1.0,9
+boron isotopes,1.0,9
+surface temperature response,1.0,8
+global surface temperature change,1.0,8
+transient warming,1.0,8
+Forcing,1.0,8
+CERES,1.0,8
+aerosol cooling,1.0,8
+Equilibrium Climate Sensitivity,1.0,8
+thermal radiation,1.0,7
+TOA energy budget,1.0,7
+climate state,1.0,7
+confidence range,1.0,7
+radiative flux,1.0,7
+IRF,1.0,7
+WMGHGs,1.0,7
+energy budget constraints,1.0,7
+cloud albedo,1.0,7
+cirrus clouds,1.0,7
+cloud regimes,1.0,7
+paleoclimate proxies,1.0,7
+radiative feedback,1.0,7
+paleoclimate record,1.0,7
+Polar amplification,1.0,7
+Early Eocene,1.0,7
+pattern effects,1.0,7
+time horizon,1.0,7
+contrails,1.0,6
+paleoclimates,1.0,6
+cumulative CO2 equivalent emissions,1.0,6
+CO2 equivalent emissions,1.0,6
+aerosol radiative forcing,1.0,6
+Emissions metrics,1.0,6
+aerosol optical depth,1.0,6
+ER,1.0,6
+LWP adjustment,1.0,6
+cloud properties,1.0,6
+historical warming,1.0,6
+TOA radiation,1.0,6
+net cloud feedback,1.0,6
+Arctic cloud feedback,1.0,6
+non-CO2 biogeochemical feedbacks,1.0,6
+shortwave cloud feedbacks,1.0,6
+equilibrium warming,1.0,6
+atmospheric heat transport,1.0,6
+CO2 doubling,1.0,6
+Earth energy imbalance,1.0,5
+anthropogenic ERF,1.0,5
+paleoclimate data,1.0,5
+climate metrics,1.0,5
+global surface temperature response,1.0,5
+instantaneous radiative forcing,1.0,5
+uncertainty ranges,1.0,5
+satellite retrievals,1.0,5
+integrated radiative response,1.0,5
+integrated radiative forcing,1.0,5
+tropopause,1.0,5
+tropospheric temperature,1.0,5
+radiative kernels,1.0,5
+biogeophysical feedbacks,1.0,5
+dust,1.0,5
+Surface Temperature,1.0,5
+cloud changes,1.0,5
+INPs,1.0,5
+AI,1.0,5
+central estimates,1.0,5
+cloud cover,1.0,5
+radiative properties,1.0,5
+radiative efficiency,1.0,5
+feedback parameters,1.0,5
+constant relative humidity,1.0,5
+ice crystals,1.0,5
+biogeophysical feedback parameter,1.0,5
+individual feedbacks,1.0,5
+Feedbacks,1.0,5
+coupled ESMs,1.0,5
+latitudinal structure,1.0,5
+Eocene,1.0,5
+instrumental temperature record,1.0,5
+Warm states,1.0,5
+Transient Climate Response,1.0,5
+high climate sensitivity,1.0,5
+Radiative forcing,1.0,5
+ECS,0.996510593722885,110
+TCR,0.9943649191890691,111
+surface warming,0.989596920801878,37
+polar amplification,0.9868628872723014,46
+feedback parameter,0.9787445529843674,32
+central estimate,0.9621899364445385,26
+CO2 forcing,0.9495086780664712,28
+ocean heat uptake,0.9440781648248756,27
+clouds,0.9386190674718202,31
+aerosol ERF,0.9129394471910216,15
+halogenated compounds,0.9065402833047501,12
+climate sensitivity,0.906366766561084,64
+equilibrium climate sensitivity,0.9037820338121184,28
+effective radiative forcing,0.9018951115821218,14
+ERFs,0.9018951115821218,14
+solar radiation,0.89848780734501,11
+spatial pattern,0.8948171206669961,11
+ERF,0.8639421800295642,95
+forcing,0.8586982819069429,19
+ESMs,0.8363184115093351,50
+uncertainty range,0.8304794269226217,15
+feedbacks,0.826631499072213,34
+carbon cycle response,0.8179553175609756,10
+carbon dioxide,0.800893026585707,14
+instrumental record,0.7947567946477442,13
+water vapour,0.7830020066669786,21
+process understanding,0.7717550700570207,15
+temperature response,0.766619047335012,14
+surface temperature,0.7551448927105574,21
+global surface temperature,0.7477198102888355,30
+radiative effects,0.7450922795728114,8
+convective clouds,0.7448620303039523,6
+radiative forcing,0.7423942580721837,92
+1750,0.7266337450153715,7
+satellite observations,0.7019370091368347,22
+solar irradiance,0.6832819158695247,5
+GSAT change,0.680827776517046,23
+aerosol,0.6725502361023787,8
+climate feedback,0.6668335054437918,7
+aerosol forcing,0.6366935738118111,12
+standard deviation,0.602757919647133,8
+LGM,0.6013427367735371,24

@@ -1,0 +1,106 @@
+keyword,tfidf,count
+chapter,1.0,40
+global land precipitation,1.0,11
+decadal predictions,1.0,11
+conflicting signals,1.0,11
+ENSO SST variability,1.0,11
+overshoot,1.0,9
+ozone recovery,1.0,9
+SAI,1.0,9
+MCB,1.0,9
+volcanic eruption,1.0,8
+GSAT projections,1.0,8
+emissions reductions,1.0,8
+initialization,1.0,8
+pattern scaling,1.0,8
+SAM index,1.0,8
+CDR options,1.0,8
+Geoengineering Model Intercomparison Project,1.0,8
+GeoMIP,1.0,8
+regional differences,1.0,7
+ZEC50,1.0,7
+global climate change,1.0,6
+forced changes,1.0,6
+mitigation benefits,1.0,6
+CMIP6 model,1.0,6
+projected spatial patterns,1.0,6
+net negative CO2 emissions,1.0,6
+climate engineering,1.0,6
+marine cloud brightening,1.0,6
+CCT,1.0,6
+global land monsoon precipitation,1.0,5
+ScenarioMIP,1.0,5
+structural uncertainty,1.0,5
+decadal climate predictions,1.0,5
+North Atlantic subpolar gyre,1.0,5
+stabilization scenarios,1.0,5
+global surface warming,1.0,5
+annual mean GSAT,1.0,5
+September,1.0,5
+Arctic sea ice extent,1.0,5
+Earth system model,1.0,5
+ocean carbon flux,1.0,5
+rainfall variability,1.0,5
+Volcanic Eruptions,1.0,5
+natural climate variability,1.0,5
+thermosteric sea level,1.0,5
+SRM options,1.0,5
+stratospheric dynamics,1.0,5
+global mean cooling,1.0,5
+Climate response,1.0,5
+stratospheric aerosol geoengineering,1.0,5
+solar geoengineering,1.0,5
+model uncertainty,0.9699353996092023,18
+NAM,0.9331773803608191,15
+Diagonal lines,0.9190825893682136,15
+precipitation change,0.9124865737832103,13
+GSAT warming,0.9121448529769203,15
+Arctic sea ice area,0.9087026223810392,14
+model simulations,0.90684299743781,10
+global mean precipitation,0.883624264134558,11
+GSAT,0.8568025509624776,151
+robustness,0.8547305112773267,7
+boreal winter,0.8107023769028575,12
+tropical Atlantic,0.8004190427828205,9
+Arctic Sea Ice,0.7939993730850317,6
+climate response,0.7922797085325599,31
+CO2 concentration,0.7876815949468925,13
+mean,0.7799539848166389,6
+Internal variability,0.7713173323343224,8
+climate impacts,0.7703340660983805,6
+scenario uncertainty,0.7703340660983805,6
+global precipitation,0.7684846321298359,12
+annual mean precipitation,0.7684846321298359,6
+SRM,0.7630573474136603,34
+geoengineering,0.7623374016439696,9
+annual,0.7618601909942954,5
+SSP,0.7542980304163077,20
+SAM,0.7495921372906228,9
+global mean warming,0.7420895427772601,7
+GSAT change,0.7324435396143892,23
+solar radiation modification,0.7308363296558327,6
+global greenhouse gas emission pathways,0.7308363296558327,6
+poverty,0.7308363296558326,5
+volcanic eruptions,0.7218123883931165,26
+Northern Annular Mode,0.7203490828783353,5
+global monsoon precipitation,0.7203490828783353,5
+Atlantic meridional overturning circulation,0.7203490828783353,5
+boreal summer,0.717286367283068,6
+SSPs,0.7117489858992339,21
+greenhouse warming,0.7091467878413406,7
+monsoon regions,0.7074025450688236,5
+table,0.7032189931657725,40
+Arctic amplification,0.7006408521384634,14
+IPCC Special Report,0.6930999322393622,7
+hydrological cycle,0.6862044961656301,13
+spatial patterns,0.6760629654496847,14
+austral summer,0.6664262284543864,9
+volcanic forcing,0.6649040669994047,6
+Climate Response,0.6639442702911564,8
+high latitudes,0.6581226936316602,13
+CDR,0.6446688258321184,31
+Global Warming,0.6443860839223953,18
+poleward shift,0.6422911622477914,14
+subtropics,0.6421703061881538,12
+Earth system,0.6261462998817146,6
+projections,0.6137731950062975,5

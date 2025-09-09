@@ -1,0 +1,224 @@
+keyword,tfidf,count
+severe convective storms,1.0,48
+meteorological droughts,1.0,35
+AED,1.0,27
+Rx1day,1.0,21
+meteorological drought,1.0,18
+MCSs,1.0,18
+Observed trends,1.0,18
+AR6 regions,1.0,17
+precipitation deficits,1.0,17
+TC frequency,1.0,16
+TXx,1.0,15
+probability,1.0,15
+Rx5day,1.0,15
+extreme rainfall,1.0,15
+soil moisture deficits,1.0,15
+TC translation speed,1.0,13
+SREX,1.0,13
+observed trends,1.0,13
+ETCs,1.0,13
+concurrent extremes,1.0,12
+northern Africa,1.0,12
+event attribution,1.0,11
+magnitude,1.0,11
+warm days,1.0,11
+CORDEX simulations,1.0,11
+pluvial floods,1.0,10
+flash floods,1.0,10
+human contribution,1.0,10
+cold days,1.0,10
+surface soil moisture,1.0,10
+poleward migration,1.0,10
+western North Pacific,1.0,10
+medicanes,1.0,10
+Climate Extremes,1.0,9
+hot temperature extremes,1.0,9
+heatwave days,1.0,9
+tropical cyclone activity,1.0,9
+extreme temperature,1.0,9
+regional studies,1.0,9
+event attribution studies,1.0,8
+dynamical intensity,1.0,8
+dynamic processes,1.0,8
+lightning,1.0,8
+extreme,1.0,8
+Central North America,1.0,8
+flood frequency,1.0,8
+extreme storms,1.0,8
+cold nights,1.0,8
+global studies,1.0,8
+anthropogenic influences,1.0,8
+Ethiopia,1.0,8
+extreme El Niño,1.0,8
+TC activity,1.0,8
+Spain,1.0,8
+rology,1.0,8
+aerosol concentrations,1.0,7
+intense TCs,1.0,7
+land area,1.0,7
+warm extremes,1.0,7
+wind speed,1.0,7
+circulation patterns,1.0,7
+Extreme precipitation,1.0,7
+concurrent heatwaves,1.0,7
+HadEX3,1.0,7
+Event Attribution,1.0,7
+warm nights,1.0,7
+drought severity,1.0,7
+low flows,1.0,7
+TCs,1.0,7
+MET,1.0,7
+human water management,1.0,6
+dynamic changes,1.0,6
+Western Europe,1.0,6
+Severe convective storms,1.0,6
+LLHI events,1.0,6
+drought events,1.0,6
+Arabian Peninsula,1.0,6
+rainfall extremes,1.0,6
+tree mortality,1.0,6
+drought indices,1.0,6
+soil moisture limitation,1.0,6
+environmental conditions,1.0,6
+Soil moisture,1.0,6
+Singapore,1.0,6
+CDD,1.0,6
+SPI,1.0,6
+CO2 effects,1.0,6
+CAPE,1.0,6
+Saudi Arabia,1.0,6
+Western North Pacific,1.0,6
+Heavy Rain Event,1.0,6
+Extreme Rainfall,1.0,6
+Eastern China,1.0,6
+Southeast Asia,1.0,6
+Heat Waves,1.0,6
+Irrigation,1.0,5
+soil moisture limitations,1.0,5
+poleward shifts,1.0,5
+compound flooding,1.0,5
+Tornadoes,1.0,5
+Droughts,1.0,5
+extreme rainfall events,1.0,5
+air temperature,1.0,5
+high temperatures,1.0,5
+coastal regions,1.0,5
+extreme temperature events,1.0,5
+box plot,1.0,5
+ts,1.0,5
+Global,1.0,5
+TC rain rates,1.0,5
+spatial scales,1.0,5
+California,1.0,5
+temperature variability,1.0,5
+TNn,1.0,5
+TX90p,1.0,5
+maximum temperatures,1.0,5
+Supplementary Material,1.0,5
+extreme precipitation indices,1.0,5
+Romania,1.0,5
+Precipitation Deficits,1.0,5
+Soil Moisture Deficits,1.0,5
+vegetation stress,1.0,5
+PDSI,1.0,5
+stomatal conductance,1.0,5
+hail storms,1.0,5
+Bay of Bengal,1.0,5
+CMIP5 GCMs,1.0,5
+Meteorology,1.0,5
+Anthropogenic Influence,1.0,5
+Tropical Cyclone Activity,1.0,5
+ecological droughts,0.9910814805777511,37
+temperature extremes,0.9891662330747489,93
+compound events,0.9880143095247284,34
+hot extremes,0.9834354657608397,53
+cold extremes,0.9817945998610091,36
+tornadoes,0.978017549387999,28
+hydrological droughts,0.9758453583125242,40
+heavy precipitation,0.9745367268985057,43
+extreme precipitation,0.9724065570757545,108
+hydrological models,0.9713120159818678,20
+extremes,0.9538575637057696,27
+precipitation extremes,0.9534446089663902,58
+Extreme Precipitation,0.9506299626124327,18
+hail,0.949158935895989,18
+extreme temperatures,0.9490624783962852,16
+GWL,0.9426373793007503,15
+climate extremes,0.9267361225191574,43
+Precipitation Extremes,0.9258830206440443,12
+Japan,0.9107915824040678,29
+extreme precipitation events,0.9104895811983724,17
+heatwaves,0.9102355769264122,38
+extreme winds,0.8953247374910229,12
+Tropical Cyclones,0.888814597612183,18
+droughts,0.8876269035126513,35
+Hurricane Harvey,0.8784055786638225,9
+Meteorological Society,0.8517771017520113,19
+heat waves,0.84081424664919,17
+storm surge,0.8379714853202586,18
+Central Europe,0.8253701471914964,16
+Earth System,0.8160508326880084,9
+America,0.8151142477560485,7
+drought frequency,0.8151142477560485,7
+heavy precipitation events,0.8122366050967091,15
+hydrological drought,0.8014467649653281,16
+global warming levels,0.7986925679233254,27
+Human influence,0.7980746889242094,9
+wildfires,0.7979143555986843,13
+Climatic,0.796601303943285,7
+East Asia,0.7918825230072094,36
+Drought,0.7908018753736208,11
+southern Europe,0.7897138552706309,18
+tropical cyclones,0.7880903283330224,49
+Earth System Sciences,0.7834083589563829,26
+Hydrology,0.7799712677866275,55
+extreme events,0.776954546567663,25
+American Meteorological Society,0.7768757361630466,125
+atmospheric evaporative demand,0.7747440977539553,12
+Indonesia,0.7659215431908086,7
+cyclones,0.7608727675045663,7
+river floods,0.7542169636951612,16
+floods,0.7505435769877791,20
+UK,0.7399662277400565,10
+global warming,0.7397869351474797,199
+USA,0.7315093473067037,41
+extreme weather events,0.7305810859683108,10
+Anthropogenic Climate Change,0.7165095387048198,6
+western,0.71445219381149,8
+land cover,0.7144521938114899,5
+diagonal lines,0.7144521938114899,5
+flood hazard,0.7144521938114899,5
+drought,0.7104352075204371,57
+anthropogenic climate change,0.7097801789978339,20
+flood events,0.7088847298864174,6
+Netherlands,0.7088847298864173,5
+Coupled Model Intercomparison Project,0.6962746317611767,21
+North Pacific,0.6922346082957184,18
+Climate Change Research,0.6853998273157135,5
+Switzerland,0.6853998273157135,5
+Turkey,0.6853998273157135,5
+Brazil,0.6784775331796612,18
+Urbanization,0.6781612164095266,8
+river basins,0.6727143368551404,7
+GWLs,0.6662309899711679,8
+precipitation intensity,0.6586044165118534,6
+Eastern Australia,0.6526790777989645,6
+China,0.649966180123534,107
+annual,0.6477414988852696,5
+Africa,0.6433080215924684,61
+observational data,0.64169894072358,8
+Europe,0.6377449736864284,136
+Water Resources Research,0.6374866734673758,20
+El Niño,0.6364750863515053,9
+Temperature,0.6361177214922575,6
+Common Era,0.6344915815299127,11
+Medium confidence,0.631111202150026,17
+Australia,0.6261259936767077,62
+central Europe,0.625418806017403,7
+groundwater,0.6219188095507874,7
+climatology,0.6211336379117258,10
+Clim,0.6205788818283337,9
+Northern Europe,0.6197442547155397,11
+land regions,0.6079646472500361,10
+Central Africa,0.601933101957779,9
