@@ -1,0 +1,160 @@
+keyword,tfidf,count
+bias adjustment,1.0,56
+statistical downscaling,1.0,29
+RCM,1.0,28
+dynamical downscaling,1.0,27
+Cape Town,1.0,23
+CRU TS,1.0,19
+user context,1.0,18
+predictors,1.0,18
+distillation,1.0,16
+Bias adjustment,1.0,15
+urban heat island,1.0,15
+regional climate projections,1.0,15
+distillation process,1.0,14
+SMILEs,1.0,14
+Urban Climate,1.0,14
+regional models,1.0,13
+GPCC,1.0,13
+Sahel rainfall,1.0,13
+Cape Town region,1.0,13
+added value,1.0,12
+global model,1.0,12
+RCM simulations,1.0,12
+Mediterranean Sea,1.0,12
+Regional Climate Information,1.0,11
+downscaling,1.0,11
+weather generators,1.0,10
+calibration,1.0,10
+quantile mapping,1.0,10
+boundary conditions,1.0,9
+driving model,1.0,9
+climate change signal,1.0,9
+HKH,1.0,9
+regional climate change information,1.0,8
+urban areas,1.0,8
+climate change projections,1.0,8
+regional reanalyses,1.0,8
+spatial dependence,1.0,8
+statistical downscaling methods,1.0,8
+Dynamic Meteorology,1.0,8
+Argentina,1.0,7
+Statistical downscaling,1.0,7
+anthropogenic signal,1.0,7
+Indian monsoon rainfall,1.0,7
+atmospheric internal variability,1.0,7
+in situ observations,1.0,7
+homogenization,1.0,7
+Regional Climate Projections,1.0,7
+analogue methods,1.0,7
+global model simulations,1.0,7
+Berkeley Earth,1.0,7
+AGCM,1.0,7
+robust change,1.0,7
+precipitation climatology,1.0,7
+rainfall trends,1.0,7
+urban heat island effect,1.0,7
+bias correction,1.0,7
+Arctic Sea Ice Loss,1.0,7
+complex orography,1.0,6
+Dynamical downscaling,1.0,6
+statistical approaches,1.0,6
+regional climate changes,1.0,6
+regional scale,1.0,6
+monsoon circulation,1.0,6
+Homogenization,1.0,6
+Global model,1.0,6
+drivers,1.0,6
+monsoon,1.0,6
+Mediterranean climate,1.0,6
+regional climate modeling,1.0,6
+Israel,1.0,6
+trust,1.0,5
+expert judgement,1.0,5
+Observations,1.0,5
+Regional reanalyses,1.0,5
+global reanalyses,1.0,5
+Global models,1.0,5
+climate change signals,1.0,5
+urban parametrizations,1.0,5
+minimum temperatures,1.0,5
+Cape Town drought,1.0,5
+solar cycle,1.0,5
+bias adjustment methods,1.0,5
+volcanic aerosol,1.0,5
+Technical Summary,1.0,5
+data assimilation,1.0,5
+inhomogeneities,1.0,5
+data scarcity,1.0,5
+model evaluation,1.0,5
+Regional Climate Models,1.0,5
+Iberian Peninsula,1.0,5
+cold fronts,1.0,5
+ENSO teleconnections,1.0,5
+regional climate simulations,1.0,5
+tropical volcanic eruptions,1.0,5
+Statistical Downscaling,1.0,5
+temperature trends,1.0,5
+ensembles,1.0,5
+dynamical adjustment,1.0,5
+anthropogenic aerosol,1.0,5
+G,1.0,5
+Robustness,1.0,5
+Hindu Kush Himalaya,1.0,5
+Asian summer monsoon,1.0,5
+urban warming,1.0,5
+European climate,1.0,5
+regional climate information,0.9756236120220347,44
+regional climate,0.9751786898649798,32
+regional climate change,0.9611751434369867,30
+urbanization,0.9609803493918023,28
+climate information,0.946457316731977,46
+Arctic warming,0.9314207429279157,17
+RCMs,0.9211930002495433,35
+regional climate models,0.8919486973054825,29
+global models,0.878155191983104,38
+South Africa,0.8637714996216984,30
+regional climate model,0.8632944028416509,13
+Indian monsoon,0.8352092387328742,7
+diurnal cycle,0.8352092387328742,7
+GCM,0.8340693372202453,18
+Indian summer monsoon,0.8284662792461878,15
+aerosol emissions,0.819311337365987,11
+regional,0.8097281031224022,10
+Internal Variability,0.8075655144755641,16
+climate model projections,0.8064881267492496,9
+South Asian monsoon,0.7930280603251626,6
+observational data,0.766956628157183,9
+model biases,0.7605003460910409,9
+irrigation,0.7414411765217934,19
+East Asian summer monsoon,0.7352671170266518,7
+regional projections,0.7352671170266518,5
+Hindu Kush Himalaya Assessment,0.7298867533702857,5
+Climate Change Research,0.7281669291553896,5
+Switzerland,0.7281669291553896,5
+Turkey,0.7281669291553896,5
+climate simulations,0.7277410461385231,9
+rainfall,0.7234929670589271,40
+forced response,0.722265302621289,13
+observational uncertainty,0.7152228667822157,12
+Mediterranean region,0.7071026863831574,19
+CORDEX,0.7060070276968793,16
+precipitation changes,0.6958592247496302,11
+HighResMIP,0.6952940395228888,11
+surface air temperature,0.6841663306161188,7
+summer precipitation,0.680952345211821,6
+Uncertainties,0.6745460276181663,7
+Atlas,0.6727813702655039,9
+convection,0.6706095774448118,10
+topography,0.6706095774448118,5
+global mean warming,0.6703007612263595,7
+Mediterranean,0.657482567936525,34
+reanalysis,0.6522123888757462,10
+Indian summer monsoon rainfall,0.6448707442972033,7
+external forcing,0.6411801635941012,13
+teleconnections,0.6375721972880766,20
+Regional Environmental Change,0.6338962425813702,11
+Attribution,0.6275320419760488,7
+monsoons,0.6125084747733689,5
+temperature,0.6118784426425593,38
+Climatic,0.6045050558563247,5

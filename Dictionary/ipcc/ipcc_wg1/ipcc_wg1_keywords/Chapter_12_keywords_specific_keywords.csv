@@ -1,0 +1,236 @@
+keyword,tfidf,count
+small islands,1.0,33
+shoreline retreat,1.0,29
+landslides,1.0,27
+CIDs,1.0,20
+sandy coasts,1.0,19
+Climate services,1.0,18
+coastal flooding,1.0,17
+frost days,1.0,16
+dust storms,1.0,14
+land subsidence,1.0,14
+National Climate Assessment,1.0,14
+Global Change Research Program,1.0,14
+coastal erosion,1.0,13
+MHW,1.0,13
+Hawaii,1.0,13
+Relative sea level rise,1.0,12
+river flooding,1.0,11
+ice storms,1.0,11
+Coastal erosion,1.0,11
+median return periods,1.0,11
+Vietnam,1.0,11
+Low confidence,1.0,11
+desertification,1.0,10
+confidence levels,1.0,10
+CID change signal,1.0,10
+CAR,1.0,10
+land uplift,1.0,9
+mean precipitation,1.0,9
+active layer thickness,1.0,9
+natural,1.0,9
+Alps,1.0,9
+35°C,1.0,8
+land degradation,1.0,8
+fisheries,1.0,8
+fire weather indices,1.0,8
+snow water equivalent,1.0,8
+shoreline position change,1.0,8
+high,1.0,8
+WindMean wind speed,1.0,8
+RSLR projections,1.0,8
+wind power potential,1.0,8
+Colombia,1.0,8
+Risk Assessment,1.0,7
+Arctic regions,1.0,7
+Madagascar,1.0,7
+CID,1.0,7
+user engagement,1.0,7
+CID indices,1.0,7
+coastal ecosystems,1.0,7
+health,1.0,7
+sustainable land management,1.0,7
+greenhouse gas fluxes,1.0,7
+sectoral assets,1.0,7
+Floods,1.0,7
+snow avalanches,1.0,7
+relative sea level,1.0,7
+AR6 WGI Reference Regions,1.0,7
+cold spells,1.0,7
+wind speeds,1.0,7
+IceSnow,1.0,7
+RSLR rates,1.0,7
+satellite altimetry,1.0,7
+Median shoreline change projections,1.0,7
+Bangladesh,1.0,7
+wildfire,1.0,7
+projected climate change,1.0,7
+Caribbean,1.0,7
+Pyrenees,1.0,7
+western United States,1.0,7
+Geomorphology,1.0,7
+Climate Change Information,1.0,6
+spatial extent,1.0,6
+Small Islands,1.0,6
+biodiversity hotspots,1.0,6
+Tropical cyclones,1.0,6
+tropical areas,1.0,6
+tourism,1.0,6
+society,1.0,6
+Landslides,1.0,6
+episodic coastal erosion,1.0,6
+marine ecosystems,1.0,6
+Pacific coast,1.0,6
+river discharge,1.0,6
+Bar plots,1.0,6
+Q100,1.0,6
+Q100 changes,1.0,6
+model ensemble values,1.0,6
+pluvial flood,1.0,6
+regional mean RSL change,1.0,6
+Regional mean RSLR projections,1.0,6
+Marine heatwave,1.0,6
+river ice,1.0,6
+South Island,1.0,6
+Western Australia,1.0,6
+French Alps,1.0,6
+Western North America,1.0,6
+western USA,1.0,6
+Pacific small islands,1.0,6
+Puerto Rico,1.0,6
+Disaster Risk Reduction,1.0,6
+Public Health,1.0,6
+Sectoral,1.0,6
+Sustainability,1.0,6
+Commonwealth Scientific and Industrial Research Organisation,1.0,6
+Renewable Energy,1.0,6
+relative sea level rise,1.0,5
+storms,1.0,5
+climate scenarios,1.0,5
+sandy shorelines,1.0,5
+climate change information,1.0,5
+resilience,1.0,5
+risk assessments,1.0,5
+earthquakes,1.0,5
+seasonal timing,1.0,5
+Mean air temperature,1.0,5
+risk,1.0,5
+mortality,1.0,5
+crops,1.0,5
+livestock,1.0,5
+mass movements,1.0,5
+increased,1.0,5
+seasonal snow cover,1.0,5
+glacial lakes,1.0,5
+permafrost temperature,1.0,5
+coastal inundation,1.0,5
+coral reefs,1.0,5
+maximum temperature,1.0,5
+North,1.0,5
+unit catchment area,1.0,5
+Hydrological drought,1.0,5
+wind energy potential,1.0,5
+occurrence frequency,1.0,5
+Russian Far East,1.0,5
+ColdMean air temperature,1.0,5
+Asian regions,1.0,5
+Nepal,1.0,5
+heavy snowfall events,1.0,5
+ETWL,1.0,5
+shoreline retreat rates,1.0,5
+Heat stress,1.0,5
+North Island,1.0,5
+SLR,1.0,5
+Peru,1.0,5
+Andes Cordillera,1.0,5
+Mediterranean areas,1.0,5
+flood risk,1.0,5
+NEU,1.0,5
+Black Sea,1.0,5
+Eastern North America,1.0,5
+western tropical Pacific,1.0,5
+global oceans,1.0,5
+Swiss Alps,1.0,5
+Sea Level Rise,1.0,5
+Asian Development Bank,1.0,5
+Forest Meteorology,1.0,5
+Intergovernmental Panel,1.0,5
+climate services,0.9811551728359792,99
+New Zealand,0.9667235284299381,53
+heat stress,0.9661691522043409,20
+High confidence,0.9482035713853612,21
+Climate Services,0.9471881935304647,41
+Iran,0.9184241060038735,14
+Climate change,0.9154862818334044,41
+Marine heatwaves,0.9110540032516129,12
+Western Africa,0.9095786312038739,11
+Philippines,0.9095786312038739,11
+fire weather,0.9071535632383779,13
+Mexico,0.9039896693121997,17
+MHWs,0.9032195780204465,16
+Australasia,0.8992962839499258,31
+indices,0.8935232951699063,14
+Southern Africa,0.8882682777020978,27
+ecological drought,0.8813657590676967,15
+Amazon basin,0.8773920219694932,9
+Canada,0.8650834596317449,74
+food security,0.8623636608282417,10
+Mastrandrea,0.8623636608282417,10
+Central Asia,0.8577374099873927,23
+Northern Australia,0.8424335720386769,11
+Working Group II,0.8420927156926937,11
+Climate Risk Management,0.8420204875284112,10
+North Africa,0.838807948871417,16
+heat extremes,0.8383190657729888,17
+Natural Hazards,0.8381851750954263,32
+Southern Australia,0.8307577203329717,18
+CSIRO,0.8294745626397042,9
+United States,0.8223980088254206,46
+marine heatwaves,0.8199237940967444,14
+Pacific,0.814844218270741,8
+infrastructure,0.8061991195957624,8
+Central Africa,0.7985465175977451,12
+Northern Europe,0.7848038345644598,14
+Total Environment,0.7846814282537821,20
+Medium confidence,0.7756923684816995,21
+The,0.7696963102015489,9
+Climate Change,0.7675176599347125,68
+Amazonia,0.7643243438232652,7
+ecosystems,0.7614467015027533,18
+risk management,0.7604526730081915,11
+mean temperature,0.7595480390486261,11
+Eastern Australia,0.7576344906374664,7
+GWLs,0.7457454445063929,9
+Russian Arctic,0.7414195192577241,6
+Chile,0.740412139583913,14
+Climatic Change,0.7384878515548342,34
+Asia,0.7340141094380674,58
+low confidence,0.7243721251947349,35
+polar regions,0.7130324863022538,15
+flood events,0.705324350730826,6
+Netherlands,0.7053243507308259,5
+aridity,0.7042024622163264,23
+Regional Environmental Change,0.7016089830792291,13
+Alaska,0.6922118226866828,12
+Hindu Kush Himalaya Assessment,0.6835680853101496,5
+flooding,0.6823318678944471,19
+glacier retreat,0.6773480942266281,6
+West Africa,0.6738134162660623,23
+river floods,0.6566252901575235,14
+Central America,0.6519237080256822,20
+cyclones,0.6489010954451704,6
+risk assessment,0.6483778314413633,12
+tropical regions,0.6483778314413633,5
+Biodiversity,0.6483778314413633,5
+snowpack,0.6461621634113847,5
+Australia,0.6430774409573893,64
+North America,0.6422938456567961,93
+GMSL change,0.6416739744903358,17
+Pakistan,0.6404672644205244,11
+water resources,0.6379309909259946,10
+floods,0.6347578710520114,17
+Russia,0.6309453814972751,8
+terrestrial ecosystems,0.6204968711256057,8
+Clim,0.6174620194921738,9
+climate change,0.6037493883048546,206
+medium confidence,0.6006540222941251,242

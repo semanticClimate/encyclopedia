@@ -1,0 +1,139 @@
+keyword,tfidf,count
+biases,1.0,15
+mean state,1.0,14
+natural forcing,1.0,13
+model performance,1.0,13
+greenhouse gas increases,1.0,12
+HighResMIP models,1.0,11
+CM,1.0,10
+natural forcings,1.0,10
+models,1.0,9
+greenhouse gas,1.0,9
+observational uncertainties,1.0,9
+spatial structure,1.0,8
+attribution studies,1.0,8
+individual models,1.0,8
+SST biases,1.0,8
+Atlantic Multidecadal Oscillation,1.0,8
+external forcings,1.0,7
+robust signal,1.0,7
+HadCRUT5,1.0,7
+simulated trends,1.0,7
+whiskers,1.0,7
+warm bias,1.0,7
+NAO,1.0,7
+IOB mode,1.0,7
+Interdecadal Pacific Oscillation,1.0,7
+tropospheric warming,1.0,6
+CMIP6 historical simulations,1.0,6
+anthropogenic contribution,1.0,6
+upper ocean,1.0,6
+regression coefficients,1.0,6
+observational products,1.0,6
+historical simulations,1.0,6
+GMST trends,1.0,6
+CMIP3 models,1.0,6
+interquartile ranges,1.0,6
+anthropogenic aerosol forcing,1.0,6
+model resolution,1.0,6
+partial pressure,1.0,6
+teleconnection,1.0,6
+Human Influence,1.0,5
+Pacific Walker circulation,1.0,5
+ocean heat content increase,1.0,5
+storm track,1.0,5
+detection,1.0,5
+temperature proxies,1.0,5
+temperature reconstructions,1.0,5
+GSAT changes,1.0,5
+proxy reconstructions,1.0,5
+aerosol influence,1.0,5
+model errors,1.0,5
+AMIP simulations,1.0,5
+blocking frequency,1.0,5
+SSWs,1.0,5
+large ensemble simulations,1.0,5
+leaf area index,1.0,5
+summertime SAM,1.0,5
+ENSO index,1.0,5
+Atlantic Niño,1.0,5
+global warming hiatus,1.0,5
+Atlantic multidecadal variability,1.0,5
+Global Monsoon,1.0,5
+Earth System Model,1.0,5
+Zwiers,1.0,5
+Antarctic Sea Ice,1.0,5
+PDV,0.9328912484116544,29
+ozone depletion,0.9277603694753258,12
+ensemble members,0.9176805307615119,13
+human influence,0.905973468823268,77
+SST anomalies,0.9001036960273456,11
+CMIP3,0.8996494451897167,30
+Atlantic Multidecadal Variability,0.8944921531592467,14
+attribution,0.8937982471200737,43
+anthropogenic influence,0.8927919029914401,21
+confidence interval,0.8812607585224308,9
+seasonal cycle,0.8782149319908027,18
+CMIP6 simulations,0.8696615486730618,14
+observational datasets,0.8606696603429331,9
+CO2 fertilization,0.8586714084687732,13
+observational estimates,0.8562246678834342,8
+global monsoon,0.8552891497248677,12
+CMIP5,0.8491099739785389,274
+orbital forcing,0.8409041900862884,9
+Pacific Decadal Variability,0.8342662752022889,11
+Arctic sea ice loss,0.8311382097191761,12
+ensemble size,0.8307479560055827,7
+coupled models,0.8263260469050296,7
+greenhouse gas forcing,0.8131283408247516,23
+variability threshold,0.8118370196160801,9
+Climate Variability,0.8112993295248261,6
+CMIP6,0.8107842419496565,279
+anthropogenic forcings,0.8106296721609068,17
+CMIP5 models,0.7936701241425499,131
+CMIP5 climate models,0.792845914776074,9
+PMIP4,0.7805842519441336,10
+greenhouse gases,0.7802368249898233,48
+stratospheric ozone depletion,0.7668765802701999,10
+CMIP5 simulations,0.7655672961975504,20
+Anthropogenic Aerosols,0.7564125728688664,5
+anthropogenic forcing,0.7501948389949799,49
+volcanic forcing,0.7469287661401528,7
+AMV,0.7452728345884184,30
+natural variability,0.7433020160815288,17
+CMIP6 models,0.7394330019697605,112
+surface air temperature,0.7293260121860975,7
+observations,0.7257296400923013,56
+Southern Hemisphere,0.7255945887520261,30
+North Atlantic Oscillation,0.724496905943357,17
+equatorial Pacific,0.7234853777444955,5
+CMIP models,0.7234853777444955,5
+table,0.7109733100833794,42
+CMIP5 Models,0.7065929752332543,14
+simulations,0.7045744695749946,10
+horizontal resolution,0.7039830245952355,6
+standard deviation,0.702434350230877,9
+satellite era,0.6996150459949981,7
+observational uncertainty,0.6988964521528415,11
+greenhouse gas concentrations,0.6960296102377662,5
+Indian Ocean,0.6947925765975335,13
+Northern Annular Mode,0.6936117060692829,5
+global monsoon precipitation,0.6936117060692829,5
+Atlantic meridional overturning circulation,0.6936117060692829,5
+ocean heat content,0.689841654815127,14
+satellite data,0.6845571587547953,5
+Southern Annular Mode,0.6786674592006957,16
+Climate Models,0.6629733112932236,13
+coupled climate models,0.6577981616813872,5
+Atlantic Ocean,0.6516746773307838,5
+tropical Pacific,0.6461800112656293,6
+Last Interglacial,0.6447798424319063,9
+austral summer,0.6416903196996722,9
+SST,0.6380076458755536,12
+stratosphere,0.6375823239369801,8
+climatology,0.6331032233855906,9
+external forcing,0.6309253500960754,12
+mean,0.6258368649805204,5
+tree rings,0.6162911771976033,5
+HighResMIP,0.6064267306789913,9
+Human influence,0.6025585373210858,6

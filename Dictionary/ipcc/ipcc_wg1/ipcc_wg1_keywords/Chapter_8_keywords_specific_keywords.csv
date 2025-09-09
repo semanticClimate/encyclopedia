@@ -1,0 +1,218 @@
+keyword,tfidf,count
+water cycle changes,1.0,29
+groundwater recharge,1.0,22
+moisture transport,1.0,21
+Ge,1.0,19
+global water cycle,1.0,18
+water availability,1.0,17
+snowmelt,1.0,17
+SAmerM,1.0,17
+tropical circulation,1.0,16
+tropical rain belt,1.0,15
+precipitation trends,1.0,14
+GHG forcing,1.0,13
+regional monsoons,1.0,13
+land use change,1.0,12
+precipitation response,1.0,12
+EAsiaM,1.0,12
+MJO,1.0,12
+MaddenJulian Oscillation,1.0,12
+southwestern Australia,1.0,11
+groundwater depletion,1.0,11
+stationary waves,1.0,11
+eastern Africa,1.0,11
+Intergovernmental Panel on,1.0,11
+Water Cycle,1.0,10
+monsoon precipitation,1.0,10
+rivers,1.0,10
+hydrological sensitivity,1.0,10
+PE,1.0,10
+poleward expansion,1.0,10
+subtropical regions,1.0,10
+NAmerM,1.0,10
+Atmospheric Rivers,1.0,10
+Amazonian basin,1.0,10
+El NiñoSouthern Oscillation,1.0,9
+water cycle projections,1.0,9
+groundwater storage,1.0,9
+semiarid regions,1.0,9
+groundwater resources,1.0,9
+Water Cycle Changes,1.0,8
+regional water cycle changes,1.0,8
+northern high latitudes,1.0,8
+extratropical storms,1.0,8
+extratropics,1.0,8
+circulation,1.0,8
+western North America,1.0,8
+Maritime Continent,1.0,8
+CMIP6 Models,1.0,8
+Geophysical,1.0,8
+highemissions scenario,1.0,7
+largescale atmospheric circulation,1.0,7
+highemissions scenarios,1.0,7
+land surface feedbacks,1.0,7
+river flows,1.0,7
+water use efficiency,1.0,7
+water cycle variables,1.0,7
+atmospheric moisture transport,1.0,7
+land surface,1.0,7
+tropical precipitation,1.0,7
+Evapotranspiration,1.0,7
+nearsurface relative humidity,1.0,7
+northern Australia,1.0,7
+Wetlands,1.0,7
+North American Monsoon,1.0,7
+CrossChapter Box Atlas,1.0,7
+parametrized convection,1.0,7
+Green Sahara,1.0,7
+Change,1.0,7
+LandAtmosphere Coupling,1.0,7
+Paleoclimate evidence,1.0,6
+spring snowmelt,1.0,6
+precipitation amount,1.0,6
+aridification,1.0,6
+projected precipitation changes,1.0,6
+landuse change,1.0,6
+precipitation patterns,1.0,6
+paleoclimate records,1.0,6
+lakes,1.0,6
+precipitation variability,1.0,6
+vegetation cover,1.0,6
+water management,1.0,6
+precipitation responses,1.0,6
+surface runoff,1.0,6
+Intertropical Convergence Zone,1.0,6
+Hydrological Processes,1.0,6
+heavy rainfall,1.0,6
+precipitation seasonality,1.0,6
+eastern Australia,1.0,6
+midlatitudes,1.0,6
+land surface models,1.0,6
+California drought,1.0,6
+South American monsoon,1.0,6
+WAfriM,1.0,6
+South Atlantic Convergence Zone,1.0,6
+delayed onsets,1.0,6
+regional precipitation,1.0,6
+rainfall seasonality,1.0,6
+Interannual Variability,1.0,6
+Community Earth System Model,1.0,6
+atmospheric circulation patterns,1.0,5
+wateruse efficiency,1.0,5
+drying,1.0,5
+peak flows,1.0,5
+water,1.0,5
+surface evaporation,1.0,5
+dry regions,1.0,5
+model response uncertainty,1.0,5
+atmospheric energy budget,1.0,5
+thermodynamics,1.0,5
+atmospheric moisture,1.0,5
+AMOC collapse,1.0,5
+SST patterns,1.0,5
+mesoscale convective systems,1.0,5
+Aridity,1.0,5
+anthropogenic aerosol emissions,1.0,5
+convective inhibition,1.0,5
+signaltonoise ratio,1.0,5
+Intensity,1.0,5
+subtropical ridge,1.0,5
+dry season,1.0,5
+surface water,1.0,5
+Groundwater depletion,1.0,5
+Hadley Circulation,1.0,5
+SAsiaM,1.0,5
+WAfriM precipitation,1.0,5
+SST warming,1.0,5
+precipitation events,1.0,5
+modeling,1.0,5
+atmospheric blocking,1.0,5
+extratropical cyclone activity,1.0,5
+Atmospheric rivers,1.0,5
+orographic precipitation,1.0,5
+continental precipitation,1.0,5
+land surface processes,1.0,5
+tropical land,1.0,5
+Global maps,1.0,5
+dry days,1.0,5
+Australian monsoon,1.0,5
+terrestrial water cycle,1.0,5
+dust emissions,1.0,5
+Rainfall,1.0,5
+Hydrology Regional Studies,1.0,5
+American Geophysical Union,1.0,5
+Indian Summer Monsoon Rainfall,1.0,5
+water cycle,0.9911598965777695,89
+ITCZ,0.9816167361054511,38
+streamflow,0.9638560451321246,38
+runoff,0.961149350127606,32
+atmospheric rivers,0.9416689806245316,20
+evaporation,0.9161891341086885,19
+evapotranspiration,0.9044783044058423,53
+Sahel,0.8797278111967429,24
+transpiration,0.8721974709081465,10
+water scarcity,0.8708555772174107,9
+southern Africa,0.8674443662906508,31
+Amazon,0.863768325020217,18
+evaporative demand,0.8538604113494379,10
+projected changes,0.8429628330455257,8
+CMIP6 projections,0.8286315004629923,16
+storm tracks,0.8041956497711248,13
+deforestation,0.7972610383381946,11
+monsoons,0.7904640208958289,7
+groundwater,0.7830817290212634,9
+soil moisture,0.7813550473738855,54
+Indian summer monsoon rainfall,0.7642916479653373,9
+snowpack,0.7632001431967365,6
+atmospheric circulation,0.7550883316392913,19
+precipitation intensity,0.7524893504569226,7
+global climate models,0.742921437560846,18
+convection,0.7418104843147548,12
+topography,0.7418104843147548,6
+summer precipitation,0.7323277296064385,7
+East Africa,0.7274735108361687,13
+CMIP5 projections,0.7220734483412102,13
+horizontal resolution,0.7102167986479508,7
+paleoclimate reconstructions,0.7091865965407783,6
+monsoon regions,0.7068108935423612,6
+France,0.7058780367574667,13
+western,0.6996842593327001,8
+land cover,0.6996842593327,5
+diagonal lines,0.6996842593327,5
+flood hazard,0.6996842593327,5
+boreal summer,0.6967784922842117,7
+Walker circulation,0.6963274791026911,18
+precipitation,0.6948410704163522,204
+aridity,0.6931276316737126,23
+water resources,0.6906882362668665,11
+extratropical cyclones,0.6844302451182394,15
+East Asian summer monsoon,0.6777774462309262,7
+regional projections,0.6777774462309262,5
+flooding,0.6716009911704819,19
+snowfall,0.6715201461321257,9
+GRACE,0.6715201461321257,6
+high model agreement,0.6715201461321256,7
+low model agreement,0.6715201461321256,7
+subtropics,0.6683679302765613,15
+convective clouds,0.6672185217838862,6
+Precipitation,0.6654692087990538,17
+warming,0.6654672140071655,5
+Fifth Assessment Report,0.6565791496993953,9
+Water Resources Research,0.6555251205947519,21
+Anthropogenic Aerosols,0.6540948093402835,5
+GCMs,0.6469817536769064,17
+Amazonia,0.6448319916374614,6
+Indonesia,0.6429340476877937,6
+global precipitation,0.6398682443911955,12
+annual mean precipitation,0.6398682443911955,6
+Earth,0.6375435490328036,8
+atmospheric evaporative demand,0.6322749267489656,10
+IOD,0.6303871651972802,7
+seasonality,0.62176565796895,16
+vegetation,0.6158360143382954,13
+snow,0.6134530863239087,6
+tropics,0.6111163578283225,20
+CMIP5 climate models,0.609422148779391,8
+South Asian monsoon,0.6091851077767004,5
+Mediterranean,0.606074779516104,34
+rainfall,0.6002315128765842,36

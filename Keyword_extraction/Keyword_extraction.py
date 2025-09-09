@@ -35,7 +35,7 @@ class KeyphraseExtractionPipeline(TokenClassificationPipeline):
             aggregation_strategy=AggregationStrategy.SIMPLE,
             **kwargs
         )
-        return [result.get("word", "").strip() for result in results if result.get("word")]
+        return [result.get("word").strip() for result in results if result.get("word")]
 
 
 # -----------------------------
@@ -60,21 +60,12 @@ class KeywordExtraction:
         if os.path.isdir(saving_path):
             self.saving_path = saving_path
         else:
-            raise ValueError("Please provide a valid saving path")
+            raise ValueError('Please provide a valid saving path')
 
-    # -----------------------------
-    # Cleaning Function
-    # -----------------------------
-    @staticmethod
-    def clean_text(text: str) -> str:
-        """
-        Cleans text to remove chat-like tokens and special markers.
-        """
-        text = re.sub(r"</?s>", " ", text)  # remove <s>, </s>
-        text = re.sub(r"<\|.*?\|>", " ", text)  # remove <|...|>
-        text = re.sub(r"(?i)\b(user|assistant|system|human|bot):", " ", text)  # remove chat roles
-        text = re.sub(r"(?i)\b(q|a):", " ", text)  # remove Q:, A:
-        text = re.sub(r"\s+", " ", text)  # normalize whitespace
+    def clean_text(self, text):
+        """Basic cleaning: remove unwanted tokens, multiple spaces, etc."""
+        text = re.sub(r'\s+', ' ', text)  # collapse multiple spaces
+        text = re.sub(r'[^\w\s.,!?]', '', text)  # remove weird characters
         return text.strip()
 
     # -----------------------------
@@ -84,26 +75,22 @@ class KeywordExtraction:
         with open(self.textfile, encoding="utf-8") as f:
             full_text = f.read().strip()
 
-        # Pre-clean full text
-        full_text = self.clean_text(full_text)
-
         if method == "sentence":
-            self.text = re.split(r"(?<=[.!?])\s+", full_text)
+            self.text = re.split(r'(?<=[.!?])\s+', full_text)
         elif method == "chunk":
             words = full_text.split()
             chunk_size = 300
-            self.text = [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
+            self.text = [" ".join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
         else:
             self.text = [full_text]
 
         print(f"Total text chunks to process: {len(self.text)}")
-        if self.text:
-            print(f"First chunk preview: {self.text[0][:200]}...\n")
+        print(f"First chunk preview: {self.text[0][:200]}...\n")
 
     # -----------------------------
     # Extract Keywords in batches
     # -----------------------------
-    def extract_keywords(self, batch_size=8):
+    def extract_keywords(self, batch_size=16):
         self.read_from_text_file(method="sentence")
 
         model_name = "ml6team/keyphrase-extraction-kbir-inspec"
@@ -112,7 +99,7 @@ class KeywordExtraction:
         for i in tqdm(range(0, len(self.text), batch_size), desc="Extracting keywords"):
             batch_lines = self.text[i:i + batch_size]
 
-            # Clean each chunk again before feeding
+            # Clean each chunk before feeding
             batch_lines = [self.clean_text(line) for line in batch_lines if line.strip()]
 
             if not batch_lines:
@@ -123,12 +110,12 @@ class KeywordExtraction:
                 for keyphrases in batch_keyphrases_list:
                     self.keyphrases.extend(keyphrases)
             except Exception as e:
-                print(f"\n⚠️ Skipping batch {i // batch_size} due to error: {e}\n")
+                print(f"\nSkipping batch {i // batch_size} due to error: {e}\n")
                 continue
 
         # Count keywords
         self.keyphrase_counts = Counter(self.keyphrases)
-        self.keyphrases = list(self.keyphrase_counts.keys())
+        self.keyphrases = list(set(self.keyphrases))
 
         # Top N
         top_keywords = [kw for kw, _ in self.keyphrase_counts.most_common(self.top_n)]
@@ -146,28 +133,27 @@ class KeywordExtraction:
 
 
 # -----------------------------
-# CLI
+# CLI (Folder Only)
 # -----------------------------
 if __name__ == "__main__":
     parser = ArgumentParser(description="Extract keywords from all TXT files in a folder.")
-    parser.add_argument("-i", "--input_folder", required=True, help="Folder containing TXT files")
+    parser.add_argument("-f", "--input_folder", required=True, help="Folder containing TXT files")
     parser.add_argument("-o", "--output_folder", required=True, help="Folder to save outputs")
     parser.add_argument("-n", "--top_n", type=int, default=3500,
                         help="Number of top keywords to extract")
 
     args = parser.parse_args()
 
-    # Process each txt file in input folder
     os.makedirs(args.output_folder, exist_ok=True)
-    txt_files = [f for f in os.listdir(args.input_folder) if f.endswith(".txt")]
 
+    # Process all files in the input folder
+    txt_files = [f for f in os.listdir(args.input_folder) if f.endswith(".txt")]
     for txt_file in txt_files:
         input_path = os.path.join(args.input_folder, txt_file)
         base_name = os.path.splitext(txt_file)[0]
         output_filename = base_name + "_keywords.csv"
 
         print(f"\nProcessing {txt_file} ...")
-
         extractor = KeywordExtraction(
             textfile=input_path,
             saving_path=args.output_folder,
@@ -175,6 +161,7 @@ if __name__ == "__main__":
             top_n=args.top_n
         )
         extractor.extract_keywords()
+
 
 
 

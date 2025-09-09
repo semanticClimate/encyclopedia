@@ -1,0 +1,94 @@
+keyword,tfidf,count
+proxy records,1.0,16
+instrumental period,1.0,16
+TSI,1.0,11
+GrIS,1.0,11
+Qu,1.0,10
+SWV,1.0,9
+OLS regression,1.0,9
+Medieval Climate Anomaly,1.0,8
+El Niño events,1.0,8
+AZM,1.0,8
+surface temperatures,1.0,8
+ENSO activity,1.0,8
+South Atlantic,1.0,8
+SIA,1.0,8
+Pacific Decadal Oscillation,1.0,8
+phenological metrics,1.0,7
+growing season,1.0,7
+CE,1.0,7
+spatial coverage,1.0,7
+datasets,1.0,7
+ALT,1.0,7
+Nature,1.0,7
+interglacial periods,1.0,6
+tropopause height,1.0,6
+decadal means,1.0,6
+phytoplankton,1.0,6
+monsoon systems,1.0,6
+atmospheric CO2,1.0,6
+marine sediments,1.0,6
+ice core records,1.0,6
+Ozone Depletion,1.0,6
+albedo,1.0,6
+data coverage,1.0,6
+TCWV,1.0,6
+NMAT,1.0,6
+lake sediments,1.0,6
+IOB,1.0,6
+North Atlantic climate,1.0,6
+Global Ozone,1.0,6
+interglacial,1.0,5
+surface open ocean pH,1.0,5
+chlorophyll concentration,1.0,5
+insolation,1.0,5
+glacier ice,1.0,5
+interglacial period,1.0,5
+interpolation,1.0,5
+permafrost temperatures,1.0,5
+marine primary production,1.0,5
+ENSO amplitude,1.0,5
+Walker Circulation,1.0,5
+LIG,0.9737500282430578,23
+global ocean,0.9707948577291958,19
+GMST,0.9589610229926907,83
+Paleoceanography,0.955662452826944,37
+Holocene,0.9504433572089237,83
+chapter data table,0.9292962446726732,39
+lower stratosphere,0.9276855888116913,14
+Hadley circulation,0.9115305838149357,9
+AMM,0.8865933252669661,9
+Pliocene,0.8731948504580954,17
+EECO,0.8700472313884569,8
+NH,0.8581129903251263,19
+MODIS,0.8558374279649733,9
+ice cores,0.8443385444817838,10
+PETM,0.8382096597677424,14
+global hydrological cycle,0.8281886107658724,6
+deglaciation,0.820409758124622,9
+North Atlantic Ocean,0.820409758124622,9
+MPWP,0.8185189882646798,31
+LDT,0.7920523122615107,13
+tree rings,0.7875183711561226,6
+time series,0.7831605292609761,16
+proxies,0.7821382691523339,8
+IOD,0.776280891143494,7
+LGM,0.7462397568947681,27
+United States of America,0.7450059060898133,41
+Little Ice Age,0.7447495187001122,6
+marine organisms,0.7392906350418702,7
+satellite data,0.7289591870588928,5
+upper troposphere,0.7077741930026604,8
+Permafrost,0.7077175230999759,15
+Common Era,0.6956225341884009,10
+1750,0.6870250363741748,6
+decadal variability,0.6733958388220274,12
+reanalyses,0.6702867451284505,7
+Remote Sensing,0.6595262124176375,20
+ENSO variability,0.6272916403031624,6
+subpolar North Atlantic,0.6233284739432864,5
+Periglacial Processes,0.6233284739432864,5
+instrumental record,0.6069280330988537,9
+Atmospheric Measurement Techniques,0.6067990050382267,7
+land areas,0.6047183061872009,7
+Time series,0.6013960529327288,8
