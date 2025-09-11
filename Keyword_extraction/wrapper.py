@@ -2,7 +2,7 @@ import os
 from bs4 import BeautifulSoup
 import pandas as pd
 from Keyword_extraction import KeywordExtraction  # your cleaned KeywordExtraction class
-from classification import classify_keywords   # your TF-IDF classification function
+from classification import classify_keywords_split_files   # your TF-IDF classification function
 
 class KeywordPipelineWrapper:
     """
@@ -68,8 +68,8 @@ class KeywordPipelineWrapper:
     # -----------------------------
     # Step 3: Classify Keywords (TF-IDF)
     # -----------------------------
-    def classify_keywords(self):
-        classify_keywords(
+    def classify_keywords_split_files(self):
+        classify_keywords_split_files(
             input_dir=self.keyword_output_folder,
             output_dir=self.classified_output_folder,
             threshold=self.tfidf_threshold,
