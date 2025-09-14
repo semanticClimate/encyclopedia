@@ -1,4 +1,112 @@
-# Keyword Extraction and Classification Pipeline
+# Workflow for Running the Keyword Extraction Tool
+
+This guide explains how to set up and run the Keyword Extraction Tool. Follow the steps below carefully.
+
+---
+
+## Prerequisites
+
+Before you begin, ensure you have the following:
+1. **Python Installed**: Download and install Python (version 3.8 or higher) from [python.org](https://www.python.org/).
+2. **Text Editor or IDE**: Install a text editor like Visual Studio Code or any other IDE.
+3. **Command Line Access**: Use Command Prompt (Windows) or Terminal (Mac/Linux).
+
+---
+
+## Step 1: Set Up the Environment
+
+1. **Download the Project**:
+   - Download the `Keyword_extraction` folder and save it to your computer.
+
+2. **Open the Command Line**:
+   - Navigate to the folder where the project is saved. For example:
+     ```bash
+     cd path/to/Keyword_extraction
+     ```
+
+3. **Create a Virtual Environment**:
+   - Run the following command to create a virtual environment:
+     ```bash
+     python -m venv venv
+     ```
+   - Activate the virtual environment:
+     - On Windows:
+       ```bash
+       venv\Scripts\activate
+       ```
+     - On Mac/Linux:
+       ```bash
+       source venv/bin/activate
+       ```
+
+4. **Install Required Libraries**:
+   - Install the libraries listed in the `requirements.txt` file:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+---
+
+## Step 2: Run the Pipeline
+
+The pipeline processes HTML files, extracts keywords, and classifies them. Follow these steps:
+
+1. **Prepare Input Files**:
+   - Place all your `.html` files in a folder (e.g., `html_files`).
+
+2. **Run the Pipeline**:
+   - Use the following command to run the pipeline:
+     ```bash
+     python wrapper.py -i html_files/ -t txt_files/ -k keywords/ -g tfidf_output/ -h hybrid_output/
+     ```
+   - Replace the folder names (`html_files`, `txt_files`, etc.) with your desired folder paths.
+
+3. **View Results**:
+   - After the pipeline runs, you will find the following output:
+     - `txt_files/`: Contains plain text files converted from HTML.
+     - `keywords/`: Contains CSV files with extracted keywords.
+     - `tfidf_output/`: Contains classified keywords (general and specific).
+     - `hybrid_output/`: Contains hybrid classification results.
+
+---
+
+## Step 3: Troubleshooting
+
+If you encounter any issues:
+1. **Check Python Installation**:
+   - Ensure Python is installed and added to your system's PATH.
+
+2. **Check Folder Paths**:
+   - Ensure the input folder paths are correct.
+
+3. **Reinstall Dependencies**:
+   - Run the following command to reinstall libraries:
+     ```bash
+     pip install --force-reinstall -r requirements.txt
+     ```
+
+---
+
+## Example Workflow
+
+Here’s an example of how to run the pipeline:
+
+1. Place your `.html` files in a folder called `html_files`.
+2. Run the following command:
+   ```bash
+   python wrapper.py -i html_files/ -t txt_files/ -k keywords/ -g tfidf_output/ -h hybrid_output/
+   ```
+3. Check the output folders for results:
+   - `txt_files/`: Contains converted text files.
+   - `keywords/`: Contains extracted keywords.
+   - `tfidf_output/`: Contains classified keywords.
+   - `hybrid_output/`: Contains hybrid classification results.
+
+---
+
+## Support
+
+If you need help, contact the project team or refer to the documentation in the `README.md` file.# Keyword Extraction and Classification Pipeline
 
 This document provides a comprehensive guide to using the `KeywordPipelineWrapper` class for extracting and classifying keywords from HTML files. The pipeline automates the process of converting HTML files to text, extracting keywords, and classifying them into general and specific categories using TF-IDF.
 
