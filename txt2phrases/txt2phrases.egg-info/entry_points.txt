@@ -1,0 +1,4 @@
+[console_scripts]
+extract_keywords = txt2phrases.keyword:main
+html2txt = txt2phrases.html2txt:main
+specific_keywords = txt2phrases.classify_specific:main

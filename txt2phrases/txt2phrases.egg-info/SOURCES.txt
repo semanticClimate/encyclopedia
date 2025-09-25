@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+txt2phrases/__init__.py
+txt2phrases/classify_specific.py
+txt2phrases/html2txt.py
+txt2phrases/keyword.py
+txt2phrases.egg-info/PKG-INFO
+txt2phrases.egg-info/SOURCES.txt
+txt2phrases.egg-info/dependency_links.txt
+txt2phrases.egg-info/entry_points.txt
+txt2phrases.egg-info/requires.txt
+txt2phrases.egg-info/top_level.txt
