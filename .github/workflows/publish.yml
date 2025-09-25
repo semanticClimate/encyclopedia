@@ -3,6 +3,7 @@ name: Publish txt2phrases to PyPI
 on:
   release:
     types: [published]   # triggers when a release is published
+    workflow_dispatch:
 
 jobs:
   build-and-publish:
@@ -28,3 +29,4 @@ jobs:
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+
