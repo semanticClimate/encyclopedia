@@ -1,9 +1,9 @@
 Metadata-Version: 2.4
 Name: txt2phrases
-Version: 0.1.0
+Version: 0.2.0
 Summary: A Python library for HTML to TXT conversion, keyword extraction, and TF-IDF-based per-chapter classification.
 Home-page: https://github.com/semanticClimate/encyclopedia/tree/main/txt2phrases
-Author: Udita Agawal
+Author: Udita Agarwal
 Author-email: udita20agarwal@example.com
 Maintainer: Renu Kumari
 Maintainer-email: rk_2013@nipgr.ac.in
@@ -18,20 +18,30 @@ Requires-Dist: tqdm
 Requires-Dist: transformers
 Requires-Dist: scikit-learn
 
-```
-## txt2phrases
+# txt2phrases
 
-A Python library for:
+`txt2phrases` is a Python library designed for processing and analyzing text data. It provides tools for:
 
-1. **HTML to TXT conversion**  
-2. **Keyword extraction using Hugging Face Transformers**  
-3. **Per-chapter TF-IDF-based specific keyword classification**
+1. **HTML to TXT conversion**: Extract plain text from HTML files.  
+2. **Keyword extraction**: Use Hugging Face Transformers to identify and rank the most important keywords in text files.  
+3. **Per-chapter TF-IDF-based keyword classification**: Classify keywords as specific (unique to a chapter) or general (common across chapters).
+
+---
+
+## Features
+
+- **HTML Parsing**: Convert HTML documents into plain text for further processing.
+- **AI-Powered Keyword Extraction**: Leverage pre-trained NLP models for accurate keyword identification.
+- **TF-IDF Classification**: Classify keywords into specific and general categories based on their relevance.
+- **Batch Processing**: Process multiple files in a single command.
+- **Configurable Parameters**: Customize thresholds, batch sizes, and output formats.
+- **Output Formats**: Save results as CSV files for easy analysis.
 
 ---
 
 ## Installation
 
-You can install `txt2phrases` directly from PyPI:
+Install `txt2phrases` directly from PyPI:
 
 ```bash
 pip install txt2phrases
@@ -46,9 +56,13 @@ pip install txt2phrases
 Convert all HTML files in a folder to plain text:
 
 ```bash
-html2text -i path/to/html_folder -o path/to/output_folder
+html2txt -i path/to/html_folder -o path/to/output_folder
+```
+```bash
+html2txt -h
 ```
 
+- **-h/--help**:help command
 - **-i / --input** : Path to the folder containing HTML files  
 - **-o / --output** : Path to the folder where TXT files will be saved  
 
@@ -59,19 +73,28 @@ Extract top keywords from all TXT files in a folder:
 ```bash
 extract_keywords -i path/to/txt_folder -o path/to/output_folder -n 3500
 ```
-
+```bash
+extract_keywords -h
+```
+- **-h**:help command
 - **-i / --input_folder** : Folder containing TXT files  
 - **-o / --output_folder** : Folder to save keyword CSVs  
 - **-n / --top_n** : Number of top keywords to extract (default: 3500)  
 
-## Generate per-chapter specific keywords (TF-IDF)
+## Classify Keywords into Specific and General (TF-IDF)
 
-Create per-chapter CSVs listing keywords specific to each chapter:
+This command takes per-chapter keyword CSVs and divides the keywords into:
+- **Specific keywords:** unique to a chapter
+- **General keywords:** common across multiple chapters
 
 ```bash
 specific_keywords -i path/to/csv_folder -o path/to/output_folder -t 0.6 -f 5
 ```
+```
+specfic_keywords -h
+```
 
+- **-h**:help command
 - **-i / --input_dir** : Folder with per-chapter CSV files containing `keyword,count`  
 - **-o / --output_dir** : Folder to save per-chapter specific keyword CSVs  
 - **-t / --threshold** : TF-IDF threshold for a keyword to be considered specific (default: 0.6)  
@@ -84,7 +107,7 @@ specific_keywords -i path/to/csv_folder -o path/to/output_folder -t 0.6 -f 5
 ## Convert HTML → TXT
 
 ```python
-from txt2phrases.html2text import html_to_txt_folder
+from txt2phrases.html2txt import html_to_txt_folder
 
 html_to_txt_folder("path/to/html_folder", "path/to/output_folder")
 ```
@@ -104,7 +127,7 @@ extractor = KeywordExtraction(
 top_keywords = extractor.extract_keywords()
 ```
 
-## Per-Chapter Specific Keywords
+## Per-Chapter Specific Keywords and General Keywords
 
 ```python
 from txt2phrases.classify_specific import classify_keywords_split_files
@@ -129,6 +152,3 @@ classify_keywords_split_files(
 - `scikit-learn`  
 
 ---
-
-
-```
