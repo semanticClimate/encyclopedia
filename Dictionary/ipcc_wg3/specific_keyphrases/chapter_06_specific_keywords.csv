@@ -1,0 +1,122 @@
+keyword,tfidf,count
+energy storage,1.0,23
+Hydrogen,1.0,21
+electricity sector,1.0,19
+hydropower,1.0,19
+energy systems,1.0,18
+UAE,1.0,14
+wind resources,1.0,13
+CO2 capture,1.0,13
+Public support,1.0,12
+fossil infrastructure,1.0,10
+CSP,1.0,10
+Energy Storage,1.0,10
+wind,1.0,9
+energy sources,1.0,9
+fossil energy,1.0,9
+electricity storage,1.0,9
+Energy storage,1.0,9
+transmission,1.0,8
+IR,1.0,8
+public acceptance,1.0,8
+International Atomic Energy Agency,1.0,8
+variable renewables,1.0,8
+electricity generation,1.0,8
+hydropower production,1.0,8
+Nuclear power,1.0,7
+Global Energy Monitor,1.0,7
+LCOE,1.0,7
+wind farms,1.0,7
+geothermal energy,1.0,7
+Boxes,1.0,7
+whiskers,1.0,7
+Imperial College London,1.0,7
+IEEE,1.0,7
+electricity grids,1.0,6
+coal mining,1.0,6
+Renewables,1.0,6
+coal,1.0,6
+electricity systems,1.0,6
+grid integration,1.0,6
+solar insolation,1.0,6
+reliability,1.0,6
+Wind Energy,1.0,6
+capacity factors,1.0,6
+Hydropower,1.0,6
+hydropower potential,1.0,6
+bioenergy production,1.0,6
+geothermal,1.0,6
+electricity system,1.0,6
+interconnection,1.0,6
+energy infrastructure,1.0,6
+Renewable energy,1.0,6
+liquid fuels,1.0,6
+Renewable Energy,1.0,6
+final energy consumption,1.0,5
+energy system mitigation,1.0,5
+TFC,1.0,5
+rural electrification,1.0,5
+integration costs,1.0,5
+Solar energy,1.0,5
+storage capacity,1.0,5
+nuclear power plants,1.0,5
+biodiesel,1.0,5
+pyrolysis,1.0,5
+Geothermal energy,1.0,5
+grid services,1.0,5
+gas turbines,1.0,5
+social acceptance,1.0,5
+LOHCs,1.0,5
+HVAC,1.0,5
+solar water heaters,1.0,5
+sector coupling,1.0,5
+water availability,1.0,5
+Public acceptability,1.0,5
+Electric Power Research Institute,1.0,5
+Photovoltaics Res,1.0,5
+wind turbines,0.9793759973149117,24
+wind power,0.9496056213799776,18
+energy system,0.942541811700427,18
+AR6 Scenarios Database,0.9348541183912503,14
+solar PV,0.9199911410462921,15
+Gas Control,0.9175895647918606,16
+nuclear energy,0.9118835869677924,11
+renewable energy sources,0.8770881389837065,10
+cost,0.8761656629758116,9
+PV,0.863249058846203,16
+National Renewable Energy Laboratory,0.8452581086226915,8
+batteries,0.8291065353827625,12
+wind energy,0.8208264204256901,21
+Carbon capture,0.816415493759494,7
+solar power,0.816415493759494,7
+energy sector,0.8034059539280447,14
+interquartile range,0.796336554114851,7
+natural gas,0.7945467851172822,23
+energy security,0.7909964672650914,15
+irrigation,0.7855790614882067,6
+South America,0.7706038873556618,8
+primary energy,0.7705932395572173,9
+electricity,0.7664938572002464,21
+renewables,0.7620075934750538,32
+storage,0.7438954811526566,10
+International Renewable Energy Agency,0.7308618392211692,14
+LPG,0.7219078738481856,10
+feedstocks,0.703054914450953,5
+mitigation actions,0.7030522708506984,13
+hydrogen,0.6989562347502786,44
+CCS,0.6877882787216513,61
+limited overshoot,0.6850693793552904,7
+nuclear power,0.6771634820178536,7
+cooking,0.6742545920050852,10
+solar energy,0.650521484379908,8
+fossil fuels,0.6384001127556198,32
+industrial processes,0.6375677741794793,7
+water use,0.6358611862606395,5
+Hydrogen Energy,0.6295466010462568,15
+biomass,0.6291745963076445,29
+electrolysis,0.62320614964012,14
+hydrogen production,0.6203341793610507,9
+CDR options,0.6165045241351161,7
+Bioenergy,0.614977223130099,8
+renewable electricity,0.6080875672081022,5
+water,0.6028354960899702,8

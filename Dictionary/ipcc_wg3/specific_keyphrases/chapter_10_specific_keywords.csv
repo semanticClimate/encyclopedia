@@ -1,0 +1,149 @@
+keyword,tfidf,count
+BEVs,1.0,23
+transport emissions,1.0,22
+LDVs,1.0,20
+travel demand,1.0,19
+ICEVs,1.0,19
+partial models,1.0,19
+fuel efficiency,1.0,18
+passenger transport,1.0,16
+electromobility,1.0,14
+charging infrastructure,1.0,14
+passenger rail,1.0,13
+Sustainable Development Solutions Network,1.0,13
+freight transport,1.0,12
+LNG,1.0,12
+AR6 database,1.0,12
+energy density,1.0,12
+ICEV,1.0,12
+BEV,1.0,12
+Synthetic fuels,1.0,11
+International Relations,1.0,11
+International Maritime Organization,1.0,10
+lifecycle emissions,1.0,10
+shipping sector,1.0,10
+trucks,1.0,10
+LCC,1.0,10
+battery electric vehicles,1.0,10
+freight rail,1.0,10
+critical minerals,1.0,9
+LIBs,1.0,9
+rail,1.0,9
+fuel cells,1.0,9
+constant land cover,1.0,9
+lithium,1.0,9
+HEVs,1.0,9
+emissions factors,1.0,9
+FCVs,1.0,9
+International Council on Clean Transportation,1.0,9
+Electric Vehicles,1.0,9
+advanced biofuels,1.0,8
+International Civil Aviation Organization,1.0,8
+Transport,1.0,8
+autonomous vehicles,1.0,8
+freight,1.0,8
+biofuel,1.0,8
+hydrogen refuelling stations,1.0,8
+PHEV,1.0,8
+Shipping,1.0,8
+Fuel efficiency,1.0,8
+online shopping,1.0,7
+Electromobility,1.0,7
+vehicles,1.0,7
+vehicle efficiency,1.0,7
+fuel consumption,1.0,7
+ships,1.0,7
+electrolytic hydrogen,1.0,7
+natural regrowth,1.0,7
+cycle life,1.0,7
+fuel cell vehicles,1.0,7
+FCV,1.0,7
+PHEVs,1.0,7
+LCA,1.0,7
+passenger vehicles,1.0,7
+Aviation,1.0,7
+Life cycle assessment,1.0,7
+Electric vehicles,1.0,7
+Line of sight,1.0,7
+shared economy,1.0,6
+marine fuels,1.0,6
+transport infrastructure,1.0,6
+road transport,1.0,6
+transit,1.0,6
+active transport,1.0,6
+car use,1.0,6
+HSR,1.0,6
+CNG,1.0,6
+air transport,1.0,6
+cobalt,1.0,6
+s,1.0,6
+hydrogen fuel cells,1.0,6
+road freight,1.0,6
+diesel,1.0,6
+payload,1.0,6
+Arctic,1.0,6
+mitigating,1.0,6
+Electric efficiency,1.0,6
+Clean Air Zones,1.0,6
+Hydrogen FCV,1.0,6
+transport modes,1.0,5
+vehicle manufacturers,1.0,5
+recyclability,1.0,5
+transport,1.0,5
+global transport emissions,1.0,5
+vehicle size,1.0,5
+Transport Sector,1.0,5
+aviation sector,1.0,5
+transport sectors,1.0,5
+smart mobility,1.0,5
+transport demand,1.0,5
+ICT,1.0,5
+sustainable aviation fuels,1.0,5
+automotive applications,1.0,5
+hydrogen fuel cell vehicles,1.0,5
+refuelling stations,1.0,5
+tailpipe emissions,1.0,5
+International Union of Railways,1.0,5
+wind electricity,1.0,5
+US Energy Information Administration,1.0,5
+water vapour,1.0,5
+HSR services,1.0,5
+freight demand,1.0,5
+global transport models,1.0,5
+GTEMs,1.0,5
+interquartile ranges,1.0,5
+mode shift,1.0,5
+demand management measures,1.0,5
+shipping,0.9941866382129373,59
+aviation,0.9928774937526765,71
+EVs,0.9744098237155968,30
+land transport,0.973699292760279,27
+transport sector,0.9718816740677064,67
+alternative fuels,0.9683146150373136,23
+synthetic fuels,0.9347075205597374,26
+biofuels,0.9324179379422104,65
+steam methane reforming,0.8964551976640249,10
+Life Cycle Assessment,0.8964551976640249,10
+Ammonia,0.8964551976640248,16
+electric vehicles,0.8948193525802797,43
+Biofuels,0.860514546715353,20
+energy carriers,0.8507024976925474,8
+international shipping,0.8363914462498061,13
+ammonia,0.8338926120690026,40
+water use,0.7718034411734715,6
+Development,0.7700259705313205,6
+international aviation,0.7532166673494346,9
+ICAO,0.7287505102526306,17
+Hydrogen Energy,0.7216866878609169,17
+feedstocks,0.7111355618068634,5
+direct air capture,0.6900569804429869,12
+ITF,0.6886365274308519,7
+life cycle assessment,0.6699612744834197,9
+AR6 scenario database,0.6397238421999304,7
+air pollution,0.6361959345177022,12
+electrolysis,0.630369045484763,14
+Greenhouse Gas Emissions,0.6260303009961277,10
+air travel,0.6205839192652799,5
+walking,0.6079271706902359,5
+Land Use,0.6072967074613147,5
+public transit,0.6049636248313198,8

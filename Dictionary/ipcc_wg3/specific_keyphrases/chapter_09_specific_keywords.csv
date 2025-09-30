@@ -1,0 +1,101 @@
+keyword,tfidf,count
+non-residential buildings,1.0,19
+appliances,1.0,18
+FiT,1.0,16
+sufficiency,1.0,15
+building energy codes,1.0,15
+embodied energy,1.0,14
+rebound effect,1.0,14
+RPS,1.0,14
+water heating,1.0,13
+residential sector,1.0,13
+building stock,1.0,12
+sufficiency measures,1.0,10
+Eastern Asia,1.0,10
+fuel poverty,1.0,10
+World Health Organization,1.0,10
+embodied emissions,1.0,9
+sufficiency potential,1.0,9
+Italy,1.0,9
+thermal comfort,1.0,9
+building materials,1.0,8
+building services,1.0,8
+cooling,1.0,8
+Eurasia,1.0,8
+green buildings,1.0,8
+office buildings,1.0,8
+Mirasgedis,1.0,7
+indoor air quality,1.0,7
+commercial buildings,1.0,7
+air conditioning,1.0,7
+Resource Efficiency,1.0,7
+direct emissions,1.0,7
+small appliances,1.0,7
+insulation,1.0,7
+energy performance,1.0,7
+energy audits,1.0,7
+EU Member States,1.0,7
+Russian Federation,1.0,6
+building types,1.0,6
+Sufficiency,1.0,6
+information,1.0,6
+Southern Asia,1.0,6
+efficiency measures,1.0,6
+energy renovations,1.0,6
+Greece,1.0,6
+energy access,1.0,6
+energy efficiency policies,1.0,6
+building components,1.0,5
+human activities,1.0,5
+public buildings,1.0,5
+housing,1.0,5
+premature deaths,1.0,5
+cooling demand,1.0,5
+building design,1.0,5
+energy services,1.0,5
+building material,1.0,5
+comfort,1.0,5
+building construction,1.0,5
+disposable income,1.0,5
+Energy sufficiency,1.0,5
+zero energy buildings,1.0,5
+electricity consumption,1.0,5
+Singapore,1.0,5
+EPC,1.0,5
+Malaysia,1.0,5
+European Council,1.0,5
+modeling,1.0,5
+Building Market Brief,1.0,5
+CUES Foundation,1.0,5
+residential buildings,0.9938214397673844,45
+building sector,0.9748486872356763,35
+space heating,0.9507335101277519,14
+health benefits,0.9358025535686172,12
+heat pumps,0.9312477470398144,14
+energy savings,0.9167379521500315,17
+ventilation,0.8968727505684467,11
+demand response,0.8651293741830385,9
+energy consumption,0.8575256155404121,28
+3D printing,0.854555102628569,8
+children,0.8355580614115812,11
+Thailand,0.8155782156813713,7
+energy demand,0.8148347230979935,26
+final energy demand,0.8117176974256733,16
+heating,0.802557881984752,15
+Energy Efficiency,0.7983551629774389,21
+built environment,0.779307167321765,10
+European countries,0.7769343053529556,6
+data centres,0.761616762834679,8
+Austria,0.761616762834679,8
+energy efficiency,0.7526355729290876,77
+buildings sector,0.7490677812467514,9
+cooking,0.7384989811503169,10
+energy poverty,0.7245137063589375,8
+IPCC Special Report,0.7174838873702416,5
+rebound effects,0.7145554852034585,15
+Nigeria,0.7094831337675074,5
+Public Health,0.6954479453188428,7
+electricity demand,0.691887749983761,5
+Developed Countries,0.6805842070318181,22
+energy supply,0.6513180007584105,5
+efficiency,0.6440076456000959,7

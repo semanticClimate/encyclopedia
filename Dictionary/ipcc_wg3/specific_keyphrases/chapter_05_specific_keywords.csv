@@ -1,0 +1,92 @@
+keyword,tfidf,count
+social trust,1.0,20
+Women,1.0,11
+mobility,1.0,10
+social practices,1.0,10
+teleworking,1.0,9
+feedback,1.0,9
+International Transport Forum,1.0,9
+human needs,1.0,8
+service delivery,1.0,8
+ASI strategies,1.0,8
+public transport,1.0,8
+behavioural interventions,1.0,7
+quality of life,1.0,7
+ASI,1.0,7
+leapfrogging,1.0,7
+Inequality,1.0,7
+Sustainable Consumption,1.0,7
+equitable societies,1.0,6
+US,1.0,6
+Trust,1.0,6
+Race,1.0,6
+race,1.0,6
+GHG emissions reduction,1.0,6
+Mode of Transportation,1.0,6
+cultural meanings,1.0,6
+Religion,1.0,6
+International Institute,1.0,6
+Applied Systems Analysis,1.0,6
+global climate change,1.0,6
+Income Inequality,1.0,6
+social aspects,1.0,5
+social groups,1.0,5
+Global Energy Assessment,1.0,5
+happiness,1.0,5
+telework,1.0,5
+decent living standards,1.0,5
+health care,1.0,5
+social equity,1.0,5
+food loss,1.0,5
+Shared mobility,1.0,5
+wealth,1.0,5
+Climate Mitigation,1.0,5
+ethnicity,1.0,5
+service provision,1.0,5
+induced demand,1.0,5
+energy requirements,1.0,5
+choice architecture,1.0,5
+household energy use,1.0,5
+energy justice,1.0,5
+history,1.0,5
+rural India,1.0,5
+Informal Economy,1.0,5
+sharing economy,0.9887570170048068,34
+social norms,0.9734582986610976,30
+Gender,0.95830275277134,19
+trust,0.9269718048567652,14
+gender,0.9045184541752198,13
+carbon footprints,0.8883692348111696,10
+women,0.8798033879750818,31
+energy use,0.8536944698313282,9
+shared mobility,0.8448945048125364,9
+infrastructures,0.8399645250262647,8
+public policy,0.8245123591807456,8
+energy conservation,0.8176214956167757,12
+informal sector,0.8044881823306472,7
+public transit,0.7962531083964133,10
+sustainable consumption,0.7936598173070918,7
+air travel,0.7841400379711168,6
+cycling,0.7793659875728073,9
+income,0.7665390035705242,9
+collective action,0.7658334457924169,7
+business,0.7646407821856154,6
+Climate Change 2014,0.7377530498786743,6
+digitalisation,0.7354186377836156,28
+human development,0.7261015964893174,8
+ITF,0.7251067046221388,7
+climate justice,0.7013448355150431,12
+LPG,0.6919891774269251,9
+Digitalisation,0.6733282837461876,5
+Fifth Assessment Report,0.6733282837461876,5
+behavioural change,0.6505562667461228,7
+data centres,0.6480277050938674,7
+Austria,0.6480277050938674,7
+income inequality,0.6458925317664451,13
+Climate,0.6454849214938075,6
+social movements,0.6381519438647769,11
+Nepal,0.6321386768194441,5
+European countries,0.6295816747378536,5
+nutrition,0.6278536548280289,6
+accessibility,0.6276373141530127,5
+rebound effects,0.6021949055495308,13

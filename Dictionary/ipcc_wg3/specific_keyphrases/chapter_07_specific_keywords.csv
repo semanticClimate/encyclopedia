@@ -1,0 +1,198 @@
+keyword,tfidf,count
+IPCC Special Reports,1.0,38
+wood products,1.0,28
+grasslands,1.0,27
+croplands,1.0,24
+FAOSTAT,1.0,21
+NGHGIs,1.0,18
+Brazilian Amazon,1.0,18
+land management,1.0,17
+economic potential,1.0,17
+coastal wetlands,1.0,17
+enteric fermentation,1.0,16
+AFOLU measures,1.0,15
+economic mitigation potential,1.0,15
+biodiversity conservation,1.0,14
+bookkeeping models,1.0,14
+fire management,1.0,14
+protected areas,1.0,14
+peatlands,1.0,13
+technical mitigation potential,1.0,13
+ASIA,1.0,13
+AFOLU mitigation,1.0,12
+sustainable intensification,1.0,12
+leakage,1.0,12
+agroforestry systems,1.0,12
+additionality,1.0,12
+mining,1.0,11
+Agroforestry,1.0,11
+nitrous oxide emissions,1.0,11
+tropics,1.0,10
+tropical forests,1.0,10
+forest degradation,1.0,10
+agricultural sector,1.0,10
+AFRICA,1.0,10
+sustainable healthy diets,1.0,9
+LULUCF,1.0,9
+rice cultivation,1.0,9
+cattle,1.0,9
+offsets,1.0,9
+AFOLU mitigation measures,1.0,8
+DGVMs,1.0,8
+National Greenhouse Gas Inventories,1.0,8
+USEPA,1.0,8
+manure,1.0,8
+California,1.0,8
+soil organic carbon,1.0,8
+peatland restoration,1.0,8
+water management,1.0,8
+farmers,1.0,8
+material substitution,1.0,8
+conservation agriculture,1.0,8
+Deforestation,1.0,8
+land cover change,1.0,7
+GHG fluxes,1.0,7
+manure management,1.0,7
+livestock production,1.0,7
+Eastern Europe,1.0,7
+global technical mitigation potential,1.0,7
+restoration,1.0,7
+production efficiency,1.0,7
+FAO,1.0,7
+Forestry,1.0,6
+tropical regions,1.0,6
+cropland,1.0,6
+nutrient management,1.0,6
+biophysical effects,1.0,6
+CO2 flux,1.0,6
+net emissions,1.0,6
+wildfires,1.0,6
+agricultural,1.0,6
+ruminants,1.0,6
+agricultural land,1.0,6
+agricultural intensification,1.0,6
+Amazon,1.0,6
+rice,1.0,6
+natural climate solutions,1.0,6
+mitigation estimates,1.0,6
+soil carbon management,1.0,6
+harvested wood products,1.0,6
+tropical peatlands,1.0,6
+global mitigation potential,1.0,6
+permanence,1.0,6
+Vietnam,1.0,6
+Sahel,1.0,6
+Additionality,1.0,6
+enteric methane emissions,1.0,6
+Land Uses,1.0,5
+AFOLU N2O emissions,1.0,5
+savannas,1.0,5
+Sustainable intensification,1.0,5
+anthropogenic land CO2 flux,1.0,5
+implementation,1.0,5
+biodiversity loss,1.0,5
+fluxes,1.0,5
+wood harvest,1.0,5
+fires,1.0,5
+pasture,1.0,5
+biomass burning,1.0,5
+agricultural management,1.0,5
+indirect effects,1.0,5
+forest fires,1.0,5
+Carbon emissions,1.0,5
+secondary forests,1.0,5
+agricultural soils,1.0,5
+precipitation,1.0,5
+forest cover,1.0,5
+global forest area,1.0,5
+net forest loss,1.0,5
+mangroves,1.0,5
+fuelwood,1.0,5
+reduced deforestation,1.0,5
+land competition,1.0,5
+Carbon sequestration,1.0,5
+livelihoods,1.0,5
+land sector,1.0,5
+diverted agricultural production,1.0,5
+Afforestation,1.0,5
+European forests,1.0,5
+forest ecosystems,1.0,5
+Peatlands,1.0,5
+implementation barriers,1.0,5
+Pacific,1.0,5
+Critical assessment,1.0,5
+biomass supply,1.0,5
+healthy diets,1.0,5
+sustainable management,1.0,5
+Bioenergy production,1.0,5
+livestock sector,1.0,5
+property rights,1.0,5
+Niger,1.0,5
+biomass energy,1.0,5
+West Africa,1.0,5
+SRCCL,0.9889844220417819,42
+Agriculture,0.9829459247044261,28
+deforestation,0.9646365001854988,80
+forest management,0.9615198472781648,22
+carbon stocks,0.960123621364186,24
+pathways,0.9544770891603671,18
+agroforestry,0.9373248156913367,31
+soil carbon sequestration,0.9365842556224665,14
+risks,0.9337370786243975,26
+CH4 emissions,0.9327049561619992,16
+N2O emissions,0.9312385729691569,23
+mitigation potential,0.9143124101820452,103
+Ecosystem Services,0.9109104169909638,18
+AFOLU,0.9058347944695166,62
+terrestrial ecosystems,0.8858207588954318,12
+ecosystem services,0.8773687302159328,53
+soil carbon,0.8744920696817761,17
+afforestation,0.8648547057109841,21
+forests,0.8641392599419501,10
+Biochar,0.8615259143283609,16
+AFOLU sector,0.8594117337973205,16
+livestock,0.8579947164831928,14
+technical potential,0.8472628429539496,19
+Biodiversity,0.8399491816119649,15
+carbon storage,0.8277116182426236,22
+AFOLU emissions,0.8029239181442938,10
+water quality,0.8006368810232349,7
+Land Use,0.7944751154735096,7
+desertification,0.7898525076187208,13
+conservation,0.7863013801721676,8
+carbon price,0.7793156838790888,12
+AR5,0.7778652438762403,65
+agriculture,0.7755343058466374,72
+United Nations,0.7654920426806258,28
+sectoral studies,0.7642806710214343,8
+Climate,0.7637730134824962,8
+land degradation,0.7599936864561196,20
+coastal wetland restoration,0.7532985336943199,6
+global models,0.7525655930205608,9
+carbon prices,0.7525655930205608,9
+biodiversity,0.7513528989856164,73
+medium confidence,0.7502323662184517,51
+ecosystems,0.7487861635426001,11
+greenhouse gas fluxes,0.7440299450978557,7
+reforestation,0.7367835340567191,14
+GCB Bioenergy,0.6995988688130558,16
+natural ecosystems,0.690455333363681,6
+soil organic matter,0.690455333363681,6
+GHG mitigation,0.690455333363681,6
+agricultural production,0.690455333363681,5
+costs,0.6847565731129063,31
+Asia,0.6719686877553491,33
+carbon sequestration,0.6703047147614902,19
+anthropogenic emissions,0.6643512135567755,5
+New Zealand,0.656466768344873,7
+PLoS One,0.6485409575315714,7
+sustainable land management,0.6469561942935258,8
+South America,0.6373144034088218,7
+opportunity costs,0.6273330068181253,6
+land use change,0.6225020233796126,5
+BECCS,0.6189599193832981,49
+irrigation,0.6187612933525403,5
+food security,0.6161954288035221,41
+bioenergy,0.6121687491002453,51
+Indonesia,0.6115397968309942,26
+methane emissions,0.6098925841896116,11

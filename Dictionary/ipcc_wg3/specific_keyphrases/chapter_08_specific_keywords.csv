@@ -1,0 +1,88 @@
+keyword,tfidf,count
+urban population,1.0,32
+urban infrastructure,1.0,30
+urban emissions,1.0,29
+urban land expansion,1.0,26
+spatial planning,1.0,24
+urban planning,1.0,22
+urban mitigation,1.0,21
+urban systems,1.0,21
+urban development,1.0,20
+C40 Cities,1.0,20
+urban GHG emissions,1.0,17
+urban,1.0,15
+urban expansion,1.0,14
+green roofs,1.0,13
+New York City,1.0,12
+urban growth,1.0,11
+urban energy system,1.0,10
+urban settlements,1.0,10
+urban mitigation options,1.0,10
+global cities,1.0,10
+informal settlements,1.0,9
+urban system,1.0,9
+waste management,1.0,9
+Shanghai,1.0,9
+urban forests,1.0,8
+urban infrastructures,1.0,8
+informality,1.0,8
+mobility options,1.0,8
+smart energy systems,1.0,8
+Urbanization,1.0,8
+modal shift,1.0,7
+street trees,1.0,7
+urban land use,1.0,7
+transportation,1.0,7
+Cities,1.0,7
+urban land,1.0,7
+population density,1.0,7
+Land use policy,1.0,7
+Urban systems,1.0,6
+settlements,1.0,6
+public health,1.0,6
+mixed land use,1.0,6
+metropolitan areas,1.0,6
+isation,1.0,6
+Urbanisation,1.0,6
+basic services,1.0,6
+urban climate change mitigation,1.0,6
+emissions savings,1.0,6
+urban growth typologies,1.0,6
+cooling networks,1.0,6
+Green roofs,1.0,6
+urban energy systems,1.0,6
+European cities,1.0,6
+Chinese cities,1.0,6
+blue infrastructure,1.0,5
+committed emissions,1.0,5
+urban mitigation strategies,1.0,5
+urban trees,1.0,5
+urban metabolism,1.0,5
+Urban areas,1.0,5
+SSP3,1.0,5
+regional governments,1.0,5
+Urban Transitions,1.0,5
+district heating,1.0,5
+TOD,1.0,5
+subnational actors,1.0,5
+urban sustainability,1.0,5
+Urban Climate Action,1.0,5
+REN21,1.0,5
+urban areas,0.988965070785239,72
+urban form,0.96404822314874,20
+urbanisation,0.9626441505825268,26
+climate adaptation,0.8769193391154622,9
+cities,0.8729931325322644,18
+supply chains,0.8662387326708338,9
+Greenhouse gas emissions,0.8524684538772972,7
+walking,0.793992792874447,6
+accessibility,0.7785058778729884,6
+World Resources Institute,0.7750173359311548,6
+SSP5,0.7192617151867149,5
+land uses,0.718819793591127,9
+distributional effects,0.7118686801806783,5
+Electrification,0.6937301245664396,6
+urbanization,0.6357782053452796,7
+built environment,0.6266421139381924,8
+cycling,0.6265689566318003,7
+infrastructure,0.6009633603497282,22

@@ -1,0 +1,90 @@
+keyword,tfidf,count
+Material Economics,1.0,23
+plastics,1.0,15
+Industry,1.0,14
+materials efficiency,1.0,14
+chemical recycling,1.0,14
+International Aluminium Institute,1.0,14
+CCU,1.0,14
+chemical industry,1.0,12
+cement production,1.0,12
+industrial symbiosis,1.0,12
+basic materials,1.0,11
+Material efficiency,1.0,11
+industrial decarbonisation,1.0,11
+industrial emissions,1.0,10
+circularity,1.0,10
+concrete,1.0,10
+material demand,1.0,10
+waste heat,1.0,10
+LEILAC,1.0,10
+steel industry,1.0,10
+World Steel Association,1.0,9
+steel production,1.0,9
+cement industry,1.0,9
+material stocks,1.0,8
+heavy industry,1.0,8
+Material Economics 2019,1.0,8
+industrial policy,1.0,8
+iron ore,1.0,7
+primary production,1.0,6
+manufactured capital,1.0,6
+clinker,1.0,6
+material extraction,1.0,6
+Indirect emissions,1.0,6
+energy efficiency improvements,1.0,6
+biogenic carbon,1.0,6
+Material Efficiency,1.0,6
+steel,1.0,6
+heat recovery,1.0,6
+waste plastics,1.0,6
+process emissions,1.0,5
+waste,1.0,5
+circular material flows,1.0,5
+biomass feedstock,1.0,5
+pulp and paper industry,1.0,5
+material stock intensity,1.0,5
+CBAM,1.0,5
+CCUS,1.0,5
+industrial GHG emissions,1.0,5
+resource efficiency,1.0,5
+non-ferrous metals,1.0,5
+value chain,1.0,5
+construction materials,1.0,5
+urban symbiosis,1.0,5
+sectoral couplings,1.0,5
+olefins,1.0,5
+GHG pricing,1.0,5
+green public procurement,1.0,5
+RDI,1.0,5
+material efficiency,0.9938490464879131,43
+industrial sector,0.9652476726875736,16
+feedstock,0.9561731101349941,20
+industry sector,0.9350800229235755,16
+recycling,0.9327622143141981,35
+industry,0.9304765582756942,82
+fuel switching,0.9188701199234235,13
+value chains,0.8902568055030431,10
+mitigation option,0.8750637474953689,8
+Energy Transitions Commission,0.8612747490302086,12
+Carbon Capture,0.8480195043602037,7
+methanol,0.8453359465293269,12
+indirect emissions,0.8427081881491215,9
+building codes,0.8414555018608859,9
+IEA,0.8410188422000577,76
+Energy efficiency,0.8370986557984288,15
+standards,0.7933230862220894,8
+Circular Economy,0.7729660037089789,13
+carbon leakage,0.7652268168156069,13
+circular economy,0.7453051770878143,43
+electricity demand,0.7220050840696406,5
+net zero emissions,0.7202600651324922,10
+Electrification,0.7202350409894205,6
+Circular economy,0.6932250402152667,5
+CCS,0.6572426125355343,51
+mitigation strategies,0.6452126640036873,10
+industrial processes,0.6246117788312582,6
+regulations,0.6153842891431109,7
+GHG intensity,0.6121116816446963,5
+Economics,0.611160647653108,5
+sustainable consumption,0.6083618120757364,5
