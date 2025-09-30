@@ -1,0 +1,150 @@
+keyword,tfidf,count
+south Asia,1.0,16
+conflict risk,1.0,14
+health outcomes,1.0,14
+population health,1.0,12
+displacement,1.0,12
+health adaptation,1.0,11
+obesity,1.0,11
+peacebuilding,1.0,11
+indigenous communities,1.0,11
+civil unrest,1.0,10
+pandemic,1.0,10
+extreme temperatures,1.0,10
+diabetes,1.0,10
+BMC Public Health,1.0,10
+premature deaths,1.0,9
+Global Compact,1.0,9
+health services,1.0,9
+Israel,1.0,9
+Global Burden of Disease Study,1.0,9
+dengue fever,1.0,9
+influenza,1.0,9
+sustainable food systems,1.0,8
+diarrhoeal diseases,1.0,8
+eastern Africa,1.0,8
+One Health,1.0,8
+migration patterns,1.0,8
+receiving communities,1.0,8
+UHC,1.0,8
+wellbeing,1.0,8
+mental illness,1.0,7
+health impacts,1.0,7
+happiness,1.0,7
+immobility,1.0,7
+urban settings,1.0,7
+renal syndrome,1.0,7
+salmonellosis,1.0,7
+Cryptosporidium,1.0,7
+injuries,1.0,7
+depression,1.0,7
+PTSD,1.0,7
+environmental peacebuilding,1.0,7
+involuntary migration,1.0,6
+violent conflict,1.0,6
+adolescents,1.0,6
+involuntary displacement,1.0,6
+causal pathways,1.0,6
+older adults,1.0,6
+risk factor,1.0,6
+pregnancy,1.0,6
+infectious disease,1.0,6
+indigenous health,1.0,6
+climatic factors,1.0,6
+dengue incidence,1.0,6
+schistosomiasis,1.0,6
+WBDs,1.0,6
+European Food Safety Authority,1.0,6
+asthma,1.0,6
+CVD,1.0,6
+cognitive function,1.0,6
+climate migration,1.0,6
+occupational health,1.0,6
+Public,1.0,6
+climate change policy,1.0,5
+pregnant women,1.0,5
+West Nile fever,1.0,5
+response systems,1.0,5
+sustainable peace,1.0,5
+global health,1.0,5
+NCDs,1.0,5
+dehydration,1.0,5
+indigenous food sovereignty,1.0,5
+gardening,1.0,5
+climatic risks,1.0,5
+climate sensitivity,1.0,5
+non-climatic factors,1.0,5
+Aedes aegypti,1.0,5
+humidity,1.0,5
+Salmonella infections,1.0,5
+seasonal influenza,1.0,5
+mortality rates,1.0,5
+cardiovascular disease,1.0,5
+exertional heat illness,1.0,5
+Malnutrition,1.0,5
+Mental Health,1.0,5
+mental health outcomes,1.0,5
+suicide,1.0,5
+substance abuse,1.0,5
+mental disorders,1.0,5
+suicide rates,1.0,5
+international community,1.0,5
+population change,1.0,5
+air temperature,1.0,5
+healthcare facilities,1.0,5
+dengue outbreaks,1.0,5
+Lancet Countdown,1.0,5
+risk factors,1.0,5
+Heatwaves,1.0,5
+population dynamics,1.0,5
+mental health,0.9673672592616572,74
+health systems,0.9485399891470498,34
+extreme heat events,0.9217729549234963,14
+Public Health,0.9112759158130869,81
+ambient temperature,0.9082156167966496,16
+WHO,0.9064476206290867,57
+conflict,0.8999117656521851,37
+health risks,0.8988595201065525,23
+air pollution,0.89807721738239,30
+violence,0.8972006539768809,12
+undernutrition,0.8662764133880332,11
+socioeconomic development,0.8599435242689344,13
+anxiety,0.8596536714550395,10
+Lyme disease,0.8406013898623286,11
+natural resources,0.8394797975461396,7
+Human Health,0.8360295706288533,9
+infectious diseases,0.8143420765596323,16
+Health,0.8127427451808118,8
+Circumpolar Health,0.8044818905161516,8
+climatic hazards,0.7815060604492485,10
+air quality,0.7725227516579856,16
+Hurricane Katrina,0.7688797246413404,6
+Children,0.7580982672636316,10
+remittances,0.7567731835482814,7
+Hurricane Sandy,0.7484812613164904,8
+girls,0.7468428258447921,12
+international migration,0.7401156662413838,10
+internal migration,0.7197810589156273,8
+health,0.7175121113533441,46
+Shared Socioeconomic Pathways,0.7160909615757098,5
+resettlement,0.7150418197622361,6
+air pollutants,0.7150418197622361,5
+epidemiology,0.697923180019383,5
+ozone,0.6946093070953253,7
+Migration,0.6895881589449154,16
+migration,0.6844031317105904,43
+health sector,0.6773249195859418,17
+Middle East,0.6737987087517853,13
+security,0.6727098385862446,8
+extreme heat,0.6649988331516408,7
+elderly,0.6564427479738053,12
+malaria,0.6503810448161822,24
+malnutrition,0.6392549658729025,12
+air conditioning,0.6387122674028982,11
+Sendai Framework,0.638261501801508,10
+small island states,0.637272213527931,9
+population exposure,0.6372722135279308,5
+PLoS ONE,0.6232814768860502,11
+waterborne diseases,0.6149005988850348,8
+mortality,0.6146571616184994,39
+climatic variability,0.6041765623795825,6

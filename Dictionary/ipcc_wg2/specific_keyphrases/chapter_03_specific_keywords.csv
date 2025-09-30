@@ -1,0 +1,230 @@
+keyword,tfidf,count
+MHWs,1.0,50
+hypoxia,1.0,34
+salt marshes,1.0,26
+Southern Ocean,1.0,23
+kelp forests,1.0,22
+marine organisms,1.0,21
+stratification,1.0,19
+marine biodiversity,1.0,17
+North Atlantic,1.0,17
+calcification,1.0,17
+coastal wetlands,1.0,16
+Arctic Ocean,1.0,15
+global ocean,1.0,15
+zooplankton,1.0,15
+mariculture,1.0,15
+marine life,1.0,14
+sandy beaches,1.0,13
+coastal ecosystem services,1.0,12
+EBUS,1.0,12
+growth,1.0,12
+ification,1.0,11
+multiple drivers,1.0,11
+seabirds,1.0,11
+overfishing,1.0,10
+cultural ecosystem services,1.0,10
+Marine protected areas,1.0,10
+multiple stressors,1.0,10
+coralline algae,1.0,10
+bleaching,1.0,10
+blue carbon ecosystems,1.0,10
+habitat loss,1.0,9
+community composition,1.0,9
+wave energy,1.0,9
+coastal development,1.0,9
+SDG14,1.0,9
+community structure,1.0,9
+surface ocean,1.0,9
+phenotypic plasticity,1.0,9
+seaweeds,1.0,9
+phenological shifts,1.0,9
+marine heatwave,1.0,9
+human communities,1.0,8
+marine food webs,1.0,8
+fish stocks,1.0,8
+paleorecords,1.0,8
+evolutionary adaptation,1.0,8
+ocean governance,1.0,8
+warming,1.0,8
+climate velocity,1.0,8
+CMIP5 models,1.0,8
+metabolic rates,1.0,8
+biogeography,1.0,8
+primary producers,1.0,8
+polar regions,1.0,8
+fishing pressure,1.0,8
+macroalgae,1.0,8
+kelp,1.0,8
+Red Sea,1.0,8
+persistent organic pollutants,1.0,8
+MPA,1.0,8
+deep ocean,1.0,7
+estuaries,1.0,7
+epipelagic zone,1.0,7
+ecosystem functions,1.0,7
+marine ecosystem services,1.0,7
+oxygen loss,1.0,7
+ocean,1.0,7
+GMSL,1.0,7
+upwelling,1.0,7
+surface waters,1.0,7
+OMZs,1.0,7
+trophic mismatches,1.0,7
+carbon export,1.0,7
+global sea surface warming,1.0,7
+assisted evolution,1.0,7
+mussels,1.0,7
+landward migration,1.0,7
+coastal waters,1.0,7
+ecosystem shifts,1.0,7
+marine conservation,1.0,7
+Ecosystem Collapse,1.0,7
+sediment dynamics,1.0,6
+bioaccumulation,1.0,6
+marine animals,1.0,6
+marine adaptation,1.0,6
+Arctic sea ice,1.0,6
+CMIP6 models,1.0,6
+2,1.0,6
+Earth system models,1.0,6
+ocean deoxygenation,1.0,6
+nutrient availability,1.0,6
+marine ectotherms,1.0,6
+hypoxia tolerance,1.0,6
+Ocean warming,1.0,6
+time series,1.0,6
+trophic amplification,1.0,6
+mass coral bleaching,1.0,6
+wave attenuation,1.0,6
+fish communities,1.0,6
+Coastal ecosystems,1.0,6
+Black Sea,1.0,6
+phytoplankton production,1.0,6
+East China Sea,1.0,6
+phytoplankton blooms,1.0,6
+spatial distribution,1.0,6
+regime shifts,1.0,6
+tipping points,1.0,6
+methylmercury,1.0,6
+High confidence,1.0,6
+ecotourism,1.0,6
+PLoS,1.0,6
+One Earth,1.0,6
+marine fish,1.0,5
+nutrient enrichment,1.0,5
+mangrove forests,1.0,5
+economic losses,1.0,5
+phytoplankton growth period,1.0,5
+range expansions,1.0,5
+ecosystem models,1.0,5
+paleorecord,1.0,5
+manipulation experiments,1.0,5
+Ocean currents,1.0,5
+internal variability,1.0,5
+aragonite,1.0,5
+carbonate chemistry,1.0,5
+kelp ecosystems,1.0,5
+ocean circulation,1.0,5
+survival,1.0,5
+organism,1.0,5
+drivers,1.0,5
+microbes,1.0,5
+phytoplankton species,1.0,5
+Interactive effects,1.0,5
+mass mortality,1.0,5
+Mangroves,1.0,5
+vegetated dunes,1.0,5
+upwelling systems,1.0,5
+whales,1.0,5
+ecosystem resilience,1.0,5
+total animal biomass,1.0,5
+ensemble projections,1.0,5
+phytoplankton community structure,1.0,5
+total seafloor biomass,1.0,5
+Tipping points,1.0,5
+non-indigenous species,1.0,5
+seagrass,1.0,5
+marine spatial planning,1.0,5
+blue carbon,1.0,5
+blue economy,1.0,5
+Sustainable Ocean Economy,1.0,5
+Blue Carbon,1.0,5
+Lophelia pertusa,1.0,5
+global distribution,1.0,5
+Marine spatial planning,1.0,5
+Regional Aspects,1.0,5
+herbivory,1.0,5
+acidification,0.9917239537236526,56
+ocean acidification,0.9790171338267042,185
+Marine heatwaves,0.9682344494477273,18
+marine ecosystems,0.9666902470465759,53
+phytoplankton,0.9622505675417168,26
+organisms,0.9603557720015964,38
+WGI AR6,0.9549631481423887,20
+marine protected areas,0.9478149250753578,29
+Ocean acidification,0.9430733334327233,36
+coastal adaptation,0.9422668691057594,17
+marine species,0.9411588651400254,27
+ocean warming,0.938850249539402,47
+marine mammals,0.9351767761767547,16
+SROCC,0.9335011828475333,28
+salinity,0.9211291879821711,11
+food webs,0.9205748521318743,13
+coastal protection,0.9159946388096113,21
+North Pacific,0.911845179581042,12
+coastal ecosystems,0.9054460803380158,64
+primary production,0.8797890775156623,22
+eutrophication,0.8696264931535498,15
+photosynthesis,0.8670848622879851,8
+algal blooms,0.8647217061623049,24
+Fisheries,0.8646343481470542,8
+marine systems,0.8538253086652944,10
+species richness,0.8526310224952728,15
+invertebrates,0.8453374716342655,16
+Mediterranean Sea,0.8401505949138299,17
+Baltic Sea,0.827917873748127,9
+range shifts,0.8134730609274204,18
+marine heatwaves,0.7947121326143213,26
+seagrasses,0.7902698127050841,8
+genetic diversity,0.7854768252519515,7
+CMIP6,0.7810175982721461,17
+ecosystem structure,0.7740106061706377,10
+ecosystem function,0.7704974970199634,10
+fishing,0.7674530748984834,14
+thermal tolerance,0.7624933840650785,13
+coastal zones,0.7607608203406361,6
+low confidence,0.7538312951255444,17
+vulnerabilities,0.7517273972797919,6
+human activities,0.7447440489455458,11
+mangroves,0.7411662183398313,28
+North Sea,0.73794307576041,12
+cyanobacteria,0.7362107362540421,6
+species range shifts,0.7362107362540421,5
+IUCN,0.7362107362540421,5
+restoration,0.736210736254042,8
+physiology,0.7323845423051687,5
+fish,0.730745294576727,23
+corals,0.7226319313804184,18
+coral reefs,0.7213797080434047,50
+CMIP5,0.7175164277201378,14
+Shared Socioeconomic Pathways,0.698006973281482,5
+seagrass meadows,0.6901334840274721,11
+ocean ecosystems,0.6824725364716363,9
+shellfish,0.6778387507211242,6
+biomass,0.6778387507211242,6
+evolutionary responses,0.6716409097904633,5
+coastal communities,0.6677321024482392,16
+fisheries,0.664432975998385,56
+carbon storage,0.6575072760317733,16
+Great Barrier Reef,0.6544604925838537,17
+evolution,0.6459236646880455,7
+deltas,0.6453469093427452,7
+primary productivity,0.6445476761013401,8
+coastal systems,0.6375629512420619,6
+shipping,0.6364388873362608,5
+food availability,0.627878892742609,6
+thermal stress,0.6275662207406274,5
+confidence,0.6254700268658322,17
+R,0.6193181045241791,7
+global climate change,0.6175606958242604,11

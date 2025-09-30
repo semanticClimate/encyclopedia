@@ -1,0 +1,89 @@
+keyword,tfidf,count
+southern Australia,1.0,30
+northern Australia,1.0,20
+GBR,1.0,20
+Torres Strait Islander Peoples,1.0,16
+eastern Australia,1.0,15
+South Australia,1.0,15
+CSIRO,1.0,13
+NIWA,1.0,12
+southeast Australia,1.0,11
+Victoria,1.0,11
+National Climate Change Adaptation Research Facility,1.0,11
+Zealand,1.0,10
+Australian,1.0,9
+Queensland Government,1.0,8
+Infometrics,1.0,8
+southwest Australia,1.0,7
+Melbourne,1.0,7
+managed retreat,1.0,7
+Transpower,1.0,7
+Indigenous Australians,1.0,7
+Natural hazards,1.0,7
+Water Resources,1.0,7
+Rural Studies,1.0,7
+Deep South National Science Challenge,1.0,7
+eastern,1.0,6
+Torres Strait,1.0,6
+interdependent systems,1.0,6
+southwestern Australia,1.0,6
+extreme rainfall,1.0,6
+land uses,1.0,6
+National Policy Statement,1.0,6
+horticulture,1.0,6
+leadership,1.0,6
+Western Australia,1.0,6
+Local Government,1.0,6
+Commonwealth of Australia,1.0,6
+Gold Coast,1.0,6
+Primary Industries,1.0,6
+Water Resources Research,1.0,6
+Tangata Whenua Māori,1.0,5
+social cohesion,1.0,5
+North Island,1.0,5
+alpine biodiversity,1.0,5
+alpine ash,1.0,5
+pencil pine,1.0,5
+National Recovery and Resilience Agency,1.0,5
+decision tools,1.0,5
+Northern Australia,1.0,5
+thunderstorms,1.0,5
+Royal Commission,1.0,5
+maximum snow depth,1.0,5
+communities,1.0,5
+Basin Plan,1.0,5
+pasture growth,1.0,5
+Climate Change Commission,1.0,5
+Māori,1.0,5
+Adelaide,1.0,5
+ski industry,1.0,5
+IGCC,1.0,5
+Australian Alps,1.0,5
+State of Tasmania,1.0,5
+Real Options Analysis,1.0,5
+Emergency Management,1.0,5
+Wellington,1.0,5
+CSIRO Publishing,1.0,5
+Wildland Fire,1.0,5
+Disaster Resilience,1.0,5
+Deloitte Access Economics,1.0,5
+Coastal Adaptation,1.0,5
+New Zealand,0.9998970894124125,282
+Australia,0.9787140445668341,280
+Tasmania,0.9758688393261084,17
+supply chains,0.923605384018485,10
+Hydrology,0.8130113334955874,14
+wildlife,0.7958653665702372,6
+fire management,0.7958653665702371,5
+river flows,0.7737989065892098,7
+Tourism,0.759827960730082,6
+rural communities,0.739221261231296,13
+Modelling,0.7347178692460367,5
+fire weather,0.7020462645714574,6
+Great Barrier Reef,0.6977466732149833,15
+natural disasters,0.6905498970687964,9
+Climate Variability,0.6787133550445414,6
+changing climate,0.6783072564502333,7
+Environmental Management,0.6521180098550335,8
+employment,0.6212261204227864,7
+Natural Hazards,0.6038897816769437,8

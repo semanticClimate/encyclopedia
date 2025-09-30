@@ -1,0 +1,112 @@
+keyword,tfidf,count
+North Asia,1.0,27
+West Asia,1.0,27
+CCA,1.0,22
+Korea,1.0,18
+Taiwan,1.0,18
+Republic of Korea,1.0,17
+Asian countries,1.0,15
+South China Sea,1.0,11
+Integ,1.0,11
+citizen science,1.0,10
+UNESCAP,1.0,10
+Mongolia,1.0,9
+Republic,1.0,8
+Afghanistan,1.0,8
+western North Pacific,1.0,8
+ASEAN,1.0,8
+disaster management,1.0,8
+BDP 2100,1.0,8
+socioeconomic changes,1.0,7
+Hindu Kush Himalaya,1.0,7
+Sea,1.0,7
+urban agglomerations,1.0,7
+agriculture sector,1.0,7
+Tajikistan,1.0,7
+HKH region,1.0,7
+South Asian countries,1.0,7
+Saudi Arabia,1.0,7
+preparedness,1.0,7
+Central Siberia,1.0,6
+Kazakhstan,1.0,6
+Uzbekistan,1.0,6
+water conservation,1.0,6
+drought risk,1.0,6
+Ho Chi Minh City,1.0,6
+Disaster management,1.0,6
+adverse selection,1.0,6
+Hindu Kush Himalaya Assessment,1.0,6
+Himalaya,1.0,5
+rice production,1.0,5
+mangrove restoration,1.0,5
+HMA,1.0,5
+Inner Mongolia,1.0,5
+Lebanon,1.0,5
+wind speed,1.0,5
+developing Asia,1.0,5
+IDMC,1.0,5
+Kyrgyzstan,1.0,5
+Asia Pacific region,1.0,5
+Russian Far East,1.0,5
+Korean Peninsula,1.0,5
+pine wilt disease,1.0,5
+Oman,1.0,5
+Eastern Asia,1.0,5
+outheast Asia,1.0,5
+Xinjiang,1.0,5
+vulnerability assessment,1.0,5
+Guangzhou,1.0,5
+Mortality,1.0,5
+Chinese cities,1.0,5
+forest governance,1.0,5
+Asian Development Bank,1.0,5
+Twitter,1.0,5
+crop insurance,1.0,5
+Social protection,1.0,5
+SP programmes,1.0,5
+Northeast Asia,1.0,5
+Sea Level Rise,1.0,5
+Central Asia,0.9940927551444056,60
+Japan,0.9929664512773688,55
+Iran,0.9837195960636325,38
+Asia,0.9793857098622586,318
+East Asia,0.9786726193741536,47
+dust storms,0.953393156091715,15
+adaptation costs,0.9438908380549116,14
+South Asia,0.9371619413082735,107
+Sri Lanka,0.9358903509851337,16
+Southeast Asia,0.9324631387051916,69
+Philippines,0.9262570752932128,69
+China,0.9079675703383,240
+Asian cities,0.9070644831313591,12
+remote sensing,0.9041084059544071,9
+Thailand,0.9037680851211902,39
+risk perception,0.9033749842611151,10
+Myanmar,0.897402438433633,14
+Tibetan Plateau,0.8855134424584078,13
+Pakistan,0.8784005811023875,41
+Malaysia,0.8781610552630683,18
+Vietnam,0.8770727635984757,41
+Singapore,0.8334441144602502,7
+Hazards,0.8334441144602502,7
+India,0.8319862681972214,175
+cyclones,0.8295177935549795,12
+Persian Gulf,0.8215027028304575,8
+South Korea,0.820698927938934,8
+Russia,0.8194903392138573,26
+Nepal,0.8012394543069519,56
+coastal cities,0.7710575563658408,14
+forest fires,0.7616675577425653,5
+Global warming,0.7616675577425653,5
+Bangladesh,0.7448835869764234,93
+water resource management,0.7329106160963986,5
+agricultural productivity,0.7259202579347241,7
+typhoons,0.7259202579347241,5
+UNISDR,0.7259202579347241,5
+Indonesia,0.7126945549844887,49
+Cambodia,0.6957191656279216,10
+natural hazards,0.690207788542655,7
+freshwater resources,0.6567834544542356,5
+energy efficiency,0.6240298672254491,6
+disaster risk management,0.616199892763856,9
+seagrass meadows,0.6101301004914785,9

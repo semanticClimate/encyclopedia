@@ -1,0 +1,100 @@
+keyword,tfidf,count
+SRM,1.0,42
+human mobility,1.0,26
+high risk,1.0,22
+moderate risk,1.0,21
+SAI,1.0,19
+living standards,1.0,17
+anthropogenic climate forcing,1.0,16
+Key Risks,1.0,15
+solar geoengineering,1.0,14
+RFC,1.0,13
+impact attribution,1.0,13
+solar radiation management,1.0,12
+Water distribution,1.0,11
+MISI,1.0,11
+geoengineering,1.0,11
+Mitigation,1.0,10
+RKR,1.0,10
+critical infrastructure,1.0,9
+SR15,1.0,9
+ecosystem degradation,1.0,9
+weather sensitivity,1.0,9
+Solar geoengineering,1.0,9
+financial constraints,1.0,8
+climate system,1.0,8
+RKRs,1.0,8
+threatened systems,1.0,8
+social cost of carbon,1.0,8
+RFCs,1.0,8
+global warming level,1.0,8
+social cost,1.0,8
+weather extremes,1.0,7
+weather fluctuations,1.0,7
+peace,1.0,7
+RFC1,1.0,7
+climate attribution,1.0,7
+species extinction,1.0,6
+soft limits,1.0,6
+climate outcomes,1.0,6
+managed systems,1.0,6
+Coastal systems,1.0,6
+human capacity,1.0,6
+salinity intrusion,1.0,6
+high risks,1.0,6
+Antarctica,1.0,6
+economic impacts,1.0,6
+structural modelling,1.0,6
+aquatic species,1.0,5
+aggregate economic output,1.0,5
+expert elicitation,1.0,5
+global temperatures,1.0,5
+Food system,1.0,5
+Crop yields,1.0,5
+Syrian civil war,1.0,5
+Syrian uprising,1.0,5
+adaptive responses,1.0,5
+limits,1.0,5
+Maladaptation,1.0,5
+assessed literature,1.0,5
+climatic impact drivers,1.0,5
+societal adaptation,1.0,5
+Amazon Forest,1.0,5
+risk severity,1.0,5
+ecological disruption,1.0,5
+economic activity,1.0,5
+human migration,1.0,5
+critical infrastructures,1.0,5
+marine cloud brightening,1.0,5
+ember diagrams,1.0,5
+SCC estimates,1.0,5
+climate engineering,1.0,5
+National Bureau of Economic Research,1.0,5
+stratospheric aerosol geoengineering,1.0,5
+key risks,0.9618071604974006,25
+exposure,0.907593669184488,14
+human systems,0.9005403238364658,27
+armed conflict,0.8974473018733141,19
+Representative Key Risks,0.8492105364171829,9
+biodiversity hotspots,0.847811894705183,13
+Syria,0.8186253083368235,12
+Extreme weather events,0.8163398897971635,7
+coastal systems,0.7703982627209852,7
+deltas,0.7638896298561505,8
+anthropogenic forcing,0.7271648155077556,5
+crop yields,0.7262496094792247,15
+Intergovernmental Panel,0.7013255443937885,5
+International Monetary Fund,0.6993452772079524,5
+waterborne diseases,0.6983842563900092,9
+adaptive actions,0.6796140545072684,6
+international migration,0.6724795912026421,9
+vulnerable populations,0.6606048166786648,10
+Australasia,0.6602540505975587,7
+financial resources,0.65598902166192,9
+species,0.6454478765188753,9
+storms,0.6445681588557799,5
+economic growth,0.644101967683645,23
+culture,0.6408735777428807,5
+global warming,0.616079512964299,82
+river floods,0.6120674593442105,8
+ecological systems,0.6111066686301145,6

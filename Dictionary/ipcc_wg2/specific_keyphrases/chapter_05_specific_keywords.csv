@@ -1,0 +1,190 @@
+keyword,tfidf,count
+wild foods,1.0,17
+food safety,1.0,16
+food system,1.0,15
+agroecology,1.0,14
+soybean,1.0,14
+cropping systems,1.0,14
+agricultural intensification,1.0,14
+Agric Syst,1.0,13
+agroforestry systems,1.0,12
+vegetables,1.0,12
+medicinal plants,1.0,12
+Food Secur,1.0,12
+major crops,1.0,11
+sheep,1.0,10
+diversification,1.0,10
+Viet Nam,1.0,10
+legumes,1.0,10
+dietary diversity,1.0,10
+Food Systems,1.0,10
+Diversification,1.0,10
+nutritional quality,1.0,9
+cereals,1.0,9
+pests,1.0,9
+international trade,1.0,9
+goats,1.0,8
+global food security,1.0,8
+agricultural systems,1.0,8
+forests,1.0,8
+mixed farming systems,1.0,8
+elevated CO2,1.0,8
+breeding,1.0,8
+mixed systems,1.0,8
+Peasant Stud,1.0,8
+food quality,1.0,7
+distribution,1.0,7
+weeds,1.0,7
+pollinators,1.0,7
+human nutrition,1.0,7
+crop species,1.0,7
+AgMIP,1.0,7
+yield losses,1.0,7
+agricultural landscapes,1.0,7
+Livestock,1.0,7
+profitability,1.0,7
+seafood,1.0,7
+GM crops,1.0,7
+UPA,1.0,7
+LSLAs,1.0,7
+Agricultural intensification,1.0,7
+circular economy,1.0,7
+Agroecology,1.0,7
+CGIAR Research Program,1.0,7
+World Food Security,1.0,7
+zoonoses,1.0,6
+aquatic systems,1.0,6
+yield stability,1.0,6
+crop management,1.0,6
+livestock systems,1.0,6
+agrobiodiversity,1.0,6
+credit,1.0,6
+mycotoxins,1.0,6
+CES,1.0,6
+aquatic ecosystems,1.0,6
+Crop diversification,1.0,6
+biomass production,1.0,6
+Wild foods,1.0,6
+caribou,1.0,6
+food supply,1.0,6
+multiple ecosystem services,1.0,6
+aquaponics,1.0,6
+food waste,1.0,6
+political instability,1.0,6
+regional food systems,1.0,6
+political ecology,1.0,6
+REDD plus,1.0,6
+CCAFS,1.0,6
+pigs,1.0,5
+extreme climate events,1.0,5
+toxigenic fungi,1.0,5
+HABs,1.0,5
+pest control,1.0,5
+bioeconomy,1.0,5
+adaptation option,1.0,5
+global food system,1.0,5
+Adaptation options,1.0,5
+quality,1.0,5
+farming systems,1.0,5
+livestock diseases,1.0,5
+habitat suitability,1.0,5
+yield,1.0,5
+elevated temperature,1.0,5
+CO2 concentration,1.0,5
+yield variability,1.0,5
+crop models,1.0,5
+global food production,1.0,5
+residual damage,1.0,5
+genomics,1.0,5
+protein,1.0,5
+production,1.0,5
+forest ecosystems,1.0,5
+forest management,1.0,5
+household food security,1.0,5
+subtropical regions,1.0,5
+hydroponics,1.0,5
+livestock farmers,1.0,5
+conventional agriculture,1.0,5
+Aquaponics,1.0,5
+aflatoxin,1.0,5
+nutrition security,1.0,5
+crop diversity,1.0,5
+power dynamics,1.0,5
+healthy diets,1.0,5
+land grabbing,1.0,5
+International Food Policy Research Institute,1.0,5
+Pacific oyster,1.0,5
+viticulture,1.0,5
+HLPE Report,1.0,5
+Climate change effects,1.0,5
+J,1.0,5
+CGIAR,1.0,5
+Medium confidence,0.9679087380654061,29
+Agroforestry,0.9427185310107437,16
+food systems,0.9384871284583332,36
+cattle,0.9266548812121408,13
+Food security,0.9207438881192899,14
+aquaculture,0.9161043642441138,84
+nutrition,0.897805319543501,31
+productivity,0.8973099836444192,33
+agroforestry,0.8849777305623707,35
+Aquaculture,0.882809720095154,35
+Nutrition,0.8755692751588404,10
+livestock,0.87324165303799,43
+Indigenous communities,0.8690296269591581,10
+social inequities,0.8451055773863797,9
+pollination,0.8362254113832872,10
+drought stress,0.8362254113832872,10
+Food Security,0.8349920943852005,45
+food,0.8338049736188927,10
+management,0.8318397553315069,10
+income,0.8202571774826528,11
+food provisioning,0.816824756450317,7
+wheat,0.812969736949618,30
+Mitigation Options,0.8126564331407511,12
+marine aquaculture,0.8126564331407511,9
+food security,0.8043052901913982,177
+food prices,0.8035687706269491,14
+phenology,0.8023916863764097,16
+crops,0.7987018006315058,7
+rural livelihoods,0.7981193995283818,9
+rice,0.794206440928662,21
+livestock production,0.7913843330627675,16
+food availability,0.7783110535308587,8
+FAO,0.7775123913027504,7
+Pastoralism,0.7758021707990369,7
+arid regions,0.7717659314499143,6
+crop production,0.7672582146671386,19
+food insecurity,0.765514182095825,47
+ecological knowledge,0.7520490655861669,6
+incentives,0.7367911676065787,6
+shellfish,0.7352106011346856,7
+biomass,0.7352106011346856,7
+Climate change impacts,0.7344540563231703,13
+forestry,0.7328848703277905,19
+pastoralists,0.7252671926160206,10
+ozone,0.7193871770448457,8
+Cambodia,0.718313888615547,12
+food production,0.7172875266752924,26
+maize,0.7123583215574474,32
+Climate services,0.6934170745740516,6
+Land Use Policy,0.689067900673718,28
+marine fisheries,0.6880268462461153,9
+staple crops,0.6880268462461151,5
+Niger,0.6880268462461151,5
+physiology,0.680891241089536,5
+Modelling,0.6783727976640601,6
+smallholders,0.6722756855333764,6
+s,0.659879508866127,5
+humanity,0.659879508866127,5
+medium agreement,0.6591955452439754,18
+urban agriculture,0.6438817839155908,14
+pathogens,0.6379249779560349,7
+crop diversification,0.6317631737272249,6
+inland fisheries,0.6257617108637358,11
+global,0.6165276537161357,10
+Urban agriculture,0.6112942699768783,5
+crop yields,0.6084373044571953,14
+reindeer,0.6043401326822931,6
+livelihood resilience,0.603444067395867,5
+livelihood diversification,0.6020784024534002,9

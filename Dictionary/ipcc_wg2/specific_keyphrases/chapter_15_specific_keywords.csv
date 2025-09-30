@@ -1,0 +1,87 @@
+keyword,tfidf,count
+Pacific,1.0,28
+Jamaica,1.0,26
+Samoa,1.0,19
+Marshall Islands,1.0,18
+Caribbean region,1.0,18
+Dominica,1.0,15
+IAS,1.0,13
+Small islands,1.0,12
+French Polynesia,1.0,12
+Pacific islands,1.0,12
+Pacific Island Countries,1.0,11
+Tuvalu,1.0,11
+atoll islands,1.0,10
+islands,1.0,10
+Kiribati,1.0,10
+Bahamas,1.0,10
+Caribbean Small Island Developing States,1.0,10
+Caribbean islands,1.0,9
+Hawaii,1.0,9
+Seychelles,1.0,9
+Dominican Republic,1.0,9
+small island contexts,1.0,8
+Pacific Ocean,1.0,8
+South Pacific,1.0,8
+island communities,1.0,7
+freshwater stress,1.0,7
+Caribbean SIDS,1.0,7
+reef islands,1.0,7
+land reclamation,1.0,7
+Tropical Cyclones,1.0,7
+human disturbances,1.0,7
+Geomorphology,1.0,7
+Haiti,1.0,7
+Small Islands,1.0,6
+terrestrial biodiversity,1.0,6
+cultural resources,1.0,6
+enablers,1.0,6
+ESL events,1.0,6
+Reunion Island,1.0,6
+Pacific Island countries,1.0,6
+Barbados,1.0,6
+tsunami,1.0,6
+Mauritius,1.0,6
+Pacific Small Island Developing States,1.0,6
+Small Island States,1.0,6
+Caribbean Sea,1.0,5
+small,1.0,5
+heritage,1.0,5
+Maldives Islands,1.0,5
+protection services,1.0,5
+CFP,1.0,5
+habitability,1.0,5
+disaster preparedness,1.0,5
+small island communities,1.0,5
+Pacific region,1.0,5
+anticipatory adaptation,1.0,5
+Pacific Countries,1.0,5
+Fiji Islands,1.0,5
+small islands,0.9979343580171466,170
+Maldives,0.99412564076308,40
+Small Island Developing States,0.9812394852766025,21
+Solomon Islands,0.9651437672186403,26
+Caribbean,0.9642708621412494,66
+Vanuatu,0.960730820009247,20
+Indian Ocean,0.9558568093250044,17
+small island developing states,0.951127437951287,18
+Fiji,0.9492198921056437,35
+Pacific Islands,0.942220631418215,12
+Hurricane Maria,0.8961672674925332,10
+seawalls,0.8659739510175799,7
+SIDS,0.8512264610059449,18
+Micronesia,0.8107417115445203,8
+Puerto Rico,0.7969086887645782,23
+thermal stress,0.7785631885629618,5
+small island states,0.7706387778104676,9
+population exposure,0.7706387778104675,5
+culture,0.7676464403298173,5
+freshwater resources,0.754079235859973,5
+coastal erosion,0.7530680270604788,18
+human populations,0.7339966806721392,6
+coral bleaching,0.6932658439714752,10
+remittances,0.6536775571045705,5
+Tourism,0.6501241958985721,5
+Belize,0.636347966198536,7
+Madagascar,0.6271216354490182,7
+seagrasses,0.612759025333019,5

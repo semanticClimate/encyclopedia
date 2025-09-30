@@ -1,0 +1,155 @@
+keyword,tfidf,count
+hydropower production,1.0,25
+hydrological cycle,1.0,17
+streamflow,1.0,15
+transpiration,1.0,15
+water use,1.0,13
+groundwater storage,1.0,12
+agronomic practices,1.0,12
+heavy precipitation,1.0,11
+central Asia,1.0,11
+Irrigation,1.0,11
+river basins,1.0,11
+cultural water uses,1.0,11
+WEF,1.0,10
+sediment load,1.0,10
+water use efficiency,1.0,10
+water sources,1.0,9
+hydrological changes,1.0,9
+GCMs,1.0,9
+groundwater resources,1.0,9
+residual impacts,1.0,8
+Water Security,1.0,8
+annual mean precipitation,1.0,8
+WaSH,1.0,8
+traditional peoples,1.0,8
+outcomes,1.0,8
+cooperation,1.0,8
+adaptation outcomes,1.0,8
+Intergovernmental Panel on,1.0,8
+snowmelt,1.0,7
+Water security,1.0,7
+reforestation,1.0,7
+Water,1.0,7
+projected,1.0,7
+drinking water,1.0,7
+Evapotranspiration,1.0,7
+Soil Moisture,1.0,7
+low flows,1.0,7
+hydrological models,1.0,7
+CMIP5 GCMs,1.0,7
+household water insecurity,1.0,7
+irrigation expansion,1.0,7
+maladaptive outcomes,1.0,7
+NbS,1.0,7
+aquifers,1.0,6
+WaSH services,1.0,6
+hydrological extremes,1.0,6
+water adaptation,1.0,6
+carbon capture,1.0,6
+World Economic Forum,1.0,6
+Water insecurity,1.0,6
+environmental flow requirements,1.0,6
+global hydrological models,1.0,6
+aerosols,1.0,6
+glacier melt,1.0,6
+CO2 concentrations,1.0,6
+Permafrost,1.0,6
+Belgium,1.0,6
+North China Plain,1.0,6
+cropping patterns,1.0,6
+Switzerland,1.0,6
+western Europe,1.0,6
+Cyclone Amphan,1.0,6
+inundation,1.0,6
+Desalination,1.0,6
+disaster events,1.0,5
+socioeconomic factors,1.0,5
+heavy rainfall events,1.0,5
+meteorological drought,1.0,5
+climate risk reduction,1.0,5
+water use sectors,1.0,5
+global population,1.0,5
+snow cover,1.0,5
+SRCCL,1.0,5
+physical water scarcity,1.0,5
+CMIP5 climate models,1.0,5
+evaporation,1.0,5
+CO2,1.0,5
+cryosphere,1.0,5
+snowmelt floods,1.0,5
+hydrological drought,1.0,5
+Anthropogenic influence,1.0,5
+water consumption,1.0,5
+agricultural drought,1.0,5
+drought events,1.0,5
+Groundwater,1.0,5
+sedimentation,1.0,5
+semiarid regions,1.0,5
+ensemble members,1.0,5
+subtropics,1.0,5
+global GDP,1.0,5
+global agricultural models,1.0,5
+hygiene,1.0,5
+desalinated water,1.0,5
+dams,1.0,5
+soil moisture,0.9779254344164626,22
+water cycle,0.9547360702263151,17
+water sector,0.9467710269232111,19
+adaptation response,0.9260882589380868,13
+irrigation,0.9200502322117483,68
+water demand,0.9123924374726408,12
+hydropower generation,0.9099161868889417,11
+runoff,0.9049972597436435,12
+northern Europe,0.9049972597436435,10
+water insecurity,0.9023980025645378,23
+water security,0.8993994808336255,60
+extreme precipitation,0.8982022505433178,11
+groundwater,0.8939105244864021,14
+soil erosion,0.8806876735866378,21
+climate models,0.8752181936711262,14
+irrigated agriculture,0.8699484170636627,11
+knowledge gap,0.862292855352949,11
+cultural identity,0.8446043862221773,9
+adaptation responses,0.8426956573082434,19
+Hurricane Harvey,0.8341132309022254,17
+hydropower,0.8313112014661181,15
+agricultural sector,0.829644803038192,8
+water governance,0.8222509541921752,14
+water,0.8192238905841902,24
+rainfall variability,0.8184542248502725,10
+rainwater harvesting,0.7884935475134642,9
+groundwater recharge,0.7884935475134642,9
+water availability,0.7817915522084548,34
+flood protection,0.7816812798248716,9
+coping strategies,0.7754118429934141,9
+crop diversification,0.7751614620981259,7
+sanitation,0.7737910952164065,18
+freshwater species,0.7673310091102362,9
+water quality,0.7558994853865904,37
+water stress,0.7519581565585262,17
+land use changes,0.7443155239259668,6
+rainfall patterns,0.7443155239259668,6
+societal impacts,0.7373351526320564,8
+Anthropogenic climate change,0.7285724787996583,9
+permafrost degradation,0.7285724787996583,6
+tropics,0.7151631221592799,10
+water resources,0.706708419911686,37
+precipitation extremes,0.7060869543651654,6
+local communities,0.6943590840017666,17
+ts,0.6906700525890291,7
+polycentric governance,0.690670052589029,5
+anthropogenic forcing,0.6864629131188164,5
+glaciers,0.680531706411987,7
+uncertainties,0.6745943408676616,24
+capacity building,0.6732049674140445,9
+Finland,0.6712540597601875,9
+water scarcity,0.6644074850888942,44
+ecological knowledge,0.659107125550144,5
+freshwater ecosystems,0.6530041770850236,27
+river floods,0.650033943449854,9
+Smallholder farmers,0.6497095739763227,6
+river flooding,0.6255791444961772,6
+European Alps,0.6255791444961771,5
+permafrost,0.624804648556004,15
+hydrology,0.6049599751773669,10

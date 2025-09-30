@@ -1,0 +1,272 @@
+keyword,tfidf,count
+burned area,1.0,28
+Global change biology,1.0,25
+LULCC,1.0,21
+rivers,1.0,18
+boreal forests,1.0,18
+amphibians,1.0,18
+Forest Ecology and Management,1.0,17
+lakes,1.0,15
+tundra,1.0,15
+fire suppression,1.0,14
+extinction risk,1.0,14
+fire frequency,1.0,14
+ecosystem integrity,1.0,13
+refugia,1.0,13
+agricultural expansion,1.0,12
+Arctic permafrost,1.0,12
+ecosystem functioning,1.0,12
+freshwater systems,1.0,12
+Neglected Tropical Diseases,1.0,12
+Applied Ecology,1.0,12
+Conservation Biology,1.0,12
+Infectious Diseases,1.0,11
+The,1.0,11
+Freshwater Biology,1.0,11
+biomes,1.0,10
+streams,1.0,10
+wild animals,1.0,10
+Arctic tundra,1.0,10
+carbon sink,1.0,10
+Protected areas,1.0,10
+Freshwater Ecosystems,1.0,9
+woody encroachment,1.0,9
+insect outbreaks,1.0,9
+connectivity,1.0,9
+fire risk,1.0,9
+LUC,1.0,9
+butterflies,1.0,9
+tropical peatlands,1.0,9
+fire regimes,1.0,9
+Restoration Ecology,1.0,9
+ecology,1.0,9
+Parasitology,1.0,9
+vectors,1.0,8
+population extinctions,1.0,8
+wild species,1.0,8
+water temperature,1.0,8
+temperate regions,1.0,8
+disease incidence,1.0,8
+tropical ecosystems,1.0,8
+livestock grazing,1.0,8
+CO2 fertilisation,1.0,8
+fire activity,1.0,8
+temperate forests,1.0,8
+vegetation cover,1.0,8
+Mediterranean Europe,1.0,8
+SDMs,1.0,8
+Geophysical Research,1.0,8
+Biological,1.0,8
+biome shifts,1.0,7
+woody vegetation,1.0,7
+recreation,1.0,7
+animal species,1.0,7
+albedo,1.0,7
+dispersal,1.0,7
+habitat fragmentation,1.0,7
+maximum temperatures,1.0,7
+river systems,1.0,7
+bark beetles,1.0,7
+body size,1.0,7
+disease risk,1.0,7
+timber harvesting,1.0,7
+woody cover,1.0,7
+western North America,1.0,7
+woody plant encroachment,1.0,7
+Durban,1.0,7
+tree planting,1.0,7
+Microbiology,1.0,7
+Forest Ecology,1.0,7
+Global Ecology,1.0,7
+Landscape Ecology,1.0,7
+Biological Conservation,1.0,7
+taxonomic groups,1.0,6
+exotic species,1.0,6
+chytrid fungus,1.0,6
+endemic species,1.0,6
+regional climate change,1.0,6
+water supplies,1.0,6
+carbon dynamics,1.0,6
+salamanders,1.0,6
+insect pest outbreaks,1.0,6
+vegetation changes,1.0,6
+functional diversity,1.0,6
+savanna,1.0,6
+temperate peatlands,1.0,6
+land cover change,1.0,6
+nutrient cycling,1.0,6
+carbon stocks,1.0,6
+water storage,1.0,6
+freshwater biodiversity,1.0,6
+erosion control,1.0,6
+Heat waves,1.0,6
+breeding success,1.0,6
+heat tolerance,1.0,6
+dragonflies,1.0,6
+abundances,1.0,6
+mosquitoes,1.0,6
+reptiles,1.0,6
+fauna,1.0,6
+tree species,1.0,6
+land area,1.0,6
+carbon cycle,1.0,6
+global burned area,1.0,6
+ENSO,1.0,6
+African Sahel,1.0,6
+Tree mortality,1.0,6
+carbon uptake,1.0,6
+Peatlands,1.0,6
+methane emissions,1.0,6
+carbon fluxes,1.0,6
+Climate factors,1.0,6
+natural environment,1.0,6
+ecosystem restoration,1.0,6
+Natural England,1.0,6
+national park,1.0,6
+AFAC,1.0,6
+Earth System Science Data,1.0,6
+Ecohydrology,1.0,6
+American Meteorological Society,1.0,6
+vulnerable species,1.0,5
+ticks,1.0,5
+grazing,1.0,5
+Terrestrial ecosystems,1.0,5
+Tropical forests,1.0,5
+GSAT,1.0,5
+Biodiversity loss,1.0,5
+Ecosystem services,1.0,5
+recovery,1.0,5
+ecosystem processes,1.0,5
+water purification,1.0,5
+species extinctions,1.0,5
+climate changes,1.0,5
+top predators,1.0,5
+climate change attribution,1.0,5
+water temperatures,1.0,5
+Tropics,1.0,5
+IUCN Red List,1.0,5
+ectotherms,1.0,5
+snails,1.0,5
+human infectious diseases,1.0,5
+local adaptation,1.0,5
+corridors,1.0,5
+grassland,1.0,5
+nitrogen deposition,1.0,5
+northern peatlands,1.0,5
+drainage,1.0,5
+carbon loss,1.0,5
+Woody encroachment,1.0,5
+Animals,1.0,5
+Browning,1.0,5
+dissolved organic matter,1.0,5
+southwestern USA,1.0,5
+fossil fuels,1.0,5
+tropical rainforests,1.0,5
+carbon source,1.0,5
+Wildfire,1.0,5
+observations,1.0,5
+extinction,1.0,5
+carbon cycling,1.0,5
+permafrost peatlands,1.0,5
+global climate,1.0,5
+Protected Areas,1.0,5
+global protected area,1.0,5
+vegetation dynamics,1.0,5
+natural habitats,1.0,5
+limited evidence,1.0,5
+African penguins,1.0,5
+income benefits,1.0,5
+Tasmanian Wilderness World Heritage Area,1.0,5
+sustainable management,1.0,5
+Joshua Tree National Park,1.0,5
+ecological restoration,1.0,5
+peatland restoration,1.0,5
+Integrated landscape management,1.0,5
+Biogeosciences,1.0,5
+Hydrological Processes,1.0,5
+Sierra Nevada,1.0,5
+Geospat Health,1.0,5
+Land Degradation,1.0,5
+Global Change,1.0,5
+Global Biogeochemical Cycles,1.0,5
+Limnology,1.0,5
+Nature,1.0,5
+Veterinary Parasitology,1.0,5
+Earth System Dynamics,1.0,5
+Land Use,1.0,5
+tree mortality,0.9830219461442391,76
+peatlands,0.9791889738892234,32
+Global Change Biology,0.9766042436460285,119
+birds,0.9728135208834539,32
+United States of America,0.9717382326405596,33
+fire,0.964952651547402,29
+savannas,0.9611468307618289,26
+National Academy of Sciences,0.955742574784009,86
+mammals,0.9449910632255571,22
+evapotranspiration,0.9348214857443934,14
+grasslands,0.9272074659149991,20
+Total Environment,0.92355810798912,26
+wildfire,0.9130289976929674,50
+permafrost thaw,0.9066486569273554,17
+tropical forests,0.9010866746428661,26
+natural ecosystems,0.8900605348593019,11
+EbA,0.871652293393633,29
+CO2 emissions,0.8666068916785703,10
+Remote Sensing,0.8643356903589189,11
+carbon emissions,0.8467994014522953,11
+climate warming,0.8454009557133758,34
+IPBES,0.842356757663159,9
+plasticity,0.8374031970187099,10
+boreal forest,0.8372788653751714,9
+vegetation,0.8281286093476814,11
+animals,0.8269605310063505,8
+species composition,0.8222053376140468,11
+Distributions,0.8126991481414058,11
+Diversity,0.8126991481414058,11
+insects,0.8060931870537157,13
+protected areas,0.8053885202390447,56
+reindeer,0.796726429855034,8
+biodiversity,0.7963003346871571,172
+hydrology,0.7962558812551401,14
+Northern Hemisphere,0.769526317271725,11
+species,0.7638043196377425,12
+evolution,0.7634020037935224,9
+evolutionary responses,0.7408768374674961,6
+anthropogenic climate change,0.7318721068213689,53
+humans,0.731344045645648,13
+Amazon rainforest,0.7234245957396106,12
+carbon storage,0.7177311767477013,19
+fire weather,0.7121313378873755,8
+freshwater ecosystems,0.7048746050511759,31
+deforestation,0.6870592074541092,40
+Biodiversity,0.6865568632841353,35
+global change,0.6858921244833555,10
+conservation,0.6854343268795412,20
+Anthropogenic climate change,0.6849687169029851,9
+permafrost degradation,0.684968716902985,6
+local extinction,0.6839200687219176,5
+Environmental Management,0.6821572839276197,11
+species range shifts,0.6767523563492642,5
+IUCN,0.6767523563492642,5
+restoration,0.6767523563492641,8
+cyanobacteria,0.6767523563492641,6
+primary productivity,0.666553785809393,9
+invasive species,0.6631017468476686,21
+aridity,0.649444171034674,10
+forest fires,0.6479680018970658,5
+Global warming,0.6479680018970658,5
+thermal tolerance,0.6469960117782678,12
+biodiversity loss,0.645290614190646,9
+biodiversity conservation,0.6447912410356124,13
+ecosystems,0.6445541808459057,57
+freshwater species,0.6412512163402627,8
+Management,0.640355130237666,9
+heat waves,0.6379608009633502,21
+ecosystem function,0.6374430226192545,9
+arid regions,0.6359067125398552,5
+Arid Environments,0.6263690875216812,6
+genetic diversity,0.6188910703767789,6
+EcoHealth,0.6156494630544654,7
+Ecosystem Services,0.6099907644653567,22
+wildlife,0.6054736313779668,6
+fire management,0.6054736313779668,5
