@@ -1,0 +1,18 @@
+digraph Pygetpapers_Workflow {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontname="Helvetica"];
+
+    start [label="Start", shape=oval, style=filled, fillcolor=lightgrey];
+    query [label="User provides query\n(e.g., 'carbon capture')"];
+    search [label="Search Europe PMC,PubMet,bioRxiv,arXiv,OpenAlex"];
+    metadata [label="Fetch metadata:\n- Title\n- Authors\n- Abstract\n- DOI"];
+    availability [label="Check full-text availability"];
+    download [label="Download papers\n(XML / PDF / HTML)"];
+    save [label="Save output to folder"];
+    end [label="corpus created", shape=oval, style=filled, fillcolor=lightblue];
+
+    start -> query -> search -> metadata -> availability;
+    availability -> download [label="Available"];
+    availability -> save [label="Metadata only", style=dashed];
+    download -> save -> end;
+}

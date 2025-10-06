@@ -1,0 +1,29 @@
+// pipeline2.dot
+// Graphviz DOT file for structured corpus understanding pipeline
+// Title: Search query -> PyGetPapers -> Corpus -> Keyword Extraction -> General/Specific File + Wikidata Classification -> Dictionary (AMiLib)
+
+digraph {
+    rankdir=TB;
+    labelloc="t";
+    label="Pipeline: Structured Corpus Understanding";
+    fontsize=16;
+
+    node [shape=rectangle, style=filled, fontname="Helvetica"];
+
+    UseCase [label="Use Case:\nUnderstand Your Corpus", shape=note, fillcolor="#FFF2A8"];
+    SearchQuery [label="Search Query\n(user input)", fillcolor="#FFF2A8"];
+    pygetpapers [label="pygetpapers\n(download papers)", fillcolor="#C6E7B9"];
+    Corpus [label="Corpus", shape=folder, fillcolor="#F0E6FF"];
+    KeyphrasesExtraction [label="Keyphrases Extraction\n(amilib)", fillcolor="#FFD8D8"];
+    GenSpecFile [label="General/Specific File\n(classification output)", fillcolor="#FFE6CC"];
+    Dictionary [label="Dictionary Creation\n(amilib)", fillcolor="#FFD6F0"];
+
+    // Flow
+    UseCase -> SearchQuery -> pygetpapers -> Corpus -> KeyphrasesExtraction;
+    KeyphrasesExtraction -> GenSpecFile;
+    {GenSpecFile} -> Dictionary;
+
+    // Styling
+    edge [arrowhead=vee];
+    node [fontcolor="#222222"];
+}
