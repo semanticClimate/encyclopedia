@@ -1,0 +1,25 @@
+digraph EncyclopediaWorkflow {
+
+    rankdir=LR;
+    bgcolor="white";
+    node [shape=rectangle, style=filled, fillcolor="#EAF3FC", fontname="Helvetica", fontsize=12, color="#4285F4"];
+
+    // Input Nodes
+    Manual [label="Manual Phrase Input\n(User enters phrases)", shape=rectangle, fillcolor="#CFE8FC"];
+    Automatic [label="Automatic Phrase Generation\n(AI/NLP extraction)", shape=rectangle, fillcolor="#CFE8FC"];
+
+    // Processing Node
+    AMILIB [label="AMILIB\n(Processes Phrases & Generates Entries\nusing Wikipedia, Wikibase, Wikidata)", shape=rectangle, fillcolor="#B7D3F2"];
+
+    // Output Node
+    Encyclopedia [label="Encyclopedia Generation\n• CRUD operations\n• Search functionality\n• Download book-style PDF/HTML", shape=rectangle, fillcolor="#A2C2E3"];
+
+    // Edges
+    Manual -> AMILIB [label="Manual phrases", color="#4285F4"];
+    Automatic -> AMILIB [label="Automatic phrases", color="#4285F4"];
+    AMILIB -> Encyclopedia [label="Generated encyclopedia entries", color="#4285F4"];
+
+    // Title
+    labelloc="t";
+    label="Phrases → AMILIB → Encyclopedia Workflow";
+}
