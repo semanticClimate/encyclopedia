@@ -51,5 +51,6 @@ The encyclopedia utilizes a **knowledge graph** to represent relationships among
 The entire encyclopedia can be **exported as HTML or in a book-style format**, allowing users to **download and access** the content offline for reference or academic use.
 
 ## **4 Workflow**
-<img width="1278" height="165" alt="image" src="https://github.com/user-attachments/assets/8a1756f2-a8d0-4ac8-97e5-8ff74a6f25b2" />
+<img width="1280" height="165" alt="image" src="https://github.com/user-attachments/assets/1aaa3765-e3fd-4046-989d-c6a36d97aadf" />
+
 
