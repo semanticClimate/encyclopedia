@@ -1,0 +1,12 @@
+digraph AmiLib_Workflow {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontname="Helvetica"];
+
+    start [label="Start", shape=oval, style=filled, fillcolor=lightgrey];
+    input [label="Input Keyword list"];
+    amilib [label="Use amilib"];
+    dictionary [label="Uses wikidata to create dictionary"];
+    end [label="Enclyopedia created", shape=oval, style=filled, fillcolor=lightblue];
+
+    start -> input -> amilib -> dictionary -> end;
+}

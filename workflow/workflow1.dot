@@ -6,8 +6,8 @@ digraph KeywordExtractionWorkflow {
     A [label="HTML Documents"];
     B [label="Convert HTML to Text"];
     C [label="Load Text Files"];
-    D [label="Extract Keywords using TF-IDF"];
-    E [label="Classify Keywords\n(General / Specific)"];
+    D [label="Extract Keywords"];
+    E [label="Classify Keywords\n(General / Specific) using TF-IDF"];
     
     // Edges
     A -> B -> C -> D -> E;

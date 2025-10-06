@@ -1,0 +1,33 @@
+// pipeline1.dot
+// Graphviz DOT file for the iterative corpus refinement pipeline
+// Title: Search query -> PyGetPapers -> Corpus -> Keyword Extraction -> Top-20 general words -> Refine Query
+
+digraph pipeline1 {
+    rankdir=LR;
+    labelloc="t";
+    label="Iterative Corpus Refinement Pipeline (corpus is very big)";
+    fontsize=16;
+
+    node [shape=rectangle, style=filled, fillcolor="#DDEEFF", fontname="Helvetica"];
+    SearchQuery [label="Search Query\n(user input)", fillcolor="#FFF2A8"];
+    PyGetPapers [label="PyGetPapers\n(download papers)", fillcolor="#C6E7B9"];
+    Corpus [label="Corpus\n(very large)", shape=folder, fillcolor="#F0E6FF"];
+    KeywordExtraction [label="Keyword Extraction\n(AMiLib + NLP)", fillcolor="#FFD8D8"];
+    Top20General [label="Top-20 General Words\n(automatically selected)", fillcolor="#FFE6CC"];
+    RefineQuery [label="Refine Query\n(build enriched query from Top-20)", fillcolor="#E6F7FF"];
+
+    // Edges
+    SearchQuery -> PyGetPapers -> Corpus -> KeywordExtraction -> Top20General -> RefineQuery;
+
+    // Feedback loop: refined query back into PyGetPapers
+    RefineQuery -> PyGetPapers [style=dashed, color="#555555", label="enriched query\n(re-run)", fontsize=10];
+
+    // Optional: human-in-the-loop or classifier for scaling
+    HumanCheck [label="(Optional) Relevance Filter\n(semi-automated TP/FP)", shape=diamond, fillcolor="#FFD6F0"];
+    Corpus -> HumanCheck [style=dotted];
+    HumanCheck -> KeywordExtraction [style=dotted];
+
+    // Styling
+    edge [arrowhead=vee];
+    node [fontcolor="#222222"];
+}
