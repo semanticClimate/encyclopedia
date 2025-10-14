@@ -1,0 +1,13 @@
+digraph extract_keywords_flow {
+    rankdir=LR; // Left to right layout
+    bgcolor="white";
+    node [shape=rectangle, style=rounded, fontsize=14, fontname="Helvetica", width=2.5, height=1.2];
+
+    txt_input [label="📄 TXT Files\n/content/txt2phrases/txt_files"];
+    extract_tool [label="🛠️ extract_keywords\nExtract important keyphrases"];
+    keyphrases_output [label="🔑 Keyphrases\nImportant phrases extracted"];
+
+    // Arrows
+    txt_input -> extract_tool [label="Analyze Text", fontsize=14];
+    extract_tool -> keyphrases_output [label="Generate Keyphrases", fontsize=14];
+}

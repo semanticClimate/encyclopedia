@@ -1,0 +1,40 @@
+digraph WhyDoThis {
+  rankdir=LR;
+  bgcolor="white";
+  node [shape=plaintext, fontname="Helvetica"];
+  labelloc="t";
+  label=<<B><FONT POINT-SIZE="20">Why Are We Doing This?</FONT></B>>;
+
+  /* Left panel: Create a Corpus */
+  subgraph cluster_create {
+    label=<<B><FONT POINT-SIZE="14">1️⃣ Create a Corpus</FONT></B>>;
+    style="rounded,filled";
+    color="#bfdff6";
+    fillcolor="#ebf6ff";
+    node [shape=plaintext];
+    create_node [label=<
+      <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="6">
+        <TR><TD><FONT POINT-SIZE="30">📂📄📚</FONT></TD></TR>
+        <TR><TD><FONT POINT-SIZE="14">Gather research papers and build a structured<br/>collection of knowledge.</FONT></TD></TR>
+      </TABLE>
+    >];
+  }
+
+  /* Right panel: Understand the Corpus */
+  subgraph cluster_understand {
+    label=<<B><FONT POINT-SIZE="14">2️⃣ Understand the Corpus</FONT></B>>;
+    style="rounded,filled";
+    color="#dfefff";
+    fillcolor="#f2f9ff";
+    node [shape=plaintext];
+    understand_node [label=<
+      <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="6">
+        <TR><TD><FONT POINT-SIZE="30">🔍🧠</FONT></TD></TR>
+        <TR><TD><FONT POINT-SIZE="14">Extract insights, key phrases, and concepts<br/>from the collected data.</FONT></TD></TR>
+      </TABLE>
+    >];
+  }
+
+  /* Arrow showing progression */
+  create_node -> understand_node [arrowhead="vee", color="#3b82f6", penwidth=2, label=< <FONT POINT-SIZE="10">Analyze → Extract</FONT> >];
+}

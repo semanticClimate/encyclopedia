@@ -1,0 +1,45 @@
+// amilib_pipeline.gv
+digraph AMILIB_Pipeline {
+  rankdir=TB;
+  graph [splines=ortho, nodesep=0.6, ranksep=0.8];
+
+  // node styles
+  node [shape=rect, style="rounded,filled", fillcolor="#F7F9FC", color="#2B6CB0", fontname="Helvetica", fontsize=12];
+  edge [color="#4A5568", arrowhead=vee, penwidth=1.2];
+
+  // nodes
+  paper      [label="Research Paper / Text", shape=rect, fillcolor="#E6F0FF"];
+  keyphrase  [label="Keyphrase Extraction\n(Manual / Automated)", shape=rect, fillcolor="#FFF7E6"];
+  wordlist   [label="Word List (.txt)\nActs as input for AMILib", shape=rect, fillcolor="#E8FFF0"];
+  amilib     [label="AMILIB CLI\n(ami_dict)\n--operation create\n--description wikipedia", shape=rect, fillcolor="#FFF0F6"];
+  dict       [label="Dictionary Created\n(.xml / .html)\n+ Wikipedia Summaries", shape=rect, fillcolor="#FEF3C7"];
+  output     [label="Encyclopedia Output\n(Structured, Linked HTML)", shape=rect, fillcolor="#EDF7FF"];
+
+  // helper / metadata nodes
+  notes      [label="Optional:\n- validate XML\n- add cross-links\n- export formats (HTML/JSON)", shape=note, fontsize=11, fontcolor="#2D3748", fillcolor="#FFFFFF", style="filled", color="#CBD5E0"];
+  // use invisible nodes to force ordering/spacing if needed
+  subgraph cluster_0 {
+    label = "";
+    style = "rounded";
+    color = "#E2E8F0";
+    paper; keyphrase; wordlist; amilib; dict; output;
+  }
+
+  // edges (flow)
+  paper -> keyphrase;
+  keyphrase -> wordlist;
+  wordlist -> amilib;
+  amilib -> dict;
+  dict -> output;
+
+  // optional validation branch
+  dict -> notes [style=dashed, label="quality checks", fontsize=10];
+
+  // layout hints: keep main flow in a single vertical rank
+  { rank = same; paper; }
+  { rank = same; keyphrase; }
+  { rank = same; wordlist; }
+  { rank = same; amilib; }
+  { rank = same; dict; }
+  { rank = same; output; }
+}

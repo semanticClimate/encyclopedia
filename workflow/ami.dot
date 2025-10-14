@@ -1,0 +1,13 @@
+digraph wordlist_to_amilib {
+    rankdir=LR; // Left to right
+    bgcolor="white";
+    node [shape=rectangle, style=rounded, fontsize=14, fontname="Helvetica", width=2.5, height=1.2];
+
+    wordlist [label="📝 Wordlist\nExtracted keywords/phrases"];
+    amilib [label="🤖 AmiLib\nAnnotate & organize"];
+    encyclopedia [label="📚 Encyclopedia\nStructured knowledge output"];
+
+    // Arrows
+    wordlist -> amilib [label="Pass to AmiLib", fontsize=14];
+    amilib -> encyclopedia [label="Generate Encyclopedia", fontsize=14];
+}

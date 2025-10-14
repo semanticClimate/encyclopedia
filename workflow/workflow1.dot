@@ -1,5 +1,5 @@
 digraph KeywordExtractionWorkflow {
-    rankdir=TB;  // Top to Bottom layout
+    rankdir=LR;  // Top to Bottom layout
     node [shape=box, style=filled, color=lightblue];
 
     // Nodes
@@ -7,8 +7,7 @@ digraph KeywordExtractionWorkflow {
     B [label="Convert HTML to Text"];
     C [label="Load Text Files"];
     D [label="Extract Keywords"];
-    E [label="Classify Keywords\n(General / Specific) using TF-IDF"];
     
     // Edges
-    A -> B -> C -> D -> E;
+    A -> B -> C -> D;
 }
