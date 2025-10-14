@@ -1,0 +1,39 @@
+digraph pygetpapers_corpus {
+    rankdir=LR;
+    bgcolor="white";
+    node [shape=plaintext, fontname="Helvetica"];
+    labelloc="t";
+    label="Pygetpapers: Query to Corpus";
+
+    /* Node: Query input */
+    query [label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="6">
+            <TR><TD><FONT POINT-SIZE="30">🔍</FONT></TD></TR>
+            <TR><TD><B>Query Input</B></TD></TR>
+            <TR><TD>Enter search terms to fetch papers</TD></TR>
+        </TABLE>
+    >];
+
+    /* Node: Pygetpapers fetch */
+    fetch [label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="6">
+            <TR><TD><FONT POINT-SIZE="30">📄📂</FONT></TD></TR>
+            <TR><TD><B>Pygetpapers Fetch</B></TD></TR>
+            <TR><TD>Downloads research papers based on query</TD></TR>
+        </TABLE>
+    >];
+
+    /* Node: Corpus */
+    corpus [label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="6">
+            <TR><TD><FONT POINT-SIZE="30">📚🗂️</FONT></TD></TR>
+            <TR><TD><B>Corpus</B></TD></TR>
+            <TR><TD>Structured collection of research papers</TD></TR>
+        </TABLE>
+    >];
+
+
+    /* Arrows showing flow (plain text labels) */
+    query -> fetch [label="Search"];
+    fetch -> corpus [label="Download & Organize"];
+}

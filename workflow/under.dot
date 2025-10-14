@@ -1,0 +1,15 @@
+digraph understand_corpus {
+    rankdir=LR;  // Left to right layout
+    bgcolor="white";
+    node [shape=rectangle, style=rounded, fontsize=16, fontname="Helvetica", width=2.5, height=1.2];
+
+    corpus [label="Corpus\nStructured papers"];
+    txt2phrases [label="txt2phrases\nExtract key phrases"];
+    amilib [label=" amilib\nCreate the Encyclopedia"];
+  
+
+    // Flow arrows
+    corpus -> txt2phrases [label="Analyze", fontsize=14];
+    txt2phrases -> amilib [label="Annotate", fontsize=14];
+}
+

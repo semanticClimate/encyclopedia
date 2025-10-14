@@ -1,0 +1,13 @@
+digraph html2txt_flow {
+    rankdir=LR; // Left to right
+    bgcolor="white";
+    node [shape=rectangle, style=rounded, fontsize=16, fontname="Helvetica", width=2.5, height=1.2];
+
+    html_input [label="🌐 HTML Files\n/content/txt2phrases/html_files"];
+    html2txt_tool [label="🛠️ html2txt\nConvert HTML → Text"];
+    txt_output [label="📄 TXT Files\n/content/txt2phrases/txt_files"];
+
+    // Arrows
+    html_input -> html2txt_tool [label="Process HTML", fontsize=16];
+    html2txt_tool -> txt_output [label="Save as TXT", fontsize=16];
+}
