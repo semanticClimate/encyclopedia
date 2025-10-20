@@ -1,0 +1,58 @@
+15:39:41 This is about…
+15:39:44 Uh, the use of, uh…
+15:39:46 Large language models and who owns what.
+15:39:51 So, in the last 5 years,
+15:39:55 A new technology has developed, or rather, a fairly old technology has been brought to
+15:40:02 Um, production, uh, where it's possible to scrape
+15:40:06 The whole of, um…
+15:40:09 published knowledge, uh, if you can get it, and if you're large enough and have the resources to it,
+15:40:16 Uh, you scrape this, and you condense it into something called Large Language Models, which
+15:40:22 I won't go into here.
+15:40:24 But I've had some, um…
+15:40:26 involvement with.
+15:40:29 Uh, these models, uh,
+15:40:32 a condensation of the material that comes in,
+15:40:35 So, information is lost during this process.
+15:40:39 Um, and, um…
+15:40:41 Therefore, what comes out of it
+15:40:44 Uh, may include inaccuracies,
+15:40:47 Uh, it may, uh, include
+15:40:50 a hallucinations,
+15:40:52 Uh, where the, um, large language model system
+15:40:55 makes up answers.
+15:40:58 that are linguistically plausible, but make no sense, or are completely untrue.
+15:41:06 Uh, however, these are sufficiently valuable that
+15:41:10 a very large number of people are using them, and they're becoming mainstream.
+15:41:15 So, can we do anything about this? Should we do anything about it?
+15:41:22 In principle, our copyright
+15:41:25 should prevent, uh, the, uh, reuse of this material as
+15:41:30 Uh, derivative… do we have a…
+15:41:32 Sorry, as derivative works.
+15:41:35 But, um,
+15:41:37 The only way that we can find out whether they are derivative works
+15:41:42 Uh, is to have it answered in a court, and of course,
+15:41:46 Um, it depends what jurisdiction you're in.
+15:41:49 Um, and, um…
+15:41:52 How far that, uh, extends. So, it's a complex matter.
+15:41:57 Uh, and one that very few individuals
+15:41:59 can become involved with.
+15:42:02 So, in practice, uh, the large language model systems
+15:42:08 Uh, can ride rough… roughshot over
+15:42:10 Um, our, uh, knowledge?
+15:42:13 And they can do what they like with it.
+15:42:18 There are many downsides to this.
+15:42:22 Uh, the authorship of the material is
+15:42:25 often, or usually not referenced.
+15:42:29 So, in other words, we can't say…
+15:42:31 who wrote it. Uh, they may take our material and
+15:42:36 Um, assert our authorship of it,
+15:42:40 Um, when it's combined with something else, so people have found their voices.
+15:42:45 Um, and their face is associated with material that they did not create.
+15:42:52 Um, and coming back to the largely textual approach of
+15:42:57 Open access, um, we can expect a large amount of
+15:43:02 material which is
+15:43:05 Uh… a composite.
+15:43:07 of, uh, the scrape material, and may or may not be trustable.
+15:43:12 Um, in detail.
+15:43:15 So, I…
+15:43:18 I don't see any end to this.

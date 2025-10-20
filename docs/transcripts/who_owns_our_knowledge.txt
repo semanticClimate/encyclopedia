@@ -1,0 +1,120 @@
+15:25:43 Who owns our knowledge?
+15:25:47 is dictated by Peter Murray Rust, and doesn't represent
+15:25:51 Uh, anyone else's views.
+15:25:55 Who owns our knowledge?
+15:25:59 The sad answer is not us.
+15:26:03 That's if we're talking about academic publications,
+15:26:07 And much associated with them.
+15:26:11 About…
+15:26:13 60 years ago,
+15:26:15 A decision was taken somewhere, I don't know where.
+15:26:19 that academic authors
+15:26:22 would hand over the copyright of their material to the publisher.
+15:26:28 Now, I remember this in about…
+15:26:30 Um, 1970, I published my first paper in 1966.
+15:26:36 And I certainly didn't hand over copyright then.
+15:26:40 Uh, but by the time…
+15:26:42 Um, uh, of the early 70s, it started to become common
+15:26:48 Um, that authors were
+15:26:51 urged or required to hand their copyright over to publishers.
+15:26:56 And that means that they have, essentially,
+15:26:59 Uh, no control over what happens to that knowledge.
+15:27:04 Um, after…
+15:27:05 The, um…
+15:27:08 copyright has been handed over.
+15:27:11 Uh, there may be some form of contract, I'm not sure as I saw it in the early years.
+15:27:16 Uh, which says that the publisher will publish your material, uh, but by default,
+15:27:23 The copyright owner owns the material and can do whatever they like with it.
+15:27:29 Now…
+15:27:31 That's a very unsatisfactory situation, because nobody understands
+15:27:37 exactly what one can do, and what one can't do. By default,
+15:27:41 Um, the only, uh, thing that the author retains is the right to be known as the author of the material.
+15:27:49 But not to control the material.
+15:27:52 So, you cannot take your, um…
+15:27:56 article, and publish
+15:27:58 Uh, bits of it in book.
+15:28:01 or publish it in some other way, or rework it, make a film from it, or anything of that sort.
+15:28:09 Um, and the problem is, uh, that the means of controlling this is through a copyright license.
+15:28:18 Now, copyright is complex, and I don't intend to go into it all here.
+15:28:23 But basically, it's a legal contract, not a law, except in some jurisdictions.
+15:28:29 But in most jurisdictions, uh, it's not a law.
+15:28:33 Um, it…
+15:28:36 allows, uh, for the copyright holder
+15:28:40 to, um, Nick, uh…
+15:28:42 to take the copyright
+15:28:45 Breacher, or the alleged breacher,
+15:28:47 to court, um, and exact, uh, recompense, uh, for the breach of copyright.
+15:28:55 That's not very satisfactory. It makes it very difficult
+15:29:00 or anything other than the publisher to control the knowledge. And we're now in a situation
+15:29:06 some 50 years on, where effectively the control of our knowledge is completely in the hands
+15:29:14 of, uh, publishers.
+15:29:17 Now, these publishers are not…
+15:29:19 Uh, the scholarly societies that I grew up with,
+15:29:24 Um, uh, the Royal Society of Chemistry, um,
+15:29:29 Uh, the, uh, Scandinavian
+15:29:32 Journal of Science and things of that sort. They are megacorporations.
+15:29:38 Whose motivation is to maximize their income for the shareholders.
+15:29:42 And so, this material that we hand over is seen
+15:29:46 Um, as, uh, raw material,
+15:29:50 To the publishers for generating income.
+15:29:53 Uh, they have a moral duty, which some of them
+15:29:57 fulfill better than others, uh, to…
+15:30:01 make it, uh, available to the world.
+15:30:03 Uh, but they have no legal responsibility to do that.
+15:30:07 Uh, except for the contract which the author might have signed
+15:30:12 And has probably forgotten the details of.
+15:30:14 So, in practice, a very large amount of today's material
+15:30:20 is owned by
+15:30:22 the publishers.
+15:30:25 The situation is even more messy, uh, because
+15:30:30 Uh, the precise definition of what can and can't be done is a legal matter.
+15:30:37 And is, uh, formally dealt with in a license.
+15:30:41 Now, many publishers do not give
+15:30:46 Um, a normal license, uh,
+15:30:49 to the, um…
+15:30:51 author, uh, and…
+15:30:54 Essentially, um, the authors have… the publishers have
+15:30:58 Complete control of what they do.
+15:31:01 Uh, they may even forbid the author to reuse their work.
+15:31:07 The only saving grace here, and it's a relatively small one,
+15:31:11 is that Creative Commons, which is a wonderful organization,
+15:31:16 Uh, and which I fully support, and, um…
+15:31:21 was Paul Chov at one stage.
+15:31:23 Um, has come up with formal licenses, uh, which, uh,
+15:31:28 So, what can and what can't be done?
+15:31:31 Uh, with the material, uh, that is copyrighted.
+15:31:35 Um, and I think Creative Commons
+15:31:38 But having created these licenses, because they're the only thing…
+15:31:43 that exist, that allows us to preserve
+15:31:47 Alright, in this situation.
+15:31:51 So,
+15:32:01 So, when we look at what
+15:32:04 can and can't be done.
+15:32:05 Uh, with the material.
+15:32:08 Um, it's almost always
+15:32:11 Uh, poorly defined as far as the average author is concerned.
+15:32:15 And also, there are publishers who, uh, wish to take advantage of
+15:32:21 Uh, this, even though the copyright forbids them to do it. So…
+15:32:26 Many years ago, about 15 years ago,
+15:32:29 Uh, there was a situation where Springer copyrighted all the images
+15:32:34 Uh, that it published.
+15:32:36 Even if these were in
+15:32:38 Um, open access journals under a Creative Commons license.
+15:32:43 And they would try and sell these images
+15:32:47 for up to $50.
+15:32:49 Um, now, I pointed that out.
+15:32:52 Um, I got a number of people on my side.
+15:32:56 Uh, such as, uh, Wikimedia, who were also appalled at this situation, and gradually,
+15:33:02 We pulled that back, but…
+15:33:04 Uh, in general, uh, very few authors care… knew about this, very few authors cared about it.
+15:33:11 So, um, there is very little effective defense
+15:33:16 to the breach of copyright.
+15:33:18 Uh, by the publishers. It's normally
+15:33:21 on the basis of individual
+15:33:23 Uh, breaches, um, and the, um, amount of effort that an author has to put in.
+15:33:29 Uh, and the reward that they get
+15:33:32 is not worth it to challenge, uh, these breaches of copyright. So, the misuse of scholarly information
+15:33:40 by publishers is large and continues.
+15:33:48 What is happening now, um, is…
+15:33:53 change about 5 years ago with the advent of large language models, and I'll come to that
+15:33:59 Uh, in another of these blocks.
