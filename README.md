@@ -2,6 +2,11 @@
 
 A comprehensive toolset for extracting and analyzing keywords from scientific documents, with a focus on climate change research and IPCC reports.
 
+## Example and info
+
+  - [Demo book](https://vivliostyle.org/viewer/#src=https://github.com/semanticClimate/demo_book/blob/main/manifest.jsonld)
+  - [Blogpost](https://semanticclimate.github.io/p/en/posts/climate_encyclopedia/)
+
 ## Project Overview
 
 This project consists of two main subprojects that work together to process scientific documents and extract meaningful insights:
