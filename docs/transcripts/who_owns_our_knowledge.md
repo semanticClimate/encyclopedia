@@ -66,4 +66,4 @@ So, the misuse of scholarly information by publishers is large and continues.
 
 ## The Future
 
-What is happening now is change about 5 years ago with the advent of large language models, and I'll come to that in another of these blocks.
+What is happening now changed about 5 years ago with the advent of large language models, and I'll come to that in another of these blogs.
