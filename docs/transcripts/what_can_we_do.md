@@ -6,11 +6,11 @@
 
 In a previous session, I showed that we do not own our knowledge, or at least a large part of it. So, what are we going to do about it?
 
-I think there are the following things that are possible.
+I think the following things that are possible.
 
 ## Political Solutions
 
-One is political. We can get the situation changed whereby, by law and by governmental action, in terms of funding and so on, we can transfer the ownership of our knowledge back to ourselves.
+We can get the situation changed whereby, by law and by governmental action, in terms of funding and so on, we can transfer the ownership of our knowledge back to ourselves.
 
 This is going to be difficult because we're facing a mega million or billion dollar industry. The value of taking our knowledge from us, preventing us using it, and using it for its own purposes exceeds the cost of maintaining this system.
 
