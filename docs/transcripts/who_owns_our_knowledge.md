@@ -4,7 +4,7 @@
 
 ## The Problem
 
-The sad answer is not us. That's if we're talking about academic publications and much associated with them.
+The sad answer: not us. That's if we're talking about academic publications and much associated with them.
 
 About 60 years ago, a decision was taken somewhere, I don't know where, that academic authors would hand over the copyright of their material to the publisher.
 
