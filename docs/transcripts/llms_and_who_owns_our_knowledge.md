@@ -1,6 +1,6 @@
 # Large Language Models and Who Owns Our Knowledge
 
-*This transcript is dictated by Peter Murray Rust and doesn't represent anyone else's views.*
+*This transcript is dictated by Peter Murray-Rust and doesn't represent anyone else's views.*
 
 ## The Rise of Large Language Models
 
