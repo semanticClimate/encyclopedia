@@ -119,16 +119,26 @@ class KeywordExtraction:
 # -----------------------------
 # CLI
 # -----------------------------
-if __name__ == "__main__":
-    parser = ArgumentParser(description="Extract keywords from all TXT files in a folder.")
-    parser.add_argument("-i", "--input_folder", required=True, help="Folder containing TXT files")
-    parser.add_argument("-o", "--output_folder", required=True, help="Folder to save outputs")
-    parser.add_argument("-n", "--top_n", type=int, default=3500,
-                        help="Number of top keywords to extract")
+def main():
+    import argparse
+    from .keyword import KeywordExtraction
+    import os
+
+    parser = argparse.ArgumentParser(
+        description="Extract keywords from all TXT files in a folder"
+    )
+    parser.add_argument(
+        "-i", "--input_folder", required=True, help="Folder containing TXT files"
+    )
+    parser.add_argument(
+        "-o", "--output_folder", required=True, help="Folder to save keyword CSVs"
+    )
+    parser.add_argument(
+        "-n", "--top_n", type=int, default=3500, help="Number of top keywords to extract"
+    )
 
     args = parser.parse_args()
 
-    # Process each txt file in input folder
     os.makedirs(args.output_folder, exist_ok=True)
     txt_files = [f for f in os.listdir(args.input_folder) if f.endswith(".txt")]
 
@@ -137,8 +147,6 @@ if __name__ == "__main__":
         base_name = os.path.splitext(txt_file)[0]
         output_filename = base_name + "_keywords.csv"
 
-        print(f"\nProcessing {txt_file} ...")
-
         extractor = KeywordExtraction(
             textfile=input_path,
             saving_path=args.output_folder,
@@ -146,3 +154,7 @@ if __name__ == "__main__":
             top_n=args.top_n
         )
         extractor.extract_keywords()
+
+
+if __name__ == "__main__":
+    main()
