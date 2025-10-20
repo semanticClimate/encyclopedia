@@ -32,7 +32,7 @@ That's not very satisfactory. It makes it very difficult for anything other than
 
 ## The Modern Publishing Landscape
 
-Now, these publishers are not the scholarly societies that I grew up with, the Royal Society of Chemistry, the Scandinavian Journal of Science and things of that sort. They are megacorporations whose motivation is to maximize their income for the shareholders.
+Now, these publishers are not the scholarly societies that I grew up with (the Royal Society of Chemistry, the Scandinavian Journal of Science and things of that sort). The major publishers are now megacorporations whose motivation is to maximize their income for the shareholders.
 
 And so, this material that we hand over is seen as raw material to the publishers for generating income.
 
