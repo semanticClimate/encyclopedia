@@ -1,0 +1,16 @@
+{
+  "total_nodes": 5,
+  "total_edges": 0,
+  "average_links_per_node": 0.0,
+  "most_linked_nodes": [],
+  "least_linked_nodes": [],
+  "outgoing_link_counts": {},
+  "incoming_link_counts": {},
+  "isolated_nodes": [
+    "fingerprinting",
+    "External forcing",
+    "cyclone",
+    "Observational data",
+    "whiskers"
+  ]
+}

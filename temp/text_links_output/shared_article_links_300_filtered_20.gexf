@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-10-26">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="node_type" type="string" />
+      <attribute id="2" title="occurrence_count" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Earth" label="Earth">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </node>
+      <node id="deglaciation" label="deglaciation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="temperature records" label="temperature records">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Volcanic Aerosols" label="Volcanic Aerosols">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Africa" label="Africa">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="cryosphere" label="cryosphere">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="GISTEMP" label="GISTEMP">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="IPCC First Assessment Report" label="IPCC First Assessment Report">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Last Glacial Maximum" label="Last Glacial Maximum">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="water cycle" label="water cycle">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="tropical" label="tropical">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Atlas" label="Atlas">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Sea Surface" label="Sea Surface">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="coastal waters" label="coastal waters">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="mean surface temperature" label="mean surface temperature">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="temperature record" label="temperature record">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="sea surface" label="sea surface">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="volcanic aerosols" label="volcanic aerosols">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Snow Albedo Feedback" label="Snow Albedo Feedback">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="temperate regions" label="temperate regions">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Antarctic" label="Antarctic">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="equator" label="equator">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Earth" target="deglaciation" id="0" weight="1" />
+      <edge source="Earth" target="temperature records" id="1" weight="1" />
+      <edge source="Earth" target="Volcanic Aerosols" id="2" weight="1" />
+      <edge source="Earth" target="Africa" id="3" weight="1" />
+      <edge source="Earth" target="cryosphere" id="4" weight="1" />
+      <edge source="Earth" target="GISTEMP" id="5" weight="1" />
+      <edge source="Earth" target="IPCC First Assessment Report" id="6" weight="1" />
+      <edge source="Earth" target="Last Glacial Maximum" id="7" weight="1" />
+      <edge source="Earth" target="water cycle" id="8" weight="1" />
+      <edge source="Earth" target="tropical" id="9" weight="1" />
+      <edge source="Earth" target="Atlas" id="10" weight="1" />
+      <edge source="Earth" target="Sea Surface" id="11" weight="1" />
+      <edge source="Earth" target="coastal waters" id="12" weight="1" />
+      <edge source="Earth" target="mean surface temperature" id="13" weight="1" />
+      <edge source="Earth" target="temperature record" id="14" weight="1" />
+      <edge source="Earth" target="sea surface" id="15" weight="1" />
+      <edge source="Earth" target="volcanic aerosols" id="16" weight="1" />
+      <edge source="Earth" target="Snow Albedo Feedback" id="17" weight="1" />
+      <edge source="Earth" target="temperate regions" id="18" weight="1" />
+      <edge source="Earth" target="Antarctic" id="19" weight="1" />
+      <edge source="Earth" target="equator" id="20" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,29 @@
+{
+  "domains": [
+    "example.com",
+    "test.org",
+    "subdomain.example.net",
+    "localhost:8080"
+  ],
+  "subdomains": [
+    "example.com",
+    "test.org",
+    "subdomain.example.net",
+    "localhost"
+  ],
+  "ports": [
+    "8080"
+  ],
+  "protocols": [
+    "https",
+    "http",
+    "https",
+    "http"
+  ],
+  "foreign_domains": [
+    "https://example.com/page",
+    "http://test.org/path",
+    "https://subdomain.example.net/resource",
+    "http://localhost:8080/test"
+  ]
+}

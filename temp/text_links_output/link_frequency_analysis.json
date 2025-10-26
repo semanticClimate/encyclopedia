@@ -1,0 +1,109 @@
+{
+  "most_frequent_links": [
+    [
+      "/wiki/Help:IPA/English",
+      3
+    ],
+    [
+      "/wiki/Friction_ridge",
+      1
+    ],
+    [
+      "/wiki/Finger",
+      1
+    ],
+    [
+      "/wiki/Forensic_science",
+      1
+    ],
+    [
+      "/wiki/Earth%27s_energy_budget",
+      1
+    ],
+    [
+      "/wiki/Greenhouse_gas",
+      1
+    ],
+    [
+      "/wiki/Aerosol",
+      1
+    ],
+    [
+      "/wiki/Albedo",
+      1
+    ],
+    [
+      "/wiki/Solar_irradiance",
+      1
+    ],
+    [
+      "/wiki/Radiative_flux",
+      1
+    ]
+  ],
+  "link_frequency_counts": {
+    "/wiki/Friction_ridge": 1,
+    "/wiki/Finger": 1,
+    "/wiki/Forensic_science": 1,
+    "/wiki/Earth%27s_energy_budget": 1,
+    "/wiki/Greenhouse_gas": 1,
+    "/wiki/Aerosol": 1,
+    "/wiki/Albedo": 1,
+    "/wiki/Solar_irradiance": 1,
+    "/wiki/Radiative_flux": 1,
+    "/wiki/Climate_change_feedback": 1,
+    "/wiki/Climate_variability_and_change": 1,
+    "/wiki/Climate_system": 1,
+    "/wiki/Earth%27s_energy_imbalance": 1,
+    "/wiki/Tropopause": 1,
+    "/wiki/Stratosphere": 1,
+    "/wiki/Watt": 1,
+    "/wiki/Meter": 1,
+    "/wiki/Meteorology": 1,
+    "/wiki/Help:IPA/English": 3,
+    "/wiki/Air_mass": 1,
+    "/wiki/Atmospheric_pressure": 1,
+    "/wiki/Northern_Hemisphere": 1,
+    "/wiki/Southern_Hemisphere": 1,
+    "/wiki/Anticyclone": 1,
+    "/wiki/Low_pressure": 1,
+    "/wiki/Polar_vortices": 1,
+    "/wiki/Extratropical_cyclone": 1,
+    "/wiki/Synoptic_scale": 1,
+    "/wiki/Tropical_cyclone": 1,
+    "/wiki/Subtropical_cyclone": 1,
+    "/wiki/Mesocyclone": 1,
+    "/wiki/Tornado": 1,
+    "/wiki/Dust_devil": 1,
+    "/wiki/Mesoscale_meteorology": 1,
+    "/wiki/Epidemiology": 1,
+    "/wiki/Social_science": 1,
+    "/wiki/Psychology": 1,
+    "/wiki/Statistics": 1,
+    "/wiki/Sample_(statistics)": 1,
+    "/wiki/Statistical_population": 1,
+    "/wiki/Dependent_and_independent_variables": 1,
+    "/wiki/Scientific_control": 1,
+    "/wiki/Control_group": 1,
+    "/wiki/Experiment": 1,
+    "/wiki/Randomized_controlled_trial": 1,
+    "/wiki/Random_assignment": 1,
+    "/wiki/Hair": 1,
+    "/wiki/Theria": 1,
+    "/wiki/Mammals": 1,
+    "/wiki/Sense": 1,
+    "/wiki/Tactile_sensor": 1,
+    "/wiki/Primate": 1,
+    "/wiki/Nocturnality": 1,
+    "/wiki/Monotreme": 1
+  },
+  "link_type_frequency": {
+    "article": 53,
+    "help": 3
+  },
+  "total_unique_links": 54,
+  "most_common_link_type": [
+    "article",
+    53
+  ]
+}

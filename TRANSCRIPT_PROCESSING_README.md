@@ -183,3 +183,8 @@ If you encounter issues:
 ## License
 
 This tool is part of the encyclopedia project and follows the same licensing terms.
+
+
+
+
+

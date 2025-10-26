@@ -1,0 +1,8 @@
+{
+  "total_nodes": 1466,
+  "total_edges": 3814,
+  "is_bipartite": false,
+  "density": 0.0035517230140290263,
+  "average_clustering": 0.015501274251358232,
+  "number_connected_components": 17
+}

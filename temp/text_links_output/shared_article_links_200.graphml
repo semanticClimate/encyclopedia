@@ -1,0 +1,4918 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="edge" attr.name="title" attr.type="string"/>
+<key id="d4" for="edge" attr.name="link_text" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d2" for="node" attr.name="occurrence_count" attr.type="long"/>
+<key id="d1" for="node" attr.name="node_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="bipartite" attr.type="long"/>
+<graph edgedefault="undirected"><node id="Friction ridge">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="fingerprinting">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Fingerprints">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Finger">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Forensic science">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Greenhouse gas">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">5</data>
+</node>
+<node id="External forcing">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="climate changes">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Global warming">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Global Warming">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="anthropogenic warming">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Aerosol">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="troposphere">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Climate variability and change">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">5</data>
+</node>
+<node id="Climate system">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">9</data>
+</node>
+<node id="cryosphere">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="climate modelling">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="regional climate change">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Atlantic meridional overturning circulation">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Tropopause">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Hadley circulation">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="stratosphere">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Hadley cells">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Stratosphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="sudden stratospheric warmings">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="tropopause">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Meter">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="temperature gradient">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Meteorology">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="cyclone">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="thermodynamic">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Cyclones">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="cyclones">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Air mass">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Atmospheric pressure">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Northern Hemisphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">6</data>
+</node>
+<node id="South America">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="subtropics">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="South American">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Southern Hemisphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">6</data>
+</node>
+<node id="Anticyclone">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">5</data>
+</node>
+<node id="extratropical">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="extratropical storm">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Low pressure">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Polar vortices">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Extratropical cyclone">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Synoptic scale">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Tropical cyclone">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">6</data>
+</node>
+<node id="vortices">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Subtropical cyclone">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Mesocyclone">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Tornado">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">6</data>
+</node>
+<node id="Dust devil">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Mesoscale meteorology">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Epidemiology">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Observational data">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="observational data">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Social science">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Psychology">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Science">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Statistics">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">5</data>
+</node>
+<node id="Bayesian model averaging">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="skewness">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="smoothing">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Sample (statistics)">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="methodology">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Statistical population">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Dependent and independent variables">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Scientific control">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Control group">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Experiment">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Simulation">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Randomized controlled trial">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Random assignment">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Hertz">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="infrared radiation">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Millimetre">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Sea Surface">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Energy">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Intergovernmental body">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="IPCC">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Working Group I">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="United Nations">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="SROCC">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Climate change">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">11</data>
+</node>
+<node id="deglaciation">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Paris Agreement">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Coupled Model Intercomparison Project">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="temperature records">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="GISTEMP">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="CLIVAR">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="ice loss">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="World Meteorological Organization">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="United Nations Environment Programme">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="United Nations General Assembly">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Geneva">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Member states of the United Nations">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Atmospheric sounding">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="radiosonde data">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="AMSU">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Altitude">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="air temperature">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Pressure">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="sea level pressure">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Temperature">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">6</data>
+</node>
+<node id="Ozone">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Argentina">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="continents">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Atlantic Ocean">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Atlantic">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Americas">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">6</data>
+</node>
+<node id="List of countries and dependencies by area">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Canada">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Ice age">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Interglacial period">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Sea level rise">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Glacier">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">5</data>
+</node>
+<node id="Sea ice">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="glacier recession">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Ice sheet">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Greenland ice sheet">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Earth">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">13</data>
+</node>
+<node id="Volcanic Aerosols">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Africa">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="IPCC First Assessment Report">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Last Glacial Maximum">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="water cycle">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="tropical">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Atlas">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="coastal waters">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Cryosphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Holocene">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Last Interglacial">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Intergovernmental Panel on Climate Change">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Fifth Assessment Report">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Representative Concentration Pathways">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Western Hemisphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="SubregionAmericas">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Precipitation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Asian monsoon">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="monsoons">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Atmosphere of Earth">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">6</data>
+</node>
+<node id="Intertropical Convergence Zone">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Wet season">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Ocean">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">11</data>
+</node>
+<node id="Indian oceans">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="oxygen minimum zone">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="ocean warming">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="ocean heat uptake">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="EarthSurface">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Australia (continent)">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Southern Ocean">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Antarctica">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Southern Hemisphere Annular Mode">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Oxygen">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="plant respiration">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="deoxygenation">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Metabolism">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="biochemical processes">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Cell (biology)">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Organism">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Humidity">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="evaporation">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Climate change mitigation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Climate Change Scenarios">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Climate change adaptation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="United Nations Framework Convention on Climate Change">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Climatology">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Palaeoecology">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Equilibrium Climate Sensitivity">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="World Climate Research Programme">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Seawater">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="ocean circulation">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Ice">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">7</data>
+</node>
+<node id="Ice Shelves">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="snowfall">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="water vapor">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Fresh water">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="rainfall">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Arctic Ocean">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Arctic sea ice">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Ice calving">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Research">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="data table">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Atmospheric circulation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Equator">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Subtropics">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Troposphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">6</data>
+</node>
+<node id="walker circulation">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Insolation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Extraterrestrial atmosphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Venus">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Mars">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Low-pressure area">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="High-pressure area">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Cyclone">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Rain">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Hail">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Thunderstorm">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Blizzard">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Synoptic scale meteorology">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Weather system">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Middle latitudes">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Dew point">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Weather front">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Random variable">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="serial correlation">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Physical quantity">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Kelvin">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Biogeochemical cycle">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Nitrogen cycling">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="nitrogen cycle">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Nitrogen">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Atmosphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">5</data>
+</node>
+<node id="Terrestrial ecosystem">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Marine ecosystem">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Nitrogen fixation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Ammonification">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Nitrification">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Denitrification">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Earth%27s atmosphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">5</data>
+</node>
+<node id="Scarcity">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Ecosystems">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Asia">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">5</data>
+</node>
+<node id="eastern Africa">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="North America">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">5</data>
+</node>
+<node id="Europe">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="England">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Afro-Eurasia">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Air">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Sun">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="solar activity">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Differential equation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="boundary conditions">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Physics">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Mass balance">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Matter">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Engineering">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Mathematical model">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="CESM">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Community Earth System Model">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Ecological modelling">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Computer simulation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Earth system science">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Atmospheric model">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="CICE (sea ice model)">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Carbon cycle">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Climate model">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Community Climate System Model">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Ensemble forecasting">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Earth%27s surface">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="solar dimming">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Thermosphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Whole Atmosphere Community Climate Model">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="National Center for Atmospheric Research">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="National Science Foundation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="United States Department of Energy">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Global surface temperature">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Scientific consensus on climate change">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">6</data>
+</node>
+<node id="Fossil fuel">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Industrial Revolution">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Deforestation and climate change">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Greenhouse gas emissions from agriculture">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Environmental impact of concrete">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Greenhouse effect">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">5</data>
+</node>
+<node id="Thermal radiation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Sunlight">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Carbon dioxide">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="Carbon dioxide in Earth%27s atmosphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">6</data>
+</node>
+<node id="glaciers">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="glacial">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Weighted average">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Sea surface temperature">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Surface air temperature">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Weather station">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Satellite">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Proxy data">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Tree rings">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Coral">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Ice core">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Water vapor">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Weather">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Earth System Research Laboratory">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Tropics">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Polar regions">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Water">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Condensation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Water cycle">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Borders of the oceans">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Age of Discovery">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="New World">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Old World">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Scientific method">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Knowledge">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Prediction">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Predictability">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Chemistry">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Biology">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Ocean temperature">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Integral">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Enthalpy">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Earth%27s Energy Imbalance">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Greenhouse gas emissions">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Geographical zone">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Mathematics">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="parameterizations">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="parameterization">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Geometry">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Parametric equation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Curve">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Surface (mathematics)">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Manifold">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Algebraic variety">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Implicit equation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Implicitization">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Parameter">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Solar activity">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="solar variability">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Glaciers">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="surface melting">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Continent">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="American English">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="British English">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="AblationGlaciology">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Century">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Crevasse">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Serac">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Cirque">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Moraine">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Fjord">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Ice cap">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Permafrost">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Hydrosphere">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Cloud">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="cloud cover">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Ocean circulation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Last Glacial Period">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Salinity">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Greenland">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Climate">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">4</data>
+</node>
+<node id="paleoclimate">
+  <data key="d0">0</data>
+  <data key="d1">entry</data>
+</node>
+<node id="Pascal (unit)">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Sublimation (phase transition)">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Evaporation">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Precipitation (meteorology)">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Effects of climate change">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">3</data>
+</node>
+<node id="Desertification">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<node id="Instrumental temperature record">
+  <data key="d0">1</data>
+  <data key="d1">target</data>
+  <data key="d2">2</data>
+</node>
+<edge source="Friction ridge" target="fingerprinting">
+  <data key="d3">1</data>
+  <data key="d4">friction ridges</data>
+  <data key="d5">Friction ridge</data>
+</edge>
+<edge source="Friction ridge" target="Fingerprints">
+  <data key="d3">1</data>
+  <data key="d4">friction ridges</data>
+  <data key="d5">Friction ridge</data>
+</edge>
+<edge source="fingerprinting" target="Finger">
+  <data key="d3">1</data>
+  <data key="d4">finger</data>
+  <data key="d5">Finger</data>
+</edge>
+<edge source="fingerprinting" target="Forensic science">
+  <data key="d3">1</data>
+  <data key="d4">forensic science</data>
+  <data key="d5">Forensic science</data>
+</edge>
+<edge source="Fingerprints" target="Finger">
+  <data key="d3">1</data>
+  <data key="d4">finger</data>
+  <data key="d5">Finger</data>
+</edge>
+<edge source="Fingerprints" target="Forensic science">
+  <data key="d3">1</data>
+  <data key="d4">forensic science</data>
+  <data key="d5">Forensic science</data>
+</edge>
+<edge source="Greenhouse gas" target="External forcing">
+  <data key="d3">1</data>
+  <data key="d4">greenhouse gases</data>
+  <data key="d5">Greenhouse gas</data>
+</edge>
+<edge source="Greenhouse gas" target="climate changes">
+  <data key="d3">1</data>
+  <data key="d4">greenhouse gases</data>
+  <data key="d5">Greenhouse gas</data>
+</edge>
+<edge source="Greenhouse gas" target="Global warming">
+  <data key="d3">1</data>
+  <data key="d4">greenhouse gases</data>
+  <data key="d5">Greenhouse gas</data>
+</edge>
+<edge source="Greenhouse gas" target="Global Warming">
+  <data key="d3">1</data>
+  <data key="d4">greenhouse gases</data>
+  <data key="d5">Greenhouse gas</data>
+</edge>
+<edge source="Greenhouse gas" target="anthropogenic warming">
+  <data key="d3">1</data>
+  <data key="d4">greenhouse gases</data>
+  <data key="d5">Greenhouse gas</data>
+</edge>
+<edge source="External forcing" target="Aerosol">
+  <data key="d3">1</data>
+  <data key="d4">aerosols</data>
+  <data key="d5">Aerosol</data>
+</edge>
+<edge source="External forcing" target="Climate variability and change">
+  <data key="d3">1</data>
+  <data key="d4">variability</data>
+  <data key="d5">Climate variability and change</data>
+</edge>
+<edge source="External forcing" target="Climate system">
+  <data key="d3">1</data>
+  <data key="d4">climate system</data>
+  <data key="d5">Climate system</data>
+</edge>
+<edge source="External forcing" target="Tropopause">
+  <data key="d3">1</data>
+  <data key="d4">tropopause</data>
+  <data key="d5">Tropopause</data>
+</edge>
+<edge source="External forcing" target="Stratosphere">
+  <data key="d3">1</data>
+  <data key="d4">stratosphere</data>
+  <data key="d5">Stratosphere</data>
+</edge>
+<edge source="External forcing" target="Meter">
+  <data key="d3">1</data>
+  <data key="d4">meter</data>
+  <data key="d5">Meter</data>
+</edge>
+<edge source="climate changes" target="Climate variability and change">
+  <data key="d3">1</data>
+  <data key="d4">Climate change in a broader sense</data>
+  <data key="d5">Climate variability and change</data>
+</edge>
+<edge source="climate changes" target="Climate system">
+  <data key="d3">1</data>
+  <data key="d4">Earth's climate</data>
+  <data key="d5">Climate system</data>
+</edge>
+<edge source="climate changes" target="Global surface temperature">
+  <data key="d3">1</data>
+  <data key="d4">global average temperature</data>
+  <data key="d5">Global surface temperature</data>
+</edge>
+<edge source="climate changes" target="Scientific consensus on climate change">
+  <data key="d3">1</data>
+  <data key="d4">driven by human activities</data>
+  <data key="d5">Scientific consensus on climate change</data>
+</edge>
+<edge source="climate changes" target="Fossil fuel">
+  <data key="d3">1</data>
+  <data key="d4">fossil fuel</data>
+  <data key="d5">Fossil fuel</data>
+</edge>
+<edge source="climate changes" target="Industrial Revolution">
+  <data key="d3">1</data>
+  <data key="d4">Industrial Revolution</data>
+  <data key="d5">Industrial Revolution</data>
+</edge>
+<edge source="climate changes" target="Deforestation and climate change">
+  <data key="d3">1</data>
+  <data key="d4">deforestation</data>
+  <data key="d5">Deforestation and climate change</data>
+</edge>
+<edge source="climate changes" target="Greenhouse gas emissions from agriculture">
+  <data key="d3">1</data>
+  <data key="d4">agricultural</data>
+  <data key="d5">Greenhouse gas emissions from agriculture</data>
+</edge>
+<edge source="climate changes" target="Environmental impact of concrete">
+  <data key="d3">1</data>
+  <data key="d4">industrial</data>
+  <data key="d5">Environmental impact of concrete</data>
+</edge>
+<edge source="climate changes" target="Greenhouse effect">
+  <data key="d3">1</data>
+  <data key="d4">absorb some of the heat</data>
+  <data key="d5">Greenhouse effect</data>
+</edge>
+<edge source="climate changes" target="Thermal radiation">
+  <data key="d3">1</data>
+  <data key="d4">radiates</data>
+  <data key="d5">Thermal radiation</data>
+</edge>
+<edge source="climate changes" target="Sunlight">
+  <data key="d3">1</data>
+  <data key="d4">sunlight</data>
+  <data key="d5">Sunlight</data>
+</edge>
+<edge source="climate changes" target="Carbon dioxide">
+  <data key="d3">1</data>
+  <data key="d4">Carbon dioxide</data>
+  <data key="d5">Carbon dioxide</data>
+</edge>
+<edge source="climate changes" target="Carbon dioxide in Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">has grown by about 50%</data>
+  <data key="d5">Carbon dioxide in Earth's atmosphere</data>
+</edge>
+<edge source="Global warming" target="Climate variability and change">
+  <data key="d3">1</data>
+  <data key="d4">Climate change in a broader sense</data>
+  <data key="d5">Climate variability and change</data>
+</edge>
+<edge source="Global warming" target="Climate system">
+  <data key="d3">1</data>
+  <data key="d4">Earth's climate</data>
+  <data key="d5">Climate system</data>
+</edge>
+<edge source="Global warming" target="deglaciation">
+  <data key="d3">2</data>
+  <data key="d4">global warming</data>
+  <data key="d5">Global warming</data>
+</edge>
+<edge source="Global warming" target="Global surface temperature">
+  <data key="d3">1</data>
+  <data key="d4">global average temperature</data>
+  <data key="d5">Global surface temperature</data>
+</edge>
+<edge source="Global warming" target="Scientific consensus on climate change">
+  <data key="d3">1</data>
+  <data key="d4">driven by human activities</data>
+  <data key="d5">Scientific consensus on climate change</data>
+</edge>
+<edge source="Global warming" target="Fossil fuel">
+  <data key="d3">1</data>
+  <data key="d4">fossil fuel</data>
+  <data key="d5">Fossil fuel</data>
+</edge>
+<edge source="Global warming" target="Industrial Revolution">
+  <data key="d3">1</data>
+  <data key="d4">Industrial Revolution</data>
+  <data key="d5">Industrial Revolution</data>
+</edge>
+<edge source="Global warming" target="Deforestation and climate change">
+  <data key="d3">1</data>
+  <data key="d4">deforestation</data>
+  <data key="d5">Deforestation and climate change</data>
+</edge>
+<edge source="Global warming" target="Greenhouse gas emissions from agriculture">
+  <data key="d3">1</data>
+  <data key="d4">agricultural</data>
+  <data key="d5">Greenhouse gas emissions from agriculture</data>
+</edge>
+<edge source="Global warming" target="Environmental impact of concrete">
+  <data key="d3">1</data>
+  <data key="d4">industrial</data>
+  <data key="d5">Environmental impact of concrete</data>
+</edge>
+<edge source="Global warming" target="Greenhouse effect">
+  <data key="d3">1</data>
+  <data key="d4">absorb some of the heat</data>
+  <data key="d5">Greenhouse effect</data>
+</edge>
+<edge source="Global warming" target="Thermal radiation">
+  <data key="d3">1</data>
+  <data key="d4">radiates</data>
+  <data key="d5">Thermal radiation</data>
+</edge>
+<edge source="Global warming" target="Sunlight">
+  <data key="d3">1</data>
+  <data key="d4">sunlight</data>
+  <data key="d5">Sunlight</data>
+</edge>
+<edge source="Global warming" target="Carbon dioxide">
+  <data key="d3">1</data>
+  <data key="d4">Carbon dioxide</data>
+  <data key="d5">Carbon dioxide</data>
+</edge>
+<edge source="Global warming" target="Carbon dioxide in Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">has grown by about 50%</data>
+  <data key="d5">Carbon dioxide in Earth's atmosphere</data>
+</edge>
+<edge source="Global Warming" target="Climate variability and change">
+  <data key="d3">1</data>
+  <data key="d4">Climate change in a broader sense</data>
+  <data key="d5">Climate variability and change</data>
+</edge>
+<edge source="Global Warming" target="Climate system">
+  <data key="d3">1</data>
+  <data key="d4">Earth's climate</data>
+  <data key="d5">Climate system</data>
+</edge>
+<edge source="Global Warming" target="Global surface temperature">
+  <data key="d3">1</data>
+  <data key="d4">global average temperature</data>
+  <data key="d5">Global surface temperature</data>
+</edge>
+<edge source="Global Warming" target="Scientific consensus on climate change">
+  <data key="d3">1</data>
+  <data key="d4">driven by human activities</data>
+  <data key="d5">Scientific consensus on climate change</data>
+</edge>
+<edge source="Global Warming" target="Fossil fuel">
+  <data key="d3">1</data>
+  <data key="d4">fossil fuel</data>
+  <data key="d5">Fossil fuel</data>
+</edge>
+<edge source="Global Warming" target="Industrial Revolution">
+  <data key="d3">1</data>
+  <data key="d4">Industrial Revolution</data>
+  <data key="d5">Industrial Revolution</data>
+</edge>
+<edge source="Global Warming" target="Deforestation and climate change">
+  <data key="d3">1</data>
+  <data key="d4">deforestation</data>
+  <data key="d5">Deforestation and climate change</data>
+</edge>
+<edge source="Global Warming" target="Greenhouse gas emissions from agriculture">
+  <data key="d3">1</data>
+  <data key="d4">agricultural</data>
+  <data key="d5">Greenhouse gas emissions from agriculture</data>
+</edge>
+<edge source="Global Warming" target="Environmental impact of concrete">
+  <data key="d3">1</data>
+  <data key="d4">industrial</data>
+  <data key="d5">Environmental impact of concrete</data>
+</edge>
+<edge source="Global Warming" target="Greenhouse effect">
+  <data key="d3">1</data>
+  <data key="d4">absorb some of the heat</data>
+  <data key="d5">Greenhouse effect</data>
+</edge>
+<edge source="Global Warming" target="Thermal radiation">
+  <data key="d3">1</data>
+  <data key="d4">radiates</data>
+  <data key="d5">Thermal radiation</data>
+</edge>
+<edge source="Global Warming" target="Sunlight">
+  <data key="d3">1</data>
+  <data key="d4">sunlight</data>
+  <data key="d5">Sunlight</data>
+</edge>
+<edge source="Global Warming" target="Carbon dioxide">
+  <data key="d3">1</data>
+  <data key="d4">Carbon dioxide</data>
+  <data key="d5">Carbon dioxide</data>
+</edge>
+<edge source="Global Warming" target="Carbon dioxide in Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">has grown by about 50%</data>
+  <data key="d5">Carbon dioxide in Earth's atmosphere</data>
+</edge>
+<edge source="anthropogenic warming" target="Climate variability and change">
+  <data key="d3">1</data>
+  <data key="d4">Climate change in a broader sense</data>
+  <data key="d5">Climate variability and change</data>
+</edge>
+<edge source="anthropogenic warming" target="Climate system">
+  <data key="d3">1</data>
+  <data key="d4">Earth's climate</data>
+  <data key="d5">Climate system</data>
+</edge>
+<edge source="anthropogenic warming" target="Global surface temperature">
+  <data key="d3">1</data>
+  <data key="d4">global average temperature</data>
+  <data key="d5">Global surface temperature</data>
+</edge>
+<edge source="anthropogenic warming" target="Scientific consensus on climate change">
+  <data key="d3">1</data>
+  <data key="d4">driven by human activities</data>
+  <data key="d5">Scientific consensus on climate change</data>
+</edge>
+<edge source="anthropogenic warming" target="Fossil fuel">
+  <data key="d3">1</data>
+  <data key="d4">fossil fuel</data>
+  <data key="d5">Fossil fuel</data>
+</edge>
+<edge source="anthropogenic warming" target="Industrial Revolution">
+  <data key="d3">1</data>
+  <data key="d4">Industrial Revolution</data>
+  <data key="d5">Industrial Revolution</data>
+</edge>
+<edge source="anthropogenic warming" target="Deforestation and climate change">
+  <data key="d3">1</data>
+  <data key="d4">deforestation</data>
+  <data key="d5">Deforestation and climate change</data>
+</edge>
+<edge source="anthropogenic warming" target="Greenhouse gas emissions from agriculture">
+  <data key="d3">1</data>
+  <data key="d4">agricultural</data>
+  <data key="d5">Greenhouse gas emissions from agriculture</data>
+</edge>
+<edge source="anthropogenic warming" target="Environmental impact of concrete">
+  <data key="d3">1</data>
+  <data key="d4">industrial</data>
+  <data key="d5">Environmental impact of concrete</data>
+</edge>
+<edge source="anthropogenic warming" target="Greenhouse effect">
+  <data key="d3">1</data>
+  <data key="d4">absorb some of the heat</data>
+  <data key="d5">Greenhouse effect</data>
+</edge>
+<edge source="anthropogenic warming" target="Thermal radiation">
+  <data key="d3">1</data>
+  <data key="d4">radiates</data>
+  <data key="d5">Thermal radiation</data>
+</edge>
+<edge source="anthropogenic warming" target="Sunlight">
+  <data key="d3">1</data>
+  <data key="d4">sunlight</data>
+  <data key="d5">Sunlight</data>
+</edge>
+<edge source="anthropogenic warming" target="Carbon dioxide">
+  <data key="d3">1</data>
+  <data key="d4">Carbon dioxide</data>
+  <data key="d5">Carbon dioxide</data>
+</edge>
+<edge source="anthropogenic warming" target="Carbon dioxide in Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">has grown by about 50%</data>
+  <data key="d5">Carbon dioxide in Earth's atmosphere</data>
+</edge>
+<edge source="Aerosol" target="troposphere">
+  <data key="d3">1</data>
+  <data key="d4">aerosols</data>
+  <data key="d5">Aerosol</data>
+</edge>
+<edge source="troposphere" target="Atmosphere of Earth">
+  <data key="d3">1</data>
+  <data key="d4">atmosphere of Earth</data>
+  <data key="d5">Atmosphere of Earth</data>
+</edge>
+<edge source="troposphere" target="Middle latitudes">
+  <data key="d3">1</data>
+  <data key="d4">middle latitudes</data>
+  <data key="d5">Middle latitudes</data>
+</edge>
+<edge source="troposphere" target="Atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">planetary atmosphere</data>
+  <data key="d5">Atmosphere</data>
+</edge>
+<edge source="troposphere" target="Water vapor">
+  <data key="d3">1</data>
+  <data key="d4">water vapor</data>
+  <data key="d5">Water vapor</data>
+</edge>
+<edge source="troposphere" target="Weather">
+  <data key="d3">1</data>
+  <data key="d4">weather</data>
+  <data key="d5">Weather</data>
+</edge>
+<edge source="troposphere" target="Tropics">
+  <data key="d3">1</data>
+  <data key="d4">tropics</data>
+  <data key="d5">Tropics</data>
+</edge>
+<edge source="troposphere" target="Polar regions">
+  <data key="d3">1</data>
+  <data key="d4">polar regions</data>
+  <data key="d5">Polar regions</data>
+</edge>
+<edge source="Climate system" target="cryosphere">
+  <data key="d3">1</data>
+  <data key="d4">climate system</data>
+  <data key="d5">Climate system</data>
+</edge>
+<edge source="Climate system" target="climate modelling">
+  <data key="d3">1</data>
+  <data key="d4">climate system</data>
+  <data key="d5">Climate system</data>
+</edge>
+<edge source="Climate system" target="regional climate change">
+  <data key="d3">1</data>
+  <data key="d4">climate system</data>
+  <data key="d5">Climate system</data>
+</edge>
+<edge source="Climate system" target="Atlantic meridional overturning circulation">
+  <data key="d3">1</data>
+  <data key="d4">climate system</data>
+  <data key="d5">Climate system</data>
+</edge>
+<edge source="cryosphere" target="Glacier">
+  <data key="d3">1</data>
+  <data key="d4">glaciers</data>
+  <data key="d5">Glacier</data>
+</edge>
+<edge source="cryosphere" target="Ice sheet">
+  <data key="d3">1</data>
+  <data key="d4">ice sheets</data>
+  <data key="d5">Ice sheet</data>
+</edge>
+<edge source="cryosphere" target="Earth">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="cryosphere" target="Ice">
+  <data key="d3">1</data>
+  <data key="d4">ice</data>
+  <data key="d5">Ice</data>
+</edge>
+<edge source="cryosphere" target="Sea ice">
+  <data key="d3">1</data>
+  <data key="d4">sea ice</data>
+  <data key="d5">Sea ice</data>
+</edge>
+<edge source="cryosphere" target="Water cycle">
+  <data key="d3">1</data>
+  <data key="d4">water cycle</data>
+  <data key="d5">Water cycle</data>
+</edge>
+<edge source="cryosphere" target="Ice cap">
+  <data key="d3">1</data>
+  <data key="d4">ice caps</data>
+  <data key="d5">Ice cap</data>
+</edge>
+<edge source="cryosphere" target="Permafrost">
+  <data key="d3">1</data>
+  <data key="d4">permafrost</data>
+  <data key="d5">Permafrost</data>
+</edge>
+<edge source="cryosphere" target="Hydrosphere">
+  <data key="d3">1</data>
+  <data key="d4">hydrosphere</data>
+  <data key="d5">Hydrosphere</data>
+</edge>
+<edge source="cryosphere" target="Cloud">
+  <data key="d3">1</data>
+  <data key="d4">clouds</data>
+  <data key="d5">Cloud</data>
+</edge>
+<edge source="cryosphere" target="Ocean circulation">
+  <data key="d3">1</data>
+  <data key="d4">oceanic circulation</data>
+  <data key="d5">Ocean circulation</data>
+</edge>
+<edge source="climate modelling" target="Climate change">
+  <data key="d3">1</data>
+  <data key="d4">climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="climate modelling" target="Cryosphere">
+  <data key="d3">1</data>
+  <data key="d4">ice</data>
+  <data key="d5">Cryosphere</data>
+</edge>
+<edge source="climate modelling" target="Ocean">
+  <data key="d3">1</data>
+  <data key="d4">oceans</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="climate modelling" target="Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">atmosphere</data>
+  <data key="d5">Earth's atmosphere</data>
+</edge>
+<edge source="climate modelling" target="Mathematical model">
+  <data key="d3">1</data>
+  <data key="d4">mathematical models</data>
+  <data key="d5">Mathematical model</data>
+</edge>
+<edge source="climate modelling" target="Climate">
+  <data key="d3">1</data>
+  <data key="d4">climate</data>
+  <data key="d5">Climate</data>
+</edge>
+<edge source="regional climate change" target="Climate change">
+  <data key="d3">1</data>
+  <data key="d4">climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="regional climate change" target="Permafrost">
+  <data key="d3">1</data>
+  <data key="d4">permafrost</data>
+  <data key="d5">Permafrost</data>
+</edge>
+<edge source="regional climate change" target="Desertification">
+  <data key="d3">1</data>
+  <data key="d4">desertification</data>
+  <data key="d5">Desertification</data>
+</edge>
+<edge source="regional climate change" target="Instrumental temperature record">
+  <data key="d3">1</data>
+  <data key="d4">overall warming trend</data>
+  <data key="d5">Instrumental temperature record</data>
+</edge>
+<edge source="Atlantic meridional overturning circulation" target="Atlantic Ocean">
+  <data key="d3">1</data>
+  <data key="d4">Atlantic Ocean</data>
+  <data key="d5">Atlantic Ocean</data>
+</edge>
+<edge source="Atlantic meridional overturning circulation" target="Ocean circulation">
+  <data key="d3">1</data>
+  <data key="d4">ocean circulation</data>
+  <data key="d5">Ocean circulation</data>
+</edge>
+<edge source="Atlantic meridional overturning circulation" target="Salinity">
+  <data key="d3">1</data>
+  <data key="d4">salinity</data>
+  <data key="d5">Salinity</data>
+</edge>
+<edge source="Tropopause" target="Hadley circulation">
+  <data key="d3">1</data>
+  <data key="d4">tropopause</data>
+  <data key="d5">Tropopause</data>
+</edge>
+<edge source="Tropopause" target="stratosphere">
+  <data key="d3">1</data>
+  <data key="d4">tropopause</data>
+  <data key="d5">Tropopause</data>
+</edge>
+<edge source="Tropopause" target="Hadley cells">
+  <data key="d3">1</data>
+  <data key="d4">tropopause</data>
+  <data key="d5">Tropopause</data>
+</edge>
+<edge source="Hadley circulation" target="Atmospheric circulation">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric circulation</data>
+  <data key="d5">Atmospheric circulation</data>
+</edge>
+<edge source="Hadley circulation" target="Equator">
+  <data key="d3">1</data>
+  <data key="d4">equator</data>
+  <data key="d5">Equator</data>
+</edge>
+<edge source="Hadley circulation" target="Subtropics">
+  <data key="d3">1</data>
+  <data key="d4">subtropics</data>
+  <data key="d5">Subtropics</data>
+</edge>
+<edge source="Hadley circulation" target="Troposphere">
+  <data key="d3">1</data>
+  <data key="d4">troposphere</data>
+  <data key="d5">Troposphere</data>
+</edge>
+<edge source="Hadley circulation" target="Insolation">
+  <data key="d3">1</data>
+  <data key="d4">insolation</data>
+  <data key="d5">Insolation</data>
+</edge>
+<edge source="Hadley circulation" target="Extraterrestrial atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">extraterrestrial atmospheres</data>
+  <data key="d5">Extraterrestrial atmosphere</data>
+</edge>
+<edge source="Hadley circulation" target="Venus">
+  <data key="d3">1</data>
+  <data key="d4">Venus</data>
+  <data key="d5">Venus</data>
+</edge>
+<edge source="Hadley circulation" target="Mars">
+  <data key="d3">1</data>
+  <data key="d4">Mars</data>
+  <data key="d5">Mars</data>
+</edge>
+<edge source="stratosphere" target="Altitude">
+  <data key="d3">1</data>
+  <data key="d4">altitude</data>
+  <data key="d5">Altitude</data>
+</edge>
+<edge source="stratosphere" target="Temperature">
+  <data key="d3">1</data>
+  <data key="d4">temperature</data>
+  <data key="d5">Temperature</data>
+</edge>
+<edge source="stratosphere" target="Ozone">
+  <data key="d3">1</data>
+  <data key="d4">ozone</data>
+  <data key="d5">Ozone</data>
+</edge>
+<edge source="stratosphere" target="Atmosphere of Earth">
+  <data key="d3">1</data>
+  <data key="d4">atmosphere of Earth</data>
+  <data key="d5">Atmosphere of Earth</data>
+</edge>
+<edge source="stratosphere" target="Oxygen">
+  <data key="d3">1</data>
+  <data key="d4">oxygen</data>
+  <data key="d5">Oxygen</data>
+</edge>
+<edge source="stratosphere" target="Troposphere">
+  <data key="d3">1</data>
+  <data key="d4">troposphere</data>
+  <data key="d5">Troposphere</data>
+</edge>
+<edge source="stratosphere" target="Air">
+  <data key="d3">1</data>
+  <data key="d4">air</data>
+  <data key="d5">Air</data>
+</edge>
+<edge source="stratosphere" target="Sun">
+  <data key="d3">1</data>
+  <data key="d4">Sun</data>
+  <data key="d5">Sun</data>
+</edge>
+<edge source="Hadley cells" target="Atmospheric circulation">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric circulation</data>
+  <data key="d5">Atmospheric circulation</data>
+</edge>
+<edge source="Hadley cells" target="Equator">
+  <data key="d3">1</data>
+  <data key="d4">equator</data>
+  <data key="d5">Equator</data>
+</edge>
+<edge source="Hadley cells" target="Subtropics">
+  <data key="d3">1</data>
+  <data key="d4">subtropics</data>
+  <data key="d5">Subtropics</data>
+</edge>
+<edge source="Hadley cells" target="Troposphere">
+  <data key="d3">1</data>
+  <data key="d4">troposphere</data>
+  <data key="d5">Troposphere</data>
+</edge>
+<edge source="Hadley cells" target="Insolation">
+  <data key="d3">1</data>
+  <data key="d4">insolation</data>
+  <data key="d5">Insolation</data>
+</edge>
+<edge source="Hadley cells" target="Extraterrestrial atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">extraterrestrial atmospheres</data>
+  <data key="d5">Extraterrestrial atmosphere</data>
+</edge>
+<edge source="Hadley cells" target="Venus">
+  <data key="d3">1</data>
+  <data key="d4">Venus</data>
+  <data key="d5">Venus</data>
+</edge>
+<edge source="Hadley cells" target="Mars">
+  <data key="d3">1</data>
+  <data key="d4">Mars</data>
+  <data key="d5">Mars</data>
+</edge>
+<edge source="Stratosphere" target="sudden stratospheric warmings">
+  <data key="d3">1</data>
+  <data key="d4">stratospheric</data>
+  <data key="d5">Stratosphere</data>
+</edge>
+<edge source="Stratosphere" target="tropopause">
+  <data key="d3">1</data>
+  <data key="d4">stratosphere</data>
+  <data key="d5">Stratosphere</data>
+</edge>
+<edge source="sudden stratospheric warmings" target="Kelvin">
+  <data key="d3">1</data>
+  <data key="d4">kelvins</data>
+  <data key="d5">Kelvin</data>
+</edge>
+<edge source="tropopause" target="Troposphere">
+  <data key="d3">2</data>
+  <data key="d4">troposphere</data>
+  <data key="d5">Troposphere</data>
+</edge>
+<edge source="tropopause" target="Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">atmosphere of Earth</data>
+  <data key="d5">Earth's atmosphere</data>
+</edge>
+<edge source="tropopause" target="Polar regions">
+  <data key="d3">1</data>
+  <data key="d4">polar regions</data>
+  <data key="d5">Polar regions</data>
+</edge>
+<edge source="Meter" target="temperature gradient">
+  <data key="d3">1</data>
+  <data key="d4">meter</data>
+  <data key="d5">Meter</data>
+</edge>
+<edge source="temperature gradient" target="Temperature">
+  <data key="d3">1</data>
+  <data key="d4">temperature</data>
+  <data key="d5">Temperature</data>
+</edge>
+<edge source="temperature gradient" target="Physical quantity">
+  <data key="d3">1</data>
+  <data key="d4">physical quantity</data>
+  <data key="d5">Physical quantity</data>
+</edge>
+<edge source="temperature gradient" target="Kelvin">
+  <data key="d3">1</data>
+  <data key="d4">kelvin</data>
+  <data key="d5">Kelvin</data>
+</edge>
+<edge source="Meteorology" target="cyclone">
+  <data key="d3">1</data>
+  <data key="d4">meteorology</data>
+  <data key="d5">Meteorology</data>
+</edge>
+<edge source="Meteorology" target="thermodynamic">
+  <data key="d3">1</data>
+  <data key="d4">meteorology</data>
+  <data key="d5">Meteorology</data>
+</edge>
+<edge source="Meteorology" target="Cyclones">
+  <data key="d3">1</data>
+  <data key="d4">meteorology</data>
+  <data key="d5">Meteorology</data>
+</edge>
+<edge source="Meteorology" target="cyclones">
+  <data key="d3">1</data>
+  <data key="d4">meteorology</data>
+  <data key="d5">Meteorology</data>
+</edge>
+<edge source="cyclone" target="Air mass">
+  <data key="d3">1</data>
+  <data key="d4">air mass</data>
+  <data key="d5">Air mass</data>
+</edge>
+<edge source="cyclone" target="Atmospheric pressure">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric pressure</data>
+  <data key="d5">Atmospheric pressure</data>
+</edge>
+<edge source="cyclone" target="Northern Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">Northern Hemisphere</data>
+  <data key="d5">Northern Hemisphere</data>
+</edge>
+<edge source="cyclone" target="Southern Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">Southern Hemisphere</data>
+  <data key="d5">Southern Hemisphere</data>
+</edge>
+<edge source="cyclone" target="Anticyclone">
+  <data key="d3">1</data>
+  <data key="d4">anticyclone</data>
+  <data key="d5">Anticyclone</data>
+</edge>
+<edge source="cyclone" target="Low pressure">
+  <data key="d3">1</data>
+  <data key="d4">low pressure</data>
+  <data key="d5">Low pressure</data>
+</edge>
+<edge source="cyclone" target="Polar vortices">
+  <data key="d3">1</data>
+  <data key="d4">polar vortices</data>
+  <data key="d5">Polar vortices</data>
+</edge>
+<edge source="cyclone" target="Extratropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">extratropical cyclones</data>
+  <data key="d5">Extratropical cyclone</data>
+</edge>
+<edge source="cyclone" target="Synoptic scale">
+  <data key="d3">1</data>
+  <data key="d4">synoptic scale</data>
+  <data key="d5">Synoptic scale</data>
+</edge>
+<edge source="cyclone" target="Tropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">tropical cyclones</data>
+  <data key="d5">Tropical cyclone</data>
+</edge>
+<edge source="cyclone" target="Subtropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">subtropical cyclones</data>
+  <data key="d5">Subtropical cyclone</data>
+</edge>
+<edge source="cyclone" target="Mesocyclone">
+  <data key="d3">1</data>
+  <data key="d4">Mesocyclones</data>
+  <data key="d5">Mesocyclone</data>
+</edge>
+<edge source="cyclone" target="Tornado">
+  <data key="d3">1</data>
+  <data key="d4">tornadoes</data>
+  <data key="d5">Tornado</data>
+</edge>
+<edge source="cyclone" target="Dust devil">
+  <data key="d3">1</data>
+  <data key="d4">dust devils</data>
+  <data key="d5">Dust devil</data>
+</edge>
+<edge source="cyclone" target="Mesoscale meteorology">
+  <data key="d3">1</data>
+  <data key="d4">mesoscale</data>
+  <data key="d5">Mesoscale meteorology</data>
+</edge>
+<edge source="thermodynamic" target="Energy">
+  <data key="d3">1</data>
+  <data key="d4">energy</data>
+  <data key="d5">Energy</data>
+</edge>
+<edge source="thermodynamic" target="Temperature">
+  <data key="d3">1</data>
+  <data key="d4">temperature</data>
+  <data key="d5">Temperature</data>
+</edge>
+<edge source="thermodynamic" target="Physical quantity">
+  <data key="d3">1</data>
+  <data key="d4">physical quantities</data>
+  <data key="d5">Physical quantity</data>
+</edge>
+<edge source="thermodynamic" target="Physics">
+  <data key="d3">1</data>
+  <data key="d4">physics</data>
+  <data key="d5">Physics</data>
+</edge>
+<edge source="thermodynamic" target="Matter">
+  <data key="d3">1</data>
+  <data key="d4">matter</data>
+  <data key="d5">Matter</data>
+</edge>
+<edge source="thermodynamic" target="Engineering">
+  <data key="d3">1</data>
+  <data key="d4">engineering</data>
+  <data key="d5">Engineering</data>
+</edge>
+<edge source="Cyclones" target="Air mass">
+  <data key="d3">1</data>
+  <data key="d4">air mass</data>
+  <data key="d5">Air mass</data>
+</edge>
+<edge source="Cyclones" target="Atmospheric pressure">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric pressure</data>
+  <data key="d5">Atmospheric pressure</data>
+</edge>
+<edge source="Cyclones" target="Northern Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">Northern Hemisphere</data>
+  <data key="d5">Northern Hemisphere</data>
+</edge>
+<edge source="Cyclones" target="Southern Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">Southern Hemisphere</data>
+  <data key="d5">Southern Hemisphere</data>
+</edge>
+<edge source="Cyclones" target="Anticyclone">
+  <data key="d3">1</data>
+  <data key="d4">anticyclone</data>
+  <data key="d5">Anticyclone</data>
+</edge>
+<edge source="Cyclones" target="Low pressure">
+  <data key="d3">1</data>
+  <data key="d4">low pressure</data>
+  <data key="d5">Low pressure</data>
+</edge>
+<edge source="Cyclones" target="Polar vortices">
+  <data key="d3">1</data>
+  <data key="d4">polar vortices</data>
+  <data key="d5">Polar vortices</data>
+</edge>
+<edge source="Cyclones" target="Extratropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">extratropical cyclones</data>
+  <data key="d5">Extratropical cyclone</data>
+</edge>
+<edge source="Cyclones" target="Synoptic scale">
+  <data key="d3">1</data>
+  <data key="d4">synoptic scale</data>
+  <data key="d5">Synoptic scale</data>
+</edge>
+<edge source="Cyclones" target="Tropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">tropical cyclones</data>
+  <data key="d5">Tropical cyclone</data>
+</edge>
+<edge source="Cyclones" target="Subtropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">subtropical cyclones</data>
+  <data key="d5">Subtropical cyclone</data>
+</edge>
+<edge source="Cyclones" target="Mesocyclone">
+  <data key="d3">1</data>
+  <data key="d4">Mesocyclones</data>
+  <data key="d5">Mesocyclone</data>
+</edge>
+<edge source="Cyclones" target="Tornado">
+  <data key="d3">1</data>
+  <data key="d4">tornadoes</data>
+  <data key="d5">Tornado</data>
+</edge>
+<edge source="Cyclones" target="Dust devil">
+  <data key="d3">1</data>
+  <data key="d4">dust devils</data>
+  <data key="d5">Dust devil</data>
+</edge>
+<edge source="Cyclones" target="Mesoscale meteorology">
+  <data key="d3">1</data>
+  <data key="d4">mesoscale</data>
+  <data key="d5">Mesoscale meteorology</data>
+</edge>
+<edge source="cyclones" target="Air mass">
+  <data key="d3">1</data>
+  <data key="d4">air mass</data>
+  <data key="d5">Air mass</data>
+</edge>
+<edge source="cyclones" target="Atmospheric pressure">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric pressure</data>
+  <data key="d5">Atmospheric pressure</data>
+</edge>
+<edge source="cyclones" target="Northern Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">Northern Hemisphere</data>
+  <data key="d5">Northern Hemisphere</data>
+</edge>
+<edge source="cyclones" target="Southern Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">Southern Hemisphere</data>
+  <data key="d5">Southern Hemisphere</data>
+</edge>
+<edge source="cyclones" target="Anticyclone">
+  <data key="d3">1</data>
+  <data key="d4">anticyclone</data>
+  <data key="d5">Anticyclone</data>
+</edge>
+<edge source="cyclones" target="Low pressure">
+  <data key="d3">1</data>
+  <data key="d4">low pressure</data>
+  <data key="d5">Low pressure</data>
+</edge>
+<edge source="cyclones" target="Polar vortices">
+  <data key="d3">1</data>
+  <data key="d4">polar vortices</data>
+  <data key="d5">Polar vortices</data>
+</edge>
+<edge source="cyclones" target="Extratropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">extratropical cyclones</data>
+  <data key="d5">Extratropical cyclone</data>
+</edge>
+<edge source="cyclones" target="Synoptic scale">
+  <data key="d3">1</data>
+  <data key="d4">synoptic scale</data>
+  <data key="d5">Synoptic scale</data>
+</edge>
+<edge source="cyclones" target="Tropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">tropical cyclones</data>
+  <data key="d5">Tropical cyclone</data>
+</edge>
+<edge source="cyclones" target="Subtropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">subtropical cyclones</data>
+  <data key="d5">Subtropical cyclone</data>
+</edge>
+<edge source="cyclones" target="Mesocyclone">
+  <data key="d3">1</data>
+  <data key="d4">Mesocyclones</data>
+  <data key="d5">Mesocyclone</data>
+</edge>
+<edge source="cyclones" target="Tornado">
+  <data key="d3">1</data>
+  <data key="d4">tornadoes</data>
+  <data key="d5">Tornado</data>
+</edge>
+<edge source="cyclones" target="Dust devil">
+  <data key="d3">1</data>
+  <data key="d4">dust devils</data>
+  <data key="d5">Dust devil</data>
+</edge>
+<edge source="cyclones" target="Mesoscale meteorology">
+  <data key="d3">1</data>
+  <data key="d4">mesoscale</data>
+  <data key="d5">Mesoscale meteorology</data>
+</edge>
+<edge source="Northern Hemisphere" target="South America">
+  <data key="d3">1</data>
+  <data key="d4">Northern Hemisphere</data>
+  <data key="d5">Northern Hemisphere</data>
+</edge>
+<edge source="Northern Hemisphere" target="subtropics">
+  <data key="d3">1</data>
+  <data key="d4">north</data>
+  <data key="d5">Northern Hemisphere</data>
+</edge>
+<edge source="Northern Hemisphere" target="South American">
+  <data key="d3">1</data>
+  <data key="d4">Northern Hemisphere</data>
+  <data key="d5">Northern Hemisphere</data>
+</edge>
+<edge source="South America" target="Southern Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">Southern Hemisphere</data>
+  <data key="d5">Southern Hemisphere</data>
+</edge>
+<edge source="South America" target="Argentina">
+  <data key="d3">1</data>
+  <data key="d4">South America</data>
+  <data key="d5">South America</data>
+</edge>
+<edge source="South America" target="continents">
+  <data key="d3">1</data>
+  <data key="d4">South America</data>
+  <data key="d5">South America</data>
+</edge>
+<edge source="South America" target="Atlantic Ocean">
+  <data key="d3">1</data>
+  <data key="d4">South America</data>
+  <data key="d5">South America</data>
+</edge>
+<edge source="South America" target="Atlantic">
+  <data key="d3">1</data>
+  <data key="d4">South America</data>
+  <data key="d5">South America</data>
+</edge>
+<edge source="South America" target="Americas">
+  <data key="d3">1</data>
+  <data key="d4">Americas</data>
+  <data key="d5">Americas</data>
+</edge>
+<edge source="South America" target="Western Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">Western Hemisphere</data>
+  <data key="d5">Western Hemisphere</data>
+</edge>
+<edge source="South America" target="SubregionAmericas">
+  <data key="d3">1</data>
+  <data key="d4">subregion</data>
+  <data key="d5">Subregion</data>
+</edge>
+<edge source="subtropics" target="Southern Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">south</data>
+  <data key="d5">Southern Hemisphere</data>
+</edge>
+<edge source="subtropics" target="Middle latitudes">
+  <data key="d3">1</data>
+  <data key="d4">middle latitudes</data>
+  <data key="d5">Middle latitudes</data>
+</edge>
+<edge source="subtropics" target="Tropics">
+  <data key="d3">1</data>
+  <data key="d4">tropics</data>
+  <data key="d5">Tropics</data>
+</edge>
+<edge source="subtropics" target="Geographical zone">
+  <data key="d3">1</data>
+  <data key="d4">geographical</data>
+  <data key="d5">Geographical zone</data>
+</edge>
+<edge source="South American" target="Southern Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">Southern Hemisphere</data>
+  <data key="d5">Southern Hemisphere</data>
+</edge>
+<edge source="South American" target="Americas">
+  <data key="d3">1</data>
+  <data key="d4">Americas</data>
+  <data key="d5">Americas</data>
+</edge>
+<edge source="South American" target="Western Hemisphere">
+  <data key="d3">1</data>
+  <data key="d4">Western Hemisphere</data>
+  <data key="d5">Western Hemisphere</data>
+</edge>
+<edge source="South American" target="SubregionAmericas">
+  <data key="d3">1</data>
+  <data key="d4">subregion</data>
+  <data key="d5">Subregion</data>
+</edge>
+<edge source="Anticyclone" target="extratropical">
+  <data key="d3">1</data>
+  <data key="d4">anticyclones</data>
+  <data key="d5">Anticyclone</data>
+</edge>
+<edge source="Anticyclone" target="extratropical storm">
+  <data key="d3">1</data>
+  <data key="d4">anticyclones</data>
+  <data key="d5">Anticyclone</data>
+</edge>
+<edge source="extratropical" target="Tropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">tropical cyclones</data>
+  <data key="d5">Tropical cyclone</data>
+</edge>
+<edge source="extratropical" target="Tornado">
+  <data key="d3">1</data>
+  <data key="d4">tornadoes</data>
+  <data key="d5">Tornado</data>
+</edge>
+<edge source="extratropical" target="Low-pressure area">
+  <data key="d3">2</data>
+  <data key="d4">low-pressure areas</data>
+  <data key="d5">Low-pressure area</data>
+</edge>
+<edge source="extratropical" target="High-pressure area">
+  <data key="d3">1</data>
+  <data key="d4">high-pressure areas</data>
+  <data key="d5">High-pressure area</data>
+</edge>
+<edge source="extratropical" target="Cyclone">
+  <data key="d3">1</data>
+  <data key="d4">cyclones</data>
+  <data key="d5">Cyclone</data>
+</edge>
+<edge source="extratropical" target="Rain">
+  <data key="d3">1</data>
+  <data key="d4">showers</data>
+  <data key="d5">Rain</data>
+</edge>
+<edge source="extratropical" target="Hail">
+  <data key="d3">1</data>
+  <data key="d4">hail</data>
+  <data key="d5">Hail</data>
+</edge>
+<edge source="extratropical" target="Thunderstorm">
+  <data key="d3">1</data>
+  <data key="d4">thunderstorms</data>
+  <data key="d5">Thunderstorm</data>
+</edge>
+<edge source="extratropical" target="Blizzard">
+  <data key="d3">1</data>
+  <data key="d4">blizzards</data>
+  <data key="d5">Blizzard</data>
+</edge>
+<edge source="extratropical" target="Synoptic scale meteorology">
+  <data key="d3">1</data>
+  <data key="d4">large scale (synoptic)</data>
+  <data key="d5">Synoptic scale meteorology</data>
+</edge>
+<edge source="extratropical" target="Weather system">
+  <data key="d3">1</data>
+  <data key="d4">weather systems</data>
+  <data key="d5">Weather system</data>
+</edge>
+<edge source="extratropical" target="Middle latitudes">
+  <data key="d3">1</data>
+  <data key="d4">middle latitudes</data>
+  <data key="d5">Middle latitudes</data>
+</edge>
+<edge source="extratropical" target="Dew point">
+  <data key="d3">1</data>
+  <data key="d4">dew point</data>
+  <data key="d5">Dew point</data>
+</edge>
+<edge source="extratropical" target="Weather front">
+  <data key="d3">1</data>
+  <data key="d4">weather fronts</data>
+  <data key="d5">Weather front</data>
+</edge>
+<edge source="extratropical storm" target="Tropical cyclone">
+  <data key="d3">1</data>
+  <data key="d4">tropical cyclones</data>
+  <data key="d5">Tropical cyclone</data>
+</edge>
+<edge source="extratropical storm" target="Tornado">
+  <data key="d3">1</data>
+  <data key="d4">tornadoes</data>
+  <data key="d5">Tornado</data>
+</edge>
+<edge source="extratropical storm" target="Low-pressure area">
+  <data key="d3">2</data>
+  <data key="d4">low-pressure areas</data>
+  <data key="d5">Low-pressure area</data>
+</edge>
+<edge source="extratropical storm" target="High-pressure area">
+  <data key="d3">1</data>
+  <data key="d4">high-pressure areas</data>
+  <data key="d5">High-pressure area</data>
+</edge>
+<edge source="extratropical storm" target="Cyclone">
+  <data key="d3">1</data>
+  <data key="d4">cyclones</data>
+  <data key="d5">Cyclone</data>
+</edge>
+<edge source="extratropical storm" target="Rain">
+  <data key="d3">1</data>
+  <data key="d4">showers</data>
+  <data key="d5">Rain</data>
+</edge>
+<edge source="extratropical storm" target="Hail">
+  <data key="d3">1</data>
+  <data key="d4">hail</data>
+  <data key="d5">Hail</data>
+</edge>
+<edge source="extratropical storm" target="Thunderstorm">
+  <data key="d3">1</data>
+  <data key="d4">thunderstorms</data>
+  <data key="d5">Thunderstorm</data>
+</edge>
+<edge source="extratropical storm" target="Blizzard">
+  <data key="d3">1</data>
+  <data key="d4">blizzards</data>
+  <data key="d5">Blizzard</data>
+</edge>
+<edge source="extratropical storm" target="Synoptic scale meteorology">
+  <data key="d3">1</data>
+  <data key="d4">large scale (synoptic)</data>
+  <data key="d5">Synoptic scale meteorology</data>
+</edge>
+<edge source="extratropical storm" target="Weather system">
+  <data key="d3">1</data>
+  <data key="d4">weather systems</data>
+  <data key="d5">Weather system</data>
+</edge>
+<edge source="extratropical storm" target="Middle latitudes">
+  <data key="d3">1</data>
+  <data key="d4">middle latitudes</data>
+  <data key="d5">Middle latitudes</data>
+</edge>
+<edge source="extratropical storm" target="Dew point">
+  <data key="d3">1</data>
+  <data key="d4">dew point</data>
+  <data key="d5">Dew point</data>
+</edge>
+<edge source="extratropical storm" target="Weather front">
+  <data key="d3">1</data>
+  <data key="d4">weather fronts</data>
+  <data key="d5">Weather front</data>
+</edge>
+<edge source="Tropical cyclone" target="vortices">
+  <data key="d3">1</data>
+  <data key="d4">tropical cyclone</data>
+  <data key="d5">Tropical cyclone</data>
+</edge>
+<edge source="vortices" target="Tornado">
+  <data key="d3">1</data>
+  <data key="d4">tornado</data>
+  <data key="d5">Tornado</data>
+</edge>
+<edge source="vortices" target="Dust devil">
+  <data key="d3">1</data>
+  <data key="d4">dust devil</data>
+  <data key="d5">Dust devil</data>
+</edge>
+<edge source="Epidemiology" target="Observational data">
+  <data key="d3">1</data>
+  <data key="d4">epidemiology</data>
+  <data key="d5">Epidemiology</data>
+</edge>
+<edge source="Epidemiology" target="observational data">
+  <data key="d3">1</data>
+  <data key="d4">epidemiology</data>
+  <data key="d5">Epidemiology</data>
+</edge>
+<edge source="Observational data" target="Social science">
+  <data key="d3">1</data>
+  <data key="d4">social sciences</data>
+  <data key="d5">Social science</data>
+</edge>
+<edge source="Observational data" target="Psychology">
+  <data key="d3">1</data>
+  <data key="d4">psychology</data>
+  <data key="d5">Psychology</data>
+</edge>
+<edge source="Observational data" target="Statistics">
+  <data key="d3">1</data>
+  <data key="d4">statistics</data>
+  <data key="d5">Statistics</data>
+</edge>
+<edge source="Observational data" target="Sample (statistics)">
+  <data key="d3">1</data>
+  <data key="d4">sample</data>
+  <data key="d5">Sample (statistics)</data>
+</edge>
+<edge source="Observational data" target="Statistical population">
+  <data key="d3">1</data>
+  <data key="d4">population</data>
+  <data key="d5">Statistical population</data>
+</edge>
+<edge source="Observational data" target="Dependent and independent variables">
+  <data key="d3">1</data>
+  <data key="d4">independent variable</data>
+  <data key="d5">Dependent and independent variables</data>
+</edge>
+<edge source="Observational data" target="Scientific control">
+  <data key="d3">1</data>
+  <data key="d4">control</data>
+  <data key="d5">Scientific control</data>
+</edge>
+<edge source="Observational data" target="Control group">
+  <data key="d3">1</data>
+  <data key="d4">control group</data>
+  <data key="d5">Control group</data>
+</edge>
+<edge source="Observational data" target="Experiment">
+  <data key="d3">1</data>
+  <data key="d4">experiments</data>
+  <data key="d5">Experiment</data>
+</edge>
+<edge source="Observational data" target="Randomized controlled trial">
+  <data key="d3">1</data>
+  <data key="d4">randomized controlled trials</data>
+  <data key="d5">Randomized controlled trial</data>
+</edge>
+<edge source="Observational data" target="Random assignment">
+  <data key="d3">1</data>
+  <data key="d4">randomly assigned</data>
+  <data key="d5">Random assignment</data>
+</edge>
+<edge source="observational data" target="Social science">
+  <data key="d3">1</data>
+  <data key="d4">social sciences</data>
+  <data key="d5">Social science</data>
+</edge>
+<edge source="observational data" target="Psychology">
+  <data key="d3">1</data>
+  <data key="d4">psychology</data>
+  <data key="d5">Psychology</data>
+</edge>
+<edge source="observational data" target="Statistics">
+  <data key="d3">1</data>
+  <data key="d4">statistics</data>
+  <data key="d5">Statistics</data>
+</edge>
+<edge source="observational data" target="Sample (statistics)">
+  <data key="d3">1</data>
+  <data key="d4">sample</data>
+  <data key="d5">Sample (statistics)</data>
+</edge>
+<edge source="observational data" target="Statistical population">
+  <data key="d3">1</data>
+  <data key="d4">population</data>
+  <data key="d5">Statistical population</data>
+</edge>
+<edge source="observational data" target="Dependent and independent variables">
+  <data key="d3">1</data>
+  <data key="d4">independent variable</data>
+  <data key="d5">Dependent and independent variables</data>
+</edge>
+<edge source="observational data" target="Scientific control">
+  <data key="d3">1</data>
+  <data key="d4">control</data>
+  <data key="d5">Scientific control</data>
+</edge>
+<edge source="observational data" target="Control group">
+  <data key="d3">1</data>
+  <data key="d4">control group</data>
+  <data key="d5">Control group</data>
+</edge>
+<edge source="observational data" target="Experiment">
+  <data key="d3">1</data>
+  <data key="d4">experiments</data>
+  <data key="d5">Experiment</data>
+</edge>
+<edge source="observational data" target="Randomized controlled trial">
+  <data key="d3">1</data>
+  <data key="d4">randomized controlled trials</data>
+  <data key="d5">Randomized controlled trial</data>
+</edge>
+<edge source="observational data" target="Random assignment">
+  <data key="d3">1</data>
+  <data key="d4">randomly assigned</data>
+  <data key="d5">Random assignment</data>
+</edge>
+<edge source="Psychology" target="Science">
+  <data key="d3">1</data>
+  <data key="d4">psychology</data>
+  <data key="d5">Psychology</data>
+</edge>
+<edge source="Science" target="Physics">
+  <data key="d3">1</data>
+  <data key="d4">physics</data>
+  <data key="d5">Physics</data>
+</edge>
+<edge source="Science" target="Engineering">
+  <data key="d3">1</data>
+  <data key="d4">engineering</data>
+  <data key="d5">Engineering</data>
+</edge>
+<edge source="Science" target="Scientific method">
+  <data key="d3">2</data>
+  <data key="d4">systematic</data>
+  <data key="d5">Scientific method</data>
+</edge>
+<edge source="Science" target="Knowledge">
+  <data key="d3">1</data>
+  <data key="d4">knowledge</data>
+  <data key="d5">Knowledge</data>
+</edge>
+<edge source="Science" target="Prediction">
+  <data key="d3">1</data>
+  <data key="d4">predictions</data>
+  <data key="d5">Prediction</data>
+</edge>
+<edge source="Science" target="Chemistry">
+  <data key="d3">1</data>
+  <data key="d4">chemistry</data>
+  <data key="d5">Chemistry</data>
+</edge>
+<edge source="Science" target="Biology">
+  <data key="d3">1</data>
+  <data key="d4">biology</data>
+  <data key="d5">Biology</data>
+</edge>
+<edge source="Statistics" target="Bayesian model averaging">
+  <data key="d3">1</data>
+  <data key="d4">statistics</data>
+  <data key="d5">Statistics</data>
+</edge>
+<edge source="Statistics" target="skewness">
+  <data key="d3">1</data>
+  <data key="d4">statistics</data>
+  <data key="d5">Statistics</data>
+</edge>
+<edge source="Statistics" target="smoothing">
+  <data key="d3">1</data>
+  <data key="d4">statistics</data>
+  <data key="d5">Statistics</data>
+</edge>
+<edge source="skewness" target="Random variable">
+  <data key="d3">1</data>
+  <data key="d4">random variable</data>
+  <data key="d5">Random variable</data>
+</edge>
+<edge source="Sample (statistics)" target="methodology">
+  <data key="d3">1</data>
+  <data key="d4">sample</data>
+  <data key="d5">Sample (statistics)</data>
+</edge>
+<edge source="methodology" target="Research">
+  <data key="d3">1</data>
+  <data key="d4">research</data>
+  <data key="d5">Research</data>
+</edge>
+<edge source="methodology" target="Knowledge">
+  <data key="d3">1</data>
+  <data key="d4">knowledge</data>
+  <data key="d5">Knowledge</data>
+</edge>
+<edge source="Experiment" target="Simulation">
+  <data key="d3">1</data>
+  <data key="d4">experimentation</data>
+  <data key="d5">Experiment</data>
+</edge>
+<edge source="Simulation" target="Computer simulation">
+  <data key="d3">1</data>
+  <data key="d4">computers are used to execute the simulation</data>
+  <data key="d5">Computer simulation</data>
+</edge>
+<edge source="Hertz" target="infrared radiation">
+  <data key="d3">2</data>
+  <data key="d4">THz</data>
+  <data key="d5">Hertz</data>
+</edge>
+<edge source="infrared radiation" target="Millimetre">
+  <data key="d3">1</data>
+  <data key="d4">mm</data>
+  <data key="d5">Millimetre</data>
+</edge>
+<edge source="infrared radiation" target="Energy">
+  <data key="d3">1</data>
+  <data key="d4">energy</data>
+  <data key="d5">Energy</data>
+</edge>
+<edge source="Millimetre" target="Sea Surface">
+  <data key="d3">1</data>
+  <data key="d4">mm</data>
+  <data key="d5">Millimetre</data>
+</edge>
+<edge source="Sea Surface" target="Earth">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Sea Surface" target="Atmosphere of Earth">
+  <data key="d3">1</data>
+  <data key="d4">atmosphere</data>
+  <data key="d5">Atmosphere of Earth</data>
+</edge>
+<edge source="Sea Surface" target="Ocean">
+  <data key="d3">1</data>
+  <data key="d4">ocean</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="Intergovernmental body" target="IPCC">
+  <data key="d3">1</data>
+  <data key="d4">intergovernmental body</data>
+  <data key="d5">Intergovernmental body</data>
+</edge>
+<edge source="Intergovernmental body" target="Working Group I">
+  <data key="d3">1</data>
+  <data key="d4">intergovernmental body</data>
+  <data key="d5">Intergovernmental body</data>
+</edge>
+<edge source="IPCC" target="United Nations">
+  <data key="d3">1</data>
+  <data key="d4">United Nations</data>
+  <data key="d5">United Nations</data>
+</edge>
+<edge source="IPCC" target="Climate change">
+  <data key="d3">1</data>
+  <data key="d4">climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="IPCC" target="World Meteorological Organization">
+  <data key="d3">1</data>
+  <data key="d4">World Meteorological Organization</data>
+  <data key="d5">World Meteorological Organization</data>
+</edge>
+<edge source="IPCC" target="United Nations Environment Programme">
+  <data key="d3">1</data>
+  <data key="d4">United Nations Environment Programme</data>
+  <data key="d5">United Nations Environment Programme</data>
+</edge>
+<edge source="IPCC" target="United Nations General Assembly">
+  <data key="d3">1</data>
+  <data key="d4">United Nations</data>
+  <data key="d5">United Nations General Assembly</data>
+</edge>
+<edge source="IPCC" target="Geneva">
+  <data key="d3">1</data>
+  <data key="d4">Geneva</data>
+  <data key="d5">Geneva</data>
+</edge>
+<edge source="IPCC" target="Member states of the United Nations">
+  <data key="d3">1</data>
+  <data key="d4">member states</data>
+  <data key="d5">Member states of the United Nations</data>
+</edge>
+<edge source="Working Group I" target="United Nations">
+  <data key="d3">1</data>
+  <data key="d4">United Nations</data>
+  <data key="d5">United Nations</data>
+</edge>
+<edge source="Working Group I" target="Climate change">
+  <data key="d3">1</data>
+  <data key="d4">climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="Working Group I" target="World Meteorological Organization">
+  <data key="d3">1</data>
+  <data key="d4">World Meteorological Organization</data>
+  <data key="d5">World Meteorological Organization</data>
+</edge>
+<edge source="Working Group I" target="United Nations Environment Programme">
+  <data key="d3">1</data>
+  <data key="d4">United Nations Environment Programme</data>
+  <data key="d5">United Nations Environment Programme</data>
+</edge>
+<edge source="Working Group I" target="United Nations General Assembly">
+  <data key="d3">1</data>
+  <data key="d4">United Nations</data>
+  <data key="d5">United Nations General Assembly</data>
+</edge>
+<edge source="Working Group I" target="Geneva">
+  <data key="d3">1</data>
+  <data key="d4">Geneva</data>
+  <data key="d5">Geneva</data>
+</edge>
+<edge source="Working Group I" target="Member states of the United Nations">
+  <data key="d3">1</data>
+  <data key="d4">member states</data>
+  <data key="d5">Member states of the United Nations</data>
+</edge>
+<edge source="United Nations" target="SROCC">
+  <data key="d3">1</data>
+  <data key="d4">United Nations</data>
+  <data key="d5">United Nations</data>
+</edge>
+<edge source="SROCC" target="Glacier">
+  <data key="d3">1</data>
+  <data key="d4">glaciers</data>
+  <data key="d5">Glacier</data>
+</edge>
+<edge source="SROCC" target="Intergovernmental Panel on Climate Change">
+  <data key="d3">1</data>
+  <data key="d4">Intergovernmental Panel on Climate Change</data>
+  <data key="d5">Intergovernmental Panel on Climate Change</data>
+</edge>
+<edge source="SROCC" target="Ocean">
+  <data key="d3">1</data>
+  <data key="d4">world's seas</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="SROCC" target="Sea ice">
+  <data key="d3">1</data>
+  <data key="d4">sea ice</data>
+  <data key="d5">Sea ice</data>
+</edge>
+<edge source="SROCC" target="Ice cap">
+  <data key="d3">1</data>
+  <data key="d4">icecaps</data>
+  <data key="d5">Ice cap</data>
+</edge>
+<edge source="SROCC" target="Effects of climate change">
+  <data key="d3">1</data>
+  <data key="d4">effects of climate change</data>
+  <data key="d5">Effects of climate change</data>
+</edge>
+<edge source="SROCC" target="Desertification">
+  <data key="d3">1</data>
+  <data key="d4">desertification</data>
+  <data key="d5">Desertification</data>
+</edge>
+<edge source="Climate change" target="deglaciation">
+  <data key="d3">1</data>
+  <data key="d4">climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="Climate change" target="Paris Agreement">
+  <data key="d3">1</data>
+  <data key="d4">climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="Climate change" target="Coupled Model Intercomparison Project">
+  <data key="d3">1</data>
+  <data key="d4">climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="Climate change" target="temperature records">
+  <data key="d3">1</data>
+  <data key="d4">human activities are causing climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="Climate change" target="GISTEMP">
+  <data key="d3">1</data>
+  <data key="d4">human activities are causing climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="Climate change" target="CLIVAR">
+  <data key="d3">1</data>
+  <data key="d4">climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="Climate change" target="ice loss">
+  <data key="d3">1</data>
+  <data key="d4">climate change</data>
+  <data key="d5">Climate change</data>
+</edge>
+<edge source="deglaciation" target="Ice age">
+  <data key="d3">1</data>
+  <data key="d4">ice ages</data>
+  <data key="d5">Ice age</data>
+</edge>
+<edge source="deglaciation" target="Sea level rise">
+  <data key="d3">1</data>
+  <data key="d4">sea level rise</data>
+  <data key="d5">Sea level rise</data>
+</edge>
+<edge source="deglaciation" target="Glacier">
+  <data key="d3">1</data>
+  <data key="d4">glacier</data>
+  <data key="d5">Glacier</data>
+</edge>
+<edge source="deglaciation" target="Ice sheet">
+  <data key="d3">1</data>
+  <data key="d4">ice sheet</data>
+  <data key="d5">Ice sheet</data>
+</edge>
+<edge source="deglaciation" target="Earth">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="deglaciation" target="Cryosphere">
+  <data key="d3">1</data>
+  <data key="d4">cryosphere</data>
+  <data key="d5">Cryosphere</data>
+</edge>
+<edge source="deglaciation" target="Holocene">
+  <data key="d3">1</data>
+  <data key="d4">Holocene</data>
+  <data key="d5">Holocene</data>
+</edge>
+<edge source="Paris Agreement" target="Climate change mitigation">
+  <data key="d3">1</data>
+  <data key="d4">climate change mitigation</data>
+  <data key="d5">Climate change mitigation</data>
+</edge>
+<edge source="Paris Agreement" target="Climate change adaptation">
+  <data key="d3">1</data>
+  <data key="d4">adaptation</data>
+  <data key="d5">Climate change adaptation</data>
+</edge>
+<edge source="Paris Agreement" target="United Nations Framework Convention on Climate Change">
+  <data key="d3">1</data>
+  <data key="d4">United Nations Framework Convention on Climate Change</data>
+  <data key="d5">United Nations Framework Convention on Climate Change</data>
+</edge>
+<edge source="Coupled Model Intercomparison Project" target="Climatology">
+  <data key="d3">1</data>
+  <data key="d4">climatology</data>
+  <data key="d5">Climatology</data>
+</edge>
+<edge source="Coupled Model Intercomparison Project" target="World Climate Research Programme">
+  <data key="d3">1</data>
+  <data key="d4">World Climate Research Programme</data>
+  <data key="d5">World Climate Research Programme</data>
+</edge>
+<edge source="temperature records" target="Earth">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="temperature records" target="Ocean">
+  <data key="d3">1</data>
+  <data key="d4">ocean</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="temperature records" target="Scientific consensus on climate change">
+  <data key="d3">1</data>
+  <data key="d4">scientific consensus on climate change</data>
+  <data key="d5">Scientific consensus on climate change</data>
+</edge>
+<edge source="temperature records" target="Weighted average">
+  <data key="d3">1</data>
+  <data key="d4">weighted average</data>
+  <data key="d5">Weighted average</data>
+</edge>
+<edge source="temperature records" target="Sea surface temperature">
+  <data key="d3">1</data>
+  <data key="d4">sea surface temperature</data>
+  <data key="d5">Sea surface temperature</data>
+</edge>
+<edge source="temperature records" target="Surface air temperature">
+  <data key="d3">1</data>
+  <data key="d4">surface air temperature</data>
+  <data key="d5">Surface air temperature</data>
+</edge>
+<edge source="temperature records" target="Weather station">
+  <data key="d3">1</data>
+  <data key="d4">weather stations</data>
+  <data key="d5">Weather station</data>
+</edge>
+<edge source="temperature records" target="Satellite">
+  <data key="d3">1</data>
+  <data key="d4">satellites</data>
+  <data key="d5">Satellite</data>
+</edge>
+<edge source="temperature records" target="Proxy data">
+  <data key="d3">1</data>
+  <data key="d4">proxy data</data>
+  <data key="d5">Proxy data</data>
+</edge>
+<edge source="temperature records" target="Tree rings">
+  <data key="d3">1</data>
+  <data key="d4">tree rings</data>
+  <data key="d5">Tree rings</data>
+</edge>
+<edge source="temperature records" target="Coral">
+  <data key="d3">1</data>
+  <data key="d4">corals</data>
+  <data key="d5">Coral</data>
+</edge>
+<edge source="temperature records" target="Ice core">
+  <data key="d3">1</data>
+  <data key="d4">ice cores</data>
+  <data key="d5">Ice core</data>
+</edge>
+<edge source="GISTEMP" target="Earth">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="GISTEMP" target="Ocean">
+  <data key="d3">1</data>
+  <data key="d4">ocean</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="GISTEMP" target="Scientific consensus on climate change">
+  <data key="d3">1</data>
+  <data key="d4">scientific consensus on climate change</data>
+  <data key="d5">Scientific consensus on climate change</data>
+</edge>
+<edge source="GISTEMP" target="Weighted average">
+  <data key="d3">1</data>
+  <data key="d4">weighted average</data>
+  <data key="d5">Weighted average</data>
+</edge>
+<edge source="GISTEMP" target="Sea surface temperature">
+  <data key="d3">1</data>
+  <data key="d4">sea surface temperature</data>
+  <data key="d5">Sea surface temperature</data>
+</edge>
+<edge source="GISTEMP" target="Surface air temperature">
+  <data key="d3">1</data>
+  <data key="d4">surface air temperature</data>
+  <data key="d5">Surface air temperature</data>
+</edge>
+<edge source="GISTEMP" target="Weather station">
+  <data key="d3">1</data>
+  <data key="d4">weather stations</data>
+  <data key="d5">Weather station</data>
+</edge>
+<edge source="GISTEMP" target="Satellite">
+  <data key="d3">1</data>
+  <data key="d4">satellites</data>
+  <data key="d5">Satellite</data>
+</edge>
+<edge source="GISTEMP" target="Proxy data">
+  <data key="d3">1</data>
+  <data key="d4">proxy data</data>
+  <data key="d5">Proxy data</data>
+</edge>
+<edge source="GISTEMP" target="Tree rings">
+  <data key="d3">1</data>
+  <data key="d4">tree rings</data>
+  <data key="d5">Tree rings</data>
+</edge>
+<edge source="GISTEMP" target="Coral">
+  <data key="d3">1</data>
+  <data key="d4">corals</data>
+  <data key="d5">Coral</data>
+</edge>
+<edge source="GISTEMP" target="Ice core">
+  <data key="d3">1</data>
+  <data key="d4">ice cores</data>
+  <data key="d5">Ice core</data>
+</edge>
+<edge source="CLIVAR" target="World Climate Research Programme">
+  <data key="d3">1</data>
+  <data key="d4">World Climate Research Programme</data>
+  <data key="d5">World Climate Research Programme</data>
+</edge>
+<edge source="ice loss" target="Temperature">
+  <data key="d3">1</data>
+  <data key="d4">mean temperature</data>
+  <data key="d5">Temperature</data>
+</edge>
+<edge source="ice loss" target="Sea level rise">
+  <data key="d3">1</data>
+  <data key="d4">sea level rise</data>
+  <data key="d5">Sea level rise</data>
+</edge>
+<edge source="ice loss" target="Ice sheet">
+  <data key="d3">1</data>
+  <data key="d4">ice sheets</data>
+  <data key="d5">Ice sheet</data>
+</edge>
+<edge source="ice loss" target="Precipitation (meteorology)">
+  <data key="d3">1</data>
+  <data key="d4">precipitation</data>
+  <data key="d5">Precipitation (meteorology)</data>
+</edge>
+<edge source="ice loss" target="Effects of climate change">
+  <data key="d3">1</data>
+  <data key="d4">effect of climate change</data>
+  <data key="d5">Effects of climate change</data>
+</edge>
+<edge source="ice loss" target="Instrumental temperature record">
+  <data key="d3">1</data>
+  <data key="d4">rise in global temperatures</data>
+  <data key="d5">Instrumental temperature record</data>
+</edge>
+<edge source="Atmospheric sounding" target="radiosonde data">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric parameters</data>
+  <data key="d5">Atmospheric sounding</data>
+</edge>
+<edge source="Atmospheric sounding" target="AMSU">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric sounding</data>
+  <data key="d5">Atmospheric sounding</data>
+</edge>
+<edge source="radiosonde data" target="Altitude">
+  <data key="d3">1</data>
+  <data key="d4">altitude</data>
+  <data key="d5">Altitude</data>
+</edge>
+<edge source="radiosonde data" target="Pressure">
+  <data key="d3">1</data>
+  <data key="d4">pressure</data>
+  <data key="d5">Pressure</data>
+</edge>
+<edge source="radiosonde data" target="Temperature">
+  <data key="d3">1</data>
+  <data key="d4">temperature</data>
+  <data key="d5">Temperature</data>
+</edge>
+<edge source="radiosonde data" target="Ozone">
+  <data key="d3">1</data>
+  <data key="d4">ozone</data>
+  <data key="d5">Ozone</data>
+</edge>
+<edge source="Altitude" target="air temperature">
+  <data key="d3">1</data>
+  <data key="d4">altitude</data>
+  <data key="d5">Altitude</data>
+</edge>
+<edge source="air temperature" target="Temperature">
+  <data key="d3">1</data>
+  <data key="d4">temperature</data>
+  <data key="d5">Temperature</data>
+</edge>
+<edge source="air temperature" target="Humidity">
+  <data key="d3">1</data>
+  <data key="d4">humidity</data>
+  <data key="d5">Humidity</data>
+</edge>
+<edge source="air temperature" target="Insolation">
+  <data key="d3">1</data>
+  <data key="d4">incoming solar radiation</data>
+  <data key="d5">Insolation</data>
+</edge>
+<edge source="air temperature" target="Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">Earth's atmosphere</data>
+  <data key="d5">Earth's atmosphere</data>
+</edge>
+<edge source="Pressure" target="sea level pressure">
+  <data key="d3">1</data>
+  <data key="d4">pressure</data>
+  <data key="d5">Pressure</data>
+</edge>
+<edge source="sea level pressure" target="Atmosphere of Earth">
+  <data key="d3">1</data>
+  <data key="d4">atmosphere of Earth</data>
+  <data key="d5">Atmosphere of Earth</data>
+</edge>
+<edge source="sea level pressure" target="Pascal (unit)">
+  <data key="d3">2</data>
+  <data key="d4">Pa</data>
+  <data key="d5">Pascal (unit)</data>
+</edge>
+<edge source="Argentina" target="Americas">
+  <data key="d3">1</data>
+  <data key="d4">Americas</data>
+  <data key="d5">Americas</data>
+</edge>
+<edge source="Argentina" target="List of countries and dependencies by area">
+  <data key="d3">1</data>
+  <data key="d4">eighth-largest country</data>
+  <data key="d5">List of countries and dependencies by area</data>
+</edge>
+<edge source="Argentina" target="Atlantic Ocean">
+  <data key="d3">1</data>
+  <data key="d4">Atlantic Ocean</data>
+  <data key="d5">Atlantic Ocean</data>
+</edge>
+<edge source="continents" target="Americas">
+  <data key="d3">1</data>
+  <data key="d4">America</data>
+  <data key="d5">Americas</data>
+</edge>
+<edge source="continents" target="Australia (continent)">
+  <data key="d3">1</data>
+  <data key="d4">Australia</data>
+  <data key="d5">Australia (continent)</data>
+</edge>
+<edge source="continents" target="Antarctica">
+  <data key="d3">1</data>
+  <data key="d4">Antarctica</data>
+  <data key="d5">Antarctica</data>
+</edge>
+<edge source="continents" target="Asia">
+  <data key="d3">1</data>
+  <data key="d4">Asia</data>
+  <data key="d5">Asia</data>
+</edge>
+<edge source="continents" target="Africa">
+  <data key="d3">1</data>
+  <data key="d4">Africa</data>
+  <data key="d5">Africa</data>
+</edge>
+<edge source="continents" target="North America">
+  <data key="d3">1</data>
+  <data key="d4">North America</data>
+  <data key="d5">North America</data>
+</edge>
+<edge source="continents" target="Europe">
+  <data key="d3">1</data>
+  <data key="d4">Europe</data>
+  <data key="d5">Europe</data>
+</edge>
+<edge source="continents" target="Afro-Eurasia">
+  <data key="d3">1</data>
+  <data key="d4">Afro-Eurasia</data>
+  <data key="d5">Afro-Eurasia</data>
+</edge>
+<edge source="Atlantic Ocean" target="Americas">
+  <data key="d3">1</data>
+  <data key="d4">Americas</data>
+  <data key="d5">Americas</data>
+</edge>
+<edge source="Atlantic Ocean" target="Canada">
+  <data key="d3">1</data>
+  <data key="d4">Atlantic Ocean</data>
+  <data key="d5">Atlantic Ocean</data>
+</edge>
+<edge source="Atlantic Ocean" target="EarthSurface">
+  <data key="d3">1</data>
+  <data key="d4">Earth's surface</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Atlantic Ocean" target="Asia">
+  <data key="d3">1</data>
+  <data key="d4">Asia</data>
+  <data key="d5">Asia</data>
+</edge>
+<edge source="Atlantic Ocean" target="Africa">
+  <data key="d3">1</data>
+  <data key="d4">Africa</data>
+  <data key="d5">Africa</data>
+</edge>
+<edge source="Atlantic Ocean" target="North America">
+  <data key="d3">1</data>
+  <data key="d4">North America</data>
+  <data key="d5">North America</data>
+</edge>
+<edge source="Atlantic Ocean" target="Europe">
+  <data key="d3">1</data>
+  <data key="d4">Europe</data>
+  <data key="d5">Europe</data>
+</edge>
+<edge source="Atlantic Ocean" target="Afro-Eurasia">
+  <data key="d3">1</data>
+  <data key="d4">Afro-Eurasia</data>
+  <data key="d5">Afro-Eurasia</data>
+</edge>
+<edge source="Atlantic Ocean" target="Borders of the oceans">
+  <data key="d3">1</data>
+  <data key="d4">oceanic divisions</data>
+  <data key="d5">Borders of the oceans</data>
+</edge>
+<edge source="Atlantic Ocean" target="Age of Discovery">
+  <data key="d3">1</data>
+  <data key="d4">Age of Discovery</data>
+  <data key="d5">Age of Discovery</data>
+</edge>
+<edge source="Atlantic Ocean" target="New World">
+  <data key="d3">1</data>
+  <data key="d4">New World</data>
+  <data key="d5">New World</data>
+</edge>
+<edge source="Atlantic Ocean" target="Old World">
+  <data key="d3">1</data>
+  <data key="d4">Old World</data>
+  <data key="d5">Old World</data>
+</edge>
+<edge source="Atlantic" target="Americas">
+  <data key="d3">1</data>
+  <data key="d4">Americas</data>
+  <data key="d5">Americas</data>
+</edge>
+<edge source="Atlantic" target="EarthSurface">
+  <data key="d3">1</data>
+  <data key="d4">Earth's surface</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Atlantic" target="Asia">
+  <data key="d3">1</data>
+  <data key="d4">Asia</data>
+  <data key="d5">Asia</data>
+</edge>
+<edge source="Atlantic" target="Africa">
+  <data key="d3">1</data>
+  <data key="d4">Africa</data>
+  <data key="d5">Africa</data>
+</edge>
+<edge source="Atlantic" target="North America">
+  <data key="d3">1</data>
+  <data key="d4">North America</data>
+  <data key="d5">North America</data>
+</edge>
+<edge source="Atlantic" target="Europe">
+  <data key="d3">1</data>
+  <data key="d4">Europe</data>
+  <data key="d5">Europe</data>
+</edge>
+<edge source="Atlantic" target="Afro-Eurasia">
+  <data key="d3">1</data>
+  <data key="d4">Afro-Eurasia</data>
+  <data key="d5">Afro-Eurasia</data>
+</edge>
+<edge source="Atlantic" target="Borders of the oceans">
+  <data key="d3">1</data>
+  <data key="d4">oceanic divisions</data>
+  <data key="d5">Borders of the oceans</data>
+</edge>
+<edge source="Atlantic" target="Age of Discovery">
+  <data key="d3">1</data>
+  <data key="d4">Age of Discovery</data>
+  <data key="d5">Age of Discovery</data>
+</edge>
+<edge source="Atlantic" target="New World">
+  <data key="d3">1</data>
+  <data key="d4">New World</data>
+  <data key="d5">New World</data>
+</edge>
+<edge source="Atlantic" target="Old World">
+  <data key="d3">1</data>
+  <data key="d4">Old World</data>
+  <data key="d5">Old World</data>
+</edge>
+<edge source="List of countries and dependencies by area" target="Canada">
+  <data key="d3">1</data>
+  <data key="d4">second-largest country by total area</data>
+  <data key="d5">List of countries and dependencies by area</data>
+</edge>
+<edge source="Canada" target="Arctic Ocean">
+  <data key="d3">1</data>
+  <data key="d4">Arctic Ocean</data>
+  <data key="d5">Arctic Ocean</data>
+</edge>
+<edge source="Canada" target="North America">
+  <data key="d3">1</data>
+  <data key="d4">North America</data>
+  <data key="d5">North America</data>
+</edge>
+<edge source="Ice age" target="Interglacial period">
+  <data key="d3">1</data>
+  <data key="d4">ice age</data>
+  <data key="d5">Ice age</data>
+</edge>
+<edge source="Interglacial period" target="Holocene">
+  <data key="d3">1</data>
+  <data key="d4">Holocene</data>
+  <data key="d5">Holocene</data>
+</edge>
+<edge source="Glacier" target="Sea ice">
+  <data key="d3">1</data>
+  <data key="d4">glaciers</data>
+  <data key="d5">Glacier</data>
+</edge>
+<edge source="Glacier" target="glacier recession">
+  <data key="d3">1</data>
+  <data key="d4">glaciers</data>
+  <data key="d5">Glacier</data>
+</edge>
+<edge source="Sea ice" target="Southern Ocean">
+  <data key="d3">1</data>
+  <data key="d4">Southern Ocean</data>
+  <data key="d5">Southern Ocean</data>
+</edge>
+<edge source="Sea ice" target="Seawater">
+  <data key="d3">1</data>
+  <data key="d4">seawater</data>
+  <data key="d5">Seawater</data>
+</edge>
+<edge source="Sea ice" target="Ice">
+  <data key="d3">1</data>
+  <data key="d4">ice</data>
+  <data key="d5">Ice</data>
+</edge>
+<edge source="Sea ice" target="Fresh water">
+  <data key="d3">1</data>
+  <data key="d4">fresh water</data>
+  <data key="d5">Fresh water</data>
+</edge>
+<edge source="Sea ice" target="Arctic Ocean">
+  <data key="d3">1</data>
+  <data key="d4">Arctic Ocean</data>
+  <data key="d5">Arctic Ocean</data>
+</edge>
+<edge source="Sea ice" target="Ice calving">
+  <data key="d3">1</data>
+  <data key="d4">calve</data>
+  <data key="d5">Ice calving</data>
+</edge>
+<edge source="Sea ice" target="Arctic sea ice">
+  <data key="d3">1</data>
+  <data key="d4">sea ice</data>
+  <data key="d5">Sea ice</data>
+</edge>
+<edge source="Sea ice" target="glaciers">
+  <data key="d3">1</data>
+  <data key="d4">sea ice</data>
+  <data key="d5">Sea ice</data>
+</edge>
+<edge source="Sea ice" target="Ice Shelves">
+  <data key="d3">1</data>
+  <data key="d4">sea ice</data>
+  <data key="d5">Sea ice</data>
+</edge>
+<edge source="Sea ice" target="glacial">
+  <data key="d3">1</data>
+  <data key="d4">sea ice</data>
+  <data key="d5">Sea ice</data>
+</edge>
+<edge source="glacier recession" target="Greenland">
+  <data key="d3">1</data>
+  <data key="d4">Greenland</data>
+  <data key="d5">Greenland</data>
+</edge>
+<edge source="Ice sheet" target="Greenland ice sheet">
+  <data key="d3">1</data>
+  <data key="d4">ice sheet</data>
+  <data key="d5">Ice sheet</data>
+</edge>
+<edge source="Greenland ice sheet" target="Greenland">
+  <data key="d3">1</data>
+  <data key="d4">Greenland</data>
+  <data key="d5">Greenland</data>
+</edge>
+<edge source="Earth" target="Volcanic Aerosols">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Earth" target="Africa">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Earth" target="IPCC First Assessment Report">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Earth" target="Last Glacial Maximum">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Earth" target="water cycle">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Earth" target="tropical">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Earth" target="Atlas">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Earth" target="coastal waters">
+  <data key="d3">1</data>
+  <data key="d4">Earth</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Africa" target="Asia">
+  <data key="d3">1</data>
+  <data key="d4">Asia</data>
+  <data key="d5">Asia</data>
+</edge>
+<edge source="Africa" target="eastern Africa">
+  <data key="d3">1</data>
+  <data key="d4">African continent</data>
+  <data key="d5">Africa</data>
+</edge>
+<edge source="Africa" target="Continent">
+  <data key="d3">1</data>
+  <data key="d4">continent</data>
+  <data key="d5">Continent</data>
+</edge>
+<edge source="IPCC First Assessment Report" target="Intergovernmental Panel on Climate Change">
+  <data key="d3">1</data>
+  <data key="d4">Intergovernmental Panel on Climate Change</data>
+  <data key="d5">Intergovernmental Panel on Climate Change</data>
+</edge>
+<edge source="IPCC First Assessment Report" target="United Nations Framework Convention on Climate Change">
+  <data key="d3">1</data>
+  <data key="d4">United Nations Framework Convention on Climate Change</data>
+  <data key="d5">United Nations Framework Convention on Climate Change</data>
+</edge>
+<edge source="IPCC First Assessment Report" target="Greenhouse effect">
+  <data key="d3">1</data>
+  <data key="d4">greenhouse effect</data>
+  <data key="d5">Greenhouse effect</data>
+</edge>
+<edge source="IPCC First Assessment Report" target="Carbon dioxide in Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric concentrations of the greenhouse gases</data>
+  <data key="d5">Carbon dioxide in Earth's atmosphere</data>
+</edge>
+<edge source="Last Glacial Maximum" target="Asia">
+  <data key="d3">1</data>
+  <data key="d4">Asia</data>
+  <data key="d5">Asia</data>
+</edge>
+<edge source="Last Glacial Maximum" target="North America">
+  <data key="d3">1</data>
+  <data key="d4">North America</data>
+  <data key="d5">North America</data>
+</edge>
+<edge source="Last Glacial Maximum" target="Last Glacial Period">
+  <data key="d3">1</data>
+  <data key="d4">Last Glacial Period</data>
+  <data key="d5">Last Glacial Period</data>
+</edge>
+<edge source="water cycle" target="Ocean">
+  <data key="d3">1</data>
+  <data key="d4">ocean</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="water cycle" target="Ice">
+  <data key="d3">2</data>
+  <data key="d4">ice</data>
+  <data key="d5">Ice</data>
+</edge>
+<edge source="water cycle" target="Fresh water">
+  <data key="d3">1</data>
+  <data key="d4">fresh water</data>
+  <data key="d5">Fresh water</data>
+</edge>
+<edge source="water cycle" target="Biogeochemical cycle">
+  <data key="d3">1</data>
+  <data key="d4">biogeochemical cycle</data>
+  <data key="d5">Biogeochemical cycle</data>
+</edge>
+<edge source="water cycle" target="Atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric water</data>
+  <data key="d5">Atmosphere</data>
+</edge>
+<edge source="water cycle" target="Water vapor">
+  <data key="d3">1</data>
+  <data key="d4">vapor</data>
+  <data key="d5">Water vapor</data>
+</edge>
+<edge source="water cycle" target="Water">
+  <data key="d3">1</data>
+  <data key="d4">water</data>
+  <data key="d5">Water</data>
+</edge>
+<edge source="water cycle" target="Condensation">
+  <data key="d3">1</data>
+  <data key="d4">condensation</data>
+  <data key="d5">Condensation</data>
+</edge>
+<edge source="water cycle" target="Climate">
+  <data key="d3">1</data>
+  <data key="d4">climatic variables</data>
+  <data key="d5">Climate</data>
+</edge>
+<edge source="water cycle" target="Sublimation (phase transition)">
+  <data key="d3">1</data>
+  <data key="d4">sublimation</data>
+  <data key="d5">Sublimation (phase transition)</data>
+</edge>
+<edge source="water cycle" target="Evaporation">
+  <data key="d3">1</data>
+  <data key="d4">evaporation</data>
+  <data key="d5">Evaporation</data>
+</edge>
+<edge source="water cycle" target="Precipitation (meteorology)">
+  <data key="d3">1</data>
+  <data key="d4">precipitation</data>
+  <data key="d5">Precipitation (meteorology)</data>
+</edge>
+<edge source="tropical" target="Equator">
+  <data key="d3">1</data>
+  <data key="d4">Equator</data>
+  <data key="d5">Equator</data>
+</edge>
+<edge source="tropical" target="Geographical zone">
+  <data key="d3">1</data>
+  <data key="d4">geographical zone</data>
+  <data key="d5">Geographical zone</data>
+</edge>
+<edge source="Atlas" target="Continent">
+  <data key="d3">1</data>
+  <data key="d4">continent</data>
+  <data key="d5">Continent</data>
+</edge>
+<edge source="coastal waters" target="Ocean">
+  <data key="d3">1</data>
+  <data key="d4">ocean</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="Holocene" target="Last Interglacial">
+  <data key="d3">1</data>
+  <data key="d4">Holocene</data>
+  <data key="d5">Holocene</data>
+</edge>
+<edge source="Last Interglacial" target="Last Glacial Period">
+  <data key="d3">1</data>
+  <data key="d4">Last Glacial Period</data>
+  <data key="d5">Last Glacial Period</data>
+</edge>
+<edge source="Intergovernmental Panel on Climate Change" target="Fifth Assessment Report">
+  <data key="d3">1</data>
+  <data key="d4">Intergovernmental Panel on Climate Change</data>
+  <data key="d5">Intergovernmental Panel on Climate Change</data>
+</edge>
+<edge source="Fifth Assessment Report" target="Representative Concentration Pathways">
+  <data key="d3">2</data>
+  <data key="d4">Representative Concentration Pathways</data>
+  <data key="d5">Representative Concentration Pathways</data>
+</edge>
+<edge source="Precipitation" target="Asian monsoon">
+  <data key="d3">1</data>
+  <data key="d4">precipitation</data>
+  <data key="d5">Precipitation</data>
+</edge>
+<edge source="Precipitation" target="monsoons">
+  <data key="d3">1</data>
+  <data key="d4">precipitation</data>
+  <data key="d5">Precipitation</data>
+</edge>
+<edge source="Asian monsoon" target="Atmosphere of Earth">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric</data>
+  <data key="d5">Atmosphere of Earth</data>
+</edge>
+<edge source="Asian monsoon" target="Intertropical Convergence Zone">
+  <data key="d3">1</data>
+  <data key="d4">Intertropical Convergence Zone</data>
+  <data key="d5">Intertropical Convergence Zone</data>
+</edge>
+<edge source="Asian monsoon" target="Wet season">
+  <data key="d3">1</data>
+  <data key="d4">rainy phase</data>
+  <data key="d5">Wet season</data>
+</edge>
+<edge source="monsoons" target="Atmosphere of Earth">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric</data>
+  <data key="d5">Atmosphere of Earth</data>
+</edge>
+<edge source="monsoons" target="Intertropical Convergence Zone">
+  <data key="d3">1</data>
+  <data key="d4">Intertropical Convergence Zone</data>
+  <data key="d5">Intertropical Convergence Zone</data>
+</edge>
+<edge source="monsoons" target="Wet season">
+  <data key="d3">1</data>
+  <data key="d4">rainy phase</data>
+  <data key="d5">Wet season</data>
+</edge>
+<edge source="Ocean" target="Indian oceans">
+  <data key="d3">1</data>
+  <data key="d4">oceanic</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="Ocean" target="oxygen minimum zone">
+  <data key="d3">1</data>
+  <data key="d4">ocean</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="Ocean" target="ocean warming">
+  <data key="d3">1</data>
+  <data key="d4">oceans</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="Ocean" target="ocean heat uptake">
+  <data key="d3">1</data>
+  <data key="d4">oceans</data>
+  <data key="d5">Ocean</data>
+</edge>
+<edge source="Indian oceans" target="EarthSurface">
+  <data key="d3">1</data>
+  <data key="d4">Earth's surface</data>
+  <data key="d5">Earth</data>
+</edge>
+<edge source="Indian oceans" target="Australia (continent)">
+  <data key="d3">1</data>
+  <data key="d4">Australia</data>
+  <data key="d5">Australia (continent)</data>
+</edge>
+<edge source="Indian oceans" target="Southern Ocean">
+  <data key="d3">1</data>
+  <data key="d4">Southern Ocean</data>
+  <data key="d5">Southern Ocean</data>
+</edge>
+<edge source="Indian oceans" target="Antarctica">
+  <data key="d3">1</data>
+  <data key="d4">Antarctica</data>
+  <data key="d5">Antarctica</data>
+</edge>
+<edge source="ocean warming" target="Ocean temperature">
+  <data key="d3">1</data>
+  <data key="d4">ocean temperature</data>
+  <data key="d5">Ocean temperature</data>
+</edge>
+<edge source="ocean warming" target="Integral">
+  <data key="d3">1</data>
+  <data key="d4">Integrating the areal density</data>
+  <data key="d5">Integral</data>
+</edge>
+<edge source="ocean warming" target="Enthalpy">
+  <data key="d3">1</data>
+  <data key="d4">enthalpic energy</data>
+  <data key="d5">Enthalpy</data>
+</edge>
+<edge source="ocean warming" target="Earth%27s Energy Imbalance">
+  <data key="d3">1</data>
+  <data key="d4">global heating</data>
+  <data key="d5">Earth's Energy Imbalance</data>
+</edge>
+<edge source="ocean warming" target="Greenhouse gas emissions">
+  <data key="d3">1</data>
+  <data key="d4">greenhouse gas emissions</data>
+  <data key="d5">Greenhouse gas emissions</data>
+</edge>
+<edge source="ocean heat uptake" target="Ocean temperature">
+  <data key="d3">1</data>
+  <data key="d4">ocean temperature</data>
+  <data key="d5">Ocean temperature</data>
+</edge>
+<edge source="ocean heat uptake" target="Integral">
+  <data key="d3">1</data>
+  <data key="d4">Integrating the areal density</data>
+  <data key="d5">Integral</data>
+</edge>
+<edge source="ocean heat uptake" target="Enthalpy">
+  <data key="d3">1</data>
+  <data key="d4">enthalpic energy</data>
+  <data key="d5">Enthalpy</data>
+</edge>
+<edge source="ocean heat uptake" target="Earth%27s Energy Imbalance">
+  <data key="d3">1</data>
+  <data key="d4">global heating</data>
+  <data key="d5">Earth's Energy Imbalance</data>
+</edge>
+<edge source="ocean heat uptake" target="Greenhouse gas emissions">
+  <data key="d3">1</data>
+  <data key="d4">greenhouse gas emissions</data>
+  <data key="d5">Greenhouse gas emissions</data>
+</edge>
+<edge source="Antarctica" target="Southern Hemisphere Annular Mode">
+  <data key="d3">1</data>
+  <data key="d4">Antarctica</data>
+  <data key="d5">Antarctica</data>
+</edge>
+<edge source="Oxygen" target="plant respiration">
+  <data key="d3">1</data>
+  <data key="d4">oxygen</data>
+  <data key="d5">Oxygen</data>
+</edge>
+<edge source="Oxygen" target="deoxygenation">
+  <data key="d3">1</data>
+  <data key="d4">oxygen</data>
+  <data key="d5">Oxygen</data>
+</edge>
+<edge source="plant respiration" target="Metabolism">
+  <data key="d3">1</data>
+  <data key="d4">metabolic</data>
+  <data key="d5">Metabolism</data>
+</edge>
+<edge source="plant respiration" target="Cell (biology)">
+  <data key="d3">1</data>
+  <data key="d4">cells</data>
+  <data key="d5">Cell (biology)</data>
+</edge>
+<edge source="plant respiration" target="Organism">
+  <data key="d3">1</data>
+  <data key="d4">organisms</data>
+  <data key="d5">Organism</data>
+</edge>
+<edge source="Metabolism" target="biochemical processes">
+  <data key="d3">1</data>
+  <data key="d4">metabolism</data>
+  <data key="d5">Metabolism</data>
+</edge>
+<edge source="biochemical processes" target="Cell (biology)">
+  <data key="d3">1</data>
+  <data key="d4">cells</data>
+  <data key="d5">Cell (biology)</data>
+</edge>
+<edge source="biochemical processes" target="Organism">
+  <data key="d3">1</data>
+  <data key="d4">organisms</data>
+  <data key="d5">Organism</data>
+</edge>
+<edge source="biochemical processes" target="Chemistry">
+  <data key="d3">1</data>
+  <data key="d4">chemistry</data>
+  <data key="d5">Chemistry</data>
+</edge>
+<edge source="biochemical processes" target="Biology">
+  <data key="d3">1</data>
+  <data key="d4">biology</data>
+  <data key="d5">Biology</data>
+</edge>
+<edge source="Humidity" target="evaporation">
+  <data key="d3">1</data>
+  <data key="d4">humidity</data>
+  <data key="d5">Humidity</data>
+</edge>
+<edge source="Climate change mitigation" target="Climate Change Scenarios">
+  <data key="d3">2</data>
+  <data key="d4">mitigation</data>
+  <data key="d5">Climate change mitigation</data>
+</edge>
+<edge source="Climate Change Scenarios" target="Climate change adaptation">
+  <data key="d3">2</data>
+  <data key="d4">adaptation</data>
+  <data key="d5">Climate change adaptation</data>
+</edge>
+<edge source="Climatology" target="Palaeoecology">
+  <data key="d3">1</data>
+  <data key="d4">climatology</data>
+  <data key="d5">Climatology</data>
+</edge>
+<edge source="Climatology" target="Equilibrium Climate Sensitivity">
+  <data key="d3">1</data>
+  <data key="d4">climate science</data>
+  <data key="d5">Climatology</data>
+</edge>
+<edge source="Palaeoecology" target="Biology">
+  <data key="d3">1</data>
+  <data key="d4">biology</data>
+  <data key="d5">Biology</data>
+</edge>
+<edge source="Equilibrium Climate Sensitivity" target="Carbon dioxide in Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric carbon dioxide (CO2) concentration</data>
+  <data key="d5">Carbon dioxide in Earth's atmosphere</data>
+</edge>
+<edge source="Equilibrium Climate Sensitivity" target="Effects of climate change">
+  <data key="d3">1</data>
+  <data key="d4">effects of climate change</data>
+  <data key="d5">Effects of climate change</data>
+</edge>
+<edge source="Seawater" target="ocean circulation">
+  <data key="d3">1</data>
+  <data key="d4">seawater</data>
+  <data key="d5">Seawater</data>
+</edge>
+<edge source="ocean circulation" target="Salinity">
+  <data key="d3">1</data>
+  <data key="d4">salinity</data>
+  <data key="d5">Salinity</data>
+</edge>
+<edge source="Ice" target="Ice Shelves">
+  <data key="d3">1</data>
+  <data key="d4">ice</data>
+  <data key="d5">Ice</data>
+</edge>
+<edge source="Ice" target="snowfall">
+  <data key="d3">1</data>
+  <data key="d4">ice</data>
+  <data key="d5">Ice</data>
+</edge>
+<edge source="Ice" target="water vapor">
+  <data key="d3">1</data>
+  <data key="d4">ice</data>
+  <data key="d5">Ice</data>
+</edge>
+<edge source="Ice Shelves" target="Ice calving">
+  <data key="d3">1</data>
+  <data key="d4">calving</data>
+  <data key="d5">Ice calving</data>
+</edge>
+<edge source="Ice Shelves" target="Glaciers">
+  <data key="d3">1</data>
+  <data key="d4">glaciers</data>
+  <data key="d5">Glaciers</data>
+</edge>
+<edge source="snowfall" target="Atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">atmosphere</data>
+  <data key="d5">Atmosphere</data>
+</edge>
+<edge source="snowfall" target="Sublimation (phase transition)">
+  <data key="d3">1</data>
+  <data key="d4">sublimate</data>
+  <data key="d5">Sublimation (phase transition)</data>
+</edge>
+<edge source="water vapor" target="Air">
+  <data key="d3">1</data>
+  <data key="d4">air</data>
+  <data key="d5">Air</data>
+</edge>
+<edge source="water vapor" target="Condensation">
+  <data key="d3">1</data>
+  <data key="d4">condensation</data>
+  <data key="d5">Condensation</data>
+</edge>
+<edge source="water vapor" target="Hydrosphere">
+  <data key="d3">1</data>
+  <data key="d4">hydrosphere</data>
+  <data key="d5">Hydrosphere</data>
+</edge>
+<edge source="water vapor" target="Sublimation (phase transition)">
+  <data key="d3">1</data>
+  <data key="d4">sublimation</data>
+  <data key="d5">Sublimation (phase transition)</data>
+</edge>
+<edge source="water vapor" target="Evaporation">
+  <data key="d3">1</data>
+  <data key="d4">evaporation</data>
+  <data key="d5">Evaporation</data>
+</edge>
+<edge source="Fresh water" target="rainfall">
+  <data key="d3">1</data>
+  <data key="d4">fresh water</data>
+  <data key="d5">Fresh water</data>
+</edge>
+<edge source="rainfall" target="Water">
+  <data key="d3">1</data>
+  <data key="d4">water</data>
+  <data key="d5">Water</data>
+</edge>
+<edge source="rainfall" target="Condensation">
+  <data key="d3">1</data>
+  <data key="d4">condensed</data>
+  <data key="d5">Condensation</data>
+</edge>
+<edge source="rainfall" target="Water cycle">
+  <data key="d3">1</data>
+  <data key="d4">water cycle</data>
+  <data key="d5">Water cycle</data>
+</edge>
+<edge source="Arctic Ocean" target="Arctic sea ice">
+  <data key="d3">1</data>
+  <data key="d4">Arctic Ocean</data>
+  <data key="d5">Arctic Ocean</data>
+</edge>
+<edge source="Research" target="data table">
+  <data key="d3">1</data>
+  <data key="d4">research</data>
+  <data key="d5">Research</data>
+</edge>
+<edge source="Troposphere" target="walker circulation">
+  <data key="d3">1</data>
+  <data key="d4">troposphere</data>
+  <data key="d5">Troposphere</data>
+</edge>
+<edge source="walker circulation" target="Tropics">
+  <data key="d3">1</data>
+  <data key="d4">tropics</data>
+  <data key="d5">Tropics</data>
+</edge>
+<edge source="Random variable" target="serial correlation">
+  <data key="d3">1</data>
+  <data key="d4">random variable</data>
+  <data key="d5">Random variable</data>
+</edge>
+<edge source="Biogeochemical cycle" target="Nitrogen cycling">
+  <data key="d3">1</data>
+  <data key="d4">biogeochemical cycle</data>
+  <data key="d5">Biogeochemical cycle</data>
+</edge>
+<edge source="Biogeochemical cycle" target="nitrogen cycle">
+  <data key="d3">1</data>
+  <data key="d4">biogeochemical cycle</data>
+  <data key="d5">Biogeochemical cycle</data>
+</edge>
+<edge source="Nitrogen cycling" target="Nitrogen">
+  <data key="d3">2</data>
+  <data key="d4">nitrogen</data>
+  <data key="d5">Nitrogen</data>
+</edge>
+<edge source="Nitrogen cycling" target="Atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric</data>
+  <data key="d5">Atmosphere</data>
+</edge>
+<edge source="Nitrogen cycling" target="Terrestrial ecosystem">
+  <data key="d3">1</data>
+  <data key="d4">terrestrial</data>
+  <data key="d5">Terrestrial ecosystem</data>
+</edge>
+<edge source="Nitrogen cycling" target="Marine ecosystem">
+  <data key="d3">1</data>
+  <data key="d4">marine ecosystems</data>
+  <data key="d5">Marine ecosystem</data>
+</edge>
+<edge source="Nitrogen cycling" target="Nitrogen fixation">
+  <data key="d3">1</data>
+  <data key="d4">fixation</data>
+  <data key="d5">Nitrogen fixation</data>
+</edge>
+<edge source="Nitrogen cycling" target="Ammonification">
+  <data key="d3">1</data>
+  <data key="d4">ammonification</data>
+  <data key="d5">Ammonification</data>
+</edge>
+<edge source="Nitrogen cycling" target="Nitrification">
+  <data key="d3">1</data>
+  <data key="d4">nitrification</data>
+  <data key="d5">Nitrification</data>
+</edge>
+<edge source="Nitrogen cycling" target="Denitrification">
+  <data key="d3">1</data>
+  <data key="d4">denitrification</data>
+  <data key="d5">Denitrification</data>
+</edge>
+<edge source="Nitrogen cycling" target="Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">Earth's atmosphere</data>
+  <data key="d5">Earth's atmosphere</data>
+</edge>
+<edge source="Nitrogen cycling" target="Scarcity">
+  <data key="d3">1</data>
+  <data key="d4">scarcity</data>
+  <data key="d5">Scarcity</data>
+</edge>
+<edge source="Nitrogen cycling" target="Ecosystems">
+  <data key="d3">1</data>
+  <data key="d4">ecosystems</data>
+  <data key="d5">Ecosystems</data>
+</edge>
+<edge source="nitrogen cycle" target="Nitrogen">
+  <data key="d3">2</data>
+  <data key="d4">nitrogen</data>
+  <data key="d5">Nitrogen</data>
+</edge>
+<edge source="nitrogen cycle" target="Atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric</data>
+  <data key="d5">Atmosphere</data>
+</edge>
+<edge source="nitrogen cycle" target="Terrestrial ecosystem">
+  <data key="d3">1</data>
+  <data key="d4">terrestrial</data>
+  <data key="d5">Terrestrial ecosystem</data>
+</edge>
+<edge source="nitrogen cycle" target="Marine ecosystem">
+  <data key="d3">1</data>
+  <data key="d4">marine ecosystems</data>
+  <data key="d5">Marine ecosystem</data>
+</edge>
+<edge source="nitrogen cycle" target="Nitrogen fixation">
+  <data key="d3">1</data>
+  <data key="d4">fixation</data>
+  <data key="d5">Nitrogen fixation</data>
+</edge>
+<edge source="nitrogen cycle" target="Ammonification">
+  <data key="d3">1</data>
+  <data key="d4">ammonification</data>
+  <data key="d5">Ammonification</data>
+</edge>
+<edge source="nitrogen cycle" target="Nitrification">
+  <data key="d3">1</data>
+  <data key="d4">nitrification</data>
+  <data key="d5">Nitrification</data>
+</edge>
+<edge source="nitrogen cycle" target="Denitrification">
+  <data key="d3">1</data>
+  <data key="d4">denitrification</data>
+  <data key="d5">Denitrification</data>
+</edge>
+<edge source="nitrogen cycle" target="Earth%27s atmosphere">
+  <data key="d3">1</data>
+  <data key="d4">Earth's atmosphere</data>
+  <data key="d5">Earth's atmosphere</data>
+</edge>
+<edge source="nitrogen cycle" target="Scarcity">
+  <data key="d3">1</data>
+  <data key="d4">scarcity</data>
+  <data key="d5">Scarcity</data>
+</edge>
+<edge source="nitrogen cycle" target="Ecosystems">
+  <data key="d3">1</data>
+  <data key="d4">ecosystems</data>
+  <data key="d5">Ecosystems</data>
+</edge>
+<edge source="Europe" target="England">
+  <data key="d3">1</data>
+  <data key="d4">Europe</data>
+  <data key="d5">Europe</data>
+</edge>
+<edge source="Sun" target="solar activity">
+  <data key="d3">1</data>
+  <data key="d4">Sun</data>
+  <data key="d5">Sun</data>
+</edge>
+<edge source="Differential equation" target="boundary conditions">
+  <data key="d3">2</data>
+  <data key="d4">differential equations</data>
+  <data key="d5">Differential equation</data>
+</edge>
+<edge source="Physics" target="Mass balance">
+  <data key="d3">1</data>
+  <data key="d4">physics</data>
+  <data key="d5">Physics</data>
+</edge>
+<edge source="Mass balance" target="Matter">
+  <data key="d3">1</data>
+  <data key="d4">matter</data>
+  <data key="d5">Matter</data>
+</edge>
+<edge source="Mathematical model" target="CESM">
+  <data key="d3">1</data>
+  <data key="d4">numerical</data>
+  <data key="d5">Mathematical model</data>
+</edge>
+<edge source="Mathematical model" target="Community Earth System Model">
+  <data key="d3">1</data>
+  <data key="d4">numerical</data>
+  <data key="d5">Mathematical model</data>
+</edge>
+<edge source="Mathematical model" target="Ecological modelling">
+  <data key="d3">1</data>
+  <data key="d4">mathematical</data>
+  <data key="d5">Mathematical model</data>
+</edge>
+<edge source="CESM" target="Computer simulation">
+  <data key="d3">1</data>
+  <data key="d4">simulation</data>
+  <data key="d5">Computer simulation</data>
+</edge>
+<edge source="CESM" target="Earth system science">
+  <data key="d3">1</data>
+  <data key="d4">Earth system</data>
+  <data key="d5">Earth system science</data>
+</edge>
+<edge source="CESM" target="Atmospheric model">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric</data>
+  <data key="d5">Atmospheric model</data>
+</edge>
+<edge source="CESM" target="CICE (sea ice model)">
+  <data key="d3">1</data>
+  <data key="d4">ice</data>
+  <data key="d5">CICE (sea ice model)</data>
+</edge>
+<edge source="CESM" target="Carbon cycle">
+  <data key="d3">1</data>
+  <data key="d4">carbon cycle</data>
+  <data key="d5">Carbon cycle</data>
+</edge>
+<edge source="CESM" target="Climate model">
+  <data key="d3">1</data>
+  <data key="d4">climate model</data>
+  <data key="d5">Climate model</data>
+</edge>
+<edge source="CESM" target="Community Climate System Model">
+  <data key="d3">1</data>
+  <data key="d4">Community Climate System Model</data>
+  <data key="d5">Community Climate System Model</data>
+</edge>
+<edge source="CESM" target="Ensemble forecasting">
+  <data key="d3">1</data>
+  <data key="d4">ensemble forecasting</data>
+  <data key="d5">Ensemble forecasting</data>
+</edge>
+<edge source="CESM" target="Earth%27s surface">
+  <data key="d3">1</data>
+  <data key="d4">Earth's surface</data>
+  <data key="d5">Earth's surface</data>
+</edge>
+<edge source="CESM" target="Thermosphere">
+  <data key="d3">1</data>
+  <data key="d4">thermosphere</data>
+  <data key="d5">Thermosphere</data>
+</edge>
+<edge source="CESM" target="Whole Atmosphere Community Climate Model">
+  <data key="d3">1</data>
+  <data key="d4">Whole Atmosphere Community Climate Model</data>
+  <data key="d5">Whole Atmosphere Community Climate Model</data>
+</edge>
+<edge source="CESM" target="National Center for Atmospheric Research">
+  <data key="d3">1</data>
+  <data key="d4">National Center for Atmospheric Research</data>
+  <data key="d5">National Center for Atmospheric Research</data>
+</edge>
+<edge source="CESM" target="National Science Foundation">
+  <data key="d3">1</data>
+  <data key="d4">National Science Foundation</data>
+  <data key="d5">National Science Foundation</data>
+</edge>
+<edge source="CESM" target="United States Department of Energy">
+  <data key="d3">1</data>
+  <data key="d4">Department of Energy</data>
+  <data key="d5">United States Department of Energy</data>
+</edge>
+<edge source="Community Earth System Model" target="Computer simulation">
+  <data key="d3">1</data>
+  <data key="d4">simulation</data>
+  <data key="d5">Computer simulation</data>
+</edge>
+<edge source="Community Earth System Model" target="Earth system science">
+  <data key="d3">1</data>
+  <data key="d4">Earth system</data>
+  <data key="d5">Earth system science</data>
+</edge>
+<edge source="Community Earth System Model" target="Atmospheric model">
+  <data key="d3">1</data>
+  <data key="d4">atmospheric</data>
+  <data key="d5">Atmospheric model</data>
+</edge>
+<edge source="Community Earth System Model" target="CICE (sea ice model)">
+  <data key="d3">1</data>
+  <data key="d4">ice</data>
+  <data key="d5">CICE (sea ice model)</data>
+</edge>
+<edge source="Community Earth System Model" target="Carbon cycle">
+  <data key="d3">1</data>
+  <data key="d4">carbon cycle</data>
+  <data key="d5">Carbon cycle</data>
+</edge>
+<edge source="Community Earth System Model" target="Climate model">
+  <data key="d3">1</data>
+  <data key="d4">climate model</data>
+  <data key="d5">Climate model</data>
+</edge>
+<edge source="Community Earth System Model" target="Community Climate System Model">
+  <data key="d3">1</data>
+  <data key="d4">Community Climate System Model</data>
+  <data key="d5">Community Climate System Model</data>
+</edge>
+<edge source="Community Earth System Model" target="Ensemble forecasting">
+  <data key="d3">1</data>
+  <data key="d4">ensemble forecasting</data>
+  <data key="d5">Ensemble forecasting</data>
+</edge>
+<edge source="Community Earth System Model" target="Earth%27s surface">
+  <data key="d3">1</data>
+  <data key="d4">Earth's surface</data>
+  <data key="d5">Earth's surface</data>
+</edge>
+<edge source="Community Earth System Model" target="Thermosphere">
+  <data key="d3">1</data>
+  <data key="d4">thermosphere</data>
+  <data key="d5">Thermosphere</data>
+</edge>
+<edge source="Community Earth System Model" target="Whole Atmosphere Community Climate Model">
+  <data key="d3">1</data>
+  <data key="d4">Whole Atmosphere Community Climate Model</data>
+  <data key="d5">Whole Atmosphere Community Climate Model</data>
+</edge>
+<edge source="Community Earth System Model" target="National Center for Atmospheric Research">
+  <data key="d3">1</data>
+  <data key="d4">National Center for Atmospheric Research</data>
+  <data key="d5">National Center for Atmospheric Research</data>
+</edge>
+<edge source="Community Earth System Model" target="National Science Foundation">
+  <data key="d3">1</data>
+  <data key="d4">National Science Foundation</data>
+  <data key="d5">National Science Foundation</data>
+</edge>
+<edge source="Community Earth System Model" target="United States Department of Energy">
+  <data key="d3">1</data>
+  <data key="d4">Department of Energy</data>
+  <data key="d5">United States Department of Energy</data>
+</edge>
+<edge source="Earth%27s surface" target="solar dimming">
+  <data key="d3">1</data>
+  <data key="d4">Earth's surface</data>
+  <data key="d5">Earth's surface</data>
+</edge>
+<edge source="solar dimming" target="Solar activity">
+  <data key="d3">1</data>
+  <data key="d4">Solar activity</data>
+  <data key="d5">Solar activity</data>
+</edge>
+<edge source="glaciers" target="American English">
+  <data key="d3">1</data>
+  <data key="d4">US</data>
+  <data key="d5">American English</data>
+</edge>
+<edge source="glaciers" target="British English">
+  <data key="d3">1</data>
+  <data key="d4">UK</data>
+  <data key="d5">British English</data>
+</edge>
+<edge source="glaciers" target="AblationGlaciology">
+  <data key="d3">1</data>
+  <data key="d4">ablation</data>
+  <data key="d5">Ablation</data>
+</edge>
+<edge source="glaciers" target="Century">
+  <data key="d3">1</data>
+  <data key="d4">centuries</data>
+  <data key="d5">Century</data>
+</edge>
+<edge source="glaciers" target="Crevasse">
+  <data key="d3">1</data>
+  <data key="d4">crevasses</data>
+  <data key="d5">Crevasse</data>
+</edge>
+<edge source="glaciers" target="Serac">
+  <data key="d3">1</data>
+  <data key="d4">seracs</data>
+  <data key="d5">Serac</data>
+</edge>
+<edge source="glaciers" target="Cirque">
+  <data key="d3">1</data>
+  <data key="d4">cirques</data>
+  <data key="d5">Cirque</data>
+</edge>
+<edge source="glaciers" target="Moraine">
+  <data key="d3">1</data>
+  <data key="d4">moraines</data>
+  <data key="d5">Moraine</data>
+</edge>
+<edge source="glaciers" target="Fjord">
+  <data key="d3">1</data>
+  <data key="d4">fjords</data>
+  <data key="d5">Fjord</data>
+</edge>
+<edge source="glacial" target="American English">
+  <data key="d3">1</data>
+  <data key="d4">US</data>
+  <data key="d5">American English</data>
+</edge>
+<edge source="glacial" target="British English">
+  <data key="d3">1</data>
+  <data key="d4">UK</data>
+  <data key="d5">British English</data>
+</edge>
+<edge source="glacial" target="AblationGlaciology">
+  <data key="d3">1</data>
+  <data key="d4">ablation</data>
+  <data key="d5">Ablation</data>
+</edge>
+<edge source="glacial" target="Century">
+  <data key="d3">1</data>
+  <data key="d4">centuries</data>
+  <data key="d5">Century</data>
+</edge>
+<edge source="glacial" target="Crevasse">
+  <data key="d3">1</data>
+  <data key="d4">crevasses</data>
+  <data key="d5">Crevasse</data>
+</edge>
+<edge source="glacial" target="Serac">
+  <data key="d3">1</data>
+  <data key="d4">seracs</data>
+  <data key="d5">Serac</data>
+</edge>
+<edge source="glacial" target="Cirque">
+  <data key="d3">1</data>
+  <data key="d4">cirques</data>
+  <data key="d5">Cirque</data>
+</edge>
+<edge source="glacial" target="Moraine">
+  <data key="d3">1</data>
+  <data key="d4">moraines</data>
+  <data key="d5">Moraine</data>
+</edge>
+<edge source="glacial" target="Fjord">
+  <data key="d3">1</data>
+  <data key="d4">fjords</data>
+  <data key="d5">Fjord</data>
+</edge>
+<edge source="Weather" target="Earth System Research Laboratory">
+  <data key="d3">1</data>
+  <data key="d4">weather</data>
+  <data key="d5">Weather</data>
+</edge>
+<edge source="Earth System Research Laboratory" target="Climate">
+  <data key="d3">1</data>
+  <data key="d4">climate</data>
+  <data key="d5">Climate</data>
+</edge>
+<edge source="Prediction" target="Predictability">
+  <data key="d3">1</data>
+  <data key="d4">prediction</data>
+  <data key="d5">Prediction</data>
+</edge>
+<edge source="Mathematics" target="parameterizations">
+  <data key="d3">1</data>
+  <data key="d4">mathematics</data>
+  <data key="d5">Mathematics</data>
+</edge>
+<edge source="Mathematics" target="parameterization">
+  <data key="d3">1</data>
+  <data key="d4">mathematics</data>
+  <data key="d5">Mathematics</data>
+</edge>
+<edge source="parameterizations" target="Geometry">
+  <data key="d3">1</data>
+  <data key="d4">geometry</data>
+  <data key="d5">Geometry</data>
+</edge>
+<edge source="parameterizations" target="Parametric equation">
+  <data key="d3">1</data>
+  <data key="d4">parametric equations</data>
+  <data key="d5">Parametric equation</data>
+</edge>
+<edge source="parameterizations" target="Curve">
+  <data key="d3">1</data>
+  <data key="d4">curve</data>
+  <data key="d5">Curve</data>
+</edge>
+<edge source="parameterizations" target="Surface (mathematics)">
+  <data key="d3">1</data>
+  <data key="d4">surface</data>
+  <data key="d5">Surface (mathematics)</data>
+</edge>
+<edge source="parameterizations" target="Manifold">
+  <data key="d3">1</data>
+  <data key="d4">manifold</data>
+  <data key="d5">Manifold</data>
+</edge>
+<edge source="parameterizations" target="Algebraic variety">
+  <data key="d3">1</data>
+  <data key="d4">variety</data>
+  <data key="d5">Algebraic variety</data>
+</edge>
+<edge source="parameterizations" target="Implicit equation">
+  <data key="d3">1</data>
+  <data key="d4">implicit equation</data>
+  <data key="d5">Implicit equation</data>
+</edge>
+<edge source="parameterizations" target="Implicitization">
+  <data key="d3">1</data>
+  <data key="d4">implicitization</data>
+  <data key="d5">Implicitization</data>
+</edge>
+<edge source="parameterizations" target="Parameter">
+  <data key="d3">1</data>
+  <data key="d4">parameters</data>
+  <data key="d5">Parameter</data>
+</edge>
+<edge source="parameterization" target="Geometry">
+  <data key="d3">1</data>
+  <data key="d4">geometry</data>
+  <data key="d5">Geometry</data>
+</edge>
+<edge source="parameterization" target="Parametric equation">
+  <data key="d3">1</data>
+  <data key="d4">parametric equations</data>
+  <data key="d5">Parametric equation</data>
+</edge>
+<edge source="parameterization" target="Curve">
+  <data key="d3">1</data>
+  <data key="d4">curve</data>
+  <data key="d5">Curve</data>
+</edge>
+<edge source="parameterization" target="Surface (mathematics)">
+  <data key="d3">1</data>
+  <data key="d4">surface</data>
+  <data key="d5">Surface (mathematics)</data>
+</edge>
+<edge source="parameterization" target="Manifold">
+  <data key="d3">1</data>
+  <data key="d4">manifold</data>
+  <data key="d5">Manifold</data>
+</edge>
+<edge source="parameterization" target="Algebraic variety">
+  <data key="d3">1</data>
+  <data key="d4">variety</data>
+  <data key="d5">Algebraic variety</data>
+</edge>
+<edge source="parameterization" target="Implicit equation">
+  <data key="d3">1</data>
+  <data key="d4">implicit equation</data>
+  <data key="d5">Implicit equation</data>
+</edge>
+<edge source="parameterization" target="Implicitization">
+  <data key="d3">1</data>
+  <data key="d4">implicitization</data>
+  <data key="d5">Implicitization</data>
+</edge>
+<edge source="parameterization" target="Parameter">
+  <data key="d3">1</data>
+  <data key="d4">parameters</data>
+  <data key="d5">Parameter</data>
+</edge>
+<edge source="Solar activity" target="solar variability">
+  <data key="d3">1</data>
+  <data key="d4">solar activity</data>
+  <data key="d5">Solar activity</data>
+</edge>
+<edge source="Glaciers" target="surface melting">
+  <data key="d3">1</data>
+  <data key="d4">glaciers</data>
+  <data key="d5">Glaciers</data>
+</edge>
+<edge source="Cloud" target="cloud cover">
+  <data key="d3">1</data>
+  <data key="d4">clouds</data>
+  <data key="d5">Cloud</data>
+</edge>
+<edge source="Climate" target="paleoclimate">
+  <data key="d3">1</data>
+  <data key="d4">climates</data>
+  <data key="d5">Climate</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,35 @@
+{
+  "total_tested": 4,
+  "successful": 1,
+  "failed": 3,
+  "error_categories": {
+    "client_errors": [],
+    "server_errors": [
+      "https://httpbin.org/status/404",
+      "https://httpbin.org/status/500"
+    ],
+    "network_errors": [
+      "https://nonexistent-domain-12345.com"
+    ],
+    "timeout_errors": []
+  },
+  "detailed_results": {
+    "https://httpbin.org/status/200": {
+      "status_code": 200,
+      "accessible": true
+    },
+    "https://httpbin.org/status/404": {
+      "status_code": 502,
+      "accessible": false
+    },
+    "https://httpbin.org/status/500": {
+      "status_code": 500,
+      "accessible": false
+    },
+    "https://nonexistent-domain-12345.com": {
+      "status_code": 0,
+      "accessible": false,
+      "error": "connection_error"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "total_multilingual_links": 0,
+  "language_diversity": 0,
+  "most_common_language": null,
+  "language_breakdown": {},
+  "multilingual_coverage": 0.0,
+  "summary_statistics": {
+    "average_links_per_language": 0,
+    "languages_with_single_link": 0,
+    "languages_with_multiple_links": 0
+  }
+}

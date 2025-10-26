@@ -1,0 +1,17 @@
+{
+  "https://en.wikipedia.org/w/index.php?search=fingerprinting": {
+    "canonical_url": "https://en.wikipedia.org/wiki/Fingerprinting",
+    "status_code": 200,
+    "term": "fingerprinting"
+  },
+  "https://en.wikipedia.org/w/index.php?search=External%20forcing": {
+    "canonical_url": "https://en.wikipedia.org/wiki/External_forcing",
+    "status_code": 200,
+    "term": "External forcing"
+  },
+  "https://en.wikipedia.org/w/index.php?search=cyclone": {
+    "canonical_url": "https://en.wikipedia.org/wiki/Cyclone",
+    "status_code": 200,
+    "term": "cyclone"
+  }
+}

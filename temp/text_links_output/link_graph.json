@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "term": "fingerprinting",
+      "name": "fingerprinting",
+      "search_url": "https://en.wikipedia.org/w/index.php?search=fingerprinting",
+      "link_count": 3
+    },
+    {
+      "term": "External forcing",
+      "name": "External forcing",
+      "search_url": "https://en.wikipedia.org/w/index.php?search=External%20forcing",
+      "link_count": 14
+    },
+    {
+      "term": "cyclone",
+      "name": "cyclone",
+      "search_url": "https://en.wikipedia.org/w/index.php?search=cyclone",
+      "link_count": 17
+    },
+    {
+      "term": "Observational data",
+      "name": "Observational data",
+      "search_url": "https://en.wikipedia.org/w/index.php?search=Observational%20data",
+      "link_count": 12
+    },
+    {
+      "term": "whiskers",
+      "name": "whiskers",
+      "search_url": "https://en.wikipedia.org/w/index.php?search=whiskers",
+      "link_count": 10
+    }
+  ],
+  "edges": [],
+  "metadata": {
+    "total_nodes": 5,
+    "total_edges": 0,
+    "density": 0.0
+  }
+}

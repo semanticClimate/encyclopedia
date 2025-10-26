@@ -1,0 +1,52 @@
+{
+  "/wiki/Friction_ridge": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Friction_ridge",
+    "accessible": true
+  },
+  "/wiki/Finger": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Finger",
+    "accessible": true
+  },
+  "/wiki/Forensic_science": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Forensic_science",
+    "accessible": true
+  },
+  "/wiki/Earth%27s_energy_budget": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Earth%27s_energy_budget",
+    "accessible": true
+  },
+  "/wiki/Greenhouse_gas": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Greenhouse_gas",
+    "accessible": true
+  },
+  "/wiki/Aerosol": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Aerosol",
+    "accessible": true
+  },
+  "/wiki/Albedo": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Albedo",
+    "accessible": true
+  },
+  "/wiki/Solar_irradiance": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Solar_irradiance",
+    "accessible": true
+  },
+  "/wiki/Radiative_flux": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Radiative_flux",
+    "accessible": true
+  },
+  "/wiki/Climate_change_feedback": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Climate_change_feedback",
+    "accessible": true
+  }
+}

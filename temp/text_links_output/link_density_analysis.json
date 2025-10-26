@@ -1,0 +1,16 @@
+{
+  "total_entries": 5,
+  "total_links": 56,
+  "average_links_per_entry": 11.2,
+  "max_links_in_entry": 17,
+  "min_links_in_entry": 3,
+  "link_count_distribution": [
+    3,
+    14,
+    17,
+    12,
+    10
+  ],
+  "entries_with_no_links": 0,
+  "entries_with_many_links": 4
+}
