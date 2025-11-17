@@ -1,25 +1,33 @@
 # txt2phrases
 
-`txt2phrases` is a Python library designed for processing and analyzing text data. It provides tools for:
-
-1. **HTML to TXT conversion**: Extract plain text from HTML files.  
-2. **Keyword extraction**: Use Hugging Face Transformers to identify and rank the most important keywords in text files.  
-3. **Per-chapter TF-IDF-based keyword classification**: Classify keywords as specific (unique to a chapter) or general (common across chapters).
+`txt2phrases` is a Python library and CLI tool designed for processing and analyzing text data.  
+It provides a streamlined pipeline for converting documents (HTML, PDF) into plain text, extracting keywords using AI models, and classifying keywords into specific and general categories using TF-IDF.
 
 ---
 
-## Features
+## ✨ Features
 
-- **HTML Parsing**: Convert HTML documents into plain text for further processing.
-- **AI-Powered Keyword Extraction**: Leverage pre-trained NLP models for accurate keyword identification.
-- **TF-IDF Classification**: Classify keywords into specific and general categories based on their relevance.
-- **Batch Processing**: Process multiple files in a single command.
-- **Configurable Parameters**: Customize thresholds, batch sizes, and output formats.
-- **Output Formats**: Save results as CSV files for easy analysis.
+### 1. **PDF to Text Conversion**
+- Extract plain text from PDF files for further processing.
+
+### 2. **HTML to Text Conversion**
+- Convert HTML documents into clean, plain text.
+
+### 3. **AI-Powered Keyword Extraction**
+- Use advanced NLP models (e.g., Hugging Face Transformers) to extract and rank the most important keywords from text files.
+
+### 4. **Automated Pipeline**
+- Run the entire pipeline (PDF/HTML → TXT → Keywords) with a single command.
+
+### 5. **Batch Processing**
+- Process single files or entire directories efficiently.
+
+### 6. **Configurable Parameters**
+- Customize thresholds, batch sizes, and output formats to suit your needs.
 
 ---
 
-## Installation
+## 🧩 Installation
 
 Install `txt2phrases` directly from PyPI:
 
@@ -29,106 +37,146 @@ pip install txt2phrases
 
 ---
 
-## CLI Usage
-
-## Convert HTML → TXT
-
-Convert all HTML files in a folder to plain text:
+## 🚀 Quick Start
 
 ```bash
-html2txt -i path/to/html_folder -o path/to/output_folder
+# Convert PDF to text
+txt2phrases pdf2txt -i document.pdf -o output_folder
+
+# Convert HTML to text
+txt2phrases html2txt -i webpage.html -o output_folder
+
+# Extract keywords from text files
+txt2phrases keyphrases -i text_files/ -o keywords/ -n 500
+
+# Run complete pipeline
+txt2phrases auto -i pygetpapers_output/ -o results/ -n 100
 ```
-```bash
-html2txt -h
-```
-
-- **-h/--help**:help command
-- **-i / --input** : Path to the folder containing HTML files  
-- **-o / --output** : Path to the folder where TXT files will be saved  
-
-## Extract keywords from TXT files
-
-Extract top keywords from all TXT files in a folder:
-
-```bash
-extract_keywords -i path/to/txt_folder -o path/to/output_folder -n 3500
-```
-```bash
-extract_keywords -h
-```
-- **-h**:help command
-- **-i / --input_folder** : Folder containing TXT files  
-- **-o / --output_folder** : Folder to save keyword CSVs  
-- **-n / --top_n** : Number of top keywords to extract (default: 3500)  
-
-## Classify Keywords into Specific and General (TF-IDF)
-
-This command takes per-chapter keyword CSVs and divides the keywords into:
-- **Specific keywords:** unique to a chapter
-- **General keywords:** common across multiple chapters
-
-```bash
-specific_keywords -i path/to/csv_folder -o path/to/output_folder -t 0.6 -f 5
-```
-```
-specfic_keywords -h
-```
-
-- **-h**:help command
-- **-i / --input_dir** : Folder with per-chapter CSV files containing `keyword,count`  
-- **-o / --output_dir** : Folder to save per-chapter specific keyword CSVs  
-- **-t / --threshold** : TF-IDF threshold for a keyword to be considered specific (default: 0.6)  
-- **-f / --min_freq** : Minimum frequency of a keyword to consider (default: 5)  
 
 ---
 
-## Python Usage
-
-## Convert HTML → TXT
+## 🐍 Python API
 
 ```python
-from txt2phrases.html2txt import html_to_txt_folder
+from txt2phrases import (
+    convert_pdf_to_text,
+    convert_html_to_text, 
+    KeywordExtraction,
+    classify_keywords_split_files
+)
 
-html_to_txt_folder("path/to/html_folder", "path/to/output_folder")
-```
+# Convert PDF to text
+txt_path = convert_pdf_to_text("document.pdf", "output_folder")
 
-## Extract Keywords
-
-```python
-from txt2phrases.keyword import KeywordExtraction
-
+# Extract keywords
 extractor = KeywordExtraction(
-    textfile="path/to/file.txt",
-    saving_path="path/to/output_folder",
-    output_filename="keywords.csv",
+    input_path="text_files/",
+    output_folder="keywords/",
     top_n=1000
 )
-
-top_keywords = extractor.extract_keywords()
+extractor.extract()
 ```
+---
 
-## Per-Chapter Specific Keywords and General Keywords
+## 🧠 CLI Commands
 
-```python
-from txt2phrases.classify_specific import classify_keywords_split_files
+### 📄 `pdf2txt`
+Convert PDF files to text format.
 
-classify_keywords_split_files(
-    input_dir="path/to/chapter_csv_folder",
-    output_dir="path/to/output_folder",
-    threshold=0.6,
-    min_freq=5
-)
+```bash
+txt2phrases pdf2txt -i input.pdf -o output_folder
+txt2phrases pdf2txt -i pdfs_directory/ -o text_output/
 ```
 
 ---
 
-## Requirements
+### 🌐 `html2txt`
+Convert HTML files to clean text format.
 
-- Python 3.8+  
-- `beautifulsoup4`  
-- `pandas`  
-- `tqdm`  
-- `transformers`  
-- `scikit-learn`  
+```bash
+txt2phrases html2txt -i webpage.html -o output_folder
+txt2phrases html2txt -i html_directory/ -o text_output/
+```
 
 ---
+
+### 🔑 `keyphrases`
+Extract keyphrases from text files using advanced NLP models.
+
+```bash
+txt2phrases keyphrases -i text.txt -o keywords/ -n 500
+txt2phrases keyphrases -i text_directory/ -o keywords/ -n 1000
+```
+
+---
+
+### ⚙️ `auto`
+Complete processing pipeline for PyGetPapers output or PDF directories.
+
+```bash
+txt2phrases auto -i pygetpapers_output/ -o results/ -n 200
+txt2phrases auto -i pdf_collection/ -o results/ -n 100
+```
+
+---
+
+## 🔍 Advanced Features
+---
+
+### 2. **Complete Research Pipeline**
+
+```bash
+# Download papers with PyGetPapers
+pygetpapers -q "machine learning" -o papers/ -k 100
+
+# Process and analyze  
+txt2phrases auto -i papers/ -o analysis/ -n 200
+
+# Classify results
+python -c "
+from txt2phrases import classify_keywords_split_files
+classify_keywords_split_files('analysis/', 'classified/', threshold=0.7)
+"
+```
+
+---
+
+## 📦 Output Formats
+
+- **Text Conversion:** `.txt` files with extracted text  
+- **Keyword Extraction:** `.csv` files containing keyword and count columns  
+
+---
+
+## 🧱 Requirements
+
+To use `txt2phrases`, ensure you have the following installed:
+
+- **Python 3.8+**
+- **Dependencies:**
+  - `argparse`: For CLI argument parsing  
+  - `beautifulsoup4`: For HTML parsing  
+  - `pandas`: For data manipulation and CSV export  
+  - `tqdm`: For progress bars during batch processing  
+  - `transformers`: For AI-powered keyword extraction  
+  - `scikit-learn`: For TF-IDF-based keyword classification  
+  - `torch`: For running NLP models  
+
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📚 Documentation
+
+For full documentation and examples, visit the [GitHub repository](https://github.com/semanticClimate/encyclopedia/tree/main/txt2phrases).
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the `LICENSE` file for details.
+

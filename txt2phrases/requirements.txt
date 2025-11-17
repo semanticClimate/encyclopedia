@@ -4,3 +4,4 @@ pandas>=1.0.0
 tqdm>=4.50.0
 PyPDF2>=2.0.0
 scikit-learn>=1.0.0
+torch>=1.7.0
