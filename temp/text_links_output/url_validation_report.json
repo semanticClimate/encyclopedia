@@ -1,0 +1,23 @@
+{
+  "https://en.wikipedia.org/w/index.php?search=fingerprinting": {
+    "https://en.wikipedia.org/wiki/Fingerprinting": {
+      "status_code": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Fingerprinting",
+      "accessible": true
+    }
+  },
+  "https://en.wikipedia.org/w/index.php?search=External%20forcing": {
+    "https://en.wikipedia.org/wiki/External_forcing": {
+      "status_code": 200,
+      "final_url": "https://en.wikipedia.org/wiki/External_forcing",
+      "accessible": true
+    }
+  },
+  "https://en.wikipedia.org/w/index.php?search=cyclone": {
+    "https://en.wikipedia.org/wiki/Cyclone": {
+      "status_code": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Cyclone",
+      "accessible": true
+    }
+  }
+}

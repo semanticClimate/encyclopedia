@@ -1,0 +1,21 @@
+{
+  "educational": [
+    "research.university.edu"
+  ],
+  "government": [
+    "data.example.gov"
+  ],
+  "commercial": [
+    "example.com",
+    "subdomain.example.net"
+  ],
+  "nonprofit": [
+    "test.org",
+    "commons.wikimedia.org"
+  ],
+  "wikimedia": [],
+  "local": [
+    "localhost:8080"
+  ],
+  "unknown": []
+}

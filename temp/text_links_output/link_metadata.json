@@ -1,0 +1,70 @@
+{
+  "metadata_fields": [
+    "canonical_url",
+    "original_url",
+    "source_entry",
+    "source_entries",
+    "context",
+    "contexts",
+    "link_type",
+    "normalized_url",
+    "status_code"
+  ],
+  "field_completeness": {
+    "original_url": 37,
+    "canonical_url": 3,
+    "normalized_url": 37,
+    "status_code": 3,
+    "link_type": 37,
+    "source_entry": 3,
+    "context": 3,
+    "source_entries": 34,
+    "contexts": 34
+  },
+  "total_links_with_metadata": 37,
+  "completeness_rate": 0.5735735735735735,
+  "most_complete_fields": [
+    [
+      "original_url",
+      37
+    ],
+    [
+      "normalized_url",
+      37
+    ],
+    [
+      "link_type",
+      37
+    ],
+    [
+      "source_entries",
+      34
+    ],
+    [
+      "contexts",
+      34
+    ]
+  ],
+  "least_complete_fields": [
+    [
+      "canonical_url",
+      3
+    ],
+    [
+      "status_code",
+      3
+    ],
+    [
+      "source_entry",
+      3
+    ],
+    [
+      "context",
+      3
+    ],
+    [
+      "source_entries",
+      34
+    ]
+  ]
+}

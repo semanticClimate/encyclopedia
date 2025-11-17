@@ -1,0 +1,17 @@
+{
+  "total_search_urls": 5,
+  "total_article_links": 53,
+  "total_file_links": 0,
+  "total_help_links": 1,
+  "total_external_links": 0,
+  "unique_article_links": 53,
+  "unique_file_links": 0,
+  "most_common_articles": {
+    "/wiki/Earth%27s_energy_budget": 1,
+    "/wiki/Radiative_flux": 1,
+    "/wiki/Monotreme": 1,
+    "/wiki/Synoptic_scale": 1,
+    "/wiki/Sense": 1
+  },
+  "most_common_files": {}
+}

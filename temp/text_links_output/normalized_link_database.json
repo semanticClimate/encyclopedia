@@ -1,0 +1,582 @@
+{
+  "canonical_urls": [
+    "https://en.wikipedia.org/wiki/Earth%27s_energy_budget",
+    "https://en.wikipedia.org/wiki/Help:IPA/English",
+    "https://en.wikipedia.org/wiki/Mesoscale_meteorology",
+    "https://en.wikipedia.org/wiki/Climate_system",
+    "https://en.wikipedia.org/wiki/Northern_Hemisphere",
+    "https://en.wikipedia.org/wiki/Watt",
+    "https://en.wikipedia.org/wiki/Anticyclone",
+    "https://en.wikipedia.org/wiki/Radiative_flux",
+    "https://en.wikipedia.org/wiki/Low_pressure",
+    "https://en.wikipedia.org/wiki/Forensic_science",
+    "https://en.wikipedia.org/wiki/Friction_ridge",
+    "https://en.wikipedia.org/wiki/Climate_change_feedback",
+    "https://en.wikipedia.org/wiki/Stratosphere",
+    "https://en.wikipedia.org/wiki/Mesocyclone",
+    "https://en.wikipedia.org/wiki/Meter",
+    "https://en.wikipedia.org/wiki/Southern_Hemisphere",
+    "https://en.wikipedia.org/wiki/Meteorology",
+    "https://en.wikipedia.org/wiki/Albedo",
+    "https://en.wikipedia.org/wiki/Atmospheric_pressure",
+    "https://en.wikipedia.org/wiki/Subtropical_cyclone",
+    "https://en.wikipedia.org/wiki/Solar_irradiance",
+    "https://en.wikipedia.org/wiki/Greenhouse_gas",
+    "https://en.wikipedia.org/wiki/Aerosol",
+    "https://en.wikipedia.org/wiki/Tropical_cyclone",
+    "https://en.wikipedia.org/wiki/External_forcing",
+    "https://en.wikipedia.org/wiki/Extratropical_cyclone",
+    "https://en.wikipedia.org/wiki/Cyclone",
+    "https://en.wikipedia.org/wiki/Dust_devil",
+    "https://en.wikipedia.org/wiki/Earth%27s_energy_imbalance",
+    "https://en.wikipedia.org/wiki/Climate_variability_and_change",
+    "https://en.wikipedia.org/wiki/Tornado",
+    "https://en.wikipedia.org/wiki/Polar_vortices",
+    "https://en.wikipedia.org/wiki/Synoptic_scale",
+    "https://en.wikipedia.org/wiki/Fingerprinting",
+    "https://en.wikipedia.org/wiki/Air_mass",
+    "https://en.wikipedia.org/wiki/Tropopause",
+    "https://en.wikipedia.org/wiki/Finger"
+  ],
+  "link_metadata": {
+    "https://en.wikipedia.org/wiki/Fingerprinting": {
+      "original_url": "https://en.wikipedia.org/w/index.php?search=fingerprinting",
+      "canonical_url": "https://en.wikipedia.org/wiki/Fingerprinting",
+      "normalized_url": "https://en.wikipedia.org/wiki/Fingerprinting",
+      "status_code": 200,
+      "link_type": "search",
+      "source_entry": "fingerprinting",
+      "context": "search_term"
+    },
+    "https://en.wikipedia.org/wiki/Friction_ridge": {
+      "original_url": "/wiki/Friction_ridge",
+      "normalized_url": "https://en.wikipedia.org/wiki/Friction_ridge",
+      "link_type": "article",
+      "source_entries": [
+        "fingerprinting"
+      ],
+      "contexts": [
+        {
+          "entry": "fingerprinting",
+          "link_text": "friction ridges",
+          "title": "Friction ridge"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Finger": {
+      "original_url": "/wiki/Finger",
+      "normalized_url": "https://en.wikipedia.org/wiki/Finger",
+      "link_type": "article",
+      "source_entries": [
+        "fingerprinting"
+      ],
+      "contexts": [
+        {
+          "entry": "fingerprinting",
+          "link_text": "finger",
+          "title": "Finger"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Forensic_science": {
+      "original_url": "/wiki/Forensic_science",
+      "normalized_url": "https://en.wikipedia.org/wiki/Forensic_science",
+      "link_type": "article",
+      "source_entries": [
+        "fingerprinting"
+      ],
+      "contexts": [
+        {
+          "entry": "fingerprinting",
+          "link_text": "forensic science",
+          "title": "Forensic science"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/External_forcing": {
+      "original_url": "https://en.wikipedia.org/w/index.php?search=External%20forcing",
+      "canonical_url": "https://en.wikipedia.org/wiki/External_forcing",
+      "normalized_url": "https://en.wikipedia.org/wiki/External_forcing",
+      "status_code": 200,
+      "link_type": "search",
+      "source_entry": "External forcing",
+      "context": "search_term"
+    },
+    "https://en.wikipedia.org/wiki/Earth%27s_energy_budget": {
+      "original_url": "/wiki/Earth%27s_energy_budget",
+      "normalized_url": "https://en.wikipedia.org/wiki/Earth%27s_energy_budget",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "balance of energy",
+          "title": "Earth's energy budget"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Greenhouse_gas": {
+      "original_url": "/wiki/Greenhouse_gas",
+      "normalized_url": "https://en.wikipedia.org/wiki/Greenhouse_gas",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "greenhouse gases",
+          "title": "Greenhouse gas"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Aerosol": {
+      "original_url": "/wiki/Aerosol",
+      "normalized_url": "https://en.wikipedia.org/wiki/Aerosol",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "aerosols",
+          "title": "Aerosol"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Albedo": {
+      "original_url": "/wiki/Albedo",
+      "normalized_url": "https://en.wikipedia.org/wiki/Albedo",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "surface albedo",
+          "title": "Albedo"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Solar_irradiance": {
+      "original_url": "/wiki/Solar_irradiance",
+      "normalized_url": "https://en.wikipedia.org/wiki/Solar_irradiance",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "solar irradiance",
+          "title": "Solar irradiance"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Radiative_flux": {
+      "original_url": "/wiki/Radiative_flux",
+      "normalized_url": "https://en.wikipedia.org/wiki/Radiative_flux",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "radiative flux",
+          "title": "Radiative flux"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Climate_change_feedback": {
+      "original_url": "/wiki/Climate_change_feedback",
+      "normalized_url": "https://en.wikipedia.org/wiki/Climate_change_feedback",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "feedbacks",
+          "title": "Climate change feedback"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Climate_variability_and_change": {
+      "original_url": "/wiki/Climate_variability_and_change",
+      "normalized_url": "https://en.wikipedia.org/wiki/Climate_variability_and_change",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "variability",
+          "title": "Climate variability and change"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Climate_system": {
+      "original_url": "/wiki/Climate_system",
+      "normalized_url": "https://en.wikipedia.org/wiki/Climate_system",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "climate system",
+          "title": "Climate system"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Earth%27s_energy_imbalance": {
+      "original_url": "/wiki/Earth%27s_energy_imbalance",
+      "normalized_url": "https://en.wikipedia.org/wiki/Earth%27s_energy_imbalance",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "imbalance",
+          "title": "Earth's energy imbalance"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Tropopause": {
+      "original_url": "/wiki/Tropopause",
+      "normalized_url": "https://en.wikipedia.org/wiki/Tropopause",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "tropopause",
+          "title": "Tropopause"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Stratosphere": {
+      "original_url": "/wiki/Stratosphere",
+      "normalized_url": "https://en.wikipedia.org/wiki/Stratosphere",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "stratosphere",
+          "title": "Stratosphere"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Watt": {
+      "original_url": "/wiki/Watt",
+      "normalized_url": "https://en.wikipedia.org/wiki/Watt",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "watts",
+          "title": "Watt"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Meter": {
+      "original_url": "/wiki/Meter",
+      "normalized_url": "https://en.wikipedia.org/wiki/Meter",
+      "link_type": "article",
+      "source_entries": [
+        "External forcing"
+      ],
+      "contexts": [
+        {
+          "entry": "External forcing",
+          "link_text": "meter",
+          "title": "Meter"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Cyclone": {
+      "original_url": "https://en.wikipedia.org/w/index.php?search=cyclone",
+      "canonical_url": "https://en.wikipedia.org/wiki/Cyclone",
+      "normalized_url": "https://en.wikipedia.org/wiki/Cyclone",
+      "status_code": 200,
+      "link_type": "search",
+      "source_entry": "cyclone",
+      "context": "search_term"
+    },
+    "https://en.wikipedia.org/wiki/Meteorology": {
+      "original_url": "/wiki/Meteorology",
+      "normalized_url": "https://en.wikipedia.org/wiki/Meteorology",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "meteorology",
+          "title": "Meteorology"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Help:IPA/English": {
+      "original_url": "/wiki/Help:IPA/English",
+      "normalized_url": "https://en.wikipedia.org/wiki/Help:IPA/English",
+      "link_type": "help",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "/\u02c8sa\u026a.klo\u028an/",
+          "title": "Help:IPA/English"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Air_mass": {
+      "original_url": "/wiki/Air_mass",
+      "normalized_url": "https://en.wikipedia.org/wiki/Air_mass",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "air mass",
+          "title": "Air mass"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Atmospheric_pressure": {
+      "original_url": "/wiki/Atmospheric_pressure",
+      "normalized_url": "https://en.wikipedia.org/wiki/Atmospheric_pressure",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "atmospheric pressure",
+          "title": "Atmospheric pressure"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Northern_Hemisphere": {
+      "original_url": "/wiki/Northern_Hemisphere",
+      "normalized_url": "https://en.wikipedia.org/wiki/Northern_Hemisphere",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "Northern Hemisphere",
+          "title": "Northern Hemisphere"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Southern_Hemisphere": {
+      "original_url": "/wiki/Southern_Hemisphere",
+      "normalized_url": "https://en.wikipedia.org/wiki/Southern_Hemisphere",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "Southern Hemisphere",
+          "title": "Southern Hemisphere"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Anticyclone": {
+      "original_url": "/wiki/Anticyclone",
+      "normalized_url": "https://en.wikipedia.org/wiki/Anticyclone",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "anticyclone",
+          "title": "Anticyclone"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Low_pressure": {
+      "original_url": "/wiki/Low_pressure",
+      "normalized_url": "https://en.wikipedia.org/wiki/Low_pressure",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "low pressure",
+          "title": "Low pressure"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Polar_vortices": {
+      "original_url": "/wiki/Polar_vortices",
+      "normalized_url": "https://en.wikipedia.org/wiki/Polar_vortices",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "polar vortices",
+          "title": "Polar vortices"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Extratropical_cyclone": {
+      "original_url": "/wiki/Extratropical_cyclone",
+      "normalized_url": "https://en.wikipedia.org/wiki/Extratropical_cyclone",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "extratropical cyclones",
+          "title": "Extratropical cyclone"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Synoptic_scale": {
+      "original_url": "/wiki/Synoptic_scale",
+      "normalized_url": "https://en.wikipedia.org/wiki/Synoptic_scale",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "synoptic scale",
+          "title": "Synoptic scale"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Tropical_cyclone": {
+      "original_url": "/wiki/Tropical_cyclone",
+      "normalized_url": "https://en.wikipedia.org/wiki/Tropical_cyclone",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "tropical cyclones",
+          "title": "Tropical cyclone"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Subtropical_cyclone": {
+      "original_url": "/wiki/Subtropical_cyclone",
+      "normalized_url": "https://en.wikipedia.org/wiki/Subtropical_cyclone",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "subtropical cyclones",
+          "title": "Subtropical cyclone"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Mesocyclone": {
+      "original_url": "/wiki/Mesocyclone",
+      "normalized_url": "https://en.wikipedia.org/wiki/Mesocyclone",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "Mesocyclones",
+          "title": "Mesocyclone"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Tornado": {
+      "original_url": "/wiki/Tornado",
+      "normalized_url": "https://en.wikipedia.org/wiki/Tornado",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "tornadoes",
+          "title": "Tornado"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Dust_devil": {
+      "original_url": "/wiki/Dust_devil",
+      "normalized_url": "https://en.wikipedia.org/wiki/Dust_devil",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "dust devils",
+          "title": "Dust devil"
+        }
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Mesoscale_meteorology": {
+      "original_url": "/wiki/Mesoscale_meteorology",
+      "normalized_url": "https://en.wikipedia.org/wiki/Mesoscale_meteorology",
+      "link_type": "article",
+      "source_entries": [
+        "cyclone"
+      ],
+      "contexts": [
+        {
+          "entry": "cyclone",
+          "link_text": "mesoscale",
+          "title": "Mesoscale meteorology"
+        }
+      ]
+    }
+  },
+  "total_unique_links": 37,
+  "metadata_count": 37
+}

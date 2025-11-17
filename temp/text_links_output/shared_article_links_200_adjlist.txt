@@ -1,0 +1,1008 @@
+#test/text_links/create_network_graph.py
+# GMT Sun Oct 26 17:41:07 2025
+# 
+Friction ridge 2
+fingerprinting {'weight': 1, 'link_text': 'friction ridges', 'title': 'Friction ridge'}
+Fingerprints {'weight': 1, 'link_text': 'friction ridges', 'title': 'Friction ridge'}
+fingerprinting 2
+Finger {'weight': 1, 'link_text': 'finger', 'title': 'Finger'}
+Forensic science {'weight': 1, 'link_text': 'forensic science', 'title': 'Forensic science'}
+Fingerprints 2
+Finger {'weight': 1, 'link_text': 'finger', 'title': 'Finger'}
+Forensic science {'weight': 1, 'link_text': 'forensic science', 'title': 'Forensic science'}
+Finger 0
+Forensic science 0
+Greenhouse gas 5
+External forcing {'weight': 1, 'link_text': 'greenhouse gases', 'title': 'Greenhouse gas'}
+climate changes {'weight': 1, 'link_text': 'greenhouse gases', 'title': 'Greenhouse gas'}
+Global warming {'weight': 1, 'link_text': 'greenhouse gases', 'title': 'Greenhouse gas'}
+Global Warming {'weight': 1, 'link_text': 'greenhouse gases', 'title': 'Greenhouse gas'}
+anthropogenic warming {'weight': 1, 'link_text': 'greenhouse gases', 'title': 'Greenhouse gas'}
+External forcing 6
+Aerosol {'weight': 1, 'link_text': 'aerosols', 'title': 'Aerosol'}
+Climate variability and change {'weight': 1, 'link_text': 'variability', 'title': 'Climate variability and change'}
+Climate system {'weight': 1, 'link_text': 'climate system', 'title': 'Climate system'}
+Tropopause {'weight': 1, 'link_text': 'tropopause', 'title': 'Tropopause'}
+Stratosphere {'weight': 1, 'link_text': 'stratosphere', 'title': 'Stratosphere'}
+Meter {'weight': 1, 'link_text': 'meter', 'title': 'Meter'}
+climate changes 14
+Climate variability and change {'weight': 1, 'link_text': 'Climate change in a broader sense', 'title': 'Climate variability and change'}
+Climate system {'weight': 1, 'link_text': "Earth's climate", 'title': 'Climate system'}
+Global surface temperature {'weight': 1, 'link_text': 'global average temperature', 'title': 'Global surface temperature'}
+Scientific consensus on climate change {'weight': 1, 'link_text': 'driven by human activities', 'title': 'Scientific consensus on climate change'}
+Fossil fuel {'weight': 1, 'link_text': 'fossil fuel', 'title': 'Fossil fuel'}
+Industrial Revolution {'weight': 1, 'link_text': 'Industrial Revolution', 'title': 'Industrial Revolution'}
+Deforestation and climate change {'weight': 1, 'link_text': 'deforestation', 'title': 'Deforestation and climate change'}
+Greenhouse gas emissions from agriculture {'weight': 1, 'link_text': 'agricultural', 'title': 'Greenhouse gas emissions from agriculture'}
+Environmental impact of concrete {'weight': 1, 'link_text': 'industrial', 'title': 'Environmental impact of concrete'}
+Greenhouse effect {'weight': 1, 'link_text': 'absorb some of the heat', 'title': 'Greenhouse effect'}
+Thermal radiation {'weight': 1, 'link_text': 'radiates', 'title': 'Thermal radiation'}
+Sunlight {'weight': 1, 'link_text': 'sunlight', 'title': 'Sunlight'}
+Carbon dioxide {'weight': 1, 'link_text': 'Carbon dioxide', 'title': 'Carbon dioxide'}
+Carbon dioxide in Earth%27s atmosphere {'weight': 1, 'link_text': 'has grown by about 50%', 'title': "Carbon dioxide in Earth's atmosphere"}
+Global warming 15
+Climate variability and change {'weight': 1, 'link_text': 'Climate change in a broader sense', 'title': 'Climate variability and change'}
+Climate system {'weight': 1, 'link_text': "Earth's climate", 'title': 'Climate system'}
+deglaciation {'weight': 2, 'link_text': 'global warming', 'title': 'Global warming'}
+Global surface temperature {'weight': 1, 'link_text': 'global average temperature', 'title': 'Global surface temperature'}
+Scientific consensus on climate change {'weight': 1, 'link_text': 'driven by human activities', 'title': 'Scientific consensus on climate change'}
+Fossil fuel {'weight': 1, 'link_text': 'fossil fuel', 'title': 'Fossil fuel'}
+Industrial Revolution {'weight': 1, 'link_text': 'Industrial Revolution', 'title': 'Industrial Revolution'}
+Deforestation and climate change {'weight': 1, 'link_text': 'deforestation', 'title': 'Deforestation and climate change'}
+Greenhouse gas emissions from agriculture {'weight': 1, 'link_text': 'agricultural', 'title': 'Greenhouse gas emissions from agriculture'}
+Environmental impact of concrete {'weight': 1, 'link_text': 'industrial', 'title': 'Environmental impact of concrete'}
+Greenhouse effect {'weight': 1, 'link_text': 'absorb some of the heat', 'title': 'Greenhouse effect'}
+Thermal radiation {'weight': 1, 'link_text': 'radiates', 'title': 'Thermal radiation'}
+Sunlight {'weight': 1, 'link_text': 'sunlight', 'title': 'Sunlight'}
+Carbon dioxide {'weight': 1, 'link_text': 'Carbon dioxide', 'title': 'Carbon dioxide'}
+Carbon dioxide in Earth%27s atmosphere {'weight': 1, 'link_text': 'has grown by about 50%', 'title': "Carbon dioxide in Earth's atmosphere"}
+Global Warming 14
+Climate variability and change {'weight': 1, 'link_text': 'Climate change in a broader sense', 'title': 'Climate variability and change'}
+Climate system {'weight': 1, 'link_text': "Earth's climate", 'title': 'Climate system'}
+Global surface temperature {'weight': 1, 'link_text': 'global average temperature', 'title': 'Global surface temperature'}
+Scientific consensus on climate change {'weight': 1, 'link_text': 'driven by human activities', 'title': 'Scientific consensus on climate change'}
+Fossil fuel {'weight': 1, 'link_text': 'fossil fuel', 'title': 'Fossil fuel'}
+Industrial Revolution {'weight': 1, 'link_text': 'Industrial Revolution', 'title': 'Industrial Revolution'}
+Deforestation and climate change {'weight': 1, 'link_text': 'deforestation', 'title': 'Deforestation and climate change'}
+Greenhouse gas emissions from agriculture {'weight': 1, 'link_text': 'agricultural', 'title': 'Greenhouse gas emissions from agriculture'}
+Environmental impact of concrete {'weight': 1, 'link_text': 'industrial', 'title': 'Environmental impact of concrete'}
+Greenhouse effect {'weight': 1, 'link_text': 'absorb some of the heat', 'title': 'Greenhouse effect'}
+Thermal radiation {'weight': 1, 'link_text': 'radiates', 'title': 'Thermal radiation'}
+Sunlight {'weight': 1, 'link_text': 'sunlight', 'title': 'Sunlight'}
+Carbon dioxide {'weight': 1, 'link_text': 'Carbon dioxide', 'title': 'Carbon dioxide'}
+Carbon dioxide in Earth%27s atmosphere {'weight': 1, 'link_text': 'has grown by about 50%', 'title': "Carbon dioxide in Earth's atmosphere"}
+anthropogenic warming 14
+Climate variability and change {'weight': 1, 'link_text': 'Climate change in a broader sense', 'title': 'Climate variability and change'}
+Climate system {'weight': 1, 'link_text': "Earth's climate", 'title': 'Climate system'}
+Global surface temperature {'weight': 1, 'link_text': 'global average temperature', 'title': 'Global surface temperature'}
+Scientific consensus on climate change {'weight': 1, 'link_text': 'driven by human activities', 'title': 'Scientific consensus on climate change'}
+Fossil fuel {'weight': 1, 'link_text': 'fossil fuel', 'title': 'Fossil fuel'}
+Industrial Revolution {'weight': 1, 'link_text': 'Industrial Revolution', 'title': 'Industrial Revolution'}
+Deforestation and climate change {'weight': 1, 'link_text': 'deforestation', 'title': 'Deforestation and climate change'}
+Greenhouse gas emissions from agriculture {'weight': 1, 'link_text': 'agricultural', 'title': 'Greenhouse gas emissions from agriculture'}
+Environmental impact of concrete {'weight': 1, 'link_text': 'industrial', 'title': 'Environmental impact of concrete'}
+Greenhouse effect {'weight': 1, 'link_text': 'absorb some of the heat', 'title': 'Greenhouse effect'}
+Thermal radiation {'weight': 1, 'link_text': 'radiates', 'title': 'Thermal radiation'}
+Sunlight {'weight': 1, 'link_text': 'sunlight', 'title': 'Sunlight'}
+Carbon dioxide {'weight': 1, 'link_text': 'Carbon dioxide', 'title': 'Carbon dioxide'}
+Carbon dioxide in Earth%27s atmosphere {'weight': 1, 'link_text': 'has grown by about 50%', 'title': "Carbon dioxide in Earth's atmosphere"}
+Aerosol 1
+troposphere {'weight': 1, 'link_text': 'aerosols', 'title': 'Aerosol'}
+troposphere 7
+Atmosphere of Earth {'weight': 1, 'link_text': 'atmosphere of Earth', 'title': 'Atmosphere of Earth'}
+Middle latitudes {'weight': 1, 'link_text': 'middle latitudes', 'title': 'Middle latitudes'}
+Atmosphere {'weight': 1, 'link_text': 'planetary atmosphere', 'title': 'Atmosphere'}
+Water vapor {'weight': 1, 'link_text': 'water vapor', 'title': 'Water vapor'}
+Weather {'weight': 1, 'link_text': 'weather', 'title': 'Weather'}
+Tropics {'weight': 1, 'link_text': 'tropics', 'title': 'Tropics'}
+Polar regions {'weight': 1, 'link_text': 'polar regions', 'title': 'Polar regions'}
+Climate variability and change 0
+Climate system 4
+cryosphere {'weight': 1, 'link_text': 'climate system', 'title': 'Climate system'}
+climate modelling {'weight': 1, 'link_text': 'climate system', 'title': 'Climate system'}
+regional climate change {'weight': 1, 'link_text': 'climate system', 'title': 'Climate system'}
+Atlantic meridional overturning circulation {'weight': 1, 'link_text': 'climate system', 'title': 'Climate system'}
+cryosphere 11
+Glacier {'weight': 1, 'link_text': 'glaciers', 'title': 'Glacier'}
+Ice sheet {'weight': 1, 'link_text': 'ice sheets', 'title': 'Ice sheet'}
+Earth {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+Ice {'weight': 1, 'link_text': 'ice', 'title': 'Ice'}
+Sea ice {'weight': 1, 'link_text': 'sea ice', 'title': 'Sea ice'}
+Water cycle {'weight': 1, 'link_text': 'water cycle', 'title': 'Water cycle'}
+Ice cap {'weight': 1, 'link_text': 'ice caps', 'title': 'Ice cap'}
+Permafrost {'weight': 1, 'link_text': 'permafrost', 'title': 'Permafrost'}
+Hydrosphere {'weight': 1, 'link_text': 'hydrosphere', 'title': 'Hydrosphere'}
+Cloud {'weight': 1, 'link_text': 'clouds', 'title': 'Cloud'}
+Ocean circulation {'weight': 1, 'link_text': 'oceanic circulation', 'title': 'Ocean circulation'}
+climate modelling 6
+Climate change {'weight': 1, 'link_text': 'climate change', 'title': 'Climate change'}
+Cryosphere {'weight': 1, 'link_text': 'ice', 'title': 'Cryosphere'}
+Ocean {'weight': 1, 'link_text': 'oceans', 'title': 'Ocean'}
+Earth%27s atmosphere {'weight': 1, 'link_text': 'atmosphere', 'title': "Earth's atmosphere"}
+Mathematical model {'weight': 1, 'link_text': 'mathematical models', 'title': 'Mathematical model'}
+Climate {'weight': 1, 'link_text': 'climate', 'title': 'Climate'}
+regional climate change 4
+Climate change {'weight': 1, 'link_text': 'climate change', 'title': 'Climate change'}
+Permafrost {'weight': 1, 'link_text': 'permafrost', 'title': 'Permafrost'}
+Desertification {'weight': 1, 'link_text': 'desertification', 'title': 'Desertification'}
+Instrumental temperature record {'weight': 1, 'link_text': 'overall warming trend', 'title': 'Instrumental temperature record'}
+Atlantic meridional overturning circulation 3
+Atlantic Ocean {'weight': 1, 'link_text': 'Atlantic Ocean', 'title': 'Atlantic Ocean'}
+Ocean circulation {'weight': 1, 'link_text': 'ocean circulation', 'title': 'Ocean circulation'}
+Salinity {'weight': 1, 'link_text': 'salinity', 'title': 'Salinity'}
+Tropopause 3
+Hadley circulation {'weight': 1, 'link_text': 'tropopause', 'title': 'Tropopause'}
+stratosphere {'weight': 1, 'link_text': 'tropopause', 'title': 'Tropopause'}
+Hadley cells {'weight': 1, 'link_text': 'tropopause', 'title': 'Tropopause'}
+Hadley circulation 8
+Atmospheric circulation {'weight': 1, 'link_text': 'atmospheric circulation', 'title': 'Atmospheric circulation'}
+Equator {'weight': 1, 'link_text': 'equator', 'title': 'Equator'}
+Subtropics {'weight': 1, 'link_text': 'subtropics', 'title': 'Subtropics'}
+Troposphere {'weight': 1, 'link_text': 'troposphere', 'title': 'Troposphere'}
+Insolation {'weight': 1, 'link_text': 'insolation', 'title': 'Insolation'}
+Extraterrestrial atmosphere {'weight': 1, 'link_text': 'extraterrestrial atmospheres', 'title': 'Extraterrestrial atmosphere'}
+Venus {'weight': 1, 'link_text': 'Venus', 'title': 'Venus'}
+Mars {'weight': 1, 'link_text': 'Mars', 'title': 'Mars'}
+stratosphere 8
+Altitude {'weight': 1, 'link_text': 'altitude', 'title': 'Altitude'}
+Temperature {'weight': 1, 'link_text': 'temperature', 'title': 'Temperature'}
+Ozone {'weight': 1, 'link_text': 'ozone', 'title': 'Ozone'}
+Atmosphere of Earth {'weight': 1, 'link_text': 'atmosphere of Earth', 'title': 'Atmosphere of Earth'}
+Oxygen {'weight': 1, 'link_text': 'oxygen', 'title': 'Oxygen'}
+Troposphere {'weight': 1, 'link_text': 'troposphere', 'title': 'Troposphere'}
+Air {'weight': 1, 'link_text': 'air', 'title': 'Air'}
+Sun {'weight': 1, 'link_text': 'Sun', 'title': 'Sun'}
+Hadley cells 8
+Atmospheric circulation {'weight': 1, 'link_text': 'atmospheric circulation', 'title': 'Atmospheric circulation'}
+Equator {'weight': 1, 'link_text': 'equator', 'title': 'Equator'}
+Subtropics {'weight': 1, 'link_text': 'subtropics', 'title': 'Subtropics'}
+Troposphere {'weight': 1, 'link_text': 'troposphere', 'title': 'Troposphere'}
+Insolation {'weight': 1, 'link_text': 'insolation', 'title': 'Insolation'}
+Extraterrestrial atmosphere {'weight': 1, 'link_text': 'extraterrestrial atmospheres', 'title': 'Extraterrestrial atmosphere'}
+Venus {'weight': 1, 'link_text': 'Venus', 'title': 'Venus'}
+Mars {'weight': 1, 'link_text': 'Mars', 'title': 'Mars'}
+Stratosphere 2
+sudden stratospheric warmings {'weight': 1, 'link_text': 'stratospheric', 'title': 'Stratosphere'}
+tropopause {'weight': 1, 'link_text': 'stratosphere', 'title': 'Stratosphere'}
+sudden stratospheric warmings 1
+Kelvin {'weight': 1, 'link_text': 'kelvins', 'title': 'Kelvin'}
+tropopause 3
+Troposphere {'weight': 2, 'link_text': 'troposphere', 'title': 'Troposphere'}
+Earth%27s atmosphere {'weight': 1, 'link_text': 'atmosphere of Earth', 'title': "Earth's atmosphere"}
+Polar regions {'weight': 1, 'link_text': 'polar regions', 'title': 'Polar regions'}
+Meter 1
+temperature gradient {'weight': 1, 'link_text': 'meter', 'title': 'Meter'}
+temperature gradient 3
+Temperature {'weight': 1, 'link_text': 'temperature', 'title': 'Temperature'}
+Physical quantity {'weight': 1, 'link_text': 'physical quantity', 'title': 'Physical quantity'}
+Kelvin {'weight': 1, 'link_text': 'kelvin', 'title': 'Kelvin'}
+Meteorology 4
+cyclone {'weight': 1, 'link_text': 'meteorology', 'title': 'Meteorology'}
+thermodynamic {'weight': 1, 'link_text': 'meteorology', 'title': 'Meteorology'}
+Cyclones {'weight': 1, 'link_text': 'meteorology', 'title': 'Meteorology'}
+cyclones {'weight': 1, 'link_text': 'meteorology', 'title': 'Meteorology'}
+cyclone 15
+Air mass {'weight': 1, 'link_text': 'air mass', 'title': 'Air mass'}
+Atmospheric pressure {'weight': 1, 'link_text': 'atmospheric pressure', 'title': 'Atmospheric pressure'}
+Northern Hemisphere {'weight': 1, 'link_text': 'Northern Hemisphere', 'title': 'Northern Hemisphere'}
+Southern Hemisphere {'weight': 1, 'link_text': 'Southern Hemisphere', 'title': 'Southern Hemisphere'}
+Anticyclone {'weight': 1, 'link_text': 'anticyclone', 'title': 'Anticyclone'}
+Low pressure {'weight': 1, 'link_text': 'low pressure', 'title': 'Low pressure'}
+Polar vortices {'weight': 1, 'link_text': 'polar vortices', 'title': 'Polar vortices'}
+Extratropical cyclone {'weight': 1, 'link_text': 'extratropical cyclones', 'title': 'Extratropical cyclone'}
+Synoptic scale {'weight': 1, 'link_text': 'synoptic scale', 'title': 'Synoptic scale'}
+Tropical cyclone {'weight': 1, 'link_text': 'tropical cyclones', 'title': 'Tropical cyclone'}
+Subtropical cyclone {'weight': 1, 'link_text': 'subtropical cyclones', 'title': 'Subtropical cyclone'}
+Mesocyclone {'weight': 1, 'link_text': 'Mesocyclones', 'title': 'Mesocyclone'}
+Tornado {'weight': 1, 'link_text': 'tornadoes', 'title': 'Tornado'}
+Dust devil {'weight': 1, 'link_text': 'dust devils', 'title': 'Dust devil'}
+Mesoscale meteorology {'weight': 1, 'link_text': 'mesoscale', 'title': 'Mesoscale meteorology'}
+thermodynamic 6
+Energy {'weight': 1, 'link_text': 'energy', 'title': 'Energy'}
+Temperature {'weight': 1, 'link_text': 'temperature', 'title': 'Temperature'}
+Physical quantity {'weight': 1, 'link_text': 'physical quantities', 'title': 'Physical quantity'}
+Physics {'weight': 1, 'link_text': 'physics', 'title': 'Physics'}
+Matter {'weight': 1, 'link_text': 'matter', 'title': 'Matter'}
+Engineering {'weight': 1, 'link_text': 'engineering', 'title': 'Engineering'}
+Cyclones 15
+Air mass {'weight': 1, 'link_text': 'air mass', 'title': 'Air mass'}
+Atmospheric pressure {'weight': 1, 'link_text': 'atmospheric pressure', 'title': 'Atmospheric pressure'}
+Northern Hemisphere {'weight': 1, 'link_text': 'Northern Hemisphere', 'title': 'Northern Hemisphere'}
+Southern Hemisphere {'weight': 1, 'link_text': 'Southern Hemisphere', 'title': 'Southern Hemisphere'}
+Anticyclone {'weight': 1, 'link_text': 'anticyclone', 'title': 'Anticyclone'}
+Low pressure {'weight': 1, 'link_text': 'low pressure', 'title': 'Low pressure'}
+Polar vortices {'weight': 1, 'link_text': 'polar vortices', 'title': 'Polar vortices'}
+Extratropical cyclone {'weight': 1, 'link_text': 'extratropical cyclones', 'title': 'Extratropical cyclone'}
+Synoptic scale {'weight': 1, 'link_text': 'synoptic scale', 'title': 'Synoptic scale'}
+Tropical cyclone {'weight': 1, 'link_text': 'tropical cyclones', 'title': 'Tropical cyclone'}
+Subtropical cyclone {'weight': 1, 'link_text': 'subtropical cyclones', 'title': 'Subtropical cyclone'}
+Mesocyclone {'weight': 1, 'link_text': 'Mesocyclones', 'title': 'Mesocyclone'}
+Tornado {'weight': 1, 'link_text': 'tornadoes', 'title': 'Tornado'}
+Dust devil {'weight': 1, 'link_text': 'dust devils', 'title': 'Dust devil'}
+Mesoscale meteorology {'weight': 1, 'link_text': 'mesoscale', 'title': 'Mesoscale meteorology'}
+cyclones 15
+Air mass {'weight': 1, 'link_text': 'air mass', 'title': 'Air mass'}
+Atmospheric pressure {'weight': 1, 'link_text': 'atmospheric pressure', 'title': 'Atmospheric pressure'}
+Northern Hemisphere {'weight': 1, 'link_text': 'Northern Hemisphere', 'title': 'Northern Hemisphere'}
+Southern Hemisphere {'weight': 1, 'link_text': 'Southern Hemisphere', 'title': 'Southern Hemisphere'}
+Anticyclone {'weight': 1, 'link_text': 'anticyclone', 'title': 'Anticyclone'}
+Low pressure {'weight': 1, 'link_text': 'low pressure', 'title': 'Low pressure'}
+Polar vortices {'weight': 1, 'link_text': 'polar vortices', 'title': 'Polar vortices'}
+Extratropical cyclone {'weight': 1, 'link_text': 'extratropical cyclones', 'title': 'Extratropical cyclone'}
+Synoptic scale {'weight': 1, 'link_text': 'synoptic scale', 'title': 'Synoptic scale'}
+Tropical cyclone {'weight': 1, 'link_text': 'tropical cyclones', 'title': 'Tropical cyclone'}
+Subtropical cyclone {'weight': 1, 'link_text': 'subtropical cyclones', 'title': 'Subtropical cyclone'}
+Mesocyclone {'weight': 1, 'link_text': 'Mesocyclones', 'title': 'Mesocyclone'}
+Tornado {'weight': 1, 'link_text': 'tornadoes', 'title': 'Tornado'}
+Dust devil {'weight': 1, 'link_text': 'dust devils', 'title': 'Dust devil'}
+Mesoscale meteorology {'weight': 1, 'link_text': 'mesoscale', 'title': 'Mesoscale meteorology'}
+Air mass 0
+Atmospheric pressure 0
+Northern Hemisphere 3
+South America {'weight': 1, 'link_text': 'Northern Hemisphere', 'title': 'Northern Hemisphere'}
+subtropics {'weight': 1, 'link_text': 'north', 'title': 'Northern Hemisphere'}
+South American {'weight': 1, 'link_text': 'Northern Hemisphere', 'title': 'Northern Hemisphere'}
+South America 8
+Southern Hemisphere {'weight': 1, 'link_text': 'Southern Hemisphere', 'title': 'Southern Hemisphere'}
+Argentina {'weight': 1, 'link_text': 'South America', 'title': 'South America'}
+continents {'weight': 1, 'link_text': 'South America', 'title': 'South America'}
+Atlantic Ocean {'weight': 1, 'link_text': 'South America', 'title': 'South America'}
+Atlantic {'weight': 1, 'link_text': 'South America', 'title': 'South America'}
+Americas {'weight': 1, 'link_text': 'Americas', 'title': 'Americas'}
+Western Hemisphere {'weight': 1, 'link_text': 'Western Hemisphere', 'title': 'Western Hemisphere'}
+SubregionAmericas {'weight': 1, 'link_text': 'subregion', 'title': 'Subregion'}
+subtropics 4
+Southern Hemisphere {'weight': 1, 'link_text': 'south', 'title': 'Southern Hemisphere'}
+Middle latitudes {'weight': 1, 'link_text': 'middle latitudes', 'title': 'Middle latitudes'}
+Tropics {'weight': 1, 'link_text': 'tropics', 'title': 'Tropics'}
+Geographical zone {'weight': 1, 'link_text': 'geographical', 'title': 'Geographical zone'}
+South American 4
+Southern Hemisphere {'weight': 1, 'link_text': 'Southern Hemisphere', 'title': 'Southern Hemisphere'}
+Americas {'weight': 1, 'link_text': 'Americas', 'title': 'Americas'}
+Western Hemisphere {'weight': 1, 'link_text': 'Western Hemisphere', 'title': 'Western Hemisphere'}
+SubregionAmericas {'weight': 1, 'link_text': 'subregion', 'title': 'Subregion'}
+Southern Hemisphere 0
+Anticyclone 2
+extratropical {'weight': 1, 'link_text': 'anticyclones', 'title': 'Anticyclone'}
+extratropical storm {'weight': 1, 'link_text': 'anticyclones', 'title': 'Anticyclone'}
+extratropical 14
+Tropical cyclone {'weight': 1, 'link_text': 'tropical cyclones', 'title': 'Tropical cyclone'}
+Tornado {'weight': 1, 'link_text': 'tornadoes', 'title': 'Tornado'}
+Low-pressure area {'weight': 2, 'link_text': 'low-pressure areas', 'title': 'Low-pressure area'}
+High-pressure area {'weight': 1, 'link_text': 'high-pressure areas', 'title': 'High-pressure area'}
+Cyclone {'weight': 1, 'link_text': 'cyclones', 'title': 'Cyclone'}
+Rain {'weight': 1, 'link_text': 'showers', 'title': 'Rain'}
+Hail {'weight': 1, 'link_text': 'hail', 'title': 'Hail'}
+Thunderstorm {'weight': 1, 'link_text': 'thunderstorms', 'title': 'Thunderstorm'}
+Blizzard {'weight': 1, 'link_text': 'blizzards', 'title': 'Blizzard'}
+Synoptic scale meteorology {'weight': 1, 'link_text': 'large scale (synoptic)', 'title': 'Synoptic scale meteorology'}
+Weather system {'weight': 1, 'link_text': 'weather systems', 'title': 'Weather system'}
+Middle latitudes {'weight': 1, 'link_text': 'middle latitudes', 'title': 'Middle latitudes'}
+Dew point {'weight': 1, 'link_text': 'dew point', 'title': 'Dew point'}
+Weather front {'weight': 1, 'link_text': 'weather fronts', 'title': 'Weather front'}
+extratropical storm 14
+Tropical cyclone {'weight': 1, 'link_text': 'tropical cyclones', 'title': 'Tropical cyclone'}
+Tornado {'weight': 1, 'link_text': 'tornadoes', 'title': 'Tornado'}
+Low-pressure area {'weight': 2, 'link_text': 'low-pressure areas', 'title': 'Low-pressure area'}
+High-pressure area {'weight': 1, 'link_text': 'high-pressure areas', 'title': 'High-pressure area'}
+Cyclone {'weight': 1, 'link_text': 'cyclones', 'title': 'Cyclone'}
+Rain {'weight': 1, 'link_text': 'showers', 'title': 'Rain'}
+Hail {'weight': 1, 'link_text': 'hail', 'title': 'Hail'}
+Thunderstorm {'weight': 1, 'link_text': 'thunderstorms', 'title': 'Thunderstorm'}
+Blizzard {'weight': 1, 'link_text': 'blizzards', 'title': 'Blizzard'}
+Synoptic scale meteorology {'weight': 1, 'link_text': 'large scale (synoptic)', 'title': 'Synoptic scale meteorology'}
+Weather system {'weight': 1, 'link_text': 'weather systems', 'title': 'Weather system'}
+Middle latitudes {'weight': 1, 'link_text': 'middle latitudes', 'title': 'Middle latitudes'}
+Dew point {'weight': 1, 'link_text': 'dew point', 'title': 'Dew point'}
+Weather front {'weight': 1, 'link_text': 'weather fronts', 'title': 'Weather front'}
+Low pressure 0
+Polar vortices 0
+Extratropical cyclone 0
+Synoptic scale 0
+Tropical cyclone 1
+vortices {'weight': 1, 'link_text': 'tropical cyclone', 'title': 'Tropical cyclone'}
+vortices 2
+Tornado {'weight': 1, 'link_text': 'tornado', 'title': 'Tornado'}
+Dust devil {'weight': 1, 'link_text': 'dust devil', 'title': 'Dust devil'}
+Subtropical cyclone 0
+Mesocyclone 0
+Tornado 0
+Dust devil 0
+Mesoscale meteorology 0
+Epidemiology 2
+Observational data {'weight': 1, 'link_text': 'epidemiology', 'title': 'Epidemiology'}
+observational data {'weight': 1, 'link_text': 'epidemiology', 'title': 'Epidemiology'}
+Observational data 11
+Social science {'weight': 1, 'link_text': 'social sciences', 'title': 'Social science'}
+Psychology {'weight': 1, 'link_text': 'psychology', 'title': 'Psychology'}
+Statistics {'weight': 1, 'link_text': 'statistics', 'title': 'Statistics'}
+Sample (statistics) {'weight': 1, 'link_text': 'sample', 'title': 'Sample (statistics)'}
+Statistical population {'weight': 1, 'link_text': 'population', 'title': 'Statistical population'}
+Dependent and independent variables {'weight': 1, 'link_text': 'independent variable', 'title': 'Dependent and independent variables'}
+Scientific control {'weight': 1, 'link_text': 'control', 'title': 'Scientific control'}
+Control group {'weight': 1, 'link_text': 'control group', 'title': 'Control group'}
+Experiment {'weight': 1, 'link_text': 'experiments', 'title': 'Experiment'}
+Randomized controlled trial {'weight': 1, 'link_text': 'randomized controlled trials', 'title': 'Randomized controlled trial'}
+Random assignment {'weight': 1, 'link_text': 'randomly assigned', 'title': 'Random assignment'}
+observational data 11
+Social science {'weight': 1, 'link_text': 'social sciences', 'title': 'Social science'}
+Psychology {'weight': 1, 'link_text': 'psychology', 'title': 'Psychology'}
+Statistics {'weight': 1, 'link_text': 'statistics', 'title': 'Statistics'}
+Sample (statistics) {'weight': 1, 'link_text': 'sample', 'title': 'Sample (statistics)'}
+Statistical population {'weight': 1, 'link_text': 'population', 'title': 'Statistical population'}
+Dependent and independent variables {'weight': 1, 'link_text': 'independent variable', 'title': 'Dependent and independent variables'}
+Scientific control {'weight': 1, 'link_text': 'control', 'title': 'Scientific control'}
+Control group {'weight': 1, 'link_text': 'control group', 'title': 'Control group'}
+Experiment {'weight': 1, 'link_text': 'experiments', 'title': 'Experiment'}
+Randomized controlled trial {'weight': 1, 'link_text': 'randomized controlled trials', 'title': 'Randomized controlled trial'}
+Random assignment {'weight': 1, 'link_text': 'randomly assigned', 'title': 'Random assignment'}
+Social science 0
+Psychology 1
+Science {'weight': 1, 'link_text': 'psychology', 'title': 'Psychology'}
+Science 7
+Physics {'weight': 1, 'link_text': 'physics', 'title': 'Physics'}
+Engineering {'weight': 1, 'link_text': 'engineering', 'title': 'Engineering'}
+Scientific method {'weight': 2, 'link_text': 'systematic', 'title': 'Scientific method'}
+Knowledge {'weight': 1, 'link_text': 'knowledge', 'title': 'Knowledge'}
+Prediction {'weight': 1, 'link_text': 'predictions', 'title': 'Prediction'}
+Chemistry {'weight': 1, 'link_text': 'chemistry', 'title': 'Chemistry'}
+Biology {'weight': 1, 'link_text': 'biology', 'title': 'Biology'}
+Statistics 3
+Bayesian model averaging {'weight': 1, 'link_text': 'statistics', 'title': 'Statistics'}
+skewness {'weight': 1, 'link_text': 'statistics', 'title': 'Statistics'}
+smoothing {'weight': 1, 'link_text': 'statistics', 'title': 'Statistics'}
+Bayesian model averaging 0
+skewness 1
+Random variable {'weight': 1, 'link_text': 'random variable', 'title': 'Random variable'}
+smoothing 0
+Sample (statistics) 1
+methodology {'weight': 1, 'link_text': 'sample', 'title': 'Sample (statistics)'}
+methodology 2
+Research {'weight': 1, 'link_text': 'research', 'title': 'Research'}
+Knowledge {'weight': 1, 'link_text': 'knowledge', 'title': 'Knowledge'}
+Statistical population 0
+Dependent and independent variables 0
+Scientific control 0
+Control group 0
+Experiment 1
+Simulation {'weight': 1, 'link_text': 'experimentation', 'title': 'Experiment'}
+Simulation 1
+Computer simulation {'weight': 1, 'link_text': 'computers are used to execute the simulation', 'title': 'Computer simulation'}
+Randomized controlled trial 0
+Random assignment 0
+Hertz 1
+infrared radiation {'weight': 2, 'link_text': 'THz', 'title': 'Hertz'}
+infrared radiation 2
+Millimetre {'weight': 1, 'link_text': 'mm', 'title': 'Millimetre'}
+Energy {'weight': 1, 'link_text': 'energy', 'title': 'Energy'}
+Millimetre 1
+Sea Surface {'weight': 1, 'link_text': 'mm', 'title': 'Millimetre'}
+Sea Surface 3
+Earth {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+Atmosphere of Earth {'weight': 1, 'link_text': 'atmosphere', 'title': 'Atmosphere of Earth'}
+Ocean {'weight': 1, 'link_text': 'ocean', 'title': 'Ocean'}
+Energy 0
+Intergovernmental body 2
+IPCC {'weight': 1, 'link_text': 'intergovernmental body', 'title': 'Intergovernmental body'}
+Working Group I {'weight': 1, 'link_text': 'intergovernmental body', 'title': 'Intergovernmental body'}
+IPCC 7
+United Nations {'weight': 1, 'link_text': 'United Nations', 'title': 'United Nations'}
+Climate change {'weight': 1, 'link_text': 'climate change', 'title': 'Climate change'}
+World Meteorological Organization {'weight': 1, 'link_text': 'World Meteorological Organization', 'title': 'World Meteorological Organization'}
+United Nations Environment Programme {'weight': 1, 'link_text': 'United Nations Environment Programme', 'title': 'United Nations Environment Programme'}
+United Nations General Assembly {'weight': 1, 'link_text': 'United Nations', 'title': 'United Nations General Assembly'}
+Geneva {'weight': 1, 'link_text': 'Geneva', 'title': 'Geneva'}
+Member states of the United Nations {'weight': 1, 'link_text': 'member states', 'title': 'Member states of the United Nations'}
+Working Group I 7
+United Nations {'weight': 1, 'link_text': 'United Nations', 'title': 'United Nations'}
+Climate change {'weight': 1, 'link_text': 'climate change', 'title': 'Climate change'}
+World Meteorological Organization {'weight': 1, 'link_text': 'World Meteorological Organization', 'title': 'World Meteorological Organization'}
+United Nations Environment Programme {'weight': 1, 'link_text': 'United Nations Environment Programme', 'title': 'United Nations Environment Programme'}
+United Nations General Assembly {'weight': 1, 'link_text': 'United Nations', 'title': 'United Nations General Assembly'}
+Geneva {'weight': 1, 'link_text': 'Geneva', 'title': 'Geneva'}
+Member states of the United Nations {'weight': 1, 'link_text': 'member states', 'title': 'Member states of the United Nations'}
+United Nations 1
+SROCC {'weight': 1, 'link_text': 'United Nations', 'title': 'United Nations'}
+SROCC 7
+Glacier {'weight': 1, 'link_text': 'glaciers', 'title': 'Glacier'}
+Intergovernmental Panel on Climate Change {'weight': 1, 'link_text': 'Intergovernmental Panel on Climate Change', 'title': 'Intergovernmental Panel on Climate Change'}
+Ocean {'weight': 1, 'link_text': "world's seas", 'title': 'Ocean'}
+Sea ice {'weight': 1, 'link_text': 'sea ice', 'title': 'Sea ice'}
+Ice cap {'weight': 1, 'link_text': 'icecaps', 'title': 'Ice cap'}
+Effects of climate change {'weight': 1, 'link_text': 'effects of climate change', 'title': 'Effects of climate change'}
+Desertification {'weight': 1, 'link_text': 'desertification', 'title': 'Desertification'}
+Climate change 7
+deglaciation {'weight': 1, 'link_text': 'climate change', 'title': 'Climate change'}
+Paris Agreement {'weight': 1, 'link_text': 'climate change', 'title': 'Climate change'}
+Coupled Model Intercomparison Project {'weight': 1, 'link_text': 'climate change', 'title': 'Climate change'}
+temperature records {'weight': 1, 'link_text': 'human activities are causing climate change', 'title': 'Climate change'}
+GISTEMP {'weight': 1, 'link_text': 'human activities are causing climate change', 'title': 'Climate change'}
+CLIVAR {'weight': 1, 'link_text': 'climate change', 'title': 'Climate change'}
+ice loss {'weight': 1, 'link_text': 'climate change', 'title': 'Climate change'}
+deglaciation 7
+Ice age {'weight': 1, 'link_text': 'ice ages', 'title': 'Ice age'}
+Sea level rise {'weight': 1, 'link_text': 'sea level rise', 'title': 'Sea level rise'}
+Glacier {'weight': 1, 'link_text': 'glacier', 'title': 'Glacier'}
+Ice sheet {'weight': 1, 'link_text': 'ice sheet', 'title': 'Ice sheet'}
+Earth {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+Cryosphere {'weight': 1, 'link_text': 'cryosphere', 'title': 'Cryosphere'}
+Holocene {'weight': 1, 'link_text': 'Holocene', 'title': 'Holocene'}
+Paris Agreement 3
+Climate change mitigation {'weight': 1, 'link_text': 'climate change mitigation', 'title': 'Climate change mitigation'}
+Climate change adaptation {'weight': 1, 'link_text': 'adaptation', 'title': 'Climate change adaptation'}
+United Nations Framework Convention on Climate Change {'weight': 1, 'link_text': 'United Nations Framework Convention on Climate Change', 'title': 'United Nations Framework Convention on Climate Change'}
+Coupled Model Intercomparison Project 2
+Climatology {'weight': 1, 'link_text': 'climatology', 'title': 'Climatology'}
+World Climate Research Programme {'weight': 1, 'link_text': 'World Climate Research Programme', 'title': 'World Climate Research Programme'}
+temperature records 12
+Earth {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+Ocean {'weight': 1, 'link_text': 'ocean', 'title': 'Ocean'}
+Scientific consensus on climate change {'weight': 1, 'link_text': 'scientific consensus on climate change', 'title': 'Scientific consensus on climate change'}
+Weighted average {'weight': 1, 'link_text': 'weighted average', 'title': 'Weighted average'}
+Sea surface temperature {'weight': 1, 'link_text': 'sea surface temperature', 'title': 'Sea surface temperature'}
+Surface air temperature {'weight': 1, 'link_text': 'surface air temperature', 'title': 'Surface air temperature'}
+Weather station {'weight': 1, 'link_text': 'weather stations', 'title': 'Weather station'}
+Satellite {'weight': 1, 'link_text': 'satellites', 'title': 'Satellite'}
+Proxy data {'weight': 1, 'link_text': 'proxy data', 'title': 'Proxy data'}
+Tree rings {'weight': 1, 'link_text': 'tree rings', 'title': 'Tree rings'}
+Coral {'weight': 1, 'link_text': 'corals', 'title': 'Coral'}
+Ice core {'weight': 1, 'link_text': 'ice cores', 'title': 'Ice core'}
+GISTEMP 12
+Earth {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+Ocean {'weight': 1, 'link_text': 'ocean', 'title': 'Ocean'}
+Scientific consensus on climate change {'weight': 1, 'link_text': 'scientific consensus on climate change', 'title': 'Scientific consensus on climate change'}
+Weighted average {'weight': 1, 'link_text': 'weighted average', 'title': 'Weighted average'}
+Sea surface temperature {'weight': 1, 'link_text': 'sea surface temperature', 'title': 'Sea surface temperature'}
+Surface air temperature {'weight': 1, 'link_text': 'surface air temperature', 'title': 'Surface air temperature'}
+Weather station {'weight': 1, 'link_text': 'weather stations', 'title': 'Weather station'}
+Satellite {'weight': 1, 'link_text': 'satellites', 'title': 'Satellite'}
+Proxy data {'weight': 1, 'link_text': 'proxy data', 'title': 'Proxy data'}
+Tree rings {'weight': 1, 'link_text': 'tree rings', 'title': 'Tree rings'}
+Coral {'weight': 1, 'link_text': 'corals', 'title': 'Coral'}
+Ice core {'weight': 1, 'link_text': 'ice cores', 'title': 'Ice core'}
+CLIVAR 1
+World Climate Research Programme {'weight': 1, 'link_text': 'World Climate Research Programme', 'title': 'World Climate Research Programme'}
+ice loss 6
+Temperature {'weight': 1, 'link_text': 'mean temperature', 'title': 'Temperature'}
+Sea level rise {'weight': 1, 'link_text': 'sea level rise', 'title': 'Sea level rise'}
+Ice sheet {'weight': 1, 'link_text': 'ice sheets', 'title': 'Ice sheet'}
+Precipitation (meteorology) {'weight': 1, 'link_text': 'precipitation', 'title': 'Precipitation (meteorology)'}
+Effects of climate change {'weight': 1, 'link_text': 'effect of climate change', 'title': 'Effects of climate change'}
+Instrumental temperature record {'weight': 1, 'link_text': 'rise in global temperatures', 'title': 'Instrumental temperature record'}
+World Meteorological Organization 0
+United Nations Environment Programme 0
+United Nations General Assembly 0
+Geneva 0
+Member states of the United Nations 0
+Atmospheric sounding 2
+radiosonde data {'weight': 1, 'link_text': 'atmospheric parameters', 'title': 'Atmospheric sounding'}
+AMSU {'weight': 1, 'link_text': 'atmospheric sounding', 'title': 'Atmospheric sounding'}
+radiosonde data 4
+Altitude {'weight': 1, 'link_text': 'altitude', 'title': 'Altitude'}
+Pressure {'weight': 1, 'link_text': 'pressure', 'title': 'Pressure'}
+Temperature {'weight': 1, 'link_text': 'temperature', 'title': 'Temperature'}
+Ozone {'weight': 1, 'link_text': 'ozone', 'title': 'Ozone'}
+AMSU 0
+Altitude 1
+air temperature {'weight': 1, 'link_text': 'altitude', 'title': 'Altitude'}
+air temperature 4
+Temperature {'weight': 1, 'link_text': 'temperature', 'title': 'Temperature'}
+Humidity {'weight': 1, 'link_text': 'humidity', 'title': 'Humidity'}
+Insolation {'weight': 1, 'link_text': 'incoming solar radiation', 'title': 'Insolation'}
+Earth%27s atmosphere {'weight': 1, 'link_text': "Earth's atmosphere", 'title': "Earth's atmosphere"}
+Pressure 1
+sea level pressure {'weight': 1, 'link_text': 'pressure', 'title': 'Pressure'}
+sea level pressure 2
+Atmosphere of Earth {'weight': 1, 'link_text': 'atmosphere of Earth', 'title': 'Atmosphere of Earth'}
+Pascal (unit) {'weight': 2, 'link_text': 'Pa', 'title': 'Pascal (unit)'}
+Temperature 0
+Ozone 0
+Argentina 3
+Americas {'weight': 1, 'link_text': 'Americas', 'title': 'Americas'}
+List of countries and dependencies by area {'weight': 1, 'link_text': 'eighth-largest country', 'title': 'List of countries and dependencies by area'}
+Atlantic Ocean {'weight': 1, 'link_text': 'Atlantic Ocean', 'title': 'Atlantic Ocean'}
+continents 8
+Americas {'weight': 1, 'link_text': 'America', 'title': 'Americas'}
+Australia (continent) {'weight': 1, 'link_text': 'Australia', 'title': 'Australia (continent)'}
+Antarctica {'weight': 1, 'link_text': 'Antarctica', 'title': 'Antarctica'}
+Asia {'weight': 1, 'link_text': 'Asia', 'title': 'Asia'}
+Africa {'weight': 1, 'link_text': 'Africa', 'title': 'Africa'}
+North America {'weight': 1, 'link_text': 'North America', 'title': 'North America'}
+Europe {'weight': 1, 'link_text': 'Europe', 'title': 'Europe'}
+Afro-Eurasia {'weight': 1, 'link_text': 'Afro-Eurasia', 'title': 'Afro-Eurasia'}
+Atlantic Ocean 12
+Americas {'weight': 1, 'link_text': 'Americas', 'title': 'Americas'}
+Canada {'weight': 1, 'link_text': 'Atlantic Ocean', 'title': 'Atlantic Ocean'}
+EarthSurface {'weight': 1, 'link_text': "Earth's surface", 'title': 'Earth'}
+Asia {'weight': 1, 'link_text': 'Asia', 'title': 'Asia'}
+Africa {'weight': 1, 'link_text': 'Africa', 'title': 'Africa'}
+North America {'weight': 1, 'link_text': 'North America', 'title': 'North America'}
+Europe {'weight': 1, 'link_text': 'Europe', 'title': 'Europe'}
+Afro-Eurasia {'weight': 1, 'link_text': 'Afro-Eurasia', 'title': 'Afro-Eurasia'}
+Borders of the oceans {'weight': 1, 'link_text': 'oceanic divisions', 'title': 'Borders of the oceans'}
+Age of Discovery {'weight': 1, 'link_text': 'Age of Discovery', 'title': 'Age of Discovery'}
+New World {'weight': 1, 'link_text': 'New World', 'title': 'New World'}
+Old World {'weight': 1, 'link_text': 'Old World', 'title': 'Old World'}
+Atlantic 11
+Americas {'weight': 1, 'link_text': 'Americas', 'title': 'Americas'}
+EarthSurface {'weight': 1, 'link_text': "Earth's surface", 'title': 'Earth'}
+Asia {'weight': 1, 'link_text': 'Asia', 'title': 'Asia'}
+Africa {'weight': 1, 'link_text': 'Africa', 'title': 'Africa'}
+North America {'weight': 1, 'link_text': 'North America', 'title': 'North America'}
+Europe {'weight': 1, 'link_text': 'Europe', 'title': 'Europe'}
+Afro-Eurasia {'weight': 1, 'link_text': 'Afro-Eurasia', 'title': 'Afro-Eurasia'}
+Borders of the oceans {'weight': 1, 'link_text': 'oceanic divisions', 'title': 'Borders of the oceans'}
+Age of Discovery {'weight': 1, 'link_text': 'Age of Discovery', 'title': 'Age of Discovery'}
+New World {'weight': 1, 'link_text': 'New World', 'title': 'New World'}
+Old World {'weight': 1, 'link_text': 'Old World', 'title': 'Old World'}
+Americas 0
+List of countries and dependencies by area 1
+Canada {'weight': 1, 'link_text': 'second-largest country by total area', 'title': 'List of countries and dependencies by area'}
+Canada 2
+Arctic Ocean {'weight': 1, 'link_text': 'Arctic Ocean', 'title': 'Arctic Ocean'}
+North America {'weight': 1, 'link_text': 'North America', 'title': 'North America'}
+Ice age 1
+Interglacial period {'weight': 1, 'link_text': 'ice age', 'title': 'Ice age'}
+Interglacial period 1
+Holocene {'weight': 1, 'link_text': 'Holocene', 'title': 'Holocene'}
+Sea level rise 0
+Glacier 2
+Sea ice {'weight': 1, 'link_text': 'glaciers', 'title': 'Glacier'}
+glacier recession {'weight': 1, 'link_text': 'glaciers', 'title': 'Glacier'}
+Sea ice 10
+Southern Ocean {'weight': 1, 'link_text': 'Southern Ocean', 'title': 'Southern Ocean'}
+Seawater {'weight': 1, 'link_text': 'seawater', 'title': 'Seawater'}
+Ice {'weight': 1, 'link_text': 'ice', 'title': 'Ice'}
+Fresh water {'weight': 1, 'link_text': 'fresh water', 'title': 'Fresh water'}
+Arctic Ocean {'weight': 1, 'link_text': 'Arctic Ocean', 'title': 'Arctic Ocean'}
+Ice calving {'weight': 1, 'link_text': 'calve', 'title': 'Ice calving'}
+Arctic sea ice {'weight': 1, 'link_text': 'sea ice', 'title': 'Sea ice'}
+glaciers {'weight': 1, 'link_text': 'sea ice', 'title': 'Sea ice'}
+Ice Shelves {'weight': 1, 'link_text': 'sea ice', 'title': 'Sea ice'}
+glacial {'weight': 1, 'link_text': 'sea ice', 'title': 'Sea ice'}
+glacier recession 1
+Greenland {'weight': 1, 'link_text': 'Greenland', 'title': 'Greenland'}
+Ice sheet 1
+Greenland ice sheet {'weight': 1, 'link_text': 'ice sheet', 'title': 'Ice sheet'}
+Greenland ice sheet 1
+Greenland {'weight': 1, 'link_text': 'Greenland', 'title': 'Greenland'}
+Earth 8
+Volcanic Aerosols {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+Africa {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+IPCC First Assessment Report {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+Last Glacial Maximum {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+water cycle {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+tropical {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+Atlas {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+coastal waters {'weight': 1, 'link_text': 'Earth', 'title': 'Earth'}
+Volcanic Aerosols 0
+Africa 3
+Asia {'weight': 1, 'link_text': 'Asia', 'title': 'Asia'}
+eastern Africa {'weight': 1, 'link_text': 'African continent', 'title': 'Africa'}
+Continent {'weight': 1, 'link_text': 'continent', 'title': 'Continent'}
+IPCC First Assessment Report 4
+Intergovernmental Panel on Climate Change {'weight': 1, 'link_text': 'Intergovernmental Panel on Climate Change', 'title': 'Intergovernmental Panel on Climate Change'}
+United Nations Framework Convention on Climate Change {'weight': 1, 'link_text': 'United Nations Framework Convention on Climate Change', 'title': 'United Nations Framework Convention on Climate Change'}
+Greenhouse effect {'weight': 1, 'link_text': 'greenhouse effect', 'title': 'Greenhouse effect'}
+Carbon dioxide in Earth%27s atmosphere {'weight': 1, 'link_text': 'atmospheric concentrations of the greenhouse gases', 'title': "Carbon dioxide in Earth's atmosphere"}
+Last Glacial Maximum 3
+Asia {'weight': 1, 'link_text': 'Asia', 'title': 'Asia'}
+North America {'weight': 1, 'link_text': 'North America', 'title': 'North America'}
+Last Glacial Period {'weight': 1, 'link_text': 'Last Glacial Period', 'title': 'Last Glacial Period'}
+water cycle 12
+Ocean {'weight': 1, 'link_text': 'ocean', 'title': 'Ocean'}
+Ice {'weight': 2, 'link_text': 'ice', 'title': 'Ice'}
+Fresh water {'weight': 1, 'link_text': 'fresh water', 'title': 'Fresh water'}
+Biogeochemical cycle {'weight': 1, 'link_text': 'biogeochemical cycle', 'title': 'Biogeochemical cycle'}
+Atmosphere {'weight': 1, 'link_text': 'atmospheric water', 'title': 'Atmosphere'}
+Water vapor {'weight': 1, 'link_text': 'vapor', 'title': 'Water vapor'}
+Water {'weight': 1, 'link_text': 'water', 'title': 'Water'}
+Condensation {'weight': 1, 'link_text': 'condensation', 'title': 'Condensation'}
+Climate {'weight': 1, 'link_text': 'climatic variables', 'title': 'Climate'}
+Sublimation (phase transition) {'weight': 1, 'link_text': 'sublimation', 'title': 'Sublimation (phase transition)'}
+Evaporation {'weight': 1, 'link_text': 'evaporation', 'title': 'Evaporation'}
+Precipitation (meteorology) {'weight': 1, 'link_text': 'precipitation', 'title': 'Precipitation (meteorology)'}
+tropical 2
+Equator {'weight': 1, 'link_text': 'Equator', 'title': 'Equator'}
+Geographical zone {'weight': 1, 'link_text': 'geographical zone', 'title': 'Geographical zone'}
+Atlas 1
+Continent {'weight': 1, 'link_text': 'continent', 'title': 'Continent'}
+coastal waters 1
+Ocean {'weight': 1, 'link_text': 'ocean', 'title': 'Ocean'}
+Cryosphere 0
+Holocene 1
+Last Interglacial {'weight': 1, 'link_text': 'Holocene', 'title': 'Holocene'}
+Last Interglacial 1
+Last Glacial Period {'weight': 1, 'link_text': 'Last Glacial Period', 'title': 'Last Glacial Period'}
+Intergovernmental Panel on Climate Change 1
+Fifth Assessment Report {'weight': 1, 'link_text': 'Intergovernmental Panel on Climate Change', 'title': 'Intergovernmental Panel on Climate Change'}
+Fifth Assessment Report 1
+Representative Concentration Pathways {'weight': 2, 'link_text': 'Representative Concentration Pathways', 'title': 'Representative Concentration Pathways'}
+Representative Concentration Pathways 0
+Western Hemisphere 0
+SubregionAmericas 0
+Precipitation 2
+Asian monsoon {'weight': 1, 'link_text': 'precipitation', 'title': 'Precipitation'}
+monsoons {'weight': 1, 'link_text': 'precipitation', 'title': 'Precipitation'}
+Asian monsoon 3
+Atmosphere of Earth {'weight': 1, 'link_text': 'atmospheric', 'title': 'Atmosphere of Earth'}
+Intertropical Convergence Zone {'weight': 1, 'link_text': 'Intertropical Convergence Zone', 'title': 'Intertropical Convergence Zone'}
+Wet season {'weight': 1, 'link_text': 'rainy phase', 'title': 'Wet season'}
+monsoons 3
+Atmosphere of Earth {'weight': 1, 'link_text': 'atmospheric', 'title': 'Atmosphere of Earth'}
+Intertropical Convergence Zone {'weight': 1, 'link_text': 'Intertropical Convergence Zone', 'title': 'Intertropical Convergence Zone'}
+Wet season {'weight': 1, 'link_text': 'rainy phase', 'title': 'Wet season'}
+Atmosphere of Earth 0
+Intertropical Convergence Zone 0
+Wet season 0
+Ocean 4
+Indian oceans {'weight': 1, 'link_text': 'oceanic', 'title': 'Ocean'}
+oxygen minimum zone {'weight': 1, 'link_text': 'ocean', 'title': 'Ocean'}
+ocean warming {'weight': 1, 'link_text': 'oceans', 'title': 'Ocean'}
+ocean heat uptake {'weight': 1, 'link_text': 'oceans', 'title': 'Ocean'}
+Indian oceans 4
+EarthSurface {'weight': 1, 'link_text': "Earth's surface", 'title': 'Earth'}
+Australia (continent) {'weight': 1, 'link_text': 'Australia', 'title': 'Australia (continent)'}
+Southern Ocean {'weight': 1, 'link_text': 'Southern Ocean', 'title': 'Southern Ocean'}
+Antarctica {'weight': 1, 'link_text': 'Antarctica', 'title': 'Antarctica'}
+oxygen minimum zone 0
+ocean warming 5
+Ocean temperature {'weight': 1, 'link_text': 'ocean temperature', 'title': 'Ocean temperature'}
+Integral {'weight': 1, 'link_text': 'Integrating the areal density', 'title': 'Integral'}
+Enthalpy {'weight': 1, 'link_text': 'enthalpic energy', 'title': 'Enthalpy'}
+Earth%27s Energy Imbalance {'weight': 1, 'link_text': 'global heating', 'title': "Earth's Energy Imbalance"}
+Greenhouse gas emissions {'weight': 1, 'link_text': 'greenhouse gas emissions', 'title': 'Greenhouse gas emissions'}
+ocean heat uptake 5
+Ocean temperature {'weight': 1, 'link_text': 'ocean temperature', 'title': 'Ocean temperature'}
+Integral {'weight': 1, 'link_text': 'Integrating the areal density', 'title': 'Integral'}
+Enthalpy {'weight': 1, 'link_text': 'enthalpic energy', 'title': 'Enthalpy'}
+Earth%27s Energy Imbalance {'weight': 1, 'link_text': 'global heating', 'title': "Earth's Energy Imbalance"}
+Greenhouse gas emissions {'weight': 1, 'link_text': 'greenhouse gas emissions', 'title': 'Greenhouse gas emissions'}
+EarthSurface 0
+Australia (continent) 0
+Southern Ocean 0
+Antarctica 1
+Southern Hemisphere Annular Mode {'weight': 1, 'link_text': 'Antarctica', 'title': 'Antarctica'}
+Southern Hemisphere Annular Mode 0
+Oxygen 2
+plant respiration {'weight': 1, 'link_text': 'oxygen', 'title': 'Oxygen'}
+deoxygenation {'weight': 1, 'link_text': 'oxygen', 'title': 'Oxygen'}
+plant respiration 3
+Metabolism {'weight': 1, 'link_text': 'metabolic', 'title': 'Metabolism'}
+Cell (biology) {'weight': 1, 'link_text': 'cells', 'title': 'Cell (biology)'}
+Organism {'weight': 1, 'link_text': 'organisms', 'title': 'Organism'}
+deoxygenation 0
+Metabolism 1
+biochemical processes {'weight': 1, 'link_text': 'metabolism', 'title': 'Metabolism'}
+biochemical processes 4
+Cell (biology) {'weight': 1, 'link_text': 'cells', 'title': 'Cell (biology)'}
+Organism {'weight': 1, 'link_text': 'organisms', 'title': 'Organism'}
+Chemistry {'weight': 1, 'link_text': 'chemistry', 'title': 'Chemistry'}
+Biology {'weight': 1, 'link_text': 'biology', 'title': 'Biology'}
+Cell (biology) 0
+Organism 0
+Humidity 1
+evaporation {'weight': 1, 'link_text': 'humidity', 'title': 'Humidity'}
+evaporation 0
+Climate change mitigation 1
+Climate Change Scenarios {'weight': 2, 'link_text': 'mitigation', 'title': 'Climate change mitigation'}
+Climate Change Scenarios 1
+Climate change adaptation {'weight': 2, 'link_text': 'adaptation', 'title': 'Climate change adaptation'}
+Climate change adaptation 0
+United Nations Framework Convention on Climate Change 0
+Climatology 2
+Palaeoecology {'weight': 1, 'link_text': 'climatology', 'title': 'Climatology'}
+Equilibrium Climate Sensitivity {'weight': 1, 'link_text': 'climate science', 'title': 'Climatology'}
+Palaeoecology 1
+Biology {'weight': 1, 'link_text': 'biology', 'title': 'Biology'}
+Equilibrium Climate Sensitivity 2
+Carbon dioxide in Earth%27s atmosphere {'weight': 1, 'link_text': 'atmospheric carbon dioxide (CO2) concentration', 'title': "Carbon dioxide in Earth's atmosphere"}
+Effects of climate change {'weight': 1, 'link_text': 'effects of climate change', 'title': 'Effects of climate change'}
+World Climate Research Programme 0
+Seawater 1
+ocean circulation {'weight': 1, 'link_text': 'seawater', 'title': 'Seawater'}
+ocean circulation 1
+Salinity {'weight': 1, 'link_text': 'salinity', 'title': 'Salinity'}
+Ice 3
+Ice Shelves {'weight': 1, 'link_text': 'ice', 'title': 'Ice'}
+snowfall {'weight': 1, 'link_text': 'ice', 'title': 'Ice'}
+water vapor {'weight': 1, 'link_text': 'ice', 'title': 'Ice'}
+Ice Shelves 2
+Ice calving {'weight': 1, 'link_text': 'calving', 'title': 'Ice calving'}
+Glaciers {'weight': 1, 'link_text': 'glaciers', 'title': 'Glaciers'}
+snowfall 2
+Atmosphere {'weight': 1, 'link_text': 'atmosphere', 'title': 'Atmosphere'}
+Sublimation (phase transition) {'weight': 1, 'link_text': 'sublimate', 'title': 'Sublimation (phase transition)'}
+water vapor 5
+Air {'weight': 1, 'link_text': 'air', 'title': 'Air'}
+Condensation {'weight': 1, 'link_text': 'condensation', 'title': 'Condensation'}
+Hydrosphere {'weight': 1, 'link_text': 'hydrosphere', 'title': 'Hydrosphere'}
+Sublimation (phase transition) {'weight': 1, 'link_text': 'sublimation', 'title': 'Sublimation (phase transition)'}
+Evaporation {'weight': 1, 'link_text': 'evaporation', 'title': 'Evaporation'}
+Fresh water 1
+rainfall {'weight': 1, 'link_text': 'fresh water', 'title': 'Fresh water'}
+rainfall 3
+Water {'weight': 1, 'link_text': 'water', 'title': 'Water'}
+Condensation {'weight': 1, 'link_text': 'condensed', 'title': 'Condensation'}
+Water cycle {'weight': 1, 'link_text': 'water cycle', 'title': 'Water cycle'}
+Arctic Ocean 1
+Arctic sea ice {'weight': 1, 'link_text': 'Arctic Ocean', 'title': 'Arctic Ocean'}
+Arctic sea ice 0
+Ice calving 0
+Research 1
+data table {'weight': 1, 'link_text': 'research', 'title': 'Research'}
+data table 0
+Atmospheric circulation 0
+Equator 0
+Subtropics 0
+Troposphere 1
+walker circulation {'weight': 1, 'link_text': 'troposphere', 'title': 'Troposphere'}
+walker circulation 1
+Tropics {'weight': 1, 'link_text': 'tropics', 'title': 'Tropics'}
+Insolation 0
+Extraterrestrial atmosphere 0
+Venus 0
+Mars 0
+Low-pressure area 0
+High-pressure area 0
+Cyclone 0
+Rain 0
+Hail 0
+Thunderstorm 0
+Blizzard 0
+Synoptic scale meteorology 0
+Weather system 0
+Middle latitudes 0
+Dew point 0
+Weather front 0
+Random variable 1
+serial correlation {'weight': 1, 'link_text': 'random variable', 'title': 'Random variable'}
+serial correlation 0
+Physical quantity 0
+Kelvin 0
+Biogeochemical cycle 2
+Nitrogen cycling {'weight': 1, 'link_text': 'biogeochemical cycle', 'title': 'Biogeochemical cycle'}
+nitrogen cycle {'weight': 1, 'link_text': 'biogeochemical cycle', 'title': 'Biogeochemical cycle'}
+Nitrogen cycling 11
+Nitrogen {'weight': 2, 'link_text': 'nitrogen', 'title': 'Nitrogen'}
+Atmosphere {'weight': 1, 'link_text': 'atmospheric', 'title': 'Atmosphere'}
+Terrestrial ecosystem {'weight': 1, 'link_text': 'terrestrial', 'title': 'Terrestrial ecosystem'}
+Marine ecosystem {'weight': 1, 'link_text': 'marine ecosystems', 'title': 'Marine ecosystem'}
+Nitrogen fixation {'weight': 1, 'link_text': 'fixation', 'title': 'Nitrogen fixation'}
+Ammonification {'weight': 1, 'link_text': 'ammonification', 'title': 'Ammonification'}
+Nitrification {'weight': 1, 'link_text': 'nitrification', 'title': 'Nitrification'}
+Denitrification {'weight': 1, 'link_text': 'denitrification', 'title': 'Denitrification'}
+Earth%27s atmosphere {'weight': 1, 'link_text': "Earth's atmosphere", 'title': "Earth's atmosphere"}
+Scarcity {'weight': 1, 'link_text': 'scarcity', 'title': 'Scarcity'}
+Ecosystems {'weight': 1, 'link_text': 'ecosystems', 'title': 'Ecosystems'}
+nitrogen cycle 11
+Nitrogen {'weight': 2, 'link_text': 'nitrogen', 'title': 'Nitrogen'}
+Atmosphere {'weight': 1, 'link_text': 'atmospheric', 'title': 'Atmosphere'}
+Terrestrial ecosystem {'weight': 1, 'link_text': 'terrestrial', 'title': 'Terrestrial ecosystem'}
+Marine ecosystem {'weight': 1, 'link_text': 'marine ecosystems', 'title': 'Marine ecosystem'}
+Nitrogen fixation {'weight': 1, 'link_text': 'fixation', 'title': 'Nitrogen fixation'}
+Ammonification {'weight': 1, 'link_text': 'ammonification', 'title': 'Ammonification'}
+Nitrification {'weight': 1, 'link_text': 'nitrification', 'title': 'Nitrification'}
+Denitrification {'weight': 1, 'link_text': 'denitrification', 'title': 'Denitrification'}
+Earth%27s atmosphere {'weight': 1, 'link_text': "Earth's atmosphere", 'title': "Earth's atmosphere"}
+Scarcity {'weight': 1, 'link_text': 'scarcity', 'title': 'Scarcity'}
+Ecosystems {'weight': 1, 'link_text': 'ecosystems', 'title': 'Ecosystems'}
+Nitrogen 0
+Atmosphere 0
+Terrestrial ecosystem 0
+Marine ecosystem 0
+Nitrogen fixation 0
+Ammonification 0
+Nitrification 0
+Denitrification 0
+Earth%27s atmosphere 0
+Scarcity 0
+Ecosystems 0
+Asia 0
+eastern Africa 0
+North America 0
+Europe 1
+England {'weight': 1, 'link_text': 'Europe', 'title': 'Europe'}
+England 0
+Afro-Eurasia 0
+Air 0
+Sun 1
+solar activity {'weight': 1, 'link_text': 'Sun', 'title': 'Sun'}
+solar activity 0
+Differential equation 1
+boundary conditions {'weight': 2, 'link_text': 'differential equations', 'title': 'Differential equation'}
+boundary conditions 0
+Physics 1
+Mass balance {'weight': 1, 'link_text': 'physics', 'title': 'Physics'}
+Mass balance 1
+Matter {'weight': 1, 'link_text': 'matter', 'title': 'Matter'}
+Matter 0
+Engineering 0
+Mathematical model 3
+CESM {'weight': 1, 'link_text': 'numerical', 'title': 'Mathematical model'}
+Community Earth System Model {'weight': 1, 'link_text': 'numerical', 'title': 'Mathematical model'}
+Ecological modelling {'weight': 1, 'link_text': 'mathematical', 'title': 'Mathematical model'}
+CESM 14
+Computer simulation {'weight': 1, 'link_text': 'simulation', 'title': 'Computer simulation'}
+Earth system science {'weight': 1, 'link_text': 'Earth system', 'title': 'Earth system science'}
+Atmospheric model {'weight': 1, 'link_text': 'atmospheric', 'title': 'Atmospheric model'}
+CICE (sea ice model) {'weight': 1, 'link_text': 'ice', 'title': 'CICE (sea ice model)'}
+Carbon cycle {'weight': 1, 'link_text': 'carbon cycle', 'title': 'Carbon cycle'}
+Climate model {'weight': 1, 'link_text': 'climate model', 'title': 'Climate model'}
+Community Climate System Model {'weight': 1, 'link_text': 'Community Climate System Model', 'title': 'Community Climate System Model'}
+Ensemble forecasting {'weight': 1, 'link_text': 'ensemble forecasting', 'title': 'Ensemble forecasting'}
+Earth%27s surface {'weight': 1, 'link_text': "Earth's surface", 'title': "Earth's surface"}
+Thermosphere {'weight': 1, 'link_text': 'thermosphere', 'title': 'Thermosphere'}
+Whole Atmosphere Community Climate Model {'weight': 1, 'link_text': 'Whole Atmosphere Community Climate Model', 'title': 'Whole Atmosphere Community Climate Model'}
+National Center for Atmospheric Research {'weight': 1, 'link_text': 'National Center for Atmospheric Research', 'title': 'National Center for Atmospheric Research'}
+National Science Foundation {'weight': 1, 'link_text': 'National Science Foundation', 'title': 'National Science Foundation'}
+United States Department of Energy {'weight': 1, 'link_text': 'Department of Energy', 'title': 'United States Department of Energy'}
+Community Earth System Model 14
+Computer simulation {'weight': 1, 'link_text': 'simulation', 'title': 'Computer simulation'}
+Earth system science {'weight': 1, 'link_text': 'Earth system', 'title': 'Earth system science'}
+Atmospheric model {'weight': 1, 'link_text': 'atmospheric', 'title': 'Atmospheric model'}
+CICE (sea ice model) {'weight': 1, 'link_text': 'ice', 'title': 'CICE (sea ice model)'}
+Carbon cycle {'weight': 1, 'link_text': 'carbon cycle', 'title': 'Carbon cycle'}
+Climate model {'weight': 1, 'link_text': 'climate model', 'title': 'Climate model'}
+Community Climate System Model {'weight': 1, 'link_text': 'Community Climate System Model', 'title': 'Community Climate System Model'}
+Ensemble forecasting {'weight': 1, 'link_text': 'ensemble forecasting', 'title': 'Ensemble forecasting'}
+Earth%27s surface {'weight': 1, 'link_text': "Earth's surface", 'title': "Earth's surface"}
+Thermosphere {'weight': 1, 'link_text': 'thermosphere', 'title': 'Thermosphere'}
+Whole Atmosphere Community Climate Model {'weight': 1, 'link_text': 'Whole Atmosphere Community Climate Model', 'title': 'Whole Atmosphere Community Climate Model'}
+National Center for Atmospheric Research {'weight': 1, 'link_text': 'National Center for Atmospheric Research', 'title': 'National Center for Atmospheric Research'}
+National Science Foundation {'weight': 1, 'link_text': 'National Science Foundation', 'title': 'National Science Foundation'}
+United States Department of Energy {'weight': 1, 'link_text': 'Department of Energy', 'title': 'United States Department of Energy'}
+Ecological modelling 0
+Computer simulation 0
+Earth system science 0
+Atmospheric model 0
+CICE (sea ice model) 0
+Carbon cycle 0
+Climate model 0
+Community Climate System Model 0
+Ensemble forecasting 0
+Earth%27s surface 1
+solar dimming {'weight': 1, 'link_text': "Earth's surface", 'title': "Earth's surface"}
+solar dimming 1
+Solar activity {'weight': 1, 'link_text': 'Solar activity', 'title': 'Solar activity'}
+Thermosphere 0
+Whole Atmosphere Community Climate Model 0
+National Center for Atmospheric Research 0
+National Science Foundation 0
+United States Department of Energy 0
+Global surface temperature 0
+Scientific consensus on climate change 0
+Fossil fuel 0
+Industrial Revolution 0
+Deforestation and climate change 0
+Greenhouse gas emissions from agriculture 0
+Environmental impact of concrete 0
+Greenhouse effect 0
+Thermal radiation 0
+Sunlight 0
+Carbon dioxide 0
+Carbon dioxide in Earth%27s atmosphere 0
+glaciers 9
+American English {'weight': 1, 'link_text': 'US', 'title': 'American English'}
+British English {'weight': 1, 'link_text': 'UK', 'title': 'British English'}
+AblationGlaciology {'weight': 1, 'link_text': 'ablation', 'title': 'Ablation'}
+Century {'weight': 1, 'link_text': 'centuries', 'title': 'Century'}
+Crevasse {'weight': 1, 'link_text': 'crevasses', 'title': 'Crevasse'}
+Serac {'weight': 1, 'link_text': 'seracs', 'title': 'Serac'}
+Cirque {'weight': 1, 'link_text': 'cirques', 'title': 'Cirque'}
+Moraine {'weight': 1, 'link_text': 'moraines', 'title': 'Moraine'}
+Fjord {'weight': 1, 'link_text': 'fjords', 'title': 'Fjord'}
+glacial 9
+American English {'weight': 1, 'link_text': 'US', 'title': 'American English'}
+British English {'weight': 1, 'link_text': 'UK', 'title': 'British English'}
+AblationGlaciology {'weight': 1, 'link_text': 'ablation', 'title': 'Ablation'}
+Century {'weight': 1, 'link_text': 'centuries', 'title': 'Century'}
+Crevasse {'weight': 1, 'link_text': 'crevasses', 'title': 'Crevasse'}
+Serac {'weight': 1, 'link_text': 'seracs', 'title': 'Serac'}
+Cirque {'weight': 1, 'link_text': 'cirques', 'title': 'Cirque'}
+Moraine {'weight': 1, 'link_text': 'moraines', 'title': 'Moraine'}
+Fjord {'weight': 1, 'link_text': 'fjords', 'title': 'Fjord'}
+Weighted average 0
+Sea surface temperature 0
+Surface air temperature 0
+Weather station 0
+Satellite 0
+Proxy data 0
+Tree rings 0
+Coral 0
+Ice core 0
+Water vapor 0
+Weather 1
+Earth System Research Laboratory {'weight': 1, 'link_text': 'weather', 'title': 'Weather'}
+Earth System Research Laboratory 1
+Climate {'weight': 1, 'link_text': 'climate', 'title': 'Climate'}
+Tropics 0
+Polar regions 0
+Water 0
+Condensation 0
+Water cycle 0
+Borders of the oceans 0
+Age of Discovery 0
+New World 0
+Old World 0
+Scientific method 0
+Knowledge 0
+Prediction 1
+Predictability {'weight': 1, 'link_text': 'prediction', 'title': 'Prediction'}
+Predictability 0
+Chemistry 0
+Biology 0
+Ocean temperature 0
+Integral 0
+Enthalpy 0
+Earth%27s Energy Imbalance 0
+Greenhouse gas emissions 0
+Geographical zone 0
+Mathematics 2
+parameterizations {'weight': 1, 'link_text': 'mathematics', 'title': 'Mathematics'}
+parameterization {'weight': 1, 'link_text': 'mathematics', 'title': 'Mathematics'}
+parameterizations 9
+Geometry {'weight': 1, 'link_text': 'geometry', 'title': 'Geometry'}
+Parametric equation {'weight': 1, 'link_text': 'parametric equations', 'title': 'Parametric equation'}
+Curve {'weight': 1, 'link_text': 'curve', 'title': 'Curve'}
+Surface (mathematics) {'weight': 1, 'link_text': 'surface', 'title': 'Surface (mathematics)'}
+Manifold {'weight': 1, 'link_text': 'manifold', 'title': 'Manifold'}
+Algebraic variety {'weight': 1, 'link_text': 'variety', 'title': 'Algebraic variety'}
+Implicit equation {'weight': 1, 'link_text': 'implicit equation', 'title': 'Implicit equation'}
+Implicitization {'weight': 1, 'link_text': 'implicitization', 'title': 'Implicitization'}
+Parameter {'weight': 1, 'link_text': 'parameters', 'title': 'Parameter'}
+parameterization 9
+Geometry {'weight': 1, 'link_text': 'geometry', 'title': 'Geometry'}
+Parametric equation {'weight': 1, 'link_text': 'parametric equations', 'title': 'Parametric equation'}
+Curve {'weight': 1, 'link_text': 'curve', 'title': 'Curve'}
+Surface (mathematics) {'weight': 1, 'link_text': 'surface', 'title': 'Surface (mathematics)'}
+Manifold {'weight': 1, 'link_text': 'manifold', 'title': 'Manifold'}
+Algebraic variety {'weight': 1, 'link_text': 'variety', 'title': 'Algebraic variety'}
+Implicit equation {'weight': 1, 'link_text': 'implicit equation', 'title': 'Implicit equation'}
+Implicitization {'weight': 1, 'link_text': 'implicitization', 'title': 'Implicitization'}
+Parameter {'weight': 1, 'link_text': 'parameters', 'title': 'Parameter'}
+Geometry 0
+Parametric equation 0
+Curve 0
+Surface (mathematics) 0
+Manifold 0
+Algebraic variety 0
+Implicit equation 0
+Implicitization 0
+Parameter 0
+Solar activity 1
+solar variability {'weight': 1, 'link_text': 'solar activity', 'title': 'Solar activity'}
+solar variability 0
+Glaciers 1
+surface melting {'weight': 1, 'link_text': 'glaciers', 'title': 'Glaciers'}
+surface melting 0
+Continent 0
+American English 0
+British English 0
+AblationGlaciology 0
+Century 0
+Crevasse 0
+Serac 0
+Cirque 0
+Moraine 0
+Fjord 0
+Ice cap 0
+Permafrost 0
+Hydrosphere 0
+Cloud 1
+cloud cover {'weight': 1, 'link_text': 'clouds', 'title': 'Cloud'}
+cloud cover 0
+Ocean circulation 0
+Last Glacial Period 0
+Salinity 0
+Greenland 0
+Climate 1
+paleoclimate {'weight': 1, 'link_text': 'climates', 'title': 'Climate'}
+paleoclimate 0
+Pascal (unit) 0
+Sublimation (phase transition) 0
+Evaporation 0
+Precipitation (meteorology) 0
+Effects of climate change 0
+Desertification 0
+Instrumental temperature record 0

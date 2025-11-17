@@ -1,0 +1,1496 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-10-26">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="node_type" type="string" />
+      <attribute id="2" title="occurrence_count" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Climate system" label="Climate system">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </node>
+      <node id="External forcing" label="External forcing">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="climate changes" label="climate changes">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="cryosphere" label="cryosphere">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Global warming" label="Global warming">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="climate modelling" label="climate modelling">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Global Warming" label="Global Warming">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="regional climate change" label="regional climate change">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Atlantic meridional overturning circulation" label="Atlantic meridional overturning circulation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="anthropogenic warming" label="anthropogenic warming">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="climate model" label="climate model">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Ocean temperature" label="Ocean temperature">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="anthropogenic climate change" label="anthropogenic climate change">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="radiative forcing" label="radiative forcing">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="global climate change" label="global climate change">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="climate models" label="climate models">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="UNFCCC" label="UNFCCC">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Meteorology" label="Meteorology">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="cyclone" label="cyclone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="thermodynamic" label="thermodynamic">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Cyclones" label="Cyclones">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="cyclones" label="cyclones">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="atmospheric inversion" label="atmospheric inversion">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Earth System Model" label="Earth System Model">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="extreme event attribution" label="extreme event attribution">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="thermodynamics" label="thermodynamics">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Atmospheric blocking" label="Atmospheric blocking">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Earth System" label="Earth System">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Northern Hemisphere" label="Northern Hemisphere">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </node>
+      <node id="South America" label="South America">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="subtropics" label="subtropics">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="South American" label="South American">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="equator" label="equator">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="summer" label="summer">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="North America" label="North America">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="South American continent" label="South American continent">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="subtropical" label="subtropical">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Southern Hemisphere" label="Southern Hemisphere">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="Energy" label="Energy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="infrared radiation" label="infrared radiation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Ecosystems" label="Ecosystems">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Energy budget" label="Energy budget">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="zettajoules" label="zettajoules">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Heat Flux" label="Heat Flux">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="energy budget" label="energy budget">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Climate change" label="Climate change">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </node>
+      <node id="IPCC" label="IPCC">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="deglaciation" label="deglaciation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Paris Agreement" label="Paris Agreement">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Coupled Model Intercomparison Project" label="Coupled Model Intercomparison Project">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="temperature records" label="temperature records">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="GISTEMP" label="GISTEMP">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="CLIVAR" label="CLIVAR">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Working Group I" label="Working Group I">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="ice loss" label="ice loss">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="mean surface temperature" label="mean surface temperature">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="CMIP6" label="CMIP6">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="temperature record" label="temperature record">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Intergovernmental Panel on Climate Change" label="Intergovernmental Panel on Climate Change">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Sea Level Change" label="Sea Level Change">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="global surface temperature" label="global surface temperature">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Met Office" label="Met Office">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Arctic Sea Ice Decline" label="Arctic Sea Ice Decline">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="air quality" label="air quality">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Temperature" label="Temperature">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </node>
+      <node id="radiosonde data" label="radiosonde data">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="temperature gradient" label="temperature gradient">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="stratosphere" label="stratosphere">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="air temperature" label="air temperature">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="surface air temperature" label="surface air temperature">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="temperate regions" label="temperate regions">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="surface temperature" label="surface temperature">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="upper stratosphere" label="upper stratosphere">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="phase changes" label="phase changes">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="stratopause" label="stratopause">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Glacier" label="Glacier">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </node>
+      <node id="Sea ice" label="Sea ice">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </node>
+      <node id="glacier recession" label="glacier recession">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="SROCC" label="SROCC">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="iceberg" label="iceberg">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Ice Sheet" label="Ice Sheet">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="surface mass balance" label="surface mass balance">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="ice cores" label="ice cores">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="ice dynamics" label="ice dynamics">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Earth" label="Earth">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="35" />
+        </attvalues>
+      </node>
+      <node id="Volcanic Aerosols" label="Volcanic Aerosols">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Africa" label="Africa">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="IPCC First Assessment Report" label="IPCC First Assessment Report">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Last Glacial Maximum" label="Last Glacial Maximum">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="water cycle" label="water cycle">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="tropical" label="tropical">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Atlas" label="Atlas">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Sea Surface" label="Sea Surface">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="coastal waters" label="coastal waters">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="sea surface" label="sea surface">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="volcanic aerosols" label="volcanic aerosols">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Snow Albedo Feedback" label="Snow Albedo Feedback">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Antarctic" label="Antarctic">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="plant uptake" label="plant uptake">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Stratospheric ozone" label="Stratospheric ozone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Air" label="Air">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="terrestrial" label="terrestrial">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Stratospheric Ozone" label="Stratospheric Ozone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Atmospheric circulation" label="Atmospheric circulation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="winds" label="winds">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="greenhouse warming" label="greenhouse warming">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="sun" label="sun">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="stratospheric ozone" label="stratospheric ozone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="seasonal" label="seasonal">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Atmosphere of Earth" label="Atmosphere of Earth">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </node>
+      <node id="Asian monsoon" label="Asian monsoon">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="troposphere" label="troposphere">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="sea level pressure" label="sea level pressure">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="monsoons" label="monsoons">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Sulphate Aerosols" label="Sulphate Aerosols">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="jet streams" label="jet streams">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="carbon cycle" label="carbon cycle">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Ocean" label="Ocean">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </node>
+      <node id="Indian oceans" label="Indian oceans">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="oxygen minimum zone" label="oxygen minimum zone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="ocean warming" label="ocean warming">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="ocean heat uptake" label="ocean heat uptake">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="marine life" label="marine life">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Indian Ocean" label="Indian Ocean">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Physical Oceanography" label="Physical Oceanography">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Paleoceanography" label="Paleoceanography">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="ocean heat content" label="ocean heat content">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Deep Ocean" label="Deep Ocean">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Climatology" label="Climatology">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="Palaeoecology" label="Palaeoecology">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Equilibrium Climate Sensitivity" label="Equilibrium Climate Sensitivity">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="World Meteorological Organization" label="World Meteorological Organization">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="computer simulations" label="computer simulations">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Ice" label="Ice">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </node>
+      <node id="Ice Shelves" label="Ice Shelves">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="snowfall" label="snowfall">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="water vapor" label="water vapor">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="snow cover" label="snow cover">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="solid" label="solid">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="ice shelves" label="ice shelves">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Atmosphere" label="Atmosphere">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </node>
+      <node id="Nitrogen cycling" label="Nitrogen cycling">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="nitrogen cycle" label="nitrogen cycle">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Global Climate Model" label="Global Climate Model">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Earth%27s atmosphere" label="Earth%27s atmosphere">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </node>
+      <node id="tropopause" label="tropopause">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="weather forecasting" label="weather forecasting">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Biogeochemistry" label="Biogeochemistry">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Sun" label="Sun">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="solar activity" label="solar activity">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="winter" label="winter">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="insolation" label="insolation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Earth Surface" label="Earth Surface">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Physics" label="Physics">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </node>
+      <node id="Mass balance" label="Mass balance">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Science" label="Science">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Mass Balance" label="Mass Balance">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="spatial resolution" label="spatial resolution">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="mass balance" label="mass balance">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Scientific consensus on climate change" label="Scientific consensus on climate change">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </node>
+      <node id="Arctic sea ice" label="Arctic sea ice">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="glaciers" label="glaciers">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="glacial" label="glacial">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Antarctic Sea Ice" label="Antarctic Sea Ice">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Sea surface temperature" label="Sea surface temperature">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </node>
+      <node id="Southern Oscillation" label="Southern Oscillation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Atlantic Multidecadal Variability" label="Atlantic Multidecadal Variability">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Atlantic Multidecadal Oscillation" label="Atlantic Multidecadal Oscillation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Bjerknes feedback" label="Bjerknes feedback">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="HadCRUT" label="HadCRUT">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="ENSO" label="ENSO">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Tropics" label="Tropics">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="walker circulation" label="walker circulation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="drylands" label="drylands">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Walker cell" label="Walker cell">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Climate" label="Climate">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </node>
+      <node id="paleoclimate" label="paleoclimate">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Earth System Research Laboratory" label="Earth System Research Laboratory">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Climate Change Research" label="Climate Change Research">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Whole Atmosphere Community Climate Model" label="Whole Atmosphere Community Climate Model">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Palaeoclimatology" label="Palaeoclimatology">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Proxy Data" label="Proxy Data">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Pacific Ocean" label="Pacific Ocean">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </node>
+      <node id="Canada" label="Canada">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="United States of America" label="United States of America">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="United States" label="United States">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Pacific decadal oscillation" label="Pacific decadal oscillation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Maritime continent" label="Maritime continent">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="Sea of Okhotsk" label="Sea of Okhotsk">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+      <node id="tropical cyclones" label="tropical cyclones">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="entry" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Climate system" target="External forcing" id="0" weight="1" />
+      <edge source="Climate system" target="climate changes" id="1" weight="1" />
+      <edge source="Climate system" target="cryosphere" id="2" weight="1" />
+      <edge source="Climate system" target="Global warming" id="3" weight="1" />
+      <edge source="Climate system" target="climate modelling" id="4" weight="1" />
+      <edge source="Climate system" target="Global Warming" id="5" weight="1" />
+      <edge source="Climate system" target="regional climate change" id="6" weight="1" />
+      <edge source="Climate system" target="Atlantic meridional overturning circulation" id="7" weight="1" />
+      <edge source="Climate system" target="anthropogenic warming" id="8" weight="1" />
+      <edge source="Climate system" target="climate model" id="9" weight="1" />
+      <edge source="Climate system" target="Ocean temperature" id="10" weight="1" />
+      <edge source="Climate system" target="anthropogenic climate change" id="11" weight="1" />
+      <edge source="Climate system" target="radiative forcing" id="12" weight="1" />
+      <edge source="Climate system" target="global climate change" id="13" weight="1" />
+      <edge source="Climate system" target="climate models" id="14" weight="1" />
+      <edge source="Climate system" target="UNFCCC" id="15" weight="1" />
+      <edge source="climate changes" target="Scientific consensus on climate change" id="16" weight="1" />
+      <edge source="cryosphere" target="Glacier" id="17" weight="1" />
+      <edge source="cryosphere" target="Earth" id="18" weight="1" />
+      <edge source="cryosphere" target="Ice" id="19" weight="1" />
+      <edge source="cryosphere" target="Sea ice" id="20" weight="1" />
+      <edge source="Global warming" target="Scientific consensus on climate change" id="21" weight="1" />
+      <edge source="climate modelling" target="Climate change" id="22" weight="1" />
+      <edge source="climate modelling" target="Ocean" id="23" weight="1" />
+      <edge source="climate modelling" target="Earth%27s atmosphere" id="24" weight="1" />
+      <edge source="climate modelling" target="Climate" id="25" weight="1" />
+      <edge source="Global Warming" target="Scientific consensus on climate change" id="26" weight="1" />
+      <edge source="regional climate change" target="Climate change" id="27" weight="1" />
+      <edge source="anthropogenic warming" target="Scientific consensus on climate change" id="28" weight="1" />
+      <edge source="climate model" target="Climate change" id="29" weight="1" />
+      <edge source="climate model" target="Ocean" id="30" weight="1" />
+      <edge source="climate model" target="Earth%27s atmosphere" id="31" weight="1" />
+      <edge source="climate model" target="Climate" id="32" weight="1" />
+      <edge source="Ocean temperature" target="Ocean" id="33" weight="1" />
+      <edge source="Ocean temperature" target="Sea ice" id="34" weight="1" />
+      <edge source="Ocean temperature" target="Sea surface temperature" id="35" weight="1" />
+      <edge source="anthropogenic climate change" target="Scientific consensus on climate change" id="36" weight="1" />
+      <edge source="global climate change" target="Scientific consensus on climate change" id="37" weight="1" />
+      <edge source="climate models" target="Climate change" id="38" weight="1" />
+      <edge source="climate models" target="Ocean" id="39" weight="1" />
+      <edge source="climate models" target="Earth%27s atmosphere" id="40" weight="1" />
+      <edge source="climate models" target="Climate" id="41" weight="1" />
+      <edge source="Meteorology" target="cyclone" id="42" weight="1" />
+      <edge source="Meteorology" target="thermodynamic" id="43" weight="1" />
+      <edge source="Meteorology" target="Cyclones" id="44" weight="1" />
+      <edge source="Meteorology" target="cyclones" id="45" weight="1" />
+      <edge source="Meteorology" target="atmospheric inversion" id="46" weight="1" />
+      <edge source="Meteorology" target="Earth System Model" id="47" weight="1" />
+      <edge source="Meteorology" target="extreme event attribution" id="48" weight="1" />
+      <edge source="Meteorology" target="thermodynamics" id="49" weight="1" />
+      <edge source="Meteorology" target="Atmospheric blocking" id="50" weight="1" />
+      <edge source="Meteorology" target="Earth System" id="51" weight="1" />
+      <edge source="cyclone" target="Northern Hemisphere" id="52" weight="1" />
+      <edge source="cyclone" target="Southern Hemisphere" id="53" weight="1" />
+      <edge source="thermodynamic" target="Energy" id="54" weight="1" />
+      <edge source="thermodynamic" target="Temperature" id="55" weight="1" />
+      <edge source="thermodynamic" target="Physics" id="56" weight="1" />
+      <edge source="Cyclones" target="Northern Hemisphere" id="57" weight="1" />
+      <edge source="Cyclones" target="Southern Hemisphere" id="58" weight="1" />
+      <edge source="cyclones" target="Northern Hemisphere" id="59" weight="1" />
+      <edge source="cyclones" target="Southern Hemisphere" id="60" weight="1" />
+      <edge source="Earth System Model" target="Climatology" id="61" weight="2" />
+      <edge source="Earth System Model" target="Atmosphere" id="62" weight="1" />
+      <edge source="extreme event attribution" target="Climate change" id="63" weight="1" />
+      <edge source="thermodynamics" target="Energy" id="64" weight="1" />
+      <edge source="thermodynamics" target="Temperature" id="65" weight="1" />
+      <edge source="thermodynamics" target="Physics" id="66" weight="1" />
+      <edge source="Atmospheric blocking" target="Northern Hemisphere" id="67" weight="1" />
+      <edge source="Earth System" target="Climatology" id="68" weight="2" />
+      <edge source="Earth System" target="Atmosphere" id="69" weight="1" />
+      <edge source="Northern Hemisphere" target="South America" id="70" weight="1" />
+      <edge source="Northern Hemisphere" target="subtropics" id="71" weight="1" />
+      <edge source="Northern Hemisphere" target="South American" id="72" weight="1" />
+      <edge source="Northern Hemisphere" target="equator" id="73" weight="1" />
+      <edge source="Northern Hemisphere" target="summer" id="74" weight="1" />
+      <edge source="Northern Hemisphere" target="North America" id="75" weight="1" />
+      <edge source="Northern Hemisphere" target="South American continent" id="76" weight="1" />
+      <edge source="Northern Hemisphere" target="subtropical" id="77" weight="1" />
+      <edge source="Northern Hemisphere" target="Southern Hemisphere" id="78" weight="1" />
+      <edge source="Northern Hemisphere" target="Earth" id="79" weight="1" />
+      <edge source="South America" target="Southern Hemisphere" id="80" weight="1" />
+      <edge source="subtropics" target="Southern Hemisphere" id="81" weight="1" />
+      <edge source="subtropics" target="Tropics" id="82" weight="1" />
+      <edge source="South American" target="Southern Hemisphere" id="83" weight="1" />
+      <edge source="equator" target="Southern Hemisphere" id="84" weight="1" />
+      <edge source="equator" target="Earth" id="85" weight="1" />
+      <edge source="summer" target="Southern Hemisphere" id="86" weight="1" />
+      <edge source="summer" target="Climate" id="87" weight="1" />
+      <edge source="North America" target="Pacific Ocean" id="88" weight="1" />
+      <edge source="South American continent" target="Southern Hemisphere" id="89" weight="1" />
+      <edge source="subtropical" target="Southern Hemisphere" id="90" weight="1" />
+      <edge source="subtropical" target="Tropics" id="91" weight="1" />
+      <edge source="Southern Hemisphere" target="Earth" id="92" weight="1" />
+      <edge source="Southern Hemisphere" target="Ocean" id="93" weight="1" />
+      <edge source="Southern Hemisphere" target="Pacific Ocean" id="94" weight="1" />
+      <edge source="Energy" target="infrared radiation" id="95" weight="1" />
+      <edge source="Energy" target="Ecosystems" id="96" weight="1" />
+      <edge source="Energy" target="Energy budget" id="97" weight="2" />
+      <edge source="Energy" target="zettajoules" id="98" weight="1" />
+      <edge source="Energy" target="Heat Flux" id="99" weight="1" />
+      <edge source="Energy" target="energy budget" id="100" weight="2" />
+      <edge source="Heat Flux" target="Physics" id="101" weight="1" />
+      <edge source="Climate change" target="IPCC" id="102" weight="1" />
+      <edge source="Climate change" target="deglaciation" id="103" weight="1" />
+      <edge source="Climate change" target="Paris Agreement" id="104" weight="1" />
+      <edge source="Climate change" target="Coupled Model Intercomparison Project" id="105" weight="1" />
+      <edge source="Climate change" target="temperature records" id="106" weight="1" />
+      <edge source="Climate change" target="GISTEMP" id="107" weight="1" />
+      <edge source="Climate change" target="CLIVAR" id="108" weight="1" />
+      <edge source="Climate change" target="Working Group I" id="109" weight="1" />
+      <edge source="Climate change" target="ice loss" id="110" weight="1" />
+      <edge source="Climate change" target="mean surface temperature" id="111" weight="1" />
+      <edge source="Climate change" target="CMIP6" id="112" weight="1" />
+      <edge source="Climate change" target="temperature record" id="113" weight="1" />
+      <edge source="Climate change" target="Intergovernmental Panel on Climate Change" id="114" weight="1" />
+      <edge source="Climate change" target="Sea Level Change" id="115" weight="1" />
+      <edge source="Climate change" target="global surface temperature" id="116" weight="1" />
+      <edge source="Climate change" target="Met Office" id="117" weight="1" />
+      <edge source="Climate change" target="Arctic Sea Ice Decline" id="118" weight="1" />
+      <edge source="Climate change" target="air quality" id="119" weight="1" />
+      <edge source="deglaciation" target="Glacier" id="120" weight="1" />
+      <edge source="deglaciation" target="Earth" id="121" weight="1" />
+      <edge source="Coupled Model Intercomparison Project" target="Climatology" id="122" weight="1" />
+      <edge source="temperature records" target="Earth" id="123" weight="1" />
+      <edge source="temperature records" target="Ocean" id="124" weight="1" />
+      <edge source="temperature records" target="Scientific consensus on climate change" id="125" weight="1" />
+      <edge source="temperature records" target="Sea surface temperature" id="126" weight="1" />
+      <edge source="GISTEMP" target="Earth" id="127" weight="1" />
+      <edge source="GISTEMP" target="Ocean" id="128" weight="1" />
+      <edge source="GISTEMP" target="Scientific consensus on climate change" id="129" weight="1" />
+      <edge source="GISTEMP" target="Sea surface temperature" id="130" weight="1" />
+      <edge source="ice loss" target="Temperature" id="131" weight="1" />
+      <edge source="mean surface temperature" target="Earth" id="132" weight="1" />
+      <edge source="mean surface temperature" target="Ocean" id="133" weight="1" />
+      <edge source="mean surface temperature" target="Scientific consensus on climate change" id="134" weight="1" />
+      <edge source="mean surface temperature" target="Sea surface temperature" id="135" weight="1" />
+      <edge source="CMIP6" target="Climatology" id="136" weight="1" />
+      <edge source="temperature record" target="Earth" id="137" weight="1" />
+      <edge source="temperature record" target="Ocean" id="138" weight="1" />
+      <edge source="temperature record" target="Scientific consensus on climate change" id="139" weight="1" />
+      <edge source="temperature record" target="Sea surface temperature" id="140" weight="1" />
+      <edge source="Sea Level Change" target="Glacier" id="141" weight="1" />
+      <edge source="global surface temperature" target="Earth" id="142" weight="1" />
+      <edge source="global surface temperature" target="Ocean" id="143" weight="1" />
+      <edge source="global surface temperature" target="Scientific consensus on climate change" id="144" weight="1" />
+      <edge source="global surface temperature" target="Sea surface temperature" id="145" weight="1" />
+      <edge source="Arctic Sea Ice Decline" target="Sea ice" id="146" weight="1" />
+      <edge source="Temperature" target="radiosonde data" id="147" weight="1" />
+      <edge source="Temperature" target="temperature gradient" id="148" weight="1" />
+      <edge source="Temperature" target="stratosphere" id="149" weight="1" />
+      <edge source="Temperature" target="air temperature" id="150" weight="1" />
+      <edge source="Temperature" target="surface air temperature" id="151" weight="1" />
+      <edge source="Temperature" target="temperate regions" id="152" weight="1" />
+      <edge source="Temperature" target="surface temperature" id="153" weight="1" />
+      <edge source="Temperature" target="upper stratosphere" id="154" weight="1" />
+      <edge source="Temperature" target="phase changes" id="155" weight="1" />
+      <edge source="Temperature" target="stratopause" id="156" weight="1" />
+      <edge source="stratosphere" target="Atmosphere of Earth" id="157" weight="1" />
+      <edge source="stratosphere" target="Sun" id="158" weight="1" />
+      <edge source="air temperature" target="Earth%27s atmosphere" id="159" weight="1" />
+      <edge source="surface air temperature" target="Earth%27s atmosphere" id="160" weight="1" />
+      <edge source="temperate regions" target="Earth" id="161" weight="1" />
+      <edge source="temperate regions" target="Tropics" id="162" weight="1" />
+      <edge source="upper stratosphere" target="Atmosphere of Earth" id="163" weight="1" />
+      <edge source="upper stratosphere" target="Sun" id="164" weight="1" />
+      <edge source="phase changes" target="Physics" id="165" weight="1" />
+      <edge source="stratopause" target="Atmosphere" id="166" weight="1" />
+      <edge source="stratopause" target="Earth%27s atmosphere" id="167" weight="1" />
+      <edge source="Glacier" target="Sea ice" id="168" weight="1" />
+      <edge source="Glacier" target="glacier recession" id="169" weight="1" />
+      <edge source="Glacier" target="SROCC" id="170" weight="1" />
+      <edge source="Glacier" target="iceberg" id="171" weight="1" />
+      <edge source="Glacier" target="Ice Sheet" id="172" weight="2" />
+      <edge source="Glacier" target="surface mass balance" id="173" weight="1" />
+      <edge source="Glacier" target="ice cores" id="174" weight="1" />
+      <edge source="Glacier" target="ice dynamics" id="175" weight="2" />
+      <edge source="Sea ice" target="Ice" id="176" weight="1" />
+      <edge source="Sea ice" target="Arctic sea ice" id="177" weight="1" />
+      <edge source="Sea ice" target="glaciers" id="178" weight="1" />
+      <edge source="Sea ice" target="Ice Shelves" id="179" weight="1" />
+      <edge source="Sea ice" target="glacial" id="180" weight="1" />
+      <edge source="Sea ice" target="SROCC" id="181" weight="1" />
+      <edge source="Sea ice" target="Antarctic Sea Ice" id="182" weight="1" />
+      <edge source="Sea ice" target="Snow Albedo Feedback" id="183" weight="1" />
+      <edge source="Sea ice" target="Global Climate Model" id="184" weight="1" />
+      <edge source="Sea ice" target="ice shelves" id="185" weight="1" />
+      <edge source="SROCC" target="Ocean" id="186" weight="1" />
+      <edge source="iceberg" target="Ice" id="187" weight="1" />
+      <edge source="Ice Sheet" target="Ice" id="188" weight="1" />
+      <edge source="ice dynamics" target="Ice" id="189" weight="1" />
+      <edge source="Earth" target="Volcanic Aerosols" id="190" weight="1" />
+      <edge source="Earth" target="Africa" id="191" weight="1" />
+      <edge source="Earth" target="IPCC First Assessment Report" id="192" weight="1" />
+      <edge source="Earth" target="Last Glacial Maximum" id="193" weight="1" />
+      <edge source="Earth" target="water cycle" id="194" weight="1" />
+      <edge source="Earth" target="tropical" id="195" weight="1" />
+      <edge source="Earth" target="Atlas" id="196" weight="1" />
+      <edge source="Earth" target="Sea Surface" id="197" weight="1" />
+      <edge source="Earth" target="coastal waters" id="198" weight="1" />
+      <edge source="Earth" target="sea surface" id="199" weight="1" />
+      <edge source="Earth" target="volcanic aerosols" id="200" weight="1" />
+      <edge source="Earth" target="Snow Albedo Feedback" id="201" weight="1" />
+      <edge source="Earth" target="Antarctic" id="202" weight="1" />
+      <edge source="Earth" target="plant uptake" id="203" weight="1" />
+      <edge source="Earth" target="Stratospheric ozone" id="204" weight="1" />
+      <edge source="Earth" target="Air" id="205" weight="1" />
+      <edge source="Earth" target="terrestrial" id="206" weight="1" />
+      <edge source="Earth" target="Stratospheric Ozone" id="207" weight="1" />
+      <edge source="Earth" target="Atmospheric circulation" id="208" weight="1" />
+      <edge source="Earth" target="winds" id="209" weight="1" />
+      <edge source="Earth" target="greenhouse warming" id="210" weight="1" />
+      <edge source="Earth" target="sun" id="211" weight="1" />
+      <edge source="Earth" target="stratospheric ozone" id="212" weight="1" />
+      <edge source="Earth" target="seasonal" id="213" weight="1" />
+      <edge source="water cycle" target="Ocean" id="214" weight="1" />
+      <edge source="water cycle" target="Ice" id="215" weight="2" />
+      <edge source="water cycle" target="Atmosphere" id="216" weight="1" />
+      <edge source="water cycle" target="Climate" id="217" weight="1" />
+      <edge source="Sea Surface" target="Atmosphere of Earth" id="218" weight="1" />
+      <edge source="Sea Surface" target="Ocean" id="219" weight="1" />
+      <edge source="coastal waters" target="Ocean" id="220" weight="1" />
+      <edge source="sea surface" target="Atmosphere of Earth" id="221" weight="1" />
+      <edge source="sea surface" target="Ocean" id="222" weight="1" />
+      <edge source="Snow Albedo Feedback" target="Ice" id="223" weight="1" />
+      <edge source="plant uptake" target="Ocean" id="224" weight="1" />
+      <edge source="plant uptake" target="Ice" id="225" weight="2" />
+      <edge source="plant uptake" target="Atmosphere" id="226" weight="1" />
+      <edge source="plant uptake" target="Climate" id="227" weight="1" />
+      <edge source="Stratospheric ozone" target="Sun" id="228" weight="1" />
+      <edge source="Air" target="Ocean" id="229" weight="1" />
+      <edge source="Air" target="Climate" id="230" weight="1" />
+      <edge source="Stratospheric Ozone" target="Sun" id="231" weight="1" />
+      <edge source="Atmospheric circulation" target="Atmosphere of Earth" id="232" weight="1" />
+      <edge source="winds" target="Atmosphere of Earth" id="233" weight="1" />
+      <edge source="stratospheric ozone" target="Sun" id="234" weight="1" />
+      <edge source="seasonal" target="Sun" id="235" weight="1" />
+      <edge source="Atmosphere of Earth" target="Asian monsoon" id="236" weight="1" />
+      <edge source="Atmosphere of Earth" target="troposphere" id="237" weight="1" />
+      <edge source="Atmosphere of Earth" target="sea level pressure" id="238" weight="1" />
+      <edge source="Atmosphere of Earth" target="monsoons" id="239" weight="1" />
+      <edge source="Atmosphere of Earth" target="Sulphate Aerosols" id="240" weight="1" />
+      <edge source="Atmosphere of Earth" target="jet streams" id="241" weight="1" />
+      <edge source="Atmosphere of Earth" target="carbon cycle" id="242" weight="1" />
+      <edge source="troposphere" target="Atmosphere" id="243" weight="1" />
+      <edge source="troposphere" target="Tropics" id="244" weight="1" />
+      <edge source="Ocean" target="Indian oceans" id="245" weight="1" />
+      <edge source="Ocean" target="oxygen minimum zone" id="246" weight="1" />
+      <edge source="Ocean" target="ocean warming" id="247" weight="1" />
+      <edge source="Ocean" target="ocean heat uptake" id="248" weight="1" />
+      <edge source="Ocean" target="marine life" id="249" weight="1" />
+      <edge source="Ocean" target="Indian Ocean" id="250" weight="1" />
+      <edge source="Ocean" target="Physical Oceanography" id="251" weight="1" />
+      <edge source="Ocean" target="Paleoceanography" id="252" weight="1" />
+      <edge source="Ocean" target="ocean heat content" id="253" weight="1" />
+      <edge source="Ocean" target="Deep Ocean" id="254" weight="1" />
+      <edge source="Physical Oceanography" target="Physics" id="255" weight="1" />
+      <edge source="Paleoceanography" target="Climate" id="256" weight="1" />
+      <edge source="Climatology" target="Palaeoecology" id="257" weight="1" />
+      <edge source="Climatology" target="Equilibrium Climate Sensitivity" id="258" weight="1" />
+      <edge source="Climatology" target="World Meteorological Organization" id="259" weight="1" />
+      <edge source="Climatology" target="computer simulations" id="260" weight="1" />
+      <edge source="computer simulations" target="Physics" id="261" weight="1" />
+      <edge source="Ice" target="Ice Shelves" id="262" weight="1" />
+      <edge source="Ice" target="snowfall" id="263" weight="1" />
+      <edge source="Ice" target="water vapor" id="264" weight="1" />
+      <edge source="Ice" target="snow cover" id="265" weight="1" />
+      <edge source="Ice" target="solid" id="266" weight="1" />
+      <edge source="Ice" target="ice shelves" id="267" weight="1" />
+      <edge source="snowfall" target="Atmosphere" id="268" weight="1" />
+      <edge source="snow cover" target="Atmosphere" id="269" weight="1" />
+      <edge source="Atmosphere" target="Nitrogen cycling" id="270" weight="1" />
+      <edge source="Atmosphere" target="nitrogen cycle" id="271" weight="1" />
+      <edge source="Atmosphere" target="Global Climate Model" id="272" weight="1" />
+      <edge source="Nitrogen cycling" target="Earth%27s atmosphere" id="273" weight="1" />
+      <edge source="nitrogen cycle" target="Earth%27s atmosphere" id="274" weight="1" />
+      <edge source="Earth%27s atmosphere" target="tropopause" id="275" weight="1" />
+      <edge source="Earth%27s atmosphere" target="weather forecasting" id="276" weight="1" />
+      <edge source="Earth%27s atmosphere" target="Biogeochemistry" id="277" weight="1" />
+      <edge source="Biogeochemistry" target="Physics" id="278" weight="1" />
+      <edge source="Sun" target="solar activity" id="279" weight="1" />
+      <edge source="Sun" target="winter" id="280" weight="1" />
+      <edge source="Sun" target="insolation" id="281" weight="1" />
+      <edge source="Sun" target="Earth Surface" id="282" weight="1" />
+      <edge source="Physics" target="Mass balance" id="283" weight="1" />
+      <edge source="Physics" target="Science" id="284" weight="1" />
+      <edge source="Physics" target="Mass Balance" id="285" weight="1" />
+      <edge source="Physics" target="spatial resolution" id="286" weight="1" />
+      <edge source="Physics" target="mass balance" id="287" weight="1" />
+      <edge source="Sea surface temperature" target="Southern Oscillation" id="288" weight="1" />
+      <edge source="Sea surface temperature" target="Atlantic Multidecadal Variability" id="289" weight="1" />
+      <edge source="Sea surface temperature" target="Atlantic Multidecadal Oscillation" id="290" weight="1" />
+      <edge source="Sea surface temperature" target="Bjerknes feedback" id="291" weight="1" />
+      <edge source="Sea surface temperature" target="HadCRUT" id="292" weight="1" />
+      <edge source="Sea surface temperature" target="ENSO" id="293" weight="1" />
+      <edge source="Southern Oscillation" target="Tropics" id="294" weight="1" />
+      <edge source="Southern Oscillation" target="Pacific Ocean" id="295" weight="1" />
+      <edge source="Bjerknes feedback" target="Tropics" id="296" weight="1" />
+      <edge source="Bjerknes feedback" target="Pacific Ocean" id="297" weight="1" />
+      <edge source="ENSO" target="Tropics" id="298" weight="1" />
+      <edge source="ENSO" target="Pacific Ocean" id="299" weight="1" />
+      <edge source="Tropics" target="walker circulation" id="300" weight="1" />
+      <edge source="Tropics" target="drylands" id="301" weight="1" />
+      <edge source="Tropics" target="Walker cell" id="302" weight="1" />
+      <edge source="Climate" target="paleoclimate" id="303" weight="1" />
+      <edge source="Climate" target="Earth System Research Laboratory" id="304" weight="1" />
+      <edge source="Climate" target="Climate Change Research" id="305" weight="1" />
+      <edge source="Climate" target="Whole Atmosphere Community Climate Model" id="306" weight="1" />
+      <edge source="Climate" target="Palaeoclimatology" id="307" weight="1" />
+      <edge source="Climate" target="Proxy Data" id="308" weight="1" />
+      <edge source="Pacific Ocean" target="Canada" id="309" weight="1" />
+      <edge source="Pacific Ocean" target="United States of America" id="310" weight="1" />
+      <edge source="Pacific Ocean" target="United States" id="311" weight="1" />
+      <edge source="Pacific Ocean" target="Pacific decadal oscillation" id="312" weight="1" />
+      <edge source="Pacific Ocean" target="Maritime continent" id="313" weight="1" />
+      <edge source="Pacific Ocean" target="Sea of Okhotsk" id="314" weight="1" />
+      <edge source="Pacific Ocean" target="tropical cyclones" id="315" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,15 @@
+{
+  "status_codes": {
+    "200": 5
+  },
+  "accessible_links": [
+    "/wiki/Earth%27s_energy_budget",
+    "/wiki/Radiative_flux",
+    "/wiki/Monotreme",
+    "/wiki/Synoptic_scale",
+    "/wiki/Sense"
+  ],
+  "redirect_links": [],
+  "error_links": [],
+  "success_rate": 1.0
+}

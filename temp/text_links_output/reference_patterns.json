@@ -1,0 +1,16 @@
+{
+  "reference_domains": {},
+  "reference_formats": {
+    "wikipedia_references": 56,
+    "external_references": 0,
+    "doi_references": 0,
+    "pmid_references": 0,
+    "other_references": 0
+  },
+  "total_references": 56,
+  "most_common_domain": null,
+  "most_common_format": [
+    "wikipedia_references",
+    56
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "total_links": 37,
+  "consistent_links": 34,
+  "inconsistent_links": 3,
+  "consistency_rate": 0.918918918918919,
+  "consistency_issues": [
+    {
+      "url": "https://en.wikipedia.org/wiki/External_forcing",
+      "issues": [
+        "no_source_entries"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cyclone",
+      "issues": [
+        "no_source_entries"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fingerprinting",
+      "issues": [
+        "no_source_entries"
+      ]
+    }
+  ]
+}
