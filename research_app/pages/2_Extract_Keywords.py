@@ -1,160 +1,200 @@
 import streamlit as st
-import os
-import zipfile
+import os, zipfile, subprocess
 from datetime import datetime
 from pathlib import Path
+import pandas as pd
 
 st.set_page_config(page_title="Extract Keywords (txt2phrases)", layout="wide")
 
-# ----------------------------
-# Utility Functions
-# ----------------------------
-
-def make_session_folder(base_dir):
-    """Create a unique session folder inside data/txt2phrases."""
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    session_dir = base_dir / f"session_{timestamp}"
-    txt_dir = session_dir / "txt_files"
-    key_dir = session_dir / "keyphrases"
+# ----------------------------------------------------------------
+# Helper Functions
+# ----------------------------------------------------------------
+def make_session_folder(base_dir: Path):
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    session = base_dir / f"session_{ts}"
+    txt_dir, key_dir = session / "txt_files", session / "keyphrases"
     txt_dir.mkdir(parents=True, exist_ok=True)
     key_dir.mkdir(parents=True, exist_ok=True)
-    return session_dir, txt_dir, key_dir
+    return session, txt_dir, key_dir
 
-
-def load_html_to_txt():
-    """Lazy import html_to_txt_folder when needed."""
-    try:
-        from txt2phrases.html2txt import html_to_txt_folder
-        return html_to_txt_folder
-    except Exception as e:
-        st.error(f"❌ Failed to import html2txt: {e}")
-        return None
-
-
-def load_keyword_extraction():
-    """Lazy import KeywordExtraction only when needed."""
-    try:
-        from txt2phrases.keyword import KeywordExtraction
-        return KeywordExtraction
-    except Exception as e:
-        st.error(f"❌ Failed to import keyword extractor: {e}")
-        return None
-
-
-def zip_folder(folder_path, zip_path):
-    """Zip all files in a folder."""
-    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
-        for root, _, files in os.walk(folder_path):
+def zip_folder(folder: Path, zip_path: Path):
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
+        for root, _, files in os.walk(folder):
             for f in files:
-                full_path = os.path.join(root, f)
-                arcname = os.path.relpath(full_path, folder_path)
-                zipf.write(full_path, arcname)
+                p = Path(root) / f
+                z.write(p, p.relative_to(folder))
     return zip_path
 
+def run_auto(input_dir, output_dir, top_n):
+    cmd = [
+        "txt2phrases",
+        "auto", "-i", str(input_dir), "-o", str(output_dir), "-n", str(top_n)
+    ]
+    return subprocess.run(cmd, capture_output=True, text=True)
 
-# ----------------------------
-# Streamlit UI
-# ----------------------------
+def pdf_to_txt(): 
+    from txt2phrases.pdf2txt import convert_pdf_to_txt
+    return convert_pdf_to_txt
 
+def html_to_txt(): 
+    from txt2phrases.html2txt import html_to_txt_folder
+    return html_to_txt_folder
+
+def keyword_extraction():
+    from txt2phrases.keyword import KeywordExtraction
+    return KeywordExtraction
+
+# ----------------------------------------------------------------
+# UI
+# ----------------------------------------------------------------
 st.title("🧠 Extract Keywords (txt2phrases)")
 st.markdown("""
-This tool performs two automatic steps:
-1. **Convert all HTML files → TXT**  
-2. **Extract key phrases from each TXT file**  
-
-Each run creates a **unique workspace**, so your data never overlaps with previous sessions.
+Use this tool to automatically extract keyphrases from:
+1. The **output of your Fetch Research Papers app (PyGetPapers)**, or  
+2. A manually **uploaded HTML or PDF file**.
 """)
 
-html_folder = st.text_input("📂 Enter path to folder containing HTML files:")
+mode = st.radio("Select Mode", ["Auto from Fetch Paper Output", "Single File Upload (HTML or PDF)"])
 
-if html_folder:
-    html_folder = Path(html_folder.strip('"').strip("'"))
-    if not html_folder.exists():
-        st.error("❌ Folder not found. Please check the path.")
+# ===============================================================
+# MODE 1 — AUTO FROM FETCH PAPER
+# ===============================================================
+if mode == "Auto from Fetch Paper Output":
+    st.subheader("🚀 Automatic Mode (Fetch Paper Output Detection)")
+
+    top_n = st.number_input("🔢 Number of keyphrases per file:", 10, 5000, 500)
+
+    # 🔍 Automatically detect fetch_paper output
+    detected_folder = st.session_state.get("corpus_folder", None)
+
+    if detected_folder and Path(detected_folder).exists():
+        st.success(f"✅ Detected fetch_paper output folder")
+        corpus_folder = Path(detected_folder)
+        folder_name = corpus_folder.name
+        st.info(f"📁 Using folder: **{folder_name}**")
     else:
-        base_output = Path("data/txt2phrases")
-        base_output.mkdir(parents=True, exist_ok=True)
+        st.warning("⚠️ No active fetch_paper output detected. You can manually enter a path.")
+        manual_path = st.text_input("📁 Enter path to corpus folder:")
+        corpus_folder = Path(manual_path.strip('"')) if manual_path else None
+        if corpus_folder:
+            folder_name = corpus_folder.name
+            st.info(f"📁 Selected folder: **{folder_name}**")
 
-        # ✅ Create or reuse the same session folder
-        if "session_dir" not in st.session_state or st.session_state.get("last_html_folder") != str(html_folder):
-            session_dir, txt_out, key_out = make_session_folder(base_output)
-            st.session_state.session_dir = session_dir
-            st.session_state.txt_out = txt_out
-            st.session_state.key_out = key_out
-            st.session_state.last_html_folder = str(html_folder)
-        else:
-            session_dir = st.session_state.session_dir
-            txt_out = st.session_state.txt_out
-            key_out = st.session_state.key_out
+    if corpus_folder and corpus_folder.exists():
+        if st.button("▶️ Run txt2phrases Auto Pipeline"):
+            base = Path("data/txt2phrases_auto")
+            base.mkdir(parents=True, exist_ok=True)
+            session, _, _ = make_session_folder(base)
 
-        st.info(f"📁 Working directory: `{session_dir}`")
+            st.info(f"⚙️ Running txt2phrases Auto Pipeline on **{folder_name}**...")
+            
+            # Progress bar for auto pipeline
+            progress_bar = st.progress(0)
+            status_text = st.empty()
+            
+            status_text.text("Starting processing...")
+            progress_bar.progress(10)
+            
+            status_text.text("Converting files to text format...")
+            progress_bar.progress(30)
+            
+            status_text.text("Extracting keyphrases...")
+            progress_bar.progress(60)
+            
+            result = run_auto(corpus_folder, session, top_n)
+            
+            status_text.text("Finalizing results...")
+            progress_bar.progress(90)
 
-        # ------------------------
-        # User input for top_n keywords
-        # ------------------------
-        top_n = st.number_input(
-            "🔢 Enter number of keyphrases to extract per TXT file:",
-            min_value=10, max_value=5000, value=1000, step=10,
-            help="Select how many top keyphrases you want to extract from each text file."
-        )
-
-        # Buttons
-        col1, col2 = st.columns(2)
-        with col1:
-            run_convert = st.button("🔄 Convert HTML → TXT")
-        with col2:
-            run_extract = st.button("✨ Extract Keywords")
-
-        # ------------------------
-        # Step 1: Convert HTML → TXT
-        # ------------------------
-        if run_convert:
-            html_to_txt_folder = load_html_to_txt()
-            if html_to_txt_folder:
-                with st.spinner("Converting HTML files to TXT..."):
-                    html_to_txt_folder(str(html_folder), str(txt_out))
-                st.success(f"✅ Conversion complete! TXT files saved in `{txt_out}`")
-
-                zip_path = session_dir / "txt_files.zip"
-                zip_folder(txt_out, zip_path)
-                with open(zip_path, "rb") as f:
+            # Collect results
+            csvs = list(session.rglob("*.csv"))
+            if csvs:
+                progress_bar.progress(100)
+                status_text.text("Processing complete!")
+                
+                st.success(f"✅ Auto pipeline complete! {len(csvs)} CSVs generated.")
+                with open(zip_folder(session, session/"results.zip"), "rb") as f:
                     st.download_button(
-                        label="⬇️ Download Converted TXT Files (ZIP)",
-                        data=f,
-                        file_name=f"{session_dir.name}_txt_files.zip",
-                        mime="application/zip"
+                        "⬇️ Download All Extracted Keyphrases (ZIP)",
+                        f, "txt2phrases_auto_results.zip", "application/zip"
                     )
+            else:
+                st.warning("⚠️ No CSVs found — check if corpus contains valid HTML/TXT files.")
+    else:
+        st.info("ℹ️ Please run the Fetch Research Papers app first, or provide a valid folder path.")
 
-        # ------------------------
-        # Step 2: Extract Keywords
-        # ------------------------
-        if run_extract:
-            KeywordExtraction = load_keyword_extraction()
-            if KeywordExtraction:
-                txt_files = list(txt_out.glob("*.txt"))
-                if not txt_files:
-                    st.warning("⚠️ No TXT files found. Please run the conversion step first.")
-                else:
-                    with st.spinner(f"Extracting top {top_n} key phrases from all TXT files..."):
-                        for txt_file in txt_files:
-                            extractor = KeywordExtraction(
-                                textfile=str(txt_file),
-                                saving_path=str(key_out),
-                                output_filename=f"{txt_file.stem}_keywords.csv",
-                                top_n=int(top_n)
-                            )
-                            extractor.extract_keywords()
+# ===============================================================
+# MODE 2 — SINGLE FILE UPLOAD
+# ===============================================================
+else:
+    st.subheader("📤 Upload Single HTML or PDF File")
+    upl = st.file_uploader("Upload file", type=["html", "pdf"])
+    top_n = st.number_input("🔢 Number of keyphrases to extract:", 10, 2000, 200)
 
-                    st.success(f"✅ Keyword extraction complete for all files! Results saved in `{key_out}`")
+    if upl:
+        base = Path("data/txt2phrases_uploads")
+        session, txt_out, key_out = make_session_folder(base)
+        uploaded = session / upl.name
+        uploaded.write_bytes(upl.read())
+        st.success(f"📄 Uploaded → **{upl.name}**")
 
-                    zip_path = session_dir / "keyphrases.zip"
-                    zip_folder(key_out, zip_path)
-                    with open(zip_path, "rb") as f:
+        if st.button("⚙️ Convert & Extract Keywords"):
+            txt_path = None
+            
+            # Progress bar for single file processing
+            progress_bar = st.progress(0)
+            status_text = st.empty()
+
+            if uploaded.suffix.lower() == ".html":
+                status_text.text("Converting HTML to text...")
+                progress_bar.progress(30)
+                
+                html_to_txt()(str(session), str(txt_out))
+                txt_path = next(txt_out.glob("*.txt"), None)
+                
+                progress_bar.progress(60)
+                
+            elif uploaded.suffix.lower() == ".pdf":
+                status_text.text("Converting PDF to text...")
+                progress_bar.progress(30)
+                
+                pdf_to_txt()(str(uploaded), str(txt_out))
+                txt_path = next(txt_out.glob("*.txt"), None)
+                
+                progress_bar.progress(60)
+
+            if txt_path:
+                status_text.text(f"Extracting top {top_n} keyphrases...")
+                progress_bar.progress(80)
+                
+                ke = keyword_extraction()
+                extractor = ke(
+                    textfile=str(txt_path),
+                    saving_path=str(key_out),
+                    output_filename=f"{txt_path.stem}_keywords.csv",
+                    top_n=int(top_n)
+                )
+                extractor.extract_keywords()
+
+                progress_bar.progress(95)
+                status_text.text("Finalizing...")
+
+                csv_path = key_out / f"{txt_path.stem}_keywords.csv"
+                if csv_path.exists():
+                    df = pd.read_csv(csv_path)
+                    progress_bar.progress(100)
+                    status_text.text("Complete!")
+                    
+                    st.success("✅ Extraction Complete!")
+                    st.dataframe(df.head(20))
+                    with open(csv_path, "rb") as f:
                         st.download_button(
-                            label="⬇️ Download Extracted Keywords (CSV ZIP)",
-                            data=f,
-                            file_name=f"{session_dir.name}_keywords.zip",
-                            mime="application/zip"
+                            "⬇️ Download CSV", 
+                            f, 
+                            csv_path.name, 
+                            "text/csv"
                         )
+                else:
+                    st.warning("⚠️ No CSV generated.")
 
 

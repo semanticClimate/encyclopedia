@@ -1,0 +1,42 @@
+digraph txt2phrases_pipeline {
+
+    rankdir=TB;
+    node [shape=rectangle, style=filled, fillcolor="#e8f0fe", fontsize=20];
+
+    // Input Stage
+    PDFs [label="PDF Files"];
+    HTMLs [label="HTML Files"];
+    InputFolder [label="Input Folder (Corpus)"];
+
+    // Conversion Stage
+    PDF2Text [label="PDF to Text Conversion"];
+    HTML2Text [label="HTML to Text Conversion"];
+
+    // Merge
+
+    // Keyword Extraction
+    AIExtract [label="AI-based Keyword Extraction"];
+
+    // Outputs
+    OutputCSV [label="Keyword CSV Files"];
+    OutputFolder [label="Output Folder"];
+
+    // Flow
+    InputFolder -> PDFs;
+    InputFolder -> HTMLs;
+
+    PDFs -> PDF2Text;
+    HTMLs -> HTML2Text;
+
+    PDF2Text -> AIExtract;
+    HTML2Text -> AIExtract;
+
+
+    AIExtract-> OutputCSV;
+    OutputCSV -> OutputFolder;
+
+    // Styling titles
+    label="txt2phrases Processing Pipeline";
+    labelloc=t;
+    fontsize=25;
+}
