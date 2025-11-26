@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>meshHeadingList</th>
+      <th>chemicalList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC12593353</th>
+      <td>True</td>
+      <td>False</td>
+      <td>41139987</td>
+      <td>MED</td>
+      <td>41139987</td>
+      <td>PMC12593353</td>
+      <td>{'fullTextId': 'PMC12593353'}</td>
+      <td>10.1021/jacs.5c14470</td>
+      <td>Integrated Life Cycle Assessment Guides Sustainability in Synthesis: Antiviral Letermovir as a Case Study.</td>
+      <td>Folkerts S, Hoepfner MG, Guillén-Gosálbez G, Pérez-Ramírez J, Carreira EM.</td>
+      <td>{'author': [{'fullName': 'Folkerts S', 'firstName': 'Sander', 'lastName': 'Folkerts', 'initials': 'S', 'authorId': {'@type': 'ORCID', '#text': '0009-0004-5171-1731'}, 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'Department of Chemistry and Applied Biosciences, Laboratory of Organic Chemistry, ETH Zürich, 8093 Zürich, Switzerland.'}, {'affiliation': 'NCCR Catalysis, Zürich CH-8093, Switzerland.'}]}}, {'fullName': 'Hoepfner MG', 'firstName': 'Maximilian G', 'lastName': 'Hoepfner', 'initials': 'MG', 'authorId': {'@type': 'ORCID', '#text': '0009-0007-1622-3304'}, 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'Department of Chemistry and Applied Biosciences, Institute for Chemical and Bioengineering, ETH Zürich, 8093 Zürich, Switzerland.'}, {'affiliation': 'NCCR Catalysis, Zürich CH-8093, Switzerland.'}]}}, {'fullName': 'Guillén-Gosálbez G', 'firstName': 'Gonzalo', 'lastName': 'Guillén-Gosálbez', 'initials': 'G', 'authorId': {'@type': 'ORCID', '#text': '0000-0001-6074-8473'}, 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'Department of Chemistry and Applied Biosciences, Institute for Chemical and Bioengineering, ETH Zürich, 8093 Zürich, Switzerland.'}, {'affiliation': 'NCCR Catalysis, Zürich CH-8093, Switzerland.'}]}}, {'fullName': 'Pérez-Ramírez J', 'firstName': 'Javier', 'lastName': 'Pérez-Ramírez', 'initials': 'J', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-5805-7355'}, 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'Department of Chemistry and Applied Biosciences, Institute for Chemical and Bioengineering, ETH Zürich, 8093 Zürich, Switzerland.'}, {'affiliation': 'NCCR Catalysis, Zürich CH-8093, Switzerland.'}]}}, {'fullName': 'Carreira EM', 'firstName': 'Erick M', 'lastName': 'Carreira', 'initials': 'EM', 'authorId': {'@type': 'ORCID', '#text': '0000-0003-1472-490X'}, 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'Department of Chemistry and Applied Biosciences, Laboratory of Organic Chemistry, ETH Zürich, 8093 Zürich, Switzerland.'}, {'affiliation': 'NCCR Catalysis, Zürich CH-8093, Switzerland.'}]}}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-6074-8473'}, {'@type': 'ORCID', '#text': '0000-0002-5805-7355'}, {'@type': 'ORCID', '#text': '0000-0003-1472-490X'}, {'@type': 'ORCID', '#text': '0009-0004-5171-1731'}, {'@type': 'ORCID', '#text': '0009-0007-1622-3304'}]}</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>{'issue': '44', 'volume': '147', 'journalIssueId': '4042866', 'dateOfPublication': '2025 Nov', 'monthOfPublication': '11', 'yearOfPublication': '2025', 'printPublicationDate': '2025-11-01', 'journal': {'title': 'Journal of the American Chemical Society', 'ISOAbbreviation': 'J Am Chem Soc', 'medlineAbbreviation': 'J Am Chem Soc', 'NLMid': '7503056', 'ISSN': '0002-7863', 'ESSN': '1520-5126'}}</td>
+      <td>2025</td>
+      <td>40944-40957</td>
+      <td>The identification of metrics to assess the sustainability of complex chemical synthesis routes has been a topic of interest in recent years. The diversity of life cycle assessment (LCA) approaches for fine chemicals and pharmaceuticals that have been developed face a common challenge: limited availability of production data. This critically affects completeness, accuracy, and reliability. Herein, we describe an iterative closed-loop approach, bridging life cycle assessment and multistep synthesis development. Our comprehensive analysis leverages documented sustainability data augmented by information extrapolated from basic chemicals through retrosynthesis. The LCA results are discussed and evaluated against the more traditional process mass intensity (PMI). We have chosen the synthesis of the commercial antiviral drug Letermovir as a case study: implementation of LCA to the published route in parallel to a de novo synthesis enables us to benchmark, compare, and contrast routes. Identification of bottlenecks in both syntheses revealed negative impacts on the sustainability in asymmetric catalysis as well as metal-mediated couplings, highlighting the continued demand for sustainable catalytic approaches that minimize adverse effects on global warming potential, ecosystem quality, human health, and natural resources. This comprehensive strategy for multilevel sustainability assessment increases the accuracy, facilitates comparisons, and enables targeted optimization of sustainability in organic chemistry.</td>
+      <td>Department of Chemistry and Applied Biosciences, Laboratory of Organic Chemistry, ETH Zürich, 8093 Zürich, Switzerland.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print-Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'Y', 'descriptorName': 'Acetates', 'meshQualifierList': {'meshQualifier': [{'abbreviation': 'CS', 'qualifierName': 'chemical synthesis', 'majorTopic_YN': 'N'}, {'abbreviation': 'CH', 'qualifierName': 'chemistry', 'majorTopic_YN': 'N'}]}}, {'majorTopic_YN': 'Y', 'descriptorName': 'Quinazolines', 'meshQualifierList': {'meshQualifier': [{'abbreviation': 'CS', 'qualifierName': 'chemical synthesis', 'majorTopic_YN': 'N'}, {'abbreviation': 'CH', 'qualifierName': 'chemistry', 'majorTopic_YN': 'N'}]}}, {'majorTopic_YN': 'Y', 'descriptorName': 'Antiviral Agents', 'meshQualifierList': {'meshQualifier': [{'abbreviation': 'CS', 'qualifierName': 'chemical synthesis', 'majorTopic_YN': 'N'}, {'abbreviation': 'CH', 'qualifierName': 'chemistry', 'majorTopic_YN': 'N'}]}}]}</td>
+      <td>{'chemical': [{'name': 'Acetates', 'registryNumber': '0'}, {'name': 'Antiviral Agents', 'registryNumber': '0'}, {'name': 'Quinazolines', 'registryNumber': '0'}, {'name': 'letermovir', 'registryNumber': '1H09Y5WO1F'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1021/jacs.5c14470'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC12593353'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC12593353?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2025-11-06</td>
+      <td>2025-10-27</td>
+      <td>2025-10-27</td>
+      <td>2025-11-10</td>
+      <td>2025-11-09</td>
+      <td>2025-10-26</td>
+      <td>2025-10-26</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

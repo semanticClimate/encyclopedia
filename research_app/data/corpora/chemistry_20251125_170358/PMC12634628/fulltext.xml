@@ -1,0 +1,161 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="editorial"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1-3.dtd?><?SourceDTD.Version 1.3?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Front Chem</journal-id><journal-id journal-id-type="iso-abbrev">Front Chem</journal-id><journal-id journal-id-type="publisher-id">Front. Chem.</journal-id><journal-title-group><journal-title>Frontiers in Chemistry</journal-title></journal-title-group><issn pub-type="epub">2296-2646</issn><publisher><publisher-name>Frontiers Media S.A.</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">12634628</article-id><article-id pub-id-type="publisher-id">1722377</article-id><article-id pub-id-type="doi">10.3389/fchem.2025.1722377</article-id><article-version article-version-type="Version of Record" vocab="NISO-RP-8-2008"/><article-categories><subj-group subj-group-type="heading"><subject>Editorial</subject></subj-group></article-categories><title-group><article-title>Editorial: Retroconstruction of porous crystalline networks for a sustainable future</article-title><alt-title alt-title-type="left-running-head">Li</alt-title><alt-title alt-title-type="right-running-head">
+<ext-link xlink:href="https://doi.org/10.3389/fchem.2025.1722377" ext-link-type="uri">10.3389/fchem.2025.1722377</ext-link>
+</alt-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Li</surname><given-names>Xing</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="c001" ref-type="corresp">*</xref><uri xlink:href="https://loop.frontiersin.org/people/2095452"/><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x02013; review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/Writing - review &#x00026; editing/">Writing - review and editing</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x02013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing - original draft</role></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Department of Chemistry, City University of Hong Kong</institution>, <city>Kowloon</city>, <country country="XXX">Hong Kong SAR, China</country>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Hong Kong Institute for Clean Energy, City University of Hong Kong</institution>, <city>Kowloon</city>, <country country="XXX">Hong Kong SAR, China</country>
+</aff><author-notes><corresp id="c001">
+<label>*</label>Correspondence: Xing Li, <email xlink:href="mailto:xing.li@cityu.edu.hk">xing.li@cityu.edu.hk</email>
+</corresp></author-notes><pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-11-07"><day>07</day><month>11</month><year>2025</year></pub-date><pub-date publication-format="electronic" date-type="collection"><year>2025</year></pub-date><volume>13</volume><elocation-id>1722377</elocation-id><history><date date-type="received"><day>10</day><month>10</month><year>2025</year></date><date date-type="accepted"><day>24</day><month>10</month><year>2025</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2025 Li.</copyright-statement><copyright-year>2025</copyright-year><copyright-holder>Li</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense" start_date="2025-11-07">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License (CC BY)</ext-link>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p></license></permissions><kwd-group><kwd>porous crystalline networks</kwd><kwd>metal-organic frameworks (MOFs)</kwd><kwd>covalent organic frameworks (COFs)</kwd><kwd>hydrogen-bonded organic frameworks (HOFs)</kwd><kwd>carbon capture</kwd><kwd>wastewater treatment</kwd><kwd>lithium-ion-coupled electron transfer</kwd><kwd>crystal engineering</kwd></kwd-group><funding-group><award-group id="gs1"><funding-source id="sp1">
+<institution-wrap><institution>Research Grants Council, University Grants Committee</institution><institution-id institution-id-type="doi" vocab="open-funder-registry" vocab-identifier="10.13039/open_funder_registry">10.13039/501100002920</institution-id></institution-wrap>
+</funding-source><award-id rid="sp1">9048340</award-id></award-group><award-group id="gs2"><funding-source id="sp2">
+<institution-wrap><institution>City University of Hong Kong</institution><institution-id institution-id-type="doi" vocab="open-funder-registry" vocab-identifier="10.13039/open_funder_registry">10.13039/100007567</institution-id></institution-wrap>
+</funding-source><award-id rid="sp2">9382002</award-id><award-id rid="sp2">7020132</award-id></award-group><funding-statement>The author(s) declare that financial support was received for the research and/or publication of this article. XL acknowledges the funding support from the City University of Hong Kong (9382002 and 7020132) and the Hong Kong Research Grants Council (9048340).</funding-statement></funding-group><counts><fig-count count="0"/><table-count count="0"/><equation-count count="0"/><ref-count count="15"/><page-count count="3"/></counts><custom-meta-group><custom-meta><meta-name>section-in-acceptance</meta-name><meta-value>Porous Crystalline Networks</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="frontiers-research-topic"><p>Editorial on the Research Topic <ext-link xlink:href="https://www.frontiersin.org/research-topics/60180" ext-link-type="uri">Retroconstruction of porous crystalline networks for a sustainable future</ext-link>
+</p></notes></front><body><p>The 2025 Nobel Prize in Chemistry, awarded to Susumu Kitagawa, Richard Robson, and Omar M. Yaghi, celebrates their pioneering work on metal-organic frameworks (MOFs) (<xref rid="B4" ref-type="bibr">Hoskins and Robson, 1990</xref>; <xref rid="B6" ref-type="bibr">Kondo et al., 1997</xref>; <xref rid="B13" ref-type="bibr">Yaghi et al., 1995</xref>), a class of porous crystalline networks (PCNs) built from metal nodes and organic linkers. This breakthrough introduced a new paradigm in materials design, enabling the creation of nanosized cavities with molecular precision. From this foundation, &#x0201c;reticular chemistry&#x0201d; (<xref rid="B14" ref-type="bibr">Yaghi et al., 2019</xref>) has flourished, expanding PCNs to include covalent organic frameworks (COFs) (<xref rid="B2" ref-type="bibr">C&#x000f4;t&#x000e9; et al., 2005</xref>) and hydrogen-bonded organic frameworks (HOFs) (<xref rid="B3" ref-type="bibr">He et al., 2011</xref>). By linking molecular building blocks through strong bonds like coordination, covalent, or hydrogen interactions, reticular chemistry unlocks vast chemical diversity. This high designability encodes functions such as gas storage, separation, and catalysis into PCNs. Yet, despite these advances, industrial-scale &#x0201c;killer applications&#x0201d; remain scarce, with only a few showing real-world promise. With the groundwork laid, what lies ahead for PCNs?</p><p>Timed to coincide with the Nobel recognition, this Research Topic assembles five articles that bridge fundamental PCN research with sustainability challenges amid the climate crisis. The Research Topic spans structural modulation (<ext-link xlink:href="https://doi.org/10.3389/fchem.2024.1396123" ext-link-type="uri">Johnson et al.</ext-link>), materials hybridization (<ext-link xlink:href="https://doi.org/10.3389/fchem.2024.1502401" ext-link-type="uri">Hossain et al.</ext-link>), and applications in carbon capture (<ext-link xlink:href="https://doi.org/10.3389/fchem.2025.1634637" ext-link-type="uri">Cammarere et al.</ext-link>), energy storage (<ext-link xlink:href="https://doi.org/10.3389/fchem.2024.1427536" ext-link-type="uri">Ghuffar and Noh</ext-link>), and wastewater treatment (<ext-link xlink:href="https://doi.org/10.3389/fchem.2025.1524683" ext-link-type="uri">Mohammed Yaseen et al.</ext-link>). Central to this is our proposed &#x0201c;retroconstruction&#x0201d; approach, which merges retrosynthesis (designing molecules backward from desired outcomes) with retroengineering (deconstructing problems to identify solutions). Retroconstruction involves three steps: (1) identifying essential properties needed for real-world problems; (2) selecting molecular motifs, topologies, and pore structures to achieve them; and (3) developing efficient synthesis and processing methods. This framework shifts PCNs from serendipitous discoveries to targeted tools for sustainability.</p><p>Carbon capture is pivotal for curbing anthropogenic emissions and meeting the Paris Agreement&#x02019;s goal of limiting global warming to 2&#x000a0;&#x000b0;C above preindustrial levels (<xref rid="B1" ref-type="bibr">Baker et al., 2018</xref>; <xref rid="B9" ref-type="bibr">Masson-Delmotte et al., 2018</xref>). Traditional amine scrubbing is energy-intensive, prone to sorbent degradation, and challenging to retrofit (<xref rid="B11" ref-type="bibr">Rochelle Gary, 2009</xref>). PCNs, with their tunable porosity for reversible gas adsorption, offer a solvent-free alternative (<xref rid="B8" ref-type="bibr">Lin et al., 2021</xref>; <xref rid="B15" ref-type="bibr">Zhou et al., 2024</xref>). However, water vapor in flue gases or air often competes with CO<sub>2</sub>, reducing efficacy (<xref rid="B12" ref-type="bibr">Siegelman et al., 2019</xref>). <ext-link xlink:href="https://doi.org/10.3389/fchem.2025.1634637" ext-link-type="uri">Cammarere et al.</ext-link> review water-enhanced CO<sub>2</sub> capture in MOFs, highlighting mechanisms like dipole-quadrupole interactions, water dissociation creating new adsorption sites, nanopocket confinement, and chemical sorption via carbamates, carbamic acids, or bicarbonates. By retroconstructing MOFs by choosing specific metal nodes, ligands, topologies, and pores, these designs optimize performance under humid conditions, paving the way for efficient point-source or direct air capture.</p><p>Equally vital for carbon neutrality are renewable energy technologies, which demand advanced electrochemical devices like batteries and electrolyzers. A key hurdle is understanding lithium-ion-coupled electron transfer (LCET) reactions at electrode-electrolyte interfaces, including their thermodynamics and Li<sup>+</sup>-electron stoichiometry, which is vital in cathode design in Li-ion batteries (<xref rid="B10" ref-type="bibr">Nikitina et al., 2017</xref>). Bulk metal oxides often fail to show Nernstian behavior with Li<sup>+</sup> concentrations, precluding the derivation of LCET thermochemistry. <ext-link xlink:href="https://doi.org/10.3389/fchem.2024.1427536" ext-link-type="uri">Ghuffar and Noh</ext-link> address this through retroconstruction: a Zr-based MOF confines tungsten oxide (WO<sub>x</sub>) into nanoparticles within its pores, creating an ideal platform for LCET studies. This nano-confinement reveals precise stoichiometry and Gibbs free energy, offering insights for energy storage and conversion that align with sustainable electrification.</p><p>Clean water access, another UN Sustainable Development Goal, faces threats from chemical pollutants and pathogens. Retroconstructing PCNs can yield multifunctional materials for wastewater treatment (<xref rid="B7" ref-type="bibr">Li et al., 2021</xref>). <ext-link xlink:href="https://doi.org/10.3389/fchem.2025.1524683" ext-link-type="uri">Mohammed Yaseen et al.</ext-link> introduce a vanadium-based MOF with 2,2&#x02032;-bipyridine-4,4&#x02032;-dicarboxylic acid ligands, combining porosity for dye adsorption with antimicrobial properties against agents like <italic toggle="yes">E. coli</italic>. This synergy derived from bioactive ligands and porosity demonstrates how targeted design addresses dual challenges in water purification.</p><p>Practical deployment of PCNs is often hampered by their powdery form, limiting processability. <ext-link xlink:href="https://doi.org/10.3389/fchem.2024.1502401" ext-link-type="uri">Hossain et al.</ext-link> review covalent integration of polymers with PCNs, such as MOFs, COFs and HOFs, to create hybrids with enhanced stability, flexibility, and scalability. These strategies overcome traditional drawbacks, enabling retroconstruction for industrial applications like membranes or coatings.</p><p>At the heart of PCN functionality are their topologies and porosities, yet MOF structures can be unpredictable due to metal multivalency and ligand conformations (<xref rid="B5" ref-type="bibr">Jiang et al., 2021</xref>). <ext-link xlink:href="https://doi.org/10.3389/fchem.2024.1396123" ext-link-type="uri">Johnson et al.</ext-link> probe this in tetraphenylethene-based MOFs, using rotamer and pillar ligands to control net dimensionality, pore sizes, and surface areas. This modular approach exemplifies retroconstruction, facilitating rational design for tailored applications without reinventing building blocks.</p><p>These articles collectively illustrate retroconstruction&#x02019;s power: by deconstructing sustainability problems and reassembling PCNs accordingly, we can accelerate real-world impact. Challenges persist in scalability, cost, and environmental stability, which must be addressed through interdisciplinary efforts, including AI-driven design and lifecycle assessments. Nonetheless, the future of PCNs centers on rational innovation to transform energy systems, reduce emissions, and ensure resource equity, aligning with the UN&#x02019;s Sustainable Development Goals.</p><p>In this Nobel-inspired moment, retroconstruction invites us to envision PCNs not as mere materials, but as architects of a sustainable future that is porous with possibility.</p></body><back><fn-group><fn id="n1" fn-type="edited-by"><p>
+<bold>Edited and reviewed by:</bold>
+<ext-link xlink:href="https://loop.frontiersin.org/people/2082726/overview" ext-link-type="uri">Felix Zamora</ext-link>, Autonomous University of Madrid, Spain</p></fn></fn-group><sec sec-type="author-contributions" id="s1"><title>Author contributions</title><p>XL: Writing &#x02013; review and editing, Writing &#x02013; original draft.</p></sec><sec sec-type="COI-statement" id="s3"><title>Conflict of interest</title><p>The author declares that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p><p>The author(s) declared that they were an editorial board member of Frontiers, at the time of submission. This had no impact on the peer review process and the final decision.</p></sec><sec sec-type="ai-statement" id="s4"><title>Generative AI statement</title><p>The author(s) declare that no Generative AI was used in the creation of this manuscript.</p><p>Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us.</p></sec><sec sec-type="disclaimer" id="s5"><title>Publisher&#x02019;s note</title><p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></sec><ref-list><title>References</title><ref id="B1"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Baker</surname><given-names>H. S.</given-names></name>
+<name><surname>Millar</surname><given-names>R. J.</given-names></name>
+<name><surname>Karoly</surname><given-names>D. J.</given-names></name>
+<name><surname>Beyerle</surname><given-names>U.</given-names></name>
+<name><surname>Guillod</surname><given-names>B. P.</given-names></name>
+<name><surname>Mitchell</surname><given-names>D.</given-names></name>
+<etal/>
+</person-group> (<year>2018</year>). <article-title>Higher CO<sub>2</sub> concentrations increase extreme event risk in a 1.5 &#x000b0;C world</article-title>. <source>Nat. Clim. Change</source>
+<volume>8</volume>, <fpage>604</fpage>&#x02013;<lpage>608</lpage>. <pub-id pub-id-type="doi">10.1038/s41558-018-0190-1</pub-id>
+</mixed-citation></ref><ref id="B2"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>C&#x000f4;t&#x000e9;</surname><given-names>A. P.</given-names></name>
+<name><surname>Benin</surname><given-names>A. I.</given-names></name>
+<name><surname>Ockwig</surname><given-names>N. W.</given-names></name>
+<name><surname>O'Keeffe</surname><given-names>M.</given-names></name>
+<name><surname>Matzger</surname><given-names>A. J.</given-names></name>
+<name><surname>Yaghi</surname><given-names>O. M.</given-names></name>
+</person-group> (<year>2005</year>). <article-title>Porous, crystalline, covalent organic frameworks</article-title>. <source>Science</source>
+<volume>310</volume>, <fpage>1166</fpage>&#x02013;<lpage>1170</lpage>. <pub-id pub-id-type="doi">10.1126/science.1120411</pub-id>
+<?supplied-pmid 16293756?><pub-id pub-id-type="pmid">16293756</pub-id>
+</mixed-citation></ref><ref id="B3"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>He</surname><given-names>Y.</given-names></name>
+<name><surname>Xiang</surname><given-names>S.</given-names></name>
+<name><surname>Chen</surname><given-names>B.</given-names></name>
+</person-group> (<year>2011</year>). <article-title>A microporous hydrogen-bonded organic framework for highly selective C<sub>2</sub>H<sub>2</sub>/C<sub>2</sub>H<sub>4</sub> separation at ambient temperature</article-title>. <source>J. Am. Chem. Soc.</source>
+<volume>133</volume>, <fpage>14570</fpage>&#x02013;<lpage>14573</lpage>. <pub-id pub-id-type="doi">10.1021/ja2066016</pub-id>
+<?supplied-pmid 21863860?><pub-id pub-id-type="pmid">21863860</pub-id>
+</mixed-citation></ref><ref id="B4"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Hoskins</surname><given-names>B. F.</given-names></name>
+<name><surname>Robson</surname><given-names>R.</given-names></name>
+</person-group> (<year>1990</year>). <article-title>Design and construction of a new class of scaffolding-like materials comprising infinite polymeric frameworks of 3D-linked molecular rods. A reappraisal of the zinc cyanide and cadmium cyanide structures and the synthesis and structure of the diamond-related frameworks [N(CH<sub>3</sub>)<sub>4</sub>] [Cu<sup>I</sup>Zn<sup>II</sup>(CN)<sub>4</sub>] and Cu<sup>I</sup>[4,4',4'',4'''-tetracyanotetraphenylmethane]BF<sub>4</sub>&#x000b7;xC<sub>6</sub>H<sub>5</sub>NO<sub>2</sub>
+</article-title>. <source>J. Am. Chem. Soc.</source>
+<volume>112</volume>, <fpage>1546</fpage>&#x02013;<lpage>1554</lpage>. <pub-id pub-id-type="doi">10.1021/ja00160a038</pub-id>
+</mixed-citation></ref><ref id="B5"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Jiang</surname><given-names>H.</given-names></name>
+<name><surname>Alezi</surname><given-names>D.</given-names></name>
+<name><surname>Eddaoudi</surname><given-names>M.</given-names></name>
+</person-group> (<year>2021</year>). <article-title>A reticular chemistry guide for the design of periodic solids</article-title>. <source>Nat. Rev. Mater.</source>
+<volume>6</volume>, <fpage>466</fpage>&#x02013;<lpage>487</lpage>. <pub-id pub-id-type="doi">10.1038/s41578-021-00287-y</pub-id>
+</mixed-citation></ref><ref id="B6"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Kondo</surname><given-names>M.</given-names></name>
+<name><surname>Yoshitomi</surname><given-names>T.</given-names></name>
+<name><surname>Matsuzaka</surname><given-names>H.</given-names></name>
+<name><surname>Kitagawa</surname><given-names>S.</given-names></name>
+<name><surname>Seki</surname><given-names>K.</given-names></name>
+</person-group> (<year>1997</year>). <article-title>Three-dimensional framework with channeling cavities for small molecules: {[M<sub>2</sub>(4, 4&#x02032;-bpy)<sub>3</sub>(NO<sub>3</sub>)<sub>4</sub>]&#x000b7;xH<sub>2</sub>O}<sub>n</sub> (M &#x000b7; Co, Ni, Zn)</article-title>. <source>Angew. Chem. Int. Ed. Engl.</source>
+<volume>36</volume>, <fpage>1725</fpage>&#x02013;<lpage>1727</lpage>. <pub-id pub-id-type="doi">10.1002/anie.199717251</pub-id>
+</mixed-citation></ref><ref id="B7"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Li</surname><given-names>R.</given-names></name>
+<name><surname>Chen</surname><given-names>T.</given-names></name>
+<name><surname>Pan</surname><given-names>X.</given-names></name>
+</person-group> (<year>2021</year>). <article-title>Metal&#x02013;organic-framework-based materials for antimicrobial applications</article-title>. <source>ACS Nano</source>
+<volume>15</volume>, <fpage>3808</fpage>&#x02013;<lpage>3848</lpage>. <pub-id pub-id-type="doi">10.1021/acsnano.0c09617</pub-id>
+<?supplied-pmid 33629585?><pub-id pub-id-type="pmid">33629585</pub-id>
+</mixed-citation></ref><ref id="B8"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Lin</surname><given-names>J.-B.</given-names></name>
+<name><surname>Nguyen Tai</surname><given-names>T. T.</given-names></name>
+<name><surname>Vaidhyanathan</surname><given-names>R.</given-names></name>
+<name><surname>Burner</surname><given-names>J.</given-names></name>
+<name><surname>Taylor Jared</surname><given-names>M.</given-names></name>
+<name><surname>Durekova</surname><given-names>H.</given-names></name>
+<etal/>
+</person-group> (<year>2021</year>). <article-title>A scalable metal-organic framework as a durable physisorbent for carbon dioxide capture</article-title>. <source>Science</source>
+<volume>374</volume>, <fpage>1464</fpage>&#x02013;<lpage>1469</lpage>. <pub-id pub-id-type="doi">10.1126/science.abi7281</pub-id>
+<?supplied-pmid 34914501?><pub-id pub-id-type="pmid">34914501</pub-id>
+</mixed-citation></ref><ref id="B9"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Masson-Delmotte</surname><given-names>V.</given-names></name>
+<name><surname>Zhai</surname><given-names>P.</given-names></name>
+<name><surname>P&#x000f6;rtner</surname><given-names>H.-O.</given-names></name>
+<name><surname>Roberts</surname><given-names>D.</given-names></name>
+<name><surname>Skea</surname><given-names>J.</given-names></name>
+<name><surname>Shukla</surname><given-names>P. R.</given-names></name>
+<etal/>
+</person-group> (<year>2018</year>). &#x0201c;<article-title>Global warming of 1.5 &#x000b0;C. An IPCC special report on the impacts of global warming of 1.5 &#x000b0;C above pre-industrial levels and related global greenhouse gas emission pathways</article-title>,&#x0201d; in <source>The context of strengthening the global response to the threat of climate change</source> (<publisher-name>Geneva, Switzerland: Intergovernmental Panel on Climate Change Secretariat</publisher-name>). <comment>Available online at: <ext-link xlink:href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/06/SR15_Full_Report_High_Res.pdf" ext-link-type="uri">https://www.ipcc.ch/site/assets/uploads/sites/2/2019/06/SR15_Full_Report_High_Res.pdf</ext-link>.</comment>
+</mixed-citation></ref><ref id="B10"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Nikitina</surname><given-names>V. A.</given-names></name>
+<name><surname>Zakharkin</surname><given-names>M. V.</given-names></name>
+<name><surname>Vassiliev</surname><given-names>S. Y.</given-names></name>
+<name><surname>Yashina</surname><given-names>L. V.</given-names></name>
+<name><surname>Antipov</surname><given-names>E. V.</given-names></name>
+<name><surname>Stevenson</surname><given-names>K. J.</given-names></name>
+</person-group> (<year>2017</year>). <article-title>Lithium ion coupled electron-transfer rates in superconcentrated electrolytes: exploring the bottlenecks for fast charge-transfer rates with LiMn<sub>2</sub>O<sub>4</sub> cathode materials</article-title>. <source>Langmuir</source>
+<volume>33</volume>, <fpage>9378</fpage>&#x02013;<lpage>9389</lpage>. <pub-id pub-id-type="doi">10.1021/acs.langmuir.7b01016</pub-id>
+<?supplied-pmid 28636393?><pub-id pub-id-type="pmid">28636393</pub-id>
+</mixed-citation></ref><ref id="B11"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Rochelle Gary</surname><given-names>T.</given-names></name>
+</person-group> (<year>2009</year>). <article-title>Amine scrubbing for CO<sub>2</sub> capture</article-title>. <source>Science</source>
+<volume>325</volume>, <fpage>1652</fpage>&#x02013;<lpage>1654</lpage>. <pub-id pub-id-type="doi">10.1126/science.1176731</pub-id>
+<?supplied-pmid 19779188?><pub-id pub-id-type="pmid">19779188</pub-id>
+</mixed-citation></ref><ref id="B12"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Siegelman</surname><given-names>R. L.</given-names></name>
+<name><surname>Milner</surname><given-names>P. J.</given-names></name>
+<name><surname>Forse</surname><given-names>A. C.</given-names></name>
+<name><surname>Lee</surname><given-names>J.-H.</given-names></name>
+<name><surname>Colwell</surname><given-names>K. A.</given-names></name>
+<name><surname>Neaton</surname><given-names>J. B.</given-names></name>
+<etal/>
+</person-group> (<year>2019</year>). <article-title>Water enables efficient CO<sub>2</sub> capture from natural gas flue emissions in an oxidation-resistant diamine-appended metal&#x02013;organic framework</article-title>. <source>J. Am. Chem. Soc.</source>
+<volume>141</volume>, <fpage>13171</fpage>&#x02013;<lpage>13186</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.9b05567</pub-id>
+<?supplied-pmid 31348649?><pub-id pub-id-type="pmid">31348649</pub-id>
+</mixed-citation></ref><ref id="B13"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Yaghi</surname><given-names>O. M.</given-names></name>
+<name><surname>Li</surname><given-names>G.</given-names></name>
+<name><surname>Li</surname><given-names>H.</given-names></name>
+</person-group> (<year>1995</year>). <article-title>Selective binding and removal of guests in a microporous metal&#x02013;organic framework</article-title>. <source>Nature</source>
+<volume>378</volume>, <fpage>703</fpage>&#x02013;<lpage>706</lpage>. <pub-id pub-id-type="doi">10.1038/378703a0</pub-id>
+</mixed-citation></ref><ref id="B14"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Yaghi</surname><given-names>O. M.</given-names></name>
+<name><surname>Kalmutzki</surname><given-names>M. J.</given-names></name>
+<name><surname>Diercks</surname><given-names>C. S.</given-names></name>
+</person-group> (<year>2019</year>). <source>Introduction to reticular chemistry</source>. <publisher-name>Wiley</publisher-name>. <pub-id pub-id-type="doi">10.1002/9783527821099.fmatter</pub-id>
+</mixed-citation></ref><ref id="B15"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Zhou</surname><given-names>Z.</given-names></name>
+<name><surname>Ma</surname><given-names>T.</given-names></name>
+<name><surname>Zhang</surname><given-names>H.</given-names></name>
+<name><surname>Chheda</surname><given-names>S.</given-names></name>
+<name><surname>Li</surname><given-names>H.</given-names></name>
+<name><surname>Wang</surname><given-names>K.</given-names></name>
+<etal/>
+</person-group> (<year>2024</year>). <article-title>Carbon dioxide capture from open air using covalent organic frameworks</article-title>. <source>Nature</source>
+<volume>635</volume>, <fpage>96</fpage>&#x02013;<lpage>101</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-024-08080-x</pub-id>
+<?supplied-pmid 39443804?><pub-id pub-id-type="pmid">39443804</pub-id>
+</mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,577 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>keywordList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+      <th>dataLinksTagsList</th>
+      <th>meshHeadingList</th>
+      <th>chemicalList</th>
+      <th>dateOfCompletion</th>
+      <th>manuscriptId</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC12094137</th>
+      <td>39812111</td>
+      <td>MED</td>
+      <td>39812111</td>
+      <td>PMC12094137</td>
+      <td>{'fullTextId': 'PMC12094137'}</td>
+      <td>10.1002/cssc.202401973</td>
+      <td>Valorization of Humins by Cyclic Levulinic Acid Production Using Polyoxometalates and Formic Acid.</td>
+      <td>Wassenberg A, Esser T, Poller MJ, Voß D, Albert J.</td>
+      <td>{'author': [{'fullName': 'Wassenberg A', 'firstName': 'André', 'lastName': 'Wassenberg', 'initials': 'A', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Institute for Technical and Macromolecular Chemistry, University of Hamburg, 20146, Hamburg, Germany.'}}}, {'fullName': 'Esser T', 'firstName': 'Tobias', 'lastName': 'Esser', 'initials': 'T', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Institute for Technical and Macromolecular Chemistry, University of Hamburg, 20146, Hamburg, Germany.'}}}, {'fullName': 'Poller MJ', 'firstName': 'Maximilian J', 'lastName': 'Poller', 'initials': 'MJ', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-7146-131X'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Institute for Technical and Macromolecular Chemistry, University of Hamburg, 20146, Hamburg, Germany.'}}}, {'fullName': 'Voß D', 'firstName': 'Dorothea', 'lastName': 'Voß', 'initials': 'D', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Institute for Technical and Macromolecular Chemistry, University of Hamburg, 20146, Hamburg, Germany.'}}}, {'fullName': 'Albert J', 'firstName': 'Jakob', 'lastName': 'Albert', 'initials': 'J', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-3923-2269'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Institute for Technical and Macromolecular Chemistry, University of Hamburg, 20146, Hamburg, Germany.'}}}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0002-3923-2269'}, {'@type': 'ORCID', '#text': '0000-0002-7146-131X'}]}</td>
+      <td>{'issue': '10', 'volume': '18', 'journalIssueId': '3945198', 'dateOfPublication': '2025 May', 'monthOfPublication': '5', 'yearOfPublication': '2025', 'printPublicationDate': '2025-05-01', 'journal': {'title': 'ChemSusChem', 'ISOAbbreviation': 'ChemSusChem', 'medlineAbbreviation': 'ChemSusChem', 'NLMid': '101319536', 'ISSN': '1864-5631', 'ESSN': '1864-564X'}}</td>
+      <td>2025</td>
+      <td>e202401973</td>
+      <td>At a time when increasing attention is paid to sustainability in chemistry, levulinic acid (LA) is one of the most important platform chemicals for the goal of overcoming our dependence on fossil raw materials. However, a so far limiting obstacle on the way to efficient LA production from biomass is the formation of undesirable humin byproducts. In this work, a new catalytic route for the effective utilization of these humin byproducts, enabling a cyclic synthesis of LA using formic acid (FA) as organocatalyst is proposed. Selective catalytic oxidation (SCO) of humins using the H<sub>5</sub>PV<sub>2</sub>Mo<sub>10</sub>O<sub>40</sub> (HPA-2) polyoxometalate (POM) catalyst produces FA that can be isolated from the aqueous reaction mixture by using nanofiltration membranes accompanied by a complete catalyst recycling (>99 %). After concentration of FA by distillation, the latter can be used as organocatalyst for LA production from sugars, whereby the formed humins can in turn be separated and used as substrates for further FA production via SCO to close the catalytic cycle. By using FA as a green and sustainable acidic organocatalyst, relatively high yields of LA (up to 42 mol %) could be achieved. In the future this can potentially lead to the creation of a closed cycle for an environmentally friendly and efficient production of green LA without undesired humin formation.</td>
+      <td>Institute for Technical and Macromolecular Chemistry, University of Hamburg, 20146, Hamburg, Germany.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print-Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': {'grantId': 'AL2130/5-1', 'agency': 'Deutsche Forschungsgemeinschaft', 'orderIn': '0'}}</td>
+      <td>{'keyword': ['Formic acid', 'polyoxometalates', 'Levulinic Acid', 'Nanofiltration', 'Humins', 'Environmental Catalysis']}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'doi', 'site': 'Unpaywall', 'url': 'https://doi.org/10.1002/cssc.202401973'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1002/cssc.202401973'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC12094137'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC12094137?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>2</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2025-01-15</td>
+      <td>2025-01-16</td>
+      <td>2025-05-23</td>
+      <td>2025-05-23</td>
+      <td>2025-01-28</td>
+      <td>2025-01-28</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>PMC11055874</th>
+      <td>38678145</td>
+      <td>MED</td>
+      <td>38678145</td>
+      <td>PMC11055874</td>
+      <td>{'fullTextId': 'PMC11055874'}</td>
+      <td>10.1038/s42004-024-01184-5</td>
+      <td>Synthesis, characterisation, and catalytic application of a soluble molecular carrier of sodium hydride activated by a substituted 4-(dimethylamino)pyridine.</td>
+      <td>Macdonald PA, Kennedy AR, Weetman CE, Robertson SD, Mulvey RE.</td>
+      <td>{'author': [{'fullName': 'Macdonald PA', 'firstName': 'Peter A', 'lastName': 'Macdonald', 'initials': 'PA', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'WestCHEM, Department of Pure & Applied Chemistry, University of Strathclyde, Glasgow, G1 1XL, UK.'}}}, {'fullName': 'Kennedy AR', 'firstName': 'Alan R', 'lastName': 'Kennedy', 'initials': 'AR', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'WestCHEM, Department of Pure & Applied Chemistry, University of Strathclyde, Glasgow, G1 1XL, UK.'}}}, {'fullName': 'Weetman CE', 'firstName': 'Catherine E', 'lastName': 'Weetman', 'initials': 'CE', 'authorId': {'@type': 'ORCID', '#text': '0000-0001-5643-9256'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'WestCHEM, Department of Pure & Applied Chemistry, University of Strathclyde, Glasgow, G1 1XL, UK.'}}}, {'fullName': 'Robertson SD', 'firstName': 'Stuart D', 'lastName': 'Robertson', 'initials': 'SD', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-9330-8770'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'WestCHEM, Department of Pure & Applied Chemistry, University of Strathclyde, Glasgow, G1 1XL, UK. stuart.d.robertson@strath.ac.uk.'}}}, {'fullName': 'Mulvey RE', 'firstName': 'Robert E', 'lastName': 'Mulvey', 'initials': 'RE', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-1015-2564'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'WestCHEM, Department of Pure & Applied Chemistry, University of Strathclyde, Glasgow, G1 1XL, UK. r.e.mulvey@strath.ac.uk.'}}}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-5643-9256'}, {'@type': 'ORCID', '#text': '0000-0002-1015-2564'}, {'@type': 'ORCID', '#text': '0000-0002-9330-8770'}]}</td>
+      <td>{'issue': '1', 'volume': '7', 'journalIssueId': '3748644', 'dateOfPublication': '2024 Apr', 'monthOfPublication': '4', 'yearOfPublication': '2024', 'printPublicationDate': '2024-04-01', 'journal': {'title': 'Communications chemistry', 'ISOAbbreviation': 'Commun Chem', 'medlineAbbreviation': 'Commun Chem', 'NLMid': '101725670', 'ISSN': '2399-3669', 'ESSN': '2399-3669'}}</td>
+      <td>2024</td>
+      <td>94</td>
+      <td>Recently main group compounds have stepped into the territory of precious transition metal compounds with respect to utility in the homogeneous catalysis of fundamentally important organic transformations. Inspired by the need to promote more sustainability in chemistry because of their greater abundance in nature, this change of direction is surprising since main group metals generally do not possess the same breadth of reactivity as precious transition metals. Here, we introduce the dihydropyridylsodium compound, Na-1,2-tBu-DH(DMAP), and its monomeric variant [Na-1,2-tBu-DH(DMAP)]·Me<sub>6</sub>TREN, and demonstrate their effectiveness in transfer hydrogenation catalysis of the representative alkene 1,1-diphenylethylene to the alkane 1,1-diphenylethane using 1,4-cyclohexadiene as hydrogen source [DMAP = 4-dimethylaminopyridine; Me<sub>6</sub>TREN = tris(N,N-dimethyl-2-aminoethyl)amine]. Sodium is appealing because of its high abundance in the earth's crust and oceans, but organosodium compounds have been rarely used in homogeneous catalysis. The success of the dihydropyridylsodium compounds can be attributed to their high solubility and reactivity in organic solvents.</td>
+      <td>WestCHEM, Department of Pure & Applied Chemistry, University of Strathclyde, Glasgow, G1 1XL, UK.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': 'EP/K000586/1', 'agency': 'RCUK | Engineering and Physical Sciences Research Council (EPSRC)', 'orderIn': '0'}, {'grantId': 'EP/K000586/1', 'agency': 'RCUK | Engineering and Physical Sciences Research Council', 'orderIn': '0'}, {'grantId': 'RPG-2019-264', 'agency': 'Leverhulme Trust', 'orderIn': '0'}, {'grantId': 'EP/K000586/1', 'agency': 'Engineering and Physical Sciences Research Council', 'orderIn': '0'}]}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://www.nature.com/articles/s42004-024-01184-5.pdf'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1038/s42004-024-01184-5'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11055874'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11055874?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>2</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2024-04-27</td>
+      <td>2024-04-28</td>
+      <td>2024-05-02</td>
+      <td>2024-04-30</td>
+      <td>2024-04-27</td>
+      <td>2024-04-27</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>PMC12243079</th>
+      <td>40655192</td>
+      <td>MED</td>
+      <td>40655192</td>
+      <td>PMC12243079</td>
+      <td>{'fullTextId': 'PMC12243079'}</td>
+      <td>10.1021/acs.jchemed.4c01393</td>
+      <td>AI4Green4Students: Promoting Sustainable Chemistry in Undergraduate Laboratories with an Electronic Lab Notebook.</td>
+      <td>Nwafor PC, Gurung S, van Krimpen P, Schnaubert L, Jolley K, Pearman-Kanza S, Willoughby C, Hirst JD.</td>
+      <td>{'author': [{'fullName': 'Nwafor PC', 'firstName': 'Peace C', 'lastName': 'Nwafor', 'initials': 'PC', 'authorId': {'@type': 'ORCID', '#text': '0009-0004-2816-8566'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Chemistry, University of Nottingham, University Park, Nottingham NG7 2RD, United Kingdom.'}}}, {'fullName': 'Gurung S', 'firstName': 'Shason', 'lastName': 'Gurung', 'initials': 'S', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Digital Research Service, University of Nottingham, University Park Nottingham NG7 2RD, United Kingdom.'}}}, {'fullName': 'van Krimpen P', 'firstName': 'Philip', 'lastName': 'van Krimpen', 'initials': 'P', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Digital Research Service, University of Nottingham, University Park Nottingham NG7 2RD, United Kingdom.'}}}, {'fullName': 'Schnaubert L', 'firstName': 'Lenka', 'lastName': 'Schnaubert', 'initials': 'L', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-6863-8110'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Learning Sciences Research Institute, School of Education, University of Nottingham, Dearing Building (C85), Jubilee Campus, Nottingham NG8 1BB, United Kingdom.'}}}, {'fullName': 'Jolley K', 'firstName': 'Katherine', 'lastName': 'Jolley', 'initials': 'K', 'authorId': {'@type': 'ORCID', '#text': '0000-0001-6223-9808'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Chemistry, University of Nottingham, University Park, Nottingham NG7 2RD, United Kingdom.'}}}, {'fullName': 'Pearman-Kanza S', 'firstName': 'Samantha', 'lastName': 'Pearman-Kanza', 'initials': 'S', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-4831-9489'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Chemistry and Chemical Engineering, University of Southampton, University Road Southampton SO17 1BJ, United Kingdom.'}}}, {'fullName': 'Willoughby C', 'firstName': 'Cerys', 'lastName': 'Willoughby', 'initials': 'C', 'authorId': {'@type': 'ORCID', '#text': '0000-0003-1721-9212'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Chemistry and Chemical Engineering, University of Southampton, University Road Southampton SO17 1BJ, United Kingdom.'}}}, {'fullName': 'Hirst JD', 'firstName': 'Jonathan D', 'lastName': 'Hirst', 'initials': 'JD', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-2726-0983'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Chemistry, University of Nottingham, University Park, Nottingham NG7 2RD, United Kingdom.'}}}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-6223-9808'}, {'@type': 'ORCID', '#text': '0000-0002-2726-0983'}, {'@type': 'ORCID', '#text': '0000-0002-4831-9489'}, {'@type': 'ORCID', '#text': '0000-0002-6863-8110'}, {'@type': 'ORCID', '#text': '0000-0003-1721-9212'}, {'@type': 'ORCID', '#text': '0009-0004-2816-8566'}]}</td>
+      <td>{'issue': '7', 'volume': '102', 'journalIssueId': '3977593', 'dateOfPublication': '2025 Jul', 'monthOfPublication': '7', 'yearOfPublication': '2025', 'printPublicationDate': '2025-07-01', 'journal': {'title': 'Journal of chemical education', 'ISOAbbreviation': 'J Chem Educ', 'medlineAbbreviation': 'J Chem Educ', 'NLMid': '2985122R', 'ISSN': '0021-9584'}}</td>
+      <td>2025</td>
+      <td>2720-2731</td>
+      <td>AI4Green is an open-source, machine-learning-powered electronic laboratory notebook (ELN) developed to help chemists mitigate environmental impacts, particularly within the pharmaceutical sector. This study presents AI4Green4Students, a pedagogically adapted version designed to foster sustainable laboratory practices. The AI4Green4Students ELN includes features for sustainability assessment, data documentation, and analysis, aiming to equip students with skills for modern, sustainable laboratory practices. User feedback, gathered through questionnaires and interviews, informed the initial development and subsequent refinements of the application. Implementation in a Year 3 undergraduate chemistry lab project indicated improved adherence to sustainable practices, suggesting that the ELN supports the integration of sustainable chemistry into laboratory teaching. Future efforts will expand AI4Green4Students to include additional experiments to broaden its applicability across undergraduate chemistry courses, as well as integrate machine learning tools to enhance data analysis capabilities.</td>
+      <td>School of Chemistry, University of Nottingham, University Park, Nottingham NG7 2RD, United Kingdom.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'agency': 'Department for Science, Innovation and Technology', 'orderIn': '0'}, {'grantId': 'CiET2021_17', 'agency': 'Royal Academy of Engineering', 'orderIn': '0'}, {'grantId': 'EP/X032701/1', 'agency': 'Engineering and Physical Sciences Research Council', 'orderIn': '0'}]}</td>
+      <td>{'keyword': ['Collaborative Learning', 'Sustainable Chemistry', 'Eln', 'Undergraduate Laboratory', 'Green Metrics']}</td>
+      <td>NaN</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'doi', 'site': 'Unpaywall', 'url': 'https://doi.org/10.1021/acs.jchemed.4c01393'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1021/acs.jchemed.4c01393'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC12243079'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC12243079?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2025-07-14</td>
+      <td>2025-07-14</td>
+      <td>2025-07-12</td>
+      <td>2025-07-16</td>
+      <td>2025-06-05</td>
+      <td>2025-06-05</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>PMC12325619</th>
+      <td>40764789</td>
+      <td>MED</td>
+      <td>40764789</td>
+      <td>PMC12325619</td>
+      <td>{'fullTextId': 'PMC12325619'}</td>
+      <td>10.1038/s41598-025-13486-2</td>
+      <td>Computer aided greenness by design approach for resolving and quantifying Triamterene and Hydrochlorothiazide in pharmaceutical mixtures employing multiscale dynamics simulations.</td>
+      <td>Elsonbaty A, Attala K, Darweish E.</td>
+      <td>{'author': [{'fullName': 'Elsonbaty A', 'firstName': 'Ahmed', 'lastName': 'Elsonbaty', 'initials': 'A', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Pharmaceutical Chemistry Department, Faculty of Pharmacy, Egyptian Russian University, Badr City, 11829, Cairo, Egypt.'}}}, {'fullName': 'Attala K', 'firstName': 'Khaled', 'lastName': 'Attala', 'initials': 'K', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Pharmaceutical Chemistry Department, Faculty of Pharmacy, Egyptian Russian University, Badr City, 11829, Cairo, Egypt. Khaled-Attala@eru.edu.eg.'}}}, {'fullName': 'Darweish E', 'firstName': 'Eman', 'lastName': 'Darweish', 'initials': 'E', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Pharmaceutical Chemistry Department, Faculty of Pharmacy, Egyptian Russian University, Badr City, 11829, Cairo, Egypt.'}}}]}</td>
+      <td>NaN</td>
+      <td>{'issue': '1', 'volume': '15', 'journalIssueId': '3985739', 'dateOfPublication': '2025 Aug', 'monthOfPublication': '8', 'yearOfPublication': '2025', 'printPublicationDate': '2025-08-01', 'journal': {'title': 'Scientific reports', 'ISOAbbreviation': 'Sci Rep', 'medlineAbbreviation': 'Sci Rep', 'NLMid': '101563288', 'ISSN': '2045-2322', 'ESSN': '2045-2322'}}</td>
+      <td>2025</td>
+      <td>28668</td>
+      <td>In this study, we present an established approach for the UV spectroscopic determination of Hydrochlorothiazide and Triamterene in pharmaceutical mixtures, leveraging the principles of Greenness-by-Design (GbD). By integrating molecular and electronic dynamics simulations, we have developed a greener analytical methodology that significantly reduces time and solvent waste. Our approach focuses on selecting a compromise solvent to minimize peak broadening, thereby enhancing spectral resolution and simplifying the analytical process. This work extends our ongoing efforts to establish the GbD concept in analytical chemistry, building on our previous research to promote sustainable and efficient analytical practices. The developed methods are based on simple mathematical manipulations, including Fourier self-deconvolution, absorption correction, and isoabsorptive point methods, along with ratio spectra approaches such as ratio difference and ratio derivative spectrophotometric methods. The Hydrochlorothiazide and Triamterene were determined with linear ranges of (1-18) µg/mL and (1-14) µg/mL, respectively. The detection and quantitation limits were in the range of (0.255-0.640) µg/mL, and (0.516-1.359) µg/mL, which reflects the method's sensitivity. Moreover, a greenness assessment was performed to evaluate the sustainability of the proposed methods, indicating greener outcomes with a considerable reduction of the ecological footprint. This comprehensive approach underscores the potential of GbD in developing efficient, greener analytical methodologies for pharmaceutical analysis.</td>
+      <td>Pharmaceutical Chemistry Department, Faculty of Pharmacy, Egyptian Russian University, Badr City, 11829, Cairo, Egypt.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': {'agency': 'Egyptian Russian University', 'orderIn': '0'}}</td>
+      <td>{'keyword': ['Greenness-by-design', 'Mathematically Manipulated Spectral Methods', 'Molecular And Electronic Dynamics Simulations', 'Ratio-based Uv Spectrophotometry']}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1038/s41598-025-13486-2'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC12325619'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC12325619?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2025-08-06</td>
+      <td>2025-08-07</td>
+      <td>2025-08-08</td>
+      <td>2025-08-09</td>
+      <td>2025-08-06</td>
+      <td>2025-08-06</td>
+      <td>NaN</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'Y', 'descriptorName': 'Hydrochlorothiazide', 'meshQualifierList': {'meshQualifier': [{'abbreviation': 'AN', 'qualifierName': 'analysis', 'majorTopic_YN': 'N'}, {'abbreviation': 'CH', 'qualifierName': 'chemistry', 'majorTopic_YN': 'N'}]}}, {'majorTopic_YN': 'Y', 'descriptorName': 'Triamterene', 'meshQualifierList': {'meshQualifier': [{'abbreviation': 'AN', 'qualifierName': 'analysis', 'majorTopic_YN': 'N'}, {'abbreviation': 'CH', 'qualifierName': 'chemistry', 'majorTopic_YN': 'N'}]}}, {'majorTopic_YN': 'N', 'descriptorName': 'Spectrophotometry, Ultraviolet', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'MT', 'qualifierName': 'methods', 'majorTopic_YN': 'N'}}}, {'majorTopic_YN': 'Y', 'descriptorName': 'Green Chemistry Technology', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'MT', 'qualifierName': 'methods', 'majorTopic_YN': 'N'}}}, {'majorTopic_YN': 'N', 'descriptorName': 'Molecular Dynamics Simulation'}]}</td>
+      <td>{'chemical': [{'name': 'Hydrochlorothiazide', 'registryNumber': '0J48LPH2TH'}, {'name': 'Triamterene', 'registryNumber': 'WS821Z52LQ'}]}</td>
+      <td>2025-08-06</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>PMC10018605</th>
+      <td>36941971</td>
+      <td>MED</td>
+      <td>36941971</td>
+      <td>PMC10018605</td>
+      <td>{'fullTextId': 'PMC10018605'}</td>
+      <td>10.1007/s12053-023-10099-4</td>
+      <td>A systemic framework of energy efficiency in schools: experiences from six European countries.</td>
+      <td>Brychkov D, Goggins G, Doherty E, Romero N, Roudil N, Di Trani A, Singh A, Smit S, McLoughlin E, de Castro Rodrigues Lima R, Günbay SM, Delmonte BA, Hill A, Domegan C, Clifford E.</td>
+      <td>{'author': [{'fullName': 'Brychkov D', 'firstName': 'Dmitry', 'lastName': 'Brychkov', 'initials': 'D', 'authorId': {'@type': 'ORCID', '#text': '0000-0003-0341-9061'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'J.E. Cairnes School of Business and Economics, University of Galway, University Road, Galway, H91 CF50 Ireland.'}}}, {'fullName': 'Goggins G', 'firstName': 'Gary', 'lastName': 'Goggins', 'initials': 'G', 'authorId': {'@type': 'ORCID', '#text': '0000-0001-5130-1004'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Geography, Archaeology and Irish Studies, University of Galway, University Road, Galway, H91 TK33 Ireland.'}}}, {'fullName': 'Doherty E', 'firstName': 'Edelle', 'lastName': 'Doherty', 'initials': 'E', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Engineering, University of Galway, University Road, Galway, H91 TK33 Ireland.'}}}, {'fullName': 'Romero N', 'firstName': 'Natalia', 'lastName': 'Romero', 'initials': 'N', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Faculty of Industrial Design Engineering, Delft University of Technology, 2628 CE Delft, The Netherlands.'}}}, {'fullName': 'Roudil N', 'firstName': 'Nadine', 'lastName': 'Roudil', 'initials': 'N', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Sociology, UMR CNRS, LAVUE, National School of Architecture of Paris-Val de Seine, 3-5 Quai Panhard Et Levassor, 75013 Paris, France.'}}}, {'fullName': 'Di Trani A', 'firstName': 'Antonella', 'lastName': 'Di Trani', 'initials': 'A', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Anthropology, UMR CNRS, LAVUE, National School of Architecture of Paris-Val de Seine, 3-5 Quai Panhard Et Levassor, 75013 Paris, France.'}}}, {'fullName': 'Singh A', 'firstName': 'Abhigyan', 'lastName': 'Singh', 'initials': 'A', 'authorId': {'@type': 'ORCID', '#text': '0000-0003-4984-9067'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Faculty of Industrial Design Engineering, Delft University of Technology, 2628 CE Delft, The Netherlands.'}}}, {'fullName': 'Smit S', 'firstName': 'Sander', 'lastName': 'Smit', 'initials': 'S', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'R2M Solution, 66 Fenwick Close, Woking, GU21 3BZ UK.'}}}, {'fullName': 'McLoughlin E', 'firstName': 'Eilish', 'lastName': 'McLoughlin', 'initials': 'E', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Physical Sciences and Centre for the Advancement of STEM Teaching and Learning, Dublin City University, Dublin 9, D09 W6Y4 Ireland.'}}}, {'fullName': 'de Castro Rodrigues Lima R', 'firstName': 'Raquel', 'lastName': 'de Castro Rodrigues Lima', 'initials': 'R', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Engineering, College of Science and Engineering, University of Galway, University Road, Galway, H91 TK33 Ireland.'}}}, {'fullName': 'Günbay SM', 'firstName': 'Suzan Marie', 'lastName': 'Günbay', 'initials': 'SM', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Physical Sciences and Centre for the Advancement of STEM Teaching and Learning, Dublin City University, Dublin 9, D09 W6Y4 Ireland.'}}}, {'fullName': 'Delmonte BA', 'firstName': 'Branca Arthur', 'lastName': 'Delmonte', 'initials': 'BA', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Department of Engineering, Faculty of Science, Technology and Medicine, University of Luxembourg, 6, Rue Richard Coudenhove-Kalergi, L-1359 Esch-sur-Alzette, Luxembourg.'}}}, {'fullName': 'Hill A', 'firstName': 'Achim', 'lastName': 'Hill', 'initials': 'A', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Fachbereich Bauen+LebenFachrichtung Bauingenieurwesen, Trier University of Applied Sciences, 54293 Schneidershof, Trier, Germany.'}}}, {'fullName': 'Domegan C', 'firstName': 'Christine', 'lastName': 'Domegan', 'initials': 'C', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'J.E. Cairnes School of Business and Economics, University of Galway, University Road, Galway, H91 CF50 Ireland.'}}}, {'fullName': 'Clifford E', 'firstName': 'Eoghan', 'lastName': 'Clifford', 'initials': 'E', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Engineering, College of Science and Engineering, University of Galway, University Road, Galway, H91 TK33 Ireland.'}}}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-5130-1004'}, {'@type': 'ORCID', '#text': '0000-0002-8583-6231'}, {'@type': 'ORCID', '#text': '0000-0003-0341-9061'}, {'@type': 'ORCID', '#text': '0000-0003-4984-9067'}]}</td>
+      <td>{'issue': '4', 'volume': '16', 'journalIssueId': '3528148', 'dateOfPublication': '2023', 'monthOfPublication': '0', 'yearOfPublication': '2023', 'printPublicationDate': '2023-01-01', 'journal': {'title': 'Energy efficiency', 'ISOAbbreviation': 'Energy Effic', 'medlineAbbreviation': 'Energy Effic', 'NLMid': '101744995', 'ISSN': '1570-646X', 'ESSN': '1570-6478'}}</td>
+      <td>2023</td>
+      <td>21</td>
+      <td>Schools are complex physical and social institutions within national education systems. They account for significant energy consumption and like other buildings can demonstrate inefficient patterns of energy use. Poor energy performance of educational facilities is an intricate issue driven by complex causality of interconnected and dynamic factors. Addressing this issue requires a systemic approach, which is heretofore lacking. The aim of this research is to present and describe a systemic framework to facilitate energy reduction in schools across different European contexts. This transdisciplinary approach to sustainable energy use has been piloted in 13 post-primary schools located in six countries in northwest Europe. The research implements a series of planned activities and interventions, which help to unveil a systemic approach to improving energy efficiency in schools. The findings demonstrate how this approach, together with its ensuing methodologies and strategies, can contribute to reducing carbon emissions and improve knowledge and awareness around sustainable energy.</td>
+      <td>J.E. Cairnes School of Business and Economics, University of Galway, University Road, Galway, H91 CF50 Ireland.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print-Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'agency': 'National University Ireland, Galway', 'orderIn': '0'}, {'grantId': 'co- funded by European Regional Development Funds.', 'agency': 'Interreg', 'orderIn': '0'}, {'grantId': 'ENERGE is an Interreg North-West Europe (NWE) project', 'agency': 'Interreg', 'orderIn': '0'}]}</td>
+      <td>{'keyword': ['Energy efficiency', 'School', 'Collaboration', 'Systemic Approach', 'Digital Transformation', 'Energy Literacy']}</td>
+      <td>NaN</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1007/s12053-023-10099-4'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10018605'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10018605?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>1</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2023-03-21</td>
+      <td>2023-03-21</td>
+      <td>2023-03-18</td>
+      <td>2023-05-03</td>
+      <td>2023-03-16</td>
+      <td>2023-03-16</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>PMC8453566</th>
+      <td>33617111</td>
+      <td>MED</td>
+      <td>33617111</td>
+      <td>PMC8453566</td>
+      <td>{'fullTextId': 'PMC8453566'}</td>
+      <td>10.1002/anie.202100778</td>
+      <td>Fatty Acids and their Derivatives as Renewable Platform Molecules for the Chemical Industry.</td>
+      <td>Biermann U, Bornscheuer UT, Feussner I, Meier MAR, Metzger JO.</td>
+      <td>{'author': [{'fullName': 'Biermann U', 'firstName': 'Ursula', 'lastName': 'Biermann', 'initials': 'U', 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'Institute of Chemistry, University of Oldenburg, 26111, Oldenburg, Germany.'}, {'affiliation': 'abiosuse.V., Bloherfelder Straße 239, 26129, Oldenburg, Germany.'}]}}, {'fullName': 'Bornscheuer UT', 'firstName': 'Uwe T', 'lastName': 'Bornscheuer', 'initials': 'UT', 'authorId': {'@type': 'ORCID', '#text': '0000-0003-0685-2696'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Institute of Biochemistry, Dept. of Biotechnology & Enzyme Catalysis, Greifswald University, Felix-Hausdorff-Strasse 4, 17487, Greifswald, Germany.'}}}, {'fullName': 'Feussner I', 'firstName': 'Ivo', 'lastName': 'Feussner', 'initials': 'I', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-9888-7003'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'University of Goettingen, Albrecht-von-Haller Institute for Plant Sciences, International Center for Advanced Studies of Energy Conversion (ICASEC) and Goettingen Center of Molecular Biosciences (GZMB), Dept. of Plant Biochemistry, Justus-von-Liebig-Weg 11, 37077, Goettingen, Germany.'}}}, {'fullName': 'Meier MAR', 'firstName': 'Michael A R', 'lastName': 'Meier', 'initials': 'MAR', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-4448-5279'}, 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'Laboratory of Applied Chemistry, Institute of Organic Chemistry (IOC), Karlsruhe Institute of Technology (KIT), Straße am Forum 7, 76131, Karlsruhe, Germany.'}, {'affiliation': 'Laboratory of Applied Chemistry, Institute of Biological and Chemical Systems-Functional Molecular Systems (IBCS-FMS), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, 76344, Eggenstein-Leopoldshafen, Germany.'}]}}, {'fullName': 'Metzger JO', 'firstName': 'Jürgen O', 'lastName': 'Metzger', 'initials': 'JO', 'authorId': {'@type': 'ORCID', '#text': '0000-0003-0250-9604'}, 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'Institute of Chemistry, University of Oldenburg, 26111, Oldenburg, Germany.'}, {'affiliation': 'abiosuse.V., Bloherfelder Straße 239, 26129, Oldenburg, Germany.'}]}}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0002-4448-5279'}, {'@type': 'ORCID', '#text': '0000-0002-9888-7003'}, {'@type': 'ORCID', '#text': '0000-0003-0250-9604'}, {'@type': 'ORCID', '#text': '0000-0003-0685-2696'}]}</td>
+      <td>{'issue': '37', 'volume': '60', 'journalIssueId': '3224475', 'dateOfPublication': '2021 Sep', 'monthOfPublication': '9', 'yearOfPublication': '2021', 'printPublicationDate': '2021-09-01', 'journal': {'title': 'Angewandte Chemie (International ed. in English)', 'ISOAbbreviation': 'Angew Chem Int Ed Engl', 'medlineAbbreviation': 'Angew Chem Int Ed Engl', 'NLMid': '0370543', 'ISSN': '1433-7851', 'ESSN': '1521-3773'}}</td>
+      <td>2021</td>
+      <td>20144-20165</td>
+      <td>Oils and fats of vegetable and animal origin remain an important renewable feedstock for the chemical industry. Their industrial use has increased during the last 10 years from 31 to 51 million tonnes annually. Remarkable achievements made in the field of oleochemistry in this timeframe are summarized herein, including the reduction of fatty esters to ethers, the selective oxidation and oxidative cleavage of C-C double bonds, the synthesis of alkyl-branched fatty compounds, the isomerizing hydroformylation and alkoxycarbonylation, and olefin metathesis. The use of oleochemicals for the synthesis of a great variety of polymeric materials has increased tremendously, too. In addition to lipases and phospholipases, other enzymes have found their way into biocatalytic oleochemistry. Important achievements have also generated new oil qualities in existing crop plants or by using microorganisms optimized by metabolic engineering.</td>
+      <td>Institute of Chemistry, University of Oldenburg, 26111, Oldenburg, Germany.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print-Electronic</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'review-article', 'Review', 'Journal Article']}</td>
+      <td>NaN</td>
+      <td>{'keyword': ['Fatty acids', 'Catalysis', 'Synthesis', 'Applications', 'Renewable resources']}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1002/anie.202100778'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC8453566'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC8453566?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>60</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by-nc</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2021-02-22</td>
+      <td>2021-02-23</td>
+      <td>2021-09-29</td>
+      <td>2024-04-07</td>
+      <td>2021-05-01</td>
+      <td>2021-05-01</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2021-09-15</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>PMC9416173</th>
+      <td>36015157</td>
+      <td>MED</td>
+      <td>36015157</td>
+      <td>PMC9416173</td>
+      <td>{'fullTextId': 'PMC9416173'}</td>
+      <td>10.3390/ph15081009</td>
+      <td>Multicomponent Reactions for the Synthesis of Active Pharmaceutical Ingredients.</td>
+      <td>Cores Á, Clerigué J, Orocio-Rodríguez E, Menéndez JC.</td>
+      <td>{'author': [{'fullName': 'Cores Á', 'firstName': 'Ángel', 'lastName': 'Cores', 'initials': 'Á', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Unidad de Química Orgánica y Farmacéutica, Departamento de Química en Ciencias Farmacéuticas, Facultad de Farmacia, Universidad Complutense, 28040 Madrid, Spain.'}}}, {'fullName': 'Clerigué J', 'firstName': 'José', 'lastName': 'Clerigué', 'initials': 'J', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Unidad de Química Orgánica y Farmacéutica, Departamento de Química en Ciencias Farmacéuticas, Facultad de Farmacia, Universidad Complutense, 28040 Madrid, Spain.'}}}, {'fullName': 'Orocio-Rodríguez E', 'firstName': 'Emmanuel', 'lastName': 'Orocio-Rodríguez', 'initials': 'E', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Complutense University of Madrid, 28040 Madrid, Spain.'}}}, {'fullName': 'Menéndez JC', 'firstName': 'J Carlos', 'lastName': 'Menéndez', 'initials': 'JC', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Unidad de Química Orgánica y Farmacéutica, Departamento de Química en Ciencias Farmacéuticas, Facultad de Farmacia, Universidad Complutense, 28040 Madrid, Spain.'}}}]}</td>
+      <td>NaN</td>
+      <td>{'issue': '8', 'volume': '15', 'journalIssueId': '3412525', 'dateOfPublication': '2022 Aug', 'monthOfPublication': '8', 'yearOfPublication': '2022', 'printPublicationDate': '2022-08-01', 'journal': {'title': 'Pharmaceuticals (Basel, Switzerland)', 'ISOAbbreviation': 'Pharmaceuticals (Basel)', 'medlineAbbreviation': 'Pharmaceuticals (Basel)', 'NLMid': '101238453', 'ISSN': '1424-8247', 'ESSN': '1424-8247'}}</td>
+      <td>2022</td>
+      <td>1009</td>
+      <td>Multicomponent reactions 9i.e., those that engage three or more starting materials to form a product that contains significant fragments of all of them), have been widely employed in the construction of compound libraries, especially in the context of diversity-oriented synthesis. While relatively less exploited, their use in target-oriented synthesis offers significant advantages in terms of synthetic efficiency. This review provides a critical summary of the use of multicomponent reactions for the preparation of active pharmaceutical principles.</td>
+      <td>Unidad de Química Orgánica y Farmacéutica, Departamento de Química en Ciencias Farmacéuticas, Facultad de Farmacia, Universidad Complutense, 28040 Madrid, Spain.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['review-article', 'Review', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': '766584 (PhD scholarship to EO-R)', 'agency': 'Mexican National Science and Technology Council', 'orderIn': '0'}, {'grantId': 'PID2021-124983OB-I00', 'agency': 'Ministerio de Ciencia e Innovación', 'orderIn': '0'}, {'grantId': 'RTI2018-097662-B-I00', 'agency': 'Ministerio de Ciencia e Innovación, Spain', 'orderIn': '0'}, {'grantId': 'RTI2018-097662-B-I00', 'agency': 'Ministerio de Ciencia e Innovación', 'orderIn': '0'}]}</td>
+      <td>{'keyword': ['Mannich Reaction', 'Ugi Reaction', 'Gewald Reaction', 'Povarov Reaction', 'Strecker Reaction', 'Hantzsch Dihydropyridine Synthesis', 'Passerini Reaction', 'Petasis Reaction', 'Asinger Reaction', 'Hantzsch Pyrrole Synthesis']}</td>
+      <td>NaN</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.3390/ph15081009'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC9416173'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC9416173?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>19</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2022-08-26</td>
+      <td>2022-08-27</td>
+      <td>2022-08-29</td>
+      <td>2022-08-30</td>
+      <td>2022-08-17</td>
+      <td>2022-08-17</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>PMC7147815</th>
+      <td>32280570</td>
+      <td>MED</td>
+      <td>32280570</td>
+      <td>PMC7147815</td>
+      <td>{'fullTextId': 'PMC7147815'}</td>
+      <td>10.1021/acssuschemeng.8b06038</td>
+      <td>Framework towards more Sustainable Chemical Synthesis Design - A Case Study of Organophosphates.</td>
+      <td>Gonzalez MA, Takkellapati S, Tadele K, Li T, Varma RS.</td>
+      <td>{'author': [{'fullName': 'Gonzalez MA', 'firstName': 'Michael A', 'lastName': 'Gonzalez', 'initials': 'MA', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'United States Environmental Protection Agency, Office of Research and Development, National Risk Management Research Laboratory, Land and Materials Management Division, 26 W. Martin Luther King Dr., Cincinnati, Ohio 45268.'}}}, {'fullName': 'Takkellapati S', 'firstName': 'Sudhakar', 'lastName': 'Takkellapati', 'initials': 'S', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-9020-0094'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'United States Environmental Protection Agency, Office of Research and Development, National Risk Management Research Laboratory, Land and Materials Management Division, 26 W. Martin Luther King Dr., Cincinnati, Ohio 45268.'}}}, {'fullName': 'Tadele K', 'firstName': 'Kidus', 'lastName': 'Tadele', 'initials': 'K', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Oak Ridge Institute for Science and Education, Oak Ridge TN, 37831.'}}}, {'fullName': 'Li T', 'firstName': 'Tao', 'lastName': 'Li', 'initials': 'T', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'United States Environmental Protection Agency, Office of Research and Development, National Risk Management Research Laboratory, Land and Materials Management Division, 26 W. Martin Luther King Dr., Cincinnati, Ohio 45268.'}}}, {'fullName': 'Varma RS', 'firstName': 'Rajender S', 'lastName': 'Varma', 'initials': 'RS', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'United States Environmental Protection Agency, Office of Research and Development, National Risk Management Research Laboratory, Land and Materials Management Division, 26 W. Martin Luther King Dr., Cincinnati, Ohio 45268.'}}}]}</td>
+      <td>{'authorId': {'@type': 'ORCID', '#text': '0000-0002-9020-0094'}}</td>
+      <td>{'issue': '7', 'volume': '7', 'journalIssueId': '2939706', 'dateOfPublication': '2019 Feb', 'monthOfPublication': '2', 'yearOfPublication': '2019', 'printPublicationDate': '2019-02-01', 'journal': {'title': 'ACS sustainable chemistry & engineering', 'ISOAbbreviation': 'ACS Sustain Chem Eng', 'medlineAbbreviation': 'ACS Sustain Chem Eng', 'NLMid': '101608852', 'ISSN': '2168-0485', 'ESSN': '2168-0485'}}</td>
+      <td>2019</td>
+      <td>6744-6757</td>
+      <td>In recent years, the advancement of sustainable chemistry concepts and approaches along with their demonstrated application has become a central part of the design, synthesis, and manufacture of a chemical. Sustainable chemistry not only utilizes the principles of green chemistry, but also expands to incorporate economic, societal, and environmental aspects. This is further elucidated by the incorporation of life cycle assessment/thinking to include the raw material production, manufacture, processing, and use and disposal stages, allowing for a comprehensive evaluation of the environmental and human health impacts attributed to a chemical. This contribution outlines an approach for the development of a preliminary framework for the sustainable synthesis of a chemical that is identified as an alternative for an existing chemical of concern. The framework is introduced concurrently with a case study for organophosphates that are selected as potential replacements for brominated flame retardants (BFRs). This framework is designed to apply existing knowledge of green chemistry to the synthesis of alternatives, along with its integration into Life Cycle Assessment culminating in the development of a more overall sustainable chemical entity when compared to its predecessor.</td>
+      <td>United States Environmental Protection Agency, Office of Research and Development, National Risk Management Research Laboratory, Land and Materials Management Division, 26 W. Martin Luther King Dr., Cincinnati, Ohio 45268.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': 'DW-89-2433001', 'agency': 'U.S. Department of Energy', 'orderIn': '0'}, {'grantId': 'EPA999999', 'agency': 'Intramural EPA', 'acronym': 'ImEPA', 'orderIn': '0'}, {'grantId': 'DW-89-2433001', 'agency': 'U.S. Environmental Protection Agency', 'orderIn': '0'}]}</td>
+      <td>{'keyword': ['Life cycle', 'Design', 'Green Chemistry', 'Sustainable Synthesis', 'Alternative Assessment']}</td>
+      <td>NaN</td>
+      <td>{'fullTextUrl': [{'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'Unpaywall', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/7147815'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1021/acssuschemeng.8b06038'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC7147815'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC7147815?pdf=render'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1021/acssuschemeng.8b06038'}]}</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>7</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>NaN</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>2020-04-14</td>
+      <td>2020-04-13</td>
+      <td>2020-10-21</td>
+      <td>2025-05-30</td>
+      <td>NaN</td>
+      <td>2019-02-01</td>
+      <td>{'dataLinkstag': 'supporting_data'}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NIHMS1546554</td>
+    </tr>
+    <tr>
+      <th>PMC7318311</th>
+      <td>32212246</td>
+      <td>MED</td>
+      <td>32212246</td>
+      <td>PMC7318311</td>
+      <td>{'fullTextId': 'PMC7318311'}</td>
+      <td>10.1002/cssc.201903577</td>
+      <td>Sustainable Battery Materials from Biomass.</td>
+      <td>Liedel C.</td>
+      <td>{'author': {'fullName': 'Liedel C', 'firstName': 'Clemens', 'lastName': 'Liedel', 'initials': 'C', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-2323-9431'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Department Colloid Chemistry, Max Planck Institute of Colloids and Interfaces, Am Mühlenberg 1, 14476, Potsdam, Germany.'}}}}</td>
+      <td>{'authorId': {'@type': 'ORCID', '#text': '0000-0002-2323-9431'}}</td>
+      <td>{'issue': '9', 'volume': '13', 'journalIssueId': '2951677', 'dateOfPublication': '2020 May', 'monthOfPublication': '5', 'yearOfPublication': '2020', 'printPublicationDate': '2020-05-01', 'journal': {'title': 'ChemSusChem', 'ISOAbbreviation': 'ChemSusChem', 'medlineAbbreviation': 'ChemSusChem', 'NLMid': '101319536', 'ISSN': '1864-5631', 'ESSN': '1864-564X'}}</td>
+      <td>2020</td>
+      <td>2110-2141</td>
+      <td>Sustainable sources of energy have been identified as a possible way out of today's oil dependency and are being rapidly developed. In contrast, storage of energy to a large extent still relies on heavy metals in batteries. Especially when built from biomass-derived organics, organic batteries are promising alternatives and pave the way towards truly sustainable energy storage. First described in 2008, research on biomass-derived electrodes has been taken up by a multitude of researchers worldwide. Nowadays, in principle, electrodes in batteries could be composed of all kinds of carbonized and noncarbonized biomass: On one hand, all kinds of (waste) biomass may be carbonized and used in anodes of lithium- or sodium-ion batteries, cathodes in metal-sulfur or metal-oxygen batteries, or as conductive additives. On the other hand, a plethora of biomolecules, such as quinones, flavins, or carboxylates, contain redox-active groups that can be used as redox-active components in electrodes with very little chemical modification. Biomass-based binders can replace toxic halogenated commercial binders to enable a truly sustainable future of energy storage devices. Besides the electrodes, electrolytes and separators may also be synthesized from biomass. In this Review, recent research progress in this rapidly emerging field is summarized with a focus on potentially fully biowaste-derived batteries.</td>
+      <td>Department Colloid Chemistry, Max Planck Institute of Colloids and Interfaces, Am Mühlenberg 1, 14476, Potsdam, Germany.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print-Electronic</td>
+      <td>{'pubType': ['review-article', 'Review', 'Journal Article']}</td>
+      <td>{'grant': [{'agency': 'Max-Planck-Gesellschaft', 'orderIn': '0'}, {'grantId': 'LI 2526/4-1', 'agency': 'Deutsche Forschungsgemeinschaft', 'orderIn': '0'}]}</td>
+      <td>{'keyword': ['Biomass', 'Electrode Materials', 'Charge Storage', 'Energy Storage', 'Organic Batteries']}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1002/cssc.201903577'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC7318311'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC7318311?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>44</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2020-03-27</td>
+      <td>2020-03-26</td>
+      <td>2020-07-10</td>
+      <td>2024-10-08</td>
+      <td>2020-04-15</td>
+      <td>2020-04-15</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2020-05-11</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    
