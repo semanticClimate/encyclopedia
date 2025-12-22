@@ -8,7 +8,7 @@ import json
 import time
 from pathlib import Path
 from typing import Dict, List, Any
-from .test_config import OUTPUT_DIR
+from test.text_links.test_config import OUTPUT_DIR
 
 class TextLinksTestRunner:
     """Test runner for text links analysis"""

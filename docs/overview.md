@@ -151,9 +151,12 @@ open ./temp/wg1_ch1/wg1_ch1_keywords.csv
 
 ### Style Compliance
 - **Import style**: Use absolute imports with module prefixes
+- **NO PYTHONPATH**: Tests and code must work without PYTHONPATH environment variable
+- **NO ENVIRONMENT VARIABLES**: Code must work without requiring environment variables
 - **File naming**: Alphanumeric characters and underscores only
 - **Code organization**: Follow established patterns and conventions
 - **Documentation**: Comprehensive README files for all components
+- **See**: [STYLE_GUIDE.md](STYLE_GUIDE.md) for complete style guide
 
 ### Best Practices
 - **Always propose changes** before implementation

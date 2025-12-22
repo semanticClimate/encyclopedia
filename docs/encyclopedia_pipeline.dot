@@ -1,0 +1,57 @@
+digraph encyclopedia_pipeline {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontname="Arial", fontsize=11];
+    edge [fontname="Arial", fontsize=9];
+    
+    // Input: Terms/Words
+    TERMS [label="Terms/Words\n(List of words/phrases)", fillcolor=lightblue, style="rounded,filled"];
+    
+    // Step 1: Create Dictionary (in ../amilib)
+    CREATE_DICT [label="1. Create Dictionary\n(../amilib/ami_dict.create_dictionary_from_words)\n• Create dictionary structure\n• Add entries from terms\n• Basic entry elements", fillcolor=lightgreen, style="rounded,filled"];
+    
+    // Step 2: Enhance Dictionary (in ../amilib)
+    ADD_WIKIPEDIA [label="2a. Add Wikipedia\n(../amilib/ami_dict.lookup_and_add_wikipedia_page)\n• Lookup Wikipedia page\n• Extract first paragraph\n• Get Wikipedia URL", fillcolor=lightyellow, style="rounded,filled"];
+    
+    ADD_WIKIDATA [label="2b. Add Wikidata\n(../amilib/ami_dict.add_wikidata_from_terms)\n• Lookup Wikidata ID\n• Get Wikidata category\n• Extract descriptions", fillcolor=lightyellow, style="rounded,filled"];
+    
+    ADD_WIKTIONARY [label="2c. Add Wiktionary\n(../amilib/ami_dict.add_wiktionary_from_terms)\n• Lookup Wiktionary page\n• Extract definitions", fillcolor=lightyellow, style="rounded,filled"];
+    
+    // Step 3: Create HTML Dictionary (in ../amilib)
+    CREATE_HTML_DICT [label="3. Create HTML Dictionary\n(../amilib/ami_dict.create_html_dictionary)\n• Convert to HTML format\n• Add semantic markup\n• Structure entries", fillcolor=lightcoral, style="rounded,filled"];
+    
+    // Step 4: Create Encyclopedia (in ../amilib)
+    CREATE_ENCYCLOPEDIA [label="4. Create Encyclopedia\n(../amilib/ami_encyclopedia.create_from_html_content)\n• Parse HTML dictionary\n• Extract entries with metadata\n• Extract Wikidata IDs\n• Extract Wikipedia URLs", fillcolor=lightpink, style="rounded,filled"];
+    
+    // Step 5: Normalize & Merge (in ../amilib)
+    NORMALIZE [label="5. Normalize by Wikidata ID\n(../amilib/ami_encyclopedia.normalize_by_wikidata_id)\n• Group entries by Wikidata ID\n• Identify synonyms", fillcolor=lightsteelblue, style="rounded,filled"];
+    
+    MERGE_SYNONYMS [label="6. Merge Synonyms\n(../amilib/ami_encyclopedia.merge_synonyms_by_wikidata_id)\n• Merge entries with same Wikidata ID\n• Aggregate terms\n• Create canonical entries", fillcolor=lightsteelblue, style="rounded,filled"];
+    
+    // Step 7: Generate Output (in ../amilib)
+    ENCYCLOPEDIA_HTML [label="7. Generate Encyclopedia HTML\n(../amilib/ami_encyclopedia.generate_html)\n• Structured entries\n• Semantic markup\n• Interactive features\n• Links & references", fillcolor=lightcyan, style="rounded,filled"];
+    
+    // Output
+    OUTPUT [label="Encyclopedia Output\n• HTML with enhanced entries\n• Wikipedia content\n• Wikidata IDs\n• Normalized synonyms\n• Links & references", fillcolor=wheat, style="rounded,filled"];
+    
+    // Flow
+    TERMS -> CREATE_DICT;
+    
+    CREATE_DICT -> ADD_WIKIPEDIA;
+    CREATE_DICT -> ADD_WIKIDATA;
+    CREATE_DICT -> ADD_WIKTIONARY;
+    
+    ADD_WIKIPEDIA -> CREATE_HTML_DICT;
+    ADD_WIKIDATA -> CREATE_HTML_DICT;
+    ADD_WIKTIONARY -> CREATE_HTML_DICT;
+    
+    CREATE_HTML_DICT -> CREATE_ENCYCLOPEDIA;
+    
+    CREATE_ENCYCLOPEDIA -> NORMALIZE;
+    NORMALIZE -> MERGE_SYNONYMS;
+    MERGE_SYNONYMS -> ENCYCLOPEDIA_HTML;
+    
+    ENCYCLOPEDIA_HTML -> OUTPUT;
+    
+    // Styling
+    {rank=same; ADD_WIKIPEDIA; ADD_WIKIDATA; ADD_WIKTIONARY}
+}

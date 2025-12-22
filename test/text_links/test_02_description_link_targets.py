@@ -7,8 +7,8 @@ import pytest
 from pathlib import Path
 import json
 from urllib.parse import urljoin
-from .test_config import CURRENT_ENCYCLOPEDIA_FILE, OUTPUT_DIR, MIN_LINKS_PER_ENTRY
-from .link_extractor import EncyclopediaLinkExtractor, LinkValidator
+from test.text_links.test_config import CURRENT_ENCYCLOPEDIA_FILE, OUTPUT_DIR, MIN_LINKS_PER_ENTRY
+from test.text_links.link_extractor import EncyclopediaLinkExtractor, LinkValidator
 
 class TestDescriptionLinkTargets:
     """Test extraction and validation of description links"""

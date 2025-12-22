@@ -1,0 +1,67 @@
+digraph encyclopedia_structure {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontname="Arial", fontsize=10];
+    edge [fontname="Arial", fontsize=9];
+    
+    // Title
+    TITLE [label="Simple Encyclopedia Example\n10 Entries", fillcolor=lightblue, style="rounded,filled", URL="simple_encyclopedia_example.html"];
+    
+    // Synonym Group 1: Climate Change
+    CC_GROUP [label="Synonym Group 1\nWikidata: Q7942", fillcolor=lightgreen, style="rounded,filled"];
+    CC [label="Climate Change\nQ7942\nWikipedia ✓", fillcolor=lightyellow, style="rounded,filled", URL="simple_encyclopedia_example.html#climate_change"];
+    GW [label="Global Warming\nQ7942\nWikipedia ✓", fillcolor=lightyellow, style="rounded,filled", URL="simple_encyclopedia_example.html#global_warming"];
+    
+    // Synonym Group 2: Carbon Dioxide
+    CO2_GROUP [label="Synonym Group 2\nWikidata: Q1218", fillcolor=lightgreen, style="rounded,filled"];
+    CO2 [label="Carbon Dioxide\nQ1218\nWikipedia ✓", fillcolor=lightyellow, style="rounded,filled", URL="simple_encyclopedia_example.html#carbon_dioxide"];
+    CO2_FORMULA [label="CO₂\nQ1218\nWikipedia ✓", fillcolor=lightyellow, style="rounded,filled", URL="simple_encyclopedia_example.html#co2"];
+    
+    // Individual Entries with Wikidata
+    GHG [label="Greenhouse Gas\nQ13138\nWikipedia ✓", fillcolor=lightyellow, style="rounded,filled", URL="simple_encyclopedia_example.html#greenhouse_gas"];
+    FF [label="Fossil Fuels\nQ188425\nWikipedia ✓", fillcolor=lightyellow, style="rounded,filled", URL="simple_encyclopedia_example.html#fossil_fuels"];
+    GE [label="Greenhouse Effect\nQ193078\nWikipedia ✓", fillcolor=lightyellow, style="rounded,filled", URL="simple_encyclopedia_example.html#greenhouse_effect"];
+    CH4 [label="Methane\nQ1490\nWikipedia ✓", fillcolor=lightyellow, style="rounded,filled", URL="simple_encyclopedia_example.html#methane"];
+    RE [label="Renewable Energy\nQ188836\nWikipedia ✓", fillcolor=lightyellow, style="rounded,filled", URL="simple_encyclopedia_example.html#renewable_energy"];
+    
+    // Entry without Wikidata
+    IPCC [label="IPCC\nNo Wikidata\nWikipedia ✓", fillcolor=lightcoral, style="rounded,filled", URL="simple_encyclopedia_example.html#ipcc"];
+    
+    // Links between entries
+    TITLE -> CC_GROUP;
+    TITLE -> CO2_GROUP;
+    TITLE -> GHG;
+    TITLE -> FF;
+    TITLE -> GE;
+    TITLE -> CH4;
+    TITLE -> RE;
+    TITLE -> IPCC;
+    
+    CC_GROUP -> CC;
+    CC_GROUP -> GW;
+    
+    CO2_GROUP -> CO2;
+    CO2_GROUP -> CO2_FORMULA;
+    
+    // Cross-references (links in descriptions)
+    CC -> GHG [label="links to", style=dashed, color=gray];
+    CC -> FF [label="links to", style=dashed, color=gray];
+    GW -> GHG [label="links to", style=dashed, color=gray];
+    GHG -> GE [label="links to", style=dashed, color=gray];
+    CO2 -> GHG [label="links to", style=dashed, color=gray];
+    CO2 -> CC [label="links to", style=dashed, color=gray];
+    FF -> CO2 [label="links to", style=dashed, color=gray];
+    FF -> GHG [label="links to", style=dashed, color=gray];
+    FF -> CC [label="links to", style=dashed, color=gray];
+    GE -> GHG [label="links to", style=dashed, color=gray];
+    GE -> GW [label="links to", style=dashed, color=gray];
+    CH4 -> GHG [label="links to", style=dashed, color=gray];
+    CH4 -> CO2 [label="links to", style=dashed, color=gray];
+    RE -> CC [label="links to", style=dashed, color=gray];
+    RE -> FF [label="links to", style=dashed, color=gray];
+    IPCC -> CC [label="links to", style=dashed, color=gray];
+    
+    // Styling
+    {rank=same; CC_GROUP; CO2_GROUP}
+    {rank=same; CC; GW; CO2; CO2_FORMULA}
+}
+

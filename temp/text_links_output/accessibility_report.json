@@ -1,27 +1,27 @@
 {
-  "/wiki/Earth%27s_energy_budget": {
-    "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Earth%27s_energy_budget",
-    "accessible": true
-  },
-  "/wiki/Radiative_flux": {
-    "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Radiative_flux",
-    "accessible": true
-  },
   "/wiki/Monotreme": {
     "status_code": 200,
     "final_url": "https://en.wikipedia.org/wiki/Monotreme",
     "accessible": true
   },
-  "/wiki/Synoptic_scale": {
+  "/wiki/Subtropical_cyclone": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Synoptic_scale",
+    "final_url": "https://en.wikipedia.org/wiki/Subtropical_cyclone",
     "accessible": true
   },
-  "/wiki/Sense": {
+  "/wiki/Psychology": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Sense",
+    "final_url": "https://en.wikipedia.org/wiki/Psychology",
+    "accessible": true
+  },
+  "/wiki/Control_group": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Control_group",
+    "accessible": true
+  },
+  "/wiki/Primate": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Primate",
     "accessible": true
   }
 }

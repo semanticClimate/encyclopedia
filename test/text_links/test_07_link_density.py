@@ -7,8 +7,8 @@ import pytest
 from pathlib import Path
 import json
 from collections import Counter
-from .test_config import CURRENT_ENCYCLOPEDIA_FILE, OUTPUT_DIR
-from .link_extractor import EncyclopediaLinkExtractor
+from test.text_links.test_config import CURRENT_ENCYCLOPEDIA_FILE, OUTPUT_DIR
+from test.text_links.link_extractor import EncyclopediaLinkExtractor
 
 class TestLinkDensity:
     """Test analysis of link density and patterns"""

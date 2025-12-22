@@ -3,9 +3,10 @@
   "successful": 1,
   "failed": 3,
   "error_categories": {
-    "client_errors": [],
+    "client_errors": [
+      "https://httpbin.org/status/404"
+    ],
     "server_errors": [
-      "https://httpbin.org/status/404",
       "https://httpbin.org/status/500"
     ],
     "network_errors": [
@@ -19,7 +20,7 @@
       "accessible": true
     },
     "https://httpbin.org/status/404": {
-      "status_code": 502,
+      "status_code": 404,
       "accessible": false
     },
     "https://httpbin.org/status/500": {

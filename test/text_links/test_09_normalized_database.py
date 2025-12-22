@@ -7,8 +7,8 @@ import pytest
 from pathlib import Path
 import json
 from collections import defaultdict
-from .test_config import CURRENT_ENCYCLOPEDIA_FILE, OUTPUT_DIR
-from .link_extractor import EncyclopediaLinkExtractor, LinkValidator
+from test.text_links.test_config import CURRENT_ENCYCLOPEDIA_FILE, OUTPUT_DIR
+from test.text_links.link_extractor import EncyclopediaLinkExtractor, LinkValidator
 
 class TestNormalizedLinkDatabase:
     """Test building normalized link database"""

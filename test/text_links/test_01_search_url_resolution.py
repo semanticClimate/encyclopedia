@@ -6,8 +6,8 @@ Purpose: Verify the search URL resolves to a canonical article URL
 import pytest
 from pathlib import Path
 import json
-from .test_config import CURRENT_ENCYCLOPEDIA_FILE, OUTPUT_DIR, MAX_REDIRECT_DEPTH
-from .link_extractor import EncyclopediaLinkExtractor, LinkValidator
+from test.text_links.test_config import CURRENT_ENCYCLOPEDIA_FILE, OUTPUT_DIR, MAX_REDIRECT_DEPTH
+from test.text_links.link_extractor import EncyclopediaLinkExtractor, LinkValidator
 
 class TestSearchUrlResolution:
     """Test search URL resolution to canonical article URLs"""

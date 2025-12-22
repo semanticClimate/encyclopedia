@@ -5,8 +5,8 @@ Execute all tests and generate reports
 
 import sys
 from pathlib import Path
-from .test_utilities import TextLinksTestRunner, TextLinksReportGenerator
-from .test_config import OUTPUT_DIR
+from test.text_links.test_utilities import TextLinksTestRunner, TextLinksReportGenerator
+from test.text_links.test_config import OUTPUT_DIR
 
 def main():
     """Main test execution function"""

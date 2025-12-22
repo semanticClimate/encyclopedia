@@ -1,0 +1,71 @@
+digraph capabilities_pipeline {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontname="Arial", fontsize=10];
+    edge [fontname="Arial", fontsize=9];
+    
+    // Input
+    INPUT [label="Input\n• Terms/Words\n• Documents\n• CSV files", fillcolor=lightblue, style="rounded,filled"];
+    
+    // Keyword Extraction
+    KEYWORD_EXTRACT [label="Keyword Extraction\n(Keyword_extraction/)\n• AI-powered extraction\n• Hugging Face models\n• CSV output", fillcolor=lightgreen, style="rounded,filled"];
+    
+    // Dictionary Creation
+    CREATE_DICT [label="Create Dictionary\n(amilib.ami_dict)\n• Basic structure\n• Entry elements", fillcolor=lightyellow, style="rounded,filled"];
+    
+    // Enhancement (parallel)
+    ADD_WIKIPEDIA [label="Add Wikipedia\n(amilib.ami_dict)\n• Page lookup\n• First paragraph\n• URLs", fillcolor=lightyellow, style="rounded,filled"];
+    ADD_WIKIDATA [label="Add Wikidata\n(amilib.ami_dict)\n• ID lookup\n• Categories\n• Descriptions", fillcolor=lightyellow, style="rounded,filled"];
+    ADD_WIKTIONARY [label="Add Wiktionary\n(amilib.ami_dict)\n• Definitions", fillcolor=lightyellow, style="rounded,filled"];
+    
+    // HTML Dictionary
+    HTML_DICT [label="HTML Dictionary\n(amilib.ami_dict)\n• Structured HTML\n• Semantic markup", fillcolor=lightcoral, style="rounded,filled"];
+    
+    // Encyclopedia Processing
+    CREATE_ENCYCLOPEDIA [label="Create Encyclopedia\n(encyclopedia.core)\n• Parse HTML\n• Extract entries\n• Extract metadata", fillcolor=lightpink, style="rounded,filled"];
+    
+    NORMALIZE [label="Normalize by Wikidata ID\n(encyclopedia.core)\n• Group synonyms\n• Identify duplicates", fillcolor=lightsteelblue, style="rounded,filled"];
+    
+    MERGE [label="Merge Synonyms\n(encyclopedia.core)\n• Aggregate terms\n• Create canonical entries", fillcolor=lightsteelblue, style="rounded,filled"];
+    
+    // Link Analysis
+    LINK_EXTRACT [label="Link Extraction\n(test/text_links)\n• Extract all links\n• Classify types", fillcolor=wheat, style="rounded,filled"];
+    
+    LINK_ANALYSIS [label="Link Analysis\n(test/text_links)\n• Build graphs\n• Find shared links\n• Validate accessibility", fillcolor=wheat, style="rounded,filled"];
+    
+    // Outputs
+    OUTPUT_ENCYCLOPEDIA [label="Encyclopedia HTML\n• Enhanced entries\n• Normalized synonyms\n• Wikipedia content", fillcolor=lightcyan, style="rounded,filled"];
+    
+    OUTPUT_LINKS [label="Link Analysis Reports\n• JSON data\n• HTML reports\n• Graph visualizations", fillcolor=lightcyan, style="rounded,filled"];
+    
+    OUTPUT_KEYWORDS [label="Keywords CSV\n• Extracted terms\n• Frequency data", fillcolor=lightcyan, style="rounded,filled"];
+    
+    // Flow
+    INPUT -> KEYWORD_EXTRACT;
+    INPUT -> CREATE_DICT;
+    
+    KEYWORD_EXTRACT -> OUTPUT_KEYWORDS;
+    KEYWORD_EXTRACT -> CREATE_DICT;
+    
+    CREATE_DICT -> ADD_WIKIPEDIA;
+    CREATE_DICT -> ADD_WIKIDATA;
+    CREATE_DICT -> ADD_WIKTIONARY;
+    
+    ADD_WIKIPEDIA -> HTML_DICT;
+    ADD_WIKIDATA -> HTML_DICT;
+    ADD_WIKTIONARY -> HTML_DICT;
+    
+    HTML_DICT -> CREATE_ENCYCLOPEDIA;
+    
+    CREATE_ENCYCLOPEDIA -> NORMALIZE;
+    NORMALIZE -> MERGE;
+    MERGE -> OUTPUT_ENCYCLOPEDIA;
+    
+    OUTPUT_ENCYCLOPEDIA -> LINK_EXTRACT;
+    LINK_EXTRACT -> LINK_ANALYSIS;
+    LINK_ANALYSIS -> OUTPUT_LINKS;
+    
+    // Styling
+    {rank=same; ADD_WIKIPEDIA; ADD_WIKIDATA; ADD_WIKTIONARY}
+    {rank=same; OUTPUT_ENCYCLOPEDIA; OUTPUT_LINKS; OUTPUT_KEYWORDS}
+}
+

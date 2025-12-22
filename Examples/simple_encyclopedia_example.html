@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Encyclopedia Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        div[role="ami_encyclopedia"] {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        div[role="ami_entry"] {
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        .entry-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .synonyms {
+            font-style: italic;
+            color: #666;
+            margin: 5px 0;
+        }
+        .wikidata-info {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin: 5px 0;
+        }
+        .wikipedia-link {
+            color: #3498db;
+            text-decoration: none;
+            margin: 5px 0;
+            display: inline-block;
+        }
+        .wikipedia-link:hover {
+            text-decoration: underline;
+        }
+        .description {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .description a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .description a:hover {
+            text-decoration: underline;
+        }
+        .wikidata-category {
+            font-weight: bold;
+            color: #27ae60;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Encyclopedia Example</h1>
+    <p><em>This example demonstrates an encyclopedia with 10 terms, including synonyms, Wikimedia-enhanced entries, and links.</em></p>
+    
+    <div role="ami_encyclopedia" title="Simple Encyclopedia Example">
+        
+        <!-- Entry 1: Climate Change (with synonyms) -->
+        <div id="climate_change" role="ami_entry" term="Climate Change" wikidataID="Q7942">
+            <div class="entry-title">Climate Change</div>
+            <div class="synonyms">Also known as: Global Warming, Climate Crisis</div>
+            <div class="wikidata-info">Wikidata ID: Q7942</div>
+            <div class="wikidata-category">Category: Environmental Issue</div>
+            <a href="https://en.wikipedia.org/wiki/Climate_change" class="wikipedia-link">Wikipedia: Climate change</a>
+            <p class="description">
+                Climate change refers to long-term shifts in global temperatures and weather patterns. 
+                While climate change is a natural phenomenon, scientific evidence shows that human activities 
+                since the mid-20th century have accelerated these changes. The primary driver is the 
+                increased emission of <a href="#greenhouse_gas">greenhouse gases</a> from burning 
+                <a href="#fossil_fuels">fossil fuels</a>, deforestation, and industrial processes.
+            </p>
+        </div>
+        
+        <!-- Entry 2: Global Warming (synonym of Climate Change) -->
+        <div id="global_warming" role="ami_entry" term="Global Warming" wikidataID="Q7942">
+            <div class="entry-title">Global Warming</div>
+            <div class="synonyms">Also known as: Climate Change, Climate Crisis</div>
+            <div class="wikidata-info">Wikidata ID: Q7942 (merged with Climate Change)</div>
+            <div class="wikidata-category">Category: Environmental Issue</div>
+            <a href="https://en.wikipedia.org/wiki/Global_warming" class="wikipedia-link">Wikipedia: Global warming</a>
+            <p class="description">
+                Global warming is the long-term heating of Earth's climate system observed since the 
+                pre-industrial period due to human activities, primarily fossil fuel burning, which 
+                increases heat-trapping <a href="#greenhouse_gas">greenhouse gas</a> levels in Earth's atmosphere.
+            </p>
+        </div>
+        
+        <!-- Entry 3: Greenhouse Gas -->
+        <div id="greenhouse_gas" role="ami_entry" term="Greenhouse Gas" wikidataID="Q13138">
+            <div class="entry-title">Greenhouse Gas</div>
+            <div class="wikidata-info">Wikidata ID: Q13138</div>
+            <div class="wikidata-category">Category: Atmospheric Chemistry</div>
+            <a href="https://en.wikipedia.org/wiki/Greenhouse_gas" class="wikipedia-link">Wikipedia: Greenhouse gas</a>
+            <p class="description">
+                A greenhouse gas is a gas that absorbs and emits radiant energy within the thermal 
+                infrared range, causing the <a href="#greenhouse_effect">greenhouse effect</a>. 
+                The primary greenhouse gases in Earth's atmosphere are water vapor, carbon dioxide, 
+                methane, nitrous oxide, and ozone.
+            </p>
+        </div>
+        
+        <!-- Entry 4: Carbon Dioxide (with synonyms) -->
+        <div id="carbon_dioxide" role="ami_entry" term="Carbon Dioxide" wikidataID="Q1218">
+            <div class="entry-title">Carbon Dioxide</div>
+            <div class="synonyms">Also known as: CO₂, Carbon(IV) oxide</div>
+            <div class="wikidata-info">Wikidata ID: Q1218</div>
+            <div class="wikidata-category">Category: Chemical Compound</div>
+            <a href="https://en.wikipedia.org/wiki/Carbon_dioxide" class="wikipedia-link">Wikipedia: Carbon dioxide</a>
+            <p class="description">
+                Carbon dioxide (CO₂) is a chemical compound made up of molecules that each have one 
+                carbon atom covalently double bonded to two oxygen atoms. It is found in the gas state 
+                at room temperature and is a major <a href="#greenhouse_gas">greenhouse gas</a> 
+                contributing to <a href="#climate_change">climate change</a>.
+            </p>
+        </div>
+        
+        <!-- Entry 5: CO₂ (synonym of Carbon Dioxide) -->
+        <div id="co2" role="ami_entry" term="CO₂" wikidataID="Q1218">
+            <div class="entry-title">CO₂</div>
+            <div class="synonyms">Also known as: Carbon Dioxide, Carbon(IV) oxide</div>
+            <div class="wikidata-info">Wikidata ID: Q1218 (merged with Carbon Dioxide)</div>
+            <div class="wikidata-category">Category: Chemical Compound</div>
+            <a href="https://en.wikipedia.org/wiki/Carbon_dioxide" class="wikipedia-link">Wikipedia: Carbon dioxide</a>
+            <p class="description">
+                CO₂ is the chemical formula for carbon dioxide, a colorless gas with a density about 
+                53% higher than that of dry air. It is produced by respiration and combustion of 
+                <a href="#fossil_fuels">fossil fuels</a>.
+            </p>
+        </div>
+        
+        <!-- Entry 6: Fossil Fuels -->
+        <div id="fossil_fuels" role="ami_entry" term="Fossil Fuels" wikidataID="Q188425">
+            <div class="entry-title">Fossil Fuels</div>
+            <div class="wikidata-info">Wikidata ID: Q188425</div>
+            <div class="wikidata-category">Category: Energy Source</div>
+            <a href="https://en.wikipedia.org/wiki/Fossil_fuel" class="wikipedia-link">Wikipedia: Fossil fuel</a>
+            <p class="description">
+                Fossil fuels are hydrocarbon-containing materials such as coal, oil, and natural gas, 
+                formed naturally in the Earth's crust from the remains of dead plants and animals 
+                that are extracted and burned as a fuel. When burned, they release large amounts of 
+                <a href="#carbon_dioxide">carbon dioxide</a>, a <a href="#greenhouse_gas">greenhouse gas</a> 
+                that contributes to <a href="#climate_change">climate change</a>.
+            </p>
+        </div>
+        
+        <!-- Entry 7: IPCC (no Wikidata, basic entry) -->
+        <div id="ipcc" role="ami_entry" term="IPCC">
+            <div class="entry-title">IPCC</div>
+            <div class="wikidata-info">Wikidata ID: Not available</div>
+            <a href="https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change" class="wikipedia-link">Wikipedia: Intergovernmental Panel on Climate Change</a>
+            <p class="description">
+                The Intergovernmental Panel on Climate Change (IPCC) is a United Nations body for 
+                assessing the science related to <a href="#climate_change">climate change</a>. 
+                It provides policymakers with regular scientific assessments on climate change, its 
+                implications and potential future risks.
+            </p>
+        </div>
+        
+        <!-- Entry 8: Greenhouse Effect -->
+        <div id="greenhouse_effect" role="ami_entry" term="Greenhouse Effect" wikidataID="Q193078">
+            <div class="entry-title">Greenhouse Effect</div>
+            <div class="wikidata-info">Wikidata ID: Q193078</div>
+            <div class="wikidata-category">Category: Atmospheric Phenomenon</div>
+            <a href="https://en.wikipedia.org/wiki/Greenhouse_effect" class="wikipedia-link">Wikipedia: Greenhouse effect</a>
+            <p class="description">
+                The greenhouse effect is the process by which radiation from a planet's atmosphere 
+                warms the planet's surface to a temperature above what it would be without this atmosphere. 
+                <a href="#greenhouse_gas">Greenhouse gases</a> in the atmosphere trap heat, contributing 
+                to <a href="#global_warming">global warming</a>.
+            </p>
+        </div>
+        
+        <!-- Entry 9: Methane -->
+        <div id="methane" role="ami_entry" term="Methane" wikidataID="Q1490">
+            <div class="entry-title">Methane</div>
+            <div class="wikidata-info">Wikidata ID: Q1490</div>
+            <div class="wikidata-category">Category: Chemical Compound</div>
+            <a href="https://en.wikipedia.org/wiki/Methane" class="wikipedia-link">Wikipedia: Methane</a>
+            <p class="description">
+                Methane (CH₄) is a chemical compound with the chemical formula CH₄. It is a group-14 
+                hydride and the simplest alkane, and is the main constituent of natural gas. Methane is 
+                a potent <a href="#greenhouse_gas">greenhouse gas</a>, with a global warming potential 
+                much higher than <a href="#carbon_dioxide">carbon dioxide</a> over a 20-year period.
+            </p>
+        </div>
+        
+        <!-- Entry 10: Renewable Energy -->
+        <div id="renewable_energy" role="ami_entry" term="Renewable Energy" wikidataID="Q188836">
+            <div class="entry-title">Renewable Energy</div>
+            <div class="wikidata-info">Wikidata ID: Q188836</div>
+            <div class="wikidata-category">Category: Energy Technology</div>
+            <a href="https://en.wikipedia.org/wiki/Renewable_energy" class="wikipedia-link">Wikipedia: Renewable energy</a>
+            <p class="description">
+                Renewable energy is energy from sources that are naturally replenishing but flow-limited. 
+                Renewable resources are virtually inexhaustible in duration but limited in the amount of 
+                energy that is available per unit of time. Examples include solar, wind, and hydroelectric 
+                power. Transitioning to renewable energy is crucial for mitigating <a href="#climate_change">climate change</a> 
+                and reducing dependence on <a href="#fossil_fuels">fossil fuels</a>.
+            </p>
+        </div>
+        
+    </div>
+    
+    <div style="margin-top: 30px; padding: 20px; background-color: #ecf0f1; border-radius: 5px;">
+        <h2>Encyclopedia Statistics</h2>
+        <ul>
+            <li><strong>Total Entries:</strong> 10</li>
+            <li><strong>Entries with Wikidata IDs:</strong> 9</li>
+            <li><strong>Synonym Groups:</strong> 2 (Climate Change/Global Warming, Carbon Dioxide/CO₂)</li>
+            <li><strong>Entries with Wikipedia Links:</strong> 10</li>
+            <li><strong>Internal Links:</strong> 15+ cross-references between entries</li>
+        </ul>
+    </div>
+</body>
+</html>
+
