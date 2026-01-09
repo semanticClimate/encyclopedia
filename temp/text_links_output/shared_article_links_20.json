@@ -1,0 +1,319 @@
+{
+  "total_processed_entries": 20,
+  "article_link_counts": {
+    "https://en.wikipedia.org/wiki/Friction_ridge": 1,
+    "https://en.wikipedia.org/wiki/Finger": 1,
+    "https://en.wikipedia.org/wiki/Forensic_science": 1,
+    "https://en.wikipedia.org/wiki/Earth%27s_energy_budget": 1,
+    "https://en.wikipedia.org/wiki/Greenhouse_gas": 1,
+    "https://en.wikipedia.org/wiki/Aerosol": 1,
+    "https://en.wikipedia.org/wiki/Albedo": 1,
+    "https://en.wikipedia.org/wiki/Solar_irradiance": 1,
+    "https://en.wikipedia.org/wiki/Radiative_flux": 1,
+    "https://en.wikipedia.org/wiki/Climate_change_feedback": 1,
+    "https://en.wikipedia.org/wiki/Climate_variability_and_change": 1,
+    "https://en.wikipedia.org/wiki/Climate_system": 1,
+    "https://en.wikipedia.org/wiki/Earth%27s_energy_imbalance": 1,
+    "https://en.wikipedia.org/wiki/Tropopause": 1,
+    "https://en.wikipedia.org/wiki/Stratosphere": 1,
+    "https://en.wikipedia.org/wiki/Watt": 1,
+    "https://en.wikipedia.org/wiki/Meter": 1,
+    "https://en.wikipedia.org/wiki/Meteorology": 1,
+    "https://en.wikipedia.org/wiki/Air_mass": 1,
+    "https://en.wikipedia.org/wiki/Atmospheric_pressure": 1,
+    "https://en.wikipedia.org/wiki/Northern_Hemisphere": 2,
+    "https://en.wikipedia.org/wiki/Southern_Hemisphere": 2,
+    "https://en.wikipedia.org/wiki/Anticyclone": 1,
+    "https://en.wikipedia.org/wiki/Low_pressure": 1,
+    "https://en.wikipedia.org/wiki/Polar_vortices": 1,
+    "https://en.wikipedia.org/wiki/Extratropical_cyclone": 1,
+    "https://en.wikipedia.org/wiki/Synoptic_scale": 1,
+    "https://en.wikipedia.org/wiki/Tropical_cyclone": 1,
+    "https://en.wikipedia.org/wiki/Subtropical_cyclone": 1,
+    "https://en.wikipedia.org/wiki/Mesocyclone": 1,
+    "https://en.wikipedia.org/wiki/Tornado": 1,
+    "https://en.wikipedia.org/wiki/Dust_devil": 1,
+    "https://en.wikipedia.org/wiki/Mesoscale_meteorology": 1,
+    "https://en.wikipedia.org/wiki/Epidemiology": 1,
+    "https://en.wikipedia.org/wiki/Social_science": 1,
+    "https://en.wikipedia.org/wiki/Psychology": 1,
+    "https://en.wikipedia.org/wiki/Statistics": 1,
+    "https://en.wikipedia.org/wiki/Sample_(statistics)": 1,
+    "https://en.wikipedia.org/wiki/Statistical_population": 1,
+    "https://en.wikipedia.org/wiki/Dependent_and_independent_variables": 1,
+    "https://en.wikipedia.org/wiki/Scientific_control": 1,
+    "https://en.wikipedia.org/wiki/Control_group": 1,
+    "https://en.wikipedia.org/wiki/Experiment": 1,
+    "https://en.wikipedia.org/wiki/Randomized_controlled_trial": 1,
+    "https://en.wikipedia.org/wiki/Random_assignment": 1,
+    "https://en.wikipedia.org/wiki/Hair": 1,
+    "https://en.wikipedia.org/wiki/Theria": 1,
+    "https://en.wikipedia.org/wiki/Mammals": 1,
+    "https://en.wikipedia.org/wiki/Sense": 1,
+    "https://en.wikipedia.org/wiki/Tactile_sensor": 1,
+    "https://en.wikipedia.org/wiki/Primate": 1,
+    "https://en.wikipedia.org/wiki/Nocturnality": 1,
+    "https://en.wikipedia.org/wiki/Monotreme": 1,
+    "https://en.wikipedia.org/wiki/Electromagnetic_radiation": 1,
+    "https://en.wikipedia.org/wiki/Wavelength": 1,
+    "https://en.wikipedia.org/wiki/Visible_light": 1,
+    "https://en.wikipedia.org/wiki/Microwaves": 1,
+    "https://en.wikipedia.org/wiki/Spectral_band": 1,
+    "https://en.wikipedia.org/wiki/Red": 1,
+    "https://en.wikipedia.org/wiki/Visible_spectrum": 1,
+    "https://en.wikipedia.org/wiki/Nanometre": 1,
+    "https://en.wikipedia.org/wiki/Hertz": 2,
+    "https://en.wikipedia.org/wiki/Millimetre": 1,
+    "https://en.wikipedia.org/wiki/Solar_spectrum": 1,
+    "https://en.wikipedia.org/wiki/Terahertz_radiation": 1,
+    "https://en.wikipedia.org/wiki/Black-body_radiation": 1,
+    "https://en.wikipedia.org/wiki/Room_temperature": 1,
+    "https://en.wikipedia.org/wiki/Energy": 1,
+    "https://en.wikipedia.org/wiki/Momentum": 1,
+    "https://en.wikipedia.org/wiki/Radiation_pressure": 1,
+    "https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality": 1,
+    "https://en.wikipedia.org/wiki/Wave": 1,
+    "https://en.wikipedia.org/wiki/Subatomic_particle": 1,
+    "https://en.wikipedia.org/wiki/Photon": 1,
+    "https://en.wikipedia.org/wiki/Intergovernmental_body": 1,
+    "https://en.wikipedia.org/wiki/United_Nations": 1,
+    "https://en.wikipedia.org/wiki/Climate_change": 2,
+    "https://en.wikipedia.org/wiki/World_Meteorological_Organization": 1,
+    "https://en.wikipedia.org/wiki/United_Nations_Environment_Programme": 1,
+    "https://en.wikipedia.org/wiki/United_Nations_General_Assembly": 1,
+    "https://en.wikipedia.org/wiki/Geneva": 1,
+    "https://en.wikipedia.org/wiki/Member_states_of_the_United_Nations": 1,
+    "https://en.wikipedia.org/wiki/Telemetry": 1,
+    "https://en.wikipedia.org/wiki/Weather_balloon": 1,
+    "https://en.wikipedia.org/wiki/Atmospheric_sounding": 1,
+    "https://en.wikipedia.org/wiki/Altitude": 1,
+    "https://en.wikipedia.org/wiki/Pressure": 1,
+    "https://en.wikipedia.org/wiki/Temperature": 1,
+    "https://en.wikipedia.org/wiki/Relative_humidity": 1,
+    "https://en.wikipedia.org/wiki/Wind": 1,
+    "https://en.wikipedia.org/wiki/Wind_speed": 1,
+    "https://en.wikipedia.org/wiki/Wind_direction": 1,
+    "https://en.wikipedia.org/wiki/Cosmic_ray": 1,
+    "https://en.wikipedia.org/wiki/Geographic_coordinate_system": 1,
+    "https://en.wikipedia.org/wiki/Latitude": 1,
+    "https://en.wikipedia.org/wiki/Longitude": 1,
+    "https://en.wikipedia.org/wiki/Ozone": 1,
+    "https://en.wikipedia.org/wiki/South_America": 1,
+    "https://en.wikipedia.org/wiki/List_of_South_American_countries_by_area": 1,
+    "https://en.wikipedia.org/wiki/Brazil": 1,
+    "https://en.wikipedia.org/wiki/Americas": 2,
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area": 1,
+    "https://en.wikipedia.org/wiki/Southern_Cone": 1,
+    "https://en.wikipedia.org/wiki/Chile": 1,
+    "https://en.wikipedia.org/wiki/Bolivia": 1,
+    "https://en.wikipedia.org/wiki/Paraguay": 1,
+    "https://en.wikipedia.org/wiki/Uruguay": 1,
+    "https://en.wikipedia.org/wiki/Atlantic_Ocean": 1,
+    "https://en.wikipedia.org/wiki/Drake_Passage": 1,
+    "https://en.wikipedia.org/wiki/Federation": 1,
+    "https://en.wikipedia.org/wiki/Provinces_of_Argentina": 1,
+    "https://en.wikipedia.org/wiki/Autonomous_city": 1,
+    "https://en.wikipedia.org/wiki/Federal_capital": 1,
+    "https://en.wikipedia.org/wiki/List_of_cities_in_Argentina_by_population": 1,
+    "https://en.wikipedia.org/wiki/Buenos_Aires": 1,
+    "https://en.wikipedia.org/wiki/Federalism": 1,
+    "https://en.wikipedia.org/wiki/Falkland_Islands_sovereignty_dispute": 1,
+    "https://en.wikipedia.org/wiki/South_Georgia_and_the_South_Sandwich_Islands_sovereignty_dispute": 1,
+    "https://en.wikipedia.org/wiki/Southern_Patagonian_Ice_Field_dispute": 1,
+    "https://en.wikipedia.org/wiki/Argentine_Antarctica": 1,
+    "https://en.wikipedia.org/wiki/Ice_age": 1,
+    "https://en.wikipedia.org/wiki/Interglacial": 1,
+    "https://en.wikipedia.org/wiki/Global_warming": 2,
+    "https://en.wikipedia.org/wiki/Sea_level_rise": 1,
+    "https://en.wikipedia.org/wiki/Glacier": 1,
+    "https://en.wikipedia.org/wiki/Ice_sheet": 1,
+    "https://en.wikipedia.org/wiki/Earth": 1,
+    "https://en.wikipedia.org/wiki/Cryosphere": 1,
+    "https://en.wikipedia.org/wiki/Ablation": 1,
+    "https://en.wikipedia.org/wiki/Last_Glacial_Maximum": 1,
+    "https://en.wikipedia.org/wiki/Holocene": 1,
+    "https://en.wikipedia.org/wiki/Retreat_of_glaciers_since_1850": 1,
+    "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change": 1,
+    "https://en.wikipedia.org/wiki/IPCCAssessment_reports": 1,
+    "https://en.wikipedia.org/wiki/IPCC_Fourth_Assessment_Report": 1,
+    "https://en.wikipedia.org/wiki/Representative_Concentration_Pathways": 2,
+    "https://en.wikipedia.org/wiki/Computer_science": 1,
+    "https://en.wikipedia.org/wiki/Grenoble": 1,
+    "https://en.wikipedia.org/wiki/France": 1,
+    "https://en.wikipedia.org/wiki/INRIA": 1,
+    "https://en.wikipedia.org/wiki/Essential_climate_variable": 1,
+    "https://en.wikipedia.org/wiki/Ocean_Observations_Panel_for_Climate": 1,
+    "https://en.wikipedia.org/wiki/Western_Hemisphere": 1,
+    "https://en.wikipedia.org/wiki/SubregionAmericas": 1,
+    "https://en.wikipedia.org/wiki/Precipitation": 1,
+    "https://en.wikipedia.org/wiki/Atmosphere_of_Earth": 1,
+    "https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone": 1,
+    "https://en.wikipedia.org/wiki/Wet_season": 1,
+    "https://en.wikipedia.org/wiki/Astronomical_body": 1,
+    "https://en.wikipedia.org/wiki/Radioactive_decay": 1,
+    "https://en.wikipedia.org/wiki/Tidal_heating": 1,
+    "https://en.wikipedia.org/wiki/Partial_melting": 1,
+    "https://en.wikipedia.org/wiki/Ocean": 1,
+    "https://en.wikipedia.org/wiki/EarthSurface": 1,
+    "https://en.wikipedia.org/wiki/Australia_(continent)": 1,
+    "https://en.wikipedia.org/wiki/Southern_Ocean": 1,
+    "https://en.wikipedia.org/wiki/Antarctica": 1,
+    "https://en.wikipedia.org/wiki/Andaman_Sea": 1,
+    "https://en.wikipedia.org/wiki/Arabian_Sea": 1,
+    "https://en.wikipedia.org/wiki/Bay_of_Bengal": 1,
+    "https://en.wikipedia.org/wiki/Laccadive_Sea": 1,
+    "https://en.wikipedia.org/wiki/Oxidation_state": 1,
+    "https://en.wikipedia.org/wiki/Electron_acceptor": 1,
+    "https://en.wikipedia.org/wiki/Oxygen": 1,
+    "https://en.wikipedia.org/wiki/Adenosine_triphosphate": 1,
+    "https://en.wikipedia.org/wiki/Metabolism": 1,
+    "https://en.wikipedia.org/wiki/Cell_(biology)": 1,
+    "https://en.wikipedia.org/wiki/Organism": 1,
+    "https://en.wikipedia.org/wiki/EnergyEnergy_and_life": 1,
+    "https://en.wikipedia.org/wiki/Nutrient": 1,
+    "https://en.wikipedia.org/wiki/Waste_products": 1,
+    "https://en.wikipedia.org/wiki/Continuity_(broadcasting)": 1,
+    "https://en.wikipedia.org/wiki/Local_news": 1
+  },
+  "shared_article_links": {
+    "https://en.wikipedia.org/wiki/Northern_Hemisphere": {
+      "occurrence_count": 2,
+      "entries": [
+        {
+          "term": "cyclone",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=cyclone",
+          "link_text": "Northern Hemisphere",
+          "title": "Northern Hemisphere"
+        },
+        {
+          "term": "South America",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=South%20America",
+          "link_text": "Northern Hemisphere",
+          "title": "Northern Hemisphere"
+        }
+      ],
+      "article_name": "Northern Hemisphere"
+    },
+    "https://en.wikipedia.org/wiki/Southern_Hemisphere": {
+      "occurrence_count": 2,
+      "entries": [
+        {
+          "term": "cyclone",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=cyclone",
+          "link_text": "Southern Hemisphere",
+          "title": "Southern Hemisphere"
+        },
+        {
+          "term": "South America",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=South%20America",
+          "link_text": "Southern Hemisphere",
+          "title": "Southern Hemisphere"
+        }
+      ],
+      "article_name": "Southern Hemisphere"
+    },
+    "https://en.wikipedia.org/wiki/Hertz": {
+      "occurrence_count": 2,
+      "entries": [
+        {
+          "term": "infrared radiation",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=infrared%20radiation",
+          "link_text": "THz",
+          "title": "Hertz"
+        },
+        {
+          "term": "infrared radiation",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=infrared%20radiation",
+          "link_text": "GHz",
+          "title": "Hertz"
+        }
+      ],
+      "article_name": "Hertz"
+    },
+    "https://en.wikipedia.org/wiki/Climate_change": {
+      "occurrence_count": 2,
+      "entries": [
+        {
+          "term": "IPCC",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=IPCC",
+          "link_text": "climate change",
+          "title": "Climate change"
+        },
+        {
+          "term": "deglaciation",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=deglaciation",
+          "link_text": "climate change",
+          "title": "Climate change"
+        }
+      ],
+      "article_name": "Climate change"
+    },
+    "https://en.wikipedia.org/wiki/Americas": {
+      "occurrence_count": 2,
+      "entries": [
+        {
+          "term": "Argentina",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=Argentina",
+          "link_text": "Americas",
+          "title": "Americas"
+        },
+        {
+          "term": "South America",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=South%20America",
+          "link_text": "Americas",
+          "title": "Americas"
+        }
+      ],
+      "article_name": "Americas"
+    },
+    "https://en.wikipedia.org/wiki/Global_warming": {
+      "occurrence_count": 2,
+      "entries": [
+        {
+          "term": "deglaciation",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=deglaciation",
+          "link_text": "global warming",
+          "title": "Global warming"
+        },
+        {
+          "term": "deglaciation",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=deglaciation",
+          "link_text": "anthropogenic changes to greenhouse gases",
+          "title": "Global warming"
+        }
+      ],
+      "article_name": "Global warming"
+    },
+    "https://en.wikipedia.org/wiki/Representative_Concentration_Pathways": {
+      "occurrence_count": 2,
+      "entries": [
+        {
+          "term": "Fifth Assessment Report",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=Fifth%20Assessment%20Report",
+          "link_text": "Representative Concentration Pathways",
+          "title": "Representative Concentration Pathways"
+        },
+        {
+          "term": "Fifth Assessment Report",
+          "entry_url": "https://en.wikipedia.org/w/index.php?search=Fifth%20Assessment%20Report",
+          "link_text": "RCP article",
+          "title": "Representative Concentration Pathways"
+        }
+      ],
+      "article_name": "Representative Concentration Pathways"
+    }
+  },
+  "total_shared_links": 7,
+  "most_common_links": {
+    "https://en.wikipedia.org/wiki/Northern_Hemisphere": 2,
+    "https://en.wikipedia.org/wiki/Southern_Hemisphere": 2,
+    "https://en.wikipedia.org/wiki/Hertz": 2,
+    "https://en.wikipedia.org/wiki/Climate_change": 2,
+    "https://en.wikipedia.org/wiki/Americas": 2,
+    "https://en.wikipedia.org/wiki/Global_warming": 2,
+    "https://en.wikipedia.org/wiki/Representative_Concentration_Pathways": 2,
+    "https://en.wikipedia.org/wiki/Friction_ridge": 1,
+    "https://en.wikipedia.org/wiki/Finger": 1,
+    "https://en.wikipedia.org/wiki/Forensic_science": 1
+  }
+}

@@ -1,0 +1,58 @@
+digraph encyclopedia_from_wordlist {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontname="Arial", fontsize=11];
+    edge [fontname="Arial", fontsize=9];
+    
+    // Input: Wordlist
+    WORDLIST [label="Wordlist\n(List of terms/phrases)\n• CSV files\n• Text files\n• Keyword extraction", fillcolor=lightblue, style="rounded,filled"];
+    
+    // Stage 1: Create Dictionary (in ../amilib)
+    CREATE_DICT [label="1. Create Dictionary\n(amilib.ami_dict.create_dictionary_from_words)\n• Create dictionary structure\n• Add entries from terms\n• Basic entry elements", fillcolor=lightgreen, style="rounded,filled"];
+    
+    // Stage 2: Enhance Dictionary (parallel processes in ../amilib)
+    ADD_WIKIPEDIA [label="2a. Add Wikipedia\n(amilib.ami_dict.lookup_and_add_wikipedia_page)\n• Lookup Wikipedia page\n• Extract first paragraph\n• Get Wikipedia URL\n• Extract Wikidata ID", fillcolor=lightyellow, style="rounded,filled"];
+    
+    ADD_WIKIDATA [label="2b. Add Wikidata\n(amilib.ami_dict.add_wikidata_from_terms)\n• Lookup Wikidata ID\n• Get Wikidata category\n• Extract descriptions", fillcolor=lightyellow, style="rounded,filled"];
+    
+    ADD_WIKTIONARY [label="2c. Add Wiktionary\n(amilib.ami_dict.add_wiktionary_from_terms)\n• Lookup Wiktionary page\n• Extract definitions", fillcolor=lightyellow, style="rounded,filled"];
+    
+    // Stage 3: Create HTML Dictionary (in ../amilib)
+    CREATE_HTML_DICT [label="3. Create HTML Dictionary\n(amilib.ami_dict.create_html_dictionary)\n• Convert to HTML format\n• Add semantic markup\n• Structure entries\n• Add Wikidata IDs as attributes", fillcolor=lightcoral, style="rounded,filled"];
+    
+    // Stage 4: Create Encyclopedia (in encyclopedia.core)
+    CREATE_ENCYCLOPEDIA [label="4. Create Encyclopedia\n(encyclopedia.core.encyclopedia.AmiEncyclopedia.create_from_html_content)\n• Parse HTML dictionary\n• Extract entries with metadata\n• Extract Wikidata IDs\n• Extract Wikipedia URLs\n• Extract descriptions", fillcolor=lightpink, style="rounded,filled"];
+    
+    // Stage 5: Normalize by Wikidata ID (in encyclopedia.core)
+    NORMALIZE [label="5. Normalize by Wikidata ID\n(encyclopedia.core.encyclopedia.AmiEncyclopedia.normalize_by_wikidata_id)\n• Group entries by Wikidata ID\n• Identify synonyms\n• Handle entries without Wikidata IDs", fillcolor=lightsteelblue, style="rounded,filled"];
+    
+    // Stage 6: Merge Synonyms (in encyclopedia.core)
+    MERGE_SYNONYMS [label="6. Merge Synonyms\n(encyclopedia.core.encyclopedia.AmiEncyclopedia.merge_synonyms_by_wikidata_id)\n• Merge entries with same Wikidata ID\n• Aggregate all terms as synonyms\n• Create canonical entry\n• Preserve best description", fillcolor=lightsteelblue, style="rounded,filled"];
+    
+    // Stage 7: Generate Output (in encyclopedia.core)
+    ENCYCLOPEDIA_HTML [label="7. Generate Encyclopedia HTML\n(encyclopedia.core.encyclopedia.AmiEncyclopedia.create_wiki_normalized_html)\n• Structured entries\n• Semantic markup\n• Interactive features:\n  - Hide checkboxes\n  - Disambiguation selectors\n  - Merge checkboxes\n• Links & references\n• Metadata tracking", fillcolor=lightcyan, style="rounded,filled"];
+    
+    // Output
+    OUTPUT [label="Encyclopedia Output\n• HTML with enhanced entries\n• Wikipedia content\n• Wikidata IDs (primary identifiers)\n• Normalized synonyms\n• Interactive controls\n• Links & references\n• Metadata (actions, hidden entries, etc.)", fillcolor=wheat, style="rounded,filled"];
+    
+    // Flow
+    WORDLIST -> CREATE_DICT;
+    
+    CREATE_DICT -> ADD_WIKIPEDIA;
+    CREATE_DICT -> ADD_WIKIDATA;
+    CREATE_DICT -> ADD_WIKTIONARY;
+    
+    ADD_WIKIPEDIA -> CREATE_HTML_DICT;
+    ADD_WIKIDATA -> CREATE_HTML_DICT;
+    ADD_WIKTIONARY -> CREATE_HTML_DICT;
+    
+    CREATE_HTML_DICT -> CREATE_ENCYCLOPEDIA;
+    
+    CREATE_ENCYCLOPEDIA -> NORMALIZE;
+    NORMALIZE -> MERGE_SYNONYMS;
+    MERGE_SYNONYMS -> ENCYCLOPEDIA_HTML;
+    
+    ENCYCLOPEDIA_HTML -> OUTPUT;
+    
+    // Styling
+    {rank=same; ADD_WIKIPEDIA; ADD_WIKIDATA; ADD_WIKTIONARY}
+}

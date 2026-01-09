@@ -65,3 +65,4 @@ The SVG diagram (`encyclopedia_structure_overview.svg`) shows:
 - **Entries with Wikipedia Links**: 10 (100%)
 - **Internal Cross-References**: 15+
 
+

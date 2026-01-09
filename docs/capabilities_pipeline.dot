@@ -69,3 +69,4 @@ digraph capabilities_pipeline {
     {rank=same; OUTPUT_ENCYCLOPEDIA; OUTPUT_LINKS; OUTPUT_KEYWORDS}
 }
 
+
