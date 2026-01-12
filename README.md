@@ -2,6 +2,25 @@
 
 A comprehensive toolset for extracting and analyzing keywords from scientific documents, with a focus on climate change research and IPCC reports.
 
+## 🆕 New: Encyclopedia Browser
+
+**Interactive web browser for searching and exploring encyclopedia entries!**
+
+- Fast search with exact, stemmed, and fuzzy matching
+- Browse entries with pagination
+- Support for up to 5,000 entries
+- Clean web interface (Streamlit)
+
+**Quick Start:**
+```bash
+pip install streamlit whoosh nltk lxml rapidfuzz
+python -m nltk.downloader punkt stopwords
+pip install -e .
+python encyclopedia/browser/run_browser.py
+```
+
+See [encyclopedia/browser/QUICK_START.md](encyclopedia/browser/QUICK_START.md) for details.
+
 ## Example and info
 
   - [Demo book](https://vivliostyle.org/viewer/#src=https://github.com/semanticClimate/demo_book/blob/main/manifest.jsonld)
@@ -47,6 +66,28 @@ A structured storage system for organizing extracted keywords, document content,
 - IPCC WG1 Chapter 5: Global Carbon and Other Biogeochemical Cycles
 - IPCC WG1 Chapter 6: Short-lived Climate Forcers
 
+### Encyclopedia Browser
+A web-based browser for searching and exploring encyclopedia entries. Supports up to 5,000 entries with advanced search capabilities.
+
+**Key Features:**
+- Fast full-text search with exact, stemmed, and fuzzy matching
+- Interactive web interface (Streamlit)
+- HTML content rendering
+- Browse and search functionality
+- Support for large encyclopedias
+
+**Quick Start:**
+```bash
+# Install browser dependencies
+pip install -r encyclopedia/browser/requirements.txt
+python -m nltk.downloader punkt stopwords
+
+# Launch browser
+streamlit run encyclopedia/browser/app.py
+```
+
+See [encyclopedia/browser/README.md](encyclopedia/browser/README.md) for full tutorial.
+
 ## Quick Start
 
 ### Prerequisites
@@ -64,9 +105,12 @@ cd encyclopedia
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies for keyword extraction
-cd Keyword_extraction
+# Install dependencies
 pip install -r requirements.txt
+
+# For encyclopedia browser (optional)
+pip install -r encyclopedia/browser/requirements.txt
+python -m nltk.downloader punkt stopwords
 ```
 
 ### Basic Usage

@@ -1,0 +1,8 @@
+# Required dependencies
+streamlit>=1.28.0
+whoosh>=2.7.4
+nltk>=3.8
+lxml>=4.9.0
+
+# Optional dependencies (for fuzzy search)
+rapidfuzz>=3.0.0
