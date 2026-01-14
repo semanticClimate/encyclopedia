@@ -74,8 +74,128 @@ def create_encyclopedia(wordlist_file: Path, output_file: Path, title: str = "En
         return 1
 
 
+def _has_non_empty_description(entry_dict: Dict) -> bool:
+    """Check if entry has a non-empty description.
+    
+    Args:
+        entry_dict: Entry dictionary
+        
+    Returns:
+        True if entry has non-empty description HTML
+    """
+    description_html = entry_dict.get('description_html', '').strip()
+    if not description_html:
+        return False
+    
+    # Check if it's just empty tags
+    from lxml.html import fromstring
+    try:
+        desc_root = fromstring(description_html.encode('utf-8'))
+        text_content = desc_root.text_content() if hasattr(desc_root, 'text_content') else ''
+        return bool(text_content.strip())
+    except Exception:
+        # If parsing fails, assume it has content
+        return True
+
+
+def _get_wikipedia_page_for_entry(entry_dict: Dict):
+    """Get WikipediaPage object for entry.
+    
+    Args:
+        entry_dict: Entry dictionary
+        
+    Returns:
+        WikipediaPage object or None
+    """
+    from amilib.wikimedia import WikipediaPage
+    
+    # Try using existing URL first (more efficient)
+    wikipedia_url = entry_dict.get('wikipedia_url', '').strip()
+    if wikipedia_url:
+        try:
+            return WikipediaPage.lookup_wikipedia_page_for_url(wikipedia_url)
+        except Exception:
+            pass
+    
+    # Fallback to term lookup
+    term = entry_dict.get('term', entry_dict.get('canonical_term', ''))
+    if term:
+        try:
+            return WikipediaPage.lookup_wikipedia_page_for_term(term)
+        except Exception:
+            pass
+    
+    return None
+
+
+def _extract_wikidata_id_from_wikipedia_page(wikipedia_page) -> Optional[str]:
+    """Extract Wikidata ID from WikipediaPage object.
+    
+    Args:
+        wikipedia_page: WikipediaPage object
+        
+    Returns:
+        Wikidata ID (Q/P format) or None
+    """
+    try:
+        wikidata_url = wikipedia_page.get_wikidata_item()
+        if wikidata_url and '/wiki/' in wikidata_url:
+            return wikidata_url.split('/wiki/')[-1]
+    except Exception:
+        pass
+    return None
+
+
+def _get_first_paragraph_html_from_wikipedia_page(wikipedia_page) -> Optional[str]:
+    """Get first paragraph HTML from WikipediaPage using amilib methods.
+    
+    Args:
+        wikipedia_page: WikipediaPage object
+        
+    Returns:
+        HTML string of first paragraph (with wpage_first_para class) or None
+    """
+    try:
+        # Use create_first_wikipedia_para (returns WikipediaPara object)
+        # This is the recommended amilib method
+        if hasattr(wikipedia_page, 'create_first_wikipedia_para'):
+            para_obj = wikipedia_page.create_first_wikipedia_para()
+            if para_obj is not None:
+                # WikipediaPara has para_element property that gives us the actual paragraph element
+                if hasattr(para_obj, 'para_element') and para_obj.para_element is not None:
+                    from amilib.xml_lib import XmlLib
+                    # Ensure the paragraph has the wpage_first_para class
+                    para_elem = para_obj.para_element
+                    if para_elem.get('class') != 'wpage_first_para':
+                        para_elem.set('class', 'wpage_first_para')
+                    return XmlLib.element_to_string(para_elem)
+        
+        # Fallback: Try to extract from html_elem directly
+        if hasattr(wikipedia_page, 'html_elem') and wikipedia_page.html_elem is not None:
+            # Look for first paragraph in the main content area
+            first_p = wikipedia_page.html_elem.xpath(".//div[@id='mw-content-text']//p[1]")
+            if not first_p:
+                # Fallback: just get first <p> anywhere
+                first_p = wikipedia_page.html_elem.xpath(".//p[1]")
+            
+            if first_p:
+                from amilib.xml_lib import XmlLib
+                para_elem = first_p[0]
+                # Ensure it has the wpage_first_para class
+                if para_elem.get('class') != 'wpage_first_para':
+                    para_elem.set('class', 'wpage_first_para')
+                return XmlLib.element_to_string(para_elem)
+    except Exception as e:
+        print(f"    Warning: Could not extract paragraph using amilib methods: {e}")
+    
+    return None
+
+
 def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
-    """Add Wikipedia description to entry.
+    """Add Wikipedia description to entry using amilib methods.
+    
+    Uses WikipediaPage.create_first_wikipedia_para() or similar amilib methods
+    to extract the first paragraph with proper wpage_first_para class.
     
     Args:
         entry_dict: Entry dictionary
@@ -86,162 +206,423 @@ def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
         return
     
     # Check if already has Wikipedia description
-    existing_desc = entry_dict.get('description_html', '').strip()
-    existing_url = entry_dict.get('wikipedia_url', '').strip()
-    
-    # Remove empty paragraphs and whitespace-only content
-    if existing_desc:
-        # Check if it's just empty tags
-        from lxml.html import fromstring
-        try:
-            desc_root = fromstring(existing_desc.encode('utf-8'))
-            text_content = desc_root.text_content() if hasattr(desc_root, 'text_content') else ''
-            if not text_content.strip():
-                existing_desc = ''  # Treat as empty
-        except Exception:
-            pass
-    
-    if existing_desc and existing_url:
+    if _has_non_empty_description(entry_dict) and entry_dict.get('wikipedia_url'):
         print(f"  Entry '{term}' already has Wikipedia description")
         return
     
-    # If we have URL but no description, we still want to add description
-    if existing_url and not existing_desc:
-        print(f"  Entry '{term}' has Wikipedia URL but no description, adding description...")
+    # Get Wikipedia page
+    print(f"  Looking up Wikipedia for '{term}'...")
+    wikipedia_page = _get_wikipedia_page_for_entry(entry_dict)
+    
+    if not wikipedia_page:
+        print(f"  ⚠ No Wikipedia page found for '{term}'")
+        return
+    
+    # Extract first paragraph using amilib methods
+    description_html = _get_first_paragraph_html_from_wikipedia_page(wikipedia_page)
+    
+    if description_html:
+        # Update entry with Wikipedia data
+        entry_dict['wikipedia_url'] = wikipedia_page.url
+        entry_dict['description_html'] = description_html
+        
+        # Get Wikidata ID if available
+        if not entry_dict.get('wikidata_id'):
+            wikidata_id = _extract_wikidata_id_from_wikipedia_page(wikipedia_page)
+            if wikidata_id:
+                entry_dict['wikidata_id'] = wikidata_id
+        
+        print(f"  ✓ Added Wikipedia description for '{term}'")
+        print(f"    URL: {wikipedia_page.url}")
+    else:
+        print(f"  ⚠ No first paragraph found for '{term}'")
+        # Still save URL even if no description
+        entry_dict['wikipedia_url'] = wikipedia_page.url
+
+
+def _extract_images_from_wikipedia_page(wikipedia_page) -> List:
+    """Extract images from WikipediaPage using amilib methods.
+    
+    Args:
+        wikipedia_page: WikipediaPage object
+        
+    Returns:
+        List of image elements or image data
+    """
+    images = []
     
     try:
-        from amilib.wikimedia import WikipediaPage
-        
-        # Lookup Wikipedia page
-        print(f"  Looking up Wikipedia for '{term}'...")
-        wikipedia_page = WikipediaPage.lookup_wikipedia_page_for_term(term)
-        
-        if wikipedia_page:
-            # Get first paragraph from HTML element
-            first_para = None
-            first_para_html = None
-            
-            # Extract first paragraph from html_elem
+        # Primary method: extract_a_elem_with_image_from_infobox (returns <a> element with image)
+        # This is the recommended amilib method
+        if hasattr(wikipedia_page, 'extract_a_elem_with_image_from_infobox'):
             try:
-                if hasattr(wikipedia_page, 'html_elem') and wikipedia_page.html_elem is not None:
-                    # Look for first paragraph in the main content
-                    # Try to find the first <p> in the main content area
-                    first_p = wikipedia_page.html_elem.xpath(".//div[@id='mw-content-text']//p[1]")
-                    if not first_p:
-                        # Fallback: just get first <p> anywhere
-                        first_p = wikipedia_page.html_elem.xpath(".//p[1]")
-                    
-                    if first_p:
-                        from amilib.xml_lib import XmlLib
-                        first_para_html = XmlLib.element_to_string(first_p[0])
-                        # Extract text content
-                        first_para = first_p[0].text_content() if hasattr(first_p[0], 'text_content') else (first_p[0].text or '')
-                elif hasattr(wikipedia_page, 'get_first_paragraph'):
-                    first_para = wikipedia_page.get_first_paragraph()
-                elif hasattr(wikipedia_page, 'first_paragraph'):
-                    first_para = wikipedia_page.first_paragraph
+                img_elem = wikipedia_page.extract_a_elem_with_image_from_infobox()
+                if img_elem is not None:
+                    images.append(img_elem)
+                    return images  # Success, return early
             except Exception as e:
-                print(f"    Warning: Could not extract paragraph: {e}")
-            
-            if first_para or first_para_html:
-                # Update entry with Wikipedia data
-                entry_dict['wikipedia_url'] = wikipedia_page.url
-                
-                # Use HTML if available, otherwise create from text
-                if first_para_html:
-                    entry_dict['description_html'] = first_para_html
-                elif first_para:
-                    entry_dict['description_html'] = f"<p>{first_para}</p>"
-                
-                # Get Wikidata ID if available
-                if not entry_dict.get('wikidata_id'):
-                    try:
-                        if hasattr(wikipedia_page, 'get_wikidata_id'):
-                            wikidata_id = wikipedia_page.get_wikidata_id()
-                        elif hasattr(wikipedia_page, 'wikidata_id'):
-                            wikidata_id = wikipedia_page.wikidata_id
-                        elif hasattr(wikipedia_page, 'get_wikidata_item'):
-                            wikidata_url = wikipedia_page.get_wikidata_item()
-                            if wikidata_url and '/wiki/' in wikidata_url:
-                                wikidata_id = wikidata_url.split('/wiki/')[-1]
-                            else:
-                                wikidata_id = None
+                print(f"    Warning: extract_a_elem_with_image_from_infobox failed: {e}")
+        
+        # Fallback: Try get_infobox and extract images from it
+        if hasattr(wikipedia_page, 'get_infobox'):
+            try:
+                infobox = wikipedia_page.get_infobox()
+                if infobox is not None:
+                    # Extract image links from infobox (these are <a> tags linking to File: pages)
+                    img_links = infobox.xpath(".//a[contains(@href, '/wiki/File:')]")
+                    if img_links:
+                        images.extend(img_links[:3])  # Limit to 3 from infobox
+                        return images  # Success, return early
+            except Exception as e:
+                print(f"    Warning: get_infobox failed: {e}")
+        
+        # Fallback: try to find images directly in html_elem
+        if hasattr(wikipedia_page, 'html_elem') and wikipedia_page.html_elem is not None:
+            try:
+                # Look for images in infobox table
+                infobox_imgs = wikipedia_page.html_elem.xpath(".//table[contains(@class, 'infobox')]//img")
+                if infobox_imgs:
+                    # Wrap img tags in <a> tags if needed
+                    for img in infobox_imgs[:3]:
+                        # Check if img is already inside an <a> tag
+                        parent = img.getparent()
+                        if parent is not None and parent.tag == 'a':
+                            images.append(parent)
                         else:
-                            wikidata_id = None
-                        
-                        if wikidata_id:
-                            entry_dict['wikidata_id'] = wikidata_id
-                    except Exception:
-                        pass  # Wikidata ID is optional
+                            # Create an <a> wrapper
+                            import lxml.etree as ET
+                            a_elem = ET.Element("a")
+                            a_elem.set("href", img.get('src', ''))
+                            a_elem.append(img)
+                            images.append(a_elem)
+                    if images:
+                        return images
                 
-                # Get page title
-                try:
-                    if hasattr(wikipedia_page, 'get_page_title'):
-                        page_title = wikipedia_page.get_page_title()
-                    elif hasattr(wikipedia_page, 'page_title'):
-                        page_title = wikipedia_page.page_title
-                    elif hasattr(wikipedia_page, 'title'):
-                        page_title = wikipedia_page.title
-                    else:
-                        page_title = None
-                    
-                    if page_title and not entry_dict.get('canonical_term'):
-                        entry_dict['canonical_term'] = page_title
-                except Exception:
-                    pass
-                
-                print(f"  ✓ Added Wikipedia description for '{term}'")
-                print(f"    URL: {wikipedia_page.url}")
-            else:
-                print(f"  ⚠ No first paragraph found for '{term}'")
-                # Still save URL even if no description
-                entry_dict['wikipedia_url'] = wikipedia_page.url
-        else:
-            print(f"  ⚠ No Wikipedia page found for '{term}'")
-            
+                # If still no images, try main content area (first image)
+                if not images:
+                    main_images = wikipedia_page.html_elem.xpath(".//div[@id='mw-content-text']//img[1]")
+                    if main_images:
+                        img = main_images[0]
+                        parent = img.getparent()
+                        if parent is not None and parent.tag == 'a':
+                            images.append(parent)
+                        else:
+                            import lxml.etree as ET
+                            a_elem = ET.Element("a")
+                            a_elem.set("href", img.get('src', ''))
+                            a_elem.append(img)
+                            images.append(a_elem)
+            except Exception as e:
+                print(f"    Warning: Error extracting from html_elem: {e}")
+    
     except Exception as e:
-        print(f"  ✗ Error adding Wikipedia for '{term}': {e}")
+        print(f"    Warning: Error extracting images: {e}")
+    
+    return images
+
+
+def _fix_image_urls(element):
+    """Fix relative image URLs to absolute Wikimedia URLs.
+    
+    Converts:
+    - `/wiki/File:X.jpg` -> `https://en.wikipedia.org/wiki/File:X.jpg`
+    - `//upload.wikimedia.org/...` -> `https://upload.wikimedia.org/...`
+    - Relative paths -> Absolute Wikipedia URLs
+    
+    Args:
+        element: lxml element containing images
+    """
+    wikipedia_base = "https://en.wikipedia.org"
+    
+    # Fix img src attributes (these point to actual image files)
+    img_elements = element.xpath(".//img[@src]")
+    for img in img_elements:
+        src = img.get('src', '')
+        if src:
+            # Convert protocol-relative URL (//upload.wikimedia.org/...) to https://
+            if src.startswith('//'):
+                img.set('src', f"https:{src}")
+            # Convert relative URL to absolute
+            elif not src.startswith('http'):
+                if src.startswith('/'):
+                    # Absolute path on Wikipedia
+                    img.set('src', f"{wikipedia_base}{src}")
+                else:
+                    # Relative path - prepend Wikipedia base
+                    img.set('src', f"{wikipedia_base}/{src}")
+        
+        # Fix srcset attributes too (for responsive images)
+        srcset = img.get('srcset', '')
+        if srcset:
+            # Replace // with https:// in srcset
+            fixed_srcset = srcset.replace('//upload.wikimedia.org', 'https://upload.wikimedia.org')
+            img.set('srcset', fixed_srcset)
+    
+    # Fix a href attributes that point to File: pages or Wikipedia pages
+    a_elements = element.xpath(".//a[@href]")
+    for a in a_elements:
+        href = a.get('href', '')
+        if href and not href.startswith('http'):
+            # Convert protocol-relative URL
+            if href.startswith('//'):
+                a.set('href', f"https:{href}")
+            # Convert relative Wikipedia URLs
+            elif href.startswith('/'):
+                a.set('href', f"{wikipedia_base}{href}")
+            # Convert relative paths (wiki/File:, File:, etc.)
+            elif 'File:' in href or href.startswith('wiki/'):
+                if not href.startswith('/'):
+                    href = '/' + href
+                a.set('href', f"{wikipedia_base}{href}")
 
 
 def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
-    """Add images to entry from Wikipedia.
+    """Add images to entry from Wikipedia using amilib methods.
+    
+    Uses WikipediaPage.extract_a_elem_with_image_from_infobox() or similar
+    amilib methods to extract images.
     
     Args:
         entry_dict: Entry dictionary
         encyclopedia: Encyclopedia instance
     """
-    wikipedia_url = entry_dict.get('wikipedia_url')
-    if not wikipedia_url:
-        print(f"  Entry '{entry_dict.get('term')}' has no Wikipedia URL, skipping images")
+    term = entry_dict.get('term', entry_dict.get('canonical_term', ''))
+    
+    # Check if already has images or figure_html
+    if entry_dict.get('images') or entry_dict.get('figure_html'):
+        print(f"  Entry '{term}' already has images")
         return
     
-    try:
-        from amilib.wikimedia import WikipediaPage
+    # Get Wikipedia page
+    wikipedia_page = _get_wikipedia_page_for_entry(entry_dict)
+    if not wikipedia_page:
+        print(f"  Entry '{term}' has no Wikipedia page, skipping images")
+        return
+    
+    # Extract images using amilib methods
+    print(f"  Extracting images for '{term}'...")
+    images = _extract_images_from_wikipedia_page(wikipedia_page)
+    
+    if images:
+        # Convert image elements to HTML and store as figure_html
+        # The encyclopedia save code expects figure_html (element or HTML string)
+        from amilib.xml_lib import XmlLib
+        import lxml.etree as ET
+        import copy
         
-        # Get Wikipedia page
-        wikipedia_page = WikipediaPage.lookup_wikipedia_page_for_url(wikipedia_url)
-        if not wikipedia_page:
-            return
+        # Get first image (or create a container for multiple)
+        first_img = images[0]
         
-        # Get images (if available in WikipediaPage API)
-        # Note: This depends on WikipediaPage implementation
-        images = []
-        if hasattr(wikipedia_page, 'get_images'):
-            images = wikipedia_page.get_images()
-        elif hasattr(wikipedia_page, 'images'):
-            images = wikipedia_page.images
+        try:
+            if hasattr(first_img, 'tag'):  # It's an element
+                # Create a figure div container
+                figure_div = ET.Element("div")
+                figure_div.attrib["class"] = "figure"
+                
+                # Deep copy the element to avoid issues with element trees
+                if first_img.tag == 'a':
+                    # It's already an <a> element with image - copy it
+                    copied_elem = copy.deepcopy(first_img)
+                    figure_div.append(copied_elem)
+                elif first_img.tag == 'img':
+                    # Wrap img in an <a> tag if needed
+                    a_elem = ET.SubElement(figure_div, "a")
+                    copied_img = copy.deepcopy(first_img)
+                    a_elem.append(copied_img)
+                else:
+                    copied_elem = copy.deepcopy(first_img)
+                    figure_div.append(copied_elem)
+                
+                # Fix image URLs to be absolute Wikimedia URLs
+                _fix_image_urls(figure_div)
+                
+                # Store as figure_html (element) - this is what save_wiki_normalized_html expects
+                entry_dict['figure_html'] = figure_div
+                
+                # Also store as images list for compatibility
+                image_htmls = []
+                for img in images[:3]:
+                    if hasattr(img, 'tag'):
+                        image_htmls.append(XmlLib.element_to_string(img))
+                if image_htmls:
+                    entry_dict['images'] = image_htmls
+                
+                print(f"  ✓ Added image for '{term}'")
+            else:
+                # If it's a string, store as HTML string
+                entry_dict['figure_html'] = str(first_img)
+                entry_dict['images'] = [str(img) for img in images[:3]]
+                print(f"  ✓ Added {len(images[:3])} images for '{term}'")
+        except Exception as e:
+            print(f"  ⚠ Could not convert images to HTML for '{term}': {e}")
+            import traceback
+            traceback.print_exc()
+    else:
+        print(f"  ⚠ No images found for '{term}'")
+
+
+def _extract_entries_from_encyclopedia_html(html_root) -> List[Dict]:
+    """Extract entry dictionaries from encyclopedia format HTML.
+    
+    Args:
+        html_root: Parsed HTML root element
         
-        if images:
-            # Add images to entry
-            if 'images' not in entry_dict:
-                entry_dict['images'] = []
-            entry_dict['images'].extend(images[:3])  # Limit to 3 images
-            print(f"  ✓ Added {len(images[:3])} images for '{entry_dict.get('term')}'")
+    Returns:
+        List of entry dictionaries
+    """
+    entries = []
+    entry_divs = html_root.xpath(".//div[@role='ami_entry']")
+    
+    for entry_div in entry_divs:
+        entry_dict = {}
+        entry_dict['term'] = entry_div.get('term', '')
+        entry_dict['canonical_term'] = entry_dict['term']
+        entry_dict['wikidata_id'] = entry_div.get('wikidataID') or entry_div.get('wikidataid') or ''
+        entry_dict['wikipedia_url'] = ''
+        
+        # Extract Wikipedia URL from links
+        wiki_links = entry_div.xpath(".//a[contains(@href, 'wikipedia.org/wiki/')]")
+        if wiki_links:
+            entry_dict['wikipedia_url'] = wiki_links[0].get('href', '')
+        
+        # Extract description HTML - check multiple possible locations
+        description_html = ''
+        
+        # Try p with class wpage_first_para (amilib standard)
+        desc_elems = entry_div.xpath(".//p[@class='wpage_first_para']")
+        if desc_elems:
+            from amilib.xml_lib import XmlLib
+            description_html = XmlLib.element_to_string(desc_elems[0])
         else:
-            print(f"  ⚠ No images found for '{entry_dict.get('term')}'")
-            
+            # Try any p element with actual text content (not empty)
+            # Skip p with class mw-empty-elt (empty paragraphs)
+            desc_ps = entry_div.xpath(".//p[text() and not(@class='mw-empty-elt')]")
+            if desc_ps:
+                from amilib.xml_lib import XmlLib
+                # Get first non-empty paragraph
+                for p_elem in desc_ps:
+                    p_text = p_elem.text_content() if hasattr(p_elem, 'text_content') else (p_elem.text or '')
+                    if p_text.strip():
+                        description_html = XmlLib.element_to_string(p_elem)
+                        break
+            else:
+                # Try getting text content from all p elements
+                all_ps = entry_div.xpath(".//p")
+                for p_elem in all_ps:
+                    # Skip empty paragraphs
+                    if p_elem.get('class') == 'mw-empty-elt':
+                        continue
+                    p_text = p_elem.text_content() if hasattr(p_elem, 'text_content') else (p_elem.text or '')
+                    if p_text.strip():
+                        from amilib.xml_lib import XmlLib
+                        description_html = XmlLib.element_to_string(p_elem)
+                        break
+        
+        entry_dict['description_html'] = description_html
+        entries.append(entry_dict)
+    
+    return entries
+
+
+def _load_encyclopedia_from_html_file(input_file: Path) -> AmiEncyclopedia:
+    """Load encyclopedia from HTML file, handling both dictionary and encyclopedia formats.
+    
+    Args:
+        input_file: Path to HTML file
+        
+    Returns:
+        AmiEncyclopedia instance
+        
+    Raises:
+        FileNotFoundError: If file doesn't exist
+        ValueError: If file is empty or invalid format
+    """
+    # Validate file exists
+    if not input_file.exists():
+        raise FileNotFoundError(f"Encyclopedia file not found: {input_file}")
+    
+    # Validate file has content
+    file_size = input_file.stat().st_size
+    if file_size == 0:
+        raise ValueError(f"File is empty: {input_file}")
+    
+    # Read and validate HTML content
+    html_content = input_file.read_text(encoding='utf-8')
+    if not html_content.strip():
+        raise ValueError(f"File appears to be empty: {input_file}")
+    
+    # Parse HTML and validate format
+    from lxml.html import fromstring
+    try:
+        html_root = fromstring(html_content.encode('utf-8'))
+        encyclopedia_div = html_root.xpath(".//div[@role='ami_encyclopedia']")
+        dictionary_div = html_root.xpath(".//div[@role='ami_dictionary']")
+        
+        if not encyclopedia_div and not dictionary_div:
+            raise ValueError(
+                f"File does not contain a valid encyclopedia or dictionary.\n"
+                f"Expected div with role='ami_encyclopedia' or role='ami_dictionary'\n"
+                f"File: {input_file}\n"
+                f"Size: {file_size} bytes\n"
+                f"First 500 characters:\n{html_content[:500]}"
+            )
     except Exception as e:
-        print(f"  ✗ Error adding images for '{entry_dict.get('term')}': {e}")
+        if isinstance(e, ValueError):
+            raise
+        raise ValueError(f"Error parsing HTML file: {e}\nFile: {input_file}\nSize: {file_size} bytes")
+    
+    # Load encyclopedia based on format
+    encyclopedia = AmiEncyclopedia()
+    
+    if encyclopedia_div:
+        # It's encyclopedia format - extract entries directly
+        print("Detected encyclopedia format, extracting entries...")
+        entries = _extract_entries_from_encyclopedia_html(html_root)
+        encyclopedia.entries = entries
+        encyclopedia.title = encyclopedia_div[0].get('title', 'Encyclopedia')
+        print(f"Extracted {len(entries)} entries from encyclopedia format")
+    elif dictionary_div:
+        # It's dictionary format - use standard loading
+        try:
+            encyclopedia.create_from_html_file(input_file)
+        except Exception as e:
+            raise ValueError(f"Error loading dictionary format: {e}")
+    
+    return encyclopedia
+
+
+def _find_entries_needing_feature(encyclopedia: AmiEncyclopedia, feature: str, batch_size: int) -> List[Dict]:
+    """Find entries that need a specific feature added.
+    
+    Args:
+        encyclopedia: Encyclopedia instance
+        feature: Feature name (e.g., 'wikipedia', 'images')
+        batch_size: Maximum number of entries to return
+        
+    Returns:
+        List of entry dictionaries that need the feature
+    """
+    entries_to_process = []
+    
+    for entry in encyclopedia.entries:
+        # Check if entry needs this feature
+        if feature == 'wikipedia':
+            # Need Wikipedia if no description_html or no wikipedia_url
+            if not _has_non_empty_description(entry) or not entry.get('wikipedia_url'):
+                entries_to_process.append(entry)
+        elif feature == 'images':
+            # Need images if has Wikipedia but no images
+            if entry.get('wikipedia_url') and not entry.get('images'):
+                entries_to_process.append(entry)
+        else:
+            # For other features, check if feature is missing
+            if feature not in entry.get('features', []):
+                entries_to_process.append(entry)
+        
+        if len(entries_to_process) >= batch_size:
+            break
+    
+    return entries_to_process
 
 
 def get_feature_handler(feature: str):
@@ -282,118 +663,11 @@ def process_batch(input_file: Path, feature: str, batch_size: int = 100,
         return 1
     
     try:
-        # Check file exists and has content
-        if not input_file.exists():
-            print(f"Error: File not found: {input_file}")
-            return 1
-        
-        file_size = input_file.stat().st_size
-        if file_size == 0:
-            print(f"Error: File is empty: {input_file}")
-            return 1
-        
-        # Check file format
-        html_content = input_file.read_text(encoding='utf-8')
-        if not html_content.strip():
-            print(f"Error: File appears to be empty: {input_file}")
-            return 1
-        
-        # Check if it's encyclopedia format or dictionary format
-        from lxml.html import fromstring
-        try:
-            html_root = fromstring(html_content.encode('utf-8'))
-            encyclopedia_div = html_root.xpath(".//div[@role='ami_encyclopedia']")
-            dictionary_div = html_root.xpath(".//div[@role='ami_dictionary']")
-            
-            if not encyclopedia_div and not dictionary_div:
-                print(f"Error: File does not contain a valid encyclopedia or dictionary.")
-                print(f"Expected div with role='ami_encyclopedia' or role='ami_dictionary'")
-                print(f"\nFile: {input_file}")
-                print(f"Size: {file_size} bytes")
-                print(f"\nFirst 500 characters:")
-                print(html_content[:500])
-                return 1
-        except Exception as e:
-            print(f"Error parsing HTML file: {e}")
-            print(f"\nFile: {input_file}")
-            print(f"Size: {file_size} bytes")
-            return 1
-        
         # Load encyclopedia - handle both dictionary and encyclopedia formats
-        encyclopedia = AmiEncyclopedia()
-        
-        # Check format and load accordingly
-        html_root = fromstring(html_content.encode('utf-8'))
-        encyclopedia_div = html_root.xpath(".//div[@role='ami_encyclopedia']")
-        dictionary_div = html_root.xpath(".//div[@role='ami_dictionary']")
-        
-        if encyclopedia_div:
-            # It's encyclopedia format - extract entries directly
-            print("Detected encyclopedia format, extracting entries...")
-            entries = []
-            entry_divs = html_root.xpath(".//div[@role='ami_entry']")
-            
-            for entry_div in entry_divs:
-                entry_dict = {}
-                entry_dict['term'] = entry_div.get('term', '')
-                entry_dict['canonical_term'] = entry_dict['term']
-                entry_dict['wikidata_id'] = entry_div.get('wikidataID') or entry_div.get('wikidataid') or ''
-                entry_dict['wikipedia_url'] = ''
-                
-                # Extract Wikipedia URL from links
-                wiki_links = entry_div.xpath(".//a[contains(@href, 'wikipedia.org/wiki/')]")
-                if wiki_links:
-                    entry_dict['wikipedia_url'] = wiki_links[0].get('href', '')
-                
-                # Extract description HTML - check multiple possible locations
-                description_html = ''
-                
-                # Try p with class wpage_first_para
-                desc_elems = entry_div.xpath(".//p[@class='wpage_first_para']")
-                if desc_elems:
-                    from amilib.xml_lib import XmlLib
-                    description_html = XmlLib.element_to_string(desc_elems[0])
-                else:
-                    # Try any p element with actual text content (not empty)
-                    # Skip p with class mw-empty-elt (empty paragraphs)
-                    desc_ps = entry_div.xpath(".//p[text() and not(@class='mw-empty-elt')]")
-                    if desc_ps:
-                        from amilib.xml_lib import XmlLib
-                        # Get first non-empty paragraph
-                        for p_elem in desc_ps:
-                            p_text = p_elem.text_content() if hasattr(p_elem, 'text_content') else (p_elem.text or '')
-                            if p_text.strip():
-                                description_html = XmlLib.element_to_string(p_elem)
-                                break
-                    else:
-                        # Try getting text content from all p elements
-                        all_ps = entry_div.xpath(".//p")
-                        for p_elem in all_ps:
-                            # Skip empty paragraphs
-                            if p_elem.get('class') == 'mw-empty-elt':
-                                continue
-                            p_text = p_elem.text_content() if hasattr(p_elem, 'text_content') else (p_elem.text or '')
-                            if p_text.strip():
-                                from amilib.xml_lib import XmlLib
-                                description_html = XmlLib.element_to_string(p_elem)
-                                break
-                
-                entry_dict['description_html'] = description_html
-                entries.append(entry_dict)
-            
-            encyclopedia.entries = entries
-            encyclopedia.title = encyclopedia_div[0].get('title', 'Encyclopedia')
-            print(f"Extracted {len(entries)} entries from encyclopedia format")
-            
-        elif dictionary_div:
-            # It's dictionary format - use standard loading
-            try:
-                encyclopedia.create_from_html_file(input_file)
-            except Exception as e:
-                print(f"Error loading dictionary format: {e}")
-                return 1
-        else:
-            print(f"Error: File does not contain a valid encyclopedia or dictionary.")
+        try:
+            encyclopedia = _load_encyclopedia_from_html_file(input_file)
+        except Exception as e:
+            print(f"Error loading encyclopedia: {e}")
             return 1
         
         if not encyclopedia.entries:
@@ -403,25 +677,8 @@ def process_batch(input_file: Path, feature: str, batch_size: int = 100,
         
         print(f"Loaded encyclopedia with {len(encyclopedia.entries)} entries")
         
-        # Get entries missing this feature
-        entries_to_process = []
-        for entry in encyclopedia.entries:
-            # Check if entry needs this feature
-            if feature == 'wikipedia':
-                # Need Wikipedia if no description_html or no wikipedia_url
-                if not entry.get('description_html') or not entry.get('wikipedia_url'):
-                    entries_to_process.append(entry)
-            elif feature == 'images':
-                # Need images if has Wikipedia but no images
-                if entry.get('wikipedia_url') and not entry.get('images'):
-                    entries_to_process.append(entry)
-            else:
-                # For other features, check if feature is missing
-                if feature not in entry.get('features', []):
-                    entries_to_process.append(entry)
-            
-            if len(entries_to_process) >= batch_size:
-                break
+        # Find entries needing this feature
+        entries_to_process = _find_entries_needing_feature(encyclopedia, feature, batch_size)
         
         if not entries_to_process:
             print(f"No entries found missing feature '{feature}'")
@@ -461,11 +718,12 @@ def process_batch(input_file: Path, feature: str, batch_size: int = 100,
             
             # Verify what was saved
             print(f"\nVerifying saved entries...")
-            saved_encyclopedia = AmiEncyclopedia()
-            saved_encyclopedia.create_from_html_file(input_file)
-            
-            entries_with_desc = sum(1 for e in saved_encyclopedia.entries if e.get('description_html', '').strip())
-            print(f"  Entries with descriptions: {entries_with_desc}/{len(saved_encyclopedia.entries)}")
+            try:
+                saved_encyclopedia = _load_encyclopedia_from_html_file(input_file)
+                entries_with_desc = sum(1 for e in saved_encyclopedia.entries if _has_non_empty_description(e))
+                print(f"  Entries with descriptions: {entries_with_desc}/{len(saved_encyclopedia.entries)}")
+            except Exception as e:
+                print(f"  Warning: Could not verify saved entries: {e}")
             
         except Exception as e:
             print(f"Error saving encyclopedia: {e}")

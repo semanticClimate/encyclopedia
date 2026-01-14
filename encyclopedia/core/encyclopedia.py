@@ -403,11 +403,27 @@ class AmiEncyclopedia:
             best_description = self._get_best_description(entries)
             
             # Get figure from first entry that has one
+            # Check both figure_html and images fields
             figure_html = None
             for entry in entries:
                 if entry.get('figure_html'):
                     figure_html = entry.get('figure_html')
                     break
+                elif entry.get('images'):
+                    # Convert images list to figure_html
+                    images = entry.get('images')
+                    if images:
+                        # Use first image as figure_html
+                        from lxml.html import fromstring
+                        try:
+                            if isinstance(images[0], str):
+                                figure_html = fromstring(images[0])
+                            else:
+                                figure_html = images[0]
+                        except Exception:
+                            pass
+                    if figure_html:
+                        break
             
             synonym_groups[wikidata_id] = {
                 'wikidata_id': wikidata_id,  # PRIMARY identifier
@@ -488,11 +504,27 @@ class AmiEncyclopedia:
                 best_description = self._get_best_description(entries)
                 
                 # Get figure from first entry that has one
+                # Check both figure_html and images fields
                 figure_html = None
                 for entry in entries:
                     if entry.get('figure_html'):
                         figure_html = entry.get('figure_html')
                         break
+                    elif entry.get('images'):
+                        # Convert images list to figure_html
+                        images = entry.get('images')
+                        if images:
+                            # Use first image as figure_html
+                            from lxml.html import fromstring
+                            try:
+                                if isinstance(images[0], str):
+                                    figure_html = fromstring(images[0])
+                                else:
+                                    figure_html = images[0]
+                            except Exception:
+                                pass
+                        if figure_html:
+                            break
                 
                 # Get Wikidata category from first entry that has one, or look it up
                 wikidata_category = ''
@@ -550,7 +582,8 @@ class AmiEncyclopedia:
             entry_id: Entry identifier
         """
         # Classify merged entry (check if it's a disambiguation page)
-        category = self._classify_merged_entry(merged_entry)
+        # Skip network checks here too - this is called during save operations
+        category = self._classify_merged_entry(merged_entry, skip_network_checks=True)
         
         # Track if we add any checkboxes
         has_checkboxes = False
@@ -610,11 +643,12 @@ class AmiEncyclopedia:
         if checkbox_container is not None and not has_checkboxes and len(checkbox_container) == 0:
             entry_div.remove(checkbox_container)
     
-    def _classify_merged_entry(self, merged_entry: Dict) -> str:
+    def _classify_merged_entry(self, merged_entry: Dict, skip_network_checks: bool = False) -> str:
         """Classify merged entry into category
         
         Args:
             merged_entry: Merged entry dictionary
+            skip_network_checks: If True, skip network requests and use cached category or URL patterns only
             
         Returns:
             Category string (CATEGORY_NO_WIKIPEDIA, CATEGORY_DISAMBIGUATION, or CATEGORY_TRUE_WIKIPEDIA)
@@ -625,12 +659,30 @@ class AmiEncyclopedia:
         if not wikipedia_url:
             return self.CATEGORY_NO_WIKIPEDIA
         
-        # Check if it's a disambiguation page (check Wikidata first, then Wikipedia URL)
-        if self._is_disambiguation_page(wikipedia_url=wikipedia_url, wikidata_id=wikidata_id):
-            return self.CATEGORY_DISAMBIGUATION
+        # Use cached category if available (set during initial processing)
+        cached_category = merged_entry.get('_cached_category')
+        if cached_category:
+            return cached_category
         
-        # Default to true_wikipedia (can be marked as false/too_general manually)
-        return self.CATEGORY_TRUE_WIKIPEDIA
+        # If skipping network checks (e.g., during save), use URL pattern only
+        if skip_network_checks:
+            # Quick check: URL pattern for disambiguation (no network request)
+            if '(disambiguation)' in wikipedia_url.lower():
+                return self.CATEGORY_DISAMBIGUATION
+            # Default to true_wikipedia if we can't check
+            return self.CATEGORY_TRUE_WIKIPEDIA
+        
+        # Full check with network requests (only during initial processing)
+        is_disambiguation = self._is_disambiguation_page(wikipedia_url=wikipedia_url, wikidata_id=wikidata_id)
+        if is_disambiguation:
+            category = self.CATEGORY_DISAMBIGUATION
+        else:
+            category = self.CATEGORY_TRUE_WIKIPEDIA
+        
+        # Cache the result for future saves
+        merged_entry['_cached_category'] = category
+        
+        return category
     
     def _is_disambiguation_page(self, wikipedia_url: str = None, wikidata_id: str = None) -> bool:
         """Check if entry is a disambiguation page by checking Wikidata
@@ -898,7 +950,8 @@ class AmiEncyclopedia:
                 category_elem.text = f"Category: {wikidata_category}"
             
             # Add category attribute for CSS styling (especially for disambiguation)
-            category = self._classify_merged_entry(merged_entry)
+            # Skip network checks during save for speed (use cached category or URL pattern)
+            category = self._classify_merged_entry(merged_entry, skip_network_checks=True)
             entry_div.attrib["data-category"] = category
             
             # Add checkboxes
