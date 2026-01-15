@@ -850,6 +850,84 @@ class AmiEncyclopedia:
             font-size: 0.9em;
         }
         
+        /* Link spacing */
+        .link-spacer {
+            margin: 0 10px;
+        }
+        
+        /* Wikipedia and Wikidata links */
+        .wikipedia-link, .wikidata-link {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        
+        .wikipedia-link:hover, .wikidata-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* No Wikipedia/Wikidata indicators */
+        .no-wikipedia, .no-wikidata {
+            color: #999;
+            font-style: italic;
+            margin-right: 10px;
+        }
+        
+        /* First sentence (definition) highlighting - ONLY the first sentence */
+        .first_sentence_definition {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #2c3e50;
+            background-color: #e8f4f8;
+            border-left: 4px solid #0066cc;
+            padding: 4px 8px;
+            border-radius: 3px;
+            display: inline;
+        }
+        
+        /* Description paragraph styling - regular text, NOT highlighted */
+        .wpage_first_para {
+            margin: 10px 0;
+            padding: 8px;
+            color: #333;
+            font-weight: normal;
+        }
+        
+        /* First sentence within paragraphs - ensure paragraph itself is NOT highlighted */
+        p.wpage_first_para {
+            margin: 12px 0;
+            padding: 10px;
+            color: #333;
+            font-weight: normal;
+            background-color: transparent;
+            border: none;
+        }
+        
+        /* Only highlight the span inside the paragraph */
+        p.wpage_first_para .first_sentence_definition {
+            font-weight: bold;
+            background-color: #e8f4f8;
+            border-left: 4px solid #0066cc;
+            padding: 4px 8px;
+        }
+        
+        /* Wikipedia image link */
+        .wikipedia-image-link {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 8px 12px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        
+        .wikipedia-image-link:hover {
+            background-color: #e0e0e0;
+            text-decoration: underline;
+        }
+        
         /* Entry checkboxes container */
         .entry-checkboxes {
             margin-bottom: 10px;
@@ -957,19 +1035,38 @@ class AmiEncyclopedia:
             # Add checkboxes
             self._add_entry_checkboxes_for_merged_entry(entry_div, merged_entry, entry_id)
             
-            # Add Wikipedia URL if available
+            # Add Wikipedia URL if available (with spacing)
             wikipedia_url = merged_entry.get('wikipedia_url', '')
             if wikipedia_url:
                 wiki_link = ET.SubElement(entry_div, "a")
                 wiki_link.attrib["href"] = wikipedia_url
+                wiki_link.attrib["class"] = "wikipedia-link"
                 page_title = merged_entry.get('page_title', canonical_term)
                 wiki_link.text = page_title if page_title else wikipedia_url
+            else:
+                # Show indication when Wikipedia is not found
+                no_wiki_span = ET.SubElement(entry_div, "span")
+                no_wiki_span.attrib["class"] = "no-wikipedia"
+                no_wiki_span.text = "Wikipedia: (Not found)"
+            
+            # Add spacing between links
+            if wikipedia_url or (wikidata_id and wikidata_id not in ('no_wikidata_id', 'invalid_wikidata_id')):
+                spacer = ET.SubElement(entry_div, "span")
+                spacer.attrib["class"] = "link-spacer"
+                spacer.text = " "  # Space between links
             
             # Add Wikidata link if available
             if wikidata_id and wikidata_id not in ('no_wikidata_id', 'invalid_wikidata_id'):
                 wikidata_link = ET.SubElement(entry_div, "a")
                 wikidata_link.attrib["href"] = f"https://www.wikidata.org/wiki/{wikidata_id}"
-                wikidata_link.text = f"Wikidata: {wikidata_id}"
+                wikidata_link.attrib["class"] = "wikidata-link"
+                # Use just the ID as link text, not "Wikidata: Q123"
+                wikidata_link.text = wikidata_id
+            elif not wikipedia_url:
+                # Only show "not found" if Wikipedia also not found (avoid duplicate messages)
+                no_wikidata_span = ET.SubElement(entry_div, "span")
+                no_wikidata_span.attrib["class"] = "no-wikidata"
+                no_wikidata_span.text = "Wikidata: (Not found)"
             
             # Add synonym list if there are multiple synonyms
             synonyms = merged_entry.get('synonyms', [])
@@ -980,23 +1077,73 @@ class AmiEncyclopedia:
                     synonym_li = ET.SubElement(synonym_ul, "li")
                     synonym_li.text = synonym
             
-            # Add description if available
+            # Add description with first sentence highlighted
             description_html = merged_entry.get('description_html', '')
+            definition_html = merged_entry.get('definition_html', '')
+            
             if description_html:
                 from lxml.html import fromstring
+                import copy
                 try:
                     desc_elem = fromstring(description_html)
-                    # If the root element is a div, extract its children instead
-                    if desc_elem.tag == 'div':
-                        # Copy children to avoid nested div structure
-                        for child in desc_elem:
-                            entry_div.append(child)
-                    else:
-                        # For p, span, etc., append directly
-                        entry_div.append(desc_elem)
+                    # Filter out Wikipedia error messages
+                    desc_text = desc_elem.text_content() if hasattr(desc_elem, 'text_content') else ''
+                    if desc_text:
+                        error_patterns = [
+                            "other reasons this message may be displayed",
+                            "this is an accepted version of this page",
+                        ]
+                        if any(pattern in desc_text.lower() for pattern in error_patterns):
+                            # Skip this description (it's an error message)
+                            description_html = None
+                    
+                    if description_html:
+                        # If we have a definition, wrap first sentence in the paragraph
+                        if definition_html and desc_elem.tag == 'p':
+                            # Parse the paragraph and wrap first sentence
+                            para_text = desc_elem.text_content() if hasattr(desc_elem, 'text_content') else ''
+                            
+                            # Find first sentence in the paragraph HTML structure
+                            # Strategy: Find first period and wrap everything before it
+                            import re
+                            first_sentence_match = re.match(r'^([^.]*\.)(?:\s|$)', para_text)
+                            
+                            if first_sentence_match:
+                                first_sentence_text = first_sentence_match.group(1).strip()
+                                
+                                # Create new paragraph with first sentence wrapped
+                                new_para = ET.Element("p")
+                                new_para.attrib["class"] = "wpage_first_para"
+                                
+                                # Wrap first sentence in span
+                                def_span = ET.SubElement(new_para, "span")
+                                def_span.attrib["class"] = "first_sentence_definition"
+                                def_span.text = first_sentence_text
+                                
+                                # Add remaining text after first sentence
+                                remaining_text = para_text[len(first_sentence_text):].strip()
+                                if remaining_text:
+                                    new_para.text = remaining_text
+                                
+                                # Copy any child elements (links, etc.) that come after first sentence
+                                # This is simplified - for full HTML preservation, would need more complex logic
+                                entry_div.append(new_para)
+                            else:
+                                # No clear first sentence, use paragraph as-is
+                                desc_elem.set('class', 'wpage_first_para')
+                                entry_div.append(desc_elem)
+                        else:
+                            # Not a paragraph or no definition - use as-is
+                            if desc_elem.tag == 'p':
+                                desc_elem.set('class', 'wpage_first_para')
+                            entry_div.append(desc_elem)
                 except Exception:
+                    # Fallback: create paragraph with text
                     desc_p = ET.SubElement(entry_div, "p")
+                    desc_p.attrib["class"] = "wpage_first_para"
                     desc_p.text = description_html
+            
+            # Add figure if available
             
             # Add figure if available
             figure_html = merged_entry.get('figure_html')

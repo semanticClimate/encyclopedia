@@ -146,14 +146,96 @@ def _extract_wikidata_id_from_wikipedia_page(wikipedia_page) -> Optional[str]:
     return None
 
 
-def _get_first_paragraph_html_from_wikipedia_page(wikipedia_page) -> Optional[str]:
+def _filter_wikipedia_messages(text: str) -> bool:
+    """Check if text contains Wikipedia error/redirect messages that should be filtered.
+    
+    Args:
+        text: Text to check
+        
+    Returns:
+        True if text should be filtered out (contains error messages)
+    """
+    if not text:
+        return False
+    
+    text_lower = text.lower()
+    filter_patterns = [
+        "other reasons this message may be displayed",
+        "this is an accepted version of this page",
+        "this page was last edited",
+        "you may be looking for",
+        "redirected from",
+        "this article is about",
+    ]
+    
+    for pattern in filter_patterns:
+        if pattern in text_lower:
+            return True
+    
+    return False
+
+
+def _extract_definition_from_paragraph(para_elem) -> tuple:
+    """Extract definition (first sentence) separately from description.
+    
+    Preserves HTML structure and wraps first sentence in span with class "first_sentence_definition".
+    
+    Args:
+        para_elem: Paragraph element from Wikipedia
+        
+    Returns:
+        Tuple of (definition_html, description_html) where:
+        - definition_html: First sentence wrapped in <span class="first_sentence_definition">
+        - description_html: Full paragraph HTML (preserved with all HTML structure)
+    """
+    from amilib.xml_lib import XmlLib
+    import lxml.etree as ET
+    import re
+    import copy
+    
+    # Get text content for filtering
+    para_text = para_elem.text_content() if hasattr(para_elem, 'text_content') else ''
+    
+    # Filter out Wikipedia error messages
+    if _filter_wikipedia_messages(para_text):
+        return None, None
+    
+    # Try to extract first sentence (ends with period followed by space or end)
+    # Look for first sentence pattern: text ending with . followed by space or end of string
+    first_sentence_match = re.match(r'^([^.]*\.)(?:\s|$)', para_text)
+    
+    if first_sentence_match:
+        first_sentence_text = first_sentence_match.group(1).strip()
+        
+        # Create definition span with first sentence
+        definition_span = ET.Element("span")
+        definition_span.attrib["class"] = "first_sentence_definition"
+        definition_span.text = first_sentence_text
+        
+        # Keep full paragraph as description (with HTML preserved)
+        # The paragraph HTML will be modified in HTML generation to wrap first sentence
+        para_elem.set('class', 'wpage_first_para')
+        description_html = XmlLib.element_to_string(para_elem)
+        
+        definition_html = XmlLib.element_to_string(definition_span)
+        return definition_html, description_html
+    
+    # If no clear first sentence, return full paragraph as description
+    para_elem.set('class', 'wpage_first_para')
+    description_html = XmlLib.element_to_string(para_elem)
+    return None, description_html
+
+
+def _get_first_paragraph_html_from_wikipedia_page(wikipedia_page) -> tuple:
     """Get first paragraph HTML from WikipediaPage using amilib methods.
     
     Args:
         wikipedia_page: WikipediaPage object
         
     Returns:
-        HTML string of first paragraph (with wpage_first_para class) or None
+        Tuple of (definition_html, description_html) where:
+        - definition_html: First sentence as span (or None)
+        - description_html: Full paragraph HTML (or None)
     """
     try:
         # Use create_first_wikipedia_para (returns WikipediaPara object)
@@ -163,32 +245,62 @@ def _get_first_paragraph_html_from_wikipedia_page(wikipedia_page) -> Optional[st
             if para_obj is not None:
                 # WikipediaPara has para_element property that gives us the actual paragraph element
                 if hasattr(para_obj, 'para_element') and para_obj.para_element is not None:
-                    from amilib.xml_lib import XmlLib
-                    # Ensure the paragraph has the wpage_first_para class
                     para_elem = para_obj.para_element
-                    if para_elem.get('class') != 'wpage_first_para':
-                        para_elem.set('class', 'wpage_first_para')
-                    return XmlLib.element_to_string(para_elem)
+                    
+                    # Try to use amilib method for definition if available
+                    if hasattr(para_obj, 'get_definition') or hasattr(para_obj, 'definition'):
+                        # Use amilib definition method
+                        try:
+                            if hasattr(para_obj, 'get_definition'):
+                                definition = para_obj.get_definition()
+                            elif hasattr(para_obj, 'definition'):
+                                definition = para_obj.definition
+                            else:
+                                definition = None
+                            
+                            if definition:
+                                from amilib.xml_lib import XmlLib
+                                import lxml.etree as ET
+                                definition_span = ET.Element("span")
+                                definition_span.attrib["class"] = "first_sentence_definition"
+                                definition_span.text = definition
+                                definition_html = XmlLib.element_to_string(definition_span)
+                                
+                                # Get remaining description (preserve HTML)
+                                para_elem.set('class', 'wpage_first_para')
+                                description_html = XmlLib.element_to_string(para_elem)
+                                return definition_html, description_html
+                        except Exception:
+                            pass  # Fall back to manual extraction
+                    
+                    # Manual extraction of definition
+                    return _extract_definition_from_paragraph(para_elem)
         
         # Fallback: Try to extract from html_elem directly
         if hasattr(wikipedia_page, 'html_elem') and wikipedia_page.html_elem is not None:
-            # Look for first paragraph in the main content area
+            # Look for first paragraph in the main content area, skip disambiguation/redirect messages
             first_p = wikipedia_page.html_elem.xpath(".//div[@id='mw-content-text']//p[1]")
             if not first_p:
                 # Fallback: just get first <p> anywhere
                 first_p = wikipedia_page.html_elem.xpath(".//p[1]")
             
             if first_p:
-                from amilib.xml_lib import XmlLib
                 para_elem = first_p[0]
-                # Ensure it has the wpage_first_para class
-                if para_elem.get('class') != 'wpage_first_para':
-                    para_elem.set('class', 'wpage_first_para')
-                return XmlLib.element_to_string(para_elem)
+                # Filter out error messages
+                para_text = para_elem.text_content() if hasattr(para_elem, 'text_content') else ''
+                if _filter_wikipedia_messages(para_text):
+                    # Try next paragraph
+                    next_p = wikipedia_page.html_elem.xpath(".//div[@id='mw-content-text']//p[2]")
+                    if next_p:
+                        para_elem = next_p[0]
+                    else:
+                        return None, None
+                
+                return _extract_definition_from_paragraph(para_elem)
     except Exception as e:
         print(f"    Warning: Could not extract paragraph using amilib methods: {e}")
     
-    return None
+    return None, None
 
 
 def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
@@ -218,13 +330,21 @@ def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
         print(f"  ⚠ No Wikipedia page found for '{term}'")
         return
     
-    # Extract first paragraph using amilib methods
-    description_html = _get_first_paragraph_html_from_wikipedia_page(wikipedia_page)
+    # Extract definition and description separately using amilib methods
+    definition_html, description_html = _get_first_paragraph_html_from_wikipedia_page(wikipedia_page)
     
-    if description_html:
+    if description_html or definition_html:
         # Update entry with Wikipedia data
         entry_dict['wikipedia_url'] = wikipedia_page.url
-        entry_dict['description_html'] = description_html
+        
+        # Store definition and description separately
+        if definition_html:
+            entry_dict['definition_html'] = definition_html
+        if description_html:
+            entry_dict['description_html'] = description_html
+        elif definition_html:
+            # If only definition, use it as description too
+            entry_dict['description_html'] = definition_html
         
         # Get Wikidata ID if available
         if not entry_dict.get('wikidata_id'):
@@ -235,7 +355,7 @@ def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
         print(f"  ✓ Added Wikipedia description for '{term}'")
         print(f"    URL: {wikipedia_page.url}")
     else:
-        print(f"  ⚠ No first paragraph found for '{term}'")
+        print(f"  ⚠ No valid content found for '{term}' (may be redirect/disambiguation)")
         # Still save URL even if no description
         entry_dict['wikipedia_url'] = wikipedia_page.url
 
@@ -377,10 +497,10 @@ def _fix_image_urls(element):
 
 
 def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
-    """Add images to entry from Wikipedia using amilib methods.
+    """Add image links to entry from Wikipedia (links to Wikipedia image pages, not embedded).
     
-    Uses WikipediaPage.extract_a_elem_with_image_from_infobox() or similar
-    amilib methods to extract images.
+    Uses WikipediaPage.extract_a_elem_with_image_from_infobox() to get image links.
+    Creates links to Wikipedia File: pages instead of embedding images.
     
     Args:
         entry_dict: Entry dictionary
@@ -399,62 +519,57 @@ def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
         print(f"  Entry '{term}' has no Wikipedia page, skipping images")
         return
     
-    # Extract images using amilib methods
-    print(f"  Extracting images for '{term}'...")
+    # Extract image links using amilib methods
+    print(f"  Extracting image links for '{term}'...")
     images = _extract_images_from_wikipedia_page(wikipedia_page)
     
     if images:
-        # Convert image elements to HTML and store as figure_html
-        # The encyclopedia save code expects figure_html (element or HTML string)
-        from amilib.xml_lib import XmlLib
         import lxml.etree as ET
-        import copy
+        from amilib.xml_lib import XmlLib
         
-        # Get first image (or create a container for multiple)
+        # Get first image link (should be <a> tag linking to File: page)
         first_img = images[0]
         
         try:
-            if hasattr(first_img, 'tag'):  # It's an element
-                # Create a figure div container
-                figure_div = ET.Element("div")
-                figure_div.attrib["class"] = "figure"
+            if hasattr(first_img, 'tag') and first_img.tag == 'a':
+                # It's already an <a> element linking to Wikipedia File: page
+                # Extract the href to get the File: page URL
+                href = first_img.get('href', '')
                 
-                # Deep copy the element to avoid issues with element trees
-                if first_img.tag == 'a':
-                    # It's already an <a> element with image - copy it
-                    copied_elem = copy.deepcopy(first_img)
-                    figure_div.append(copied_elem)
-                elif first_img.tag == 'img':
-                    # Wrap img in an <a> tag if needed
-                    a_elem = ET.SubElement(figure_div, "a")
-                    copied_img = copy.deepcopy(first_img)
-                    a_elem.append(copied_img)
+                # Ensure it's a full Wikipedia URL
+                if href and not href.startswith('http'):
+                    if href.startswith('/wiki/File:'):
+                        href = f"https://en.wikipedia.org{href}"
+                    elif href.startswith('/'):
+                        href = f"https://en.wikipedia.org{href}"
+                    else:
+                        href = f"https://en.wikipedia.org/wiki/{href}"
+                
+                # Create a simple link to the Wikipedia image page
+                image_link = ET.Element("a")
+                image_link.attrib["href"] = href
+                image_link.attrib["class"] = "wikipedia-image-link"
+                
+                # Get image filename from href for display
+                if '/wiki/File:' in href:
+                    filename = href.split('/wiki/File:')[-1].replace('_', ' ')
+                elif '/File:' in href:
+                    filename = href.split('/File:')[-1].replace('_', ' ')
                 else:
-                    copied_elem = copy.deepcopy(first_img)
-                    figure_div.append(copied_elem)
+                    filename = "View image on Wikipedia"
                 
-                # Fix image URLs to be absolute Wikimedia URLs
-                _fix_image_urls(figure_div)
+                image_link.text = f"📷 {filename}"
                 
-                # Store as figure_html (element) - this is what save_wiki_normalized_html expects
-                entry_dict['figure_html'] = figure_div
+                # Store as figure_html (link element)
+                entry_dict['figure_html'] = image_link
+                entry_dict['image_link'] = href  # Store URL separately too
                 
-                # Also store as images list for compatibility
-                image_htmls = []
-                for img in images[:3]:
-                    if hasattr(img, 'tag'):
-                        image_htmls.append(XmlLib.element_to_string(img))
-                if image_htmls:
-                    entry_dict['images'] = image_htmls
-                
-                print(f"  ✓ Added image for '{term}'")
+                print(f"  ✓ Added image link for '{term}'")
+                print(f"    Link: {href}")
             else:
-                # If it's a string, store as HTML string
-                entry_dict['figure_html'] = str(first_img)
-                entry_dict['images'] = [str(img) for img in images[:3]]
-                print(f"  ✓ Added {len(images[:3])} images for '{term}'")
+                print(f"  ⚠ Image element is not a link (tag: {first_img.tag if hasattr(first_img, 'tag') else 'unknown'})")
         except Exception as e:
-            print(f"  ⚠ Could not convert images to HTML for '{term}': {e}")
+            print(f"  ⚠ Could not create image link for '{term}': {e}")
             import traceback
             traceback.print_exc()
     else:
@@ -641,17 +756,20 @@ def get_feature_handler(feature: str):
     return handlers.get(feature.lower())
 
 
-def process_batch(input_file: Path, feature: str, batch_size: int = 100, 
-                  feature_handler: Optional[Callable] = None):
+def process_batch(input_file: Path, feature: str, batch_size: int = 10, 
+                  feature_handler: Optional[Callable] = None, resume: bool = True):
     """Process batch of entries with feature.
     
     Args:
         input_file: Path to encyclopedia HTML file
         feature: Feature name to add (e.g., 'wikipedia', 'images')
-        batch_size: Number of entries to process
+        batch_size: Number of entries to process (default: 10, good for slow connections)
         feature_handler: Function to add feature (if None, uses default handler)
+        resume: If True, skip entries that already have the feature (default: True)
     """
     print(f"Processing batch: {batch_size} entries, feature: {feature}")
+    if resume:
+        print("  (Resume mode: skipping entries that already have this feature)")
     
     # Check file exists
     if not input_file.exists():
@@ -677,14 +795,31 @@ def process_batch(input_file: Path, feature: str, batch_size: int = 100,
         
         print(f"Loaded encyclopedia with {len(encyclopedia.entries)} entries")
         
-        # Find entries needing this feature
-        entries_to_process = _find_entries_needing_feature(encyclopedia, feature, batch_size)
+        # Find ALL entries needing this feature (for progress calculation)
+        all_entries_needing_feature = []
+        for entry in encyclopedia.entries:
+            if feature == 'wikipedia':
+                if not _has_non_empty_description(entry) or not entry.get('wikipedia_url'):
+                    all_entries_needing_feature.append(entry)
+            elif feature == 'images':
+                if entry.get('wikipedia_url') and not entry.get('images') and not entry.get('figure_html'):
+                    all_entries_needing_feature.append(entry)
+            else:
+                if feature not in entry.get('features', []):
+                    all_entries_needing_feature.append(entry)
         
-        if not entries_to_process:
-            print(f"No entries found missing feature '{feature}'")
+        total_needing = len(all_entries_needing_feature)
+        
+        if not all_entries_needing_feature:
+            print(f"✓ All entries already have feature '{feature}'")
             return 0
         
-        print(f"Found {len(entries_to_process)} entries to process...")
+        # Get batch to process
+        entries_to_process = all_entries_needing_feature[:batch_size]
+        
+        print(f"Found {total_needing} entries missing feature '{feature}'")
+        print(f"Processing next {len(entries_to_process)} entries...")
+        print(f"Progress: {len(encyclopedia.entries) - total_needing}/{len(encyclopedia.entries)} entries complete ({100 * (len(encyclopedia.entries) - total_needing) / len(encyclopedia.entries):.1f}%)")
         
         # Get handler
         if feature_handler:
@@ -698,13 +833,50 @@ def process_batch(input_file: Path, feature: str, batch_size: int = 100,
         
         # Process entries
         processed_count = 0
-        for entry in entries_to_process:
+        successful_count = 0
+        
+        for idx, entry in enumerate(entries_to_process, 1):
             term = entry.get('term', entry.get('canonical_term', 'Unknown'))
-            print(f"\nProcessing: {term}")
+            
+            # Check if already has feature (resume mode)
+            if resume:
+                if feature == 'wikipedia':
+                    if _has_non_empty_description(entry) and entry.get('wikipedia_url'):
+                        print(f"  [{idx}/{len(entries_to_process)}] '{term}' already has Wikipedia, skipping...")
+                        continue
+                elif feature == 'images':
+                    if entry.get('images') or entry.get('figure_html'):
+                        print(f"  [{idx}/{len(entries_to_process)}] '{term}' already has images, skipping...")
+                        continue
+            
+            print(f"\n  [{idx}/{len(entries_to_process)}] Processing: {term}")
+            
+            # Track state before processing
+            had_feature_before = False
+            if feature == 'wikipedia':
+                had_feature_before = _has_non_empty_description(entry) and entry.get('wikipedia_url')
+            elif feature == 'images':
+                had_feature_before = bool(entry.get('images') or entry.get('figure_html'))
             
             # Add feature
             handler(entry, encyclopedia)
             processed_count += 1
+            
+            # Check if feature was added
+            has_feature_after = False
+            if feature == 'wikipedia':
+                has_feature_after = _has_non_empty_description(entry) and entry.get('wikipedia_url')
+            elif feature == 'images':
+                has_feature_after = bool(entry.get('images') or entry.get('figure_html'))
+            
+            if has_feature_after and not had_feature_before:
+                successful_count += 1
+            
+            # Show progress
+            remaining = total_needing - (len(encyclopedia.entries) - total_needing + idx)
+            if remaining > 0:
+                progress_pct = 100 * (len(encyclopedia.entries) - total_needing + idx) / len(encyclopedia.entries)
+                print(f"    Progress: {len(encyclopedia.entries) - total_needing + idx}/{len(encyclopedia.entries)} ({progress_pct:.1f}%), {remaining} remaining")
         
         # Clear normalized entries cache so save regenerates with our changes
         encyclopedia.normalized_entries = {}
@@ -731,7 +903,11 @@ def process_batch(input_file: Path, feature: str, batch_size: int = 100,
             traceback.print_exc()
             return 1
         
-        print(f"\n✓ Processed {processed_count} entries with feature '{feature}'")
+        print(f"\n✓ Processed {processed_count} entries")
+        print(f"  Successfully added '{feature}' to {successful_count} entries")
+        if total_needing - successful_count > 0:
+            remaining = total_needing - successful_count
+            print(f"  {remaining} entries still need '{feature}' (run again to continue)")
         return 0
         
     except Exception as e:
@@ -831,6 +1007,100 @@ def show_stats(input_file: Path):
         return 1
 
 
+def show_status(input_file: Path):
+    """Show detailed status and progress for encyclopedia features.
+    
+    Shows progress for each feature (Wikipedia descriptions, images, etc.)
+    and indicates how many entries still need processing.
+    
+    Args:
+        input_file: Path to encyclopedia HTML file
+    """
+    if not input_file.exists():
+        print(f"Error: Encyclopedia file not found: {input_file}")
+        return 1
+    
+    try:
+        encyclopedia = _load_encyclopedia_from_html_file(input_file)
+        
+        if not encyclopedia.entries:
+            print("Encyclopedia has no entries")
+            return 0
+        
+        total = len(encyclopedia.entries)
+        
+        print("\n" + "=" * 60)
+        print("Encyclopedia Status")
+        print("=" * 60)
+        print(f"Title: {encyclopedia.title}")
+        print(f"Total Entries: {total}")
+        print()
+        
+        # Wikipedia descriptions
+        with_wikipedia_desc = sum(1 for e in encyclopedia.entries 
+                                 if _has_non_empty_description(e) and e.get('wikipedia_url'))
+        without_wikipedia_desc = total - with_wikipedia_desc
+        wikipedia_pct = (with_wikipedia_desc / total * 100) if total > 0 else 0
+        
+        print("Wikipedia Descriptions:")
+        print(f"  ✓ Complete: {with_wikipedia_desc}/{total} ({wikipedia_pct:.1f}%)")
+        if without_wikipedia_desc > 0:
+            print(f"  ⚠ Missing: {without_wikipedia_desc} entries")
+            print(f"  → Run: python -m encyclopedia.cli.versioned_editor process --input {input_file} --feature wikipedia")
+        else:
+            print(f"  ✓ All entries have Wikipedia descriptions")
+        print()
+        
+        # Images
+        with_images = sum(1 for e in encyclopedia.entries 
+                         if e.get('images') or e.get('figure_html'))
+        without_images = total - with_images
+        images_pct = (with_images / total * 100) if total > 0 else 0
+        
+        print("Images:")
+        print(f"  ✓ Complete: {with_images}/{total} ({images_pct:.1f}%)")
+        if without_images > 0:
+            print(f"  ⚠ Missing: {without_images} entries")
+            print(f"  → Run: python -m encyclopedia.cli.versioned_editor process --input {input_file} --feature images")
+        else:
+            print(f"  ✓ All entries have images")
+        print()
+        
+        # Wikidata IDs
+        with_wikidata = sum(1 for e in encyclopedia.entries if e.get('wikidata_id'))
+        without_wikidata = total - with_wikidata
+        wikidata_pct = (with_wikidata / total * 100) if total > 0 else 0
+        
+        print("Wikidata IDs:")
+        print(f"  ✓ Complete: {with_wikidata}/{total} ({wikidata_pct:.1f}%)")
+        if without_wikidata > 0:
+            print(f"  ⚠ Missing: {without_wikidata} entries")
+        else:
+            print(f"  ✓ All entries have Wikidata IDs")
+        print()
+        
+        # Overall progress
+        overall_complete = sum(1 for e in encyclopedia.entries 
+                              if (_has_non_empty_description(e) and e.get('wikipedia_url')) and
+                                 (e.get('images') or e.get('figure_html')) and
+                                 e.get('wikidata_id'))
+        overall_pct = (overall_complete / total * 100) if total > 0 else 0
+        
+        print("Overall Progress:")
+        print(f"  Fully complete: {overall_complete}/{total} ({overall_pct:.1f}%)")
+        print()
+        
+        print("=" * 60)
+        
+        return 0
+        
+    except Exception as e:
+        print(f"Error: {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+
+
 def launch_streamlit(input_file: Path, port: int = 8501):
     """Launch Streamlit interface.
     
@@ -848,7 +1118,8 @@ def launch_streamlit(input_file: Path, port: int = 8501):
         return 1
     
     # Get path to streamlit app
-    app_path = Path(__file__).parent.parent / "browser" / "app.py"
+    # Use Path constructor with multiple arguments per style guide
+    app_path = Path(Path(__file__).parent.parent, "browser", "app.py")
     
     if not app_path.exists():
         print(f"Error: Streamlit app not found: {app_path}")
@@ -905,6 +1176,9 @@ Examples:
   # Show statistics
   python -m encyclopedia.cli.versioned_editor stats --input test/encyclopedia_a.html
   
+  # Show detailed status and progress
+  python -m encyclopedia.cli.versioned_editor status --input test/encyclopedia_a.html
+  
   # Launch Streamlit
   python -m encyclopedia.cli.versioned_editor streamlit --input test/encyclopedia_a.html
         """
@@ -922,7 +1196,8 @@ Examples:
     process_parser = subparsers.add_parser('process', help='Process batch of entries')
     process_parser.add_argument('--input', type=Path, required=True, help='Input encyclopedia HTML file')
     process_parser.add_argument('--feature', type=str, required=True, help='Feature name to add')
-    process_parser.add_argument('--batch-size', type=int, default=100, help='Number of entries to process')
+    process_parser.add_argument('--batch-size', type=int, default=10, help='Number of entries to process (default: 10, good for slow connections)')
+    process_parser.add_argument('--no-resume', action='store_false', dest='resume', default=True, help='Process all entries, even if they already have the feature')
     
     # Next command
     next_parser = subparsers.add_parser('next', help='Show next unprocessed entry')
@@ -931,6 +1206,10 @@ Examples:
     # Stats command
     stats_parser = subparsers.add_parser('stats', help='Show encyclopedia statistics')
     stats_parser.add_argument('--input', type=Path, required=True, help='Input encyclopedia HTML file')
+    
+    # Status command
+    status_parser = subparsers.add_parser('status', help='Show detailed status and progress for features')
+    status_parser.add_argument('--input', type=Path, required=True, help='Input encyclopedia HTML file')
     
     # Streamlit command
     streamlit_parser = subparsers.add_parser('streamlit', help='Launch Streamlit interface')
@@ -947,11 +1226,13 @@ Examples:
     if args.command == 'create':
         return create_encyclopedia(args.wordlist, args.output, args.title)
     elif args.command == 'process':
-        return process_batch(args.input, args.feature, args.batch_size)
+        return process_batch(args.input, args.feature, args.batch_size, resume=args.resume)
     elif args.command == 'next':
         return show_next_entry(args.input)
     elif args.command == 'stats':
         return show_stats(args.input)
+    elif args.command == 'status':
+        return show_status(args.input)
     elif args.command == 'streamlit':
         return launch_streamlit(args.input, args.port)
     else:

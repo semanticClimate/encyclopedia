@@ -21,6 +21,7 @@ from typing import List, Dict
 try:
     from amilib.ami_dict import AmiDictionary
     from encyclopedia.core.encyclopedia import AmiEncyclopedia
+    from encyclopedia.utils.resources import Resources
 except ImportError as e:
     print("=" * 60)
     print("IMPORT ERROR")
@@ -35,214 +36,66 @@ except ImportError as e:
     raise
 
 
-def create_encyclopedia_from_wordlist(terms: List[str], title: str = "My Encyclopedia") -> AmiEncyclopedia:
+def create_encyclopedia_from_wordlist(
+    terms: List[str], 
+    title: str = "My Encyclopedia",
+    add_wikipedia: bool = True,
+    add_images: bool = False,
+    batch_size: int = 10,
+    validate: bool = True,
+    verbose: bool = False
+) -> AmiEncyclopedia:
     """
     Create an encyclopedia from a list of terms.
     
     Args:
         terms: List of terms/phrases to include in the encyclopedia
         title: Title for the encyclopedia
+        add_wikipedia: If True, automatically add Wikipedia descriptions (default: True)
+        add_images: If True, automatically add images from Wikipedia (default: False, can be slow)
+        batch_size: Number of entries to process at a time (default: 10, good for slow connections)
+        validate: If True, validate results at the end (default: True)
+        verbose: If True, show detailed progress (default: False)
         
     Returns:
         AmiEncyclopedia instance with entries created from the terms
     """
+    from encyclopedia.utils.encyclopedia_builder import (
+        create_dictionary_from_terms,
+        enhance_dictionary_with_wikipedia,
+        convert_dictionary_to_encyclopedia,
+        add_wikipedia_descriptions_to_encyclopedia,
+        add_image_links_to_encyclopedia
+    )
+    from encyclopedia.utils.validation import (
+        validate_encyclopedia_completeness,
+        print_validation_report
+    )
+    
     print(f"\n{'='*60}")
     print(f"Creating encyclopedia '{title}' from {len(terms)} terms...")
     print(f"{'='*60}\n")
     
+    # Create temporary directory
+    temp_path = Resources.get_temp_dir("examples", "create_encyclopedia_from_wordlist")
+    temp_path.mkdir(parents=True, exist_ok=True)
+    
     # Step 1: Create dictionary from words
     print("Step 1: Creating dictionary from terms...")
-    
-    # Use the class method to properly initialize the dictionary
-    # Create a temporary directory for output (required by create_dictionary_from_words)
-    import tempfile
-    with tempfile.TemporaryDirectory() as temp_dir:
-        temp_path = Path(temp_dir)
-        
-        # Create dictionary (basic structure only)
-        dictionary, _ = AmiDictionary.create_dictionary_from_words(
-            terms=terms,
-            title=title,
-            wikidata=False,  # We'll get Wikidata IDs from Wikipedia pages
-            outdir=temp_path  # Temporary directory (file will be cleaned up)
-        )
-    
+    dictionary = create_dictionary_from_terms(terms, title, temp_path)
     print(f"  ✓ Created dictionary with {len(dictionary.entry_by_term)} entries")
     
-    # Step 2: Enhance with Wikipedia content
-    print("\nStep 2: Enhancing with Wikipedia content...")
-    print("  (This may take a while as we fetch Wikipedia pages...)")
-    
-    # Try to add Wikipedia content using available methods
-    try:
-        # Try add_wikipedia_from_terms if it exists
-        if hasattr(dictionary, 'add_wikipedia_from_terms'):
-            dictionary.add_wikipedia_from_terms()
-            print(f"  ✓ Enhanced all entries with Wikipedia content")
-        else:
-            # Fallback: try adding Wikipedia page for each entry
-            from amilib.wikimedia import WikipediaPage
-            entries_processed = 0
-            for term, ami_entry in dictionary.entry_by_term.items():
-                try:
-                    # Lookup Wikipedia page
-                    wikipedia_page = WikipediaPage.lookup_wikipedia_page_for_term(term)
-                    if wikipedia_page:
-                        # Try to add Wikipedia page to entry
-                        if hasattr(dictionary, 'add_wikipedia_page'):
-                            dictionary.add_wikipedia_page(term, wikipedia_page)
-                        elif hasattr(ami_entry, 'add_wikipedia_page'):
-                            ami_entry.add_wikipedia_page(wikipedia_page)
-                    entries_processed += 1
-                    if entries_processed % 5 == 0:
-                        print(f"  Processed {entries_processed}/{len(dictionary.entry_by_term)} entries...")
-                except Exception as e:
-                    print(f"  Warning: Could not fetch Wikipedia page for '{term}': {e}")
-            print(f"  ✓ Enhanced {entries_processed} entries with Wikipedia content")
-    except Exception as e:
-        print(f"  Warning: Could not add Wikipedia content: {e}")
-        print("  Continuing without Wikipedia content...")
-    
-    # Step 3: Create HTML dictionary and save to temporary file
-    print("\nStep 3: Creating HTML dictionary...")
-    html_dict = dictionary.create_html_dictionary()
-    
-    # Ensure we have a complete HTML document structure
-    from amilib.xml_lib import XmlLib
-    import lxml.etree as ET
-    from amilib.ami_html import HtmlLib
-    
-    if hasattr(html_dict, 'tag'):
-        # It's an element - check if it's already a complete HTML document
-        if html_dict.tag == 'html':
-            # Already a complete HTML document - ensure it has the required structure
-            body = html_dict.find('.//body')
-            if body is not None:
-                dict_div = body.find(".//div[@role='ami_dictionary']")
-                if dict_div is not None:
-                    # Ensure it has title attribute
-                    if not dict_div.get('title'):
-                        dict_div.attrib["title"] = title
-                else:
-                    # No dictionary div found - this shouldn't happen but handle it
-                    print("  Warning: HTML document doesn't have dictionary div, creating one...")
-                    dict_div = ET.SubElement(body, "div")
-                    dict_div.attrib["role"] = "ami_dictionary"
-                    dict_div.attrib["title"] = title
-            html_content = XmlLib.element_to_string(html_dict, pretty_print=True)
-        else:
-            # It's just a div or fragment - wrap it in complete HTML structure
-            html_root = HtmlLib.create_html_with_empty_head_body()
-            body = HtmlLib.get_body(html_root)
-            
-            # Find or create the dictionary div
-            if html_dict.tag == 'div' and html_dict.get('role') == 'ami_dictionary':
-                # Ensure it has the title attribute
-                if not html_dict.get('title'):
-                    html_dict.attrib["title"] = title
-                # Create a deep copy to avoid modifying the original
-                import copy
-                dict_div_copy = copy.deepcopy(html_dict)
-                # Copy the dictionary div to the body
-                body.append(dict_div_copy)
-            else:
-                # Wrap in a dictionary div
-                dict_div = ET.SubElement(body, "div")
-                dict_div.attrib["role"] = "ami_dictionary"
-                dict_div.attrib["title"] = title
-                # If html_dict is a div with entries, append its children
-                if hasattr(html_dict, '__iter__'):
-                    for child in html_dict:
-                        dict_div.append(copy.deepcopy(child))
-                else:
-                    dict_div.append(copy.deepcopy(html_dict))
-            
-            html_content = XmlLib.element_to_string(html_root, pretty_print=True)
+    # Step 2: Enhance with Wikipedia content (if requested)
+    if add_wikipedia:
+        print("\nStep 2: Enhancing with Wikipedia content...")
+        dictionary = enhance_dictionary_with_wikipedia(dictionary, verbose=verbose)
     else:
-        # It's already a string - parse it and ensure structure
-        from lxml.html import fromstring, tostring
-        try:
-            parsed = fromstring(html_dict)
-            # Check if it has the required structure
-            body = parsed.find('.//body')
-            if body is None:
-                # Wrap in HTML structure
-                html_root = HtmlLib.create_html_with_empty_head_body()
-                body = HtmlLib.get_body(html_root)
-                # Parse the string content and add to body
-                content_elem = fromstring(f"<div>{html_dict}</div>")
-                dict_div = ET.SubElement(body, "div")
-                dict_div.attrib["role"] = "ami_dictionary"
-                dict_div.attrib["title"] = title
-                for child in content_elem:
-                    dict_div.append(child)
-                html_content = XmlLib.element_to_string(html_root, pretty_print=True)
-            else:
-                # Check for dictionary div
-                dict_div = body.find(".//div[@role='ami_dictionary']")
-                if dict_div is None:
-                    # Wrap content in dictionary div
-                    dict_div = ET.SubElement(body, "div")
-                    dict_div.attrib["role"] = "ami_dictionary"
-                    dict_div.attrib["title"] = title
-                    # Move existing content
-                    for child in list(body):
-                        if child.tag != 'div' or child.get('role') != 'ami_dictionary':
-                            dict_div.append(child)
-                else:
-                    # Ensure title attribute
-                    if not dict_div.get('title'):
-                        dict_div.attrib["title"] = title
-                html_content = tostring(parsed, encoding='unicode', pretty_print=True)
-        except Exception as e:
-            print(f"  Warning: Could not parse HTML string: {e}")
-            # Fallback: wrap in complete structure
-            html_root = HtmlLib.create_html_with_empty_head_body()
-            body = HtmlLib.get_body(html_root)
-            dict_div = ET.SubElement(body, "div")
-            dict_div.attrib["role"] = "ami_dictionary"
-            dict_div.attrib["title"] = title
-            dict_div.text = html_dict
-            html_content = XmlLib.element_to_string(html_root, pretty_print=True)
+        print("\nStep 2: Skipping Wikipedia content (--no-wikipedia flag)")
     
-    # Verify and fix HTML structure before saving
-    from lxml.html import fromstring
-    try:
-        parsed = fromstring(html_content.encode('utf-8'))
-        body = parsed.find('.//body')
-        if body is not None:
-            dict_div = body.find(".//div[@role='ami_dictionary']")
-            if dict_div is None or not dict_div.get('title'):
-                # Fix the structure
-                if dict_div is None:
-                    # Create dictionary div
-                    dict_div = ET.SubElement(body, "div")
-                    dict_div.attrib["role"] = "ami_dictionary"
-                    # Move existing content into it
-                    for child in list(body):
-                        if child.tag != 'div' or child.get('role') != 'ami_dictionary':
-                            body.remove(child)
-                            dict_div.append(child)
-                # Ensure title attribute
-                if not dict_div.get('title'):
-                    dict_div.attrib["title"] = title
-                # Re-serialize
-                html_content = XmlLib.element_to_string(parsed, pretty_print=True)
-    except Exception as e:
-        print(f"  Warning: Could not verify HTML structure: {e}")
-    
-    # Save to temporary file (create_from_html_file expects a file path)
-    import tempfile
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False, encoding='utf-8') as temp_file:
-        temp_html_path = Path(temp_file.name)
-        temp_file.write(html_content)
-    
-    print("  ✓ HTML dictionary created")
-    
-    # Step 4: Create encyclopedia from HTML file
-    print("\nStep 4: Creating encyclopedia from HTML dictionary...")
-    encyclopedia = AmiEncyclopedia(title=title)
-    encyclopedia.create_from_html_file(temp_html_path)
+    # Step 3: Convert dictionary to encyclopedia
+    print("\nStep 3: Converting dictionary to encyclopedia...")
+    temp_html_path = Path(temp_path, "temp_dictionary.html")
+    encyclopedia = convert_dictionary_to_encyclopedia(dictionary, temp_path, title=title)
     
     # Clean up temporary file
     try:
@@ -251,15 +104,49 @@ def create_encyclopedia_from_wordlist(terms: List[str], title: str = "My Encyclo
         pass  # Ignore cleanup errors
     print(f"  ✓ Encyclopedia created with {len(encyclopedia.entries)} entries")
     
-    # Step 5: Normalize by Wikidata ID
-    print("\nStep 5: Normalizing entries by Wikidata ID...")
+    # Step 4: Normalize by Wikidata ID
+    print("\nStep 4: Normalizing entries by Wikidata ID...")
     encyclopedia.normalize_by_wikidata_id()
     print("  ✓ Entries normalized")
     
-    # Step 6: Merge synonyms
-    print("\nStep 6: Merging synonyms...")
+    # Step 5: Merge synonyms
+    print("\nStep 5: Merging synonyms...")
     encyclopedia.merge()
     print("  ✓ Synonyms merged")
+    
+    # Step 6: Add Wikipedia descriptions if requested (after encyclopedia creation)
+    # This ensures descriptions are properly added even if dictionary conversion lost them
+    wikipedia_results = None
+    if add_wikipedia:
+        print("\nStep 6: Adding Wikipedia descriptions to encyclopedia entries...")
+        encyclopedia, wikipedia_results = add_wikipedia_descriptions_to_encyclopedia(
+            encyclopedia, batch_size=batch_size, verbose=verbose
+        )
+        print(f"  ✓ Added Wikipedia descriptions: {wikipedia_results['successful']}/{wikipedia_results['total']} successful")
+        print(f"    - {wikipedia_results['with_definitions']} with definitions (first sentences)")
+        print(f"    - {wikipedia_results['with_descriptions']} with descriptions")
+        if wikipedia_results['no_wikipedia']:
+            print(f"    - {len(wikipedia_results['no_wikipedia'])} terms not found in Wikipedia")
+    
+    # Step 7: Add images if requested
+    image_results = None
+    if add_images:
+        print("\nStep 7: Adding image links from Wikipedia...")
+        encyclopedia, image_results = add_image_links_to_encyclopedia(
+            encyclopedia, batch_size=batch_size, verbose=verbose
+        )
+        print(f"  ✓ Added image links: {image_results['successful']}/{image_results['total']} successful")
+        print(f"    - {image_results['with_images']} entries with images")
+        if image_results['no_images']:
+            print(f"    - {len(image_results['no_images'])} entries without images")
+    else:
+        print("\nStep 7: Skipping images (use --add-images to enable)")
+    
+    # Step 8: Validate results
+    if validate:
+        print("\nStep 8: Validating encyclopedia completeness...")
+        validation_results = validate_encyclopedia_completeness(encyclopedia)
+        print_validation_report(validation_results, verbose=verbose)
     
     print(f"\n{'='*60}")
     print(f"Encyclopedia creation complete!")
@@ -274,6 +161,7 @@ def display_entry(entry: Dict, index: int) -> None:
     wikidata_id = entry.get('wikidata_id', '')
     wikipedia_url = entry.get('wikipedia_url', '')
     description = entry.get('description_html', '')
+    synonyms = entry.get('synonyms', [])
     
     # Truncate description for display
     if description:
@@ -286,10 +174,31 @@ def display_entry(entry: Dict, index: int) -> None:
         text_only = "(No description available)"
     
     print(f"\n  [{index}] {term}")
-    if wikidata_id:
-        print(f"      Wikidata ID: {wikidata_id}")
+    
+    # Show synonyms if this is a merged entry
+    if synonyms and len(synonyms) > 1:
+        other_synonyms = [s for s in synonyms if s != term]
+        if other_synonyms:
+            print(f"      Synonyms: {', '.join(other_synonyms)}")
+    
+    # Show links with spacing
+    links_parts = []
     if wikipedia_url:
-        print(f"      Wikipedia: {wikipedia_url}")
+        links_parts.append(f"Wikipedia: {wikipedia_url}")
+    else:
+        links_parts.append("Wikipedia: (Not found)")
+    
+    if wikidata_id and wikidata_id not in ('', 'no_wikidata_id', 'invalid_wikidata_id'):
+        links_parts.append(f"Wikidata: {wikidata_id}")
+    else:
+        links_parts.append("Wikidata: (Not found)")
+    
+    # Print links with spacing between them
+    if links_parts:
+        print(f"      {links_parts[0]}")
+        if len(links_parts) > 1:
+            print(f"      {links_parts[1]}")
+    
     print(f"      Description: {text_only}")
 
 
@@ -297,6 +206,14 @@ def display_all_entries(encyclopedia: AmiEncyclopedia) -> None:
     """Display all entries in the encyclopedia."""
     print(f"\n{'='*60}")
     print(f"Encyclopedia Entries ({len(encyclopedia.entries)} total)")
+    
+    # Count entries with/without Wikipedia
+    with_wikipedia = sum(1 for e in encyclopedia.entries if e.get('wikipedia_url'))
+    without_wikipedia = len(encyclopedia.entries) - with_wikipedia
+    
+    if without_wikipedia > 0:
+        print(f"  ({with_wikipedia} with Wikipedia, {without_wikipedia} without)")
+    
     print(f"{'='*60}")
     
     for idx, entry in enumerate(encyclopedia.entries, 1):
@@ -474,6 +391,48 @@ def main():
         action='store_true',
         help='Skip interactive deletion step'
     )
+    parser.add_argument(
+        '--add-wikipedia',
+        action='store_true',
+        default=True,
+        help='Add Wikipedia descriptions (default: True)'
+    )
+    parser.add_argument(
+        '--no-wikipedia',
+        action='store_false',
+        dest='add_wikipedia',
+        help='Skip Wikipedia descriptions'
+    )
+    parser.add_argument(
+        '--add-images',
+        action='store_true',
+        default=False,
+        help='Add images from Wikipedia (default: False, can be slow)'
+    )
+    parser.add_argument(
+        '--batch-size',
+        type=int,
+        default=10,
+        help='Number of entries to process at a time (default: 10, good for slow connections)'
+    )
+    parser.add_argument(
+        '--validate',
+        action='store_true',
+        default=True,
+        help='Validate encyclopedia completeness at the end (default: True)'
+    )
+    parser.add_argument(
+        '--no-validate',
+        action='store_false',
+        dest='validate',
+        help='Skip validation at the end'
+    )
+    parser.add_argument(
+        '--verbose',
+        action='store_true',
+        default=False,
+        help='Show detailed progress and validation reports (default: False)'
+    )
     
     args = parser.parse_args()
     
@@ -497,13 +456,23 @@ def main():
             "methane",
             "IPCC",
             "greenhouse effect",
-            "atmosphere"
+            "atmosphere",
+            "cutx",
+            "Methane",
         ]
         print(f"Using example terms: {len(terms)} terms")
     
     # Create encyclopedia
     try:
-        encyclopedia = create_encyclopedia_from_wordlist(terms, title=args.title)
+        encyclopedia = create_encyclopedia_from_wordlist(
+            terms, 
+            title=args.title,
+            add_wikipedia=args.add_wikipedia,
+            add_images=args.add_images,
+            batch_size=args.batch_size,
+            validate=args.validate,
+            verbose=args.verbose
+        )
     except Exception as e:
         print(f"\nError creating encyclopedia: {e}")
         import traceback
