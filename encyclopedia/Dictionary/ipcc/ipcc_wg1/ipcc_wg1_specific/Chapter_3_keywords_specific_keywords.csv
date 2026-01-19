@@ -1,0 +1,203 @@
+keyword,tfidf,count
+CMIP6 models,1.0,112
+table,1.0,42
+PDV,1.0,29
+greenhouse gas forcing,1.0,23
+anthropogenic influence,1.0,21
+CMIP5 simulations,1.0,20
+anthropogenic forcings,1.0,17
+biases,1.0,15
+mean state,1.0,14
+CMIP6 simulations,1.0,14
+CMIP5 Models,1.0,14
+Atlantic Multidecadal Variability,1.0,14
+natural forcing,1.0,13
+CO2 fertilization,1.0,13
+model performance,1.0,13
+ensemble members,1.0,13
+greenhouse gas increases,1.0,12
+Arctic sea ice loss,1.0,12
+ozone depletion,1.0,12
+external forcing,1.0,12
+global monsoon,1.0,12
+Pacific Decadal Variability,1.0,11
+surface temperature,1.0,11
+HighResMIP models,1.0,11
+observational uncertainty,1.0,11
+stratospheric ozone depletion,1.0,10
+CM,1.0,10
+simulations,1.0,10
+aerosol forcing,1.0,10
+natural forcings,1.0,10
+boreal winter,1.0,9
+confidence interval,1.0,9
+forcing,1.0,9
+HighResMIP,1.0,9
+climatology,1.0,9
+variability threshold,1.0,9
+models,1.0,9
+standard deviation,1.0,9
+orbital forcing,1.0,9
+greenhouse gas,1.0,9
+observational uncertainties,1.0,9
+CMIP5 climate models,1.0,9
+Ocean Modelling,1.0,9
+spatial structure,1.0,8
+internal climate variability,1.0,8
+observational estimates,1.0,8
+attribution studies,1.0,8
+individual models,1.0,8
+anthropogenic warming,1.0,8
+temperature extremes,1.0,8
+SST biases,1.0,8
+Atlantic Multidecadal Oscillation,1.0,8
+coupled models,1.0,7
+ensemble size,1.0,7
+external forcings,1.0,7
+surface air temperature,1.0,7
+forced response,1.0,7
+robust signal,1.0,7
+HadCRUT5,1.0,7
+GSAT warming,1.0,7
+volcanic forcing,1.0,7
+simulated trends,1.0,7
+ocean heat uptake,1.0,7
+whiskers,1.0,7
+mean temperature,1.0,7
+global,1.0,7
+carbon uptake,1.0,7
+warm bias,1.0,7
+ACC,1.0,7
+NAO,1.0,7
+IOB mode,1.0,7
+tropical Atlantic,1.0,7
+Internal Variability,1.0,7
+Interdecadal Pacific Oscillation,1.0,7
+tropospheric warming,1.0,6
+CMIP6 historical simulations,1.0,6
+extreme precipitation,1.0,6
+anthropogenic contribution,1.0,6
+upper ocean,1.0,6
+Climate Variability,1.0,6
+Human influence,1.0,6
+regression coefficients,1.0,6
+horizontal resolution,1.0,6
+observational products,1.0,6
+historical simulations,1.0,6
+stratospheric ozone,1.0,6
+GMST trends,1.0,6
+rainfall,1.0,6
+tropical Pacific,1.0,6
+CMIP3 models,1.0,6
+interquartile ranges,1.0,6
+anthropogenic aerosol forcing,1.0,6
+model resolution,1.0,6
+partial pressure,1.0,6
+NAM,1.0,6
+teleconnection,1.0,6
+Human Influence,1.0,5
+mean,1.0,5
+Internal variability,1.0,5
+Pacific Walker circulation,1.0,5
+global climate models,1.0,5
+ocean heat content increase,1.0,5
+land management,1.0,5
+Northern Annular Mode,1.0,5
+storm track,1.0,5
+detection,1.0,5
+temperature proxies,1.0,5
+temperature reconstructions,1.0,5
+GSAT changes,1.0,5
+equatorial Pacific,1.0,5
+proxy reconstructions,1.0,5
+aerosol influence,1.0,5
+hot extremes,1.0,5
+subtropics,1.0,5
+CMIP models,1.0,5
+model errors,1.0,5
+streamflow,1.0,5
+AMIP simulations,1.0,5
+global monsoon precipitation,1.0,5
+Pacific,1.0,5
+blocking frequency,1.0,5
+SSWs,1.0,5
+large ensemble simulations,1.0,5
+surface mass balance,1.0,5
+salinity,1.0,5
+Atlantic Ocean,1.0,5
+coupled climate models,1.0,5
+model biases,1.0,5
+leaf area index,1.0,5
+SAM,1.0,5
+summertime SAM,1.0,5
+ENSO index,1.0,5
+Atlantic Niño,1.0,5
+global warming hiatus,1.0,5
+Atlantic multidecadal variability,1.0,5
+Global Monsoon,1.0,5
+Atlantic meridional overturning circulation,1.0,5
+Anthropogenic Aerosols,1.0,5
+Earth System Model,1.0,5
+Zwiers,1.0,5
+Antarctic Sea Ice,1.0,5
+CMIP5 models,0.9991000609188374,131
+CMIP5,0.9956194793936753,274
+internal variability,0.9921305851523864,117
+CMIP3,0.9848998499691451,30
+human influence,0.9821061900939322,77
+anthropogenic forcing,0.9817491348828844,49
+anthropogenic aerosols,0.9724536609494786,22
+CMIP6,0.959741631693795,279
+natural variability,0.9551035946601838,17
+Southern Hemisphere,0.9485830221868845,30
+AMV,0.9485830221868845,30
+attribution,0.938498523888646,43
+North Atlantic Oscillation,0.9308420439223877,17
+greenhouse gases,0.9175816430072252,48
+observations,0.9002994813061963,56
+Southern Annular Mode,0.8991861789633765,16
+seasonal cycle,0.8964443527204269,18
+SST anomalies,0.8924249332828394,11
+Indian Ocean,0.8896216531150212,13
+Southern Ocean,0.8875557364942882,30
+Climate Dynamics,0.8755784511102715,121
+Earth Systems,0.8589592771380741,23
+observational datasets,0.8506880169287204,9
+austral summer,0.8506880169287204,9
+Climate Models,0.8388146555034166,13
+glaciers,0.8349268748068114,8
+PMIP4,0.8317797749498941,10
+teleconnections,0.811644436902806,17
+ocean heat content,0.8108359056069186,14
+Greenland Ice Sheet,0.7925782112338738,16
+Northern Hemisphere,0.7883812298267435,29
+satellite era,0.7829690851254508,7
+stratosphere,0.7678886519154017,8
+SST,0.7678886519154016,12
+Last Interglacial,0.7562711956562799,9
+seasonality,0.7395863719723785,11
+Walker circulation,0.7334028726045252,12
+Antarctic sea ice,0.7334028726045252,6
+precipitation,0.7319482931640788,37
+climate models,0.7305706455077438,53
+ENSO,0.7016254123512714,23
+AMOC,0.6946267701023305,33
+Atlantic Meridional Overturning Circulation,0.6892737322029576,11
+ozone,0.68804669563526,5
+greenhouse gas concentrations,0.68804669563526,5
+volcanic eruptions,0.6880466956352599,14
+North Pacific,0.6685743508845461,6
+ENSO variability,0.6685743508845461,6
+sea surface temperature,0.668574350884546,9
+satellite data,0.668574350884546,5
+GSAT,0.6472585569941078,33
+modelling,0.6435750858493667,15
+Arctic sea ice,0.6386203766959055,12
+data sources,0.6379788169602125,45
+Earth system models,0.6348818231512003,13
+water cycle,0.6199624387058903,5
+climate simulations,0.6199624387058903,5
+upper troposphere,0.618285292061183,7
+Time series,0.618285292061183,7
+aerosols,0.6109503068876745,20
+Global Biogeochemical Cycles,0.6103990408845343,6

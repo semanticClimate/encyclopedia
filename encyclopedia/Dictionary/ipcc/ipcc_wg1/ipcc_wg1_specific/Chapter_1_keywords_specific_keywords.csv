@@ -1,0 +1,196 @@
+keyword,tfidf,count
+AR6,1.0,41
+sea level rise,1.0,31
+adaptation,1.0,24
+WGI,1.0,23
+Paris Agreement,1.0,22
+UNFCCC,1.0,21
+SSP scenarios,1.0,18
+GHG emissions,1.0,17
+radiative forcings,1.0,16
+WMO,1.0,14
+ipcc,1.0,14
+Coupled Model Intercomparison Project,1.0,13
+Working Groups,1.0,13
+global surface air temperature,1.0,13
+methane,1.0,13
+cumulative CO2 emissions,1.0,13
+Global Environmental Change,1.0,13
+history,1.0,12
+climate science,1.0,12
+global stocktake,1.0,12
+climate change mitigation,1.0,12
+risk assessment,1.0,12
+SSP,1.0,12
+GHGs,1.0,12
+carbon cycle,1.0,12
+ESMs,1.0,12
+Climatic Change,1.0,12
+anthropogenic emissions,1.0,11
+climate extremes,1.0,11
+extreme events,1.0,11
+EMICs,1.0,11
+carbon budget,1.0,10
+emissions scenarios,1.0,10
+cumulative carbon emissions,1.0,10
+biodiversity,1.0,10
+Interactive Atlas,1.0,10
+World Meteorological Organization,1.0,10
+global warming levels,1.0,9
+climate information,1.0,9
+CORDEX,1.0,9
+regional climate information,1.0,9
+nitrous oxide,1.0,9
+CO2 concentrations,1.0,9
+SSPs,1.0,9
+transient climate response,1.0,9
+deep uncertainty,1.0,9
+Atlas,1.0,9
+IPCC assessments,1.0,8
+natural variations,1.0,8
+AR6 WGI,1.0,8
+cryosphere,1.0,8
+risk management,1.0,8
+global mean sea level,1.0,8
+sustainable development,1.0,8
+global temperature,1.0,8
+ocean acidification,1.0,8
+climate services,1.0,8
+extreme weather events,1.0,8
+ocean reanalyses,1.0,8
+RCPs,1.0,8
+UNEP,1.0,8
+IPCC Fifth Assessment Report,1.0,7
+vulnerability,1.0,7
+tropical cyclones,1.0,7
+aerosol emissions,1.0,7
+climate model,1.0,7
+GCMs,1.0,7
+ECS,1.0,7
+GCM,1.0,7
+GHG concentrations,1.0,7
+clouds,1.0,7
+Fifth Assessment Report,1.0,7
+paleoclimate archives,1.0,6
+WGI Assessment,1.0,6
+Attribution,1.0,6
+droughts,1.0,6
+process understanding,1.0,6
+SLCFs,1.0,6
+ecosystem services,1.0,6
+Montreal Protocol,1.0,6
+climate model projections,1.0,6
+climate policy,1.0,6
+water vapour,1.0,6
+Antarctic ice sheets,1.0,6
+Aerosols,1.0,6
+agriculture,1.0,6
+climate modelling,1.0,6
+RCP scenarios,1.0,6
+thermohaline circulation,1.0,6
+regional climate change,1.0,6
+Working Group II,1.0,6
+Oxford University Press,1.0,6
+Carbon Dioxide,1.0,6
+Clim,1.0,6
+Framing,1.0,5
+greenhouse gas emissions,1.0,5
+volcanic activity,1.0,5
+human activity,1.0,5
+AR,1.0,5
+tropical regions,1.0,5
+paleoclimate reconstructions,1.0,5
+climate variables,1.0,5
+infrastructure,1.0,5
+climate response,1.0,5
+scientific literature,1.0,5
+Report,1.0,5
+Sustainable Development Goals,1.0,5
+WGII,1.0,5
+IPCC Sixth Assessment Cycle,1.0,5
+Anthropogenic Climate Change,1.0,5
+tipping points,1.0,5
+Anthropocene,1.0,5
+Biodiversity,1.0,5
+Ecosystem Services,1.0,5
+GHG,1.0,5
+food security,1.0,5
+USA,1.0,5
+calibrated language,1.0,5
+expert judgment,1.0,5
+IPCC AR6,1.0,5
+climate impacts,1.0,5
+Earth System Grid Federation,1.0,5
+local knowledge,1.0,5
+Third Assessment Report,1.0,5
+solar irradiance,1.0,5
+global climate,1.0,5
+ESM,1.0,5
+IPCC assessment reports,1.0,5
+anthropogenic CO2 emissions,1.0,5
+climate indicators,1.0,5
+solar activity,1.0,5
+climate change impacts,1.0,5
+scenario uncertainty,1.0,5
+global carbon cycle,1.0,5
+climate change research,1.0,5
+climate policies,1.0,5
+CDR,1.0,5
+UK,1.0,5
+Mastrandrea,1.0,5
+Extreme Events,1.0,5
+National Academies Press,1.0,5
+Shared Socioeconomic Pathways,1.0,5
+GHG emissions scenario,1.0,5
+IPCC,0.9956547447990929,116
+CO2 emissions,0.9898378791736772,33
+Cambridge University Press,0.9765414946958084,43
+Intergovernmental Panel on Climate Change,0.9760061075102942,34
+radiative forcing,0.9635852130702847,50
+climate projections,0.9587972772089167,16
+human activities,0.9535105393203099,18
+Working Group I,0.9453854271128418,22
+Assessment Report,0.9350120950128177,15
+climate change,0.930138512336009,117
+anthropogenic climate change,0.9300506342564828,12
+climate system,0.9258165797571433,38
+resolution,0.9183419107428259,11
+Physical Science Basis,0.9161198000015099,13
+B,0.9161198000015099,13
+CMIP,0.9144790967408678,15
+global surface temperature,0.8966027432785664,20
+Climate Change,0.8925544914369592,21
+Geoscientific Model Development,0.8815679560729277,56
+sea level,0.8695716395486253,13
+climate model simulations,0.8691901641733014,10
+uncertainty,0.8642458646811855,50
+global mean temperature,0.8637229773342902,13
+climate,0.8452878578068241,9
+Earth System Dynamics,0.8398184678862611,12
+global warming,0.8303406533085184,40
+ERA5,0.8170590619702366,15
+global mean surface temperature,0.8149523693695513,8
+equilibrium climate sensitivity,0.8149523693695513,8
+temperature,0.8102710316554981,15
+water cycle,0.784631489677699,6
+climate simulations,0.784631489677699,6
+aerosols,0.7732256334963812,24
+Earth system models,0.7726092612907302,15
+climate sensitivity,0.7539316387138623,14
+Global Warming,0.7511409952431254,6
+American Meteorological Society,0.7407129175910941,44
+reanalyses,0.7349068242448945,8
+volcanic eruptions,0.7256664141500555,14
+ozone,0.7256664141500555,5
+greenhouse gas concentrations,0.7256664141500555,5
+land use,0.7189630131415288,12
+Royal Meteorological Society,0.7110662950735921,15
+ice sheets,0.6946476340119652,9
+ecosystems,0.6880651256057371,6
+ocean warming,0.6734887579598245,9
+climate models,0.6687492222880566,46
+Royal Society,0.644469008598616,8
+United Kingdom,0.6373159108716927,48
+modelling,0.6335123849840901,14
+Atmospheric Measurement Techniques,0.6307087897084364,6
+confidence,0.6144898981784639,14

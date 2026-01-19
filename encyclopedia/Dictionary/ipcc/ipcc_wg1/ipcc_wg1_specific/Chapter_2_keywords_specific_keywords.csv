@@ -1,0 +1,181 @@
+keyword,tfidf,count
+Holocene,1.0,83
+Paleoceanography,1.0,37
+ERF,1.0,31
+MPWP,1.0,31
+LIG,1.0,23
+NH,1.0,19
+proxy records,1.0,16
+instrumental period,1.0,16
+Permafrost,1.0,15
+AIS,1.0,14
+PETM,1.0,14
+permafrost,1.0,13
+LDT,1.0,13
+satellite observations,1.0,12
+low confidence,1.0,11
+TSI,1.0,11
+GrIS,1.0,11
+ice cores,1.0,10
+Africa,1.0,10
+Qu,1.0,10
+Hadley circulation,1.0,9
+instrumental record,1.0,9
+hydrological cycle,1.0,9
+SWV,1.0,9
+MODIS,1.0,9
+OLS regression,1.0,9
+Arctic Ocean,1.0,9
+deglaciation,1.0,9
+North Atlantic Ocean,1.0,9
+tropospheric ozone,1.0,8
+polar regions,1.0,8
+Medieval Climate Anomaly,1.0,8
+proxies,1.0,8
+EECO,1.0,8
+El Niño events,1.0,8
+AZM,1.0,8
+surface temperatures,1.0,8
+poleward shift,1.0,8
+ENSO activity,1.0,8
+South Atlantic,1.0,8
+SIA,1.0,8
+ocean,1.0,8
+Pacific Decadal Oscillation,1.0,8
+land areas,1.0,7
+mass loss,1.0,7
+marine organisms,1.0,7
+phenological metrics,1.0,7
+growing season,1.0,7
+CE,1.0,7
+IOD,1.0,7
+spatial coverage,1.0,7
+datasets,1.0,7
+United States,1.0,7
+ALT,1.0,7
+OHC,1.0,7
+GMSL change,1.0,7
+Nature,1.0,7
+last,1.0,7
+interglacial periods,1.0,6
+1750,1.0,6
+tropopause height,1.0,6
+global hydrological cycle,1.0,6
+decadal means,1.0,6
+ocean interior,1.0,6
+phytoplankton,1.0,6
+monsoon systems,1.0,6
+atmospheric CO2,1.0,6
+Little Ice Age,1.0,6
+marine sediments,1.0,6
+ice core records,1.0,6
+Ozone Depletion,1.0,6
+Russia,1.0,6
+albedo,1.0,6
+data coverage,1.0,6
+New Zealand,1.0,6
+TCWV,1.0,6
+ITCZ,1.0,6
+extratropical cyclones,1.0,6
+NMAT,1.0,6
+ice sheet,1.0,6
+lake sediments,1.0,6
+IOB,1.0,6
+North Atlantic climate,1.0,6
+Global Ozone,1.0,6
+Oceanography,1.0,6
+interglacial,1.0,5
+surface open ocean pH,1.0,5
+chlorophyll concentration,1.0,5
+CO2 concentration,1.0,5
+insolation,1.0,5
+glacier ice,1.0,5
+Uncertainties,1.0,5
+CSIRO,1.0,5
+deforestation,1.0,5
+interglacial period,1.0,5
+interpolation,1.0,5
+high latitudes,1.0,5
+evaporation,1.0,5
+subpolar North Atlantic,1.0,5
+Ross Sea,1.0,5
+East Antarctica,1.0,5
+permafrost temperatures,1.0,5
+Gulf Stream,1.0,5
+marine primary production,1.0,5
+climate warming,1.0,5
+ENSO amplitude,1.0,5
+Walker Circulation,1.0,5
+Hydrology,1.0,5
+Periglacial Processes,1.0,5
+global ocean,0.9731348164352046,19
+Canada,0.973034541623459,24
+United States of America,0.9653036333871426,41
+Arctic,0.9652061930086339,21
+GMST,0.9634176996919371,83
+Pliocene,0.9632425409283719,17
+China,0.9567521842166976,29
+South America,0.9535061342568644,15
+high confidence,0.9483048661437338,17
+SROCC,0.9410013118294045,25
+LGM,0.9389937180794251,27
+decadal variability,0.9364509810461643,12
+lower stratosphere,0.9331291537453286,14
+chapter data table,0.9319672174951852,39
+interannual variability,0.9209654480359947,17
+climate variability,0.9161123098867385,13
+time series,0.9123129751836125,16
+Common Era,0.9035912779693176,10
+Europe,0.8980383509778027,18
+Greenland,0.8979898427512447,24
+Antarctica,0.896463264002042,28
+AMM,0.8946159637073726,9
+Remote Sensing,0.8866668266110832,20
+GMSL,0.8757558098658927,33
+India,0.8717966184763992,8
+Earth System Science Data,0.8652340461160104,18
+North America,0.8577324793896501,18
+sea ice,0.8533505634717111,14
+tropics,0.8463452383186906,10
+Global Change Biology,0.8463452383186906,10
+North Atlantic,0.844326294188811,17
+relative humidity,0.8414380852226645,7
+Last Glacial Maximum,0.8365135412652429,21
+uncertainties,0.8282257149821478,30
+carbon budgets,0.8149384464834237,8
+Australia,0.8061818561724606,16
+El Niño,0.8003039951954194,6
+tree rings,0.8003039951954194,6
+medium confidence,0.7976099674468117,107
+Global Biogeochemical Cycles,0.7920940669435925,7
+upper troposphere,0.7859537503064781,8
+Time series,0.7859537503064781,8
+Antarctic Ice Sheet,0.7816462799913957,9
+Atmospheric Measurement Techniques,0.7760196019331723,7
+Arctic sea ice,0.7695219389132318,13
+Royal Society,0.7646304316177308,9
+North Pacific,0.7436453034473545,6
+ENSO variability,0.7436453034473545,6
+sea surface temperature,0.7436453034473544,9
+satellite data,0.7436453034473544,5
+National Academy of Sciences,0.7383901328344248,34
+ecosystems,0.725648939174558,6
+United Kingdom,0.714135657036428,51
+ENSO,0.7125459850023073,21
+data sources,0.7096143462633211,45
+AMOC,0.7023845652142743,30
+land use,0.6950483333800994,11
+reanalysis,0.6945527190267271,7
+confidence,0.6943444836720324,15
+Walker circulation,0.6797942530320704,10
+Antarctic sea ice,0.6797942530320704,5
+reanalyses,0.6781680910204221,7
+GSAT,0.6763035743701171,31
+seasonality,0.6730616601714396,9
+Global Warming,0.6601418069363333,5
+Last Interglacial,0.6542582659933468,7
+SST,0.6405833421652074,9
+stratosphere,0.6405833421652074,6
+satellite era,0.6220606174142633,5
+American Meteorological Society,0.6213872026727565,35
+Uncertainty,0.6077498317352704,5
