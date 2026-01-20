@@ -249,13 +249,21 @@ def add_wikipedia_description_to_entry(
     }
     
     try:
-        # Check if already has description
-        if _has_non_empty_description(entry) and entry.get('wikipedia_url'):
+        # Check if already has description - only skip if BOTH description AND URL exist
+        # If URL exists but description is missing/empty, we should still try to add it
+        has_description = _has_non_empty_description(entry)
+        has_url = entry.get('wikipedia_url')
+        
+        if has_description and has_url:
             result['success'] = True
             result['has_description'] = True
             result['wikipedia_url'] = entry.get('wikipedia_url')
             result['has_definition'] = bool(entry.get('definition_html'))
             return result
+        
+        # If we have URL but no description, try to re-fetch (might be a redirect/disambiguation issue)
+        if has_url and not has_description and verbose:
+            print(f"    Entry '{term}' has Wikipedia URL but no description, re-fetching...")
         
         # Add Wikipedia feature
         add_wikipedia_feature(entry, encyclopedia)
@@ -315,6 +323,7 @@ def add_wikipedia_descriptions_to_encyclopedia(
         print(f"Processing in batches of {batch_size}...")
     
     # Process in batches
+    import time
     for batch_start in range(0, total_entries, batch_size):
         batch_end = min(batch_start + batch_size, total_entries)
         batch = entries_list[batch_start:batch_end]
@@ -346,6 +355,10 @@ def add_wikipedia_descriptions_to_encyclopedia(
         if verbose:
             print(f"  ✓ Processed {batch_end}/{total_entries} entries "
                   f"({results['successful']} successful, {results['with_definitions']} with definitions)...")
+        
+        # Add delay between batches to avoid rate limiting (except for last batch)
+        if batch_end < total_entries:
+            time.sleep(1)  # 1 second delay between batches
     
     return encyclopedia, results
 
@@ -389,7 +402,7 @@ def add_image_link_to_entry(
             return result
         
         # Add image feature
-        add_images_feature(entry, encyclopedia)
+        add_images_feature(entry, encyclopedia, verbose=verbose)
         
         # Check results
         figure_html = entry.get('figure_html')
@@ -447,6 +460,7 @@ def add_image_links_to_encyclopedia(
         print(f"Processing in batches of {batch_size}...")
     
     # Process in batches
+    import time
     for batch_start in range(0, total_entries, batch_size):
         batch_end = min(batch_start + batch_size, total_entries)
         batch = entries_list[batch_start:batch_end]
@@ -476,5 +490,9 @@ def add_image_links_to_encyclopedia(
         if verbose:
             print(f"  ✓ Processed {batch_end}/{total_entries} entries "
                   f"({results['successful']} successful, {results['with_images']} with images)...")
+        
+        # Add delay between batches to avoid rate limiting (except for last batch)
+        if batch_end < total_entries:
+            time.sleep(1)  # 1 second delay between batches
     
     return encyclopedia, results

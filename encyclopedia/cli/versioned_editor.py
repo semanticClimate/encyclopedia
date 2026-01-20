@@ -317,17 +317,28 @@ def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
     if not term:
         return
     
-    # Check if already has Wikipedia description
-    if _has_non_empty_description(entry_dict) and entry_dict.get('wikipedia_url'):
+    # Check if already has Wikipedia description - only skip if BOTH description AND URL exist
+    # If URL exists but description is missing/empty, we should still try to add it
+    has_description = _has_non_empty_description(entry_dict)
+    has_url = entry_dict.get('wikipedia_url')
+    
+    if has_description and has_url:
         print(f"  Entry '{term}' already has Wikipedia description")
         return
     
-    # Get Wikipedia page
+    # If we have URL but no description, try to re-fetch (might be a redirect/disambiguation issue)
+    if has_url and not has_description:
+        print(f"  Entry '{term}' has Wikipedia URL but no description, re-fetching...")
+    
+    # Get Wikipedia page - always try to fetch, even if URL exists
     print(f"  Looking up Wikipedia for '{term}'...")
     wikipedia_page = _get_wikipedia_page_for_entry(entry_dict)
     
     if not wikipedia_page:
         print(f"  ⚠ No Wikipedia page found for '{term}'")
+        # If we had a URL but lookup failed, clear it
+        if has_url:
+            print(f"    Warning: Previous URL {entry_dict.get('wikipedia_url')} is no longer valid")
         return
     
     # Extract definition and description separately using amilib methods
@@ -358,13 +369,20 @@ def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
         print(f"  ⚠ No valid content found for '{term}' (may be redirect/disambiguation)")
         # Still save URL even if no description
         entry_dict['wikipedia_url'] = wikipedia_page.url
+        # Clear any empty description_html that might exist
+        if not entry_dict.get('description_html') or not _has_non_empty_description(entry_dict):
+            entry_dict.pop('description_html', None)
+        # Clear any empty description_html that might exist
+        if not entry_dict.get('description_html') or not _has_non_empty_description(entry_dict):
+            entry_dict.pop('description_html', None)
 
 
-def _extract_images_from_wikipedia_page(wikipedia_page) -> List:
+def _extract_images_from_wikipedia_page(wikipedia_page, verbose: bool = False) -> List:
     """Extract images from WikipediaPage using amilib methods.
     
     Args:
         wikipedia_page: WikipediaPage object
+        verbose: If True, show detailed progress
         
     Returns:
         List of image elements or image data
@@ -379,9 +397,12 @@ def _extract_images_from_wikipedia_page(wikipedia_page) -> List:
                 img_elem = wikipedia_page.extract_a_elem_with_image_from_infobox()
                 if img_elem is not None:
                     images.append(img_elem)
+                    if verbose:
+                        print(f"    Found image via extract_a_elem_with_image_from_infobox")
                     return images  # Success, return early
             except Exception as e:
-                print(f"    Warning: extract_a_elem_with_image_from_infobox failed: {e}")
+                if verbose:
+                    print(f"    Warning: extract_a_elem_with_image_from_infobox failed: {e}")
         
         # Fallback: Try get_infobox and extract images from it
         if hasattr(wikipedia_page, 'get_infobox'):
@@ -392,9 +413,12 @@ def _extract_images_from_wikipedia_page(wikipedia_page) -> List:
                     img_links = infobox.xpath(".//a[contains(@href, '/wiki/File:')]")
                     if img_links:
                         images.extend(img_links[:3])  # Limit to 3 from infobox
+                        if verbose:
+                            print(f"    Found {len(images)} image(s) via infobox")
                         return images  # Success, return early
             except Exception as e:
-                print(f"    Warning: get_infobox failed: {e}")
+                if verbose:
+                    print(f"    Warning: get_infobox failed: {e}")
         
         # Fallback: try to find images directly in html_elem
         if hasattr(wikipedia_page, 'html_elem') and wikipedia_page.html_elem is not None:
@@ -409,13 +433,23 @@ def _extract_images_from_wikipedia_page(wikipedia_page) -> List:
                         if parent is not None and parent.tag == 'a':
                             images.append(parent)
                         else:
-                            # Create an <a> wrapper
+                            # Create an <a> wrapper - need to get proper File: URL
                             import lxml.etree as ET
-                            a_elem = ET.Element("a")
-                            a_elem.set("href", img.get('src', ''))
-                            a_elem.append(img)
-                            images.append(a_elem)
+                            # Try to find the File: link from the image src
+                            img_src = img.get('src', '')
+                            if '/wiki/File:' in img_src or '/File:' in img_src:
+                                a_elem = ET.Element("a")
+                                # Convert image URL to File: page URL
+                                if '/wiki/File:' in img_src:
+                                    file_name = img_src.split('/wiki/File:')[-1].split('/')[0]
+                                else:
+                                    file_name = img_src.split('/File:')[-1].split('/')[0]
+                                a_elem.set("href", f"https://en.wikipedia.org/wiki/File:{file_name}")
+                                a_elem.append(img)
+                                images.append(a_elem)
                     if images:
+                        if verbose:
+                            print(f"    Found {len(images)} image(s) via html_elem infobox")
                         return images
                 
                 # If still no images, try main content area (first image)
@@ -426,17 +460,29 @@ def _extract_images_from_wikipedia_page(wikipedia_page) -> List:
                         parent = img.getparent()
                         if parent is not None and parent.tag == 'a':
                             images.append(parent)
+                            if verbose:
+                                print(f"    Found image via main content area")
                         else:
                             import lxml.etree as ET
-                            a_elem = ET.Element("a")
-                            a_elem.set("href", img.get('src', ''))
-                            a_elem.append(img)
-                            images.append(a_elem)
+                            img_src = img.get('src', '')
+                            if '/wiki/File:' in img_src or '/File:' in img_src:
+                                a_elem = ET.Element("a")
+                                if '/wiki/File:' in img_src:
+                                    file_name = img_src.split('/wiki/File:')[-1].split('/')[0]
+                                else:
+                                    file_name = img_src.split('/File:')[-1].split('/')[0]
+                                a_elem.set("href", f"https://en.wikipedia.org/wiki/File:{file_name}")
+                                a_elem.append(img)
+                                images.append(a_elem)
+                                if verbose:
+                                    print(f"    Found image via main content area")
             except Exception as e:
-                print(f"    Warning: Error extracting from html_elem: {e}")
+                if verbose:
+                    print(f"    Warning: Error extracting from html_elem: {e}")
     
     except Exception as e:
-        print(f"    Warning: Error extracting images: {e}")
+        if verbose:
+            print(f"    Warning: Error extracting images: {e}")
     
     return images
 
@@ -496,7 +542,7 @@ def _fix_image_urls(element):
                 a.set('href', f"{wikipedia_base}{href}")
 
 
-def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
+def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia, verbose: bool = False):
     """Add image links to entry from Wikipedia (links to Wikipedia image pages, not embedded).
     
     Uses WikipediaPage.extract_a_elem_with_image_from_infobox() to get image links.
@@ -505,23 +551,33 @@ def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
     Args:
         entry_dict: Entry dictionary
         encyclopedia: Encyclopedia instance
+        verbose: If True, show detailed progress
     """
     term = entry_dict.get('term', entry_dict.get('canonical_term', ''))
     
     # Check if already has images or figure_html
     if entry_dict.get('images') or entry_dict.get('figure_html'):
-        print(f"  Entry '{term}' already has images")
+        if verbose:
+            print(f"  Entry '{term}' already has images")
         return
     
     # Get Wikipedia page
     wikipedia_page = _get_wikipedia_page_for_entry(entry_dict)
     if not wikipedia_page:
-        print(f"  Entry '{term}' has no Wikipedia page, skipping images")
+        if verbose:
+            print(f"  Entry '{term}' has no Wikipedia page, skipping images")
         return
     
     # Extract image links using amilib methods
     print(f"  Extracting image links for '{term}'...")
-    images = _extract_images_from_wikipedia_page(wikipedia_page)
+    try:
+        images = _extract_images_from_wikipedia_page(wikipedia_page, verbose=verbose)
+    except Exception as e:
+        print(f"  ⚠ Error extracting images for '{term}': {e}")
+        if verbose:
+            import traceback
+            traceback.print_exc()
+        images = []
     
     if images:
         import lxml.etree as ET
@@ -565,13 +621,15 @@ def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
                 entry_dict['image_link'] = href  # Store URL separately too
                 
                 print(f"  ✓ Added image link for '{term}'")
-                print(f"    Link: {href}")
+                if verbose:
+                    print(f"    Link: {href}")
             else:
                 print(f"  ⚠ Image element is not a link (tag: {first_img.tag if hasattr(first_img, 'tag') else 'unknown'})")
         except Exception as e:
             print(f"  ⚠ Could not create image link for '{term}': {e}")
-            import traceback
-            traceback.print_exc()
+            if verbose:
+                import traceback
+                traceback.print_exc()
     else:
         print(f"  ⚠ No images found for '{term}'")
 
