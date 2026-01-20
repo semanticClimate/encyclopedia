@@ -41,8 +41,8 @@ class TestBatchSize:
         def mock_add_description(entry, enc, verbose=False):
             """Track when entries are processed"""
             call_times.append(time.time())
-            # Simulate processing time
-            time.sleep(0.01)
+            # Don't call time.sleep here - it will be counted by the mock
+            # Just simulate processing without actual sleep
             entry['description_html'] = f"<p>Description for {entry['term']}</p>"
             return {
                 'success': True,
@@ -56,7 +56,7 @@ class TestBatchSize:
         with patch('encyclopedia.utils.encyclopedia_builder.add_wikipedia_description_to_entry', 
                    side_effect=mock_add_description):
             with patch('time.sleep') as mock_sleep:
-                results = add_wikipedia_descriptions_to_encyclopedia(
+                encyclopedia, results = add_wikipedia_descriptions_to_encyclopedia(
                     encyclopedia, 
                     batch_size=batch_size, 
                     verbose=False
@@ -68,8 +68,8 @@ class TestBatchSize:
                 assert results['successful'] == 10
                 
                 # Verify delays were added between batches (not within batches)
-                # With batch_size=3, we should have 4 batches (3, 3, 3, 1)
-                # So 3 delays between batches
+                # With batch_size=3 and 10 entries, we have 4 batches (3, 3, 3, 1)
+                # So 3 delays between batches (after batches 1, 2, and 3, but not after batch 4)
                 assert mock_sleep.call_count == 3  # 3 delays between 4 batches
     
     def test_batch_size_respected_for_images(self):
@@ -101,7 +101,7 @@ class TestBatchSize:
         with patch('encyclopedia.utils.encyclopedia_builder.add_image_link_to_entry',
                    side_effect=mock_add_image):
             with patch('time.sleep') as mock_sleep:
-                results = add_image_links_to_encyclopedia(
+                encyclopedia, results = add_image_links_to_encyclopedia(
                     encyclopedia,
                     batch_size=batch_size,
                     verbose=False
@@ -237,7 +237,7 @@ class TestMissingDescriptions:
         
         with patch('encyclopedia.utils.encyclopedia_builder.add_wikipedia_description_to_entry',
                    side_effect=mock_add_description):
-            results = add_wikipedia_descriptions_to_encyclopedia(
+            encyclopedia, results = add_wikipedia_descriptions_to_encyclopedia(
                 encyclopedia,
                 batch_size=10,
                 verbose=False
@@ -352,7 +352,7 @@ class TestMissingImages:
         
         with patch('encyclopedia.utils.encyclopedia_builder.add_image_link_to_entry',
                    side_effect=mock_add_image):
-            results = add_image_links_to_encyclopedia(
+            encyclopedia, results = add_image_links_to_encyclopedia(
                 encyclopedia,
                 batch_size=10,
                 verbose=False
@@ -449,15 +449,15 @@ class TestIntegration:
             with patch('encyclopedia.utils.encyclopedia_builder.add_image_link_to_entry',
                        side_effect=mock_add_image):
                 with patch('time.sleep') as mock_sleep:
-                    # Add descriptions
-                    desc_results = add_wikipedia_descriptions_to_encyclopedia(
+                    # Add descriptions - returns tuple (encyclopedia, results_dict)
+                    encyclopedia, desc_results = add_wikipedia_descriptions_to_encyclopedia(
                         encyclopedia,
                         batch_size=batch_size,
                         verbose=False
                     )
                     
-                    # Add images
-                    img_results = add_image_links_to_encyclopedia(
+                    # Add images - returns tuple (encyclopedia, results_dict)
+                    encyclopedia, img_results = add_image_links_to_encyclopedia(
                         encyclopedia,
                         batch_size=batch_size,
                         verbose=False
@@ -471,8 +471,12 @@ class TestIntegration:
         assert img_results['total'] == 6
         assert img_results['successful'] == 6
         
-        # Verify batch delays were added (3 batches for descriptions + 3 batches for images = 6 delays)
-        assert mock_sleep.call_count == 6
+        # Verify batch delays were added
+        # With batch_size=2 and 6 entries:
+        # - Descriptions: 3 batches (2, 2, 2) = 2 delays between batches
+        # - Images: 3 batches (2, 2, 2) = 2 delays between batches
+        # Total = 4 delays (not 6, since we don't delay after the last batch)
+        assert mock_sleep.call_count == 4
         
         # Verify all entries have descriptions and images
         for entry in encyclopedia.entries:

@@ -39,11 +39,66 @@ This style guide defines coding standards and best practices for the Encyclopedi
   output_file = self.output_dir / "results.json"  # ❌ WRONG - uses / operator
   ```
 
+## Temporary Files
+
+- **All temporary files to temp/**: All temporary files must be created under `<root>/temp`, which is defined in `Resources.TEMP_DIR`
+- **Use Resources.TEMP_DIR**: Always use `Resources.TEMP_DIR` for temporary file locations
+  ```python
+  from pathlib import Path
+  from encyclopedia.utils.resources import Resources
+  
+  # ✅ CORRECT: Use Resources.TEMP_DIR with subdirectories
+  temp_dir = Path(Resources.TEMP_DIR, "examples", "create_encyclopedia")
+  temp_dir.mkdir(parents=True, exist_ok=True)
+  output_file = Path(temp_dir, "output.html")
+  
+  # ✅ CORRECT: Use Resources.get_temp_dir() helper
+  temp_dir = Resources.get_temp_dir("examples", "create_encyclopedia")
+  
+  # ❌ WRONG: Writing to root directory
+  output_file = Path("output.html")
+  
+  # ❌ WRONG: Using system temp directory
+  import tempfile
+  temp_dir = Path(tempfile.mkdtemp())
+  
+  # ❌ WRONG: Using / operator
+  temp_dir = Resources.TEMP_DIR / "examples" / "create_encyclopedia"
+  ```
+- **Subdirectory naming conventions**:
+  - Tests: `Path(Resources.TEMP_DIR, "test", <module_name>, <class_name>)`
+  - Scripts: `Path(Resources.TEMP_DIR, "scripts", <script_name>)`
+  - Examples: `Path(Resources.TEMP_DIR, "examples", <example_name>)`
+  - Other modules: `Path(Resources.TEMP_DIR, <module_name>, <class_or_function>)`
+- **No root directory output**: Output should never be sent to the root directory. Use `temp/` directory for all non-permanent output
+
 ## Testing
 
 - **No sys.path manipulation**: Tests should rely on pytest configuration
 - **Normal imports**: Use standard Python imports, not path manipulation
 - **TDD approach**: Write tests before implementation
+- **No mocks**: Do not use mocks or patches in tests. Tests should use real implementations and real services
+- **Test output to temp/**: All tests should output to `temp/` directory. No tests should write to root directory unless specifically requested
+  ```python
+  from pathlib import Path
+  from encyclopedia.utils.resources import Resources
+  
+  # ✅ CORRECT: Use Resources.TEMP_DIR with subdirectories
+  test_output_dir = Path(Resources.TEMP_DIR, "test", "encyclopedia", "TestClassName")
+  test_output_dir.mkdir(parents=True, exist_ok=True)
+  output_file = Path(test_output_dir, "test_output.html")
+  
+  # ❌ WRONG: Writing to root directory
+  output_file = Path("test_output.html")
+  
+  # ❌ WRONG: Using system temp directory
+  import tempfile
+  output_file = Path(tempfile.mkdtemp(), "test_output.html")
+  
+  # ❌ WRONG: Using / operator
+  test_output_dir = Resources.TEMP_DIR / "test" / "encyclopedia"
+  ```
+- **Test subdirectory naming**: Use `Path(Resources.TEMP_DIR, "test", <module_name>, <class_name>)` for test outputs
 
 ## Documentation
 
