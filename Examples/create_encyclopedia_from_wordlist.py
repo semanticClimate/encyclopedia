@@ -75,6 +75,21 @@ def create_encyclopedia_from_wordlist(terms: List[str], title: str = "My Encyclo
     
     # Try to add Wikipedia content using available methods
     try:
+        # helper: requests.get with retries/backoff to improve reliability
+        import requests
+        import time
+
+        def requests_get_with_retries(url, headers=None, timeout=10, retries=3, backoff=1.5):
+            last_exc = None
+            for attempt in range(1, retries + 1):
+                try:
+                    return requests.get(url, headers=headers, timeout=timeout)
+                except Exception as e:
+                    last_exc = e
+                    if attempt < retries:
+                        time.sleep(backoff * attempt)
+                    else:
+                        raise
         # Try add_wikipedia_from_terms if it exists
         if hasattr(dictionary, 'add_wikipedia_from_terms'):
             dictionary.add_wikipedia_from_terms()
@@ -85,14 +100,229 @@ def create_encyclopedia_from_wordlist(terms: List[str], title: str = "My Encyclo
             entries_processed = 0
             for term, ami_entry in dictionary.entry_by_term.items():
                 try:
-                    # Lookup Wikipedia page
-                    wikipedia_page = WikipediaPage.lookup_wikipedia_page_for_term(term)
-                    if wikipedia_page:
-                        # Try to add Wikipedia page to entry
-                        if hasattr(dictionary, 'add_wikipedia_page'):
-                            dictionary.add_wikipedia_page(term, wikipedia_page)
-                        elif hasattr(ami_entry, 'add_wikipedia_page'):
-                            ami_entry.add_wikipedia_page(wikipedia_page)
+                    # Prefer using the Wikipedia REST Summary API (more reliable for summaries and thumbnails)
+                    import requests
+                    from urllib.parse import quote
+
+                    title_for_api = term.replace(' ', '_')
+                    rest_url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{quote(title_for_api)}"
+                    wp_url = None
+                    qid = None
+                    description_html = None
+                    img_url = None
+
+                    try:
+                        headers = {'User-Agent': 'ami-encyclopedia/1.0 (https://github.com)'}
+                        r = requests_get_with_retries(rest_url, headers=headers, timeout=10, retries=3)
+                        if r.status_code == 200:
+                            data = r.json()
+                            # Canonical page URL
+                            wp_url = data.get('content_urls', {}).get('desktop', {}).get('page') or f"https://en.wikipedia.org/wiki/{title_for_api}"
+                            # Description HTML (extract_html) or plain extract
+                            description_html = data.get('extract_html') or data.get('extract')
+                            # Thumbnail or original image
+                            thumb = data.get('thumbnail') or {}
+                            orig = data.get('originalimage') or {}
+                            img_url = orig.get('source') or thumb.get('source')
+                        else:
+                            # non-200 -> treat as no result
+                            wp_url = None
+                            description_html = None
+                            img_url = None
+
+                    except Exception:
+                        # REST API failed; fall back to page HTML parsing if available
+                        wp_url = None
+                        description_html = None
+                        img_url = None
+
+                    # If we didn't get a QID from REST, try the pageprops endpoint
+                    if wp_url:
+                        try:
+                            api_q = f"https://en.wikipedia.org/w/api.php?action=query&titles={quote(title_for_api)}&prop=pageprops&format=json"
+                            rq = requests_get_with_retries(api_q, headers={'User-Agent': headers['User-Agent']}, timeout=10, retries=3)
+                            if rq.status_code == 200:
+                                j = rq.json()
+                                pages = j.get('query', {}).get('pages', {})
+                                for pid, page in pages.items():
+                                    pprops = page.get('pageprops', {})
+                                    qid = pprops.get('wikibase_item') or qid
+                                    break
+                        except Exception:
+                            qid = qid
+
+                    # If REST did not return content or returned plain text, fall back to existing HTML parser
+                    # or call parse API to retrieve HTML lead section with links
+                    if not description_html:
+                        # try parse API to get HTML for lead section (section 0)
+                        try:
+                            parse_api = f"https://en.wikipedia.org/w/api.php?action=parse&page={quote(title_for_api)}&prop=text&section=0&format=json"
+                            rp = requests_get_with_retries(parse_api, headers={'User-Agent': 'ami-encyclopedia/1.0 (https://github.com)'}, timeout=10, retries=3)
+                            if rp.status_code == 200:
+                                pj = rp.json()
+                                text_html = pj.get('parse', {}).get('text', {}).get('*')
+                                if text_html:
+                                    description_html = text_html
+                                    wp_url = wp_url or f"https://en.wikipedia.org/wiki/{title_for_api}"
+                        except Exception:
+                            pass
+
+                    if not (description_html or img_url or qid or wp_url):
+                        try:
+                            wikipedia_page = WikipediaPage.lookup_wikipedia_page_for_term(term)
+                        except Exception:
+                            wikipedia_page = None
+                        if wikipedia_page:
+                            try:
+                                wp_url = wp_url or getattr(wikipedia_page, 'url', None)
+                                # existing extraction as fallback
+                                try:
+                                    qid = qid or wikipedia_page.get_qitem_from_wikipedia_page()
+                                except Exception:
+                                    raw = wikipedia_page.get_wikidata_item() if hasattr(wikipedia_page, 'get_wikidata_item') else None
+                                    if raw:
+                                        qid = raw.split('/')[-1]
+                                try:
+                                    first_para = wikipedia_page.create_first_wikipedia_para()
+                                    if first_para is not None and hasattr(first_para, 'para_element') and first_para.para_element is not None:
+                                        from amilib.xml_lib import XmlLib
+                                        description_html = XmlLib.element_to_string(first_para.para_element, pretty_print=False)
+                                except Exception:
+                                    description_html = description_html
+                                # infobox image
+                                try:
+                                    a_elem = wikipedia_page.extract_a_elem_with_image_from_infobox()
+                                    if a_elem is not None:
+                                        imgs = a_elem.xpath('.//img') if hasattr(a_elem, 'xpath') else []
+                                        if imgs:
+                                            src = imgs[0].attrib.get('src') or imgs[0].attrib.get('data-src')
+                                            if src:
+                                                img_url = src if src.startswith('http') else ('https:' + src if src.startswith('//') else src)
+                                except Exception:
+                                    pass
+                            except Exception:
+                                pass
+
+                    # Attach fields directly to the underlying entry element so AmiDictionary/AmiEncyclopedia can pick them up later.
+                    try:
+                        from lxml import etree as ET
+
+                        entry_elem = ami_entry.element if hasattr(ami_entry, 'element') and getattr(ami_entry, 'element') is not None else ami_entry
+
+                        if wp_url:
+                            entry_elem.attrib['wikipedia_url'] = wp_url
+                        if qid:
+                            entry_elem.attrib['wikidataID'] = qid
+
+                        # Add description paragraph (preserve/convert links to absolute).
+                        if description_html:
+                            try:
+                                from lxml.html import fromstring, fragment_fromstring
+                                desc_root = None
+                                try:
+                                    # parse fragment (may be plain text or full HTML)
+                                    desc_root = fromstring(description_html)
+                                except Exception:
+                                    try:
+                                        # sometimes REST returns a fragment without root
+                                        desc_root = fragment_fromstring(description_html, create_parent=True)
+                                    except Exception:
+                                        desc_root = None
+
+                                # If parse produced a container, find the first meaningful <p>
+                                desc_node = None
+                                if desc_root is not None:
+                                    if desc_root.tag in ('p', 'div'):
+                                        # find first <p> descendant
+                                        p_candidates = desc_root.xpath('.//p')
+                                        if p_candidates:
+                                            desc_node = p_candidates[0]
+                                        else:
+                                            # maybe the root is already a <p>
+                                            if desc_root.tag == 'p':
+                                                desc_node = desc_root
+                                            else:
+                                                # wrap text
+                                                desc_node = ET.Element('p')
+                                                desc_node.text = ''.join(desc_root.xpath('.//text()'))
+                                    elif desc_root.tag == 'p':
+                                        desc_node = desc_root
+                                    else:
+                                        # fallback: create para with text content
+                                        desc_node = ET.Element('p')
+                                        desc_node.text = ''.join(desc_root.xpath('.//text()'))
+                                else:
+                                    desc_node = ET.Element('p')
+                                    desc_node.text = description_html
+
+                                # Convert relative wiki links to absolute
+                                try:
+                                    for a in desc_node.xpath(".//a[@href]"):
+                                        href = a.attrib.get('href')
+                                        if href and href.startswith('/wiki/'):
+                                            a.attrib['href'] = f"https://en.wikipedia.org{href}"
+                                        elif href and href.startswith('//'):
+                                            a.attrib['href'] = 'https:' + href
+                                except Exception:
+                                    pass
+
+                                desc_node.attrib['class'] = 'wpage_first_para'
+                                entry_elem.append(desc_node)
+                            except Exception:
+                                try:
+                                    p = ET.SubElement(entry_elem, 'p')
+                                    p.attrib['class'] = 'wpage_first_para'
+                                    p.text = description_html
+                                except Exception:
+                                    pass
+
+                        # Add image below description. Download and save the image locally under encyclopedia/images/.
+                        if img_url:
+                            try:
+                                # create images dir (use pathlib module to avoid local name binding)
+                                import pathlib
+                                images_dir = pathlib.Path('encyclopedia') / 'images'
+                                images_dir.mkdir(parents=True, exist_ok=True)
+
+                                # determine filename
+                                import os
+                                parsed_name = img_url.split('/')[-1].split('?')[0]
+                                if not parsed_name:
+                                    parsed_name = f"{qid or title_for_api}.jpg"
+                                # ensure extension
+                                if not os.path.splitext(parsed_name)[1]:
+                                    parsed_name = parsed_name + '.jpg'
+
+                                local_path = images_dir / parsed_name
+                                # download if not already present
+                                if not local_path.exists():
+                                    try:
+                                        rimg = requests_get_with_retries(img_url, headers={'User-Agent': 'ami-encyclopedia/1.0'}, timeout=20, retries=3)
+                                        if rimg.status_code == 200:
+                                            with open(local_path, 'wb') as fh:
+                                                fh.write(rimg.content)
+                                    except Exception:
+                                        # fallback: do not download
+                                        local_path = None
+                                # use local path if available, otherwise keep remote
+                                img_src = str(local_path).replace('\\', '/') if local_path and local_path.exists() else img_url
+
+                                try:
+                                    fig = ET.SubElement(entry_elem, 'figure')
+                                    img = ET.SubElement(fig, 'img')
+                                    img.attrib['src'] = img_src
+                                except Exception:
+                                    try:
+                                        entry_elem.attrib['image'] = img_src
+                                    except Exception:
+                                        pass
+                            except Exception:
+                                try:
+                                    entry_elem.attrib['image'] = img_url
+                                except Exception:
+                                    pass
+                    except Exception as e:
+                        print(f"  Warning: could not attach fields to entry element for '{term}': {e}")
                     entries_processed += 1
                     if entries_processed % 5 == 0:
                         print(f"  Processed {entries_processed}/{len(dictionary.entry_by_term)} entries...")
@@ -253,6 +483,26 @@ def create_encyclopedia_from_wordlist(terms: List[str], title: str = "My Encyclo
     
     # Step 5: Normalize by Wikidata ID
     print("\nStep 5: Normalizing entries by Wikidata ID...")
+    # Before normalization: harmonize wikidata IDs for entries that point to the same Wikipedia URL.
+    # This merges synonyms that resolve to the same wiki page even if their QIDs differ or are missing.
+    try:
+        url_to_q = {}
+        for e in encyclopedia.entries:
+            url = e.get('wikipedia_url') or e.get('wikipedia_url')
+            q = e.get('wikidata_id')
+            if url and q:
+                # prefer first seen QID for this URL
+                if url not in url_to_q:
+                    url_to_q[url] = q
+
+        # Assign canonical QID to entries that share the same wikipedia_url but lack or differ in wikidata_id
+        for e in encyclopedia.entries:
+            url = e.get('wikipedia_url')
+            if url and url in url_to_q:
+                e['wikidata_id'] = url_to_q[url]
+    except Exception:
+        pass
+
     encyclopedia.normalize_by_wikidata_id()
     print("  ✓ Entries normalized")
     

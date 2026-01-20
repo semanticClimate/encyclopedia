@@ -294,6 +294,13 @@ class AmiEncyclopedia:
                 if desc_p:
                     from amilib.xml_lib import XmlLib
                     description_html = XmlLib.element_to_string(desc_p[0])
+
+                # Extract figure HTML (if any) and store the element so it can be preserved
+                figure_elem = None
+                fig_nodes = entry_element.xpath('.//figure')
+                if fig_nodes:
+                    # store the first figure element (as an lxml element)
+                    figure_elem = fig_nodes[0]
                 
                 # Get Wikidata category (label/title) if we have a Wikidata ID
                 wikidata_category = ''
@@ -307,6 +314,7 @@ class AmiEncyclopedia:
                     'wikidata_id': wikidata_id,  # PRIMARY identifier
                     'wikipedia_url': wikipedia_url,  # Secondary (for display)
                     'description_html': description_html,
+                    'figure_html': figure_elem,
                     'classification': self.CLASSIFICATION_UNPROCESSED,  # Initial classification
                     'wikidata_category': wikidata_category,  # Wikidata label/title
                 }
@@ -853,6 +861,14 @@ class AmiEncyclopedia:
         .disambiguation-checkbox-wrapper label a:hover {
             text-decoration: underline;
         }
+        /* Constrain images inside entry figures to reasonable display size */
+        div[role="ami_entry"] figure img,
+        div[role="ami_entry"] img {
+            max-width: 320px;
+            height: auto;
+            display: block;
+            margin: 8px 0;
+        }
         """
         
         # Create encyclopedia container (not dictionary)
@@ -948,7 +964,23 @@ class AmiEncyclopedia:
             # Add figure if available
             figure_html = merged_entry.get('figure_html')
             if figure_html is not None:
-                entry_div.append(figure_html)
+                try:
+                    import copy
+                    # If it's an element, deepcopy then append to avoid moving nodes between trees
+                    if hasattr(figure_html, 'tag'):
+                        entry_div.append(copy.deepcopy(figure_html))
+                    else:
+                        # If it's a string, parse and append
+                        from lxml.html import fromstring
+                        parsed_fig = fromstring(figure_html)
+                        entry_div.append(parsed_fig)
+                except Exception:
+                    try:
+                        # Fallback: append as text paragraph
+                        fig_p = ET.SubElement(entry_div, 'p')
+                        fig_p.text = ''
+                    except Exception:
+                        pass
         
         return XmlLib.element_to_string(html_root, pretty_print=True)
     
