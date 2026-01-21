@@ -532,40 +532,101 @@ def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
         
         try:
             if hasattr(first_img, 'tag') and first_img.tag == 'a':
-                # It's already an <a> element linking to Wikipedia File: page
-                # Extract the href to get the File: page URL
+                # It's an <a> element linking to a File: page or wrapping an <img>
                 href = first_img.get('href', '')
-                
-                # Ensure it's a full Wikipedia URL
-                if href and not href.startswith('http'):
-                    if href.startswith('/wiki/File:'):
-                        href = f"https://en.wikipedia.org{href}"
-                    elif href.startswith('/'):
-                        href = f"https://en.wikipedia.org{href}"
+
+                # Normalize href to full URL when possible (keep original for reference)
+                file_page_url = href
+                if file_page_url and not file_page_url.startswith('http'):
+                    if file_page_url.startswith('/wiki/'):
+                        file_page_url = f"https://en.wikipedia.org{file_page_url}"
+                    elif file_page_url.startswith('/'):
+                        file_page_url = f"https://en.wikipedia.org{file_page_url}"
                     else:
-                        href = f"https://en.wikipedia.org/wiki/{href}"
-                
-                # Create a simple link to the Wikipedia image page
-                image_link = ET.Element("a")
-                image_link.attrib["href"] = href
-                image_link.attrib["class"] = "wikipedia-image-link"
-                
-                # Get image filename from href for display
-                if '/wiki/File:' in href:
-                    filename = href.split('/wiki/File:')[-1].replace('_', ' ')
-                elif '/File:' in href:
-                    filename = href.split('/File:')[-1].replace('_', ' ')
+                        file_page_url = f"https://en.wikipedia.org/wiki/{file_page_url}"
+
+                # If the <a> contains an <img> child, extract its src and use that
+                img_children = first_img.xpath('.//img') if hasattr(first_img, 'xpath') else []
+                image_url = None
+                img_attrs = {}
+                if img_children:
+                    img_elem = img_children[0]
+                    # Fix relative/protocol-relative URLs on the img element
+                    try:
+                        _fix_image_urls(img_elem)
+                    except Exception:
+                        pass
+
+                    image_url = img_elem.get('src') or img_elem.get('data-src') or None
+                    # preserve common attributes
+                    for a in ('width', 'height', 'alt', 'srcset'):
+                        v = img_elem.get(a)
+                        if v:
+                            img_attrs[a] = v
+
+                # If we still don't have an image URL, try fetching the File: page
+                if not image_url and href:
+                    try:
+                        import requests
+                        from lxml.html import fromstring
+                        file_page = file_page_url if file_page_url.startswith('http') else f"https://en.wikipedia.org{href}"
+                        r = requests.get(file_page, timeout=10)
+                        if r.ok:
+                            root = fromstring(r.content)
+                            # Look for direct links to upload.wikimedia.org
+                            candidates = root.xpath("//a[contains(@class,'internal')]/@href | //img[contains(@src,'upload.wikimedia.org')]/@src")
+                            if candidates:
+                                image_url = candidates[0]
+                                if image_url.startswith('//'):
+                                    image_url = 'https:' + image_url
+                                elif image_url.startswith('/'):
+                                    image_url = 'https://en.wikipedia.org' + image_url
+                    except Exception:
+                        # Network or parsing error; fall back to linking only
+                        image_url = None
+
+                # If we have an image URL, construct an <img> element and embed it
+                if image_url:
+                    # Ensure protocol-relative forms are absolute
+                    if image_url.startswith('//'):
+                        image_url = 'https:' + image_url
+                    elif not image_url.startswith('http'):
+                        image_url = 'https://en.wikipedia.org' + image_url
+
+                    img_new = ET.Element('img')
+                    img_new.set('src', image_url)
+                    for k, v in img_attrs.items():
+                        img_new.set(k, v)
+
+                    # Wrap image in a link to the File: page for reference
+                    a_wrap = ET.Element('a')
+                    a_wrap.set('href', file_page_url if file_page_url else image_url)
+                    a_wrap.set('class', 'wikipedia-image-link')
+                    a_wrap.append(img_new)
+
+                    # Store figure_html as a wrapper div containing the linked image
+                    figure_div = ET.Element('div')
+                    figure_div.set('class', 'entry-figure')
+                    figure_div.append(a_wrap)
+
+                    entry_dict['figure_html'] = figure_div
+                    entry_dict['image_link'] = file_page_url if file_page_url else image_url
+
+                    print(f"  ✓ Embedded image for '{term}'")
+                    print(f"    Image: {image_url}")
                 else:
-                    filename = "View image on Wikipedia"
-                
-                image_link.text = f"📷 {filename}"
-                
-                # Store as figure_html (link element)
-                entry_dict['figure_html'] = image_link
-                entry_dict['image_link'] = href  # Store URL separately too
-                
-                print(f"  ✓ Added image link for '{term}'")
-                print(f"    Link: {href}")
+                    # Fallback: create a simple link to the Wikipedia image page
+                    image_link = ET.Element("a")
+                    image_link.attrib["href"] = file_page_url if file_page_url else href
+                    image_link.attrib["class"] = "wikipedia-image-link"
+                    if '/wiki/File:' in (href or ''):
+                        filename = (href.split('/wiki/File:')[-1] if '/wiki/File:' in href else href.split('/File:')[-1]).replace('_', ' ')
+                    else:
+                        filename = "View image on Wikipedia"
+                    image_link.text = f"📷 {filename}"
+                    entry_dict['figure_html'] = image_link
+                    entry_dict['image_link'] = file_page_url if file_page_url else href
+                    print(f"  ✓ Added image link for '{term}' (could not embed)")
             else:
                 print(f"  ⚠ Image element is not a link (tag: {first_img.tag if hasattr(first_img, 'tag') else 'unknown'})")
         except Exception as e:
