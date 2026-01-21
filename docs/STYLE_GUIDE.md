@@ -79,6 +79,24 @@ This style guide defines coding standards and best practices for the Encyclopedi
 - **TDD approach**: Write tests before implementation
 - **No mocks**: Do not use mocks or patches in tests. Tests should use real implementations and real services
 - **Test output to temp/**: All tests should output to `temp/` directory. No tests should write to root directory unless specifically requested
+- **Meaningful assertion messages**: All assertions should have human-meaningful messages that explain what failed and why
+  ```python
+  # ✅ CORRECT: Assertion with meaningful message
+  assert results['entries_with_html_descriptions'] == 1, \
+      f"Expected 1 entry with HTML description, but got {results['entries_with_html_descriptions']}. " \
+      f"Entries without HTML: {results['entries_without_html_descriptions']}"
+  
+  # ❌ WRONG: Assertion without message
+  assert results['entries_with_html_descriptions'] == 1
+  
+  # ✅ CORRECT: Assertion with context about what is being tested
+  assert normalized_url == expected_url, \
+      f"URL normalization failed. Expected '{expected_url}', but got '{normalized_url}'. " \
+      f"Original URL was '{original_url}'"
+  
+  # ❌ WRONG: Assertion without context
+  assert normalized_url == expected_url
+  ```
   ```python
   from pathlib import Path
   from encyclopedia.utils.resources import Resources

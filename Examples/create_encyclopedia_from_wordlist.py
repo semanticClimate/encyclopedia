@@ -145,7 +145,12 @@ def create_encyclopedia_from_wordlist(
     # Step 8: Validate results
     if validate:
         print("\nStep 8: Validating encyclopedia completeness...")
+        # Use enhanced validation that checks HTML markup and image URLs
         validation_results = validate_encyclopedia_completeness(encyclopedia)
+        # Also validate images with URL checking
+        from encyclopedia.utils.validation import validate_image_links_added
+        image_validation = validate_image_links_added(encyclopedia, check_url_exists=True)
+        validation_results['images'] = image_validation
         print_validation_report(validation_results, verbose=verbose)
     
     print(f"\n{'='*60}")
