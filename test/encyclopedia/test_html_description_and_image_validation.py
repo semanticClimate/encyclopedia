@@ -116,9 +116,13 @@ class TestHTMLDescriptionValidation:
         assert results['is_valid'] is False, \
             f"Validation should fail for empty description, but is_valid is {results['is_valid']}"
     
-    def test_full_pipeline_validates_html_descriptions(self):
+    def test_full_pipeline_validates_html_descriptions(self, verbose=False):
         """Test that full pipeline creates entries with HTML descriptions"""
         terms = ["climate change", "greenhouse gas"]
+        
+        # Create output file path
+        output_file = Path(Resources.TEMP_DIR, "test", "encyclopedia", "TestHTMLDescriptionValidation", "test_html_descriptions.html")
+        output_file.parent.mkdir(parents=True, exist_ok=True)
         
         encyclopedia = create_encyclopedia_from_wordlist(
             terms,
@@ -127,8 +131,11 @@ class TestHTMLDescriptionValidation:
             add_images=False,
             batch_size=10,
             validate=False,  # Don't validate during creation
-            verbose=False
+            verbose=verbose
         )
+        
+        # Save encyclopedia to file for inspection
+        encyclopedia.save_wiki_normalized_html(output_file)
         
         # Now validate HTML markup
         results = validate_descriptions_have_html_markup(encyclopedia)
@@ -139,6 +146,7 @@ class TestHTMLDescriptionValidation:
         # Note: This may fail if descriptions aren't being added correctly
         # That's okay - it reveals the actual bug
         print(f"\nHTML Description Validation Results:")
+        print(f"  Created file: {output_file}")
         print(f"  Total entries: {results['total_entries']}")
         print(f"  With HTML: {results['entries_with_html_descriptions']}")
         print(f"  Without HTML: {results['entries_without_html_descriptions']}")
@@ -266,9 +274,13 @@ class TestImageValidation:
             f"Original URL should be preserved. Expected '{expected_original_url}', " \
             f"but got '{results['sample_with_images'][0]['original_url']}'"
     
-    def test_full_pipeline_validates_images(self):
+    def test_full_pipeline_validates_images(self, verbose=False):
         """Test that full pipeline creates entries with images"""
         terms = ["climate change", "greenhouse gas"]
+        
+        # Create output file path
+        output_file = Path(Resources.TEMP_DIR, "test", "encyclopedia", "TestImageValidation", "test_images.html")
+        output_file.parent.mkdir(parents=True, exist_ok=True)
         
         encyclopedia = create_encyclopedia_from_wordlist(
             terms,
@@ -277,8 +289,11 @@ class TestImageValidation:
             add_images=True,  # Request images
             batch_size=10,
             validate=False,  # Don't validate during creation
-            verbose=False
+            verbose=verbose
         )
+        
+        # Save encyclopedia to file for inspection
+        encyclopedia.save_wiki_normalized_html(output_file)
         
         # Now validate images
         results = validate_image_links_added(encyclopedia, check_url_exists=False)
@@ -289,6 +304,7 @@ class TestImageValidation:
         # Note: This may fail if images aren't being added correctly
         # That's okay - it reveals the actual bug
         print(f"\nImage Validation Results:")
+        print(f"  Created file: {output_file}")
         print(f"  Total entries: {results['total_entries']}")
         print(f"  With images: {results['entries_with_images']}")
         print(f"  Without images: {results['entries_without_images']}")
@@ -314,7 +330,8 @@ class TestComprehensiveValidation:
         encyclopedia = AmiEncyclopedia(title="Test")
         encyclopedia.entries = [entry]
         
-        results = validate_encyclopedia_completeness(encyclopedia)
+        # Use check_image_urls=False to avoid network calls for test URLs
+        results = validate_encyclopedia_completeness(encyclopedia, check_image_urls=False)
         
         # Should include descriptions validation
         assert 'descriptions' in results, \
@@ -339,7 +356,8 @@ class TestComprehensiveValidation:
         encyclopedia = AmiEncyclopedia(title="Test")
         encyclopedia.entries = [entry]
         
-        results = validate_encyclopedia_completeness(encyclopedia)
+        # Use check_image_urls=False to avoid network calls for test URLs
+        results = validate_encyclopedia_completeness(encyclopedia, check_image_urls=False)
         
         # Should include images validation
         assert 'images' in results, \
@@ -347,12 +365,14 @@ class TestComprehensiveValidation:
         assert results['images']['entries_with_images'] == 1, \
             f"Expected 1 entry with image in comprehensive validation, " \
             f"but got {results['images']['entries_with_images']}. " \
-            f"Total entries: {results['images']['total_entries']}"
+            f"Total entries: {results['images']['total_entries']}, " \
+            f"entries without images: {results['images']['entries_without_images']}, " \
+            f"entries with invalid URLs: {results['images'].get('entries_with_invalid_urls', 0)}"
         assert results['images']['is_valid'] is True, \
             f"Image validation should pass for entry with figure_html, " \
             f"but is_valid is {results['images']['is_valid']}"
     
-    def test_validation_from_real_file(self):
+    def test_validation_from_real_file(self, verbose=False):
         """Test validation on a real generated encyclopedia file"""
         html_file = Path(Resources.TEMP_DIR, "climate_encyclopedia.html")
         
@@ -363,9 +383,10 @@ class TestComprehensiveValidation:
         encyclopedia.create_from_html_file(html_file)
         
         # Comprehensive validation
-        results = validate_encyclopedia_completeness(encyclopedia)
+        results = validate_encyclopedia_completeness(encyclopedia, check_image_urls=False)
         
         print(f"\n=== Comprehensive Validation Results ===")
+        print(f"Loaded file: {html_file}")
         print(f"Total entries: {results['total_entries']}")
         print(f"\nDescriptions (HTML markup):")
         print(f"  With HTML: {results['descriptions']['entries_with_html_descriptions']}")
