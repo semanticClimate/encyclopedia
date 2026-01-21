@@ -1,27 +1,27 @@
 {
-  "/wiki/Sample_(statistics)": {
+  "/wiki/Synoptic_scale": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Sample_(statistics)",
-    "accessible": true
-  },
-  "/wiki/Anticyclone": {
-    "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Anticyclone",
-    "accessible": true
-  },
-  "/wiki/Extratropical_cyclone": {
-    "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Extratropical_cyclone",
-    "accessible": true
-  },
-  "/wiki/Subtropical_cyclone": {
-    "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Subtropical_cyclone",
+    "final_url": "https://en.wikipedia.org/wiki/Synoptic_scale",
     "accessible": true
   },
   "/wiki/Climate_change_feedback": {
     "status_code": 200,
     "final_url": "https://en.wikipedia.org/wiki/Climate_change_feedback",
+    "accessible": true
+  },
+  "/wiki/Mesocyclone": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Mesocyclone",
+    "accessible": true
+  },
+  "/wiki/Statistical_population": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Statistical_population",
+    "accessible": true
+  },
+  "/wiki/Stratosphere": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Stratosphere",
     "accessible": true
   }
 }

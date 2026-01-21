@@ -335,7 +335,7 @@ def validate_image_links_added(encyclopedia: AmiEncyclopedia, check_url_exists: 
     }
 
 
-def validate_encyclopedia_completeness(encyclopedia: AmiEncyclopedia) -> Dict[str, Any]:
+def validate_encyclopedia_completeness(encyclopedia: AmiEncyclopedia, check_image_urls: bool = False) -> Dict[str, Any]:
     """
     Comprehensive validation of encyclopedia completeness.
     
@@ -348,12 +348,13 @@ def validate_encyclopedia_completeness(encyclopedia: AmiEncyclopedia) -> Dict[st
     
     Args:
         encyclopedia: Encyclopedia to validate
+        check_image_urls: If True, verify that image URLs are accessible (default: False, can be slow)
         
     Returns:
         Dictionary with validation results for all aspects
     """
     definition_results = validate_first_sentences_extracted(encyclopedia)
-    image_results = validate_image_links_added(encyclopedia)
+    image_results = validate_image_links_added(encyclopedia, check_url_exists=check_image_urls)
     
     # Additional validations
     total = len(encyclopedia.entries)
