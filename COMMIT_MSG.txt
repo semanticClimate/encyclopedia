@@ -1,0 +1,20 @@
+Add HTML to Knowledge Graph workflow documentation and visualizations
+
+- Created comprehensive workflow documentation (html_to_knowledge_graph_workflow.md)
+  covering complete pipeline from HTML chapters with IDs to knowledge graphs
+- Documented 4 main stages:
+  1. HTML with IDs → Wordlist (keyword extraction or ID extraction)
+  2. Wordlist → Dictionary (AmiDictionary creation and enhancement)
+  3. Dictionary → Encyclopedia (normalization and merging)
+  4. Encyclopedia → Knowledge Graph (GraphML export)
+- Created Graphviz workflow diagram (html_to_knowledge_graph_workflow.dot)
+  with hyperlinks to relevant code and documentation
+- Generated SVG and PNG visualizations with clickable links
+- Added quick reference guide (html_to_knowledge_graph_README.md)
+- Included session summary (session_summary_2026_01_22.md)
+
+All documentation includes:
+- Software identification and parameters
+- Code examples and command-line usage
+- Output format specifications
+- Related documentation references

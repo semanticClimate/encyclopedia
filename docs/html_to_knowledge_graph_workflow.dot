@@ -1,0 +1,104 @@
+digraph html_to_knowledge_graph {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontname="Arial", fontsize=11];
+    edge [fontname="Arial", fontsize=9];
+    
+    // Input: HTML Chapter with IDs
+    HTML_INPUT [label="HTML Chapter\n(with IDs)\n• Section IDs\n• Span elements\n• Structured content", 
+                fillcolor=lightblue, style="rounded,filled",
+                URL="../docs/html_to_knowledge_graph_workflow.md#step-1-html-with-ids--wordlist"];
+    
+    // Step 1: Extract Wordlist
+    EXTRACT_TEXT [label="1a. Extract Text\n(html_to_txt.py)\n• BeautifulSoup\n• Extract plain text\n• Remove HTML tags",
+                  fillcolor=lightcyan, style="rounded,filled",
+                  URL="../Keyword_extraction/html_to_txt.py"];
+    
+    EXTRACT_KEYWORDS [label="1b. Extract Keywords\n(Keyword_extraction.py)\n• Transformers model\n• ml6team/keyphrase-extraction\n• Output CSV",
+                      fillcolor=lightcyan, style="rounded,filled",
+                      URL="../Keyword_extraction/Keyword_extraction.py"];
+    
+    EXTRACT_IDS [label="1c. Extract IDs\n(HtmlLib.extract_ids_from_html_page)\n• Regex pattern matching\n• Extract span elements\n• Get associated text",
+                 fillcolor=lightcyan, style="rounded,filled",
+                 URL="https://github.com/petermr/amilib/blob/main/amilib/ami_html.py"];
+    
+    WORDLIST [label="Wordlist\n(List of terms/phrases)\n• CSV file (keyword, count)\n• Text file (one per line)\n• Python list",
+              fillcolor=lightgreen, style="rounded,filled",
+              URL="../docs/html_to_knowledge_graph_workflow.md#step-2-wordlist--dictionary"];
+    
+    // Step 2: Create Dictionary
+    CREATE_DICT [label="2. Create Dictionary\n(AmiDictionary.create_dictionary_from_words)\n• Create entry elements\n• Initialize dictionary structure\n• Output XML dictionary",
+                 fillcolor=lightyellow, style="rounded,filled",
+                 URL="https://github.com/petermr/amilib/blob/main/amilib/ami_dict.py"];
+    
+    ENHANCE_WIKI [label="2a. Enhance with Wikipedia\n(enhance_dictionary_with_wikipedia)\n• Lookup Wikipedia pages\n• Extract first paragraph\n• Get Wikipedia URL\n• Extract Wikidata ID",
+                  fillcolor=lightyellow, style="rounded,filled",
+                  URL="../encyclopedia/utils/encyclopedia_builder.py"];
+    
+    DICTIONARY [label="Dictionary\n(AmiDictionary object)\n• Entry elements\n• Wikipedia content\n• Wikidata IDs\n• XML format",
+                fillcolor=lightcoral, style="rounded,filled",
+                URL="../docs/html_to_knowledge_graph_workflow.md#step-3-dictionary--encyclopedia"];
+    
+    // Step 3: Create Encyclopedia
+    CREATE_HTML_DICT [label="3a. Create HTML Dictionary\n(dictionary.create_html_dictionary)\n• Convert to HTML\n• Add semantic markup\n• Add role attributes",
+                       fillcolor=lightpink, style="rounded,filled",
+                       URL="https://github.com/petermr/amilib/blob/main/amilib/ami_dict.py"];
+    
+    CREATE_ENCYCLOPEDIA [label="3b. Create Encyclopedia\n(AmiEncyclopedia.create_from_html_content)\n• Parse HTML dictionary\n• Extract entries\n• Extract metadata",
+                         fillcolor=lightpink, style="rounded,filled",
+                         URL="../encyclopedia/core/encyclopedia.py"];
+    
+    NORMALIZE [label="3c. Normalize by Wikidata ID\n(encyclopedia.normalize_by_wikidata_id)\n• Group entries by Wikidata ID\n• Identify synonyms",
+              fillcolor=lightpink, style="rounded,filled",
+              URL="../encyclopedia/core/encyclopedia.py"];
+    
+    MERGE [label="3d. Merge Synonyms\n(encyclopedia.merge)\n• Merge entries with same Wikidata ID\n• Combine descriptions\n• Aggregate metadata",
+           fillcolor=lightpink, style="rounded,filled",
+           URL="../encyclopedia/core/encyclopedia.py"];
+    
+    ENCYCLOPEDIA [label="Encyclopedia\n(AmiEncyclopedia object)\n• Normalized entries\n• Merged synonyms\n• HTML output",
+                  fillcolor=lightsteelblue, style="rounded,filled",
+                  URL="../docs/html_to_knowledge_graph_workflow.md#step-4-encyclopedia--knowledge-graph"];
+    
+    // Step 4: Create Knowledge Graph
+    CREATE_GRAPH [label="4. Create Knowledge Graph\n(networkx / AmiGraph)\n• Extract entities (Wikidata IDs)\n• Extract relationships\n• Create graph structure",
+                  fillcolor=lavender, style="rounded,filled",
+                  URL="https://networkx.org/documentation/stable/reference/readwrite/graphml.html"];
+    
+    EXPORT_GRAPHML [label="4a. Export to GraphML\n(nx.write_graphml)\n• GraphML format (XML)\n• Nodes = entities\n• Edges = relationships",
+                    fillcolor=lavender, style="rounded,filled",
+                    URL="https://networkx.org/documentation/stable/reference/readwrite/graphml.html"];
+    
+    KNOWLEDGE_GRAPH [label="Knowledge Graph\n(GraphML file)\n• Nodes with attributes\n• Edges with relationships\n• Visualizable in yEd/Gephi",
+                     fillcolor=plum, style="rounded,filled",
+                     URL="../docs/html_to_knowledge_graph_workflow.md#step-4-encyclopedia--knowledge-graph"];
+    
+    // Edges: Step 1
+    HTML_INPUT -> EXTRACT_TEXT [label="Option A"];
+    HTML_INPUT -> EXTRACT_IDS [label="Option B"];
+    EXTRACT_TEXT -> EXTRACT_KEYWORDS;
+    EXTRACT_KEYWORDS -> WORDLIST;
+    EXTRACT_IDS -> WORDLIST;
+    
+    // Edges: Step 2
+    WORDLIST -> CREATE_DICT;
+    CREATE_DICT -> ENHANCE_WIKI;
+    ENHANCE_WIKI -> DICTIONARY;
+    
+    // Edges: Step 3
+    DICTIONARY -> CREATE_HTML_DICT;
+    CREATE_HTML_DICT -> CREATE_ENCYCLOPEDIA;
+    CREATE_ENCYCLOPEDIA -> NORMALIZE;
+    NORMALIZE -> MERGE;
+    MERGE -> ENCYCLOPEDIA;
+    
+    // Edges: Step 4
+    ENCYCLOPEDIA -> CREATE_GRAPH;
+    CREATE_GRAPH -> EXPORT_GRAPHML;
+    EXPORT_GRAPHML -> KNOWLEDGE_GRAPH;
+    
+    // Styling
+    {rank=same; EXTRACT_TEXT; EXTRACT_KEYWORDS; EXTRACT_IDS}
+    {rank=same; CREATE_DICT; ENHANCE_WIKI}
+    {rank=same; CREATE_HTML_DICT; CREATE_ENCYCLOPEDIA; NORMALIZE; MERGE}
+    {rank=same; CREATE_GRAPH; EXPORT_GRAPHML}
+}
