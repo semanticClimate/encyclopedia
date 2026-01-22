@@ -1148,7 +1148,47 @@ class AmiEncyclopedia:
             # Add figure if available
             figure_html = merged_entry.get('figure_html')
             if figure_html is not None:
-                entry_div.append(figure_html)
+                # Normalize and ensure we have an lxml element before appending
+                from lxml.html import fromstring, HtmlElement
+                try:
+                    # If it's already an element-like object, fix protocol-relative URLs
+                    if hasattr(figure_html, 'iter'):
+                        for elem in figure_html.iter():
+                            for attr in ('src', 'href', 'srcset'):
+                                val = elem.get(attr)
+                                if val and val.startswith('//'):
+                                    elem.set(attr, 'https:' + val)
+                        elem_to_append = figure_html
+                    else:
+                        # If it's a string, try to parse it into an element
+                        if isinstance(figure_html, str):
+                            try:
+                                parsed = fromstring(figure_html)
+                                # Fix any protocol-relative URLs in parsed tree
+                                for elem in parsed.iter():
+                                    for attr in ('src', 'href', 'srcset'):
+                                        val = elem.get(attr)
+                                        if val and val.startswith('//'):
+                                            elem.set(attr, 'https:' + val)
+                                elem_to_append = parsed
+                            except Exception:
+                                # If parsing fails, wrap the text in a div
+                                wrapper = ET.Element('div')
+                                wrapper.text = figure_html
+                                elem_to_append = wrapper
+                        else:
+                            # Unknown type (e.g., plain URL string in non-str form), convert to string
+                            wrapper = ET.Element('div')
+                            wrapper.text = str(figure_html)
+                            elem_to_append = wrapper
+                except Exception:
+                    # As a last resort, wrap the string representation
+                    wrapper = ET.Element('div')
+                    wrapper.text = str(figure_html)
+                    elem_to_append = wrapper
+
+                # Append the normalized element
+                entry_div.append(elem_to_append)
         
         return XmlLib.element_to_string(html_root, pretty_print=True)
     
