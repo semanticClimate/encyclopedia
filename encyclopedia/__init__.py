@@ -8,7 +8,7 @@ This package provides functionality to:
 - Generate HTML encyclopedias
 """
 
-__version__ = "1.0.0"
+__version__ = "0.0.2"  # 2026-01-23
 
 # Lazy import to avoid circular dependencies
 def __getattr__(name):

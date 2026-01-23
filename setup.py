@@ -6,8 +6,14 @@ Setup script for encyclopedia package.
 from pathlib import Path
 from setuptools import setup, find_packages
 
-# Read version from __init__.py
-version = "1.0.0"
+# Read version from __init__.py (following amilib pattern)
+import re
+from pathlib import Path
+
+parent = Path(__file__).parent
+with open(str(Path(parent, "encyclopedia", "__init__.py"))) as f:
+    content = f.read()
+version = re.search(r'__version__ = ["\']([^"\']+)["\']', content).group(1)
 
 # Read README
 readme_path = Path(__file__).parent / "README.md"
