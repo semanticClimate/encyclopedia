@@ -1,0 +1,803 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" id="jobe6664514" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats-oasis2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Obes</journal-id><journal-id journal-id-type="iso-abbrev">J Obes</journal-id><journal-id journal-id-type="doi">10.1155/8572</journal-id><journal-id journal-id-type="publisher-id">JOBE</journal-id><journal-title-group><journal-title>Journal of Obesity</journal-title></journal-title-group><issn pub-type="ppub">2090-0708</issn><issn pub-type="epub">2090-0716</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">12776599</article-id><article-id pub-id-type="doi">10.1155/jobe/6664514</article-id><article-id pub-id-type="publisher-id">JOBE6664514</article-id><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Beneficial Effects of <italic toggle="yes">Clitoria ternatea</italic> Flower and <italic toggle="yes">Citrus limon</italic> Fruit Beverage on Nutritional Status, Lipid Profile, and Adipokine Parameters on Male Rats With Obesity</article-title></title-group><contrib-group><contrib id="cr-0001" contrib-type="author"><name><surname>Utami</surname><given-names>Fista</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0004-1611-8246</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0002" contrib-type="author" corresp="yes"><name><surname>Indarto</surname><given-names>Dono</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7420-5816</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><address><email>dono@staff.uns.ac.id</email></address></contrib><contrib id="cr-0003" contrib-type="author"><name><surname>Listyawati</surname><given-names>Shanti</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5647-2048</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib></contrib-group><contrib-group><contrib id="cr-0004" contrib-type="editor"><name><surname>Stocker</surname><given-names>Claire</given-names></name><address><email>c.stocker@aston.ac.uk</email></address></contrib></contrib-group><aff id="aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Master Program of Nutrition Sciences</named-content>, <institution>Universitas Sebelas Maret</institution>, Jl. Ir Sutami No. 36, <city>Surakarta</city>, Jawa Tengah, <postal-code>57126</postal-code>, <country>Indonesia</country>, <ext-link xlink:href="http://uns.ac.id" ext-link-type="uri">uns.ac.id</ext-link>
+</aff><aff id="aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Nutrition</named-content>, <named-content content-type="organisation-division">Faculty of Sports and Health Sciences</named-content>, <institution>Universitas Negeri Surabaya</institution>, Jl. Lidah Wetan, <city>Surabaya</city>, Jawa Timur, <postal-code>60231</postal-code>, <country>Indonesia</country>, <ext-link xlink:href="http://unesa.ac.id" ext-link-type="uri">unesa.ac.id</ext-link>
+</aff><aff id="aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Physiology and Biomedical Laboratory</named-content>, <named-content content-type="organisation-division">Faculty of Medicine</named-content>, <institution>Universitas Sebelas Maret</institution>, Jl. Ir Sutami No. 36, <city>Surakarta</city>, Jawa Tengah, <postal-code>57126</postal-code>, <country>Indonesia</country>, <ext-link xlink:href="http://uns.ac.id" ext-link-type="uri">uns.ac.id</ext-link>
+</aff><aff id="aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Doctoral Program of Medical Sciences</named-content>, <named-content content-type="organisation-division">Faculty of Medicine</named-content>, <institution>Universitas Sebelas Maret</institution>, Jl. Ir Sutami No. 36, <city>Surakarta</city>, Jawa Tengah, <postal-code>57126</postal-code>, <country>Indonesia</country>, <ext-link xlink:href="http://uns.ac.id" ext-link-type="uri">uns.ac.id</ext-link>
+</aff><aff id="aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Biology Department</named-content>, <named-content content-type="organisation-division">Faculty of Mathematics and Natural Sciences</named-content>, <institution>Universitas Sebelas Maret</institution>, Jl. Ir Sutami No. 36, <city>Surakarta</city>, Jawa Tengah, <postal-code>57126</postal-code>, <country>Indonesia</country>, <ext-link xlink:href="http://uns.ac.id" ext-link-type="uri">uns.ac.id</ext-link>
+</aff><pub-date pub-type="epub"><day>07</day><month>1</month><year>2026</year></pub-date><pub-date pub-type="collection"><year>2026</year></pub-date><volume>2026</volume><elocation-id>6664514</elocation-id><history>
+<date date-type="rev-recd"><day>13</day><month>11</month><year>2025</year></date>
+<date date-type="received"><day>05</day><month>5</month><year>2025</year></date>
+<date date-type="accepted"><day>02</day><month>12</month><year>2025</year></date>
+</history><permissions><copyright-statement content-type="article-copyright">Copyright &#x000a9; 2026 Fista Utami et al. Journal of Obesity published by John Wiley &#x00026; Sons Ltd.</copyright-statement><copyright-year>2026</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:JOBE-2026-6664514.pdf"/><abstract><sec id="sec-0001"><title>Background</title><p>Butterfly pea flowers (<italic toggle="yes">Clitoria ternatea</italic> L.) and lemon fruits (<italic toggle="yes">Citrus limon</italic>) are rich in phytochemicals and have shown potential anti&#x02010;obesity effects. However, the combination of these two medicinal plants as an herbal beverage has not been extensively studied.</p></sec><sec id="sec-0002"><title>Objective</title><p>This study aimed to evaluate the effects of an herbal beverage composed of butterfly pea flowers and lemon fruits (BPL) on body weight (BW), Lee index (LI), body fat content (BFC), lipid profile (total cholesterol, low&#x02010;density lipoprotein&#x02010;cholesterol [LDL&#x02010;C], high&#x02010;density lipoprotein&#x02010;cholesterol [HDL&#x02010;C], and triglycerides [TGs]), leptin levels, and DPP4 activity in obese male Wistar rats.</p></sec><sec id="sec-0003"><title>Methods</title><p>A pre&#x02010; and post&#x02010;test experimental design was conducted using 40 obese male Wistar rats, divided into five groups: NC (negative control, given 3&#x02009;mL/day mineral water), positive control (PC, given 3&#x02009;mL/day plant stanol ester), BPL1 received 3&#x02009;mL/day BPL 75:25%, BPL2 received 3&#x02009;mL/day BPL 80:20%, and BPL3 received 3&#x02009;mL/day BPL 85:15%. All treatments were administered orally via gastric probe for 21&#x02009;days. Data were analyzed using appropriate statistical tests to assess significant differences.</p></sec><sec id="sec-0004"><title>Results</title><p>The BPL3 group showed the greatest reduction in BW and LI. The BPL1 group had the greatest reduction in TG levels, followed by the BPL3 group. The greatest reduction in leptin levels was found in the BPL2 group, followed by the BPL3 group.</p></sec><sec id="sec-0005"><title>Conclusion</title><p>Oral administration of BPL herbal beverage with 85:15% formulation reduces BW and LI through the modulation of lipid metabolism and hormonal regulation.</p></sec></abstract><kwd-group><title>Keywords</title><kwd id="kwd-0001">anti-obesity</kwd><kwd id="kwd-0002">body weight</kwd><kwd id="kwd-0003">DPP4 activity</kwd><kwd id="kwd-0004">herbal beverage</kwd><kwd id="kwd-0005">leptin levels</kwd><kwd id="kwd-0006">lipid profile</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Universitas Sebelas Maret</institution><institution-id institution-id-type="doi">10.13039/501100007690</institution-id></institution-wrap>
+</funding-source><award-id>194.2/UN27.22/PT.01.03/2024</award-id><award-id>369/UN27.22/PT.01.03/2025</award-id></award-group></funding-group><counts><fig-count count="12"/><table-count count="2"/><ref-count count="53"/><page-count count="12"/><word-count count="6747"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.6 mode:remove_FC converted:07.01.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="jobe6664514-cit-2001">
+<string-name>
+<surname>Utami</surname>, <given-names>Fista</given-names>
+</string-name>, 
+<string-name>
+<surname>Indarto</surname>, <given-names>Dono</given-names>
+</string-name>, 
+<string-name>
+<surname>Listyawati</surname>, <given-names>Shanti</given-names>
+</string-name>, 
+<article-title>Beneficial Effects of <italic toggle="yes">Clitoria ternatea</italic> Flower and <italic toggle="yes">Citrus limon</italic> Fruit Beverage on Nutritional Status, Lipid Profile, and Adipokine Parameters on Male Rats With Obesity</article-title>, 
+<source>Journal of Obesity</source>, <volume>2026</volume>, <elocation-id>6664514</elocation-id>, 12 pages, <year>2026</year>. 
+<pub-id pub-id-type="doi">10.1155/jobe/6664514</pub-id>
+</mixed-citation>
+</p><fn-group><fn id="note-0001"><p>
+<bold>Academic Editor:</bold> Claire Stocker</p></fn></fn-group></notes></front><body><sec id="sec-0006"><title>1. Introduction</title><p>Obesity is an excessive accumulation of body fat with a body mass index (BMI) level of &#x02265; 30&#x02009;kg/m<sup>2</sup> that can increase the risk of degenerative diseases. Over 43% of adults were obese in 2022 worldwide and are estimated to reach 50% in 2030 [<xref rid="bib-0001" ref-type="bibr">1</xref>]. High consumption of ultraprocessed foods (UPFs), which are high in sugar, salt, and fats, and low in nutritional value, is strongly associated with obesity and metabolic disorders [<xref rid="bib-0002" ref-type="bibr">2</xref>]. The imbalance between energy intake and expenditure leads to obesity and metabolic changes, such as dyslipidemia, resulting in a reduction in adiponectin levels, an increase in leptin levels, and fatty acids release into the blood circulation [<xref rid="bib-0003" ref-type="bibr">3</xref>]. Increased nonesterified fatty acids (NEFAs) in blood circulation also cause insulin resistance, hyperglycemia, and dyslipidemia that lead to Type 2 diabetes mellitus, hypertension, heart failure, and cancer [<xref rid="bib-0004" ref-type="bibr">4</xref>].</p><p>Dipeptidyl Peptidase 4 (DPP4) is a serine protease that degrades incretin hormones like glucagon&#x02010;like peptide&#x02010;1, which are crucial for insulin secretion and glucose homeostasis. Elevated DPP4 activity is frequently observed in obesity and contributes to impaired glucose tolerance, increased inflammation, and metabolic dysfunction [<xref rid="bib-0005" ref-type="bibr">5</xref>, <xref rid="bib-0006" ref-type="bibr">6</xref>]. In vitro and in vivo studies showed that DPP4 expression in subcutaneous and visceral adipose tissues positively correlated with BMI, adipose cell number, size, and inflammation [<xref rid="bib-0007" ref-type="bibr">7</xref>]. Furthermore, circulating levels of soluble DPP4 were higher in obese patients compared to lean individuals of the same age. The adipose tissue biopsies revealed that DPP4 expression is influenced by total fat mass and adipose tissue distribution [<xref rid="bib-0006" ref-type="bibr">6</xref>, <xref rid="bib-0008" ref-type="bibr">8</xref>]. Therefore, the inhibition of DPP4 expression and activity is another way to reduce body weight (BW) in obese individuals.</p><p>Diet management for obese patients involves a low&#x02010;energy diet and increased physical activity, which has been successful in BW reduction. This diet has almost the same principles as balanced nutrition, but the calories are decreased by about 500&#x02013;750&#x02009;kcal/day (or &#x0223c;30% reduction) from the daily requirement for the weight loss of around 0.5&#x02009;kg/week [<xref rid="bib-0009" ref-type="bibr">9</xref>]. However, a qualitative study found that individuals with Class III obesity frequently failed to follow prescribed very low&#x02010;energy diets, primarily due to social eating, emotional triggers, and unplanned deviations from the diet. Some study participants reported that they consumed more than 100% of their daily caloric requirements [<xref rid="bib-0010" ref-type="bibr">10</xref>]. Diet&#x02010;induced obesity, such as high intake of fats, carbohydrates, fructose, and sucrose, contributes to leptin resistance, which weakens its anorexigenic effect and perpetuates overeating [<xref rid="bib-0011" ref-type="bibr">11</xref>].</p><p>Natural sources that are high in flavonoids can be potentially used to treat obesity, such as butterfly pea flowers and lemon fruits. Butterfly pea flower is known as an edible flower that has high bioactive compounds such as anthocyanins, alkaloids, flavonoids, terpenoids, tannins, saponins, and phenols [<xref rid="bib-0012" ref-type="bibr">12</xref>]. A previous study stated that administration of 1000&#x02009;mg/kg BW dried butterfly pea flower extract decreased BW in male Swiss Albino rats with a stress model [<xref rid="bib-0013" ref-type="bibr">13</xref>]. Delphinidin is a derivative of anthocyanin in the butterfly pea flower that can activate adenosine monophosphate protein kinase (AMPK) to increase the adipose triglyceride (TG) lipase activity. This enzyme plays a role in the catabolism of fatty acids into energy and the body&#x02019;s lipolysis process [<xref rid="bib-0014" ref-type="bibr">14</xref>]. A systematic review reported that butterfly pea flowers potentially prevent weight gain and induce weight loss by reducing the expression of adipogenicity genes and activating the lipase [<xref rid="bib-0015" ref-type="bibr">15</xref>].</p><p>In addition to the butterfly pea flower benefits, lemon fruits contain high bioactive compounds such as hesperidin, citric acid, and phenols [<xref rid="bib-0016" ref-type="bibr">16</xref>]. A study used a lemon fermented product with <italic toggle="yes">Lactobacillu</italic>s OPC1 supplementation, resulting in a 9.7% reduction in BW and a 25.7% decrease in fat tissue mass in Wistar rats fed a high&#x02010;fat diet (HFD) [<xref rid="bib-0017" ref-type="bibr">17</xref>]. Hesperidin also increases the expression of AMPK for lipolysis, stimulates cholecystokinin release, and decreases appetite [<xref rid="bib-0018" ref-type="bibr">18</xref>]. A previous study also showed that Berastagi orange peel extract significantly improved lipid metabolism by reducing low&#x02010;density lipoprotein&#x02010;cholesterol (LDL&#x02010;C), TG, and DPP4 activity while increasing high&#x02010;density lipoprotein&#x02010;cholesterol (HDL&#x02010;C) in male obese rats [<xref rid="bib-0019" ref-type="bibr">19</xref>]. Since DPP4 is a key enzyme in incretin metabolism and inflammation, its inhibition represents a promising anti&#x02010;obesity strategy. Ten natural supplements showed wide variability in the citrus bioflavonoid content, including hesperidin, which potentially became DPP&#x02010;4 inhibitors (1.9&#x02013;400&#x02009;mg rutin equivalents/day) [<xref rid="bib-0020" ref-type="bibr">20</xref>]. This bioactive variability indicates that differences in their composition and bioavailability strongly influence DPP&#x02010;4 inhibition.</p><p>So far, the combination of butterfly pea flower and lemon fruits has not been reported in experimental animal models of obesity. Lemon fruits have an acidic pH that is known to enhance the stability of anthocyanin pigments, particularly those derived from the butterfly pea flower [<xref rid="bib-0021" ref-type="bibr">21</xref>]. One research shows that anthocyanins from butterfly pea exhibit the highest stability and antioxidant activity at low to moderate acidic conditions (pH 3.6&#x02013;5.4), while stability deteriorates significantly in neutral to alkaline pH [<xref rid="bib-0022" ref-type="bibr">22</xref>]. Our recent study showed that combining butterfly pea flowers and lemon fruits enhances total flavonoids, anthocyanins, and antioxidant levels. It can potentially be developed as a herbal beverage to support low&#x02010;energy diets in obesity management [<xref rid="bib-0015" ref-type="bibr">15</xref>]. Meanwhile, another study in Indonesia found that consuming 2&#x02009;g/day of plant stanol esters (PSEs) led to a 5.7% reduction in total cholesterol and a 9.3% decrease in LDL after two to 4&#x02009;weeks [<xref rid="bib-0023" ref-type="bibr">23</xref>]. PSE may slightly lower TGs and fasting blood glucose levels, which also indicates potential anti&#x02010;obesity benefits [<xref rid="bib-0024" ref-type="bibr">24</xref>]. Therefore, the PSE beverage was used for the positive control (PC) group in our research study. Furthermore, leptin levels and DPP4 activity become important biomarkers for the weight&#x02010;lowering effect of BPL beverages [<xref rid="bib-0007" ref-type="bibr">7</xref>, <xref rid="bib-0008" ref-type="bibr">8</xref>]. Therefore, this study aims to investigate the effects of the BPL herbal beverage on BW, LI, body fat content (BFC) percentage, lipid profiles, leptin levels, and DPP4 activity in male rats with obesity.</p></sec><sec id="sec-0007"><title>2. Materials and Methods</title><sec id="sec-0008"><title>2.1. Materials</title><p>Dried butterfly pea flowers were purchased from a farmer in Kampung BW Pringsewu Regency, Lampung Province, Indonesia, while fresh lemon fruits were purchased from a farmer in Batu City, East Java Province, Indonesia. A standard rat feed (BR2) was purchased from PT Japfa Comfeed Indonesia Tbk, Sragen Regency, Central Java Province, Indonesia. Mineral water was obtained from Danone Group PT Aqua Golden Mississippi, Indonesia, with registration number MD 265210004169. The PSE beverage used in this study was obtained from an Indonesian commercial product for human consumption by PT Kalbe Nutritionals, a subsidiary of Kalbe Farma Group, Jakarta. 100&#x02009;mL of the PSE beverage contained 50&#x02009;kcal, 1.7&#x02009;g PSE, 2&#x02009;g fats, 1&#x02009;g proteins, and 7&#x02009;g total carbohydrates, with isomaltose and sucralose sweeteners. CV Dunia Kaca, Karanganyar Regency, Central Java, Indonesia, provided male Wistar rats with B&#x02010;2316/IPH.1/KS.02.03/VI/2019 animal strain identification number and 313/SKKH/III/2022 animal health identification number. Only male rats were used in this study to minimize potential variability due to hormonal fluctuations related to the estrous cycle in female rats. In addition, biological sex differences can influence metabolic responses, lipid profiles, and adipokine levels, such as leptin [<xref rid="bib-0025" ref-type="bibr">25</xref>].</p></sec><sec id="sec-0009"><title>2.2. Preparation of BPL Herbal Beverages</title><p>BPL beverage was developed based on the formulation from a previous study, which had been registered at the Directorate General of Intellectual Property, Indonesian Ministry of Law, with S00202214250 registration number [<xref rid="bib-0026" ref-type="bibr">26</xref>]. In general, the dried butterfly pea flowers were soaked in 60&#x000b0;C boiled water with a 1:100 (weight/volume) ratio for 15&#x02009;min. Fresh lemon fruits were squeezed using a squeezer to get lemon juice. Furthermore, brewed butterfly pea flowers were mixed with lemon juice to make beverages with BPL1 (75:25% ratio), BPL2 (80:20% ratio), and BPL3 (85:15% ratio). The BPL herbal beverages were then stored in dark bottles before further analysis. Table <xref rid="tbl-0001" ref-type="table">1</xref> indicates that the BPL formulation ratios were selected based on preliminary testing to identify the optimal combination that yields the highest total flavonoid and anthocyanin contents [<xref rid="bib-0015" ref-type="bibr">15</xref>]. Total flavonoid content was determined using the colorimetric method, while total anthocyanin levels were determined by the pH differential method. In this study, the beverage was prepared fresh daily to maintain the stability of bioactive compounds during treatment periods. After preparation, the beverage was stored in a dark bottle to minimize light exposure and administered within 2&#x02009;h of preparation.</p><table-wrap position="float" id="tbl-0001" content-type="Table"><label>Table 1</label><caption><p>Total flavonoids and anthocyanins levels in BPL1&#x02013;BPL3.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><thead><tr><th align="left" rowspan="1" colspan="1">Formulations</th><th align="center" rowspan="1" colspan="1">Total flavonoids (ppm)</th><th align="center" rowspan="1" colspan="1">Anthocyanins (ppm)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">BPL1</td><td align="center" rowspan="1" colspan="1">993.50&#x02009;&#x000b1;&#x02009;6.36</td><td align="center" rowspan="1" colspan="1">424.41&#x02009;&#x000b1;&#x02009;25.75</td></tr><tr><td align="left" rowspan="1" colspan="1">BPL2</td><td align="center" rowspan="1" colspan="1">1.148.00&#x02009;&#x000b1;&#x02009;7.07</td><td align="center" rowspan="1" colspan="1">443.42&#x02009;&#x000b1;&#x02009;23.78</td></tr><tr><td align="left" rowspan="1" colspan="1">BPL3</td><td align="center" rowspan="1" colspan="1">1.265.00&#x02009;&#x000b1;&#x02009;21.92</td><td align="center" rowspan="1" colspan="1">485.38&#x02009;&#x000b1;&#x02009;22.08</td></tr></tbody></table></table-wrap></sec><sec id="sec-0010"><title>2.3. Study Design of Wistar Rat Experiment</title><p>This experimental laboratory used male Wistar rats with a pre&#x02013;post&#x02010;test control group design, conducted from March to August 2022. The protocol of this study was approved by the Research Ethics Committee, Faculty of Medicine, Universitas Sebelas Maret, Surakarta, Indonesia (Protocol ID 01/02/02/2022/10). The inclusion criteria for this study were male rats aged 8&#x02013;9&#x02009;weeks, weighing 150&#x02013;200&#x02009;g, and in good health with active movements. The sample size was calculated using a formula from Ilyaz et al. [<xref rid="bib-0027" ref-type="bibr">27</xref>] to obtain at least 35 rats,<disp-formula id="disp-0001">
+<label>(1)</label>
+<mml:math id="M1" display="block"><mml:mtable><mml:mlabeledtr id="EEq1"><mml:mtd><mml:mtext>E</mml:mtext><mml:mo>=</mml:mo><mml:mrow><mml:mfenced open="(" close=")" separators="|"><mml:mrow><mml:mrow><mml:mtext>total&#x02009;sample&#x02009;in&#x02009;groups&#x02009;</mml:mtext></mml:mrow><mml:mo>&#x000d7;</mml:mo><mml:mrow><mml:mtext>&#x02009;total&#x02009;groups</mml:mtext></mml:mrow></mml:mrow></mml:mfenced></mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mtext>total&#x02009;groups</mml:mtext><mml:mo>,</mml:mo></mml:mtd></mml:mlabeledtr><mml:mtr><mml:mtd><mml:mtext>E</mml:mtext><mml:mo>=</mml:mo><mml:mrow><mml:mfenced open="(" close=")" separators="|"><mml:mrow><mml:mrow><mml:mn>8</mml:mn><mml:mtext>&#x02009;</mml:mtext></mml:mrow><mml:mo>&#x000d7;</mml:mo><mml:mrow><mml:mtext>&#x02009;</mml:mtext><mml:mn>5</mml:mn></mml:mrow></mml:mrow></mml:mfenced></mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mn>5</mml:mn><mml:mo>,</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>E</mml:mtext><mml:mo>=</mml:mo><mml:mn>3520</mml:mn><mml:mo>;</mml:mo><mml:mtext>&#x02009;if&#x02009;</mml:mtext><mml:mtext>E</mml:mtext><mml:mtext>&#x02009;</mml:mtext><mml:mo>&#x0003e;</mml:mo><mml:mtext>&#x02009;</mml:mtext><mml:mo>,</mml:mo><mml:mtext>&#x02009;the&#x02009;total&#x02009;sample&#x02009;is&#x02009;sufficient</mml:mtext><mml:mo>.</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math>
+</disp-formula>
+</p></sec><sec id="sec-0011"><title>2.4. Generating the Obesity Rat Model</title><p>Selected rats were adapted for 7&#x02009;days in group 4/cage under a 12&#x02010;h dark&#x02013;light cycle, at 25&#x000b0;C&#x02013;28&#x000b0;C, and 70% humidity at the Integrated Biology Laboratory, Universitas Sebelas Maret, Surakarta, Indonesia. The rats were given 20&#x02009;g/day BR2 feed that each 100&#x02009;g consisted of 310&#x02009;kcal, 19%&#x02013;20% crude proteins, 12% water, 5% fats, 5% crude fibers, 7% ashes, 0.8%&#x02013;1.1% calcium, and 0.45% phosphorus, and drinking water ad libitum in adaptation periods. After adaptation, all male rats were given a 25&#x02009;g/day high fat high fructose (HFHFr) and 10% fructose&#x02010;drinking water ad libitum for 28&#x02009;days for obesity modeling. Compared to the standard diet during the adaptation period, the HFD in the treatment period provided approximately 1.9 times the caloric intake. Each 100&#x02009;g of HFHFr consisted of 23&#x02009;g BR2, 40&#x02009;g beef fat, 12&#x02009;g chicken liver, 28&#x02009;g duck egg yolk, 4&#x02009;g butter, and drinking high fructose water that consisted of 7&#x02009;mL of 55% fructose syrup. The obesity modeling in this study followed the methods described in several previous studies and involved feeding rats 587.72&#x02009;kcal of energy, 47.25&#x02009;g of proteins, 52.61&#x02009;g of fats, 32.25&#x02009;g of carbohydrates, and 0.9&#x02009;g of fiber [<xref rid="bib-0019" ref-type="bibr">19</xref>, <xref rid="bib-0028" ref-type="bibr">28</xref>&#x02013;<xref rid="bib-0030" ref-type="bibr">30</xref>]. This HFHFr significantly increased BW, with mean &#x00394;BW values of 51.00&#x02009;&#x000b1;&#x02009;4.37&#x02009;g and 79.80&#x02009;&#x000b1;&#x02009;7.70&#x02009;g after 30&#x02009;days, in our previous findings [<xref rid="bib-0028" ref-type="bibr">28</xref>, <xref rid="bib-0030" ref-type="bibr">30</xref>]. The rats&#x02019; BW and length were regularly measured using a digital weight scale and ruler. The Lee index (LI) was used to assess obesity in rats, with values of &#x02265; 300&#x02009;g/cm<sup>3</sup> considered indicative of obesity (Table <xref rid="tbl-0002" ref-type="table">2</xref>).</p><table-wrap position="float" id="tbl-0002" content-type="Table"><label>Table 2</label><caption><p>The average BW and Lee index of male rats before and after obesity induction.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead><tr><th rowspan="2" colspan="2" align="center">Group</th><th colspan="3" align="center" rowspan="1">Mean&#x02009;&#x000b1;&#x02009;SD</th></tr><tr><th align="center" rowspan="1" colspan="1">Before</th><th align="center" rowspan="1" colspan="1">After</th><th align="center" rowspan="1" colspan="1">&#x00394;</th></tr></thead><tbody><tr><td rowspan="6" align="left" colspan="1">BW (g)</td><td align="center" rowspan="1" colspan="1">NC</td><td align="center" rowspan="1" colspan="1">166.88&#x02009;&#x000b1;&#x02009;10.26</td><td align="center" rowspan="1" colspan="1">252.00&#x02009;&#x000b1;&#x02009;26.13</td><td align="center" rowspan="1" colspan="1">85.13&#x02009;&#x000b1;&#x02009;21.20</td></tr><tr><td align="center" rowspan="1" colspan="1">PC</td><td align="center" rowspan="1" colspan="1">165.89&#x02009;&#x000b1;&#x02009;9.32</td><td align="center" rowspan="1" colspan="1">248.88&#x02009;&#x000b1;&#x02009;35.27</td><td align="center" rowspan="1" colspan="1">83.00&#x02009;&#x000b1;&#x02009;30.26</td></tr><tr><td align="center" rowspan="1" colspan="1">BPL1</td><td align="center" rowspan="1" colspan="1">166.38&#x02009;&#x000b1;&#x02009;7.91</td><td align="center" rowspan="1" colspan="1">248.13&#x02009;&#x000b1;&#x02009;40.19</td><td align="center" rowspan="1" colspan="1">81.75&#x02009;&#x000b1;&#x02009;33.36</td></tr><tr><td align="center" rowspan="1" colspan="1">BPL2</td><td align="center" rowspan="1" colspan="1">165.25&#x02009;&#x000b1;&#x02009;12.56</td><td align="center" rowspan="1" colspan="1">256.75&#x02009;&#x000b1;&#x02009;33.47</td><td align="center" rowspan="1" colspan="1">91.50&#x02009;&#x000b1;&#x02009;27.47</td></tr><tr><td align="center" rowspan="1" colspan="1">BPL3</td><td align="center" rowspan="1" colspan="1">164.63&#x02009;&#x000b1;&#x02009;10.65</td><td align="center" rowspan="1" colspan="1">251.00&#x02009;&#x000b1;&#x02009;31.09</td><td align="center" rowspan="1" colspan="1">86.88&#x02009;&#x000b1;&#x02009;29.37</td></tr><tr><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</td><td align="center" rowspan="1" colspan="1">0.993<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">0.987<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">0.575<sup>b</sup>
+</td></tr><tr style="border-bottom:solid 1px #000000"><td colspan="5" rowspan="1">&#x02009;&#x02009;</td></tr><tr><td rowspan="6" align="left" colspan="1">Lee index (g/cm<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">NC</td><td align="center" rowspan="1" colspan="1">269.88&#x02009;&#x000b1;&#x02009;8.78</td><td align="center" rowspan="1" colspan="1">307.39&#x02009;&#x000b1;&#x02009;4.72</td><td align="center" rowspan="1" colspan="1">37.51&#x02009;&#x000b1;&#x02009;5.76</td></tr><tr><td align="center" rowspan="1" colspan="1">PC</td><td align="center" rowspan="1" colspan="1">276.33&#x02009;&#x000b1;&#x02009;10.13</td><td align="center" rowspan="1" colspan="1">313.58&#x02009;&#x000b1;&#x02009;7.98</td><td align="center" rowspan="1" colspan="1">37.25&#x02009;&#x000b1;&#x02009;9.89</td></tr><tr><td align="center" rowspan="1" colspan="1">BPL1</td><td align="center" rowspan="1" colspan="1">272.43&#x02009;&#x000b1;&#x02009;10.78</td><td align="center" rowspan="1" colspan="1">308.03&#x02009;&#x000b1;&#x02009;3.55</td><td align="center" rowspan="1" colspan="1">35.60&#x02009;&#x000b1;&#x02009;10.80</td></tr><tr><td align="center" rowspan="1" colspan="1">BPL2</td><td align="center" rowspan="1" colspan="1">273.01&#x02009;&#x000b1;&#x02009;5.58</td><td align="center" rowspan="1" colspan="1">311.77&#x02009;&#x000b1;&#x02009;6.43</td><td align="center" rowspan="1" colspan="1">38.76&#x02009;&#x000b1;&#x02009;9.55</td></tr><tr><td align="center" rowspan="1" colspan="1">BPL3</td><td align="center" rowspan="1" colspan="1">269.27&#x02009;&#x000b1;&#x02009;3.70</td><td align="center" rowspan="1" colspan="1">305.95&#x02009;&#x000b1;&#x02009;3.44</td><td align="center" rowspan="1" colspan="1">36.67&#x02009;&#x000b1;&#x02009;5.80</td></tr><tr><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</td><td align="center" rowspan="1" colspan="1">0.456<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">0.067<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">0.965<sup>a</sup>
+</td></tr></tbody></table><table-wrap-foot><fn id="note-0002"><p>
+<italic toggle="yes">Note:</italic> A significance threshold of <italic toggle="yes">p</italic> &#x0003c; 0.05 was used to determine statistical significance. The delta (&#x00394;) values reflect the mean change before and after treatment for each group. Superscript letters (a, b) following the <italic toggle="yes">p</italic> values indicate the statistical tests applied to each parameter.</p></fn><fn id="note-0003"><p>(a) One&#x02010;way ANOVA and (b) Kruskal&#x02013;Wallis analyses with <italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05 as a significant difference.</p></fn></table-wrap-foot></table-wrap></sec><sec id="sec-0012"><title>2.5. Protocol of BPL Administration in Obese Male Rats</title><p>Once 40 male rats had LI&#x02009;&#x0003e;&#x02009;300&#x02009;g/cm<sup>3</sup> after being induced with a HFD with 10% fructose, following the method of Kusumaningrum et al. [<xref rid="bib-0029" ref-type="bibr">29</xref>], Devina et al. [<xref rid="bib-0028" ref-type="bibr">28</xref>], Prasetyo et al. [<xref rid="bib-0019" ref-type="bibr">19</xref>], and Sundari et al. [<xref rid="bib-0030" ref-type="bibr">30</xref>] for 28&#x02009;days, they were randomly allocated into five groups. In treatment periods, the negative control (NC) group received 20&#x02009;g/day of BR2, while the PC group received 20&#x02009;g/day of BR2 and 3&#x02009;mL/day of PSE beverage. The treatment groups (BPL1, BPL2, and BPL3) were given 20&#x02009;g/day of BR2 and 3&#x02009;mL/day of BPL beverages at ratios of 75:25%, 80:20%, and 85:15%, respectively, for 21&#x02009;days. The administration of BR2, which contained 310&#x02009;kcal and ad libitum access to drinking water for 21&#x02009;days during treatment, was intended to simulate a transition from HFHFr to a normal diet.</p><sec id="sec-0013"><title>2.5.1. Measurements of BW, LI, and BFC</title><p>Rats&#x02019; BW and length were measured weekly to evaluate the effects of BPL herbal beverage administration. The BW was recorded using a Joil digital scale with a maximum capacity of 5&#x02009;kg and 1&#x02009;g accuracy, while body length was measured from the naso to the anal using a ruler with 0.1&#x02010;cm precision.</p><p>The LI was calculated using the following formula:<disp-formula id="disp-0002">
+<label>(2)</label>
+<mml:math id="M2" display="block"><mml:mtable><mml:mlabeledtr id="EEq2"><mml:mtd><mml:mi>L</mml:mi><mml:mi>e</mml:mi><mml:mi>e</mml:mi><mml:mtext>&#x02009;</mml:mtext><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>x</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi>B</mml:mi><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mn>13</mml:mn><mml:mo>/</mml:mo></mml:mrow></mml:msup></mml:mrow><mml:mtext>&#x02009;</mml:mtext><mml:mo>&#x000d7;</mml:mo><mml:mtext>&#x02009;</mml:mtext><mml:mn>1000</mml:mn><mml:mo>,</mml:mo></mml:mrow><mml:mrow><mml:mtext>Naso</mml:mtext><mml:mo>&#x02212;</mml:mo><mml:mtext>anal</mml:mtext><mml:mtext>&#x02009;</mml:mtext><mml:mtext>length</mml:mtext><mml:mtext>&#x02009;</mml:mtext><mml:mrow><mml:mfenced open="(" close=")" separators="|"><mml:mrow><mml:mtext>cm</mml:mtext></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mfrac></mml:mrow><mml:mo>.</mml:mo></mml:mtd></mml:mlabeledtr></mml:mtable></mml:math>
+</disp-formula>
+</p><p>While BFC was determined using the following formula:<disp-formula id="disp-0003">
+<label>(3)</label>
+<mml:math id="M3" display="block"><mml:mtable><mml:mlabeledtr id="EEq3"><mml:mtd><mml:mi>B</mml:mi><mml:mi>F</mml:mi><mml:mi>C</mml:mi><mml:mo>=</mml:mo><mml:mn>0.58122.03</mml:mn><mml:mtext>&#x02009;</mml:mtext><mml:mo>&#x000d7;</mml:mo><mml:mtext>&#x02009;</mml:mtext><mml:mi>T</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mtext>&#x02009;</mml:mtext><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>s</mml:mi><mml:mtext>&#x02009;</mml:mtext><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>x</mml:mi><mml:mtext>&#x02009;</mml:mtext><mml:mrow><mml:mfenced open="(" close=")" separators="|"><mml:mrow><mml:mi>T</mml:mi><mml:mi>M</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mo>.</mml:mo></mml:mtd></mml:mlabeledtr></mml:mtable></mml:math>
+</disp-formula>
+</p><p>These methods were selected due to their practicality, nonreliance on sophisticated equipment, and proven correlation with direct measures of adiposity in our previous studies [<xref rid="bib-0028" ref-type="bibr">28</xref>, <xref rid="bib-0030" ref-type="bibr">30</xref>].</p></sec><sec id="sec-0014"><title>2.5.2. Measurement of Lipid Profile Levels</title><p>The lipid profiles, consisting of total cholesterol, LDL&#x02010;C, HDL&#x02010;C, and TG levels, were measured on Days 1, 14, and 21 of treatment. Rats were fasted for 6&#x02013;8&#x02009;h before taking blood samples in the morning on the following days. Blood samples were collected from the retro&#x02010;orbital plexus of each rat under light anesthesia using capillary tubes at baseline (Day 0) and after 21&#x02009;days of treatment. Collected blood was centrifuged at 3000&#x02009;rpm for 15&#x02009;min to separate the serum. The reaction mixtures were incubated at room temperature (20&#x000b0;C&#x02013;25&#x000b0;C) for 30&#x02009;min before measurement. The cholesterol and LDL&#x02010;C levels were examined using the cholesterol oxidase peroxidase amino&#x02010;antipyrine (CHOD&#x02010;PAP) method, the HDL&#x02010;C levels were determined using the HDL&#x02010;C precipitate method, and the TG levels were determined using the glycerol peroxidase phosphate acid phenol amino phenazone (GPO&#x02010;PAP) method. All measurements of lipid profile were done using a Photometer Micro lab 300 at 546&#x02009;nm wavelength at the Integrated Research and Testing Laboratory of Gadjah Mada University, Yogyakarta, Indonesia.</p></sec><sec id="sec-0015"><title>2.5.3. Measurement of Leptin Levels and DPP4 Activity</title><p>Blood serum of all rats on Days 1 and 21 of treatment was used to measure the leptin levels, according to the protocol of the ELISA Kit Bioenzy, Indonesia Cat BZ&#x02010;08181650&#x02010;EB with sensitivity around 0.05&#x02009;ng/mL. The assay demonstrated good precision with intra&#x02010;assay coefficients of variation (CV) of 3.20% and 4.06%, and an interassay CV of 4.52%. All values were well below the generally accepted thresholds (&#x0003c; 10% for intra&#x02010;assay and &#x0003c; 15% for interassay), indicating excellent repeatability and reproducibility of leptin measurements.</p><p>On the other hand, serum DPP4 activity was assessed using our previous study method [<xref rid="bib-0008" ref-type="bibr">8</xref>]. In brief, 10&#x02009;&#x003bc;L of rat serum samples was diluted with 40&#x02009;&#x003bc;L of phosphate&#x02010;buffered saline (PBS), pH 7.4, and was mixed thoroughly with 50&#x02009;&#x003bc;L of 2&#x02009;mM Gly&#x02010;Pro <italic toggle="yes">p</italic>&#x02010;nitroanilide substrate (Sigma&#x02010;Aldrich, St. Louis, MO, USA). The sample absorbance was measured using a spectrophotometer at 405&#x02009;nm for 60&#x02009;min at 25 &#x000b0;C. DPP4 activity was then calculated using the Beer&#x02013;Lambert formula, A&#x02009;=&#x02009;&#x003b5;Cl, where A is the absorbance, <italic toggle="yes">&#x003b5;</italic> is the &#x003bc;molar extinction coefficient (9.45&#x02009;L&#x000b7;&#x003bc;mol<sup>&#x02212;1</sup>&#x02009;cm<sup>&#x02212;1</sup> for pNA at 405&#x02009;nm), C is the concentration (&#x003bc;mol&#x000b7;litre<sup>&#x02212;1</sup>), and <italic toggle="yes">l</italic> is the length of the light path. The intra&#x02010;assay CV for DPP4 activity was 3.52%, while the interassay CV was 9.20%.</p></sec></sec><sec id="sec-0016"><title>2.6. Statistical Analysis</title><p>All collected data were analyzed using the Statistical Program for Social Science (SPSS) 27.1 (the International Business Machines Corporation, USA). Data normality was assessed using the Shapiro&#x02013;Wilk test with <italic toggle="yes">p</italic>&#x02009;&#x0003e;&#x02009;0.05. All numeric data were presented as mean&#x02009;&#x000b1;&#x02009;standard deviation (SD). The one&#x02010;way analysis of variance (ANOVA) and least significant difference (LSD) post hoc tests were used to compare the mean of LI, BFC, LDL&#x02010;C, HDL&#x02010;C, and leptin levels, and DPP4 activity among groups. Meanwhile, the Kruskal&#x02013;Wallis and Mann&#x02013;Whitney tests were applied to compare BW, total cholesterol, and TG levels among groups. In addition, repeated&#x02010;measures ANOVA was performed to assess changes in the BMI, LI, and BFC before, during, and after treatment. Significant values of all statistical analyses were set at <italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05.</p></sec></sec><sec id="sec-0017"><title>3. Results</title><sec id="sec-0018"><title>3.1. The BPL Herbal Beverages Reduced BW in Male Rats With Obesity</title><p>At first, we evaluated the effects of BPL herbal beverages on the BW as a nutritional status of male rats with obesity. Figures <xref rid="fig-0001" ref-type="fig">1</xref>(a), 1(b) show that BPL beverages reduced the average BW in a dose&#x02010;dependent manner. At baseline, the average BW did not differ significantly among all groups (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.987). During the intervention period (Days 7 and 14), the BPL1&#x02013;BPL3 groups showed a significant decrease in BW compared with the NC group (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.013; <italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.001; and <italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.001, respectively), although the reductions at Day 7 were not statistically significant. By Day 21, the BW reductions became significant in the BPL2 (38.88&#x02009;&#x000b1;&#x02009;15.58&#x02009;g; <italic toggle="yes">p</italic>&#x02009;=&#x02009;0.001) and BPL3 groups (42.38&#x02009;&#x000b1;&#x02009;10.06&#x02009;g; <italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.001) compared with the NC group. In addition, the BW in the BPL3 group was significantly lower than in the PC group (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.034). No significant differences were observed among the treated BPL groups during 21&#x02010;day treatment (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.803, <italic toggle="yes">p</italic>&#x02009;=&#x02009;0.596, and <italic toggle="yes">p</italic>&#x02009;=&#x02009;0.638, respectively).</p><fig-group position="float" id="fig-0001" content-type="Figure"><label>Figure 1</label><caption><p>The average BW in five rat groups with or without BPL herbal beverage administrations (a&#x02010;b). The NC and PC groups were given 20&#x02009;g/day BR2 only and BR2+3&#x02009;mL/day PSE beverage, respectively. The BPL1, BPL2, and BPL3 groups were given 20&#x02009;g/day BR2 and 3&#x02009;mL/day 75:25%, 80:20%, and 85:15% BPL beverages for 21&#x02009;days. All treatments were administered orally once daily at 9 a.m. (<sup>&#x02217;</sup>) represents a significant difference among the rat groups with <italic toggle="yes">p</italic> &#x0003c; 0.05. (<sup>&#x02217;&#x02217;</sup>) represents a significant difference before, during, and after treatment with <italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05.</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0001"><caption><p>(a)</p></caption><graphic xlink:href="JOBE-2026-6664514-g012" position="anchor" id="jats-graphic-1"/></fig><fig position="anchor" fig-type="Figure" id="figpt-0002"><caption><p>(b)</p></caption><graphic xlink:href="JOBE-2026-6664514-g011" position="anchor" id="jats-graphic-3"/></fig></fig-group></sec><sec id="sec-0019"><title>3.2. The BPL Herbal Beverages Reduced the LI and the BFC Percentage in Male Rats With Obesity</title><p>The next evaluation of nutritional status changes in male rats treated with BPL herbal beverages was LI and BFC (Figures <xref rid="figpt-0003" ref-type="fig">2(a)</xref>, <xref rid="figpt-0004" ref-type="fig">2(b)</xref>, <xref rid="figpt-0005" ref-type="fig">2(c)</xref>, <xref rid="figpt-0006" ref-type="fig">2(d)</xref>). At baseline, the average LI in the PC and BPL2 groups was higher than in the other groups but not significantly different (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.067). Figures <xref rid="figpt-0003" ref-type="fig">2(a)</xref>, <xref rid="figpt-0004" ref-type="fig">2(b)</xref> show LI in the NC group slightly increased (from 307.39&#x02009;&#x000b1;&#x02009;4.72 to 308.85&#x02009;&#x000b1;&#x02009;13.45&#x02009;g/cm<sup>3</sup>), and the PC group slightly decreased (from 313.58&#x02009;&#x000b1;&#x02009;7.98 to 312.33&#x02009;&#x000b1;&#x02009;15.14&#x02009;g/cm<sup>3</sup>) during the BPL herbal beverage treatment. On Days 7 and 14, all groups except the NC group exhibited lower LI compared to baseline, with the greatest reductions observed in BPL1&#x02013;BPL3 groups (11.41&#x02009;&#x000b1;&#x02009;5.85, 16.35&#x02009;&#x000b1;&#x02009;5.13, and 18.43&#x02009;&#x000b1;&#x02009;4.89&#x02009;g/cm<sup>3</sup>, respectively). The average LI in BPL1&#x02013;BPL3 groups on Day 21 was significantly lower than the NC (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.024; 0.014; and 0.001, respectively).</p><fig-group position="float" id="fig-0002" content-type="Figure"><label>Figure 2</label><caption><p>The Lee index (a) and (b) and BFC (c) and (d) in male rats with obesity treated with the BPL herbal beverages. The NC and PC groups were given 20&#x02009;g/day BR2 only and BR2+3&#x02009;mL/day PSE beverage, respectively. The BPL1, BPL2, and BPL3 groups were given 20&#x02009;g/day BR2 and 3&#x02009;mL/day 75:25%, 80:20%, and 85:15%&#x02009;E beverages for 21&#x02009;days. (<sup>&#x02217;</sup>) represents a significant difference among the rat groups with <italic toggle="yes">p</italic> &#x0003c; 0.05. (<sup>&#x02217;&#x02217;</sup>) represents a significant difference before, during, and after treatment with <italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05.</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0003"><caption><p>(a)</p></caption><graphic xlink:href="JOBE-2026-6664514-g010" position="anchor" id="jats-graphic-5"/></fig><fig position="anchor" fig-type="Figure" id="figpt-0004"><caption><p>(b)</p></caption><graphic xlink:href="JOBE-2026-6664514-g009" position="anchor" id="jats-graphic-7"/></fig><fig position="anchor" fig-type="Figure" id="figpt-0005"><caption><p>(c)</p></caption><graphic xlink:href="JOBE-2026-6664514-g008" position="anchor" id="jats-graphic-9"/></fig><fig position="anchor" fig-type="Figure" id="figpt-0006"><caption><p>(d)</p></caption><graphic xlink:href="JOBE-2026-6664514-g007" position="anchor" id="jats-graphic-11"/></fig></fig-group><p>The BFC percentage was calculated among rat groups before and after BPL herbal beverage treatment (Figures <xref rid="figpt-0005" ref-type="fig">2(c)</xref>, <xref rid="figpt-0006" ref-type="fig">2(d)</xref>). At baseline, the PC and BPL2 groups had higher BFC percentages than the NC group, although only the PC group differed significantly. On Day 21, the BPL3 showed the greatest reduction in the BFC percentage (4.83&#x02009;&#x000b1;&#x02009;1.13%) compared to the NC (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.001) and PC groups (<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.001). The average BFC percentages in the BPL1 and BPL3 groups were significantly lower than those of the NC group (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.001 and &#x0003c; 0.001, respectively).</p></sec><sec id="sec-0020"><title>3.3. The BPL Herbal Beverages Had Different Effects on Lipid Profiles in Male Rats With Obesity</title><p>We further evaluated lipid profiles in male obese rats treated with the BPL herbal beverage (Figures <xref rid="fig-0003" ref-type="fig">3</xref>(a), <xref rid="fig-0003" ref-type="fig">3</xref>(b), <xref rid="fig-0003" ref-type="fig">3</xref>(c), <xref rid="fig-0003" ref-type="fig">3</xref>(d)). Figure <xref rid="fig-0003" ref-type="fig">3</xref>(a) shows that BPL1 reduced total cholesterol levels but the decrease was not significantly different from the NC and PC groups. From Figure <xref rid="fig-0003" ref-type="fig">3</xref>(b), the average LDL&#x02010;C levels decreased in the BPL1 and BPL3 groups, but it was not significantly different compared to the NC and PC groups (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.354 and <italic toggle="yes">p</italic>&#x02009;=&#x02009;0.370). At baseline, the average LDL&#x02010;C levels in the NC and BPL1 groups were higher than those of other rat groups, but it was not significantly different (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.704). During treatment, average LDL&#x02010;C levels increased in all rat groups on Day 14, but LDL&#x02010;C reductions were observed on Day 21 in the NC, PC, and BPL1 groups. On Day 21, reductions in LDL&#x02010;C were shown in the BPL1 group, but it did not differ from the other groups (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.438, 0.340, and 0.845).</p><fig-group position="float" id="fig-0003" content-type="Figure"><label>Figure 3</label><caption><p>The averages of total cholesterol levels (a), LDL&#x02010;C levels (b), HDL&#x02010;C levels (c), and triglyceride levels (d) in male rats with obesity treated with the BPL herbal beverages. The NC and PC groups were given 20&#x02009;g/day BR2 only and BR2+3&#x02009;mL/day PSE beverage, respectively. The BPL1, BPL2, and BPL3 groups were given 20&#x02009;g/day BR2 and 3&#x02009;mL/day 75:25%, 80:20%, and 85:15% BPL beverages for 21&#x02009;days (<sup>&#x02217;</sup>) represents a significant difference among the rat groups with <italic toggle="yes">p</italic> &#x0003c; 0.05.</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0007"><caption><p>(a)</p></caption><graphic xlink:href="JOBE-2026-6664514-g006" position="anchor" id="jats-graphic-13"/></fig><fig position="anchor" fig-type="Figure" id="figpt-0008"><caption><p>(b)</p></caption><graphic xlink:href="JOBE-2026-6664514-g005" position="anchor" id="jats-graphic-15"/></fig><fig position="anchor" fig-type="Figure" id="figpt-0009"><caption><p>(c)</p></caption><graphic xlink:href="JOBE-2026-6664514-g004" position="anchor" id="jats-graphic-17"/></fig><fig position="anchor" fig-type="Figure" id="figpt-0010"><caption><p>(d)</p></caption><graphic xlink:href="JOBE-2026-6664514-g002" position="anchor" id="jats-graphic-19"/></fig></fig-group><p>Figure <xref rid="fig-0003" ref-type="fig">3</xref>(c) shows that at baseline, the average HDL&#x02010;C levels in the NC and BPL2 groups were higher than in the other groups but not significantly different (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.836). At Day 14 treatment, HDL&#x02010;C levels decreased in all groups, followed by a rebound increase on Day 21. After the treatment period, the average HDL&#x02010;C levels in the NC and BPL1&#x02013;BPL3 groups increased compared with baseline.</p><p>TG levels have a similar trend to HDL&#x02010;C after BPL treatment (Figure <xref rid="fig-0003" ref-type="fig">3</xref>(d)). The average TG levels in the NC and BPL1 groups were higher than in the other groups but not significantly different (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.949) at the beginning of treatment. Average TG levels decreased in all rat groups on Day 14 but then increased again on Day 21. Significant reductions in TG levels were observed in the BPL1 and BPL2 groups compared with the NC group (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.021 and <italic toggle="yes">p</italic>&#x02009;=&#x02009;0.027, respectively). At the end of BPL treatment, TG levels in the BPL1&#x02013;BPL3 groups were lower than at baseline but did not differ significantly among the treatment groups themselves (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.529, 0.529, and 0.248).</p></sec><sec id="sec-0021"><title>3.4. The BPL Herbal Beverages Reduced the Leptin Levels of Male Rats With Obesity</title><p>Leptin levels were assessed to determine the effects of BFL herbal beverages on male rats with obesity (Figure <xref rid="fig-0004" ref-type="fig">4</xref>). At Day 1 of treatment, the BPL3 group had the lowest leptin levels, but the average levels among all groups did not differ significantly (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.658). During treatment, leptin levels decreased in the PC and BPL1&#x02013;BPL3 groups, whereas the NC group exhibited a significant increase in average leptin levels before and after treatment (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.007). On Day 21, the BPL2 and BPL3 groups showed lower leptin levels (1.06&#x02009;&#x000b1;&#x02009;0.86 and 1.03&#x02009;&#x000b1;&#x02009;0.72&#x02009;ng/mL, respectively) than the PC and BPL1 groups. Compared with the NC and PC on Day 21, the average leptin levels in the BPL2 and BPL3 groups were significantly lower. However, no significant differences in leptin levels were found among the BPL1&#x02013;BPL3 groups (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.218, 0.112, and 0.708, respectively).</p><fig position="float" fig-type="Figure" id="fig-0004"><label>Figure 4</label><caption><p>The leptin level changes in five groups with or without BPL herbal beverage administration. The NC and PC groups were given 20&#x02009;g/day BR2 only and BR2+3&#x02009;mL/day PSE beverage, respectively. The BPL1&#x02013;BPL3 groups were given 20&#x02009;g/day BR2 and 3&#x02009;mL/day 75:25%, 80:20%, and 85:15% BPL beverages for 21&#x02009;days (<sup>&#x02217;</sup>) represents a significant difference among the rat groups with <italic toggle="yes">p</italic> &#x0003c; 0.05.</p></caption><graphic xlink:href="JOBE-2026-6664514-g003" position="anchor" id="jats-graphic-21"/></fig></sec><sec id="sec-0022"><title>3.5. The BPL Herbal Beverages Increased the DPP4 Activity of Male Rats With Obesity</title><p>Another adipokine, DPP4 activity, was also evaluated in male obese rats with the BPL treatment (Figure <xref rid="fig-0005" ref-type="fig">5</xref>). The NC group showed the lowest DPP4 activity, which was significantly different from the BPL3 group (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.028) but not from the other groups (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.212) on Day 1. During treatment, increased DPP4 activity was observed across all treatment groups. On Day 21, the BPL3 group had the highest DPP4 activity (0.589 mU/min/mg protein) compared with the NC and PC groups, but not significantly different (<italic toggle="yes">p</italic>&#x02009;=&#x02009;0.707 and <italic toggle="yes">p</italic>&#x02009;=&#x02009;0.865, respectively).</p><fig position="float" fig-type="Figure" id="fig-0005"><label>Figure 5</label><caption><p>The DPP4 activity changes in five groups with or without beverage administration. The NC and PC groups were given 20&#x02009;g/day BR2 only and BR2+3&#x02009;mL/day PSE beverage, respectively. The BPL1&#x02013;BPL3 groups were given 20&#x02009;g/day BR2 and 3&#x02009;mL/day 75:25%, 80:20%, and 85:15% BPL beverages for 21&#x02009;days (<sup>&#x02217;</sup>) represents a significant difference among the rat groups with <italic toggle="yes">p</italic> &#x0003c; 0.05.</p></caption><graphic xlink:href="JOBE-2026-6664514-g001" position="anchor" id="jats-graphic-23"/></fig></sec></sec><sec id="sec-0023"><title>4. Discussion</title><p>In the present study, the administration of BPL herbal beverages in all combinations containing phytochemicals and low energy demonstrated to reduce BW, LI, BFC, TG, and leptin levels in male rats with obesity. The BPL3 beverage with an 85:15% ratio of butterfly pea flowers and lemon juice is the best herbal drink in reducing BW (42.38&#x02009;&#x000b1;&#x02009;10.06&#x02009;g), LI (18.43&#x02009;&#x000b1;&#x02009;4.89&#x02009;g/cm<sup>3</sup>), and BFC (4.83&#x02009;&#x000b1;&#x02009;1.13%). The BPL3 group achieved the greatest BW reduction by 16.87%, followed by BPL2 with 15.14% and BPL1 with 10.32%. However, TG levels were greatly reduced during the BPL beverage treatment, with the highest reduction in BPL1 by 47.1%, followed by BPL3 with 44% and BPL2 with 41.7%. The greatest reduction in leptin levels occurred in the BPL2 group by 47.9%, followed by the BPL3 group with 42.4% and the BPL1 group with 22.9%, which is similar to the PSE administration (19.3%). Surprisingly, the BPL beverages did not affect cholesterol profiles and DPP4 activity. Altogether, our findings suggest that BPL3 and BPL2 might reduce BW and BFC through the inhibition of lipid metabolism and leptin secretion.</p><p>According to the WHO and World Obesity Federation guidelines, an effective intervention for obesity management should achieve at least a 10% BW reduction from baseline [<xref rid="bib-0001" ref-type="bibr">1</xref>, <xref rid="bib-0031" ref-type="bibr">31</xref>]. This in vivo study clearly indicates that the BPL beverages match that criterion and become a potential herbal beverage for obese individuals. Our findings are in accordance with previous studies that used butterfly pea flower extract or lemon juice only. The administration of 1000&#x02009;mg of butterfly pea flower extract for 21&#x02009;days in anxiety model mice reduced BW by only &#x000b1;16.39&#x02009;g [<xref rid="bib-0013" ref-type="bibr">13</xref>]. In contrast, Hamsi [<xref rid="bib-0032" ref-type="bibr">32</xref>] found that administration of 1&#x02009;mL/day of lemon juice for 21&#x02009;days led to a BW reduction of approximately 42.63&#x02009;g in male Wistar rats with HFD, similar to our BPL3 beverage. The BW reduction in our study may be attributed to the synergistic antioxidant and metabolic&#x02010;modulating properties of butterfly pea flowers and lemon juice, which could enhance the efficacy of dietary interventions in reducing adiposity and improving metabolic health. The BPL1&#x02013;BPL3 formulations have high levels of total flavonoids (993.50&#x02009;&#x000b1;&#x02009;6.36 to 1265.00&#x02009;&#x000b1;&#x02009;21.92&#x02009;ppm) and anthocyanins (424.41&#x02009;&#x000b1;&#x02009;25.75 to 485.38&#x02009;&#x000b1;&#x02009;22.08&#x02009;ppm), demonstrating that all beverage combinations provide substantial amounts of bioactive compounds. In a previous study, butterfly pea flower demonstrated the reductions in multiple metabolic syndrome parameters, such as improving lipid profile, blood glucose, SOD, and CAT in rats with a high&#x02010;fat, high&#x02010;carbohydrate diet [<xref rid="bib-0033" ref-type="bibr">33</xref>]. In addition, lemon extract improved insulin signaling and reduced inflammatory cytokines in cultured adipocytes [<xref rid="bib-0034" ref-type="bibr">34</xref>]. In our study, adding lemon juice significantly increased the antioxidant activity of the BPL compared to butterfly pea flower alone. Therefore, it indicates that the mixture of butterfly pea flowers and lemon fruits has strong antioxidant activity [<xref rid="bib-0035" ref-type="bibr">35</xref>, <xref rid="bib-0036" ref-type="bibr">36</xref>].</p><p>The administration of BPL herbal beverages also reduces the LI in male obese rats, whereas the PSE&#x02010;containing drink increases the LI. Although the rats in the PC group experienced a decrease in BW and LI on the seventh day of intervention, the remaining days revealed a progressive increase (Figures <xref rid="fig-0001" ref-type="fig">1</xref> and <xref rid="fig-0002" ref-type="fig">2</xref>). The existing evidence suggests that PSE&#x02019;s administration has inconsistent BW loss [<xref rid="bib-0037" ref-type="bibr">37</xref>]. A randomized controlled trial in postmenopausal women indicated that daily consumption of 3000&#x02009;mg PSE for seven weeks significantly reduced serum cholesterol in normal weight, overweight, and obese participants. This finding emphasizes that PSE could reduce cholesterol levels among participants with different BMIs but not BW reduction. Moreover, its ability to reduce BW or adiposity indices, such as the LI, appears minimal, particularly in obese models [<xref rid="bib-0038" ref-type="bibr">38</xref>].</p><p>The higher the flavonoid and anthocyanin contents in the BPL beverages, the greater the effect of BW and LI reductions in obese rats is. Delphinidin is an anthocyanidin derivative that is abundant in butterfly pea flowers. It can activate AMPK and increase adipose triglyceride lipase (ATGL) activity, which accounts for approximately 90% of lipolytic activity in adipose tissues [<xref rid="bib-0039" ref-type="bibr">39</xref>, <xref rid="bib-0040" ref-type="bibr">40</xref>]. In addition, delphinidin downregulates the expression of peroxisome proliferator&#x02013;activated receptor gamma (PPAR&#x02010;&#x003b3;), thereby suppressing adipogenesis and further contributing to body fat reduction [<xref rid="bib-0041" ref-type="bibr">41</xref>]. Recent in vivo evidence indicates that anthocyanins such as Cyanidin&#x02010;3&#x02010;O&#x02010;glucoside and Delphinidin&#x02010;3&#x02010;O&#x02010;glucoside could restore mitochondrial biogenesis via PPAR&#x02010;&#x003b3;, PR domain containing 16 (PRDM16), and PPAR&#x02010;&#x003b3; Coactivator 1&#x02010;alpha (PGC&#x02010;1<italic toggle="yes">&#x003b1;</italic>). It also enhances thermogenesis via Uncoupling Protein 1 (UCP&#x02010;1) and maintains mitochondrial dynamics in obese rats through the modulation of the Protein Kinase A, AMPK, and Sirtuin 1 signaling pathways [<xref rid="bib-0042" ref-type="bibr">42</xref>]. These mechanistic actions likely explain the superior efficacy of BPL beverages in reducing both BW and LI in male rats with obesity. Alkaloid contents in lemon fruits are unknown [<xref rid="bib-0020" ref-type="bibr">20</xref>], but orange fruits contain alkaloid synephrine, which prevents weight gain and adiposity by modulating amino acid metabolism and reducing adipose inflammation in mice with HFD [<xref rid="bib-0043" ref-type="bibr">43</xref>]. In addition, hesperidin is a major citrus flavonoid that can activate AMPK and PPAR&#x02010;&#x003b1; signaling. These actions result in reducing hepatic lipid accumulation, improving insulin sensitivity, suppressing lipogenesis, and stimulating CCK to reduce appetite [<xref rid="bib-0044" ref-type="bibr">44</xref>, <xref rid="bib-0045" ref-type="bibr">45</xref>].</p><p>To further investigate how the BPL beverages could reduce BW and LI in male obese rats, we assessed TG and leptin levels and DPP4 activity. The higher amount of lemon juice in the BPL herbal beverage has a higher effect on the reduction in TG levels. Although we did not perform the administration of the butterfly pea flower extract only on TG levels of male obese rats, the administration of roselle flower extract, which shares similar anthocyanin content, could reduce TG levels in rats with dyslipidemia [<xref rid="bib-0046" ref-type="bibr">46</xref>]. Besides alkaloids and flavonoids, lemon juice also comprises saponin, which could reduce TG levels by inhibiting gut fat absorption through intestinal permeability [<xref rid="bib-0045" ref-type="bibr">45</xref>, <xref rid="bib-0047" ref-type="bibr">47</xref>]. The reduction in TG levels may also relate to switching from an HFHFr to a standard feed, too.</p><p>In addition to the reduction in TG levels, BPL herbal beverages can reduce leptin levels. While no prior studies have directly examined butterfly pea flower extract and the BPL herbal beverages on leptin levels, they have been shown to reduce adipogenesis, which may lower leptin production since adipocytes are the primary leptin source [<xref rid="bib-0007" ref-type="bibr">7</xref>, <xref rid="bib-0048" ref-type="bibr">48</xref>, <xref rid="bib-0049" ref-type="bibr">49</xref>]. Several studies have reported that anthocyanins in butterfly pea flower extract enhance insulin sensitivity by regulating adiponectin, which influences insulin and leptin secretion, thereby improving leptin sensitivity and appetite control [<xref rid="bib-0007" ref-type="bibr">7</xref>, <xref rid="bib-0050" ref-type="bibr">50</xref>]. Similarly, hesperidin in lemon juice reduced serum leptin in rats given HFD [<xref rid="bib-0048" ref-type="bibr">48</xref>]. Besides flavonoids and anthocyanins, phenols and saponins in the BPL herbal beverage are likely to contribute to serum leptin reduction. Conversely, rats fed only a standard diet showed increased leptin, suggesting that calorie restriction without fat reduction does not improve leptin sensitivity. The lack of weight and fat mass reduction in the NC group align with leptin secretion being proportional to adipose tissue. Leptin resistance can raise circulating leptin, disrupting hypothalamic regulation and promoting excessive energy intake [<xref rid="bib-0051" ref-type="bibr">51</xref>].</p><p>Unfortunately, our study did not show that BPL herbal beverages affect serum DPP4 activity. Our results are different from a previous study that reported administration of 80&#x02009;mg/kg BW/day teneligliptin (DPP4 inhibitor) prevented obesity in mice given HFD for 10&#x02009;weeks [<xref rid="bib-0052" ref-type="bibr">52</xref>]. Another study indicated that oral administration of 250&#x02009;mg/kg BW of <italic toggle="yes">Anogeissus latifolia</italic> extract could inhibit DPP4 activity in male rats with obesity and glucose intolerance [<xref rid="bib-0053" ref-type="bibr">53</xref>]. The inability of BPL herbal beverages to inhibit DPP4 activity may indicate that their anti&#x02010;obesity effects probably pass through other mechanisms, which inhibit TG absorption and leptin secretion. These findings highlight further research on optimizing formulations of BPL herbal beverages or combining with more potent DPP4 inhibitors.</p><p>This study has several limitations that should be acknowledged. The duration of the BPL herbal beverage intervention was short, only 21&#x02009;days, which may not fully capture the long&#x02010;term effects or sustainability of weight loss and metabolic improvements. More detailed parameters, such as fat mass distribution, adipocyte histology, adiponectin levels, and gene expression related to lipid metabolism (e.g., PPAR&#x02010;&#x003b3;, AMPK, and ATGL), and detailed bioactive compounds, such as hesperidin and delphinidin, were not assessed, which limits the understanding of the mechanistic basis of the BPL herbal beverage. Lastly, the study did not include a group receiving only butterfly pea extract or only lemon beverage, making it difficult to delineate the individual contributions of each component in the combined formulation.</p></sec><sec id="sec-0024"><title>5. Conclusion</title><p>The BPL herbal beverage demonstrated formulation&#x02010;specific effects on nutritional status, lipid profiles, and adipokines in male rats with obesity. Administration of the BPL herbal beverage at an 85:15% ratio significantly reduced BW and LI in male rats with obesity. The formulation of the BPL with the 80: 20% and 85:15% ratios has the greatest decrease in leptin levels. None of the BPL herbal formulations altered cholesterol metabolism or DPP4 activity, indicating a selective activity on lipid and endocrine parameters. Overall, the BPL herbal beverage with an 85:15% ratio exerts its anti&#x02010;obesity effect through the inhibition of TG absorption and leptin secretion.</p><p>In future studies, the quantification and characterization of bioactive compounds in butterfly pea flower extract, lemon juice, and their combination are required for phytochemical profiling and targeted mechanistic testing to confirm their specific contributions. Further research is strongly recommended to explore the underlying mechanisms of action and molecular interactions of the BPL herbal beverages, particularly in relation to other adipokines, inflammation, and glucose metabolism pathways. Long&#x02010;term studies are necessary to assess the safety, bioavailability, and sustained efficacy of each formulation. Special attention for 85:15% formulation, it promises to improve both lipid parameters and endocrine function related to obesity.</p></sec><sec sec-type="COI-statement" id="sec-0027"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec id="sec-0028"><title>Funding</title><p>This study was supported by Universitas Sebelas Maret, Research Grants 194.2/UN27.22/PT.01.03/2024 and 369/UN27.22/PT.01.03/2025.</p></sec></body><back><ack id="sec-0029"><title>Acknowledgments</title><p>The researcher would like to thank the Institute of Research and Community Services, University Sebelas Maret, which provided a research group grant with number 194.2/UN27.22/PT.01.03/2024 and a fundamental grant with number 369/UN27.22/PT.01.03/2025. We also thank the laboratory assistants of the Integrated Biology Laboratory and the Biomedical Laboratory of Universitas Sebelas Maret, Surakarta, Indonesia, who have assisted researchers during the experiment. Thank you to the laboratory assistants of the Integrated Research and Testing Laboratory of Gadjah Mada University (LPPT UGM), Yogyakarta, Indonesia, for helping in examining blood samples.</p></ack><sec sec-type="data-availability" id="sec-0026"><title>Data Availability Statement</title><p>The data that support the findings of this study are available on request from the corresponding author. The data are not publicly available due to privacy or ethical restrictions.</p></sec><ref-list><ref id="bib-0001"><label>1</label><mixed-citation publication-type="miscellaneous" id="cit-0001">
+<string-name>
+<surname>World Obesity Federation</surname>
+</string-name>, <article-title>World Obesity Atlas 2025 (Issue March)</article-title>, <year>2025</year>.</mixed-citation></ref><ref id="bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cit-0002">
+<string-name>
+<surname>Monda</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Stefano</surname>
+<given-names>M. I. De</given-names>
+</string-name>, 
+<string-name>
+<surname>Villano</surname>
+<given-names>I.</given-names>
+</string-name> et al., <article-title>Ultra-Processed Food Intake and Increased Risk of Obesity: a Narrative Review</article-title>, <source>Foods</source>. (<year>2024</year>) <fpage>1</fpage>&#x02013;<lpage>16</lpage>, <pub-id pub-id-type="doi">10.3390/foods13162627</pub-id>.<pub-id pub-id-type="pmid">39796291</pub-id>
+</mixed-citation></ref><ref id="bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cit-0003">
+<string-name>
+<surname>Powell-Wiley</surname>
+<given-names>T. M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Poirier</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Burke</surname>
+<given-names>L. E.</given-names>
+</string-name> et al., <article-title>Obesity and Cardiovascular Disease A Scientific Statement from the American Heart Association</article-title>, <source>Circulation</source>. (<year>2021</year>) <volume>143</volume>, no. 21, <fpage>E984</fpage>&#x02013;<lpage>E1010</lpage>, <pub-id pub-id-type="doi">10.1161/CIR.0000000000000973</pub-id>.<pub-id pub-id-type="pmid">33882682</pub-id>
+</mixed-citation></ref><ref id="bib-0004"><label>4</label><mixed-citation publication-type="book" id="cit-0004">
+<string-name>
+<surname>Sunarti</surname>
+</string-name>, <source>Antioksidan Dalam Penanganan Sindrom Metabolik</source>, <year>2021</year>, <publisher-name>Gadjah Mada University Press</publisher-name>.</mixed-citation></ref><ref id="bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cit-0005">
+<string-name>
+<surname>Bayanati</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Rabbani</surname>
+<given-names>M. I. M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Kabiri</surname>
+<given-names>S. S.</given-names>
+</string-name>, 
+<string-name>
+<surname>Mir</surname>
+<given-names>B.</given-names>
+</string-name>, 
+<string-name>
+<surname>Rezaee</surname>
+<given-names>E.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Tabatabai</surname>
+<given-names>S. A.</given-names>
+</string-name>, <article-title>Dipeptidyl Peptidase-4 Inhibitors: A Systematic Review of Structure&#x02013;Activity Relationship Studies</article-title>, <source>Iranian Journal of Pharmaceutical Research</source>. (<year>2024</year>) <volume>23</volume>, no. 1.</mixed-citation></ref><ref id="bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cit-0006">
+<string-name>
+<surname>Varin</surname>
+<given-names>E. M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Mulvihill</surname>
+<given-names>E. E.</given-names>
+</string-name>, 
+<string-name>
+<surname>Beaudry</surname>
+<given-names>J. L.</given-names>
+</string-name> et al., <article-title>Circulating Levels of Soluble Dipeptidyl Peptidase-4 are Dissociated from Inflammation and Induced by Enzymatic DPP4 Inhibition</article-title>, <source>Cell Metabolism</source>. (<year>2019</year>) <volume>29</volume>, no. 2, <fpage>320</fpage>&#x02013;<lpage>334.e5</lpage>, <pub-id pub-id-type="doi">10.1016/j.cmet.2018.10.001</pub-id>, 2-s2.0-85060687448.<pub-id pub-id-type="pmid">30393019</pub-id>
+</mixed-citation></ref><ref id="bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cit-0007">
+<string-name>
+<surname>Wang</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name>
+<surname>Liu</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name>
+<surname>Xie</surname>
+<given-names>Y.</given-names>
+</string-name> et al., <article-title>Clitoria ternatea Blue Petal Extract Protects Against Obesity, Oxidative Stress, and Inflammation Induced by a high-fat, high-fructose Diet in C57BL/6 Mice</article-title>, <source>Food Research International</source>. (<year>2022</year>) <volume>162</volume>, <pub-id pub-id-type="doi">10.1016/j.foodres.2022.112008</pub-id>.</mixed-citation></ref><ref id="bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cit-0008">
+<string-name>
+<surname>Indarto</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name>
+<surname>Dwipajati</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name>
+<surname>Dirgahayu</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Wibowo</surname>
+<given-names>Y. C.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Pratama</surname>
+<given-names>Y. M.</given-names>
+</string-name>, <article-title>Acute Effects of Breakfast Fruits Meal Sequence and Postprandial Exercise on the Blood Glucose Level and DPP4 Activity Among Type 2 Diabetes Mellitus Patients: a Pilot Study</article-title>, <source>Journal of Obesity</source>. (<year>2022</year>) <volume>2022</volume>, <fpage>1</fpage>&#x02013;<lpage>8</lpage>, <pub-id pub-id-type="doi">10.1155/2022/4875993</pub-id>.</mixed-citation></ref><ref id="bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cit-0009">
+<string-name>
+<surname>Chao</surname>
+<given-names>A. M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Quigley</surname>
+<given-names>K. M.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Wadden</surname>
+<given-names>T. A.</given-names>
+</string-name>, <article-title>Dietary Interventions for Obesity: Clinical and Mechanistic Findings</article-title>, <source>Journal of Clinical Investigation</source>. (<year>2021</year>) <volume>131</volume>, no. 1, <fpage>1</fpage>&#x02013;<lpage>10</lpage>, <pub-id pub-id-type="doi">10.1172/JCI140065</pub-id>.</mixed-citation></ref><ref id="bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cit-0010">
+<string-name>
+<surname>Maston</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name>
+<surname>Franklin</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Hocking</surname>
+<given-names>S.</given-names>
+</string-name> et al., <article-title>Dietary Adherence and Program Attrition During a Severely energy-restricted Diet Among People with Complex Class III Obesity: a Qualitative Exploration</article-title>, <source>PLoS One</source>. (<year>2021</year>) <volume>16</volume>, no. 6 June 2021, <fpage>1</fpage>&#x02013;<lpage>23</lpage>, <pub-id pub-id-type="doi">10.1371/journal.pone.0253127</pub-id>.</mixed-citation></ref><ref id="bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cit-0011">
+<string-name>
+<surname>Mendoza-Herrera</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name>
+<surname>Florio</surname>
+<given-names>A. A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Moore</surname>
+<given-names>M.</given-names>
+</string-name> et al., <article-title>The Leptin System and Diet: a Mini Review of the Current Evidence</article-title>, <source>Frontiers in Endocrinology</source>. (<year>2021</year>) <volume>12</volume>, no. November, <fpage>1</fpage>&#x02013;<lpage>12</lpage>, <pub-id pub-id-type="doi">10.3389/fendo.2021.749050</pub-id>.</mixed-citation></ref><ref id="bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cit-0012">
+<string-name>
+<surname>Fikayuniar</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name>
+<surname>Nafila Zulfa</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Nurlelah</surname>
+<given-names>N.</given-names>
+</string-name> et al., <article-title>A Review: Penapisan Fitokimia Simplisia Bunga Telang Untuk Identifikasi Golongan Senyawa Metabolit Sekunder</article-title>, <source>Jurnal Kesehatan Tambusai</source>. (<year>2024</year>) <volume>5</volume>, no. 1, <fpage>2081</fpage>&#x02013;<lpage>2087</lpage>.</mixed-citation></ref><ref id="bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cit-0013">
+<string-name>
+<surname>Tunna</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name>
+<surname>Akter</surname>
+<given-names>M. S.</given-names>
+</string-name>, 
+<string-name>
+<surname>Parvin</surname>
+<given-names>M.</given-names>
+</string-name> et al., <article-title>A Comparative in Vivo Study on Bambusa polymorpha, Mentha piperita and Clitoria ternatea as Alternative Anxiolytic</article-title>, <source>European Journal of Medical and Health Sciences</source>. (<year>2020</year>) <volume>2</volume>, no. 3, <fpage>1</fpage>&#x02013;<lpage>6</lpage>, <pub-id pub-id-type="doi">10.24018/ejmed.2020.2.3.266</pub-id>.</mixed-citation></ref><ref id="bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cit-0014">
+<string-name>
+<surname>Escalante-Aburto</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Mendoza-C&#x000f3;rdova</surname>
+<given-names>M. Y.</given-names>
+</string-name>, 
+<string-name>
+<surname>Mahady</surname>
+<given-names>G. B.</given-names>
+</string-name>, 
+<string-name>
+<surname>Luna-Vital</surname>
+<given-names>D. A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Guti&#x000e9;rrez-Uribe</surname>
+<given-names>J. A.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Chuck-Hern&#x000e1;ndez</surname>
+<given-names>C.</given-names>
+</string-name>, <article-title>Consumption of Dietary Anthocyanins and Their Association With a Reduction in Obesity Biomarkers and the Prevention of Obesity</article-title>, <source>Trends in Food Science &#x00026; Technology</source>. (<year>2023</year>) <volume>140</volume>.</mixed-citation></ref><ref id="bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cit-0015">
+<string-name>
+<surname>Utami</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name>
+<surname>Indarto</surname>
+<given-names>D.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Listyawati</surname>
+<given-names>S.</given-names>
+</string-name>, <article-title>Enhancement of Flavonoid and Anthocyanin Levels of Herbal Beverage Containing Butterfly Pea Flower and Lemon Fruit to Improve Anti-oxidant Activity</article-title>, <source>Icsdh</source>. (<year>2023</year>) <volume>2022</volume>, <fpage>53</fpage>&#x02013;<lpage>59</lpage>, <pub-id pub-id-type="doi">10.5220/0011642600003608</pub-id>.</mixed-citation></ref><ref id="bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cit-0016">
+<string-name>
+<surname>Lindawati</surname>
+<given-names>N. Y.</given-names>
+</string-name> and 
+<string-name>
+<surname>Nofitasari</surname>
+<given-names>J.</given-names>
+</string-name>, <article-title>Efektivitas Sari Buah Lemon (Citrus Limon (L.) Burm. f.) Sebagai Chelating Agent Logam Berat Tembaga (Effectiveness of Lemon Juice (Citrus limon (L.) Burm. f.) as a Chelating Agent for the Copper Heavy Metal)</article-title>, <source>Jurnal Farmasi dan Ilmu Kefarmasian Indonesia</source>. (<year>2021</year>) <volume>8</volume>, no. 1, <fpage>68</fpage>&#x02013;<lpage>75</lpage>.</mixed-citation></ref><ref id="bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cit-0017">
+<string-name>
+<surname>Wu</surname>
+<given-names>C.-C.</given-names>
+</string-name>, 
+<string-name>
+<surname>Huang</surname>
+<given-names>Y.-W.</given-names>
+</string-name>, 
+<string-name>
+<surname>Hou</surname>
+<given-names>C.-Y.</given-names>
+</string-name> et al., <article-title>The Anti-Obesity Effects of Lemon Fermented Products in 3T3-L1 Preadipocytes and in a Rat Model with High-Calorie Diet-Induced Obesity</article-title>, <source>Nutrients</source>. (<year>2021</year>) <volume>13</volume>, no. 8, <pub-id pub-id-type="doi">10.3390/nu13082809</pub-id>.</mixed-citation></ref><ref id="bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cit-0018">
+<string-name>
+<surname>Ogunro</surname>
+<given-names>O. B.</given-names>
+</string-name>, 
+<string-name>
+<surname>Asejeje</surname>
+<given-names>F. O.</given-names>
+</string-name>, 
+<string-name>
+<surname>Akano</surname>
+<given-names>O. P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Ajiboye</surname>
+<given-names>E. O.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Adeyemo</surname>
+<given-names>O. A.</given-names>
+</string-name>, <article-title>Antioxidant and Anti-Inflammatory Effects of Hesperetin in Cisplatin-Induced Male Reproductive Toxicity in Mice</article-title>, <source>Comparative Clinical Pathology</source>. (<year>2024</year>) <volume>33</volume>, no. 4, <fpage>693</fpage>&#x02013;<lpage>704</lpage>, <pub-id pub-id-type="doi">10.1007/s00580-024-03587-1</pub-id>.</mixed-citation></ref><ref id="bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cit-0019">
+<string-name>
+<surname>Prasetyo</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Batubara</surname>
+<given-names>W. R. P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Indarto</surname>
+<given-names>D.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Susilawati</surname>
+<given-names>T. N.</given-names>
+</string-name>, <article-title>In Silico Investigation and in Vivo Effect of Berastagi Orange (<italic toggle="yes">Citrus sinensis</italic>) Peel Extract on Male Obese Rats</article-title>, <source>Pharmacia</source>. (<year>2024</year>) <volume>71</volume>, <fpage>1</fpage>&#x02013;<lpage>10</lpage>, <pub-id pub-id-type="doi">10.3897/PHARMACIA.71.E139050</pub-id>.</mixed-citation></ref><ref id="bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cit-0020">
+<string-name>
+<surname>Gupta</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Al-Aubaidy</surname>
+<given-names>H. A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Narkowicz</surname>
+<given-names>C. K.</given-names>
+</string-name> et al., <article-title>Analysis of Citrus Bioflavonoid Content and Dipeptidyl Peptidase-4 Inhibitory Potential of Commercially Available Supplements</article-title>, <source>Molecules</source>. (<year>2022</year>) <volume>27</volume>, no. 15, <pub-id pub-id-type="doi">10.3390/molecules27154741</pub-id>.</mixed-citation></ref><ref id="bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cit-0021">
+<string-name>
+<surname>Klimek-szczykutowicz</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Szopa</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Ekiert</surname>
+<given-names>H.</given-names>
+</string-name>, <article-title>
+<italic toggle="yes">Citrus Limon</italic> (Lemon) Phenomenon&#x02014;a Review of the Chemistry, Pharmacological Properties, Applications in the Modern Pharmaceutical, Food, and Cosmetics Industries, and Biotechnological Studies</article-title>, <source>Plants</source>. (<year>2020</year>) <volume>9</volume>, no. 1, <pub-id pub-id-type="doi">10.3390/plants9010119</pub-id>.</mixed-citation></ref><ref id="bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cit-0022">
+<string-name>
+<surname>Fu</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name>
+<surname>Wu</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name>
+<surname>Wang</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Chen</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhu</surname>
+<given-names>G.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Zhu</surname>
+<given-names>Z.</given-names>
+</string-name>, <article-title>Spectral Characteristic, Storage Stability and Antioxidant Properties of Anthocyanin Extracts from Flowers of Butterfly Pea (<italic toggle="yes">Clitoria ternatea</italic> L.)</article-title>, <source>Molecules</source>. (<year>2021</year>) <volume>26</volume>, no. 22, <pub-id pub-id-type="doi">10.3390/molecules26227000</pub-id>.</mixed-citation></ref><ref id="bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cit-0023">
+<string-name>
+<surname>Lestiani</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name>
+<surname>Chandra</surname>
+<given-names>D. N.</given-names>
+</string-name>, 
+<string-name>
+<surname>Laitinen</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name>
+<surname>Ambarwati</surname>
+<given-names>F. Di.</given-names>
+</string-name>, 
+<string-name>
+<surname>Kuusisto</surname>
+<given-names>P.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Lukito</surname>
+<given-names>W.</given-names>
+</string-name>, <article-title>Double-Blind Randomized Placebo Controlled Trial Demonstrating Serum Cholesterol Lowering Efficacy of a Smoothie Drink with Added Plant Stanol Esters in an Indonesian Population</article-title>, <source>Cholesterol</source>. (<year>2018</year>) <volume>2018</volume>, <pub-id pub-id-type="doi">10.1155/2018/4857473</pub-id>, 2-s2.0-85042605174.</mixed-citation></ref><ref id="bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cit-0024">
+<string-name>
+<surname>Gohari</surname>
+<given-names>F. G.</given-names>
+</string-name>, 
+<string-name>
+<surname>Khaksari</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Tahami</surname>
+<given-names>A. N.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Amirkhossravi</surname>
+<given-names>L.</given-names>
+</string-name>, <article-title>Impact of Phytosterol Supplementation on Metabolic Syndrome Factors: a Systematic Review of Randomized Controlled Trials</article-title>, <source>Diabetology &#x00026; Metabolic Syndrome</source>. (<year>2025</year>) <volume>17</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/s13098-025-01887-2</pub-id>.</mixed-citation></ref><ref id="bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cit-0025">
+<string-name>
+<surname>Sadie-Van Gijsen</surname>
+<given-names>H.</given-names>
+</string-name> and 
+<string-name>
+<surname>Kotz&#x000e9;-H&#x000f6;rstmann</surname>
+<given-names>L.</given-names>
+</string-name>, <article-title>Rat Models of diet-induced Obesity and Metabolic Dysregulation: Current Trends, Shortcomings and Considerations for Future Research</article-title>, <source>Obesity Research &#x00026; Clinical Practice</source>. (<year>2023</year>) <volume>17</volume>, no. 6, <fpage>449</fpage>&#x02013;<lpage>457</lpage>, <pub-id pub-id-type="doi">10.1016/j.orcp.2023.09.010</pub-id>.<pub-id pub-id-type="pmid">37788944</pub-id>
+</mixed-citation></ref><ref id="bib-0026"><label>26</label><mixed-citation publication-type="book" id="cit-0026">
+<string-name>
+<surname>Indarto</surname>
+<given-names>D.</given-names>
+</string-name> and 
+<string-name>
+<surname>Utami</surname>
+<given-names>F.</given-names>
+</string-name>, <part-title>Formulasi Minuman Kombinasi Bunga Telang (<italic toggle="yes">Clitoria ternatea</italic> L.) Dan Jeruk Lemon (<italic toggle="yes">Citrus Limon</italic>) Sebagai Terapi Diet Alternatif Penderita Obesitas (S00202214250)</part-title>, <source>Pangkalan Data Kekayaan Intelektual Kementerian Hukum Dan HAM Republik Indonesia (S00202214250)</source>, <year>2023</year>, <publisher-name>Directorate General of Intellectual Property, The Indonesian Ministry of Law</publisher-name>, <publisher-loc>Jakarta, Indonesia</publisher-loc>.</mixed-citation></ref><ref id="bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cit-0027">
+<string-name>
+<surname>Ilyas</surname>
+<given-names>M. N.</given-names>
+</string-name>, 
+<string-name>
+<surname>Adzim</surname>
+<given-names>M. K. R.</given-names>
+</string-name>, 
+<string-name>
+<surname>Simbak</surname>
+<given-names>N. B.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Atif</surname>
+<given-names>A. B.</given-names>
+</string-name>, <article-title>Sample Size Calculation for Animal Studies Using Degree of Freedom (E); An Easy and Statistically Defined Approach for Metabolomics and Genetic Research</article-title>, <source>Current Trends in Biomedical Engineering &#x00026; Biosciences</source>. (<year>2017</year>) <volume>10</volume>, no. 2, <fpage>1</fpage>&#x02013;<lpage>6</lpage>, <pub-id pub-id-type="doi">10.19080/CTBEB.2017.10.555785</pub-id>.</mixed-citation></ref><ref id="bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cit-0028">
+<string-name>
+<surname>Devina</surname>
+<given-names>K. E.</given-names>
+</string-name>, 
+<string-name>
+<surname>Indarto</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name>
+<surname>Susilawati</surname>
+<given-names>T. N.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Wiboworini</surname>
+<given-names>B.</given-names>
+</string-name>, <article-title>The Effects of Raja banana (<italic toggle="yes">Musa acuminata</italic>) Peel Extract on Body Weight, Body Mass Index, Body Fat Percentage, and Visceral Fat Mass in Male Rats with Obesity</article-title>, <source>Jurnal Gizi Dan Dietetik Indonesia (Indonesian Journal of Nutrition and Dietetics)</source>. (<year>2024</year>) <volume>12</volume>, no. 2, <pub-id pub-id-type="doi">10.21927/ijnd.2024.12</pub-id>.</mixed-citation></ref><ref id="bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cit-0029">
+<string-name>
+<surname>Kusumaningrum</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name>
+<surname>Mudigdo</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Purwanto</surname>
+<given-names>B.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Indarto</surname>
+<given-names>D.</given-names>
+</string-name>, <article-title>The Effects of Methanol Extract of Rue Leaves (<italic toggle="yes">Ruta graveolens</italic>) on Body Weight, Lipid Profile, Adipokine Levels, TCPTP, and Perilipin-1 Expression in Obesity Model Rats</article-title>, <source>Trends in Sciences</source>. (<year>2025</year>) <volume>22</volume>, no. 9, <fpage>1</fpage>&#x02013;<lpage>17</lpage>, <pub-id pub-id-type="doi">10.48048/tis.2025.10407</pub-id>.</mixed-citation></ref><ref id="bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cit-0030">
+<string-name>
+<surname>Sundari</surname>
+<given-names>I.</given-names>
+</string-name>, 
+<string-name>
+<surname>Indarto</surname>
+<given-names>D.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Dirgahayu</surname>
+<given-names>P.</given-names>
+</string-name>, <article-title>Antiobesity Properties of Star Fruits Extract and Its Combination with Toddalia Aculeata Leaves Extract</article-title>, <source>ICEHHA</source>. (<year>2021</year>) <pub-id pub-id-type="doi">10.4108/eai.3-6-2021.2310747</pub-id>.</mixed-citation></ref><ref id="bib-0031"><label>31</label><mixed-citation publication-type="miscellaneous" id="cit-0031">
+<string-name>
+<surname>World Health Organization</surname>
+</string-name>, <article-title>World Health Statistics 2024: Monitoring Health for the SDGs, Sustainable Development Goals</article-title>, <year>2024</year>.</mixed-citation></ref><ref id="bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cit-0032">
+<string-name>
+<surname>Hamsi</surname>
+<given-names>Q. A.</given-names>
+</string-name>, <article-title>Pengaruh Pemberian Air Perasan Jeruk Lemon (Citrus Limon) Terhadap Penurunan Berat Badan Pada Tikus Jantan Galur Wistar (The Effect of Lemon (Citrus Limon) Juice Administration on Body Weight Reduction in Male Wistar rats)</article-title>, <source>Jurnal Ilmiah Kohesi</source>. (<year>2021</year>) <volume>5</volume>, no. 3, <fpage>51</fpage>&#x02013;<lpage>56</lpage>.</mixed-citation></ref><ref id="bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cit-0033">
+<string-name>
+<surname>Negm</surname>
+<given-names>S.</given-names>
+</string-name> and 
+<string-name>
+<surname>Fathy</surname>
+<given-names>N.</given-names>
+</string-name>, <article-title>The Potential Effect of Butterfly Pea Flower (<italic toggle="yes">Clitoria ternatea</italic> L.) Extract on Metabolic Syndrome in Rats Fed high-fat high-carbohydrate Diet</article-title>, <source>&#x00645;&#x0062c;&#x00644;&#x00629; &#x00628;&#x0062d;&#x00648;&#x0062b; &#x00627;&#x00644;&#x0062a;&#x00631;&#x00628;&#x0064a;&#x00629; &#x00627;&#x00644;&#x00646;&#x00648;&#x00639;&#x0064a;&#x00629;</source>. (<year>2025</year>) <volume>2025</volume>, no. 92, <pub-id pub-id-type="doi">10.21608/mbse.2025.370713.1594</pub-id>.</mixed-citation></ref><ref id="bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cit-0034">
+<string-name>
+<surname>Sorrenti</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name>
+<surname>Consoli</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name>
+<surname>Grosso</surname>
+<given-names>S.</given-names>
+</string-name> et al., <article-title>Bioactive Compounds from Lemon (<italic toggle="yes">Citrus Limon</italic>) Extract Overcome TNF-&#x003b1;-induced Insulin Resistance in Cultured Adipocytes</article-title>, <source>Molecules</source>. (<year>2021</year>) <volume>26</volume>, no. 15, <pub-id pub-id-type="doi">10.3390/molecules26154411</pub-id>.</mixed-citation></ref><ref id="bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cit-0035">
+<string-name>
+<surname>Priamsari</surname>
+<given-names>M. R.</given-names>
+</string-name>, 
+<string-name>
+<surname>Subarjo</surname>
+<given-names>N. T. W.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Yudhantara</surname>
+<given-names>S. M.</given-names>
+</string-name>, <article-title>Pengaruh Penambahan Konsentrasi Ekstrak Perasan Lemon (<italic toggle="yes">Citrus Limon</italic> L.) Terhadap Aktivitas Antioksidan Pada Minuman The Bunga Telang (<italic toggle="yes">Clitoria ternatea</italic> L.)</article-title>, <source>Jurnal Farmasi &#x00026; Sains Indonesia</source>. (<year>2024</year>) <volume>7</volume>, no. 2, <fpage>56</fpage>&#x02013;<lpage>66</lpage>, <pub-id pub-id-type="doi">10.52216/jfsi.vol7no2p56-66</pub-id>.</mixed-citation></ref><ref id="bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cit-0036">
+<string-name>
+<surname>Widowati</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name>
+<surname>Wargasetia</surname>
+<given-names>T. L.</given-names>
+</string-name>, 
+<string-name>
+<surname>Zakaria</surname>
+<given-names>T. M.</given-names>
+</string-name> et al., <article-title>Antioxidant Activity of TEMON (<italic toggle="yes">Clitoria ternatea</italic> and <italic toggle="yes">Citrus</italic> Sp.) as an Infused Herbal Tea</article-title>, <source>Majalah Obat Tradisional</source>. (<year>2022</year>) <volume>27</volume>, no. 1, <fpage>32</fpage>&#x02013;<lpage>40</lpage>, <pub-id pub-id-type="doi">10.22146/mot.71628</pub-id>.</mixed-citation></ref><ref id="bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cit-0037">
+<string-name>
+<surname>Barkas</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name>
+<surname>Bathrellou</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name>
+<surname>Nomikos</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name>
+<surname>Panagiotakos</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name>
+<surname>Liberopoulos</surname>
+<given-names>E.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Kontogianni</surname>
+<given-names>M. D.</given-names>
+</string-name>, <article-title>Plant Sterols and Plant Stanols in Cholesterol Management and Cardiovascular Prevention</article-title>, <article-title>Nutrients</article-title>, <year>2023</year>, <volume>15</volume>, no. 13, <pub-id pub-id-type="doi">10.3390/nu15132845</pub-id>.</mixed-citation></ref><ref id="bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cit-0038">
+<string-name>
+<surname>Simonen</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Arte</surname>
+<given-names>E.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Gylling</surname>
+<given-names>H.</given-names>
+</string-name>, <article-title>Obesity Does Not Interfere with the cholesterol-lowering Effect of Plant Stanol Ester Consumption (As Part of a heart-healthy Diet)</article-title>, <source>Journal of Cardiovascular Development and Disease</source>. (<year>2021</year>) <volume>8</volume>, no. 4, <pub-id pub-id-type="doi">10.3390/jcdd8040036</pub-id>.</mixed-citation></ref><ref id="bib-0039"><label>39</label><mixed-citation publication-type="book" id="cit-0039">
+<string-name>
+<surname>Lestario</surname>
+<given-names>L. N.</given-names>
+</string-name>, <source>Antosianin; Sifat Kimia, Perannya Dalam Kesehatan, Dan Prospeknya Sebagai Pewarna Makanan (Andayani (Ed.))</source>, <year>2017</year>, <publisher-name>Gadjah Mada University Press</publisher-name>, <publisher-loc>Anggota IKAPI</publisher-loc>.</mixed-citation></ref><ref id="bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cit-0040">
+<string-name>
+<surname>Miey Park</surname>
+<given-names>A. S.</given-names>
+</string-name>, 
+<string-name>
+<surname>Sharma</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Lee</surname>
+<given-names>H. J.</given-names>
+</string-name>, <article-title>Anti-Adipogenic Effects of Delphinidin-3-O-&#x003b2;-Glucoside in 3T3-L1 Preadipocytes and Primary White Adipocytes</article-title>, <source>Molecules</source>. (<year>2019</year>) <volume>24</volume>, no. 10, <fpage>1</fpage>&#x02013;<lpage>12</lpage>, <pub-id pub-id-type="doi">10.3390/molecules24101848</pub-id>, 2-s2.0-85066076592.</mixed-citation></ref><ref id="bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cit-0041">
+<string-name>
+<surname>Parra-Vargas</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name>
+<surname>del Moral-Hern&#x000e1;ndez</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Salgado-Barrera</surname>
+<given-names>L. E.</given-names>
+</string-name>, 
+<string-name>
+<surname>Santos-L&#x000f3;pez</surname>
+<given-names>A. E.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Rodr&#x000ed;guez-Garc&#x000ed;a</surname>
+<given-names>J. E.</given-names>
+</string-name>, <article-title>Delphinidin Ameliorates Hepatic Triglyceride Accumulation in Human HepG2 Cells, But Not in Diet-Induced Obese Mice</article-title>, <source>Journal of Nutritional Biochemistry</source>. (<year>2018</year>) <volume>55</volume>, <fpage>107</fpage>&#x02013;<lpage>115</lpage>.</mixed-citation></ref><ref id="bib-0042"><label>42</label><mixed-citation publication-type="journal" id="cit-0042">
+<string-name>
+<surname>Cremonini</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name>
+<surname>Da Silva</surname>
+<given-names>L. M. E.</given-names>
+</string-name>, 
+<string-name>
+<surname>Lanzi</surname>
+<given-names>C. R.</given-names>
+</string-name>, 
+<string-name>
+<surname>Marino</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Iglesias</surname>
+<given-names>D. E.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Oteiza</surname>
+<given-names>P. I.</given-names>
+</string-name>, <article-title>Anthocyanins and Their Metabolites Promote White Adipose Tissue Beiging by Regulating Mitochondria Thermogenesis and Dynamics</article-title>, <source>Biochemical Pharmacology</source>. (<year>2024</year>) <volume>222</volume>, no. February, <pub-id pub-id-type="doi">10.1016/j.bcp.2024.116069</pub-id>.</mixed-citation></ref><ref id="bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cit-0043">
+<string-name>
+<surname>Bai</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Tan</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name>
+<surname>Tang</surname>
+<given-names>S.</given-names>
+</string-name> et al., <article-title>Citrus p-Synephrine Improves Energy Homeostasis by Regulating Amino Acid Metabolism in HFD-induced Mice</article-title>, <source>Nutrients</source>. (<year>2024</year>) <volume>16</volume>, no. 2, <pub-id pub-id-type="doi">10.3390/nu16020248</pub-id>.</mixed-citation></ref><ref id="bib-0044"><label>44</label><mixed-citation publication-type="journal" id="cit-0044">
+<string-name>
+<surname>Chen</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name>
+<surname>Nie</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhang</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Ma</surname>
+<given-names>J.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Shan</surname>
+<given-names>A.</given-names>
+</string-name>, <article-title>Hesperidin Attenuates Hepatic Lipid Accumulation in Mice Fed high-fat Diet and Oleic Acid Induced HepG2 via AMPK Activation</article-title>, <source>Life Sciences</source>. (<year>2022</year>) <volume>296</volume>, no. February, <pub-id pub-id-type="doi">10.1016/j.lfs.2022.120428</pub-id>.</mixed-citation></ref><ref id="bib-0045"><label>45</label><mixed-citation publication-type="book" id="cit-0045">
+<string-name>
+<surname>Xiong</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name>
+<surname>Wang</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Ran</surname>
+<given-names>Q.</given-names>
+</string-name> et al., <part-title>Hesperidin: a Therapeutic Agent for Obesity</part-title>, <source>Drug Design, Development and Therapy</source>, <year>2019</year>, <volume>13</volume>, <publisher-name>Dove Medical Press Ltd</publisher-name>, <fpage>3855</fpage>&#x02013;<lpage>3866</lpage>, <pub-id pub-id-type="doi">10.2147/DDDT.S227499</pub-id>.<pub-id pub-id-type="pmid">32009777</pub-id>
+</mixed-citation></ref><ref id="bib-0046"><label>46</label><mixed-citation publication-type="journal" id="cit-0046">
+<string-name>
+<surname>Probosari</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name>
+<surname>Murbawani</surname>
+<given-names>E. A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Candra</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Martha</surname>
+<given-names>A.</given-names>
+</string-name>, <article-title>Pengaruh Pemberian The Rosela Ungu (<italic toggle="yes">Hibiscus sabdariffa</italic> Linn) Terhadap Profil Lipid Pada Tikus Hiperkolesterolemi</article-title>, <source>Ijcnp (Indonesian Journal of Clinical Nutrition Physician)</source>. (<year>2022</year>) <volume>5</volume>, no. 1, <fpage>69</fpage>&#x02013;<lpage>81</lpage>, <pub-id pub-id-type="doi">10.54773/ijcnp.v5i1.94</pub-id>.</mixed-citation></ref><ref id="bib-0047"><label>47</label><mixed-citation publication-type="journal" id="cit-0047">
+<string-name>
+<surname>Rehman</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name>
+<surname>Munawar</surname>
+<given-names>S. M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Hamid Akash</surname>
+<given-names>M. S.</given-names>
+</string-name> et al., <article-title>Erratum: Hesperidin Improves Insulin Resistance via down-regulation of Inflammatory Responses: Biochemical Analysis and in Silico Validation</article-title>, <source>PLoS One</source>. (<year>2020</year>) <volume>15</volume>, no. 1, <pub-id pub-id-type="doi">10.1371/journal.pone.0227637</pub-id>.</mixed-citation></ref><ref id="bib-0048"><label>48</label><mixed-citation publication-type="book" id="cit-0048">
+<string-name>
+<surname>Hastuti</surname>
+<given-names>P.</given-names>
+</string-name>, <source>Genetika Obesitas</source>, <year>2018</year>, <publisher-name>Gadjah Mada University Press</publisher-name>.</mixed-citation></ref><ref id="bib-0049"><label>49</label><mixed-citation publication-type="journal" id="cit-0049">
+<string-name>
+<surname>Shu</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name>
+<surname>Wu</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name>
+<surname>Li</surname>
+<given-names>H.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Tian</surname>
+<given-names>J.</given-names>
+</string-name>, <article-title>Health Benefits of Anthocyanin-Containing Foods, Beverages, and Supplements Have Unpredictable Relation to Gastrointestinal Microbiota: a Systematic Review and meta-analysis of Random Clinical Trials</article-title>, <source>Nutrition Research</source>. (<year>2023</year>) <volume>116</volume>, no. 120, <fpage>48</fpage>&#x02013;<lpage>59</lpage>, <pub-id pub-id-type="doi">10.1016/j.nutres.2023.04.002</pub-id>.<pub-id pub-id-type="pmid">37336096</pub-id>
+</mixed-citation></ref><ref id="bib-0050"><label>50</label><mixed-citation publication-type="journal" id="cit-0050">
+<string-name>
+<surname>Chusak</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name>
+<surname>Thilavech</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name>
+<surname>Henry</surname>
+<given-names>C. J.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Adisakwattana</surname>
+<given-names>S.</given-names>
+</string-name>, <article-title>Acute Effect of <italic toggle="yes">Clitoria ternatea</italic> Flower Beverage on Glycemic Response and Antioxidant Capacity in Healthy Subjects: a Randomized Crossover Trial</article-title>, <source>BMC Complementary and Alternative Medicine</source>. (<year>2018</year>) <volume>18</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/s12906-017-2075-7</pub-id>, 2-s2.0-85040361122.</mixed-citation></ref><ref id="bib-0051"><label>51</label><mixed-citation publication-type="journal" id="cit-0051">
+<string-name>
+<surname>Obradovic</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Sudar-Milovanovic</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name>
+<surname>Soskic</surname>
+<given-names>S.</given-names>
+</string-name> et al., <article-title>Leptin and Obesity: Role and Clinical Implication</article-title>, <source>Frontiers in Endocrinology</source>. (<year>2021</year>) <volume>12</volume>, no. May, <fpage>1</fpage>&#x02013;<lpage>14</lpage>, <pub-id pub-id-type="doi">10.3389/fendo.2021.585887</pub-id>.</mixed-citation></ref><ref id="bib-0052"><label>52</label><mixed-citation publication-type="journal" id="cit-0052">
+<string-name>
+<surname>Takeda</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name>
+<surname>Sawazaki</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name>
+<surname>Takahashi</surname>
+<given-names>H.</given-names>
+</string-name> et al., <article-title>The Dipeptidyl peptidase-4 (DPP-4) Inhibitor Teneligliptin Enhances Brown Adipose Tissue Function, Thereby Preventing Obesity in Mice</article-title>, <source>FEBS Open Bio</source>. (<year>2018</year>) <volume>8</volume>, no. 11, <fpage>1782</fpage>&#x02013;<lpage>1793</lpage>, <pub-id pub-id-type="doi">10.1002/2211-5463.12498</pub-id>, 2-s2.0-85053497254.</mixed-citation></ref><ref id="bib-0053"><label>53</label><mixed-citation publication-type="journal" id="cit-0053">
+<string-name>
+<surname>Ansari</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Hannon-Fletcher</surname>
+<given-names>M. P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Flatt</surname>
+<given-names>P. R.</given-names>
+</string-name>, and 
+<string-name>
+<surname>Abdel-Wahab</surname>
+<given-names>Y. H. A.</given-names>
+</string-name>, <article-title>Effects of 22 Traditional Anti-diabetic Medicinal Plants on DPP-IV Enzyme Activity and Glucose Homeostasis in high-fat Fed Obese Diabetic Rats</article-title>, <source>Bioscience Reports</source>. (<year>2021</year>) <volume>41</volume>, no. 1, <fpage>1</fpage>&#x02013;<lpage>15</lpage>, <pub-id pub-id-type="doi">10.1042/BSR20203824</pub-id>.</mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,856 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Turk J Med Sci</journal-id><journal-id journal-id-type="iso-abbrev">Turk J Med Sci</journal-id><journal-title-group><journal-title>Turkish Journal of Medical Sciences</journal-title></journal-title-group><issn pub-type="ppub">1300-0144</issn><issn pub-type="epub">1303-6165</issn><publisher><publisher-name>Scientific and Technological Research Council of Turkey (TUBITAK)</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">11265884</article-id><article-id pub-id-type="doi">10.55730/1300-0144.5805</article-id><article-id pub-id-type="publisher-id">tjmed-54-02-401</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Antiobesity and antidyslipidemic properties of Clitoria ternatea petals aqueous extract against rats induced by high-fat diet</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9623-2310</contrib-id><name><surname>SASMANA</surname><given-names>I Gede Aswin Parisya</given-names></name><xref rid="af1-tjmed-54-02-401" ref-type="aff">1</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-4270-8552</contrib-id><name><surname>WIHANDANI</surname><given-names>Desak Made</given-names></name><xref rid="af2-tjmed-54-02-401" ref-type="aff">2</xref><xref rid="c1-tjmed-54-02-401" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name><surname>SADEVA</surname><given-names>I Gede Krisna Arim</given-names></name><xref rid="af1-tjmed-54-02-401" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-4124-7272</contrib-id><name><surname>HALIM</surname><given-names>Wilson</given-names></name><xref rid="af1-tjmed-54-02-401" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-8325-4660</contrib-id><name><surname>AGUSTINI</surname><given-names>Putu Putri</given-names></name><xref rid="af1-tjmed-54-02-401" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4276-5488</contrib-id><name><surname>SAMALA</surname><given-names>Lalita</given-names></name><xref rid="af1-tjmed-54-02-401" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1446-3597</contrib-id><name><surname>PRATAMA</surname><given-names>I Gusti Ngurah Agung Surya</given-names></name><xref rid="af1-tjmed-54-02-401" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-8731-0500</contrib-id><name><surname>RACHMAWATI</surname><given-names>Lidiya Nuraliza</given-names></name><xref rid="af1-tjmed-54-02-401" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-0298-2880</contrib-id><name><surname>PRASETYO</surname><given-names>Aizar Vesa</given-names></name><xref rid="af1-tjmed-54-02-401" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-2973-828X</contrib-id><name><surname>JAYA</surname><given-names>Ni Komang Ayu Amanda Setiari</given-names></name><xref rid="af1-tjmed-54-02-401" ref-type="aff">1</xref></contrib></contrib-group><aff id="af1-tjmed-54-02-401">
+<label>1</label>Undergraduate Student, Faculty of Medicine, Udayana University, Denpasar, 
+<country>Indonesia</country></aff><aff id="af2-tjmed-54-02-401">
+<label>2</label>Department of Biochemistry, Faculty of Medicine, Udayana University, Denpasar, 
+<country>Indonesia</country></aff><author-notes><corresp id="c1-tjmed-54-02-401">
+<label>*</label>Correspondence: <email>dmwihandani@unud.ac.id</email></corresp></author-notes><pub-date publication-format="electronic" date-type="collection"><year>2024</year></pub-date><pub-date publication-format="electronic" date-type="pub"><day>18</day><month>12</month><year>2023</year></pub-date><volume>54</volume><issue>2</issue><fpage>401</fpage><lpage>410</lpage><history><date date-type="received"><day>07</day><month>2</month><year>2023</year></date><date date-type="rev-recd"><day>04</day><month>4</month><year>2024</year></date><date date-type="accepted"><day>18</day><month>12</month><year>2023</year></date></history><permissions><copyright-statement>&#x000a9; T&#x000dc;B&#x00130;TAK</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License.</license-p></license></permissions><abstract><sec><title>Background/aim</title><p>Obesity is a chronic metabolic disease involving dysregulation of fat metabolism that affects 13% of the world&#x02019;s population. Obesity has been linked to dyslipidemia with a lot of complication, including stroke, chronic kidney disease, fatty liver disease, and so on. One of the natural resources that have several potential effects including anticholesterol, antiobesity, and antidyslipidemia is the butterfly pea (<italic>Clitoria ternatea</italic>/CT). CT&#x02019;s petal has been found to contain high levels of anthocyanins and tannins that can inhibit the biosynthesis of cholesterol and lipid. This study aims to investigate the antiobesity and antidyslipidemic effects of <italic>Clitoria ternatea</italic> extract (CTE).</p></sec><sec><title>Materials and methods</title><p>The CTE was obtained through the aqueous extract method and then was investigated using spectrophotometry to determine anthocyanin and tannin content. The effect of CTE against a high-fat diet (HFD)-induced rat model was measured by weight and obesity index, lipid profile (total cholesterol (TC), triglycerides (TG), and HDL-C), and histopathology analysis.</p></sec><sec><title>Results</title><p>CTE showed total anthocyanin and tannin content of 78.0943 mg/100 g and 1424.90 mg/100 g, respectively. The data analysis also showed significantly different within groups (p &#x0003c; 0,05), especially between HFD and HFD + CT750 groups on the cholesterol (MD 111.12 mg/dL; 95% CI (99.57 to 122.67); p &#x0003c; 0.001), LDL (MD; 76.38 mg/dL; 95% CI (56.77 to 96.00); p &#x0003c; 0.001), VLDL (MD 0.37 mg/dL; 95% CI (0.18 to 0.57); p &#x0003c; 0.001), body weight (MD: 56.20 g; 95% CI (13.89 to 98.51); p = 0.012); and thickening of tunica layer in the thoracic aorta (MD 22.76 &#x003bc;m; 95% CI (20.11 to 24.4); p &#x0003c; 0.001).</p></sec><sec><title>Conclusion</title><p>This study shows that <italic>Clitoria ternatea</italic> petals aqueous extract promotes amelioration of the lipid profile, body weight, and tunica thickness in rats with the high-fat diet.</p></sec></abstract><kwd-group><kwd>Anthocyanin</kwd><kwd><italic>Clitoria ternatea</italic></kwd><kwd>dyslipidemia</kwd><kwd>high-fat diet</kwd><kwd>in vivo</kwd><kwd>obesity</kwd></kwd-group></article-meta></front><body><sec sec-type="intro"><title>1. Introduction</title><p>High-fat diets and sedentary lifestyles keep rising in the general population, resulting in an imbalance between calorie intake and energy expenditure. High fat diet consumption increase up to 35.6% from 1991 and sedentary lifestyles prevalence increase up to 20% from 2000 that lead to several metabolic diseases, including obesity and dyslipidemia [<xref rid="b1-tjmed-54-02-401" ref-type="bibr">1</xref>,<xref rid="b2-tjmed-54-02-401" ref-type="bibr">2</xref>]. Obesity is a chronic disorder of fat metabolism characterized by excessive accumulation of fat in the body that can be a risk factor for several diseases, including dyslipidemia, diabetes, acute coronary disease, hypertension, and others [<xref rid="b3-tjmed-54-02-401" ref-type="bibr">3</xref>]. Currently, obesity has become an epidemic in the United States, with the number of cases increasing every year. Based on data from the World Health Organization (WHO), obesity affected 13% of the world&#x02019;s population in 2016 [<xref rid="b4-tjmed-54-02-401" ref-type="bibr">4</xref>]. Obesity can stimulate oxidative stress through numerous mechanisms and lead to the increase of free radical levels and the decrease of antioxidant activity levels, resulting in a chronic systemic inflammatory condition in the body that leads to systemic organ disruptions [<xref rid="b5-tjmed-54-02-401" ref-type="bibr">5</xref>].</p><p>Obesity is closely related to dyslipidemia, an imbalance of the lipid profile in the body that is found in about 60%&#x02013;70% of patients with obesity [<xref rid="b6-tjmed-54-02-401" ref-type="bibr">6</xref>]. Approximately, dyslipidemia contributes to 29.7% of disability-adjusted life years (DALYs) and 2.6 million deaths globally [<xref rid="b7-tjmed-54-02-401" ref-type="bibr">7</xref>]. This condition can be evaluated based on the elevation of nonhigh-density lipoprotein-cholesterol (non-HDL-C), very low-density lipoprotein (VLDL), triglyceride, and apoprotein B levels [<xref rid="b8-tjmed-54-02-401" ref-type="bibr">8</xref>]. The increase in triglyceride levels is due to increased VLDL particle production in the liver and decreased clearance of triglyceride-rich lipoproteins [<xref rid="b9-tjmed-54-02-401" ref-type="bibr">9</xref>]. Thus, it can lead to various advanced complications, such as diabetes mellitus, nonalcohol fatty liver disease (NAFLD), and cardiovascular diseases, such as atherosclerosis [<xref rid="b9-tjmed-54-02-401" ref-type="bibr">9</xref>,<xref rid="b10-tjmed-54-02-401" ref-type="bibr">10</xref>]. Atherosclerosis Cardiovascular Disease (ASCVD) is a fatal and morbid disease [<xref rid="b11-tjmed-54-02-401" ref-type="bibr">11</xref>]. Annually, over 17.9 million individuals (31% of overall deaths) have died due to cardiovascular (CV) diseases worldwide [<xref rid="b12-tjmed-54-02-401" ref-type="bibr">12</xref>].</p><p>In previous studies, several synthetic pharmacological approaches have been developed for obesity and dyslipidemia [<xref rid="b12-tjmed-54-02-401" ref-type="bibr">12</xref>]. Several micronutrient compounds from natural products have been reported to be potential agents for improving dyslipidemia and obesity through several mechanisms, including lipase inhibition, appetite reduction, inhibiting lipogenesis, inducing lipolysis, and regulation of lipid metabolism [<xref rid="b13-tjmed-54-02-401" ref-type="bibr">13</xref>]. Butterfly pea (<italic>Clitoria ternatea</italic>/CT) also known as &#x0201c;telang&#x0201d; &#x0201c;teleng&#x0201d; in Java or &#x0201c;celeng&#x0201d; in Bali, Indonesia, is a tropical plant that has been used as a traditional medicine in Indonesia and has been mentioned in Hindu&#x02019;s Ayurveda [<xref rid="b14-tjmed-54-02-401" ref-type="bibr">14</xref>]. Previously, the <italic>Clitoria ternatea</italic> flower has been investigated and reported to have several potential secondary metabolites for ameliorating obesity and dyslipidemia [<xref rid="b15-tjmed-54-02-401" ref-type="bibr">15</xref>]. According to the Encyclopedia of Herbal Medicines, CT contains 14 types of flavonoid glycosides and 19 types of anthocyanins. The total anthocyanin content in CT is (28.60 &#x000b1; 0.04) mg/L while 78.75&#x000b1;2.09 mg/g of tannin [<xref rid="b15-tjmed-54-02-401" ref-type="bibr">15</xref>,<xref rid="b16-tjmed-54-02-401" ref-type="bibr">16</xref>]. Anthocyanins and tannins contribute to ameliorating obesity and dyslipidemia through several pathways, including lipase inhibition, lipogenesis reduction, HMG-CoA inhibition that leads to cholesterol synthesis inhibition, lipolysis promotion, increased energy expenditure, and lipid metabolism [<xref rid="b13-tjmed-54-02-401" ref-type="bibr">13</xref>, <xref rid="b17-tjmed-54-02-401" ref-type="bibr">17</xref>].</p><p>But unfortunately, research on CT is still very limited. Therefore, this study aims to investigate the antiobesity and antidyslipidemic effects of <italic>Clitoria ternatea</italic> extract (CTE).</p></sec><sec sec-type="materials|methods"><title>2. Materials and methods</title><sec><title>2.1. Preparation of Clitoria ternatea aqueous extract</title><p>CT petals flowers were obtained from several areas in Bangli and Buleleng, Bali, Indonesia. Petal flowers were washed with distilled water and dried for two days, then crushed with a hammer mill crusher (AEG IP54 Lbi 07, Germany) for 30 min. The crushed sample (1 kg) was extracted with 5L of distilled water and boiled for 30 min. The soluble extract was filtered through the nylon. The filtrate was dried by lyophilization. The yield of the aqueous extract of the CT flower was 39.7 g [<xref rid="b18-tjmed-54-02-401" ref-type="bibr">18</xref>].</p></sec><sec><title>2.2. Determination of antioxidant activity, total anthocyanin, and tannin content</title><p>Two sample solutions (KCl buffer with pH 1.0 and ammonia buffer with pH 4.5) were prepared and added with 1 mL of CTE until the volume became 10 mL (dilution factor/DF = 10). Anthocyanin content is indicated by a color change from pink-red to blue-violet while purple-violet color is for tannin content. Then, the absorbance of the sample was measured using a UV-Vis spectrophotometer with a wavelength of 500&#x02013;700 vis-max and 700 nm. Total anthocyanins are calculated by the formula [<xref rid="b19-tjmed-54-02-401" ref-type="bibr">19</xref>]:</p><disp-formula id="fd1-tjmed-54-02-401">
+<mml:math id="m1" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>Total&#x02009;Anthocyanin</mml:mtext><mml:mo>/</mml:mo><mml:mtext>Tannin</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Absorbance</mml:mtext><mml:mo>&#x000d7;</mml:mo><mml:mtext>DF</mml:mtext><mml:mo>&#x000d7;</mml:mo><mml:mn>1000</mml:mn></mml:mrow><mml:mrow><mml:mn>55.9</mml:mn><mml:mo>&#x000d7;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula><p>The diluted of CTE was added into a 5.0 mL volumetric flask, then add 1.0 mL of 0.4 mM 1,1-diphenyl-2-picryl hydrazyl (DPPH) solution as testing specimen and DPPH solution with methanol as control specimen. Then incubated at 37 &#x000b0;C for 30 min. The absorption is read at a wavelength of 515 nm, ten calculated to determine the percentage of inhibition with the formula:</p><disp-formula id="fd2-tjmed-54-02-401">
+<mml:math id="m2" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>Inhibition&#x02009;</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:mo>%</mml:mo><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Control&#x02009;Absorbance</mml:mtext><mml:mo>-</mml:mo><mml:mtext>Testing&#x02009;Specimen&#x02009;Absorbance</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Control&#x02009;Absorbance</mml:mtext></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula></sec><sec><title>2.3. Animals study design and feeding</title><p>This study has been declared ethically approved with the number 2021.01.1.1228 by The Ethic and Research Unit, Faculty of Medicine, Udayana University. A total of 25 healthy male Wistar rats (8&#x02013;10 weeks) were prepared and placed at a temperature of 25 &#x000b1; 1&#x000b0;C, humidity 44%&#x02013;56%, light and dark cycle for 12 h, and acclimatized for 1 week was done before treatment at the Animal Care Unit, Udayana University. Samples were divided into the following groups:</p><list list-type="roman-lower"><list-item><p>ND: Negative control with a normal diet</p></list-item><list-item><p>HFD: Positive control (High-Fat Diet)</p></list-item><list-item><p>HFD + CT250: High-Fat Diet + 250 mg/kgBW CTE</p></list-item><list-item><p>HFD + CT500: High-Fat Diet + 500 mg/kgBW CTE</p></list-item><list-item><p>HFD + CT750: High-Fat Diet + 750 mg/kgBW CTE</p></list-item></list><p>The number of experimental animals in each group was determined by quantification using the following formula by Federer, 1966 [<xref rid="b20-tjmed-54-02-401" ref-type="bibr">20</xref>]:</p><list list-type="simple"><list-item><p>(t&#x02013;1) (n&#x02013;1) &#x02265; 15</p></list-item><list-item><p>4n &#x02265; 19</p></list-item><list-item><p>n &#x02248; 5 per group and total 25 rats</p></list-item></list><p>The animals were fed a standard diet of 25 grams per day for the ND group, a high-fat diet (70% standard diet, 20% duck egg yolk, and 10% pork oil) for the HFD and treatment groups, and were given water ad libitum. The HFD group was given HFD for 13 weeks, while the treatment group was given HFD for 10 weeks, followed by HFD + CT for 3 weeks. The extract given would have been previously dissolved to the appropriate concentration.</p></sec><sec><title>2.4. Weight and obesity index measurement</title><p>The weight of the rats was measured at baseline, 5, 10, 11, 12, and 13 weeks using the CAMRY Digital Scale. The Naso-Anal length was measured after the treatment period. These data are used to determine the Body Mass Index and Lee Obesity Index (BMI &#x0003e; 0.68 or LOI &#x0003e; 0.3 is considered obese) [<xref rid="b21-tjmed-54-02-401" ref-type="bibr">21</xref>].</p><disp-formula id="fd3-tjmed-54-02-401">
+<mml:math id="m3" display="block" overflow="scroll"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mtext>BMI</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Weight&#x02009;</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:mtext>g</mml:mtext><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mtext>Naso</mml:mtext><mml:mo>-</mml:mo><mml:mtext>Anal&#x02009;Length&#x02009;</mml:mtext></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>cm</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>Lee&#x02009;Obesity&#x02009;Index</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mroot><mml:mrow><mml:mtext>Weight</mml:mtext></mml:mrow><mml:mn>3</mml:mn></mml:mroot></mml:mrow><mml:mrow><mml:mrow><mml:mtext>Naso</mml:mtext><mml:mo>-</mml:mo><mml:mtext>Anal&#x02009;Length</mml:mtext></mml:mrow></mml:mrow></mml:mfrac><mml:mo>&#x000d7;</mml:mo><mml:mn>1000</mml:mn></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math></disp-formula></sec><sec><title>2.5. Sample collection and organ weight measurement</title><p>All animals were anesthetized with 0.5 mL ketamine then cervical dislocation was performed. Blood samples were taken through the eye vein using a microhematocrit and stored in a vacutainer tube. Blood serum was immediately separated by centrifugation and stored at &#x02212;20 &#x000b0;C. The aorta was collected and weighed then stored in 10% formalin buffer.</p></sec><sec><title>2.6. Lipid profile analysis</title><p>Lipid profile examination using rat blood serum that has been isolated on several parameters, including total cholesterol (TC), triglycerides (TG), and HDL-C according to the instructions from the kit manufacturer (DiaSys Diagnostic Systems GmbH). Indirect calculations were carried out to determine the levels of LDL, VLDL, the Atherogenic Index (AI), and the Cardiac Risk Factors Score through the following equation [<xref rid="b22-tjmed-54-02-401" ref-type="bibr">22</xref>, <xref rid="b23-tjmed-54-02-401" ref-type="bibr">23</xref>]:</p><disp-formula id="fd4-tjmed-54-02-401">
+<mml:math id="m4" display="block" overflow="scroll"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mtext>VLDL</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Triglycerides</mml:mtext></mml:mrow><mml:mn>5</mml:mn></mml:mfrac></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>LDL</mml:mtext><mml:mo>=</mml:mo><mml:mtext>Total&#x02009;Cholesterol</mml:mtext><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Triglycerides</mml:mtext></mml:mrow><mml:mn>5</mml:mn></mml:mfrac></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>Atherogenic&#x02009;Index</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Total&#x02009;Cholesterol</mml:mtext><mml:mo>-</mml:mo><mml:mtext>HDLC</mml:mtext></mml:mrow><mml:mrow><mml:mtext>HDLC</mml:mtext></mml:mrow></mml:mfrac></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>Cardiac&#x02009;Risk&#x02009;Factor</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Total&#x02009;Cholesterol</mml:mtext></mml:mrow><mml:mrow><mml:mtext>HDL</mml:mtext></mml:mrow></mml:mfrac></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math></disp-formula></sec><sec><title>2.7.Histopathology evaluation</title><p>The aorta samples that had been stored in 10% Neutral Formalin Buffer (BNF) for 72 h were dehydrated in 70% and 96% alcohol solutions and then infiltrated with histoplasty paraffin. Slices were performed using a microtome (4 &#x02013; 5 &#x003bc;m thickness), followed by incubation and staining with Mayer&#x02019;s hematoxylin-eosin. The preparations were then observed with a light microscope, and the image of the aorta wall was obtained using OptiLab and ObtiLab Viewer 2.2. Images were analyzed using Image J Software.</p></sec><sec><title>2.8. Statistical analysis</title><p>Differences between groups were analyzed using SPSS 25.0 for Windows with a one-way ANOVA test followed by the post-hoc test with an alternative Kruskal-Wallis test followed by the Mann-Whitney test. The p &#x0003c; 0.05 showed a significant difference.</p></sec></sec><sec sec-type="results"><title>3. Results</title><sec><title>3.1. Phytochemical analysis</title><p>Extraction of anthocyanins from CT flowers using the liquid extraction method. The anthocyanin content was obtained at 78.0943 mg/100 g while the tannin content reach. The test for DPPH levels in CTE had an IC50 score of 194.26 &#x003bc;g/mL indicating the weak potency of antioxidant activity [<xref rid="b24-tjmed-54-02-401" ref-type="bibr">24</xref>].</p></sec><sec><title>3.2. Lipid profile analysis</title><p>Significant differences were found in the follow-up analysis (post-hoc), especially in the HFD group and HFD + CT750 (MD 111.12; 95% CI (99.57 to 122.67) mg/dL; p &#x0003c; 0.001) which are represented in <xref rid="f1-tjmed-54-02-401" ref-type="fig">Figure 1A</xref>. Significant results on postintervention triglyceride differences were obtained in the One-Way ANOVA test (p = 0.002). <xref rid="f1-tjmed-54-02-401" ref-type="fig">Figure 1B</xref> provides the results of a follow-up analysis of the post-hoc test, which showed the significance, especially between the HFD group and the HFD + CT500 group (MD: 190, 95% CI (92.69 to 287.34) mg/dL, p = 0.001). <xref rid="f1-tjmed-54-02-401" ref-type="fig">Figure 1C</xref> shows no significant differences between groups in terms of HDL concentration. While <xref rid="f1-tjmed-54-02-401" ref-type="fig">Figure 1D&#x02013;1G</xref> shows the potential of CT+750 in reducing LDL, VLDL, atherogenic index, and cardiac risk factor compared to the HFD group (p &#x0003c; 0.05)</p></sec><sec><title>3.3. Obesity index and body weight analysis</title><p>One-Way ANOVA analysis showed a significant difference in the weight of postintervention rats (p &#x0003c; 0.05). Significant differences were also found in the follow-up analysis (post-hoc), especially in the ND and HFD groups (p = 0.008), HFD and HFD + CT750 group (MD: 56.20, 95% CI (13.89 to 98.51), p = 0.012), and the HFD with HFD + CT750 group (p = 0.020) in <xref rid="f2-tjmed-54-02-401" ref-type="fig">Figure 2A</xref>. Comparison of rats in each group macroscopically has been reported in <xref rid="f2-tjmed-54-02-401" ref-type="fig">Figure 2B</xref>. Meanwhile, the Lee obesity index (<xref rid="f2-tjmed-54-02-401" ref-type="fig">Figure 2C</xref>) and body mass index (<xref rid="f2-tjmed-54-02-401" ref-type="fig">Figure 2D</xref>) showed significant differences between the HFD group and the CT250 group (p-value of 0.028 and 0.002 respectively).</p></sec><sec><title>3.4. Peripheral organ weight and microscopic analysis</title><p>These results presented in <xref rid="f3-tjmed-54-02-401" ref-type="fig">Figure 3A&#x02013;B</xref> indicate that the CTE rich in anthocyanins has an antiobesity effect by reducing the fat weight of experimental animals, especially between the HFD and HFD + CT750 groups (MD: 1.71, 95% CI (1.19 to 2.23), p &#x0003c; 0.001). Microscopic examination of the thoracic aorta can be seen in <xref rid="f4-tjmed-54-02-401" ref-type="fig">Figure 4A&#x02013;4B</xref>. Tunica thickening was observed in the negative control group and the treatment group, with an active decrease in thickening seen in the treatment group (57.16 &#x003bc;m vs 46.12 &#x003bc;m; 44.78 &#x003bc;m; 34.41 &#x003bc;m, respectively), especially between HFD and HFD + CT750 group (MD: 22.65, 95% CI (20.11 to 24.4), p &#x0003c; 0.001).</p></sec></sec><sec sec-type="discussion"><title>4. Discussion</title><p>The geographical location of the natural product also influences its antioxidant activity. A previous report conducted by Shafirany et al. [<xref rid="b25-tjmed-54-02-401" ref-type="bibr">25</xref>] showed the IC50 value of CTE is 470 &#x003bc;g/mL, which is better than <italic>Hibiscus sabdariffa L</italic>., or known as rosella, with an IC50 value of 581.5 &#x003bc;g/mL. CT is reported to have antioxidant potential, mainly due to its anthocyanin content [<xref rid="b26-tjmed-54-02-401" ref-type="bibr">26</xref>]. This is supported by the research of Mauludifia et al. [<xref rid="b27-tjmed-54-02-401" ref-type="bibr">27</xref>], which found 85.54 mg/L of anthocyanin in CT at pH 2 as the optimal concentration, and using ethanol extract which gives the best efficacy.</p><p>In this study, a decrease in cholesterol levels in the administration of anthocyanin-rich CT extract was observed. This is supported by a systematic review that there was a significant relationship between anthocyanin supplementation and a decrease in total cholesterol observed (MD: &#x02212;24.06, 95% CI (&#x02212;45.58 to &#x02212;2.64) mg/dL., I2 = 93%) [<xref rid="b28-tjmed-54-02-401" ref-type="bibr">28</xref>]. In the cholesterol synthesis mechanism, the mevalonic pathway&#x02019;s first step is the conversion of 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) to mevalonic acid by HMGCR. Inhibition of the mevalonate pathway may aid in managing human lipid-associated diseases, which was reported in Wistar rats induced by hyperlipidemia [<xref rid="b29-tjmed-54-02-401" ref-type="bibr">29</xref>]. A decrease in triglyceride levels was found in this study with the administration of CT flower extract. This finding is supported by Thilavech et al. [<xref rid="b30-tjmed-54-02-401" ref-type="bibr">30</xref>] (2021). Compared to the group consuming the high-fat diet (HFD) with the group consuming the HFD + 2 g of dried extract CT plant, postprandial triglycerides began to show a significant decrease at 300 and 360 min after the intervention. CT extract inhibited adipogenesis and reduced triglyceride accumulation levels by downregulating adipogenic gene expression in 3T3-L1 preadipocytes by inhibiting the Akt1 and ERK1/2 signaling pathways, which can prevent adipocyte hyperplasia [<xref rid="b31-tjmed-54-02-401" ref-type="bibr">31</xref>].</p><p>This study showed that supplementation of CTE could reduce low-density lipoprotein (LDL) levels because there are flavonoids in CTE. This is supported by a study conducted by Arifah et al. [<xref rid="b32-tjmed-54-02-401" ref-type="bibr">32</xref>] (2022) with the research results reported showing that the treatment group has a significant difference from the normal and negative control groups. Flavonoids work to reduce LDL levels due to the inhibition of HMG-CoA by the active substance simvastatin and reduce hepatic cholesterol production [<xref rid="b33-tjmed-54-02-401" ref-type="bibr">33</xref>]. Through the statistical analysis, a significant decrease in VLDL levels was found in rats, with the results being similar to those found in a systematic review by Ferreira Reis et al. [<xref rid="b34-tjmed-54-02-401" ref-type="bibr">34</xref>], that there was a decrease in VLDL levels in rats and rabbits. Kowalska et al. [<xref rid="b35-tjmed-54-02-401" ref-type="bibr">35</xref>] also said that anthocyanins can inhibit lipid metabolism by down-regulating mRNA lipoprotein lipase (LPL) levels in adipose. With this decrease in LPL activity, VLDL in the body will also decrease [<xref rid="b36-tjmed-54-02-401" ref-type="bibr">36</xref>].</p><p>A decrease in the atherogenic index in the administration of anthocyanin-rich in CTE was observed in this study. This is supported by a study [<xref rid="b37-tjmed-54-02-401" ref-type="bibr">37</xref>] that states that there was a relationship between anthocyanin supplementation with a decrease in the atherogenic index which is related to HDL level. The increase in HDL is related to the synthesis of paraoxonase esterase/lactonase 1 (PON-1) to protect lipoproteins and endothelium from oxidation. Weight loss in the administration of anthocyanin from CT extract was observed in this study. This is supported by previous research [<xref rid="b38-tjmed-54-02-401" ref-type="bibr">38</xref>] regarding the effect of giving CT extract in suppressing lipogenesis in the Akt1 and ERK1/2 pathways which leads to suppression of hyperplasia in adipose tissue. According to the results of a meta-analysis by [<xref rid="b39-tjmed-54-02-401" ref-type="bibr">39</xref>] from five studies, it was stated that there was a decrease in BMI in obese patients after anthocyanin supplementation (MD = 0.36, 95% CI = 0.58 to 0.13). The difference was due to the characteristics and control of an HFD when supplementing anthocyanin in the studied subjects [<xref rid="b39-tjmed-54-02-401" ref-type="bibr">39</xref>].</p><p>The administration of CT extract in mice with an HFD in this study showed a decrease in BMI. A systematic review conducted by Park, et al. [<xref rid="b40-tjmed-54-02-401" ref-type="bibr">40</xref>] found a significant relationship to a decrease in BMI (95% CI = &#x02212;0.58 to 0.13; I2 = 0%; p = 0.002). The definite mechanism for reducing BMI is thought to be the process of lipid metabolism and energy expenditure through lipolysis and lipogenesis so that the lipid profile and leptin secretion can be improved [<xref rid="b41-tjmed-54-02-401" ref-type="bibr">41</xref>]. A decrease in the lee index by giving the CT petal extract which contains high anthocyanins was observed in this study. This finding is in line with the research conducted by Yin and Wu [<xref rid="b42-tjmed-54-02-401" ref-type="bibr">42</xref>] which observed administration of high anthocyanin content can also reduce obesity (p &#x0003c; 0.005). This can happen because anthocyanins have been shown to reduce fat levels in the body by inhibiting fatty acid synthesis and increasing fatty acid oxidation [<xref rid="b43-tjmed-54-02-401" ref-type="bibr">43</xref>].The study by Sivamaruthi et al. [<xref rid="b44-tjmed-54-02-401" ref-type="bibr">44</xref>] also found similar results; there was a decrease in fat weight in rats induced by hyperlipidemia after the administration of anthocyanins. Anthocyanins can reduce fat weight a pathway that inhibits pancreatic lipase. The second pathway, anthocyanins can also regulate lipolysis and lipogenesis, thus leading to fat loss. Similarly, the increase in kidney weight was also found in this study significant between HFD and HFD + CT750 group (MD: 0.61, 95% CI (0.25 to 0.96), p = 0.002). A study by Setiawan, et al. [<xref rid="b45-tjmed-54-02-401" ref-type="bibr">45</xref>] with an anthocyanin-rich extract from purple sweet potato showed a similar decrease in tunica intima and media thickness from the diet of atherogenic rats. This reduction was influenced by a decreased inflammatory response from the inhibition of atherosclerotic plaque formation. Macrophages will not accumulate which causes failure of the formation of foam cells that can thicken the walls of the aortic vessels. This theory supports the observable tunica thickening in the negative control group (<xref rid="f4-tjmed-54-02-401" ref-type="fig">Figure 4</xref>) which did not experience a decrease in thickening compared to the treatment group [<xref rid="b45-tjmed-54-02-401" ref-type="bibr">45</xref>, <xref rid="b46-tjmed-54-02-401" ref-type="bibr">46</xref>].</p><p>Based on these results, the concentration of tannin compounds on CTE obtained the average value is 1424.90 mg/100 g. The different concentrations of Tannins can also be found in <italic>Camellia sinensis L.</italic>, showing the highest tannin-only content of 72.80 ppm [<xref rid="b47-tjmed-54-02-401" ref-type="bibr">47</xref>]. The effect of tannins is antioxidant, radical scavenging, antimicrobial, antiviral, etc. In this study, a decrease in lipid profile levels in the administration of tannin-rich CT extract was observed. This is supported by the research of Sieniawska [<xref rid="b48-tjmed-54-02-401" ref-type="bibr">48</xref>], which found significant results on obese-diabetic rats during the four weeks of supplementation with tannin-cocoa extracts. This can be explained by cholesterol binding to bile acids in the intestine which results in the excretion of cholesterol from the body and inhibit its reabsorption [<xref rid="b48-tjmed-54-02-401" ref-type="bibr">48</xref>].</p><p>Another study by Zou et al. [<xref rid="b49-tjmed-54-02-401" ref-type="bibr">49</xref>] found the results of the administration of tannin-persimmon extract significantly (p &#x0003c; 0.05) decreased serum triglycerides, and free fatty acids in rats fed a high-fat diet. The high molecular weight persimmon-tannin (HMWPT) significantly lowers fatty acid synthase (FAS) protein levels and stimulates phosphorylation of AMP-activated protein kinase (AMPK) and down-regulated genes involved in lipogenesis, including sterol transcription factors regulatory element-binding proteins 1 (SREBP1) and acetyl CoA carboxylase (ACC). The different experimental results stated after three doses were used, the tannin extract of <italic>Muntingia calabra L.</italic> was found to have significantly decreased triglycerides, LDL, and HDL (2 weeks, p &#x0003c; 0.005) [<xref rid="b49-tjmed-54-02-401" ref-type="bibr">49</xref>]. Based on the analysis of nonmonotonous doses, in almost all variables a significant improvement in complications from dyslipidemia was found. Improvements were mainly obtained in the HFD+500 and HFD+CT750 groups which showed the best. Similar results were also shown by previous research by Arifah, et al. [<xref rid="b32-tjmed-54-02-401" ref-type="bibr">32</xref>] which reported improvements in Total Cholesterol, LDL, HDL in rats (Rattus Norvegicus) given butterfly pea flower extract at a dose of 400 mg/kgBW.</p><p>In conclusion, <italic>Clitoria ternatea</italic> shows antioxidant activity with anthocyanin and tannin content. Furthermore, <italic>Clitoria ternatea</italic> has significant potential effects as an antiobesity and antidyslipidemic agent mediated by its significant effect on reducing lipid profile (cholesterol, LDL, VLDL), body weight, and obesity index (BMI and Lee obesity index). <italic>Clitoria ternatea</italic> also has the antiatherogenic effect which is shown by a significant lowering atherogenic index, and cardiac risk factor index, and also supported by significant differences of tunica layer in the thoracic aorta and abdominal fat accumulation of HFD-induced rats compared to the treatment group with CT.</p></sec></body><back><ack><title>Acknowledgments</title><p>We thank Hippocrates Scientific Group, Faculty of Medicine, Udayana University for providing us with financial and psychological support for this research.</p></ack><fn-group><fn id="fn1-tjmed-54-02-401" fn-type="COI-statement"><p><bold>Conflict of interest:</bold> There are no conflicts to declare.</p></fn><fn id="fn2-tjmed-54-02-401"><p><bold>Informed consent:</bold> This manuscript does not contain any human experiment.</p></fn><fn id="fn3-tjmed-54-02-401"><p><bold>Ethical approved:</bold> This experimental research has been done following the guideline of the local ethic committee. The Ethics and Research Committee, Faculty of Medicine-Prof. I Gusti Ngoerah Gde Ngoerah General Hospital has ethically approved this research based on International Conference on Harmonization-Good Clinical Practice (ICH-GCP) with ethical number 2021.01.1.1228.</p></fn><fn id="fn4-tjmed-54-02-401"><p><bold>Acknowledgment/disclaimers/conflict of interest:</bold> We thank Hippocrates Scientific Group, Faculty of Medicine, Udayana University for providing us financial and psychological support for this research. Hippocrates Scientific Group, Faculty of Medicine, Udayana University has no role in data analysis and interpretation thus it is not influencing the result of the research.</p><p>We declare there is no conflict of interest on this research article.</p></fn></fn-group><ref-list><title>References</title><ref id="b1-tjmed-54-02-401"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Yang</surname><given-names>L</given-names></name>
+<name><surname>Cao</surname><given-names>C</given-names></name>
+<name><surname>Kantor</surname><given-names>ED</given-names></name>
+<name><surname>Nguyen</surname><given-names>LH</given-names></name>
+<name><surname>Zheng</surname><given-names>X</given-names></name>
+<etal/>
+</person-group>
+<article-title>Trends in sedentary behavior among the US population, 2001&#x02013;2016</article-title>
+<source>Journal of the American Medical Association</source>
+<year>2019</year>
+<volume>321</volume>
+<issue>16</issue>
+<fpage>1587</fpage>
+<lpage>1597</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1001/jama.2019.3636" ext-link-type="uri">https://doi:10.1001/jama.2019.3636</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">31012934</pub-id>
+</mixed-citation></ref><ref id="b2-tjmed-54-02-401"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>L</given-names></name>
+<name><surname>Wang</surname><given-names>H</given-names></name>
+<name><surname>Zhang</surname><given-names>B</given-names></name>
+<name><surname>Popkin</surname><given-names>BM</given-names></name>
+<name><surname>Du</surname><given-names>S</given-names></name>
+</person-group>
+<article-title>Elevated fat intake increases body weight and the risk of overweight and obesity among chinese adults: 1991&#x02013;2015 trends</article-title>
+<source>Nutrients</source>
+<year>2020</year>
+<volume>12</volume>
+<issue>11</issue>
+<fpage>1</fpage>
+<lpage>13</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.3390/nu12113272" ext-link-type="uri">https://doi:10.3390/nu12113272</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b3-tjmed-54-02-401"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Miller</surname><given-names>JD</given-names></name>
+<name><surname>Aronis</surname><given-names>KN</given-names></name>
+<name><surname>Chrispin</surname><given-names>J</given-names></name>
+<name><surname>Patil</surname><given-names>KD</given-names></name>
+<name><surname>Marine</surname><given-names>JE</given-names></name>
+<etal/>
+</person-group>
+<article-title>Obesity, exercise, obstructive sleep apnea, and modifiable atherosclerotic cardiovascular disease risk factors in atrial fibrillation</article-title>
+<source>Journal of the American College of Cardiology</source>
+<year>2015</year>
+<volume>66</volume>
+<issue>25</issue>
+<fpage>2899</fpage>
+<lpage>2906</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1016/j.jacc.2015.10.047" ext-link-type="uri">https://doi:10.1016/j.jacc.2015.10.047</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">26718677</pub-id>
+</mixed-citation></ref><ref id="b4-tjmed-54-02-401"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Lin</surname><given-names>X</given-names></name>
+<name><surname>Li</surname><given-names>H</given-names></name>
+</person-group>
+<article-title>Obesity: epidemiology, pathophysiology, and therapeutics</article-title>
+<source>Frontiers in Endocrinology</source>
+<year>2021</year>
+<volume>12</volume>
+<issue>9</issue>
+<fpage>1</fpage>
+<lpage>9</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.3389/fendo.2021.706978" ext-link-type="uri">https://doi:10.3389/fendo.2021.706978</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b5-tjmed-54-02-401"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Khutami</surname><given-names>C</given-names></name>
+<name><surname>Sumiwi</surname><given-names>SA</given-names></name>
+<name><surname>Khairul Ikram</surname><given-names>NK</given-names></name>
+<name><surname>Muchtaridi</surname><given-names>M</given-names></name>
+</person-group>
+<article-title>The effects of antioxidants from natural products on obesity, dyslipidemia, diabetes and their molecular signaling mechanism</article-title>
+<source>International Journal of Molecular Sciences</source>
+<year>2022</year>
+<volume>23</volume>
+<issue>4</issue>
+<fpage>43</fpage>
+<lpage>55</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.3390/ijms23042056" ext-link-type="uri">https://doi:10.3390/ijms23042056</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b6-tjmed-54-02-401"><label>6</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Bays</surname><given-names>HE</given-names></name>
+<name><surname>Toth</surname><given-names>PP</given-names></name>
+<name><surname>Kris-Etherton</surname><given-names>PM</given-names></name>
+<name><surname>Abate</surname><given-names>N</given-names></name>
+<name><surname>Aronne</surname><given-names>LJ</given-names></name>
+<etal/>
+</person-group>
+<article-title>Obesity, adiposity, and dyslipidemia: a consensus statement from the national lipid association</article-title>
+<source>Journal of Clinical Lipidology</source>
+<year>2013</year>
+<volume>7</volume>
+<issue>4</issue>
+<fpage>304</fpage>
+<lpage>383</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jacl.2013.04.001</pub-id>
+<pub-id pub-id-type="pmid">23890517</pub-id>
+</mixed-citation></ref><ref id="b7-tjmed-54-02-401"><label>7</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Mosca</surname><given-names>S</given-names></name>
+<name><surname>Ara&#x000fa;jo</surname><given-names>G</given-names></name>
+<name><surname>Costa</surname><given-names>V</given-names></name>
+<name><surname>Correia</surname><given-names>J</given-names></name>
+<name><surname>Bandeira</surname><given-names>A</given-names></name>
+<name><surname>Martins</surname><given-names>E</given-names></name>
+<name><surname>Mansilha</surname><given-names>H</given-names></name>
+<name><surname>Tavares</surname><given-names>M</given-names></name>
+<name><surname>Coelho</surname><given-names>MP</given-names></name>
+</person-group>
+<article-title>Dyslipidemia Diagnosis and Treatment: Risk Stratification in Children and Adolescents</article-title>
+<source>Journal of Nutrition and Metabolism</source>
+<year>2022</year>
+<volume>5</volume>
+<issue>2</issue>
+<fpage>1</fpage>
+<lpage>10</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1155/2022/4782344" ext-link-type="uri">https://doi:10.1155/2022/4782344</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b8-tjmed-54-02-401"><label>8</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Olamoyegun</surname><given-names>MA</given-names></name>
+<name><surname>Oluyombo</surname><given-names>R</given-names></name>
+<name><surname>Asaolu</surname><given-names>SO</given-names></name>
+</person-group>
+<article-title>Evaluation of dyslipidemia, lipid ratios, and atherogenic index as cardiovascular risk factors among semi-urban dwellers in Nigeria</article-title>
+<source>Annals of African medicine</source>
+<year>2016</year>
+<volume>15</volume>
+<issue>4</issue>
+<fpage>194</fpage>
+<lpage>199</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.4103/1596-3519.194280" ext-link-type="uri">https://doi:10.4103/1596-3519.194280</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">27853034</pub-id>
+</mixed-citation></ref><ref id="b9-tjmed-54-02-401"><label>9</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Bashir</surname><given-names>F</given-names></name>
+<name><surname>Khan</surname><given-names>ZU</given-names></name>
+<name><surname>Seetlani</surname><given-names>NK</given-names></name>
+<name><surname>Sheikh</surname><given-names>Z</given-names></name>
+</person-group>
+<article-title>Prevalence of dyslipidemia associated with complications in diabetic patients: a nationwide study in Thailand</article-title>
+<source>Journal of Ayub Medical College</source>
+<year>2017</year>
+<volume>29</volume>
+<issue>4</issue>
+<fpage>604</fpage>
+<lpage>609</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1186/s12944-019-1034-3" ext-link-type="uri">https://doi:10.1186/s12944-019-1034-3</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">29330987</pub-id>
+</mixed-citation></ref><ref id="b10-tjmed-54-02-401"><label>10</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Sasmana</surname><given-names>IGAP</given-names></name>
+<name><surname>Wiranata</surname><given-names>S</given-names></name>
+<name><surname>Yogananda</surname><given-names>KC</given-names></name>
+<name><surname>Wihandani</surname><given-names>DM</given-names></name>
+<name><surname>Supadmanaba</surname><given-names>IGP</given-names></name>
+</person-group>
+<article-title>Clinicopathological and prognostic significance of SRY-box transcription factor 2 ( SOX2 ) overexpression in central nervous system tumor: a meta-analysis</article-title>
+<source>Bali Medical Journal</source>
+<year>2023</year>
+<volume>12</volume>
+<issue>2</issue>
+<fpage>1733</fpage>
+<lpage>1739</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.15562/bmj.v12i2.4493" ext-link-type="uri">https://doi:10.15562/bmj.v12i2.4493</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b11-tjmed-54-02-401"><label>11</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Roquer</surname><given-names>J</given-names></name>
+<name><surname>Ois</surname><given-names>A</given-names></name>
+</person-group>
+<article-title>Atherosclerotic burden and mortality</article-title>
+<person-group person-group-type="editor">
+<name><surname>Preedy</surname><given-names>VR</given-names></name>
+<name><surname>Watson</surname><given-names>RR</given-names></name>
+</person-group>
+<source>Handbook of Disease Burdens and Quality of Life Measures</source>
+<publisher-name>Springer</publisher-name>
+<publisher-loc>New York</publisher-loc>
+<year>2010</year>
+<fpage>899</fpage>
+<lpage>918</lpage>
+<pub-id pub-id-type="doi">10.1007/978-0-387-78665-0_51</pub-id>
+</mixed-citation></ref><ref id="b12-tjmed-54-02-401"><label>12</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Kim</surname><given-names>HC</given-names></name>
+</person-group>
+<article-title>Epidemiology of cardiovascular disease and its risk factors in Korea</article-title>
+<source>Global Health &#x00026; Medicine</source>
+<year>2021</year>
+<volume>3</volume>
+<issue>3</issue>
+<fpage>134</fpage>
+<lpage>141</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.35772/ghm.2021.01008" ext-link-type="uri">https://doi:10.35772/ghm.2021.01008</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">34250288</pub-id>
+</mixed-citation></ref><ref id="b13-tjmed-54-02-401"><label>13</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Gomes</surname><given-names>JVP</given-names></name>
+<name><surname>Rigolon</surname><given-names>TCB</given-names></name>
+<name><surname>Souza</surname><given-names>MS</given-names></name>
+<name><surname>da</surname><given-names>S</given-names></name>
+<name><surname>Alvarez-Leite</surname><given-names>JI</given-names></name>
+<name><surname>Della Lucia</surname><given-names>CM</given-names></name>
+<etal/>
+</person-group>
+<article-title>Antiobesity effects of anthocyanins on mitochondrial biogenesis, inflammation, and oxidative stress: a systematic review</article-title>
+<source>Nutrition</source>
+<year>2019</year>
+<volume>66</volume>
+<issue>2</issue>
+<fpage>192</fpage>
+<lpage>202</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1016/j.nut.2019.05.005" ext-link-type="uri">https://doi:10.1016/j.nut.2019.05.005</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">31310961</pub-id>
+</mixed-citation></ref><ref id="b14-tjmed-54-02-401"><label>14</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Sasmana</surname><given-names>IGAP</given-names></name>
+<name><surname>Rahadi</surname><given-names>PNK</given-names></name>
+<name><surname>Devy</surname><given-names>AAT</given-names></name>
+<name><surname>Dewi</surname><given-names>PAS</given-names></name>
+<name><surname>Supadmanaba</surname><given-names>IGP</given-names></name>
+<etal/>
+</person-group>
+<article-title>Apoliprotein C-III ( Apo C-III ) inhibitors effect of antisense oligonucleotides in the management of dyslipidemia</article-title>
+<source>Indonesian Journal of Biomedical Science</source>
+<year>2023</year>
+<volume>17</volume>
+<issue>1</issue>
+<fpage>51</fpage>
+<lpage>56</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.15562/ijbs.v17i1.455" ext-link-type="uri">https://doi:10.15562/ijbs.v17i1.455</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b15-tjmed-54-02-401"><label>15</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Divya</surname><given-names>A</given-names></name>
+<name><surname>Anbumalarmathi</surname><given-names>J</given-names></name>
+<name><surname>Sharmili</surname><given-names>S</given-names></name>
+</person-group>
+<article-title>Phytochemical analysis, antimicrobial and antioxidant activity of Clitoria ternatea blue and white flowered leaves</article-title>
+<source>Advances in Research</source>
+<year>2018</year>
+<volume>14</volume>
+<issue>5</issue>
+<fpage>1</fpage>
+<lpage>13</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.9734/air/2018/39030" ext-link-type="uri">https://doi:10.9734/air/2018/39030</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b16-tjmed-54-02-401"><label>16</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Jaafar</surname><given-names>NF</given-names></name>
+<name><surname>Ramli</surname><given-names>ME</given-names></name>
+<name><surname>Salleh</surname><given-names>RM</given-names></name>
+</person-group>
+<article-title>Optimum extraction condition of clitorea ternatea flower on antioxidant activities, total phenolic, total flavonoid and total anthocyanin contents</article-title>
+<source>Tropical Life Science Research</source>
+<year>2020</year>
+<volume>31</volume>
+<issue>2</issue>
+<fpage>1</fpage>
+<lpage>17</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.21315/tlsr2020.31.2.1" ext-link-type="uri">https://doi:10.21315/tlsr2020.31.2.1</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b17-tjmed-54-02-401"><label>17</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Indrakusuma</surname><given-names>AABP</given-names></name>
+<name><surname>Wahyuni</surname><given-names>LPS</given-names></name>
+<name><surname>Wiguna</surname><given-names>IGWW</given-names></name>
+<name><surname>Devy</surname><given-names>AAT</given-names></name>
+<name><surname>Sasmana</surname><given-names>IGAP</given-names></name>
+<etal/>
+</person-group>
+<article-title>Potential effect of secondary metabolites in Persea americana seeds as an a-amylase inhibitor on type 2 diabetes mellitus</article-title>
+<source>Intisari Sains Medis</source>
+<year>2021</year>
+<volume>12</volume>
+<issue>3</issue>
+<fpage>886</fpage>
+<comment>
+<ext-link xlink:href="https://doi:10.15562/ism.v12i3.1119" ext-link-type="uri">https://doi:10.15562/ism.v12i3.1119</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b18-tjmed-54-02-401"><label>18</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Zakaria</surname><given-names>NNA</given-names></name>
+<name><surname>Okello</surname><given-names>EJ</given-names></name>
+<name><surname>Howes</surname><given-names>MJ</given-names></name>
+<name><surname>Birch-Machin</surname><given-names>MA</given-names></name>
+<name><surname>Bowman</surname><given-names>A</given-names></name>
+</person-group>
+<article-title>In vitro protective effects of an aqueous extract of Clitoria ternatea L. flower against hydrogen peroxide-induced cytotoxicity and UV-induced mtDNA damage in human keratinocytes</article-title>
+<source>Phytotherapy Research</source>
+<year>2018</year>
+<volume>32</volume>
+<issue>6</issue>
+<fpage>1064</fpage>
+<lpage>1072</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1002/ptr.6045" ext-link-type="uri">https://doi:10.1002/ptr.6045</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">29464849</pub-id>
+</mixed-citation></ref><ref id="b19-tjmed-54-02-401"><label>19</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Le</surname><given-names>XT</given-names></name>
+<name><surname>Huynh</surname><given-names>MT</given-names></name>
+<name><surname>Pham</surname><given-names>TN</given-names></name>
+<name><surname>Than</surname><given-names>VT</given-names></name>
+<name><surname>Toan</surname><given-names>TQ</given-names></name>
+<etal/>
+</person-group>
+<article-title>Optimization of total anthocyanin content, stability and antioxidant evaluation of the anthocyanin extract from vietnamese carissa carandas l. Fruits</article-title>
+<source>Processes</source>
+<year>2019</year>
+<volume>7</volume>
+<issue>7</issue>
+<fpage>1</fpage>
+<lpage>15</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.3390/pr7070468" ext-link-type="uri">https://doi:10.3390/pr7070468</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b20-tjmed-54-02-401"><label>20</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Federer</surname><given-names>WT</given-names></name>
+</person-group>
+<article-title>Randomization and sample size in experimentation</article-title>
+<source>the Food and Drug Administration Statistics</source>
+<publisher-loc>Seminar NY, USA</publisher-loc>
+<publisher-name>Cornell University</publisher-name>
+<year>1966</year>
+<fpage>15</fpage>
+</mixed-citation></ref><ref id="b21-tjmed-54-02-401"><label>21</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Malafaia</surname><given-names>AB</given-names></name>
+<name><surname>Nassif</surname><given-names>PAN</given-names></name>
+<name><surname>Ribas</surname><given-names>CAPM</given-names></name>
+<name><surname>Ariede</surname><given-names>BL</given-names></name>
+<name><surname>Sue</surname><given-names>KN</given-names></name>
+<etal/>
+</person-group>
+<article-title>Obesity induction with high fat sucrose in rats</article-title>
+<source>Brazilian Archives of Digestive Surgery</source>
+<year>2013</year>
+<volume>26</volume>
+<issue>1</issue>
+<fpage>17</fpage>
+<lpage>21</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1590/s0102-67202013000600005" ext-link-type="uri">https://doi:10.1590/s0102-67202013000600005</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">24463893</pub-id>
+</mixed-citation></ref><ref id="b22-tjmed-54-02-401"><label>22</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Nagendra Nayak</surname><given-names>IM</given-names></name>
+<name><surname>Rajasekhar</surname><given-names>C</given-names></name>
+<name><surname>Jetti</surname><given-names>R</given-names></name>
+</person-group>
+<article-title>Anti-atherosclerotic potential of aqueous extract of Cinnamomum zeylanicum bark against glucocorticoid induced atherosclerosis in wistar rats</article-title>
+<source>Journal of Clinical and Diagnostic Research</source>
+<year>2017</year>
+<volume>11</volume>
+<issue>5</issue>
+<fpage>19</fpage>
+<lpage>23</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.7860/JCDR/2017/23910.9864" ext-link-type="uri">https://doi:10.7860/JCDR/2017/23910.9864</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b23-tjmed-54-02-401"><label>23</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Cho</surname><given-names>B</given-names></name>
+<name><surname>Choi</surname><given-names>J</given-names></name>
+<name><surname>Kang</surname><given-names>H</given-names></name>
+<name><surname>Che</surname><given-names>D</given-names></name>
+<name><surname>Shin</surname><given-names>J</given-names></name>
+<etal/>
+</person-group>
+<article-title>Anti-obesity effects of a mixed extract containing Platycodon grandiflorum, Apium graveolens and green tea in high-fat-diet-induced obese mice</article-title>
+<source>Experimental and Therapeutic Medicine</source>
+<year>2020</year>
+<volume>3</volume>
+<issue>8</issue>
+<fpage>2783</fpage>
+<lpage>2791</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.3892/etm.2020.8493" ext-link-type="uri">https://doi:10.3892/etm.2020.8493</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b24-tjmed-54-02-401"><label>24</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Jadid</surname><given-names>N</given-names></name>
+<name><surname>Hidayati</surname><given-names>D</given-names></name>
+<name><surname>Hartanti</surname><given-names>SR</given-names></name>
+<name><surname>Arraniry</surname><given-names>BA</given-names></name>
+<name><surname>Rachman</surname><given-names>RY</given-names></name>
+<etal/>
+</person-group>
+<article-title>Antioxidant activities of different solvent extracts of Piper retrofractum Vahl. using DPPH assay</article-title>
+<source>AIP Conference Proceedings</source>
+<year>2017</year>
+<volume>2</volume>
+<issue>19</issue>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1063/1.4985410" ext-link-type="uri">https://doi:10.1063/1.4985410</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b25-tjmed-54-02-401"><label>25</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Shafirany</surname><given-names>MZ</given-names></name>
+<name><surname>Indawati</surname><given-names>I</given-names></name>
+<name><surname>Singgih</surname><given-names>I</given-names></name>
+</person-group>
+<article-title>Uji aktivitas antioksidan ekstrak kelopak bunga rosela (Hibiscus sabdariffa L.) asal daerah sukabumi provinsi jawa barat</article-title>
+<source>Medical Sains: Jurnal Ilmiah Kefarmasian</source>
+<year>2021</year>
+<volume>6</volume>
+<issue>1</issue>
+<fpage>35</fpage>
+<lpage>44</lpage>
+<comment>(in Bahasa). <ext-link xlink:href="https://doi:10.37874/ms.v6i1.220" ext-link-type="uri">https://doi:10.37874/ms.v6i1.220</ext-link></comment>
+</mixed-citation></ref><ref id="b26-tjmed-54-02-401"><label>26</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Chayaratanasin</surname><given-names>P</given-names></name>
+<name><surname>Barbieri</surname><given-names>MA</given-names></name>
+<name><surname>Suanpairintr</surname><given-names>N</given-names></name>
+<name><surname>Adisakwattana</surname><given-names>S</given-names></name>
+</person-group>
+<article-title>Inhibitory effect of Clitoria ternatea flower petal extract on fructose-induced protein glycation and oxidation-dependent damages to albumin in vitro</article-title>
+<source>BMC Complementary and Alternative Medicine</source>
+<year>2015</year>
+<volume>15</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>9</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1186/s12906-015-0546-2" ext-link-type="uri">https://doi:10.1186/s12906-015-0546-2</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">25617057</pub-id>
+</mixed-citation></ref><ref id="b27-tjmed-54-02-401"><label>27</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Ludin</surname><given-names>NA</given-names></name>
+<name><surname>Al-Alwani</surname><given-names>MAM</given-names></name>
+<name><surname>Mohamad</surname><given-names>AB</given-names></name>
+<name><surname>Kadhum</surname><given-names>AAH</given-names></name>
+<name><surname>Hamid</surname><given-names>NH</given-names></name>
+<etal/>
+</person-group>
+<article-title>Utilization of natural dyes from Zingiber officinale leaves and Clitoria ternatea flowers to prepare new photosensitisers for dye-sensitised solar cells</article-title>
+<source>International Journal of Electrochemical Science</source>
+<year>2018</year>
+<volume>13</volume>
+<issue>8</issue>
+<fpage>7451</fpage>
+<lpage>7465</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.20964/2018.08.04" ext-link-type="uri">https://doi:10.20964/2018.08.04</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b28-tjmed-54-02-401"><label>28</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>C</given-names></name>
+<name><surname>Sun</surname><given-names>J</given-names></name>
+<name><surname>Lu</surname><given-names>Y</given-names></name>
+<name><surname>Bo</surname><given-names>Y</given-names></name>
+</person-group>
+<article-title>Effects of anthocyanin on serum lipids in dyslipidemia patients: a systematic review and meta-analysis</article-title>
+<source>PLoS ONE</source>
+<year>2016</year>
+<volume>11</volume>
+<issue>9</issue>
+<fpage>1</fpage>
+<lpage>11</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1371/journal.pone.0162089" ext-link-type="uri">https://doi:10.1371/journal.pone.0162089</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b29-tjmed-54-02-401"><label>29</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Sreerekha</surname><given-names>PR</given-names></name>
+<name><surname>Dara</surname><given-names>PK</given-names></name>
+<name><surname>Vijayan</surname><given-names>DK</given-names></name>
+<name><surname>Chatterjee</surname><given-names>NS</given-names></name>
+<name><surname>Raghavankutty</surname><given-names>M</given-names></name>
+<etal/>
+</person-group>
+<article-title>Dietary supplementation of encapsulated anthocyanin loaded-chitosan nanoparticles attenuates hyperlipidemic aberrations in male wistar rats</article-title>
+<source>Carbohydrate Polymer Technologies and Applications</source>
+<year>2021</year>
+<volume>2</volume>
+<issue>10</issue>
+<fpage>41</fpage>
+<lpage>51</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1016/J.CARPTA.2021.100051" ext-link-type="uri">https://doi:10.1016/J.CARPTA.2021.100051</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b30-tjmed-54-02-401"><label>30</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Thilavech</surname><given-names>T</given-names></name>
+<name><surname>Adisakwattana</surname><given-names>S</given-names></name>
+<name><surname>Channuwong</surname><given-names>P</given-names></name>
+<name><surname>Radarit</surname><given-names>K</given-names></name>
+<name><surname>Jantarapat</surname><given-names>K</given-names></name>
+<etal/>
+</person-group>
+<article-title>Clitoria ternatea flower extract attenuates postprandial lipemia and &#x00131;ncreases plasma antioxidant status responses to a high-fat meal challenge in overweight and obese participants</article-title>
+<source>Biology</source>
+<year>2021</year>
+<volume>10</volume>
+<issue>10</issue>
+<fpage>975</fpage>
+<lpage>984</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.3390/biology10100975" ext-link-type="uri">https://doi:10.3390/biology10100975</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">34681074</pub-id>
+</mixed-citation></ref><ref id="b31-tjmed-54-02-401"><label>31</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Yildiz</surname><given-names>E</given-names></name>
+<name><surname>Guldas</surname><given-names>M</given-names></name>
+<name><surname>Ellergezen</surname><given-names>P</given-names></name>
+<name><surname>Acar</surname><given-names>AG</given-names></name>
+<name><surname>Gurbuz</surname><given-names>O</given-names></name>
+</person-group>
+<article-title>Obesity-associated pathways of anthocyanins</article-title>
+<source>Food Science and Technology</source>
+<year>2020</year>
+<volume>1</volume>
+<issue>3</issue>
+<fpage>7</fpage>
+<lpage>20</lpage>
+<pub-id pub-id-type="doi">10.1590/fst.39119</pub-id>
+</mixed-citation></ref><ref id="b32-tjmed-54-02-401"><label>32</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Arifah</surname><given-names>Y</given-names></name>
+<name><surname>Sunarti</surname><given-names>S</given-names></name>
+<name><surname>Prabandari</surname><given-names>R</given-names></name>
+</person-group>
+<article-title>Efek Bunga telang (Clitoria ternatea L .) terhadap kolesterol total, LDL, HDL pada tikus (Rattus norvegicus)</article-title>
+<source>Garuda</source>
+<year>2022</year>
+<volume>4</volume>
+<issue>1</issue>
+<fpage>18</fpage>
+<lpage>31</lpage>
+<comment>(in Bahasa). <ext-link xlink:href="https://doi:10.37311/jsscr.v4i1.13493" ext-link-type="uri">https://doi:10.37311/jsscr.v4i1.13493</ext-link></comment>
+</mixed-citation></ref><ref id="b33-tjmed-54-02-401"><label>33</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Pangestika</surname><given-names>I</given-names></name>
+<name><surname>Oksal</surname><given-names>E</given-names></name>
+<name><surname>Muhammad</surname><given-names>TS</given-names></name>
+<name><surname>Amir</surname><given-names>H</given-names></name>
+<name><surname>Syamsumir</surname><given-names>DF</given-names></name>
+<etal/>
+</person-group>
+<article-title>Inhibitory effects of tangeretin and trans-ethyl caffeate on the HMG-CoA reductase activity: Potential agents for reducing cholesterol levels</article-title>
+<source>Saudi Journal of Biological Sciences</source>
+<year>2020</year>
+<volume>27</volume>
+<issue>8</issue>
+<fpage>1947</fpage>
+<lpage>1960</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1016/j.sjbs.2020.06.010" ext-link-type="uri">https://doi:10.1016/j.sjbs.2020.06.010</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">32714018</pub-id>
+</mixed-citation></ref><ref id="b34-tjmed-54-02-401"><label>34</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Reis</surname><given-names>JF</given-names></name>
+<name><surname>Monteiro</surname><given-names>VVS</given-names></name>
+<name><surname>Souza Gomes</surname><given-names>R</given-names></name>
+<name><surname>Carmo</surname><given-names>MM</given-names></name>
+<name><surname>Costa</surname><given-names>GV</given-names></name>
+<etal/>
+</person-group>
+<article-title>Action mechanism and cardiovascular effect of anthocyanins: a systematic review of animal and human studies</article-title>
+<source>Journal of Translational Medicine</source>
+<year>2016</year>
+<volume>14</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>16</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1186/s12967-016-1076-5" ext-link-type="uri">https://doi:10.1186/s12967-016-1076-5</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">26727970</pub-id>
+</mixed-citation></ref><ref id="b35-tjmed-54-02-401"><label>35</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Kowalska</surname><given-names>K</given-names></name>
+<name><surname>Olejnik</surname><given-names>A</given-names></name>
+<name><surname>Rychlik</surname><given-names>J</given-names></name>
+<name><surname>Grajek</surname><given-names>W</given-names></name>
+</person-group>
+<article-title>Cranberries (Oxycoccus quadripetalus) inhibit lipid metabolism and modulate leptin and adiponectin secretion in 3T3-L1 adipocytes</article-title>
+<source>Food Chemistry</source>
+<year>2015</year>
+<volume>18</volume>
+<issue>5</issue>
+<fpage>383</fpage>
+<lpage>388</lpage>
+<pub-id pub-id-type="doi">10.1016/J.FOODCHEM.2015.03.152</pub-id>
+</mixed-citation></ref><ref id="b36-tjmed-54-02-401"><label>36</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Tian</surname><given-names>X</given-names></name>
+<name><surname>Lu</surname><given-names>Q</given-names></name>
+<name><surname>Zhao</surname><given-names>S</given-names></name>
+<name><surname>Li</surname><given-names>J</given-names></name>
+<name><surname>Luo</surname><given-names>Q</given-names></name>
+<etal/>
+</person-group>
+<article-title>Purple corn anthocyanin affects lipid mechanism, flavor compound profiles, and related gene expression of longissimus thoracis et lumborum muscle in goats</article-title>
+<source>Animals</source>
+<year>2021</year>
+<volume>11</volume>
+<issue>8</issue>
+<fpage>112</fpage>
+<lpage>120</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.3390/ani11082407" ext-link-type="uri">https://doi:10.3390/ani11082407</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">33430445</pub-id>
+</mixed-citation></ref><ref id="b37-tjmed-54-02-401"><label>37</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Aboonabi</surname><given-names>A</given-names></name>
+<name><surname>Meyer</surname><given-names>RR</given-names></name>
+<name><surname>Gaiz</surname><given-names>A</given-names></name>
+<name><surname>Singh</surname><given-names>I</given-names></name>
+</person-group>
+<article-title>Anthocyanins in berries exhibited anti-atherogenicity and antiplatelet activities in a metabolic syndrome population</article-title>
+<source>Nutrition Research</source>
+<year>2020</year>
+<volume>76</volume>
+<issue>5</issue>
+<fpage>82</fpage>
+<lpage>93</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1016/j.nutres.2020.02.011" ext-link-type="uri">https://doi:10.1016/j.nutres.2020.02.011</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">32217379</pub-id>
+</mixed-citation></ref><ref id="b38-tjmed-54-02-401"><label>38</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Chayaratanasin</surname><given-names>P</given-names></name>
+</person-group>
+<article-title>Clitoria ternatea Flower petal extract &#x00131;nhibits adipogenesis and lipid accumulation in 3T3-L1 preadipocytes by downregulating adipogenic gene expression</article-title>
+<source>Molecules</source>
+<year>2019</year>
+<volume>24</volume>
+<fpage>1894</fpage>
+<comment>
+<ext-link xlink:href="https://10.3390/molecules24101894" ext-link-type="uri">https://10.3390/molecules24101894</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">31108834</pub-id>
+</mixed-citation></ref><ref id="b39-tjmed-54-02-401"><label>39</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Li</surname><given-names>Q</given-names></name>
+<name><surname>Yang</surname><given-names>G</given-names></name>
+<name><surname>Xu</surname><given-names>H</given-names></name>
+<name><surname>Tang</surname><given-names>S</given-names></name>
+<name><surname>Lee</surname><given-names>WY</given-names></name>
+</person-group>
+<article-title>Effects of anthocyanin supplementation on reduction of obesity criteria: a systematic review and meta-analysis of randomized controlled trials</article-title>
+<source>BMC Complementary Medicine and Therapies</source>
+<year>2021</year>
+<volume>21</volume>
+<issue>1</issue>
+<comment>
+<ext-link xlink:href="https://doi:10.1186/s12906-021-03381-4" ext-link-type="uri">https://doi:10.1186/s12906-021-03381-4</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b40-tjmed-54-02-401"><label>40</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Park</surname><given-names>S</given-names></name>
+<name><surname>Choi</surname><given-names>M</given-names></name>
+<name><surname>Lee</surname><given-names>M</given-names></name>
+</person-group>
+<article-title>Effects of anthocyanin supplementation on reduction of obesity criteria: a systematic review and meta-analysis of randomized controlled trials</article-title>
+<source>Nutrients</source>
+<year>2021</year>
+<volume>13</volume>
+<issue>6</issue>
+<comment>
+<ext-link xlink:href="https://doi:10.3390/NU13062121" ext-link-type="uri">https://doi:10.3390/NU13062121</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b41-tjmed-54-02-401"><label>41</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Yildiz</surname><given-names>E</given-names></name>
+<name><surname>Guldas</surname><given-names>M</given-names></name>
+<name><surname>Ellergezen</surname><given-names>P</given-names></name>
+<name><surname>Acar</surname><given-names>AG</given-names></name>
+<name><surname>Gurbuz</surname><given-names>O</given-names></name>
+</person-group>
+<article-title>Obesity-associated pathways of anthocyanins</article-title>
+<source>Food Science and Technology (Brazil)</source>
+<year>2021</year>
+<volume>41</volume>
+<issue>6</issue>
+<fpage>1</fpage>
+<lpage>13</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1590/fst.39119" ext-link-type="uri">https://doi:10.1590/fst.39119</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b42-tjmed-54-02-401"><label>42</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Yin</surname><given-names>J</given-names></name>
+<name><surname>Wu</surname><given-names>T</given-names></name>
+</person-group>
+<article-title>Anthocyanins from black wolfberry (Lycium ruthenicum Murr.) prevent inflammation and increase fecal fatty acid in diet-induced obese rats</article-title>
+<source>RSC Advances</source>
+<year>2017</year>
+<volume>7</volume>
+<issue>75</issue>
+<fpage>47848</fpage>
+<lpage>47853</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1039/c7ra09846d" ext-link-type="uri">https://doi:10.1039/c7ra09846d</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b43-tjmed-54-02-401"><label>43</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Xu</surname><given-names>H</given-names></name>
+<name><surname>Liu</surname><given-names>M</given-names></name>
+<name><surname>Liu</surname><given-names>H</given-names></name>
+<name><surname>Zhao</surname><given-names>B</given-names></name>
+<name><surname>Zheng</surname><given-names>M</given-names></name>
+<etal/>
+</person-group>
+<article-title>Anthocyanins from purple corn ameliorated obesity in high fat diet-induced obese mice through activating hepatic AMPK</article-title>
+<source>Journal of Functional Foods</source>
+<year>2021</year>
+<volume>84</volume>
+<fpage>104582</fpage>
+<comment>
+<ext-link xlink:href="https://doi:10.1016/j.jff.2021.104582" ext-link-type="uri">https://doi:10.1016/j.jff.2021.104582</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b44-tjmed-54-02-401"><label>44</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Sivamaruthi</surname><given-names>BS</given-names></name>
+<name><surname>Kesika</surname><given-names>P</given-names></name>
+<name><surname>Chaiyasut</surname><given-names>C</given-names></name>
+</person-group>
+<article-title>The Influence of supplementation of anthocyanins on obesity-associated comorbidities: a concise review</article-title>
+<source>Foods 2020, Vol. 9, Page 687</source>
+<year>2020</year>
+<volume>9</volume>
+<issue>6</issue>
+<fpage>687</fpage>
+<comment>
+<ext-link xlink:href="https://doi:10.3390/FOODS9060687" ext-link-type="uri">https://doi:10.3390/FOODS9060687</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b45-tjmed-54-02-401"><label>45</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Setiawan</surname><given-names>M</given-names></name>
+<name><surname>Putra</surname><given-names>ST</given-names></name>
+<name><surname>Sargowo</surname><given-names>D</given-names></name>
+</person-group>
+<article-title>Efficacy of purple sweet potato (Ipomoea batatas) extract to prevent the aortic wall thickness of white male rats atherosclerosis model</article-title>
+<source>Medicinal Plants</source>
+<year>2019</year>
+<volume>11</volume>
+<issue>1</issue>
+<fpage>55</fpage>
+<lpage>59</lpage>
+<comment>
+<ext-link xlink:href="https://doi:10.5958/0975-6892.2019.00002.9" ext-link-type="uri">https://doi:10.5958/0975-6892.2019.00002.9</ext-link>
+</comment>
+</mixed-citation></ref><ref id="b46-tjmed-54-02-401"><label>46</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Joo</surname><given-names>HK</given-names></name>
+<name><surname>Choi</surname><given-names>S</given-names></name>
+<name><surname>Lee</surname><given-names>YR</given-names></name>
+<name><surname>Lee</surname><given-names>EO</given-names></name>
+<name><surname>Park</surname><given-names>MS</given-names></name>
+<etal/>
+</person-group>
+<article-title>Anthocyanin-rich extract from red chinese cabbage alleviates vascular &#x00131;nflammation in endothelial cells and apo e(&#x02212;/&#x02212;) mice</article-title>
+<source>International journal of molecular sciences</source>
+<year>2018</year>
+<volume>19</volume>
+<issue>3</issue>
+<fpage>816</fpage>
+<comment>
+<ext-link xlink:href="https://doi:10.3390/ijms19030816" ext-link-type="uri">https://doi:10.3390/ijms19030816</ext-link>
+</comment>
+<pub-id pub-id-type="pmid">29534512</pub-id>
+</mixed-citation></ref><ref id="b47-tjmed-54-02-401"><label>47</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Rusita</surname><given-names>YD</given-names></name>
+<name><surname>Lukito</surname><given-names>PI</given-names></name>
+<name><surname>Purwasih</surname><given-names>R</given-names></name>
+<name><surname>Indriani</surname><given-names>R</given-names></name>
+</person-group>
+<article-title>Comparison of tannin concentration on frsh and dried tea leaf (Camelia sinensis L.) extract using UV-Visible spectrophotometric method</article-title>
+<source>International Conference of Health, Science &#x00026; Technology</source>
+<year>2019</year>
+<volume>23</volume>
+<issue>2</issue>
+<fpage>7</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="doi">10.47701/icohetech.v1i1.746</pub-id>
+</mixed-citation></ref><ref id="b48-tjmed-54-02-401"><label>48</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Sieniawska</surname><given-names>E</given-names></name>
+</person-group>
+<article-title>Activities of tannins from &#x00131;n vitro studies to clinical trials</article-title>
+<source>Natural Product Communications</source>
+<year>2017</year>
+<volume>10</volume>
+<issue>11</issue>
+<fpage>1877</fpage>
+<lpage>1884</lpage>
+<pub-id pub-id-type="doi">10.1177/1934578X1501001118</pub-id>
+</mixed-citation></ref><ref id="b49-tjmed-54-02-401"><label>49</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Zou</surname><given-names>B</given-names></name>
+<name><surname>Ge</surname><given-names>Z</given-names></name>
+<name><surname>Zhang</surname><given-names>Y</given-names></name>
+<name><surname>Du</surname><given-names>J</given-names></name>
+<name><surname>Xu</surname><given-names>Z</given-names></name>
+<name><surname>Li</surname><given-names>C</given-names></name>
+</person-group>
+<article-title>Persimmon tannin accounts for hypolipidemic effects of persimmon through activating of AMPK and suppressing NF-&#x003ba;B activation and inflammatory responses in high-fat diet rats</article-title>
+<source>Food &#x00026; function</source>
+<year>2017</year>
+<volume>5</volume>
+<issue>7</issue>
+<fpage>1536</fpage>
+<lpage>1546</lpage>
+<pub-id pub-id-type="doi">10.1039/C3FO60635J</pub-id>
+</mixed-citation></ref></ref-list></back><floats-group><fig position="float" id="f1-tjmed-54-02-401"><label>Figure 1</label><caption><p>Analysis of lipid profile and the impact on the cardiovascular scoring status. Quantification result on total cholesterol/TC level (mg/dL) (1A). Quantification result on triglyceride/TG level (mg/dL) (1B). Quantification result on HDL level (mg/dL) (1C). Result of indirect measurement of LDL, VLDL, Atherogenic Index, and Cardiac Risk Factor on (1D), (1E), (1F), (1G) respectively. The statistical comparison was carried out among the sample groups using one-way ANOVA and continued with post-hoc or Tamhane T2 test. (* p &#x0003c; 0.05, ** p &#x0003c; 0.05) vs. positive control group. (<sup>#</sup> p &#x0003c; 0.05, <sup>##</sup> p &#x0003c; 0.01) vs. negative control group. TC and TG; normal threshold below (dotted line). HDL; normal threshold above (dotted line).</p></caption><graphic xlink:href="tjmed-54-02-401f1" position="float"/></fig><fig position="float" id="f2-tjmed-54-02-401"><label>Figure 2</label><caption><p>Analysis of obesity index and body weight of Wistar rats. Result of mean percentage change analysis in body weight (2A). Measurement of body weight of sample (2B). Quantification result on Cardiac Risk Index (Lee Index) (2C). Quantification result on Body Mass Index (2D). The statistical comparison was carried out among the sample groups using one-way ANOVA and continued with post-hoc or Tamhane T2 test. (* p &#x0003c; 0.05, ** p &#x0003c; 0.05) vs. positive control group. (<sup>#</sup> p &#x0003c; 0.05, <sup>##</sup> p &#x0003c; 0.01) vs. negative control group.</p></caption><graphic xlink:href="tjmed-54-02-401f2" position="float"/></fig><fig position="float" id="f3-tjmed-54-02-401"><label>Figure 3</label><caption><p>Analysis of peripheral organ weight of Wistar rat. Examination of abdominal fat harvested in the abdominal cavity of sample (3A). Analysis result of abdominal fat weight of the Wistar rat from each group (3B). The statistical comparison was carried out among the sample groups using one-way ANOVA and continued with post-hoc or Tamhane T2 test (* p &#x0003c; 0.05, ** p &#x0003c; 0.05) vs. positive control group (# p &#x0003c; 0.05, ## p &#x0003c; 0.01) vs. negative control group.</p></caption><graphic xlink:href="tjmed-54-02-401f3" position="float"/></fig><fig position="float" id="f4-tjmed-54-02-401"><label>Figure 4</label><caption><p>Analysis of microscopic and macroscopic examination on Wistar rat liver and aorta. An examination of tunica intima + tunica media thickness using ImageJ software (4A). The thickness analysis was performed using one-way ANOVA continued by post-hoc. (** p &#x0003c; 0.01) vs. positive control group. (## p &#x0003c; 0.01) vs. negative control group (4B). Stained with H&#x00026;E 400x magnification.</p></caption><graphic xlink:href="tjmed-54-02-401f4" position="float"/></fig></floats-group></article>

@@ -1,0 +1,1494 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" id="fsn370475" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats-oasis2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Food Sci Nutr</journal-id><journal-id journal-id-type="iso-abbrev">Food Sci Nutr</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2048-7177</journal-id><journal-id journal-id-type="publisher-id">FSN3</journal-id><journal-title-group><journal-title>Food Science &#x00026; Nutrition</journal-title></journal-title-group><issn pub-type="epub">2048-7177</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">12203411</article-id><article-id pub-id-type="doi">10.1002/fsn3.70475</article-id><article-id pub-id-type="publisher-id">FSN370475</article-id><article-id pub-id-type="other">FSN3-2025-03-0616.R2</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Potential Applications of <italic toggle="no">Zingiber officinale</italic>, <italic toggle="no">Clitoria ternatea</italic>, and <italic toggle="no">Coccinia grandis</italic> for Enhancing the Functionality of Set Yogurts</article-title></title-group><contrib-group><contrib id="fsn370475-cr-0001" contrib-type="author"><name><surname>Jayaweera</surname><given-names>Yohan</given-names></name><xref rid="fsn370475-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="fsn370475-cr-0002" contrib-type="author" corresp="yes"><name><surname>Silva</surname><given-names>Mayumi</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3195-7027</contrib-id><xref rid="fsn370475-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>mayumi.silva@rmit.edu.au</email></address></contrib><contrib id="fsn370475-cr-0003" contrib-type="author"><name><surname>Chandrapala</surname><given-names>Jayani</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1464-0378</contrib-id><xref rid="fsn370475-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="fsn370475-cr-0004" contrib-type="author"><name><surname>Liyanage</surname><given-names>Rumesh</given-names></name><xref rid="fsn370475-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="fsn370475-cr-0005" contrib-type="author"><name><surname>Jayathunge</surname><given-names>K. G. L. R.</given-names></name><xref rid="fsn370475-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="fsn370475-cr-0006" contrib-type="author" corresp="yes"><name><surname>Alahakoon</surname><given-names>Amali U.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5955-9106</contrib-id><xref rid="fsn370475-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>amalialahakoon@sjp.ac.lk</email></address></contrib></contrib-group><aff id="fsn370475-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biosystems Technology, Faculty of Technology</named-content>
+<institution>University of Sri Jayewardenepura</institution>
+<city>Homagama</city>
+<country country="LK">Sri Lanka</country>
+</aff><aff id="fsn370475-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">School of Science, STEM College</named-content>
+<institution>RMIT University</institution>
+<city>Melbourne</city>
+<named-content content-type="country-part">Victoria</named-content>
+<country country="AU">Australia</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Mayumi Silva (<email>mayumi.silva@rmit.edu.au</email>)<break/>
+Amali U. Alahakoon (<email>amalialahakoon@sjp.ac.lk</email>)<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>27</day><month>6</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2025</year></pub-date><volume>13</volume><issue seq="70">7</issue><issue-id pub-id-type="doi">10.1002/fsn3.v13.7</issue-id><elocation-id>e70475</elocation-id><history>
+<date date-type="rev-recd"><day>06</day><month>6</month><year>2025</year></date>
+<date date-type="received"><day>01</day><month>3</month><year>2025</year></date>
+<date date-type="accepted"><day>09</day><month>6</month><year>2025</year></date>
+</history><permissions><!--&#x000a9; 2025 The Authors. Food Science & Nutrition published by Wiley Periodicals LLC.--><copyright-statement content-type="article-copyright">&#x000a9; 2025 The Author(s). <italic toggle="yes">Food Science &#x00026; Nutrition</italic> published by Wiley Periodicals LLC.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:FSN3-13-e70475.pdf"/><abstract><title>ABSTRACT</title><p>The growing consumer interest in health&#x02010;promoting foods has encouraged the development of yogurt fortified with plant&#x02010;based additives. This study focused on the effect of aqueous extracts from ginger (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Zingiber officinale</italic>
+</styled-content>) rhizome, blue butterfly pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Clitoria ternatea</italic>
+</styled-content>) flower, and ivy (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Coccinia grandis</italic>
+</styled-content>) leaf on the physicochemical and functional characteristics of yogurt, with a particular emphasis on understanding their interaction with milk proteins. Incorporating all the plant extracts enhanced consumer satisfaction regarding color, odor, texture, taste, mouthfeel, and aftertaste. The ivy leaf and blue butterfly pea flower fortification significantly reduced the pH values and increased the acidity compared with the unfortified yogurt on Day 1. This effect is further validated by lactic acid bacteria count results, suggesting that these extracts can promote the growth of lactic acid bacteria. The elevated total phenolic and antioxidant activities in the fortified yogurts validated the fortification process. FTIR analysis confirmed a possible change in the milk protein secondary structure due to the plant's phytochemicals. SEM analysis confirmed that these structural changes, depending on the plant extract, could be either beneficial or detrimental. Specifically, ginger and blue butterfly pea flower extract fortification reduced protein aggregate size and formed more compact and denser gel networks, resulting in lower syneresis and a higher viscosity yogurt structure compared to the unfortified yogurt. In contrast, ivy leaf extract fortification formed a less dense and less compact structure with large aggregates, resulting in higher syneresis and lower viscosity. The overall findings suggest promising opportunities for the yogurt industry with ginger and blue butterfly pea flowers while highlighting the need for in&#x02010;depth research on ivy leaf extract&#x02010;fortified yogurts.</p></abstract><abstract abstract-type="graphical"><p>In this study, aqueous extracts of ginger, blue butterfly pea flower, and ivy leaf were fortified to the yogurts and evaluated the sensorial, physicochemical, and functional characteristics of yogurt along with the protein interactions. Results revealed that the fortification of all the plant extracts had a significant impact on the sensorial, physicochemical, antioxidant, and structural properties of the yogurts.<boxed-text position="anchor" content-type="graphic" id="fsn370475-blkfxd-0001"><graphic xlink:href="FSN3-13-e70475-g008.jpg" position="anchor" id="jats-graphic-1"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="fsn370475-kwd-0001">antioxidant activity</kwd><kwd id="fsn370475-kwd-0002">fortified yogurts</kwd><kwd id="fsn370475-kwd-0003">FTIR</kwd><kwd id="fsn370475-kwd-0004">functionality</kwd><kwd id="fsn370475-kwd-0005">microstructure</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>Research Council, University of Sri Jayewardenepura</funding-source><award-id>ASP/01/RE/TEC/2022/71</award-id></award-group></funding-group><counts><fig-count count="10"/><table-count count="3"/><page-count count="17"/><word-count count="13100"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>July 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.7 mode:remove_FC converted:27.06.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="fsn370475-cit-1001">
+<string-name>
+<surname>Jayaweera</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Silva</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Chandrapala</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Liyanage</surname>
+</string-name>, <string-name>
+<given-names>G. L. R.</given-names>
+<surname>Jayathunge</surname>
+</string-name>, and <string-name>
+<given-names>A. U.</given-names>
+<surname>Alahakoon</surname>
+</string-name>. <year>2025</year>. &#x0201c;<article-title>Potential Applications of <italic toggle="no">Zingiber officinale</italic>, <italic toggle="no">Clitoria ternatea</italic>, and <italic toggle="no">Coccinia grandis</italic> for Enhancing the Functionality of Set Yogurts</article-title>.&#x0201d; <source>Food Science &#x00026; Nutrition</source>
+<volume>13</volume>, no. <issue>7</issue>: <elocation-id>e70475</elocation-id>. <pub-id pub-id-type="doi">10.1002/fsn3.70475</pub-id>.</mixed-citation>
+</p><fn-group id="fsn370475-ntgp-0001"><fn fn-type="funding" id="fsn370475-note-0001"><p>
+<bold>Funding:</bold> This work was supported by the Research Council, University of Sri Jayewardenepura, ASP/01/RE/TEC/2022/71.</p></fn></fn-group></notes></front><body id="fsn370475-body-0001"><sec id="fsn370475-sec-0001"><label>1</label><title>Introduction</title><p>Functional foods are generally designed to provide additional health benefits beyond the basic nutritional functions of foods. These benefits include the prevention of nutrition&#x02010;related and non&#x02010;nutrition&#x02010;related diseases, improvements in physical and mental well&#x02010;being, and vitality and longevity (Granato et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0029" ref-type="bibr">2020</xref>). The design and development of functional food products have been associated with incorporating one or more functional ingredients, bioactives or nutraceuticals, into the food&#x02010;based delivery medium (Day et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0018" ref-type="bibr">2009</xref>). In this context, yogurt, which is a very popular fermented dairy product, stands out as a perfect medium for such a fortification.</p><p>Yogurt is produced with the action of two main lactic acid bacteria (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lactobacillus delbrueckii</italic>
+</styled-content> subsp. <italic toggle="yes">bulgaricus</italic> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Streptococcus thermophilus</italic>
+</styled-content>) (Aamir et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0001" ref-type="bibr">2023</xref>). It enriches protein, minerals, vitamins, and omega&#x02010;3 fatty acids, and these nutritional values have led to a global increase in the consumption of yogurts (Le Roy et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0050" ref-type="bibr">2022</xref>). Moreover, due to the growing interest of modern consumers in healthier food options and their preference for fewer adverse effects, the development of yogurt with plant additives has become a trend. Consequently, various plants and their parts, such as cinnamon (Jim&#x000e9;nez&#x02010;Redondo et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0042" ref-type="bibr">2022</xref>), fennel extract (Atwaa et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0007" ref-type="bibr">2022</xref>), strawberry pulp (Jaster et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0040" ref-type="bibr">2018</xref>), and Moringa extracts (Zhang et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0105" ref-type="bibr">2019</xref>) have been incorporated with yogurt to develop fortified yogurts. In general, fortification with these plants modifies the sensory profiles (flavor, taste, color, and aroma) and enhances the nutritional content, digestive health, and antioxidant capacities of yogurts (Wazzan&#x000a0;<xref rid="fsn370475-bib-0100" ref-type="bibr">2024</xref>).</p><p>There is significant potential in using underutilized plants or herbs that possess unique nutritional profiles and bioactive compounds for the fortification process of yogurt. Among these plant sources, ginger (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Zingiber officinale</italic>
+</styled-content>), ivy leaves (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Coccinia grandis</italic>
+</styled-content>), and blue butterfly pea flowers (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Clitoria ternatea</italic>
+</styled-content>) exhibited significant health&#x02010;promoting properties such as antioxidant, anti&#x02010;cancer, antidiabetic, anti&#x02010;inflammatory, antimicrobial, antifungal, hepatoprotective, and neuroprotective (Pekamwar et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0072" ref-type="bibr">2013</xref>; Wang et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0099" ref-type="bibr">2014</xref>). Furthermore, these plants are rich in phytochemicals with significant medicinal benefits and offer positive potential for sustainable, organic, and clean&#x02010;label products due to their easy extraction process, minimal processing requirements, being free of synthetic additives, and easy cultivation practices. Moreover, the long history of usage in traditional medicine, combined with the recent trend in modern medicinal and functional food applications, demonstrates their suitability and dependability as natural fortifying ingredients; however, thorough investigation on their effect with food components is not addressed well. These characteristics present them as appealing options in research and industry, as consumer attitudes shift toward multi&#x02010;benefit, natural additives (Sbardelotto et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0084" ref-type="bibr">2023</xref>).</p><p>With the advantages of health&#x02010;promoting activities of these plants and recent trends, studies have been conducted on fortifying ginger and blue butterfly pea flowers in yogurt to some extent. For instance, ginger fortification has been shown to significantly enhance the antioxidant properties and sensory attributes in terms of flavor, texture, and color of the yogurts (Larasati et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0049" ref-type="bibr">2018</xref>). Aamir et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0001" ref-type="bibr">2023</xref>) have found that the fortification of 0.5%, 1%, 1.5%, and 2% of ginger powder significantly improved the acidity, water&#x02010;holding capacity, total phenolic content, sensory acceptability, and nutritional composition (protein) while minimizing the yeast and mold count. In addition, Gamage et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0027" ref-type="bibr">2024</xref>) reported that the fortification of 1% and 2% (w/v) blue butterfly pea flower extracts exhibited stable pH, acidity, syneresis conditions, higher anthocyanin stability, higher DPPH radical scavenging activity, and FRAP activity but lowered lactic acid bacteria viability compared with the unfortified yogurts. Furthermore, the other studies found that blue butterfly pea flower fortified yogurt has improved antioxidant (DPPH and total phenolic content), textural (syneresis and viscosity), and sensory characteristics in terms of color, flavor, mouthfeel, and overall acceptability (Kumar et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0046" ref-type="bibr">2023</xref>; Sutakwa et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0090" ref-type="bibr">2021</xref>).</p><p>However, these results can greatly depend on factors such as fortifying ingredient type, concentration levels, geographical location, and weather (Pereira et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0074" ref-type="bibr">2024</xref>). The conformational changes and microstructure of these fortified yogurts still need to be explored for a thorough understanding. In addition, ivy leaves have been consumed as a vegetable in Sri Lanka for centuries, yet their potential for incorporation into fortified yogurts remains unexplored (Putra et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0076" ref-type="bibr">2021</xref>). Therefore, this study assessed the fortification of yogurt with ginger, ivy leaf, and blue butterfly pea flowers, thoroughly evaluating their physicochemical, antioxidant, structural, conformational changes, and microstructural properties to comprehensively understand their interactions within the fortified yogurt matrices.</p></sec><sec sec-type="materials-and-methods" id="fsn370475-sec-0002"><label>2</label><title>Materials and Methods</title><sec sec-type="materials" id="fsn370475-sec-0003"><label>2.1</label><title>Materials</title><p>Fresh cow milk was purchased from the local market in Sri Lanka. Commercial lactic acid bacteria (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">S.&#x02009;thermophilus</italic>
+</styled-content> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">L.&#x02009;delbrueckii</italic>
+</styled-content> subsp. <italic toggle="yes">bulgaricus</italic>) culture was obtained from Chr. Hansen Laboratories (Copenhagen, Denmark). Matured ginger (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Zingiber officinale</italic>
+</styled-content>) rhizome, blue butterfly pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Clitoria ternatea</italic>
+</styled-content>) flower, and ivy (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Coccinia grandis</italic>
+</styled-content>) leaves were obtained from selected cultivation sites in the western province of Sri Lanka and authenticated from the National Herbarium at Peradeniya, Sri Lanka. Then, the plant samples and rhizomes were cleaned with distilled water and oven&#x02010;dried (NL 1017 X/007, Selangor, China) at 45&#x000b0;C until a constant weight was obtained. Thereafter, the plant materials were ground using a domestic grinder (Philips HL7756/00, India) until they became a fine powder (mesh size 30). Then, the obtained powder samples were vacuum packed and stored at &#x02212;24&#x000b0;C until further usage.</p></sec><sec id="fsn370475-sec-0004"><label>2.2</label><title>Preparation of Plant Extracts</title><p>The aqueous extracts of all plant materials were obtained according to the method described by Farhan et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0024" ref-type="bibr">2020</xref>) with slight modification. Plant powder (5&#x02009;g) was mixed with 100&#x02009;mL of distilled water, and then the solution was heated and stirred using a hot magnetic stirrer (F800, China) at 100&#x000b0;C for 15&#x02009;min. Thereafter, each extract was filtered using filter paper (Whatman No 1) and centrifuged at 10,000&#x000d7;&#x02009;g (Sorvall ST 8R, Germany) for 10&#x02009;min at 4&#x000b0;C. The collected supernatants were stored at 4&#x000b0;C in the dark until further analysis.</p></sec><sec id="fsn370475-sec-0005"><label>2.3</label><title>Preparation of Plant Extract&#x02010;Fortified Yogurts</title><p>Initially, 5% (w/v) skim milk powder was added to the milk to increase the total solid content to obtain a better body and texture for yogurt. Then, the plant extracts were incorporated into milk at different fortification levels (1%, 2%, and 3% v/v), which were selected by a preliminary investigation such as evaluating antioxidant capacity that needed to exhibit a significant difference, sensory evaluation, and shelf&#x02010;life assessment. Thereafter, the milk was pasteurized at 72&#x000b0;C for 15&#x02009;s, cooled to 42&#x000b0;C, and incubated with the starter culture (2% w/v) until the pH of the sample became 4.6 (about 4&#x02009;h). Then, the samples were stored at 4&#x000b0;C for 21&#x02009;days and evaluated for physicochemical, microbiological, total phenolic, and antioxidant properties at 7&#x02010;day intervals after selecting the suitable fortification level for each treatment by sensory evaluations.</p><p>The yogurt fortified with aqueous extracts of ginger rhizome, blue butterfly pea flower, and ivy leaves was denoted as GY, BY, and IY, respectively, whereas the unfortified yogurt that is used as the control group (0%) was denoted as CY.</p></sec><sec id="fsn370475-sec-0006"><label>2.4</label><title>Sensory Evaluation of Plant Extract&#x02010;Fortified Yogurts</title><p>All fortified yogurts underwent a sensory evaluation on the 1st day of storage. A group of 30 semi&#x02010;trained sensory panels (15 males and 15 females) from the Faculty of Technology, University of Sri Jayewardenepura, Sri Lanka, was selected. Color, aroma, texture, flavor, mouthfeel, aftertaste, and overall acceptability of fortified yogurts were evaluated using the 9&#x02010;hedonic scale (1 point&#x02010;extremely dislike to 9 points&#x02010;extremely like) (Tami et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0091" ref-type="bibr">2022</xref>). After selecting the most preferred fortification level for each yogurt, the rest of the analysis was conducted on those selected concentrations of fortified yogurts. Before the sensory analysis, the sensory panel was trained by dilution test, difference threshold test, taint potential test, triangle test, and duo&#x02010;trio test. One&#x02010;way ANOVA followed by post hoc Tukey's multiple comparison test was used to determine the significant difference (<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05).</p></sec><sec id="fsn370475-sec-0007"><label>2.5</label><title>Physicochemical Properties of the Yogurts</title><sec id="fsn370475-sec-0008"><label>2.5.1</label><title>Proximate Analysis of the Yogurts</title><p>Moisture content (gravimetric method), crude protein content (Kjeldhal method), fat content (Gerber method), ash content (gravimetric method), and carbohydrate content (phenol sulfuric method) were determined by the methods of AOAC (<xref rid="fsn370475-bib-0106" ref-type="bibr">2005</xref>).</p></sec><sec id="fsn370475-sec-0009"><label>2.5.2</label><title>
+<styled-content style="fixed-case" toggle="no">pH</styled-content> and Titratable Acidity</title><p>The pH value of fortified yogurts was determined using a pH meter (HI83141, Hanna Instrument) after calibration with standard pH buffers (4.0 pH and 7.0 pH). For titratable acidity, yogurt samples were diluted with distilled water at a 1:1 ratio (v/v) and titrated with NaOH (0.1&#x02009;N) until a pale pink color was obtained with a phenolphthalein indicator (0.1% w/v). Then, the acidity of the yogurts was calculated according to Equation&#x000a0;(<xref rid="fsn370475-disp-0001" ref-type="disp-formula">1</xref>), and the results were expressed as the percentage of lactic acid (%) (Nazari et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0065" ref-type="bibr">2023</xref>).<disp-formula id="fsn370475-disp-0001">
+<label>(1)</label>
+<mml:math id="jats-math-1" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>Titratable acidity</mml:mtext><mml:mspace width="0.25em"/><mml:mfenced close=")" open="("><mml:mo>%</mml:mo></mml:mfenced><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mtext>NaOH volume</mml:mtext><mml:mspace width="0.25em"/><mml:mfenced close=")" open="("><mml:mi>mL</mml:mi></mml:mfenced><mml:mo linebreak="goodbreak">&#x000d7;</mml:mo><mml:mn>10</mml:mn><mml:mo linebreak="goodbreak">&#x000d7;</mml:mo><mml:mn>0.009</mml:mn><mml:mo linebreak="goodbreak">&#x000d7;</mml:mo><mml:mn>0.1</mml:mn><mml:mo>/</mml:mo><mml:mi>W</mml:mi></mml:mrow></mml:mfenced><mml:mo linebreak="goodbreak">&#x000d7;</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">W</italic>&#x02009;=&#x02009;weight of the yogurt sample.</p></sec><sec id="fsn370475-sec-0010"><label>2.5.3</label><title>Syneresis of the Yogurts</title><p>Syneresis of the yogurts was evaluated according to the method described by Bulut et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0014" ref-type="bibr">2021</xref>). An amount of 10&#x02009;g of yogurt samples was added to a Falcon tube and centrifuged (Sorvall ST 8R, Germany) at 7870&#x000d7;&#x02009;g and 4&#x000b0;C for 10&#x02009;min. Then, the obtained clear supernatant was poured and weighed. The percentage of syneresis was calculated using the following equation: (<xref rid="fsn370475-disp-0002" ref-type="disp-formula">2</xref>).<disp-formula id="fsn370475-disp-0002">
+<label>(2)</label>
+<inline-graphic xlink:href="FSN3-13-e70475-e002.jpg"/>
+</disp-formula>
+</p></sec><sec id="fsn370475-sec-0011"><label>2.5.4</label><title>Viscosity of the Yogurts</title><p>The viscosity of all the yogurts was determined with a viscometer (BDV&#x02014;9S, China), using spindle No. 4 at 4&#x000b0;C for 5&#x02009;min at 30&#x02009;rpm. The results were expressed in mPa.s (Pavalakumar et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0071" ref-type="bibr">2021</xref>).</p></sec><sec id="fsn370475-sec-0012"><label>2.5.5</label><title>Color of the Yogurts</title><p>The color of the yogurt was evaluated using a digital colorimeter (Lovibond LC 100, United Kindom). After the calibration of the instrument, the values of lightness (<italic toggle="yes">L</italic>*), redness (<italic toggle="yes">a</italic>*), and yellowness (<italic toggle="yes">b</italic>*) were obtained from 9 different points of each yogurt sample.</p></sec></sec><sec id="fsn370475-sec-0013"><label>2.6</label><title>Fourier Transform Infrared Spectroscopy (FTIR) Analysis</title><p>The FTIR analysis was conducted according to the method described by (Gunathunga et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0032" ref-type="bibr">2024</xref>). Initially, freeze&#x02010;dried yogurt samples were homogenized thoroughly, and then a small amount was applied to the attenuated total reflectance (ATR). Then, freeze&#x02010;dried yogurt samples were analyzed using an FTIR spectrophotometer (Bruker Vertex 80, USA). Infrared spectra of all the yogurt samples were obtained in the 4000&#x02013;400&#x02009;cm<sup>&#x02212;1</sup> region, with a resolution of 4&#x02009;cm<sup>&#x02212;1</sup> after 16 scans, after background subtraction. Two FTIR spectral acquisitions were carried out for each yogurt sample. The obtained results were normalized, smoothed, obtained second derivative, and analyzed using OriginPro software (version SR1 b9.5. 1. 195, USA). The second derivative spectra were examined in the 1600&#x02013;1700&#x02009;cm<sup>&#x02212;1</sup> region, corresponding to the Amide I band, which provides insights into protein secondary structures. Band assignments were made based on previous studies, identifying &#x003b2;&#x02010;sheets (1610&#x02013;1642&#x02009;cm<sup>&#x02212;1</sup> and 1688&#x02013;1697&#x02009;cm<sup>&#x02212;1</sup>), random coils (1644&#x02013;1648&#x02009;cm<sup>&#x02212;1</sup>), &#x003b1;&#x02010;helix structures (1651&#x02013;1653&#x02009;cm<sup>&#x02212;1</sup>), large loops (1656&#x02013;1658&#x02009;cm<sup>&#x02212;1</sup>), and &#x003b2;&#x02010;turns (1667&#x02013;1684&#x02009;cm<sup>&#x02212;1</sup>) (Grewal et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0030" ref-type="bibr">2018</xref>; Usoltsev et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0096" ref-type="bibr">2019</xref>).</p></sec><sec id="fsn370475-sec-0014"><label>2.7</label><title>Scanning Electron Microscopy (<styled-content style="fixed-case" toggle="no">SEM</styled-content>) Analysis</title><p>The freeze&#x02010;dried yogurt samples were placed in a desiccator to remove any moisture completely until they obtained constant weight. Thereafter, all the samples were fixed on the stub and coated with a thin layer of gold using sputtering equipment before the analysis (Ismail et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0039" ref-type="bibr">2020</xref>). Then, the microstructure of all the coated yogurt samples was analyzed by taking five images for each sample using a scanning electron microscope (ZEISS EVO 18, Germany) at 15,000&#x000d7; magnification with an excitation voltage of 10&#x02009;kV and 10.5&#x02009;mm working distance.</p></sec><sec id="fsn370475-sec-0015"><label>2.8</label><title>Microbial Analysis of the Yogurts</title><p>
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Streptococcus thermophilus</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">L.&#x02009;delbrueckii</italic>
+</styled-content> subsp. <italic toggle="yes">bulgaricus</italic>, yeast, and mold counts were evaluated according to the method described by Ibrahim et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0038" ref-type="bibr">2019</xref>). Briefly, 1&#x02009;mL of each yogurt dilution was mixed with 9&#x02009;mL of peptone water and serial dilutions. Then, 1&#x02009;mL of the samples was poured into the M17 agar (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">S.&#x02009;thermophilus</italic>
+</styled-content>), MRS agar (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">L.&#x02009;delbrueckii</italic>
+</styled-content> subsp. <italic toggle="yes">bulgaricus</italic>), and PDA (yeast and mold). Then, the M17 plates were incubated at 42&#x000b0;C for 48&#x02009;h, and MRS and PDA plates were incubated at 37&#x000b0;C for 72&#x02009;h. The results were expressed as a log number of colony&#x02010;forming units per mL (Log CFU mL<sup>&#x02212;1</sup>).</p></sec><sec id="fsn370475-sec-0016"><label>2.9</label><title>Total Phenolic Content and Antioxidant Activity of Fortified Yogurts</title><sec id="fsn370475-sec-0017"><label>2.9.1</label><title>Preparation of Yogurt Aqueous Extracts</title><p>The aqueous extracts of yogurts were obtained according to the method described by Nazari et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0065" ref-type="bibr">2023</xref>) with very slight modifications. Yogurt (20&#x02009;g) was mixed with 5&#x02009;mL of distilled water, and then the pH of the mixture was adjusted to pH&#x02009;4.0 using 0.1&#x02009;M HCl solution. Thereafter, the mixture was placed in a water bath for 10&#x02009;min at 45&#x000b0;C. Then, the mixture was centrifuged (Sorvall ST 8R) at 10,000&#x000d7;&#x02009;g at 4&#x000b0;C for 10&#x02009;min. The supernatant was separated, and the pH of the supernatant was adjusted to pH&#x02009;7.0 with the solution of 0.1&#x02009;M NaOH and again centrifuged at 10,000&#x000d7;&#x02009;g at 4&#x000b0;C for 10&#x02009;min. Then, the supernatant was separated and stored at &#x02212;24&#x000b0;C in the freezer. This supernatant was used to evaluate the antioxidant activity DPPH (2,2&#x02010;diphenyl&#x02010;1&#x02010;picrylhydrazyl) and ABTS (2,2&#x02010;azino&#x02010;di&#x02010;3&#x02010;ethylbenzothialozine&#x02010;sulphonic acid) and total phenolic content of the yogurts.</p></sec><sec id="fsn370475-sec-0018"><label>2.9.2</label><title>Total Phenolic Content of Fortified Yogurts</title><p>Total phenol content was analyzed spectrophotometrically using the Folin&#x02013;Ciocalteu method (Ghafoor et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0028" ref-type="bibr">2020</xref>). A 10% Folin&#x02013;Ciocalteu reagent (5&#x02009;mL) and 7% Na<sub>2</sub>CO<sub>3</sub> (4&#x02009;mL) were mixed with 1&#x02009;mL of yogurt extract in a test tube. The obtained blue&#x02010;colored mixture was shaken well and incubated in a water bath for 30&#x02009;min at 40&#x000b0;C. Then, the absorbance was measured at 760&#x02009;nm using a spectrophotometer (G10S, USA) against the blank, and total phenolic content was calculated based on the standard curve of gallic acid (20 to 100&#x02009;&#x003bc;g mL<sup>&#x02212;1</sup>), and the results were expressed as &#x003bc;g gallic acid equivalent per mL (&#x003bc;g GAE mL<sup>&#x02212;1</sup>).</p></sec><sec id="fsn370475-sec-0019"><label>2.9.3</label><title>
+<styled-content style="fixed-case" toggle="no">DPPH</styled-content> Radical Scavenging Activity of Yogurts</title><p>The DPPH free radical scavenging activity of the yogurt extracts was measured by the DPPH assay procedure described by Hatano et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0035" ref-type="bibr">1988</xref>) with slight modifications. One thousand microliters of methanolic DPPH solution was added to 2&#x02009;mL of yogurt extract and shaken well. Then, the mixture was incubated at 25&#x000b0;C for 30&#x02009;min, and the absorbance of the solutions was measured at 517&#x02009;nm in a spectrophotometer (G10S, USA). The obtained absorbance was calculated using the standard curve of ascorbic acid, and the results were expressed as &#x003bc;g ascorbic acid equivalent per mL (&#x003bc;g AAE mL<sup>&#x02212;1</sup>).</p></sec><sec id="fsn370475-sec-0020"><label>2.9.4</label><title>
+<styled-content style="fixed-case" toggle="no">ABTS</styled-content> Radical Scavenging Activity of Yogurts</title><p>ABTS activity for yogurt extracts was determined according to the method by Mehmood et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0061" ref-type="bibr">2019</xref>). Briefly, ABTS radical stock solution was prepared by adding ABTS (7&#x02009;mM) with K<sub>2</sub>SO<sub>8</sub> and storing the mixture in the dark for 16&#x02009;h. The ABTS radical solution was diluted with methanol to obtain an absorbance of 0.70&#x02009;&#x000b1;&#x02009;0.02 at 734&#x02009;nm. An 80&#x02009;&#x003bc;L yogurt extract was mixed with 3.92&#x02009;mL of ABTS radical working solution in the dark, and absorbance was measured at 734&#x02009;nm using a spectrophotometer (G10S, USA) after keeping it for 6&#x02009;min at 25&#x000b0;C, and the results were expressed as &#x003bc;g ascorbic acid equivalent per mL (&#x003bc;g AAE mL<sup>&#x02212;1</sup>). The standard curve was prepared using ascorbic acid (15 to 120&#x02009;&#x003bc;g mL<sup>&#x02212;1</sup>).</p></sec></sec><sec id="fsn370475-sec-0021"><label>2.10</label><title>Statistical Analysis</title><p>All the analysis was evaluated at least in triplicates, and the results are shown as mean&#x02009;&#x000b1;&#x02009;standard deviation. The significant difference between the means was evaluated by one&#x02010;way ANOVA and post hoc Tukey's test with a 95% confidence level (<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05) using the SPSS software version 21.</p></sec></sec><sec id="fsn370475-sec-0022"><label>3</label><title>Results and Discussion</title><sec id="fsn370475-sec-0023"><label>3.1</label><title>Sensory Evaluation of Plant Extract&#x02010;Fortified Yogurt</title><p>The sensory analysis results of fortified yogurts with ginger extract, blue butterfly, and ivy leaf extract are shown in Figure&#x000a0;<xref rid="fsn370475-fig-0001" ref-type="fig">1A&#x02013;C</xref>, respectively. None of the treatments showed a significant difference in evaluated sensory parameters compared with the CY. However, 2% GY, 2% IY, and 3% BY exhibited numerically the highest scores for all the evaluated sensory attributes compared to the CY. According to the results, it is clear that incorporating these plant extracts has the potential to improve the sensory properties of the fortified yogurts, and this could be due to the different phytochemicals available in ginger (gingerol, shogaols, paradols, and zingerone, like major compounds) (Spence&#x000a0;<xref rid="fsn370475-bib-0089" ref-type="bibr">2023</xref>), blue butterfly pea flower (ternatins, quercetin and kaempferol derivatives) (Kusuma et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0047" ref-type="bibr">2024</xref>), and ivy leaves (cathinone, heptacosane, gallic acid, and tritetracontane) (Hossain et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0036" ref-type="bibr">2024</xref>). Even though the plant extracts improved the sensory properties, the observed nonsignificant results during the sensory analysis could be attributed to individual variations in sensory perception among panelists. The variability in how participants perceived attributes such as flavor, texture, and color might have reduced the statistical significance. Additionally, the concentration levels of fortifying extracts may not have been strong enough to produce noticeable differences in sensory attributes compared with the CY. Similarly, Ayd&#x00131;n et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0008" ref-type="bibr">2025</xref>) reported that spraying of aqueous extract of olive leaf at 0.4% and 0.6% fortification levels on the surface of yogurt after fermentation showed the highest consumer acceptability with no significant difference compared with the unfortified yogurts, while exhibiting excellent antimicrobial activity against yeast and mold without interfering with the lactic acid fermentation.</p><fig position="float" fig-type="FIGURE" id="fsn370475-fig-0001"><label>FIGURE 1</label><caption><p>Web chart for the sensory profile of ginger (A), blue butterfly pea flower (B), and ivy leave (C) aqueous extract&#x02010;fortified yogurt at 0%, 1%, 2%, and 3% concentrations on day 1 at 4&#x000b0;C (one&#x02010;way analysis of variance followed by Tukey post hoc test).</p></caption><graphic xlink:href="FSN3-13-e70475-g009" position="anchor" id="jats-graphic-3"/></fig></sec><sec id="fsn370475-sec-0024"><label>3.2</label><title>Proximate Composition of Yogurts</title><p>The proximate composition (moisture, protein, fat, carbohydrate, total solids, and ash content) of all the yogurts is shown in Table&#x000a0;<xref rid="fsn370475-tbl-0001" ref-type="table">1</xref>. The results showed no differences in the proximate composition of GY, BY, and IY compared to CY, except for ash content. The improved ash content could be due to the mineral component of the plant extracts (Edogun et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0022" ref-type="bibr">2024</xref>). The minimal impact of ginger, blue butterfly, and ivy leaf extracts on the nutritional profile of yogurt offers a promising opportunity to improve its functional properties without compromising its basic nutritional value. Similarly, Pavalakumar et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0071" ref-type="bibr">2021</xref>) reported that the addition of cinnamon (100&#x02009;ppm) and turmeric oleoresins (100&#x02009;ppm) had no significant impact on the proximate composition of fortified yogurts. However, in contradiction to our results, Aamir et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0001" ref-type="bibr">2023</xref>) reported that adding ginger powder at concentrations ranging from 0.5% to 2% to yogurt resulted in an increment in the total solids content and protein content. The differences in results can primarily be attributed to the variation in the type and form of ginger used, which interact differently with yogurt ingredients. Additionally, concentration levels play a significant role, as ginger powder contains higher concentrations of nutrients than extracts. Moreover, variations in the yogurt formulation itself can influence how the fortifying ingredients affect the final proximate composition, as different base compositions may respond differently to fortification.</p><table-wrap position="float" id="fsn370475-tbl-0001" content-type="TABLE"><label>TABLE 1</label><caption><p>Proximate composition of the unfortified and fortified set yogurts.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">CY</th><th align="center" valign="bottom" rowspan="1" colspan="1">GY</th><th align="center" valign="bottom" rowspan="1" colspan="1">BY</th><th align="center" valign="bottom" rowspan="1" colspan="1">IY</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Moisture</td><td align="center" valign="top" rowspan="1" colspan="1">75.65&#x02009;&#x000b1;&#x02009;0.08</td><td align="center" valign="top" rowspan="1" colspan="1">75.75&#x02009;&#x000b1;&#x02009;0.08</td><td align="center" valign="top" rowspan="1" colspan="1">75.78&#x02009;&#x000b1;&#x02009;0.13</td><td align="center" valign="top" rowspan="1" colspan="1">75.80&#x02009;&#x000b1;&#x02009;0.33</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Protein</td><td align="center" valign="top" rowspan="1" colspan="1">3.43&#x02009;&#x000b1;&#x02009;0.02</td><td align="center" valign="top" rowspan="1" colspan="1">3.44&#x02009;&#x000b1;&#x02009;0.02</td><td align="center" valign="top" rowspan="1" colspan="1">3.45&#x02009;&#x000b1;&#x02009;0.02</td><td align="center" valign="top" rowspan="1" colspan="1">3.44&#x02009;&#x000b1;&#x02009;0.02</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Fat</td><td align="center" valign="top" rowspan="1" colspan="1">3.13&#x02009;&#x000b1;&#x02009;0.05</td><td align="center" valign="top" rowspan="1" colspan="1">3.16&#x02009;&#x000b1;&#x02009;0.05</td><td align="center" valign="top" rowspan="1" colspan="1">3.13&#x02009;&#x000b1;&#x02009;0.09</td><td align="center" valign="top" rowspan="1" colspan="1">3.12&#x02009;&#x000b1;&#x02009;0.04</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Carbohydrate</td><td align="center" valign="top" rowspan="1" colspan="1">16.53&#x02009;&#x000b1;&#x02009;0.02</td><td align="center" valign="top" rowspan="1" colspan="1">16.54&#x02009;&#x000b1;&#x02009;0.01</td><td align="center" valign="top" rowspan="1" colspan="1">16.54&#x02009;&#x000b1;&#x02009;0.01</td><td align="center" valign="top" rowspan="1" colspan="1">16.53&#x02009;&#x000b1;&#x02009;0.01</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Ash</td><td align="center" valign="top" rowspan="1" colspan="1">0.96&#x02009;&#x000b1;&#x02009;0.01<sup>b</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.98&#x02009;&#x000b1;&#x02009;0.01<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.98&#x02009;&#x000b1;&#x02009;0.01<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.98&#x02009;&#x000b1;&#x02009;0.01<sup>a</sup>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Total solid</td><td align="center" valign="top" rowspan="1" colspan="1">24.35&#x02009;&#x000b1;&#x02009;0.08</td><td align="center" valign="top" rowspan="1" colspan="1">24.25&#x02009;&#x000b1;&#x02009;0.08</td><td align="center" valign="top" rowspan="1" colspan="1">24.03&#x02009;&#x000b1;&#x02009;0.06</td><td align="center" valign="top" rowspan="1" colspan="1">24.20&#x02009;&#x000b1;&#x02009;0.33</td></tr></tbody></table><table-wrap-foot id="fsn370475-ntgp-0002"><fn id="fsn370475-note-0002"><p>
+<italic toggle="yes">Note:</italic> Each data point represents the mean&#x02009;&#x000b1;&#x02009;SD (<italic toggle="yes">n</italic>&#x02009;=&#x02009;9); The means without the letters are not significantly different from each other, <sup>a,b</sup>Different superscripts within the same row differ significantly (<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05) (one&#x02010;way analysis of variance followed by Tukey post hoc test).</p></fn><fn id="fsn370475-note-0003"><p>Abbreviations: BY, blue butterfly pea flower fortified yogurt; CY, unfortified yogurt; GY, ginger fortified yogurt; IY, ivy leaf fortified yogurt.</p></fn></table-wrap-foot></table-wrap></sec><sec id="fsn370475-sec-0025"><label>3.3</label><title>Physicochemical Properties of Yogurts</title><sec id="fsn370475-sec-0026"><label>3.3.1</label><title>pH and Titratable Acidity</title><p>The change of pH and acidity of fortified and unfortified yogurts during storage is shown in Figure&#x000a0;<xref rid="fsn370475-fig-0002" ref-type="fig">2A,B</xref>, respectively. According to the results on Day 1, GY exhibited a nonsignificant pH reduction and acidity increment compared to CY. However, both BY and IY exhibited significantly lowered pH and increased acidity compared to CY on Day 1. This pH reduction and acidity increment could be attributed to the boosted metabolic activity of lactic acid bacteria due to the essential nutrients in butterfly pea flower and ivy leaves, such as carbohydrates, proteins, vitamins, minerals, and phenolic compounds, including gallic acid, vanillic acid, protocatechuic acid, and anthocyanins (Pacheco&#x02010;Ordaz et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0069" ref-type="bibr">2018</xref>; Vivas et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0097" ref-type="bibr">1997</xref>). Moreover, this argument is further supported by the results of the viable count of this study (Table&#x000a0;<xref rid="fsn370475-tbl-0003" ref-type="table">3</xref>), which showed enhanced lactic acid bacteria count in BY and IY on Day 1. These nutrients allow the microbes to continuously grow and produce more lactic acid by fulfilling their carbon and nitrogen source requirements. This lactic acid content eventually results in a lowered pH level and a more acidic yogurt medium (Abdullah et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0002" ref-type="bibr">2023</xref>). These enhanced acidity and lower pH conditions within the recommended levels would be a great opportunity for the yogurt industry to improve microbial safety and reduce the cost of synthetic preservatives. At the same time, these conditions could be more beneficial in optimizing fermentation kinetics and resulting in better protein coagulation with better textural properties (Basha et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0010" ref-type="bibr">2025</xref>). Similar pH reduction and acidity increments were observed in cinnamon and cumin seed extract&#x02010;fortified yogurts (Shori&#x000a0;<xref rid="fsn370475-bib-0087" ref-type="bibr">2020</xref>) and flaxseed powder&#x02010;fortified yogurts (Marand et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0056" ref-type="bibr">2020</xref>).</p><fig position="float" fig-type="FIGURE" id="fsn370475-fig-0002"><label>FIGURE 2</label><caption><p>pH (A) and acidity (B) values in unfortified yogurt (CY), ginger fortified yogurt (GY), blue butterfly pea flower fortified yogurt (BY), and ivy leaf fortified yogurt (IY) during the 21&#x02010;day storage (one&#x02010;way analysis of variance followed by Tukey post hoc test).</p></caption><graphic xlink:href="FSN3-13-e70475-g002" position="anchor" id="jats-graphic-5"/></fig><p>During the storage, the pH values of all the fortified and CY were significantly reduced, whereas the acidity of yogurt significantly increased throughout the storage period. These pH reductions and acidity increments over the storage are attributed to the production of lactic acid by the fermentative lactic acid bacteria in the yogurts (Hoxha et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0037" ref-type="bibr">2023</xref>). Moreover, the BY and IY showed significantly lower pH values compared with CY throughout the storage.</p></sec><sec id="fsn370475-sec-0027"><label>3.3.2</label><title>Syneresis of the Fortified Yogurts</title><p>The syneresis behavior during cold storage in fortified yogurts is depicted in Figure&#x000a0;<xref rid="fsn370475-fig-0003" ref-type="fig">3</xref>. The GY exhibited significantly the lowest syneresis value compared with the CY on Day 1, and this could be associated with the phenolic compound interaction with the milk protein creating a stable protein network, which can hold water, reducing the syneresis (El&#x02010;Gammal et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0023" ref-type="bibr">2017</xref>). These results were further supported by the microstructure analysis of this study (Figure&#x000a0;<xref rid="fsn370475-fig-0007" ref-type="fig">7</xref>), which showed a more compact and denser protein structure in GY, which eventually contributes to lower syneresis in yogurts and higher water&#x02010;holding capacity (Qiu et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0077" ref-type="bibr">2021</xref>). Similarly, a syneresis reduction was reported in fortified yogurts with mint extract, dragon fruit peel extract, and moringa extract due to the phenolic and protein interaction (Zahra and Mehmood&#x000a0;<xref rid="fsn370475-bib-0103" ref-type="bibr">2023</xref>; Lisak Jakopovi&#x00107; et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0052" ref-type="bibr">2022</xref>). However, BY did not exhibit a significant syneresis change compared with the CY on Day 1. According to Vuong and Hongsprabhas&#x000a0;(<xref rid="fsn370475-bib-0098" ref-type="bibr">2021</xref>), higher acidity and lower pH conditions are essential to alter the milk protein and anthocyanins interaction (Vuong and Hongsprabhas&#x000a0;<xref rid="fsn370475-bib-0098" ref-type="bibr">2021</xref>). However, the low acidity and higher pH conditions in BY on Day 1 may have delayed the interaction between anthocyanins and milk proteins.</p><fig position="float" fig-type="FIGURE" id="fsn370475-fig-0003"><label>FIGURE 3</label><caption><p>Syneresis values in the unfortified yogurt (CY), ginger fortified yogurt (GY), blue butterfly pea flower fortified yogurt (BY), and ivy leaf fortified yogurt (IY) during the 21&#x02010;day storage (one&#x02010;way analysis of variance followed by Tukey post hoc test).</p></caption><graphic xlink:href="FSN3-13-e70475-g001" position="anchor" id="jats-graphic-7"/></fig><p>Further, the syneresis of the IY was significantly increased on Day 1 compared with the CY, but no visible layer separation was observed in the IY during the storage. According to the studies, the phenolic&#x02010;protein interaction could vary based on the type of phenolic compounds, the structure of phenolic compounds, and the bond types (Han et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0034" ref-type="bibr">2019</xref>). In detail, the phenolic compounds have a greater affinity to bind with casein protein rather than whey, and this could be a major reason for the changes in the structural properties of yogurt upon incorporation of plant extracts (Han et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0034" ref-type="bibr">2019</xref>). For instance, green tea, cranberry, and grape extracts also showed a higher potential to bind with milk protein (casein) (Han et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0034" ref-type="bibr">2019</xref>). Furthermore, these protein&#x02013;polyphenol interactions are formed through covalent and noncovalent bonds (hydrogen bonds, hydrophobic interactions, and ionic bonds) (Ma et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0054" ref-type="bibr">2024</xref>). As a result, the casein aggregate size could change depending on the incorporated extract type (Han et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0034" ref-type="bibr">2019</xref>). This could explain the observed differences in microstructural changes and syneresis in GY, BY, and IY compared to CY. Since different plants contain different phytochemical profiles, the ivy leaves might contain some polyphenols, which can interact with the milk proteins and could affect the gel structure negatively. As a result, it could weaken the bonds between protein and water molecules, resulting in syneresis increment (Zahra and Mehmood&#x000a0;<xref rid="fsn370475-bib-0103" ref-type="bibr">2023</xref>).</p><p>However, further studies should be conducted to get a better understanding of the mechanism of interaction between milk protein and phenolic compounds in ivy leaf. A similar syneresis increment was observed in coriander extract&#x02010;fortified yogurts (Zahra and Mehmood&#x000a0;<xref rid="fsn370475-bib-0103" ref-type="bibr">2023</xref>). However, the lowered syneresis condition in the GY and BY could be more beneficial for the dairy industry in terms of efficient raw material management by reducing the separation of whey, less waste is produced, which allows for greater resource management and possibly whey valorization (Soumati et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0088" ref-type="bibr">2023</xref>). Furthermore, this syneresis reduction reduces the gelatin&#x02010;like agents' requirements, which is also beneficial for reducing the production cost that leads to higher profit margins while strengthening consumer acceptability by maintaining texture and appearance, like important sensory properties (Bong and Moraru&#x000a0;<xref rid="fsn370475-bib-0013" ref-type="bibr">2014</xref>).</p><p>Syneresis values of all the fortified yogurts and CY significantly increased over the storage time, and the highest syneresis of each yogurt was observed on Day 21. This syneresis increment during the storage could be associated with the pH reduction, which encourages the contraction of the casein micellar matrix, increasing whey separation (de Moura et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0019" ref-type="bibr">2019</xref>). A similar type of observation was reported by Shokery et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0086" ref-type="bibr">2017</xref>), who found an increase in syneresis during storage in fortified yogurts with 1% green tea and 0.9% moringa leaves extracts. However, the BY exhibited the lowest syneresis value compared with the CY on Day 21. This could be due to the interaction between milk protein and rich anthocyanin in blue butterfly pea flower extract (Vuong and Hongsprabhas&#x000a0;<xref rid="fsn370475-bib-0098" ref-type="bibr">2021</xref>). Accordingly, it was reported that increasing acidity and lowering pH conditions significantly increase the interaction between milk protein and anthocyanins (Vuong and Hongsprabhas&#x000a0;<xref rid="fsn370475-bib-0098" ref-type="bibr">2021</xref>). According to the finding, low pH levels significantly unfold the protein secondary structure and increase its binding affinity with anthocyanin (Ren et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0078" ref-type="bibr">2021</xref>). This could be the reason for observing a significantly lower syneresis rate in BY at the end of the storage.</p></sec><sec id="fsn370475-sec-0028"><label>3.3.3</label><title>Viscosity of the Fortified Yogurts</title><p>Figure&#x000a0;<xref rid="fsn370475-fig-0004" ref-type="fig">4</xref> illustrates the viscosity of the fortified yogurts during storage. The BY obtained the highest viscosity among all the yogurt treatments on Day 1, which was significant. Further, GY also exhibited a significantly higher viscosity value than CY. This viscosity increment in BY and GY could be due to the interaction between yogurt proteins and phenolic compounds of ginger and blue butterfly pea flower extracts. These phenolic compounds and protein interactions develop a more stable protein gel structure, eventually exhibiting a thicker and more viscous yogurt medium (Salehi et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0082" ref-type="bibr">2021</xref>). This could be a reason for observing higher consumer acceptability for the texture and mouthfeel of GY and BY. Similarly, previous studies showed that the addition of pennyroyal and nano&#x02010;encapsulated pennyroyal extracts (750 and 1000&#x02009;ppm) and olive leaf extracts (0.1% to 0.4%) to yogurt resulted in improved viscosity (Moghadam et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0063" ref-type="bibr">2021</xref>; Cho et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0017" ref-type="bibr">2020</xref>).</p><fig position="float" fig-type="FIGURE" id="fsn370475-fig-0004"><label>FIGURE 4</label><caption><p>Viscosity values in CY (unfortified yogurt), GY (ginger fortified yogurt), BY (blue butterfly pea flower fortified yogurt), and IY (ivy leaf fortified yogurt) during the 21&#x02010;day storage (one&#x02010;way analysis of variance followed by Tukey post hoc test).</p></caption><graphic xlink:href="FSN3-13-e70475-g010" position="anchor" id="jats-graphic-9"/></fig><p>In contrast, IY exhibited a significantly low viscosity value compared to the CY on Day 1, and this could be associated with the observed syneresis increment in IY. In other words, the developed phenolic and milk protein interaction in IY affected the gel structure negatively, which caused higher syneresis and low water&#x02010;holding capacity, which may lessen casein molecules' ability to bind water in the yogurt gel matrix (Oliveira et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0067" ref-type="bibr">2015</xref>). This phenomenon caused a decrease in the overall thickness and consistency of the yogurts (Agyemang et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0003" ref-type="bibr">2020</xref>).</p><p>The viscosity increment over storage in both GY and CY could be the result of continuous protein&#x02013;protein interaction in acid casein gel, wherein the bonds between the proteins rearrange as a result of the decreasing pH of yogurts during cold storage, finally contributing to increasing the gel firmness both during and after fermentation (Ozer et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0068" ref-type="bibr">1998</xref>). Similarly, the viscosity increment was observed with the storage time in rhubarb, grape seed, thyme, green tea, and mint extracts fortified yogurts (Bulut et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0014" ref-type="bibr">2021</xref>). However, the viscosity of BY and IY exhibited a decreasing trend after Day 7 and exhibited 32.65% and 36.83% viscosity reduction, respectively, on Day 21 compared to CY. This could be due to the starting of the protein gel structure breakdown in BY and IY, with the bioactive compound degradation in the yogurt. Thus resulting in a weakening gel structure with viscosity reduction (Gu&#x000e9;nard&#x02010;Lampron et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0031" ref-type="bibr">2020</xref>). Similar viscosity decrement during the storage time was observed in lotus leaves fortified yogurts (Kim et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0045" ref-type="bibr">2019</xref>).</p></sec><sec id="fsn370475-sec-0029"><label>3.3.4</label><title>Color of the Fortified Yogurts</title><p>The visible color of all the yogurts and the changes in the color characteristics of yogurts throughout the storage period are shown in Figure&#x000a0;<xref rid="fsn370475-fig-0005" ref-type="fig">5</xref> and Table&#x000a0;<xref rid="fsn370475-tbl-0002" ref-type="table">2</xref>, respectively. According to the results, the lightness (<italic toggle="yes">L</italic>*) of the IY was significantly lowered compared to the CY, while the IY showed <italic toggle="yes">a</italic>* value similar to the CY on Day 1. In contrast, adding ivy leave extract led to <italic toggle="yes">b</italic>* of the yogurts significantly on Day 1. This could be attributed to the dark yellow color of the plant extracts due to fiber and hydrocolloid components (Rinaldoni et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0079" ref-type="bibr">2012</xref>). Moreover, BY exhibited a significantly lower lightness value, which was 10.36% lower than the CY on Day 1. Moreover, it also showed significantly lower <italic toggle="yes">a</italic>* and <italic toggle="yes">b</italic>* values compared to CY on Day 1. This could be due to the dark blue anthocyanins of the blue butterfly pea flower (Tashtoush et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0092" ref-type="bibr">2016</xref>). Furthermore, these color changes were acceptable according to the results of the sensory analysis of this study. Regarding the GY, it did not significantly lower the <italic toggle="yes">L</italic>*, <italic toggle="yes">a</italic>*, and <italic toggle="yes">b</italic>* values compared to the CY on Day 1.</p><fig position="float" fig-type="FIGURE" id="fsn370475-fig-0005"><label>FIGURE 5</label><caption><p>Color of the CY (unfortified yogurt), GY (ginger fortified yogurt), BY (blue butterfly pea flower fortified yogurt), and IY (ivy leaf fortified yogurt) at Day 1.</p></caption><graphic xlink:href="FSN3-13-e70475-g005" position="anchor" id="jats-graphic-11"/></fig><table-wrap position="float" id="fsn370475-tbl-0002" content-type="TABLE"><label>TABLE 2</label><caption><p>Color parameters analysis of the fortified set yogurts during the 21&#x02010;day storage.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Color parameters</th><th align="center" rowspan="2" valign="bottom" colspan="1">Yogurt type</th><th align="center" colspan="4" valign="bottom" rowspan="1">Storage days</th></tr><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1">Day 1</th><th align="center" valign="bottom" rowspan="1" colspan="1">Day 7</th><th align="center" valign="bottom" rowspan="1" colspan="1">Day 14</th><th align="center" valign="bottom" rowspan="1" colspan="1">Day 21</th></tr></thead><tbody valign="top"><tr><td align="left" rowspan="4" valign="top" colspan="1">
+<italic toggle="yes">L</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">CY</td><td align="center" valign="top" rowspan="1" colspan="1">93.24&#x02009;&#x000b1;&#x02009;1.16<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">92.58&#x02009;&#x000b1;&#x02009;0.14<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">92.64&#x02009;&#x000b1;&#x02009;0.96<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">92.34&#x02009;&#x000b1;&#x02009;0.27<sup>aA</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">GY</td><td align="center" valign="top" rowspan="1" colspan="1">92.23&#x02009;&#x000b1;&#x02009;0.23<sup>aAB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">92.36&#x02009;&#x000b1;&#x02009;0.21<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">92.17&#x02009;&#x000b1;&#x02009;0.16<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">92.30&#x02009;&#x000b1;&#x02009;0.17<sup>aA</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">BY</td><td align="center" valign="top" rowspan="1" colspan="1">83.58&#x02009;&#x000b1;&#x02009;0.94<sup>bcC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">84.29&#x02009;&#x000b1;&#x02009;0.17<sup>abC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">84.90&#x02009;&#x000b1;&#x02009;0.12<sup>aC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">83.37&#x02009;&#x000b1;&#x02009;0.66<sup>cC</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">IY</td><td align="center" valign="top" rowspan="1" colspan="1">91.41&#x02009;&#x000b1;&#x02009;0.86<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">91.54&#x02009;&#x000b1;&#x02009;0.05<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">91.39&#x02009;&#x000b1;&#x02009;0.11<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">90.71&#x02009;&#x000b1;&#x02009;0.31<sup>bB</sup>
+</td></tr><tr><td align="left" rowspan="4" valign="top" colspan="1">
+<italic toggle="yes">a</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">CY</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.58&#x02009;&#x000b1;&#x02009;0.4<sup>bA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.26&#x02009;&#x000b1;&#x02009;0.05<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.26&#x02009;&#x000b1;&#x02009;0.19<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.38&#x02009;&#x000b1;&#x02009;0.07<sup>abC</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">GY</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.48&#x02009;&#x000b1;&#x02009;0.1<sup>cA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.31&#x02009;&#x000b1;&#x02009;0.11<sup>bB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.11&#x02009;&#x000b1;&#x02009;0.08<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.18&#x02009;&#x000b1;&#x02009;0.04<sup>aB</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">BY</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;2.21&#x02009;&#x000b1;&#x02009;0.17<sup>cB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;2.06&#x02009;&#x000b1;&#x02009;0.05<sup>bC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.91&#x02009;&#x000b1;&#x02009;0.03<sup>aC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;2.04&#x02009;&#x000b1;&#x02009;0.04<sup>bD</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">IY</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.40&#x02009;&#x000b1;&#x02009;0.09<sup>dA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;1.12&#x02009;&#x000b1;&#x02009;0.08<sup>cA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;0.99&#x02009;&#x000b1;&#x02009;0.06<sup>bA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;0.90&#x02009;&#x000b1;&#x02009;0.00<sup>aA</sup>
+</td></tr><tr><td align="left" rowspan="4" valign="top" colspan="1">
+<italic toggle="yes">b</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">CY</td><td align="center" valign="top" rowspan="1" colspan="1">7.19&#x02009;&#x000b1;&#x02009;0.29<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.13&#x02009;&#x000b1;&#x02009;0.18<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.34&#x02009;&#x000b1;&#x02009;0.23<sup>dC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.19&#x02009;&#x000b1;&#x02009;0.18<sup>aB</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">GY</td><td align="center" valign="top" rowspan="1" colspan="1">7.16&#x02009;&#x000b1;&#x02009;0.11<sup>bB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">6.89&#x02009;&#x000b1;&#x02009;0.15<sup>cB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.38&#x02009;&#x000b1;&#x02009;0.19<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.40&#x02009;&#x000b1;&#x02009;0.11<sup>aA</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">BY</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;2.83&#x02009;&#x000b1;&#x02009;0.17<sup>dC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;2.54&#x02009;&#x000b1;&#x02009;0.09<sup>c,C</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;2.03&#x02009;&#x000b1;&#x02009;0.11<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">&#x02212;2.26&#x02009;&#x000b1;&#x02009;0.14<sup>bC</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">IY</td><td align="center" valign="top" rowspan="1" colspan="1">7.97&#x02009;&#x000b1;&#x02009;0.19<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">6.89&#x02009;&#x000b1;&#x02009;0.11<sup>bB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.82&#x02009;&#x000b1;&#x02009;0.10<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.03&#x02009;&#x000b1;&#x02009;0.07<sup>bB</sup>
+</td></tr></tbody></table><table-wrap-foot id="fsn370475-ntgp-0003"><fn id="fsn370475-note-0004"><p>
+<italic toggle="yes">Note:</italic> Each data point represents the mean&#x02009;&#x000b1;&#x02009;SD (<italic toggle="yes">n</italic>&#x02009;=&#x02009;9); <sup>a&#x02013;d</sup>different letters indicate a significant (<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05) difference in the same row, and <sup>A&#x02013;D</sup>different letters indicate a significant difference in the same column (<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05) (one&#x02010;way analysis of variance followed by Tukey post hoc test).</p></fn><fn id="fsn370475-note-0005"><p>Abbreviations: BY, blue butterfly pea flower fortified yogurt; CY, unfortified yogurt; GY, ginger fortified yogurt; IY, ivy leaf fortified yogurt.</p></fn></table-wrap-foot></table-wrap><p>In addition, the lightness of CY, GY, and BY did not change significantly during storage. However, the lightness of the IY was significantly reduced compared with the initial lightness value on Day 1, and it could be associated with the degradation and oxidation of phenolic compounds to develop pheophorbide and pheophytin&#x02010;like compounds, which contribute to the dark color formation (Medic et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0060" ref-type="bibr">2022</xref>). Similar lightness reductions were reported in green tea, moringa leaves, dill fortified yogurts on Day 1 (Shokery et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0086" ref-type="bibr">2017</xref>; Tizghadam et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0093" ref-type="bibr">2021</xref>). Moreover, it was observed that the <italic toggle="yes">a</italic>* value of all the yogurts was significantly increased (increased the redness) over storage, and <italic toggle="yes">a</italic>* values of all the yogurt samples except BY were significantly higher than that of the CY at the end of the storage. During the storage, the <italic toggle="yes">b</italic>* value of the CY remained the same as Day 1, while the <italic toggle="yes">b</italic>* values of GY and BY were significantly increased over the storage. However, the <italic toggle="yes">b</italic>* value of the IY was significantly lowered over storage. Similarly, date palm, lemon grass, scent leaf, pawpaw leaf, and sorghum stalk&#x02010;like extract fortification also exhibited the potential to change the color parameters of yogurts (Almusallam et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0006" ref-type="bibr">2021</xref>). Moreover, these color changes observed on Day 1 were accepted by the sensory panel according to the sensory results (Figure&#x000a0;<xref rid="fsn370475-fig-0001" ref-type="fig">1</xref>).</p></sec></sec><sec id="fsn370475-sec-0030"><label>3.4</label><title>Fourier Transform Infrared Spectroscopy (FTIR) Analysis of Fortified Yogurts</title><p>The obtained FTIR spectra of all the yogurts are shown in Figure&#x000a0;<xref rid="fsn370475-fig-0006" ref-type="fig">6</xref>. According to the results, the yogurts exhibited broad peaks in the region 3250&#x02013;3300&#x02009;cm<sup>&#x02212;1</sup> related to the stretching vibration of &#x02013;OH groups in lactose and water molecules (Saberi et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0081" ref-type="bibr">2023</xref>). IR peaks observed in 2922&#x02013;2925&#x02009;cm<sup>&#x02212;1</sup> were associated with the symmetric &#x02010;CH<sub>2</sub> stretching of fatty acids (Saberi et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0081" ref-type="bibr">2023</xref>). The FTIR peak intensity for fatty acids follows the trend; CY &#x0003c; GY &#x0003c; BY = IY, which can be attributed to differences in the fatty acid content or composition of plant extracts. For instance, ginger contains different fatty acids, including linoleic acid, palmitic acid, and Oleic acid (Oforma et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0066" ref-type="bibr">2019</xref>). Furthermore, blue butterfly pea flowers consist of phytanic acid and linoleic acid&#x02010;like fatty acids (Shen et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0085" ref-type="bibr">2016</xref>). Although there were no significant differences in fat, as all have approximately 3.1% fat (Table&#x000a0;<xref rid="fsn370475-tbl-0001" ref-type="table">1</xref>), but the different fatty acid compositions (types and quantity) and the sensitivity of the FTIR can be the cause. Similarly, higher peak intensities can be observed at 2855&#x02013;2856&#x02009;cm<sup>&#x02212;1</sup> compared with the CY, corresponding to methylene in lipids and the asymmetric &#x02010;CH<sub>2</sub> stretching of methylene chains. This further supports that the introduction of plant materials alters the fatty acid composition in the yogurt (Saberi et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0081" ref-type="bibr">2023</xref>; Turek et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0095" ref-type="bibr">2023</xref>).</p><fig position="float" fig-type="FIGURE" id="fsn370475-fig-0006"><label>FIGURE 6</label><caption><p>FTIR spectrums of the CY (unfortified yogurt), GY (ginger fortified yogurt), BY (blue butterfly pea flower fortified yogurt), and IY (ivy leaf fortified yogurt).</p></caption><graphic xlink:href="FSN3-13-e70475-g003" position="anchor" id="jats-graphic-13"/></fig><p>Furthermore, the peak intensities in IY, BY, and GY yogurts compared with the CY, follow the trend; CY &#x0003c; IY &#x0003c; BY &#x0003c; GY at 1743&#x02013;1744&#x02009;cm<sup>&#x02212;1</sup>. This peak corresponds to the C=O stretching of ester carbonyl groups, which is indicative of triglycerides (Turek et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0095" ref-type="bibr">2023</xref>). The increasing intensity can be attributed to the introduction of bioactive compounds from the plant materials, which may alter the lipid composition in the fortified yogurts. Moreover, this enhanced peak intensity in fortified yogurts could also be due to the formation of more ester compounds with elevated microbial activity (Liu et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0053" ref-type="bibr">2004</xref>). In detail, the higher lactic acid bacteria proteolysis casein and produce more amino acids, which are converted to alcohol or carboxylic acids through a series of reactions and form more esters or thio&#x02010;esters by catalyzing the reaction between alcohols and carboxylic acid with the esterases or acyltransferases (Mayo et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0059" ref-type="bibr">2010</xref>). The peaks observed at 1600&#x02013;1700&#x02009;cm<sup>&#x02212;1</sup> showed the existence of absorbed water and Amide I, which is associated with the milk protein (Jaya&#x000a0;<xref rid="fsn370475-bib-0041" ref-type="bibr">2009</xref>). These peaks are related to 80% C&#x02009;=&#x02009;O stretch, 10% C&#x02010;N stretch, and 10% N&#x02013;H bend (Jaya&#x000a0;<xref rid="fsn370475-bib-0041" ref-type="bibr">2009</xref>). This milk protein region consists of two major milk proteins such as casein (&#x003b1;&#x02010;casein, &#x003b2;&#x02010;casein, and &#x003ba;&#x02010;casein) and whey (&#x003b2;&#x02010;lactoglobulin, &#x003b1;&#x02010;lactalbumin, and serum albumin). Moreover, Lactose typically exhibits high absorptions (C&#x02010;O stretching) in the range of 1100&#x02013;1000&#x02009;cm<sup>&#x02212;1</sup>, and IR peaks exhibited at 1029&#x02013;1037&#x02009;cm<sup>&#x02212;1</sup> confirmed the presence of lactose in all the yogurt samples (Balan et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0009" ref-type="bibr">2020</xref>). The 986&#x02013;987&#x02009;cm<sup>&#x02212;1</sup> peaks represented the C&#x02010;H bending (Papadopoulou et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0070" ref-type="bibr">2021</xref>).</p><p>According to the secondary structure analysis (Figure&#x000a0;<xref rid="fsn370475-fig-0007" ref-type="fig">7</xref>) of the milk protein, peaks between 1651 and 1653&#x02009;cm<sup>&#x02212;1</sup> represented the &#x003b1;&#x02010;helix structure, while large loops are represented in 1656&#x02013;1658&#x02009;cm<sup>&#x02212;1</sup> in all the yogurts. Furthermore, the peaks between 1619 and 1642&#x02009;cm<sup>&#x02212;1</sup> are assigned to &#x003b2;&#x02010;sheets, whereas parallel &#x003b2;&#x02010;sheets are assigned to the peaks between 1626 and 1640&#x02009;cm<sup>&#x02212;1</sup> in yogurts. Additionally, the presence of random coil structure has exhibited peaks between 1644&#x02009;&#x02013;1648&#x02009;cm<sup>&#x02212;1</sup> (Pelton and McLean&#x000a0;<xref rid="fsn370475-bib-0073" ref-type="bibr">2000</xref>; Bogahawaththa et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0012" ref-type="bibr">2018</xref>). The peaks at 1665<sup>1</sup>&#x02013;1684&#x02009;cm<sup>&#x02212;1</sup> represented the &#x003b2;&#x02010;turns, while 1688&#x02013;1697&#x02009;cm<sup>&#x02212;1</sup> exhibited the aggregated &#x003b2;&#x02010;sheets.</p><fig position="float" fig-type="FIGURE" id="fsn370475-fig-0007"><label>FIGURE 7</label><caption><p>Second derivative of the Amide I region of the CY (unfortified yogurt), GY (ginger fortified yogurt), BY (blue butterfly pea flower fortified yogurt), and IY (ivy leaf fortified yogurt).</p></caption><graphic xlink:href="FSN3-13-e70475-g004" position="anchor" id="jats-graphic-15"/></fig><p>The peak intensities of fortified yogurts increased in &#x003b2;&#x02010;sheets at 1624&#x02013;1642&#x02009;cm<sup>&#x02212;1</sup> could be associated with protein structure refolding and stabilize with plant extracts with phenolic and protein interactions (Wijegunawardhana et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0101" ref-type="bibr">2024a</xref>). Furthermore, the formation of protein aggregates with the casein precipitation is confirmed by increased random coils at 1644&#x02013;1648&#x02009;cm<sup>&#x02212;1</sup> (Wijegunawardhana et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0102" ref-type="bibr">2024b</xref>), and it can be observed that the incorporation of plant extract enhances the protein aggregation in all the fortified yogurts. Furthermore, increased &#x003b1;&#x02010;helix peak intensities in GY exhibited strong phenolic and protein interaction. The increase in intensity for loops at 1656&#x02009;cm<sup>&#x02212;1</sup> could be due to the dissociation of &#x003ba;&#x02010;casein from micelles and the establishment of hydrogen bonds between &#x003b1;<sub>S</sub>&#x02010;casein and &#x003b2;&#x02010;casein with or within the micelle (Markoska et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0057" ref-type="bibr">2019</xref>). Additionally, the increased &#x003b2;&#x02010;turns peak intensities in fortified yogurts suggested the casein participation in forming aggregates. This finding confirms that the fortification of ginger, blue butterfly pea flower, and ivy leaves has a significant impact on protein secondary structure with phenol and protein interactions (Wijegunawardhana et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0101" ref-type="bibr">2024a</xref>). Similar protein secondary structure changes were observed in the study of phenolic compounds and major whey protein behavior evaluation (Zhang et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0104" ref-type="bibr">2014</xref>).</p><p>Moreover, Lactose exhibits high absorptions (C&#x02010;O stretching) in the range of 1100&#x02013;1000&#x02009;cm<sup>&#x02212;1</sup>, and IR peaks exhibited at 1029&#x02013;1037&#x02009;cm<sup>&#x02212;1</sup> confirmed the presence of lactose in all the yogurt samples (Balan et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0009" ref-type="bibr">2020</xref>). Furthermore, the highest peak intensity associated with lactose was observed in CY, followed by GY, BY, and IY, respectively. According to findings, microbial growth is inversely proportional to the lactose content (Rodionova et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0080" ref-type="bibr">2022</xref>) and it can be suggested that the fermentation and the lactose to lactic acid conversion is more efficient with the presence of plant materials. This can be further justified by the pH, acidity (Figure&#x000a0;<xref rid="fsn370475-fig-0002" ref-type="fig">2A,B</xref>), and viable microbial count (Table&#x000a0;<xref rid="fsn370475-tbl-0003" ref-type="table">3</xref>) of the yogurt, which exhibited lower pH levels and higher acidity and microbial count in fortified yogurts than the CY.</p><table-wrap position="float" id="fsn370475-tbl-0003" content-type="TABLE"><label>TABLE 3</label><caption><p>Logarithmic count (Log CFU mL<sup>&#x02212;1</sup>) of the number of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Streptococcus thermophilus</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lactobacillus delbrueckii</italic>
+</styled-content> subsp. <italic toggle="no">bulgaricus,</italic> and yeast and mold count in fortified yogurts during the 21&#x02010;day storage.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Lactic acid bacteria</th><th align="center" rowspan="2" valign="bottom" colspan="1">Yogurt</th><th align="center" colspan="4" valign="bottom" rowspan="1">Storage days</th></tr><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1">Day 1</th><th align="center" valign="bottom" rowspan="1" colspan="1">Day 7</th><th align="center" valign="bottom" rowspan="1" colspan="1">Day 14</th><th align="center" valign="bottom" rowspan="1" colspan="1">Day 21</th></tr></thead><tbody valign="top"><tr><td align="left" rowspan="4" valign="top" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">S.&#x02009;thermophilus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">CY</td><td align="center" valign="top" rowspan="1" colspan="1">8.81&#x02009;&#x000b1;&#x02009;0.01<sup>cC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.87&#x02009;&#x000b1;&#x02009;0.00<sup>bB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.93&#x02009;&#x000b1;&#x02009;0.01<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.68&#x02009;&#x000b1;&#x02009;0.02<sup>dA</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">GY</td><td align="center" valign="top" rowspan="1" colspan="1">8.82&#x02009;&#x000b1;&#x02009;0.01<sup>bC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.82&#x02009;&#x000b1;&#x02009;0.01<sup>bC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">9.03&#x02009;&#x000b1;&#x02009;0.01<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.56&#x02009;&#x000b1;&#x02009;0.04<sup>cB</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">BY</td><td align="center" valign="top" rowspan="1" colspan="1">8.92&#x02009;&#x000b1;&#x02009;0.01<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.83&#x02009;&#x000b1;&#x02009;0.02<sup>bC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.75&#x02009;&#x000b1;&#x02009;0.01<sup>cC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.50&#x02009;&#x000b1;&#x02009;0.04<sup>dC</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">IY</td><td align="center" valign="top" rowspan="1" colspan="1">8.95&#x02009;&#x000b1;&#x02009;0.01<sup>bA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.98&#x02009;&#x000b1;&#x02009;0.01<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.95&#x02009;&#x000b1;&#x02009;0.01<sup>bB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.61&#x02009;&#x000b1;&#x02009;0.03<sup>cB</sup>
+</td></tr><tr><td align="left" rowspan="4" valign="top" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">L.&#x02009;delbrueckii</italic>
+</styled-content> subsp. <italic toggle="yes">bulgaricus</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">CY</td><td align="center" valign="top" rowspan="1" colspan="1">6.88&#x02009;&#x000b1;&#x02009;0.01<sup>cB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.38&#x02009;&#x000b1;&#x02009;0.02<sup>bB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.53&#x02009;&#x000b1;&#x02009;0.04<sup>aC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">6.38&#x02009;&#x000b1;&#x02009;0.05<sup>dB</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">GY</td><td align="center" valign="top" rowspan="1" colspan="1">6.88&#x02009;&#x000b1;&#x02009;0.01<sup>cB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.53&#x02009;&#x000b1;&#x02009;0.02<sup>bA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.75&#x02009;&#x000b1;&#x02009;0.01<sup>aA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">6.45&#x02009;&#x000b1;&#x02009;0.03<sup>dA</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">BY</td><td align="center" valign="top" rowspan="1" colspan="1">6.75&#x02009;&#x000b1;&#x02009;0.02<sup>aC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">6.76&#x02009;&#x000b1;&#x02009;0.01<sup>aD</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">6.66&#x02009;&#x000b1;&#x02009;0.02<sup>bD</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">6.32&#x02009;&#x000b1;&#x02009;0.03<sup>cC</sup>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">IY</td><td align="center" valign="top" rowspan="1" colspan="1">6.95&#x02009;&#x000b1;&#x02009;0.01<sup>cA</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.26&#x02009;&#x000b1;&#x02009;0.03<sup>bC</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.61&#x02009;&#x000b1;&#x02009;0.01<sup>aB</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">6.39&#x02009;&#x000b1;&#x02009;0.02<sup>dB</sup>
+</td></tr><tr><td align="left" rowspan="4" valign="top" colspan="1">Yeast and mold</td><td align="center" valign="top" rowspan="1" colspan="1">CY</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">2.19&#x02009;&#x000b1;&#x02009;0.19</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">GY</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">BY</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">IY</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td><td align="center" valign="top" rowspan="1" colspan="1">ND</td></tr></tbody></table><table-wrap-foot id="fsn370475-ntgp-0004"><fn id="fsn370475-note-0006"><p>
+<italic toggle="yes">Note:</italic> Each data point represents the mean&#x02009;&#x000b1;&#x02009;SD (<italic toggle="yes">n</italic>&#x02009;=&#x02009;9); <sup>a&#x02013;d</sup>different letters indicate a significant difference in the same row (<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05), and <sup>A&#x02013;D</sup>different letters indicate a significant difference in the same column (<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;0.05) (one&#x02010;way analysis of variance followed by Tukey post hoc test).</p></fn><fn id="fsn370475-note-0007"><p>Abbreviations: BY, blue butterfly pea flower fortified yogurt; CY, unfortified yogurt; GY, ginger fortified yogurt; IY, ivy leaf fortified yogurt.</p></fn></table-wrap-foot></table-wrap></sec><sec id="fsn370475-sec-0031"><label>3.5</label><title>Microstructure of the Fortified Yogurts</title><p>The microstructure of all the fortified yogurts obtained with a scanning electron microscope at a 15,000&#x02010;fold magnification is presented in Figure&#x000a0;<xref rid="fsn370475-fig-0008" ref-type="fig">8</xref>. These yogurts exhibited the branched protein structure with many void areas occupied by whey and lactic acid bacteria. Furthermore, it was shown that the fortified plant extract had a substantial impact on the microstructure when comparing the obtained SEM images of the fortified yogurts with CY. The microstructures of the CY (Figure&#x000a0;<xref rid="fsn370475-fig-0008" ref-type="fig">8A</xref>) and IY (Figure&#x000a0;<xref rid="fsn370475-fig-0008" ref-type="fig">8D</xref>) were very coarse, low compact, and low interconnected chains having large granules. Furthermore, IY exhibited a less dense yogurt structure, which consisted of large aggregates compared with the CY. This type of structure caused fast deformation, poor texture parameters, and high syneresis (Domaga&#x00142;a&#x000a0;<xref rid="fsn370475-bib-0021" ref-type="bibr">2009</xref>). This fact is further supported by the syneresis (Figure&#x000a0;<xref rid="fsn370475-fig-0003" ref-type="fig">3</xref>) and viscosity data (Figure&#x000a0;<xref rid="fsn370475-fig-0004" ref-type="fig">4</xref>) of this study, which exhibited higher syneresis and lower viscosity for IY and CY. However, the addition of ginger Figure&#x000a0;<xref rid="fsn370475-fig-0008" ref-type="fig">8B</xref> and blue butterfly pea flower Figure&#x000a0;<xref rid="fsn370475-fig-0008" ref-type="fig">8C</xref> extract significantly led to a reduction in the protein aggregates size and became more compact and denser. Moreover, GY and BY observed more interconnected chains and small granules of casein micelles joined by thinner fibers. Furthermore, this microstructure reduces the potential of protein rearrangement during storage, which eventually reduces the possibility of syneresis in yogurts (Qiu et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0077" ref-type="bibr">2021</xref>; Fiszman et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0026" ref-type="bibr">1999</xref>). Furthermore, this was matched with syneresis results of GY and BY, which showed low syneresis rate and higher viscosity. Similarly, Qiu et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0077" ref-type="bibr">2021</xref>) reported that fortification of rose extract exhibited a more compact gel structure and exhibited high water&#x02010;holding capacity in the yogurts.</p><fig position="float" fig-type="FIGURE" id="fsn370475-fig-0008"><label>FIGURE 8</label><caption><p>15,000&#x000d7; magnified SEM images of the microstructure of CY (A) (unfortified yogurt), GY (B) (ginger fortified yogurt), BY (C) (blue butterfly pea flower fortified yogurt), and IY (D) (ivy leaf fortified yogurt).</p></caption><graphic xlink:href="FSN3-13-e70475-g006" position="anchor" id="jats-graphic-17"/></fig></sec><sec id="fsn370475-sec-0032"><label>3.6</label><title>Viability of Fermentative Bacteria</title><p>The obtained viability counts of fermentative bacteria are shown in Table&#x000a0;<xref rid="fsn370475-tbl-0003" ref-type="table">3</xref>. According to the results of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">S.&#x02009;thermophilus</italic>
+</styled-content>, the aqueous extracts of blue butterfly pea flower and ivy leaf fortification caused a significant increment in the viability of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">S.&#x02009;thermophilus</italic>
+</styled-content> on Day 1 compared with the CY. However, GY exhibited no significant difference in viable count compared to the CY on Day 1. During storage, the <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">S.&#x02009;thermophilus</italic>
+</styled-content> count of CY and GY was significantly increased up to Day 14 and then significantly reduced on Day 21, while IY exhibited the viability count increment up to Day 7 and significantly dropped during the rest of the storage period. However, a viability count reduction trend was observed during storage just after Day 1 in BY.</p><p>Regarding the viability of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">L.&#x02009;delbrueckii</italic>
+</styled-content> subsp. <italic toggle="yes">bulgaricus</italic>, IY exhibited a significantly higher viability of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">L.&#x02009;delbrueckii</italic>
+</styled-content> subsp. <italic toggle="yes">bulgaricus</italic>, while the BY exhibited a significantly lower viable count on Day 1 compared with the CY. However, GY exhibited no significant difference compared with the CY. As time continued, the viable count of CY, GY, and IY was increased significantly up to Day 14 and significantly reduced thereafter. However, the viable count of BY was significantly reduced after Day 7 and exhibited the minimum viability count at the end of the storage.</p><p>The reason for obtaining a higher viability count with the fortification could be due to the available nutrients in the fortifying ingredients, such as fibers and polyphenols, which enhance the metabolic activity of the microorganisms, eventually increasing the growth rate (Dhawi et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0020" ref-type="bibr">2020</xref>; Abdullah et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0002" ref-type="bibr">2023</xref>). However, as time went on, the low pH and high acidity conditions could have prevented and slowed down the growth of these bacteria (Jaster et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0040" ref-type="bibr">2018</xref>; Almusallam et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0006" ref-type="bibr">2021</xref>). A similar viability count reduction during storage was observed in moringa and fenugreek&#x02010;fortified yogurts, oats, and raspberry&#x02010;fortified yogurts (Dhawi et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0020" ref-type="bibr">2020</xref>; Savas and Akan&#x000a0;<xref rid="fsn370475-bib-0083" ref-type="bibr">2021</xref>). However, the observed <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">S.&#x02009;thermophilus</italic>
+</styled-content> viable count reduction over storage in BY after Day 1 could be due to the formation of toxic compounds by the degradation of phenolic compounds in blue butterfly pea flower extracts during fermentation (Kynadi and Suchithra&#x000a0;<xref rid="fsn370475-bib-0048" ref-type="bibr">2017</xref>).</p><p>However, the sum of both lactic acid bacteria's viable counts of all the yogurts was above 7 Log CFU mL<sup>&#x02212;1</sup> throughout the storage period, which was acceptable with the Alimentarius Codex specification (Codex <xref rid="fsn370475-bib-0107" ref-type="bibr">2011</xref>) that states 7 Log CFU mL<sup>&#x02212;1</sup> as the minimum viable count for yogurts.</p><p>The yeast and mold count of the yogurt is a significant indicator that can be used to evaluate its hygiene quality and shelf life. However, yeast and mold were not detected throughout the storage period in all the fortified yogurts and exhibited acceptable shelf life until Day 21 (Table&#x000a0;<xref rid="fsn370475-tbl-0003" ref-type="table">3</xref>). This could be associated with the antimicrobial properties of different phytochemicals found in plant extracts, including alkaloids, flavonoids, tannins, and saponins (Kha and Le&#x000a0;<xref rid="fsn370475-bib-0044" ref-type="bibr">2021</xref>). Moreover, the yeast and mold count was not detected in the CY until Day 14. However, on Day 21, 2.19&#x02009;&#x000b1;&#x02009;0.19 Log CFU mL<sup>&#x02212;1</sup> was observed in the CY, though it was an acceptable level according to the SLSI guidelines, which indicate that the yeast and mold count should be &#x0003c;&#x02009;10&#x02009;CFU mL<sup>&#x02212;1</sup>. Similarly, a study found that coriander leaf powder&#x02010;fortified yogurt was free from yeast and molds, while unfortified yogurt showed yeast and mold growth over storage (Gundogdu et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0033" ref-type="bibr">2020</xref>).</p></sec><sec id="fsn370475-sec-0033"><label>3.7</label><title>Total Phenolic Content and Antioxidant Properties of Fortified Yogurt</title><p>The results of the total phenolic content, DPPH, and ABTS radical scavenging activities of the fortified yogurts are shown in Figure&#x000a0;<xref rid="fsn370475-fig-0009" ref-type="fig">9A&#x02013;C</xref>, respectively. The total phenolic content and antioxidant activity of GY, BY, and IY significantly improved on Day 1 compared with the CY. The increased total phenolic and antioxidant activity with the plant extract fortification could be associated with the availability of specific phytochemicals such as phenolic and flavonoid compounds (Akan et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0004" ref-type="bibr">2022</xref>). Especially, ginger contains gingerols, shogaols, paradols, and gingerdions&#x02010;like compounds; blue butterfly pea flower contains delphinidin derivatives, rutin, and ternatins&#x02010;like compounds; and ivy leaves contain gallic acid, kaempferol, quercetin, rutin, ferulic acid, and caffeic acid&#x02010;like compounds (Nair et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0064" ref-type="bibr">2015</xref>; Al&#x02010;Madhagy et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0005" ref-type="bibr">2019</xref>; Ghafoor et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0028" ref-type="bibr">2020</xref>). These compounds could contribute to the total phenolic and antioxidant content of fortified yogurts. Similarly, Aamir et&#x000a0;al.&#x000a0;(<xref rid="fsn370475-bib-0001" ref-type="bibr">2023</xref>) reported that fortification of ginger powder significantly increased the total phenolic content of the yogurts compared to unfortified yogurts, though the content was lower than that observed in the present study. In contrast, fortification of 1% ginger powder to yogurts showed higher total phenolic content compared with this study (Felfoul et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0025" ref-type="bibr">2017</xref>), and this could be due to the processing conditions, analytical methods, extraction method, environmental conditions, and calibration procedures (Michiu et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0062" ref-type="bibr">2022</xref>). Regarding the storage study, all the yogurts exhibited total phenolic content and antioxidant activity, which improved the trend over storage. This could be attributed to the peptides produced by the breakdown, which are generated by microbial activity. These peptides and free amino acids react with DPPH and ABTS&#x02010;like reagents, reducing their reactivity and indicating increased antioxidant activity in the yogurt (Chalid et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0015" ref-type="bibr">2021</xref>). Moreover, p&#x02010;hydroxybenzoic acid and vanillic acid&#x02010;like phenolic acids produced during the action of lactic acid bacteria fermentation in yogurt also support the enhancement of available total phenolic and antioxidant activity during storage (Blum&#x000a0;<xref rid="fsn370475-bib-0011" ref-type="bibr">1998</xref>). This antioxidant enhancement could be more beneficial for quick wound healing in the human body, has anti&#x02010;aging properties, and prevents the risk of cardiovascular diseases and cancers (Martemucci et&#x000a0;al.&#x000a0;<xref rid="fsn370475-bib-0058" ref-type="bibr">2022</xref>).</p><fig position="float" fig-type="FIGURE" id="fsn370475-fig-0009"><label>FIGURE 9</label><caption><p>Total phenolic content (A) (&#x003bc;g Gallic acid equivalent mL<sup>&#x02212;1</sup>), DPPH radical scavenging activity (B) (&#x003bc;g Ascorbic acid equivalent mL<sup>&#x02212;1</sup>), and ABTS radical scavenging activity (C) (&#x003bc;g Ascorbic acid equivalent mL<sup>&#x02212;1</sup>) in CY (unfortified yogurt), GY (ginger fortified yogurt), BY (blue butterfly pea flower fortified yogurt), and IY (ivy leaf fortified yogurt) during the 21&#x02010;day storage (one&#x02010;way analysis of variance followed by Tukey post hoc test).</p></caption><graphic xlink:href="FSN3-13-e70475-g007" position="anchor" id="jats-graphic-19"/></fig></sec></sec><sec sec-type="conclusions" id="fsn370475-sec-0034"><label>4</label><title>Conclusion</title><p>In this study, 2% ginger, 2% ivy leaves, and 3% blue butterfly pea flower aqueous extracts fortified yogurts showed better properties. Results revealed that these plant extracts could potentially improve sensory qualities even though they were insignificant. Additionally, ginger, ivy leaf, and blue butterfly pea flower aqueous extracts improved the viability of lactic acid bacteria significantly. It promoted a lower pH value and higher acidity conditions in fortified yogurts without altering the basic nutrition profile. Furthermore, fortification of ginger and blue butterfly pea flower extracts reduced the protein aggregate size and formed a denser gel structure, thus improving the viscosity and water&#x02010;holding capacity. In contrast, adding ivy leaf extract decreased water&#x02010;holding capacity and viscosity in the fortified yogurts. Additionally, GY, BY, and IY can enhance the antioxidant and total phenolic content, and incorporating these plant extracts into yogurt could offer more significant health benefits. Thus, ginger and blue butterfly pea flowers can be introduced to create value&#x02010;added yogurt products with enhanced sensory appeal and functional benefits. These findings could be beneficial for the future commercialization of plant extract&#x02010;fortified functional yogurt as a product that attracts consumers' preference due to properties such as the ability to achieve a superior yogurt texture, minimize the use of additional additives for this process, and maintain stability throughout its shelf life.</p></sec><sec id="fsn370475-sec-0041"><title>Author Contributions</title><p>
+<bold>Yohan Jayaweera:</bold> formal analysis (equal), investigation (equal), methodology (equal), writing &#x02013; original draft (equal). <bold>Mayumi Silva:</bold> conceptualization (equal), funding acquisition (equal), project administration (equal), supervision (equal), validation (equal), writing &#x02013; review and editing (equal). <bold>Jayani Chandrapala:</bold> supervision (equal), validation (equal), writing &#x02013; review and editing (equal). <bold>Rumesh Liyanage:</bold> supervision (equal), validation (equal), writing &#x02013; review and editing (equal). <bold>K. G. L. R. Jayathunge:</bold> supervision (equal), validation (equal), writing &#x02013; review and editing (equal). <bold>Amali U. Alahakoon:</bold> conceptualization (equal), funding acquisition (equal), project administration (equal), supervision (equal), writing &#x02013; review and editing (equal).</p></sec><sec id="fsn370475-sec-0036"><title>Ethics Statement</title><p>The authors have nothing to report.</p></sec><sec sec-type="conclusions" id="fsn370475-sec-0037"><title>Consent</title><p>Written informed consent was obtained from all study participants.</p></sec><sec sec-type="COI-statement" id="fsn370475-sec-0038"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec></body><back><ack id="fsn370475-sec-0035"><title>Acknowledgments</title><p>The authors would like to acknowledge the Department of Biosystems Technology, Faculty of Technology, University of Sri Jayewardenepura, Sri Lanka, Department of Material Science and Engineering, University of Moratuwa, Sri Lanka, for their support in carrying out this research study. The research was funded by the research council of the University of Sri Jayewardenepura, Sri Lanka, under grant no. ASP/01/RE/TEC/2022/71. Open access publishing facilitated by RMIT University, as part of the Wiley &#x02010; RMIT University agreement via the Council of Australian University Librarians.</p></ack><sec sec-type="data-availability" id="fsn370475-sec-0040"><title>Data Availability Statement</title><p>Data will be made available on request.</p></sec><ref-list content-type="cited-references" id="fsn370475-bibl-0001"><title>References</title><ref id="fsn370475-bib-0001"><mixed-citation publication-type="journal" id="fsn370475-cit-0001">
+<string-name>
+<surname>Aamir</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Arshad</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Afzaal</surname>
+</string-name>, et&#x000a0;al. <year>2023</year>. &#x0201c;<article-title>Physicochemical and Sensory Profile of Spiced Yogurt as Affected by Ginger Supplementation</article-title>.&#x0201d; <source>International Journal of Food Properties</source>
+<volume>26</volume>, no. <issue>2</issue>: <fpage>2732</fpage>&#x02013;<lpage>2741</lpage>. <pub-id pub-id-type="doi">10.1080/10942912.2023.2254021</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0002"><mixed-citation publication-type="journal" id="fsn370475-cit-0002">
+<string-name>
+<surname>Abdullah</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Arshad</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Kaleem</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Iqtedar</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Aftab</surname>
+</string-name>, and <string-name>
+<given-names>F.</given-names>
+<surname>Saleem</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Assessment of Angiotensin Converting Enzyme Inhibitory Activity and Quality Attributes of Yoghurt Enriched With <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Cinnamomum verum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Elettaria cardamomum</italic>
+</styled-content>, <italic toggle="yes">Beta vulgaris</italic> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Brassica oleracea</italic>
+</styled-content>
+</article-title>.&#x0201d; <source>Saudi Journal of Biological Sciences</source>
+<volume>30</volume>, no. <issue>2</issue>: <elocation-id>103556</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.sjbs.2023.103556</pub-id>.<pub-id pub-id-type="pmid">36698857</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0003"><mixed-citation publication-type="journal" id="fsn370475-cit-0003">
+<string-name>
+<surname>Agyemang</surname>, <given-names>P. N.</given-names>
+</string-name>, <string-name>
+<given-names>P. T.</given-names>
+<surname>Akonor</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Tortoe</surname>
+</string-name>, <string-name>
+<given-names>P. N. T.</given-names>
+<surname>Johnsona</surname>
+</string-name>, and <string-name>
+<given-names>J.</given-names>
+<surname>Manu&#x02010;Aduening</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Effect of the Use of Starches of Three New Ghanaian Cassava Varieties as a Thickener on the Physicochemical, Rheological and Sensory Properties of Yoghurt</article-title>.&#x0201d; <source>Scientific African</source>
+<volume>9</volume>: <elocation-id>e00521</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.sciaf.2020.e00521</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0004"><mixed-citation publication-type="journal" id="fsn370475-cit-0004">
+<string-name>
+<surname>Akan</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Yerlikaya</surname>
+</string-name>, <string-name>
+<given-names>O. Y.</given-names>
+<surname>Bayram</surname>
+</string-name>, and <string-name>
+<given-names>O.</given-names>
+<surname>Kinik</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>The Effect of Aqueous Extracts of Some Plants on In&#x000a0;Vitro Antioxidant and Antidiabetic Activity of Probiotic Yogurt</article-title>.&#x0201d; <source>Journal of Food Science and Technology</source>
+<volume>59</volume>: <fpage>3359</fpage>&#x02013;<lpage>3366</lpage>. <pub-id pub-id-type="doi">10.1007/s13197-021-05319-7</pub-id>.<pub-id pub-id-type="pmid">35875228</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0005"><mixed-citation publication-type="journal" id="fsn370475-cit-0005">
+<string-name>
+<surname>Al&#x02010;Madhagy</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<given-names>N. M.</given-names>
+<surname>Mostafa</surname>
+</string-name>, <string-name>
+<given-names>F. S.</given-names>
+<surname>Youssef</surname>
+</string-name>, <string-name>
+<given-names>G. E.</given-names>
+<surname>Awad</surname>
+</string-name>, <string-name>
+<given-names>O. A.</given-names>
+<surname>Eldahshan</surname>
+</string-name>, and <string-name>
+<given-names>A. N. B.</given-names>
+<surname>Singab</surname>
+</string-name>. <year>2019</year>. &#x0201c;<article-title>Metabolic Profiling of a Polyphenolic&#x02010;Rich Fraction of <italic toggle="yes">Coccinia grandis</italic> Leaves Using LC&#x02010;ESI&#x02010;MS/MS and In&#x000a0;Vivo Validation of Its Antimicrobial and Wound Healing Activities</article-title>.&#x0201d; <source>Food Bioscience</source>
+<volume>10</volume>, no. <issue>10</issue>: <fpage>6267</fpage>&#x02013;<lpage>6275</lpage>.</mixed-citation></ref><ref id="fsn370475-bib-0006"><mixed-citation publication-type="journal" id="fsn370475-cit-0006">
+<string-name>
+<surname>Almusallam</surname>, <given-names>I. A.</given-names>
+</string-name>, <string-name>
+<given-names>I. A. M.</given-names>
+<surname>Ahmed</surname>
+</string-name>, <string-name>
+<given-names>E. E.</given-names>
+<surname>Babiker</surname>
+</string-name>, et&#x000a0;al. <year>2021</year>. &#x0201c;<article-title>Effect of Date Palm (<italic toggle="yes">Phoenix dactylifera</italic> L.) Spikelets Extract on the Physicochemical and Microbial Properties of Set&#x02010;Type Yogurt During Cold Storage</article-title>.&#x0201d; <source>LWT&#x02014;Food Science and Technology</source>
+<volume>148</volume>: <elocation-id>111762</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.lwt.2021.111762</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0007"><mixed-citation publication-type="journal" id="fsn370475-cit-0007">
+<string-name>
+<surname>Atwaa</surname>, <given-names>E. S. H.</given-names>
+</string-name>, <string-name>
+<given-names>M. R.</given-names>
+<surname>Shahein</surname>
+</string-name>, <string-name>
+<given-names>E. S. A.</given-names>
+<surname>El&#x02010;Sattar</surname>
+</string-name>, <string-name>
+<given-names>H. H. A.</given-names>
+<surname>Hijazy</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Albrakati</surname>
+</string-name>, and <string-name>
+<given-names>E. K.</given-names>
+<surname>Elmahallawy</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>Bioactivity, Physicochemical and Sensory Properties of Probiotic Yoghurt Made From Whole Milk Powder Reconstituted in Aqueous Fennel Extract</article-title>.&#x0201d; <source>Fermentation</source>
+<volume>8</volume>, no. <issue>2</issue>: <elocation-id>52</elocation-id>. <pub-id pub-id-type="doi">10.3390/fermentation8020052</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0106"><mixed-citation publication-type="book" id="fsn370475-cit-0106">
+<collab collab-type="authors">Association of Official Analytical Chemists (AOAC)</collab>
+. <year>2005</year>. <source>Van Nostrand&#x02019;s Encyclopedia of Chemistry, Portico</source>, <publisher-name>John Wiley &#x00026; Sons, Ltd</publisher-name>. <pub-id pub-id-type="doi">10.1002/0471740039.vec0284</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0008"><mixed-citation publication-type="journal" id="fsn370475-cit-0008">
+<string-name>
+<surname>Ayd&#x00131;n</surname>, <given-names>B. D.</given-names>
+</string-name>, <string-name>
+<given-names>&#x000c7;.</given-names>
+<surname>Konak G&#x000f6;ktepe</surname>
+</string-name>, and <string-name>
+<given-names>N.</given-names>
+<surname>Ak&#x00131;n</surname>
+</string-name>. <year>2025</year>. &#x0201c;<article-title>Enhancing Set&#x02010;Type Yoghurt With Olive Leaf Extract: A Comparison of Powdered Addition and Surface Spraying on Quality, Functionality, and Sensory Attributes</article-title>.&#x0201d; <source>Food Science &#x00026; Nutrition</source>
+<volume>13</volume>, no. <issue>5</issue>: <elocation-id>e70273</elocation-id>. <pub-id pub-id-type="doi">10.1002/fsn3.70273</pub-id>.<pub-id pub-id-type="pmid">40365037</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0009"><mixed-citation publication-type="journal" id="fsn370475-cit-0009">
+<string-name>
+<surname>Balan</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<given-names>A. S.</given-names>
+<surname>Dhaulaniya</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Jamwal</surname>
+</string-name>, et&#x000a0;al. <year>2020</year>. &#x0201c;<article-title>Application of Attenuated Total Reflectance&#x02010;Fourier Transform Infrared (ATR&#x02010;FTIR) Spectroscopy Coupled With Chemometrics for Detection and Quantification of Formalin in Cow Milk</article-title>.&#x0201d; <source>Vibrational Spectroscopy</source>
+<volume>107</volume>: <elocation-id>103033</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.vibspec.2020.103033</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0010"><mixed-citation publication-type="journal" id="fsn370475-cit-0010">
+<string-name>
+<surname>Basha</surname>, <given-names>R. F. S.</given-names>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Fukuba</surname>
+</string-name>, <string-name>
+<given-names>M. D.</given-names>
+<surname>Moore</surname>
+</string-name>, and <string-name>
+<given-names>A. J.</given-names>
+<surname>Kinchla</surname>
+</string-name>. <year>2025</year>. &#x0201c;<article-title>Investigating the Effects of Citric Acid Concentrations on Acidification, Rheological, and Microbial Properties of Fermented Soy Protein Isolate Yogurts</article-title>.&#x0201d; <source>Journal of Food Science</source>
+<volume>90</volume>, no. <issue>1</issue>: <elocation-id>e17601</elocation-id>. <pub-id pub-id-type="doi">10.1111/1750-3841.17601</pub-id>.<pub-id pub-id-type="pmid">39828409</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0011"><mixed-citation publication-type="journal" id="fsn370475-cit-0011">
+<string-name>
+<surname>Blum</surname>, <given-names>U.</given-names>
+</string-name>
+<year>1998</year>. &#x0201c;<article-title>Effects of Microbial Utilization of Phenolic Acids and Their Phenolic Acid Breakdown Products on Allelopathic Interactions</article-title>.&#x0201d; <source>Journal of Chemical Ecology</source>
+<volume>24</volume>: <fpage>685</fpage>&#x02013;<lpage>708</lpage>. <pub-id pub-id-type="doi">10.1023/A:1022394203540</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0012"><mixed-citation publication-type="journal" id="fsn370475-cit-0012">
+<string-name>
+<surname>Bogahawaththa</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Buckow</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Chandrapala</surname>
+</string-name>, and <string-name>
+<given-names>T.</given-names>
+<surname>Vasiljevic</surname>
+</string-name>. <year>2018</year>. &#x0201c;<article-title>Comparison Between Thermal Pasteurization and High Pressure Processing of Bovine Skim Milk in Relation to Denaturation and Immunogenicity of Native Milk Proteins</article-title>.&#x0201d; <source>Innovative Food Science &#x00026; Emerging Technologies</source>
+<volume>47</volume>: <fpage>301</fpage>&#x02013;<lpage>308</lpage>. <pub-id pub-id-type="doi">10.1016/j.ifset.2018.03.016</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0013"><mixed-citation publication-type="journal" id="fsn370475-cit-0013">
+<string-name>
+<surname>Bong</surname>, <given-names>D.</given-names>
+</string-name>, and <string-name>
+<given-names>C.</given-names>
+<surname>Moraru</surname>
+</string-name>. <year>2014</year>. &#x0201c;<article-title>Use of Micellar Casein Concentrate for Greek&#x02010;Style Yogurt Manufacturing: Effects on Processing and Product Properties</article-title>.&#x0201d; <source>Journal of Dairy Science</source>
+<volume>97</volume>, no. <issue>3</issue>: <fpage>1259</fpage>&#x02013;<lpage>1269</lpage>. <pub-id pub-id-type="doi">10.3168/jds.2013-7488</pub-id>.<pub-id pub-id-type="pmid">24440261</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0014"><mixed-citation publication-type="journal" id="fsn370475-cit-0014">
+<string-name>
+<surname>Bulut</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Tun&#x000e7;t&#x000fc;rk</surname>
+</string-name>, and <string-name>
+<given-names>D.</given-names>
+<surname>Alwazeer</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Effect of Fortification of Set&#x02010;Type Yoghurt With Different Plant Extracts on Its Physicochemical, Rheological, Textural and Sensory Properties During Storage</article-title>.&#x0201d; <source>International Journal of Dairy Technology</source>
+<volume>74</volume>, no. <issue>4</issue>: <fpage>723</fpage>&#x02013;<lpage>736</lpage>.</mixed-citation></ref><ref id="fsn370475-bib-0015"><mixed-citation publication-type="journal" id="fsn370475-cit-0015">
+<string-name>
+<surname>Chalid</surname>, <given-names>S. Y.</given-names>
+</string-name>, <string-name>
+<given-names>P. N.</given-names>
+<surname>Kinasih</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Hatiningsih</surname>
+</string-name>, and <string-name>
+<given-names>T.</given-names>
+<surname>Rudiana</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Antioxidant Activities and Profile of Amino Acid of Yoghurt From Beef Milk Fermentation With Dadih Starter</article-title>.&#x0201d; <source>Jurnal Kimia Valensi</source>
+<volume>7</volume>, no. <issue>1</issue>: <fpage>58</fpage>&#x02013;<lpage>68</lpage>. <pub-id pub-id-type="doi">10.15408/jkv.v7i1.20425</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0017"><mixed-citation publication-type="journal" id="fsn370475-cit-0017">
+<string-name>
+<surname>Cho</surname>, <given-names>W.&#x02010;Y.</given-names>
+</string-name>, <string-name>
+<given-names>D.&#x02010;H.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>H.&#x02010;J.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>S.&#x02010;J.</given-names>
+<surname>Yeon</surname>
+</string-name>, and <string-name>
+<given-names>C.&#x02010;H.</given-names>
+<surname>Lee</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Quality Characteristic and Antioxidant Activity of Yogurt Containing Olive Leaf Hot Water Extract</article-title>.&#x0201d; <source>CyTA Journal of Food</source>
+<volume>18</volume>, no. <issue>1</issue>: <fpage>43</fpage>&#x02013;<lpage>50</lpage>. <pub-id pub-id-type="doi">10.1080/19476337.2019.1640797</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0107"><mixed-citation publication-type="book" id="fsn370475-cit-0107">
+<collab collab-type="authors">Codex Alimentarius</collab>
+. <year>2011</year>. <source>Milk and Milk Products</source>, <publisher-name>FAO and WHO</publisher-name>. CODEX STAN, 243&#x02010;2003.</mixed-citation></ref><ref id="fsn370475-bib-0018"><mixed-citation publication-type="journal" id="fsn370475-cit-0018">
+<string-name>
+<surname>Day</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<given-names>R. B.</given-names>
+<surname>Seymour</surname>
+</string-name>, <string-name>
+<given-names>K. F.</given-names>
+<surname>Pitts</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Konczak</surname>
+</string-name>, and <string-name>
+<given-names>L.</given-names>
+<surname>Lundin</surname>
+</string-name>. <year>2009</year>. &#x0201c;<article-title>Incorporation of Functional Ingredients Into Foods</article-title>.&#x0201d; <source>Trends in Food Science &#x00026; Technology</source>
+<volume>20</volume>, no. <issue>9</issue>: <fpage>388</fpage>&#x02013;<lpage>395</lpage>. <pub-id pub-id-type="doi">10.1016/j.tifs.2008.05.002</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0019"><mixed-citation publication-type="journal" id="fsn370475-cit-0019">
+<string-name>
+<surname>de Moura</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name>
+<given-names>G. N.</given-names>
+<surname>Schettini</surname>
+</string-name>, <string-name>
+<given-names>A. O.</given-names>
+<surname>Garcia</surname>
+</string-name>, <string-name>
+<given-names>D. A.</given-names>
+<surname>Gallina</surname>
+</string-name>, <string-name>
+<given-names>I. D.</given-names>
+<surname>Alvim</surname>
+</string-name>, and <string-name>
+<given-names>M. D.</given-names>
+<surname>Hubinger</surname>
+</string-name>. <year>2019</year>. &#x0201c;<article-title>Stability of Hibiscus Extract Encapsulated by Ionic Gelation Incorporated in Yogurt</article-title>.&#x0201d; <source>Food and Bioprocess Technology</source>
+<volume>12</volume>: <fpage>1500</fpage>&#x02013;<lpage>1515</lpage>. <pub-id pub-id-type="doi">10.1007/s11947-019-02308-9</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0020"><mixed-citation publication-type="journal" id="fsn370475-cit-0020">
+<string-name>
+<surname>Dhawi</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>El&#x02010;Beltagi</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Aly</surname>
+</string-name>, and <string-name>
+<given-names>A. M.</given-names>
+<surname>Hamed</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Antioxidant, Antibacterial Activities and Mineral Content of Buffalo Yoghurt Fortified With Fenugreek and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Moringa oleifera</italic>
+</styled-content> Seed Flours</article-title>.&#x0201d; <source>Food</source>
+<volume>9</volume>, no. <issue>9</issue>: <elocation-id>1157</elocation-id>. <pub-id pub-id-type="doi">10.3390/foods9091157</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0021"><mixed-citation publication-type="journal" id="fsn370475-cit-0021">
+<string-name>
+<surname>Domaga&#x00142;a</surname>, <given-names>J.</given-names>
+</string-name>
+<year>2009</year>. &#x0201c;<article-title>Instrumental Texture, Syneresis and Microstructure of Yoghurts Prepared From Goat, Cow and Sheep Milk</article-title>.&#x0201d; <source>International Journal of Food Properties</source>
+<volume>12</volume>, no. <issue>3</issue>: <fpage>605</fpage>&#x02013;<lpage>615</lpage>. <pub-id pub-id-type="doi">10.1080/10942910801992934</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0022"><mixed-citation publication-type="journal" id="fsn370475-cit-0022">
+<string-name>
+<surname>Edogun</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Imoisi</surname>
+</string-name>, and <string-name>
+<given-names>J.</given-names>
+<surname>Iyasele</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>Study on the Effect of Ficus Exasperata Aqueous Leaf Extract on the Rate of Lactic Acid Formation of Fermented Milk</article-title>.&#x0201d; <source>Trends in Applied Sciences Research</source>
+<volume>19</volume>, no. <issue>1</issue>: <fpage>72</fpage>&#x02013;<lpage>82</lpage>. <pub-id pub-id-type="doi">10.3923/tasr.2024.72.82</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0023"><mixed-citation publication-type="journal" id="fsn370475-cit-0023">
+<string-name>
+<surname>El&#x02010;Gammal</surname>, <given-names>R. E.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Abdel&#x02010;Aziz</surname>
+</string-name>, and <string-name>
+<given-names>M. S.</given-names>
+<surname>Darwish</surname>
+</string-name>. <year>2017</year>. &#x0201c;<article-title>Utilization of Aqueous Extract of <italic toggle="yes">Moringa oleifera</italic> for Production of Functional Yogurt</article-title>.&#x0201d; <source>Journal of Food and Dairy Sciences</source>
+<volume>8</volume>, no. <issue>1</issue>: <fpage>45</fpage>&#x02013;<lpage>53</lpage>. <pub-id pub-id-type="doi">10.21608/jfds.2017.37114</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0024"><mixed-citation publication-type="journal" id="fsn370475-cit-0024">
+<string-name>
+<surname>Farhan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>H. N.</given-names>
+<surname>Al&#x02010;Zobaidy</surname>
+</string-name>, and <string-name>
+<given-names>M. F.</given-names>
+<surname>Al&#x02010;Quraishi</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Fortification of Thick Yogurt With Mint (<italic toggle="yes">Mentha spicata</italic> L.) Leaves Extract</article-title>.&#x0201d; <source>Biochemical and Cellular Archives</source>
+<volume>20</volume>, no. <issue>1</issue>: <fpage>1679</fpage>&#x02013;<lpage>1684</lpage>. <pub-id pub-id-type="doi">10.35124/bca.2020.20.1.1679</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0025"><mixed-citation publication-type="journal" id="fsn370475-cit-0025">
+<string-name>
+<surname>Felfoul</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Borchani</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Samet&#x02010;Bali</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Attia</surname>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Ayadi</surname>
+</string-name>. <year>2017</year>. &#x0201c;<article-title>Effect of Ginger (<italic toggle="yes">Zingiber officinalis</italic>) Addition on Fermented Bovine Milk: Rheological Properties, Sensory Attributes and Antioxidant Potential</article-title>.&#x0201d; <source>Journal of New Sciences</source>
+<volume>44</volume>: <fpage>2400</fpage>&#x02013;<lpage>2409</lpage>.</mixed-citation></ref><ref id="fsn370475-bib-0026"><mixed-citation publication-type="journal" id="fsn370475-cit-0026">
+<string-name>
+<surname>Fiszman</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Lluch</surname>
+</string-name>, and <string-name>
+<given-names>A.</given-names>
+<surname>Salvador</surname>
+</string-name>. <year>1999</year>. &#x0201c;<article-title>Effect of Addition of Gelatin on Microstructure of Acidic Milk Gels and Yoghurt and on Their Rheological Properties</article-title>.&#x0201d; <source>International Dairy Journal</source>
+<volume>9</volume>, no. <issue>12</issue>: <fpage>895</fpage>&#x02013;<lpage>901</lpage>. <pub-id pub-id-type="doi">10.1016/S0958-6946(00)00013-3</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0027"><mixed-citation publication-type="journal" id="fsn370475-cit-0027">
+<string-name>
+<surname>Gamage</surname>, <given-names>G. C. V.</given-names>
+</string-name>, <string-name>
+<given-names>J. K.</given-names>
+<surname>Goh</surname>
+</string-name>, and <string-name>
+<given-names>W. S.</given-names>
+<surname>Choo</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>Application of Anthocyanins From Blue Pea Flower in Yoghurt and Fermented Milk: An Alternate Natural Blue Colour to Spirulina</article-title>.&#x0201d; <source>International Journal of Gastronomy and Food Science</source>
+<volume>37</volume>: <elocation-id>100957</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ijgfs.2024.100957</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0028"><mixed-citation publication-type="journal" id="fsn370475-cit-0028">
+<string-name>
+<surname>Ghafoor</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Al Juhaimi</surname>
+</string-name>, <string-name>
+<given-names>M. M.</given-names>
+<surname>&#x000d6;zcan</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Uslu</surname>
+</string-name>, <string-name>
+<given-names>E. E.</given-names>
+<surname>Babiker</surname>
+</string-name>, and <string-name>
+<given-names>I. A. M.</given-names>
+<surname>Ahmed</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Total Phenolics, Total Carotenoids, Individual Phenolics and Antioxidant Activity of Ginger (<italic toggle="yes">Zingiber officinale</italic>) Rhizome as Affected by Drying Methods</article-title>.&#x0201d; <source>LWT&#x02014;Food Science and Technology</source>
+<volume>126</volume>: <elocation-id>109354</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.lwt.2020.109354</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0029"><mixed-citation publication-type="journal" id="fsn370475-cit-0029">
+<string-name>
+<surname>Granato</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<given-names>F. J.</given-names>
+<surname>Barba</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Bursa&#x00107; Kova&#x0010d;evi&#x00107;</surname>
+</string-name>, <string-name>
+<given-names>J. M.</given-names>
+<surname>Lorenzo</surname>
+</string-name>, <string-name>
+<given-names>A. G.</given-names>
+<surname>Cruz</surname>
+</string-name>, and <string-name>
+<given-names>P.</given-names>
+<surname>Putnik</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Functional Foods: Product Development, Technological Trends, Efficacy Testing, and Safety</article-title>.&#x0201d; <source>Annual Review of Food Science and Technology</source>
+<volume>11</volume>, no. <issue>1</issue>: <fpage>93</fpage>&#x02013;<lpage>118</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-food-032519-051708</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0030"><mixed-citation publication-type="journal" id="fsn370475-cit-0030">
+<string-name>
+<surname>Grewal</surname>, <given-names>M. K.</given-names>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Huppertz</surname>
+</string-name>, and <string-name>
+<given-names>T.</given-names>
+<surname>Vasiljevic</surname>
+</string-name>. <year>2018</year>. &#x0201c;<article-title>FTIR Fingerprinting of Structural Changes of Milk Proteins Induced by Heat Treatment, Deamidation and Dephosphorylation</article-title>.&#x0201d; <source>Food Hydrocolloids</source>
+<volume>80</volume>: <fpage>160</fpage>&#x02013;<lpage>167</lpage>. <pub-id pub-id-type="doi">10.1016/j.foodhyd.2018.02.010</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0031"><mixed-citation publication-type="journal" id="fsn370475-cit-0031">
+<string-name>
+<surname>Gu&#x000e9;nard&#x02010;Lampron</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Villeneuve</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>St&#x02010;Gelais</surname>
+</string-name>, and <string-name>
+<given-names>S. L.</given-names>
+<surname>Turgeon</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Relationship Between Smoothing Temperature, Storage Time, Syneresis and Rheological Properties of Stirred Yogurt</article-title>.&#x0201d; <source>International Dairy Journal</source>
+<volume>109</volume>: <elocation-id>104742</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.idairyj.2020.104742</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0032"><mixed-citation publication-type="journal" id="fsn370475-cit-0032">
+<string-name>
+<surname>Gunathunga</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name>
+<given-names>L. J. S.</given-names>
+<surname>Undugoda</surname>
+</string-name>, <string-name>
+<given-names>P. M.</given-names>
+<surname>Manage</surname>
+</string-name>, et&#x000a0;al. <year>2024</year>. &#x0201c;<article-title>Determining Probiotic Properties and Fermented Milk Production Potential of Lactobacillus Strains Inhabiting Traditional Buffalo Curd</article-title>.&#x0201d; <source>Food Bioscience</source>
+<volume>57</volume>: <elocation-id>103544</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.fbio.2023.103544</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0033"><mixed-citation publication-type="journal" id="fsn370475-cit-0033">
+<string-name>
+<surname>Gundogdu</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Tanr&#x00131;verdi</surname>
+</string-name>, and <string-name>
+<given-names>H.</given-names>
+<surname>Yildiz</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Antimicrobial Activity of <italic toggle="yes">Coriandrum sativum</italic> L. and Its Effect on Microbiological Properties of Yoghurt</article-title>.&#x0201d; <source>Journal of Agricultural Science and Technology</source>
+<volume>22</volume>, no. <issue>5</issue>: <fpage>1247</fpage>&#x02013;<lpage>1256</lpage>. <ext-link xlink:href="http://dorl.net/dor/20.1001.1.16807073.2020.22.5.12.6" ext-link-type="uri">http://dorl.net/dor/20.1001.1.16807073.2020.22.5.12.6</ext-link>.</mixed-citation></ref><ref id="fsn370475-bib-0034"><mixed-citation publication-type="journal" id="fsn370475-cit-0034">
+<string-name>
+<surname>Han</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Britten</surname>
+</string-name>, et&#x000a0;al. <year>2019</year>. &#x0201c;<article-title>Interactions of Phenolic Compounds With Milk Proteins</article-title>.&#x0201d; <source>European Food Research and Technology</source>
+<volume>245</volume>, no. <issue>9</issue>: <fpage>1881</fpage>&#x02013;<lpage>1888</lpage>. <pub-id pub-id-type="doi">10.1007/s00217-019-03293-1</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0035"><mixed-citation publication-type="journal" id="fsn370475-cit-0035">
+<string-name>
+<surname>Hatano</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Kagawa</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Yasuhara</surname>
+</string-name>, and <string-name>
+<given-names>T.</given-names>
+<surname>Okuda</surname>
+</string-name>. <year>1988</year>. &#x0201c;<article-title>Two New Flavonoids and Other Constituents in Licorice Root: Their Relative Astringency and Radical Scavenging Effects</article-title>.&#x0201d; <source>Chemical and Pharmaceutical Bulletin</source>
+<volume>36</volume>, no. <issue>6</issue>: <fpage>2090</fpage>&#x02013;<lpage>2097</lpage>. <pub-id pub-id-type="doi">10.1248/cpb.36.2090</pub-id>.<pub-id pub-id-type="pmid">3240445</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0036"><mixed-citation publication-type="journal" id="fsn370475-cit-0036">
+<string-name>
+<surname>Hossain</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Jahan</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Islam</surname>
+</string-name>, et&#x000a0;al. <year>2024</year>. &#x0201c;<article-title>
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Coccinia grandis</italic>
+</styled-content>: Phytochemistry, Pharmacology and Health Benefits</article-title>.&#x0201d; <source>Clinical Traditional Medicine and Pharmacology</source>
+<volume>5</volume>, no. <issue>2</issue>: <elocation-id>200150</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ctmp.2024.200150</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0037"><mixed-citation publication-type="journal" id="fsn370475-cit-0037">
+<string-name>
+<surname>Hoxha</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Evstatieva</surname>
+</string-name>, and <string-name>
+<given-names>D. J. F.</given-names>
+<surname>Nikolova</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Physicochemical, Rheological, and Sensory Characteristics of Yogurt Fermented by Lactic Acid Bacteria With Probiotic Potential and Bioprotective Properties</article-title>.&#x0201d; <source>Food</source>
+<volume>12</volume>, no. <issue>13</issue>: <elocation-id>2552</elocation-id>. <pub-id pub-id-type="doi">10.3390/foods12132552</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0038"><mixed-citation publication-type="journal" id="fsn370475-cit-0038">
+<string-name>
+<surname>Ibrahim</surname>, <given-names>I. A.</given-names>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Naufalin</surname>
+</string-name>, and <string-name>
+<given-names>H.</given-names>
+<surname>Dwiyanti</surname>
+</string-name>. <year>2019</year>. &#x0201c;<article-title>Effect of Fermentation Temperature and Culture Concentration on Microbial and Physicochemical Properties of Cow and Goat Milk Yogurt</article-title>.&#x0201d; Paper Presented at the IOP Conference Series. <source>Earth and Environmental Science</source>
+<volume>406</volume>: <elocation-id>e012009</elocation-id>. <pub-id pub-id-type="doi">10.1088/1755-1315/406/1/012009</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0039"><mixed-citation publication-type="journal" id="fsn370475-cit-0039">
+<string-name>
+<surname>Ismail</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name>
+<given-names>A. A.</given-names>
+<surname>Aly</surname>
+</string-name>, and <string-name>
+<given-names>A. A.</given-names>
+<surname>Atallah</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Quality and Microstructure of Freeze&#x02010;Dried Yoghurt Fortified With Additives as Protective Agents</article-title>.&#x0201d; <source>Heliyon</source>
+<volume>6</volume>, no. <issue>10</issue>: <elocation-id>e05196</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.heliyon.2020.e05196</pub-id>.<pub-id pub-id-type="pmid">33088960</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0040"><mixed-citation publication-type="journal" id="fsn370475-cit-0040">
+<string-name>
+<surname>Jaster</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<given-names>G. D.</given-names>
+<surname>Arend</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Rezzadori</surname>
+</string-name>, <string-name>
+<given-names>V. C.</given-names>
+<surname>Chaves</surname>
+</string-name>, <string-name>
+<given-names>F. H.</given-names>
+<surname>Reginatto</surname>
+</string-name>, and <string-name>
+<given-names>J. C. C.</given-names>
+<surname>Petrus</surname>
+</string-name>. <year>2018</year>. &#x0201c;<article-title>Enhancement of Antioxidant Activity and Physicochemical Properties of Yogurt Enriched With Concentrated Strawberry Pulp Obtained by Block Freeze Concentration</article-title>.&#x0201d; <source>Food Research International</source>
+<volume>104</volume>: <fpage>119</fpage>&#x02013;<lpage>125</lpage>. <pub-id pub-id-type="doi">10.1016/j.foodres.2017.10.006</pub-id>.<pub-id pub-id-type="pmid">29433776</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0041"><mixed-citation publication-type="journal" id="fsn370475-cit-0041">
+<string-name>
+<surname>Jaya</surname>, <given-names>S.</given-names>
+</string-name>
+<year>2009</year>. &#x0201c;<article-title>Microstructure Analysis of Dried Yogurt: Effect of Different Drying Methods</article-title>.&#x0201d; <source>International Journal of Food Properties</source>
+<volume>12</volume>, no. <issue>3</issue>: <fpage>469</fpage>&#x02013;<lpage>481</lpage>. <pub-id pub-id-type="doi">10.1080/10942910701772071</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0042"><mixed-citation publication-type="journal" id="fsn370475-cit-0042">
+<string-name>
+<surname>Jim&#x000e9;nez&#x02010;Redondo</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<given-names>A. E.</given-names>
+<surname>Vargas</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Teruel&#x02010;Andreu</surname>
+</string-name>, et&#x000a0;al. <year>2022</year>. &#x0201c;<article-title>Evaluation of Cinnammon (<italic toggle="yes">Cinnamomum cassia</italic> and <italic toggle="yes">Cinnamomum verum</italic>) Enriched Yoghurt During Refrigerated Storage</article-title>.&#x0201d; <source>LWT&#x02014;Food Science and Technology</source>
+<volume>159</volume>: <elocation-id>113240</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.lwt.2022.113240</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0044"><mixed-citation publication-type="book" id="fsn370475-cit-0044">
+<string-name>
+<surname>Kha</surname>, <given-names>T. C.</given-names>
+</string-name>, and <string-name>
+<given-names>L. T. P.</given-names>
+<surname>Le</surname>
+</string-name>. <year>2021</year>. &#x0201c;<part-title>Plant Extracts: Antimicrobial Properties, Mechanisms of Action and Applications</part-title>.&#x0201d; In <source>Advanced Antimicrobial Materials and Applications</source>, <fpage>257</fpage>&#x02013;<lpage>283</lpage>. <publisher-name>Springer</publisher-name>. <pub-id pub-id-type="doi">10.1007/978-981-15-7098-8_11</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0045"><mixed-citation publication-type="journal" id="fsn370475-cit-0045">
+<string-name>
+<surname>Kim</surname>, <given-names>D.&#x02010;H.</given-names>
+</string-name>, <string-name>
+<given-names>W.&#x02010;Y.</given-names>
+<surname>Cho</surname>
+</string-name>, <string-name>
+<given-names>S.&#x02010;J.</given-names>
+<surname>Yeon</surname>
+</string-name>, <string-name>
+<given-names>S.&#x02010;H.</given-names>
+<surname>Choi</surname>
+</string-name>, and <string-name>
+<given-names>C.&#x02010;H.</given-names>
+<surname>Lee</surname>
+</string-name>. <year>2019</year>. &#x0201c;<article-title>Effects of Lotus (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Nelumbo nucifera</italic>
+</styled-content>) Leaf on Quality and Antioxidant Activity of Yogurt During Refrigerated Storage</article-title>.&#x0201d; <source>Food Science of Animal Resources</source>
+<volume>39</volume>, no. <issue>5</issue>: <fpage>792</fpage>. <pub-id pub-id-type="doi">10.5851/kosfa.2019.e69</pub-id>.<pub-id pub-id-type="pmid">31728448</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0046"><mixed-citation publication-type="journal" id="fsn370475-cit-0046">
+<string-name>
+<surname>Kumar</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Chaudhary</surname>
+</string-name>, <string-name>
+<given-names>A. D.</given-names>
+<surname>Tripathi</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Agarwal</surname>
+</string-name>, and <string-name>
+<given-names>V.</given-names>
+<surname>Paul</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Standardization of Process for the Development of Butterfly Pea (<italic toggle="yes">Clitoria ternatea</italic> L.) Flower Powder Supplemented Functional Yogurt</article-title>.&#x0201d; <source>Research Square</source>, <fpage>1</fpage>&#x02013;<lpage>18</lpage>. <pub-id pub-id-type="doi">10.21203/rs.3.rs-2825035/v1</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0047"><mixed-citation publication-type="journal" id="fsn370475-cit-0047">
+<string-name>
+<surname>Kusuma</surname>, <given-names>N. R.</given-names>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Sulistyani</surname>
+</string-name>, and <string-name>
+<given-names>N.</given-names>
+<surname>Sugihartini</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>Analysis of Antioxidant and Antibacterial Activity Etanol Extract of Butterfly Pea Flower (<italic toggle="yes">Clitoria ternatea</italic>) in Yogyakarta</article-title>.&#x0201d; <source>Medical Sains: Jurnal Ilmiah Kefarmasian</source>
+<volume>9</volume>, no. <issue>3</issue>: <fpage>703</fpage>&#x02013;<lpage>712</lpage>. <pub-id pub-id-type="doi">10.37874/ms.v9i3.1118</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0048"><mixed-citation publication-type="book" id="fsn370475-cit-0048">
+<string-name>
+<surname>Kynadi</surname>, <given-names>A. S.</given-names>
+</string-name>, and <string-name>
+<given-names>T.</given-names>
+<surname>Suchithra</surname>
+</string-name>. <year>2017</year>. &#x0201c;<part-title>Bacterial Degradation of Phenol to Control Environmental Pollution</part-title>.&#x0201d; In <source>Microbial Biotechnology: Volume 1. Applications in Agriculture and Environment</source>, <fpage>245</fpage>&#x02013;<lpage>263</lpage>. <publisher-name>Springer</publisher-name>. <pub-id pub-id-type="doi">10.1007/978-981-10-6847-8_11</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0049"><mixed-citation publication-type="journal" id="fsn370475-cit-0049">
+<string-name>
+<surname>Larasati</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Panunggal</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Afifah</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Anjani</surname>
+</string-name>, and <string-name>
+<given-names>N.</given-names>
+<surname>Rustanti</surname>
+</string-name>. <year>2018</year>. &#x0201c;<article-title>Total Lactic Acid Bacteria, Antioxidant Activity, and Acceptance of Synbiotic Yoghurt With Red Ginger Extract (<italic toggle="yes">Zingiber officinale</italic> var. <italic toggle="yes">rubrum</italic>)</article-title>.&#x0201d; <source>IOP Conference Series: Earth and Environmental Science</source>
+<volume>116</volume>: <elocation-id>e012037</elocation-id>. <pub-id pub-id-type="doi">10.1088/1755-1315/116/1/012037</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0050"><mixed-citation publication-type="journal" id="fsn370475-cit-0050">
+<string-name>
+<surname>Le Roy</surname>, <given-names>C. I.</given-names>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Kurilshikov</surname>
+</string-name>, <string-name>
+<given-names>E. R.</given-names>
+<surname>Leeming</surname>
+</string-name>, et&#x000a0;al. <year>2022</year>. &#x0201c;<article-title>Yoghurt Consumption Is Associated With Changes in the Composition of the Human Gut Microbiome and Metabolome</article-title>.&#x0201d; <source>BMC Microbiology</source>
+<volume>22</volume>, no. <issue>1</issue>: <fpage>39</fpage>. <pub-id pub-id-type="doi">10.1186/s12866-022-02482-5</pub-id>.<pub-id pub-id-type="pmid">35114943</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0052"><mixed-citation publication-type="journal" id="fsn370475-cit-0052">
+<string-name>
+<surname>Lisak Jakopovi&#x00107;</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Repaji&#x00107;</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Rumora Samarin</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Bo&#x0017e;ani&#x00107;</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Bla&#x0017e;i&#x00107;</surname>
+</string-name>, and <string-name>
+<given-names>I. J. F.</given-names>
+<surname>Baruk&#x0010d;i&#x00107; Jurina</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>Fortification of Cow Milk With <italic toggle="yes">Moringa oleifera</italic> Extract: Influence on Physicochemical Characteristics, Antioxidant Capacity and Mineral Content of Yoghurt</article-title>.&#x0201d; <source>Fermentation</source>
+<volume>8</volume>, no. <issue>10</issue>: <elocation-id>545</elocation-id>. <pub-id pub-id-type="doi">10.3390/fermentation8100545</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0053"><mixed-citation publication-type="journal" id="fsn370475-cit-0053">
+<string-name>
+<surname>Liu</surname>, <given-names>S.&#x02010;Q.</given-names>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Holland</surname>
+</string-name>, and <string-name>
+<given-names>V.</given-names>
+<surname>Crow</surname>
+</string-name>. <year>2004</year>. &#x0201c;<article-title>Esters and Their Biosynthesis in Fermented Dairy Products: A Review</article-title>.&#x0201d; <source>International Dairy Journal</source>
+<volume>14</volume>, no. <issue>11</issue>: <fpage>923</fpage>&#x02013;<lpage>945</lpage>. <pub-id pub-id-type="doi">10.1016/j.idairyj.2004.02.010</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0054"><mixed-citation publication-type="journal" id="fsn370475-cit-0054">
+<string-name>
+<surname>Ma</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Al&#x02010;Wraikat</surname>
+</string-name>, <string-name>
+<given-names>Q.</given-names>
+<surname>Shu</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Yang</surname>
+</string-name>, and <string-name>
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>An Overview of Interactions Between Goat Milk Casein and Other Food Components: Polysaccharides, Polyphenols, and Metal Ions</article-title>.&#x0201d; <source>Food</source>
+<volume>13</volume>, no. <issue>18</issue>: <elocation-id>2903</elocation-id>. <pub-id pub-id-type="doi">10.3390/foods13182903</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0056"><mixed-citation publication-type="journal" id="fsn370475-cit-0056">
+<string-name>
+<surname>Marand</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Amjadi</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Marand</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Roufegarinejad</surname>
+</string-name>, and <string-name>
+<given-names>S. M. J. P. T.</given-names>
+<surname>Jafari</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Fortification of Yogurt With Flaxseed Powder and Evaluation of Its Fatty Acid Profile, Physicochemical, Antioxidant, and Sensory Properties</article-title>.&#x0201d; <source>Powder Technology</source>
+<volume>359</volume>: <fpage>76</fpage>&#x02013;<lpage>84</lpage>. <pub-id pub-id-type="doi">10.1016/j.powtec.2019.09.082</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0057"><mixed-citation publication-type="journal" id="fsn370475-cit-0057">
+<string-name>
+<surname>Markoska</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Huppertz</surname>
+</string-name>, <string-name>
+<given-names>M. K.</given-names>
+<surname>Grewal</surname>
+</string-name>, and <string-name>
+<given-names>T.</given-names>
+<surname>Vasiljevic</surname>
+</string-name>. <year>2019</year>. &#x0201c;<article-title>Structural Changes of Milk Proteins During Heating of Concentrated Skim Milk Determined Using FTIR</article-title>.&#x0201d; <source>International Dairy Journal</source>
+<volume>89</volume>: <fpage>21</fpage>&#x02013;<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1016/j.idairyj.2018.08.010</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0058"><mixed-citation publication-type="journal" id="fsn370475-cit-0058">
+<string-name>
+<surname>Martemucci</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Costagliola</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Mariano</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>D'andrea</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Napolitano</surname>
+</string-name>, and <string-name>
+<given-names>A. G.</given-names>
+<surname>D'Alessandro</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>Free Radical Properties, Source and Targets, Antioxidant Consumption and Health</article-title>.&#x0201d; <source>Oxygen</source>
+<volume>2</volume>, no. <issue>2</issue>: <fpage>48</fpage>&#x02013;<lpage>78</lpage>. <pub-id pub-id-type="doi">10.3390/oxygen2020006</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0059"><mixed-citation publication-type="book" id="fsn370475-cit-0059">
+<string-name>
+<surname>Mayo</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Aleksandrzak&#x02010;Piekarczyk</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Fern&#x000e1;ndez</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kowalczyk</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>&#x000c1;lvarez&#x02010;Mart&#x000ed;n</surname>
+</string-name>, and <string-name>
+<given-names>J.</given-names>
+<surname>Bardowski</surname>
+</string-name>. <year>2010</year>. &#x0201c;<part-title>Updates in the Metabolism of Lactic Acid Bacteria</part-title>.&#x0201d; In <source>Biotechnology of Lactic Acid Bacteria: Novel Applications</source>, <fpage>3</fpage>&#x02013;<lpage>33</lpage>. <publisher-name>Wiley&#x02010;Blackwell</publisher-name>. <pub-id pub-id-type="doi">10.1002/9780813820866.ch1</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0060"><mixed-citation publication-type="journal" id="fsn370475-cit-0060">
+<string-name>
+<surname>Medic</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Zamljen</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Hudina</surname>
+</string-name>, and <string-name>
+<given-names>R.</given-names>
+<surname>Veberic</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>Time&#x02010;Dependent Degradation of Naphthoquinones and Phenolic Compounds in Walnut Husks</article-title>.&#x0201d; <source>Biology</source>
+<volume>11</volume>, no. <issue>2</issue>: <elocation-id>342</elocation-id>. <pub-id pub-id-type="doi">10.3390/biology11020342</pub-id>.<pub-id pub-id-type="pmid">35205208</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0061"><mixed-citation publication-type="journal" id="fsn370475-cit-0061">
+<string-name>
+<surname>Mehmood</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ishaq</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Zhao</surname>
+</string-name>, et&#x000a0;al. <year>2019</year>. &#x0201c;<article-title>Impact of Ultrasound and Conventional Extraction Techniques on Bioactive Compounds and Biological Activities of Blue Butterfly Pea Flower (<italic toggle="yes">Clitoria ternatea</italic> L.)</article-title>.&#x0201d; <source>Ultrasonics Sonochemistry</source>
+<volume>51</volume>: <fpage>12</fpage>&#x02013;<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1016/j.ultsonch.2018.10.013</pub-id>.<pub-id pub-id-type="pmid">30514481</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0062"><mixed-citation publication-type="journal" id="fsn370475-cit-0062">
+<string-name>
+<surname>Michiu</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<given-names>M.&#x02010;I.</given-names>
+<surname>Socaciu</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Fogarasi</surname>
+</string-name>, et&#x000a0;al. <year>2022</year>. &#x0201c;<article-title>Implementation of an Analytical Method for Spectrophotometric Evaluation of Total Phenolic Content in Essential Oils</article-title>.&#x0201d; <source>Molecules</source>
+<volume>27</volume>, no. <issue>4</issue>: <elocation-id>1345</elocation-id>. <pub-id pub-id-type="doi">10.3390/molecules27041345</pub-id>.<pub-id pub-id-type="pmid">35209133</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0063"><mixed-citation publication-type="journal" id="fsn370475-cit-0063">
+<string-name>
+<surname>Moghadam</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Ariaii</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ahmady</surname>
+</string-name>, and <collab collab-type="authors">Characterization</collab>
+. <year>2021</year>. &#x0201c;<article-title>The Effect of Microencapsulated Extract of Pennyroyal (<italic toggle="yes">Mentha pulegium</italic>. L) on the Physicochemical, Sensory, and Viability of Probiotic Bacteria in Yogurt</article-title>.&#x0201d; <source>Journal of Food Measurement and Characterization</source>
+<volume>15</volume>: <fpage>2625</fpage>&#x02013;<lpage>2636</lpage>. <pub-id pub-id-type="doi">10.1007/s11694-021-00849-2</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0064"><mixed-citation publication-type="journal" id="fsn370475-cit-0064">
+<string-name>
+<surname>Nair</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<given-names>W. Y.</given-names>
+<surname>Bang</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Schreckinger</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Andarwulan</surname>
+</string-name>, and <string-name>
+<given-names>L.</given-names>
+<surname>Cisneros&#x02010;Zevallos</surname>
+</string-name>. <year>2015</year>. &#x0201c;<article-title>Protective Role of Ternatin Anthocyanins and Quercetin Glycosides From Butterfly Pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Clitoria ternatea</italic>
+</styled-content> Leguminosae) Blue Flower Petals Against Lipopolysaccharide (LPS)&#x02010;Induced Inflammation in Macrophage Cells</article-title>.&#x0201d; <source>Journal of Agricultural and Food Chemistry</source>
+<volume>63</volume>, no. <issue>28</issue>: <fpage>6355</fpage>&#x02013;<lpage>6365</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jafc.5b00928</pub-id>.<pub-id pub-id-type="pmid">26120869</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0065"><mixed-citation publication-type="journal" id="fsn370475-cit-0065">
+<string-name>
+<surname>Nazari</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Zarringhalami</surname>
+</string-name>, and <string-name>
+<given-names>B.</given-names>
+<surname>Asghari</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Influence of Germinated Black Cumin (<italic toggle="yes">Nigella sativa</italic> L.) Seeds Extract on the Physicochemical, Antioxidant, Antidiabetic, and Sensory Properties of Yogurt</article-title>.&#x0201d; <source>Food Bioscience</source>
+<volume>53</volume>: <elocation-id>102437</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.fbio.2023.102437</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0066"><mixed-citation publication-type="journal" id="fsn370475-cit-0066">
+<string-name>
+<surname>Oforma</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Udourioh</surname>
+</string-name>, and <string-name>
+<given-names>C.</given-names>
+<surname>Ojinnaka</surname>
+</string-name>. <year>2019</year>. &#x0201c;<article-title>Characterization of Essential Oils and Fatty Acids Composition of Stored Ginger (<italic toggle="yes">Zingiber officinale</italic> Roscoe)</article-title>.&#x0201d; <source>Journal of Applied Sciences and Environmental Management</source>
+<volume>23</volume>, no. <issue>12</issue>: <fpage>2231</fpage>&#x02013;<lpage>2238</lpage>. <pub-id pub-id-type="doi">10.4314/jasem.v23i12.22</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0067"><mixed-citation publication-type="journal" id="fsn370475-cit-0067">
+<string-name>
+<surname>Oliveira</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>E. M.</given-names>
+<surname>Alexandre</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Coelho</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Lopes</surname>
+</string-name>, <string-name>
+<given-names>D. P.</given-names>
+<surname>Almeida</surname>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Pintado</surname>
+</string-name>. <year>2015</year>. &#x0201c;<article-title>Incorporation of Strawberries Preparation in Yoghurt: Impact on Phytochemicals and Milk Proteins</article-title>.&#x0201d; <source>Food Chemistry</source>
+<volume>171</volume>: <fpage>370</fpage>&#x02013;<lpage>378</lpage>. <pub-id pub-id-type="doi">10.1016/j.foodchem.2014.08.107</pub-id>.<pub-id pub-id-type="pmid">25308682</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0068"><mixed-citation publication-type="journal" id="fsn370475-cit-0068">
+<string-name>
+<surname>Ozer</surname>, <given-names>B. H.</given-names>
+</string-name>, <string-name>
+<given-names>R. K.</given-names>
+<surname>Robinson</surname>
+</string-name>, <string-name>
+<given-names>A. S.</given-names>
+<surname>Grandison</surname>
+</string-name>, and <string-name>
+<given-names>A. E.</given-names>
+<surname>Bell</surname>
+</string-name>. <year>1998</year>. &#x0201c;<article-title>Gelation Properties of Milk Concentrated by Different Techniques</article-title>.&#x0201d; <source>International Dairy Journal</source>
+<volume>8</volume>, no. <issue>9</issue>: <fpage>793</fpage>&#x02013;<lpage>799</lpage>. <pub-id pub-id-type="doi">10.1016/S0958-6946(98)00115-0</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0069"><mixed-citation publication-type="journal" id="fsn370475-cit-0069">
+<string-name>
+<surname>Pacheco&#x02010;Ordaz</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Wall&#x02010;Medrano</surname>
+</string-name>, <string-name>
+<given-names>M. G.</given-names>
+<surname>Go&#x000f1;i</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Ramos&#x02010;Clamont&#x02010;Montfort</surname>
+</string-name>, <string-name>
+<given-names>J. F.</given-names>
+<surname>Ayala&#x02010;Zavala</surname>
+</string-name>, and <string-name>
+<given-names>G.</given-names>
+<surname>Gonz&#x000e1;lez&#x02010;Aguilar</surname>
+</string-name>. <year>2018</year>. &#x0201c;<article-title>Effect of Phenolic Compounds on the Growth of Selected Probiotic and Pathogenic Bacteria</article-title>.&#x0201d; <source>Letters in Applied Microbiology</source>
+<volume>66</volume>, no. <issue>1</issue>: <fpage>25</fpage>&#x02013;<lpage>31</lpage>. <pub-id pub-id-type="doi">10.1111/lam.12814</pub-id>.<pub-id pub-id-type="pmid">29063625</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0070"><mixed-citation publication-type="journal" id="fsn370475-cit-0070">
+<string-name>
+<surname>Papadopoulou</surname>, <given-names>O. S.</given-names>
+</string-name>, <string-name>
+<given-names>A. A.</given-names>
+<surname>Argyri</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Kounani</surname>
+</string-name>, <string-name>
+<given-names>C. C.</given-names>
+<surname>Tassou</surname>
+</string-name>, and <string-name>
+<given-names>N.</given-names>
+<surname>Chorianopoulos</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Use of Fourier Transform Infrared Spectroscopy for Monitoring the Shelf Life and Safety of Yogurts Supplemented With a <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lactobacillus plantarum</italic>
+</styled-content> Strain With Probiotic Potential</article-title>.&#x0201d; <source>Frontiers in Microbiology</source>
+<volume>12</volume>: <elocation-id>678356</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmicb.2021.678356</pub-id>.<pub-id pub-id-type="pmid">34262543</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0071"><mixed-citation publication-type="journal" id="fsn370475-cit-0071">
+<string-name>
+<surname>Pavalakumar</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Jayasinghe</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Edirisinghe</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Wijesekara</surname>
+</string-name>, and <string-name>
+<given-names>S. J. J. o. F. F.</given-names>
+<surname>Senadheera</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>
+<italic toggle="yes">Cinnamomum zeylanicum</italic> and <italic toggle="yes">Curcuma longa</italic> Incorporated Dairy Yoghurts With Hindered Glycaemic Properties for Healthy People</article-title>.&#x0201d; <source>Journal of Future Foods</source>
+<volume>1</volume>, no. <issue>1</issue>: <fpage>104</fpage>&#x02013;<lpage>112</lpage>. <pub-id pub-id-type="doi">10.1016/j.jfutfo.2021.09.006</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0072"><mixed-citation publication-type="journal" id="fsn370475-cit-0072">
+<string-name>
+<surname>Pekamwar</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Kalyankar</surname>
+</string-name>, and <string-name>
+<given-names>S. S.</given-names>
+<surname>Kokate</surname>
+</string-name>. <year>2013</year>. &#x0201c;<article-title>Pharmacological Activities of <italic toggle="yes">Coccinia grandis</italic>
+</article-title>.&#x0201d; <source>Journal of Applied Pharmaceutical Science</source>
+<volume>3</volume>, no. <issue>5</issue>: <fpage>114</fpage>&#x02013;<lpage>119</lpage>. <pub-id pub-id-type="doi">10.7324/JAPS.2013.3522</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0073"><mixed-citation publication-type="journal" id="fsn370475-cit-0073">
+<string-name>
+<surname>Pelton</surname>, <given-names>J. T.</given-names>
+</string-name>, and <string-name>
+<given-names>L. R.</given-names>
+<surname>McLean</surname>
+</string-name>. <year>2000</year>. &#x0201c;<article-title>Spectroscopic Methods for Analysis of Protein Secondary Structure</article-title>.&#x0201d; <source>Analytical Biochemistry</source>
+<volume>277</volume>, no. <issue>2</issue>: <fpage>167</fpage>&#x02013;<lpage>176</lpage>. <pub-id pub-id-type="doi">10.1006/abio.1999.4320</pub-id>.<pub-id pub-id-type="pmid">10625503</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0074"><mixed-citation publication-type="journal" id="fsn370475-cit-0074">
+<string-name>
+<surname>Pereira</surname>, <given-names>C. G.</given-names>
+</string-name>, <string-name>
+<given-names>M. J.</given-names>
+<surname>Rodrigues</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Nawrot&#x02010;Hadzik</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Matkowski</surname>
+</string-name>, and <string-name>
+<given-names>L.</given-names>
+<surname>Cust&#x000f3;dio</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>Seasonal and Geographic Dynamics in Bioproperties and Phytochemical Profile of <italic toggle="yes">Limonium algarvense</italic> Erben</article-title>.&#x0201d; <source>Molecules</source>
+<volume>29</volume>, no. <issue>2</issue>: <elocation-id>481</elocation-id>. <pub-id pub-id-type="doi">10.3390/molecules29020481</pub-id>.<pub-id pub-id-type="pmid">38257394</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0076"><mixed-citation publication-type="journal" id="fsn370475-cit-0076">
+<string-name>
+<surname>Putra</surname>, <given-names>I. M. W. A.</given-names>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Fakhrudin</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Nurrochmad</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Wahyuono</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Antidiabetic Activity of <italic toggle="yes">Coccinia grandis</italic> (L.) Voigt: Bioactive Constituents, Mechanisms of Action, and Synergistic Effects</article-title>.&#x0201d; <source>Journal of Applied Pharmaceutical Science</source>
+<volume>12</volume>, no. <issue>1</issue>: <fpage>41</fpage>&#x02013;<lpage>54</lpage>. <pub-id pub-id-type="doi">10.7324/JAPS.2021.120103</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0077"><mixed-citation publication-type="journal" id="fsn370475-cit-0077">
+<string-name>
+<surname>Qiu</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>A. S.</given-names>
+<surname>Mujumdar</surname>
+</string-name>, and <string-name>
+<given-names>L.</given-names>
+<surname>Chang</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Effect of Edible Rose (<italic toggle="yes">Rosa rugosa</italic> cv. Plena) Flower Extract Addition on the Physicochemical, Rheological, Functional and Sensory Properties of Set&#x02010;Type Yogurt</article-title>.&#x0201d; <source>Food Bioscience</source>
+<volume>43</volume>: <elocation-id>101249</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.fbio.2021.101249</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0078"><mixed-citation publication-type="journal" id="fsn370475-cit-0078">
+<string-name>
+<surname>Ren</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Jim&#x000e9;nez&#x02010;Flores</surname>
+</string-name>, and <string-name>
+<given-names>M. M.</given-names>
+<surname>Giusti</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>The Interactions Between Anthocyanin and Whey Protein: A Review</article-title>.&#x0201d; <source>Comprehensive Reviews in Food Science and Food Safety</source>
+<volume>20</volume>, no. <issue>6</issue>: <fpage>5992</fpage>&#x02013;<lpage>6011</lpage>. <pub-id pub-id-type="doi">10.1111/1541-4337.12854</pub-id>.<pub-id pub-id-type="pmid">34622535</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0079"><mixed-citation publication-type="journal" id="fsn370475-cit-0079">
+<string-name>
+<surname>Rinaldoni</surname>, <given-names>A. N.</given-names>
+</string-name>, <string-name>
+<given-names>M. E.</given-names>
+<surname>Campderr&#x000f3;s</surname>
+</string-name>, and <string-name>
+<given-names>A. P.</given-names>
+<surname>Padilla</surname>
+</string-name>. <year>2012</year>. &#x0201c;<article-title>Physico&#x02010;Chemical and Sensory Properties of Yogurt From Ultrafiltreted Soy Milk Concentrate Added With Inulin</article-title>.&#x0201d; <source>LWT&#x02014; Food Science and Technology</source>
+<volume>45</volume>, no. <issue>2</issue>: <fpage>142</fpage>&#x02013;<lpage>147</lpage>. <pub-id pub-id-type="doi">10.1016/j.lwt.2011.09.009</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0080"><mixed-citation publication-type="journal" id="fsn370475-cit-0080">
+<string-name>
+<surname>Rodionova</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Razinkova</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Popov</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Pozhidaeva</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Sholin</surname>
+</string-name>, and <string-name>
+<given-names>D.</given-names>
+<surname>Gubarev</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>Possibilities of Using Biolactase L20 to Reduce the Concentration of Lactose in Probiotic Beverages</article-title>.&#x0201d; <source>Earth and Environmental Science</source>
+<volume>1052</volume>: <elocation-id>e012064</elocation-id>. <pub-id pub-id-type="doi">10.1088/1755-1315/1052/1/012064</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0081"><mixed-citation publication-type="journal" id="fsn370475-cit-0081">
+<string-name>
+<surname>Saberi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Saremnezhad</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Soltani</surname>
+</string-name>, and <string-name>
+<given-names>A.</given-names>
+<surname>Faraji</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Functional Stirred Yogurt Manufactured Using Co&#x02010;Microencapsulated or Free Forms of Grape Pomace and Flaxseed Oil as Bioactive Ingredients: Physicochemical, Antioxidant, Rheological, Microstructural, and Sensory Properties</article-title>.&#x0201d; <source>Food Science &#x00026; Nutrition</source>
+<volume>11</volume>, no. <issue>7</issue>: <fpage>3989</fpage>&#x02013;<lpage>4001</lpage>. <pub-id pub-id-type="doi">10.1002/fsn3.3385</pub-id>.<pub-id pub-id-type="pmid">37457195</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0082"><mixed-citation publication-type="journal" id="fsn370475-cit-0082">
+<string-name>
+<surname>Salehi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ghorbani</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Sadeghi Mahoonk</surname>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Khomeiri</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Physicochemical, Antioxidant and Sensory Properties of Yogurt Fortified With Common Purslane (<italic toggle="yes">Portulaca oleracea</italic>) Extract</article-title>.&#x0201d; <source>Food Measurement and Characterization</source>
+<volume>15</volume>, no. <issue>5</issue>: <fpage>4288</fpage>&#x02013;<lpage>4296</lpage>. <pub-id pub-id-type="doi">10.1007/s11694-021-00949-z</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0083"><mixed-citation publication-type="journal" id="fsn370475-cit-0083">
+<string-name>
+<surname>Savas</surname>, <given-names>B. S.</given-names>
+</string-name>, and <string-name>
+<given-names>E.</given-names>
+<surname>Akan</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Oat Bran Fortified Raspberry Probiotic Dairy Drinks: Physicochemical, Textural, Microbiologic Properties, In&#x000a0;Vitro Bioaccessibility of Antioxidants and Polyphenols</article-title>.&#x0201d; <source>Food Bioscience</source>
+<volume>43</volume>: <elocation-id>101223</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.fbio.2021.101223</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0084"><mixed-citation publication-type="journal" id="fsn370475-cit-0084">
+<string-name>
+<surname>Sbardelotto</surname>, <given-names>P. R.</given-names>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Balbinot&#x02010;Alfaro</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>da Rocha</surname>
+</string-name>, and <string-name>
+<given-names>A. T.</given-names>
+<surname>Alfaro</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Natural Alternatives for Processed Meat: Legislation, Markets, Consumers, Opportunities and Challenges</article-title>.&#x0201d; <source>Critical Reviews in Food Science and Nutrition</source>
+<volume>63</volume>, no. <issue>30</issue>: <fpage>10303</fpage>&#x02013;<lpage>10318</lpage>. <pub-id pub-id-type="doi">10.1080/10408398.2022.2081664</pub-id>.<pub-id pub-id-type="pmid">35647788</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0085"><mixed-citation publication-type="journal" id="fsn370475-cit-0085">
+<string-name>
+<surname>Shen</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Du</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Zeng</surname>
+</string-name>, et&#x000a0;al. <year>2016</year>. &#x0201c;<article-title>Butterfly Pea (<italic toggle="yes">Clitoria ternatea</italic>) Seed and Petal Extracts Decreased HEp&#x02010;2 Carcinoma Cell Viability</article-title>.&#x0201d; <source>International Journal of Food Science and Technology</source>
+<volume>51</volume>, no. <issue>8</issue>: <fpage>1860</fpage>&#x02013;<lpage>1868</lpage>. <pub-id pub-id-type="doi">10.1111/ijfs.13158</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0086"><mixed-citation publication-type="journal" id="fsn370475-cit-0086">
+<string-name>
+<surname>Shokery</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name>
+<given-names>M. G.</given-names>
+<surname>El&#x02010;Ziney</surname>
+</string-name>, <string-name>
+<given-names>A. H.</given-names>
+<surname>Yossef</surname>
+</string-name>, and <string-name>
+<given-names>R. I.</given-names>
+<surname>Mashaly</surname>
+</string-name>. <year>2017</year>. &#x0201c;<article-title>Effect of Green Tea and Moringa Leave Extracts Fortification on the Physicochemical, Rheological, Sensory and Antioxidant Properties of Set&#x02010;Type Yoghurt</article-title>.&#x0201d; <source>Journal of Advanced Dairy Research</source>
+<volume>5</volume>, no. <issue>179</issue>: <fpage>2</fpage>. <pub-id pub-id-type="doi">10.4172/2329-888X.1000179</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0087"><mixed-citation publication-type="journal" id="fsn370475-cit-0087">
+<string-name>
+<surname>Shori</surname>, <given-names>A. B.</given-names>
+</string-name>
+<year>2020</year>. &#x0201c;<article-title>Proteolytic Activity, Antioxidant, and &#x003b1;&#x02010;Amylase Inhibitory Activity of Yogurt Enriched With Coriander and Cumin Seeds</article-title>.&#x0201d; <source>LWT&#x02014;Food Science and Technology</source>
+<volume>133</volume>: <elocation-id>109912</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.lwt.2020.109912</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0088"><mixed-citation publication-type="journal" id="fsn370475-cit-0088">
+<string-name>
+<surname>Soumati</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Atmani</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Benabderrahmane</surname>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Benjelloun</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Whey Valorization&#x02013;Innovative Strategies for Sustainable Development and Value&#x02010;Added Product Creation</article-title>.&#x0201d; <source>Journal of Ecological Engineering</source>
+<volume>24</volume>, no. <issue>10</issue>: <fpage>86</fpage>&#x02013;<lpage>104</lpage>. <pub-id pub-id-type="doi">10.12911/22998993/169505</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0089"><mixed-citation publication-type="journal" id="fsn370475-cit-0089">
+<string-name>
+<surname>Spence</surname>, <given-names>C.</given-names>
+</string-name>
+<year>2023</year>. &#x0201c;<article-title>Ginger: The Pungent Spice</article-title>.&#x0201d; <source>International Journal of Gastronomy and Food Science</source>
+<volume>33</volume>: <elocation-id>100793</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ijgfs.2023.100793</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0090"><mixed-citation publication-type="journal" id="fsn370475-cit-0090">
+<string-name>
+<surname>Sutakwa</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>L. S.</given-names>
+<surname>Nadia</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Suharman</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Addition of Blue Pea Flower (<italic toggle="yes">Clitoria ternatea</italic> L.) Extract Increase Antioxidant Activity in Yogurt From Various Types of Milk</article-title>.&#x0201d; <source>Jurnal Agercolere</source>
+<volume>3</volume>, no. <issue>1</issue>: <fpage>31</fpage>&#x02013;<lpage>37</lpage>. <pub-id pub-id-type="doi">10.37195/jac.v3i1.123</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0091"><mixed-citation publication-type="journal" id="fsn370475-cit-0091">
+<string-name>
+<surname>Tami</surname>, <given-names>S. H.</given-names>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Aly</surname>
+</string-name>, <string-name>
+<given-names>A. A.</given-names>
+<surname>Darwish</surname>
+</string-name>, and <string-name>
+<given-names>E. S. J. F. B.</given-names>
+<surname>Mohamed</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>Buffalo Stirred Yoghurt Fortified With Grape Seed Extract: New Insights Into Its Functional Properties</article-title>.&#x0201d; <source>Food Bioscience</source>
+<volume>47</volume>: <elocation-id>101752</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.fbio.2022.101752</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0092"><mixed-citation publication-type="journal" id="fsn370475-cit-0092">
+<string-name>
+<surname>Tashtoush</surname>, <given-names>S. H.</given-names>
+</string-name>, <string-name>
+<given-names>K. I.</given-names>
+<surname>Ereifej</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Feng</surname>
+</string-name>, et&#x000a0;al. <year>2016</year>. &#x0201c;<article-title>Temperature and Acidified Solvent Effect on Total Anthocyanins and RP&#x02010;HPLC Phenolic Acids Determination in Selected Spices</article-title>.&#x0201d; <source>Food and Nutrition Sciences</source>
+<volume>7</volume>, no. <issue>1</issue>: <fpage>20</fpage>&#x02013;<lpage>29</lpage>. <pub-id pub-id-type="doi">10.4236/fns.2016.71003</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0093"><mixed-citation publication-type="journal" id="fsn370475-cit-0093">
+<string-name>
+<surname>Tizghadam</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Roufegari&#x02010;nejad</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Asefi</surname>
+</string-name>, and <string-name>
+<given-names>P. J.</given-names>
+<surname>Jafarian Asl</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Physicochemical Characteristics and Antioxidant Capacity of Set Yogurt Fortified With Dill (<italic toggle="yes">Anethume graveolens</italic>) Extract</article-title>.&#x0201d; <source>Journal of Food Measurement and Characterization</source>
+<volume>15</volume>: <fpage>3088</fpage>&#x02013;<lpage>3095</lpage>. <pub-id pub-id-type="doi">10.1007/s11694-021-00881-2</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0095"><mixed-citation publication-type="journal" id="fsn370475-cit-0095">
+<string-name>
+<surname>Turek</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Khachatryan</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Khachatryan</surname>
+</string-name>, and <string-name>
+<given-names>M. J. F.</given-names>
+<surname>Krystyjan</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>An Innovative Method for the Production of Yoghurt Fortified With Walnut Oil Nanocapsules and Characteristics of Functional Properties in Relation to Conventional Yoghurts</article-title>.&#x0201d; <source>Food</source>
+<volume>12</volume>, no. <issue>20</issue>: <elocation-id>3842</elocation-id>. <pub-id pub-id-type="doi">10.3390/foods12203842</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0096"><mixed-citation publication-type="journal" id="fsn370475-cit-0096">
+<string-name>
+<surname>Usoltsev</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Sitnikova</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Kajava</surname>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Uspenskaya</surname>
+</string-name>. <year>2019</year>. &#x0201c;<article-title>Systematic FTIR Spectroscopy Study of the Secondary Structure Changes in Human Serum Albumin Under Various Denaturation Conditions</article-title>.&#x0201d; <source>Biomolecules</source>
+<volume>9</volume>, no. <issue>8</issue>: <elocation-id>359</elocation-id>. <pub-id pub-id-type="doi">10.3390/biom9080359</pub-id>.<pub-id pub-id-type="pmid">31409012</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0097"><mixed-citation publication-type="journal" id="fsn370475-cit-0097">
+<string-name>
+<surname>Vivas</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Lonvaud&#x02010;Funel</surname>
+</string-name>, and <string-name>
+<given-names>Y.</given-names>
+<surname>Glories</surname>
+</string-name>. <year>1997</year>. &#x0201c;<article-title>Effect of Phenolic Acids and Anthocyanins on Growth, Viability and Malolactic Activity of a Lactic Acid Bacterium</article-title>.&#x0201d; <source>Food Microbiology</source>
+<volume>14</volume>, no. <issue>3</issue>: <fpage>291</fpage>&#x02013;<lpage>299</lpage>. <pub-id pub-id-type="doi">10.1006/fmic.1996.0086</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0098"><mixed-citation publication-type="journal" id="fsn370475-cit-0098">
+<string-name>
+<surname>Vuong</surname>, <given-names>T. T.</given-names>
+</string-name>, and <string-name>
+<given-names>P.</given-names>
+<surname>Hongsprabhas</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Influences of pH on Binding Mechanisms of Anthocyanins From Butterfly Pea Flower (<italic toggle="yes">Clitoria ternatea</italic>) With Whey Powder and Whey Protein Isolate</article-title>.&#x0201d; <source>Cogent Food &#x00026; Agriculture</source>
+<volume>7</volume>, no. <issue>1</issue>: <elocation-id>1889098</elocation-id>. <pub-id pub-id-type="doi">10.1080/23311932.2021.1889098</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0099"><mixed-citation publication-type="journal" id="fsn370475-cit-0099">
+<string-name>
+<surname>Wang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Yang</surname>
+</string-name>, and <string-name>
+<given-names>Y.</given-names>
+<surname>Yang</surname>
+</string-name>. <year>2014</year>. &#x0201c;<article-title>Biological Properties of 6&#x02010;Gingerol: A Brief Review</article-title>.&#x0201d; <source>Natural Product Communications</source>
+<volume>9</volume>, no. <issue>7</issue>: <fpage>1027</fpage>&#x02013;<lpage>1030</lpage>. <pub-id pub-id-type="doi">10.1177/1934578X1400900736</pub-id>.<pub-id pub-id-type="pmid">25230520</pub-id>
+</mixed-citation></ref><ref id="fsn370475-bib-0100"><mixed-citation publication-type="journal" id="fsn370475-cit-0100">
+<string-name>
+<surname>Wazzan</surname>, <given-names>H.</given-names>
+</string-name>
+<year>2024</year>. &#x0201c;<article-title>Fortification of Dairy Products Using Plant&#x02010;Derived Bioactive Compounds</article-title>.&#x0201d; <source>Current Research in Nutrition and Food Science Journal</source>
+<volume>12</volume>, no. <issue>2</issue>: <fpage>561</fpage>&#x02013;<lpage>571</lpage>. <pub-id pub-id-type="doi">10.12944/CRNFSJ.12.2.6</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0101"><mixed-citation publication-type="journal" id="fsn370475-cit-0101">
+<string-name>
+<surname>Wijegunawardhana</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Wijesekara</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Liyanage</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Truong</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Silva</surname>
+</string-name>, and <string-name>
+<given-names>J.</given-names>
+<surname>Chandrapala</surname>
+</string-name>. <year>2024a</year>. &#x0201c;<article-title>Process&#x02010;Induced Molecular&#x02010;Level Protein&#x02013;Carbohydrate&#x02013;Polyphenol Interactions in Milk&#x02013;Tea Blends: A Review</article-title>.&#x0201d; <source>Food</source>
+<volume>13</volume>, no. <issue>16</issue>: <elocation-id>2489</elocation-id>. <pub-id pub-id-type="doi">10.3390/foods13162489</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0102"><mixed-citation publication-type="journal" id="fsn370475-cit-0102">
+<string-name>
+<surname>Wijegunawardhana</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Wijesekara</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Liyanage</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Truong</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Silva</surname>
+</string-name>, and <string-name>
+<given-names>J.</given-names>
+<surname>Chandrapala</surname>
+</string-name>. <year>2024b</year>. &#x0201c;<article-title>The Impact of Varying Lactose&#x02010;To&#x02010;Maltodextrin Ratios on the Physicochemical and Structural Characteristics of Pasteurized and Concentrated Skim and Whole Milk&#x02013;Tea Blends</article-title>.&#x0201d; <source>Food</source>
+<volume>13</volume>, no. <issue>18</issue>: <elocation-id>3016</elocation-id>. <pub-id pub-id-type="doi">10.3390/foods13183016</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0103"><mixed-citation publication-type="journal" id="fsn370475-cit-0103">
+<string-name>
+<surname>Zahra</surname>, <given-names>F. T.</given-names>
+</string-name>, and <string-name>
+<given-names>U.</given-names>
+<surname>Mehmood</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Assessment of Quality Attributes of Yoghurt Fortified With <italic toggle="yes">Coriaandrum sativum</italic> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Mentha spicata</italic>
+</styled-content>
+</article-title>.&#x0201d; <source>Journal of Biological and Allied Health Sciences</source>
+<volume>3</volume>, no. <issue>1</issue>: <fpage>14</fpage>&#x02013;<lpage>23</lpage>. <pub-id pub-id-type="doi">10.56536/jbahs.v3i.41</pub-id>.</mixed-citation></ref><ref id="fsn370475-bib-0104"><mixed-citation publication-type="journal" id="fsn370475-cit-0104">
+<string-name>
+<surname>Zhang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Sun</surname>
+</string-name>, et&#x000a0;al. <year>2014</year>. &#x0201c;<article-title>Interaction of Milk Whey Protein With Common Phenolic Acids</article-title>.&#x0201d; <source>Journal of Molecular Structure</source>
+<volume>1058</volume>: <fpage>228</fpage>&#x02013;<lpage>233</lpage>.</mixed-citation></ref><ref id="fsn370475-bib-0105"><mixed-citation publication-type="journal" id="fsn370475-cit-0105">
+<string-name>
+<surname>Zhang</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<given-names>C. H.</given-names>
+<surname>Jeong</surname>
+</string-name>, <string-name>
+<given-names>W. N.</given-names>
+<surname>Cheng</surname>
+</string-name>, et&#x000a0;al. <year>2019</year>. &#x0201c;<article-title>Moringa Extract Enhances the Fermentative, Textural, and Bioactive Properties of Yogurt</article-title>.&#x0201d; <source>LWT&#x02014;Food Science and Technology</source>
+<volume>101</volume>: <fpage>276</fpage>&#x02013;<lpage>284</lpage>. <pub-id pub-id-type="doi">10.1016/j.lwt.2018.11.010</pub-id>.</mixed-citation></ref></ref-list></back></article>

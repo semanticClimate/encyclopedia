@@ -1,0 +1,766 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" id="jfds70758" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats-oasis2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Food Sci</journal-id><journal-id journal-id-type="iso-abbrev">J Food Sci</journal-id><journal-id journal-id-type="doi">10.1111/(ISSN)1750-3841</journal-id><journal-id journal-id-type="publisher-id">JFDS</journal-id><journal-title-group><journal-title>Journal of Food Science</journal-title></journal-title-group><issn pub-type="ppub">0022-1147</issn><issn pub-type="epub">1750-3841</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">12785496</article-id><article-id pub-id-type="doi">10.1111/1750-3841.70758</article-id><article-id pub-id-type="publisher-id">JFDS70758</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>ORIGINAL ARTICLE</subject><subj-group subj-group-type="heading"><subject>Food Engineering, Materials Science, and Nanotechnology</subject></subj-group></subj-group></article-categories><title-group><article-title>Fabrication and Characterization of a pH&#x02010;Responsive Intelligent Packaging Film From <italic toggle="yes">Amorphophallus paeoniifolius</italic> Starch and <italic toggle="yes">Clitoria ternatea</italic> Extract for Real&#x02010;Time Chicken Freshness Monitoring</article-title></title-group><contrib-group><contrib id="jfds70758-cr-0001" contrib-type="author"><name><surname>Prakruthi</surname><given-names>Likhitha Yadav</given-names></name><xref rid="jfds70758-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jfds70758-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jfds70758-cr-0002" contrib-type="author"><name><surname>krishnan</surname><given-names>Hari</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0008-6297-0711</contrib-id><xref rid="jfds70758-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jfds70758-cr-0003" contrib-type="author" corresp="yes"><name><surname>Reddy</surname><given-names>Chagam Koteswara</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5160-0079</contrib-id><xref rid="jfds70758-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jfds70758-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>kchagam@gitam.edu</email></address></contrib><contrib id="jfds70758-cr-0004" contrib-type="author"><name><surname>Kumari</surname><given-names>Tapasya</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6101-7274</contrib-id><xref rid="jfds70758-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jfds70758-cr-0005" contrib-type="author" corresp="yes"><name><surname>Vinayagam</surname><given-names>Ramachandran</given-names></name><xref rid="jfds70758-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>rambio@ynu.ac.kr</email></address></contrib></contrib-group><aff id="jfds70758-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Life Sciences</named-content>
+<institution>GITAM (Deemed to be University)</institution>
+<city>Visakhapatnam</city>
+<country country="IN">India</country>
+</aff><aff id="jfds70758-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Center of Multidisciplinary Unit of Research on Translational Initiatives (MURTI)</named-content>
+<institution>GITAM (Deemed to be University)</institution>
+<city>Visakhapatnam</city>
+<country country="IN">India</country>
+</aff><aff id="jfds70758-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biotechnology, College of Life and Applied Sciences</named-content>
+<institution>Yeungnam University</institution>
+<city>Gyeongsan</city>
+<named-content content-type="country-part">Gyeongsangbuk&#x02010;do</named-content>
+<country country="KR">Republic of Korea</country>
+</aff><pub-date pub-type="epub"><day>09</day><month>1</month><year>2026</year></pub-date><pub-date pub-type="ppub"><month>1</month><year>2026</year></pub-date><volume>91</volume><issue seq="90">1</issue><issue-id pub-id-type="doi">10.1111/jfds.v91.1</issue-id><elocation-id>e70758</elocation-id><history>
+<date date-type="rev-recd"><day>20</day><month>11</month><year>2025</year></date>
+<date date-type="received"><day>16</day><month>6</month><year>2025</year></date>
+<date date-type="accepted"><day>22</day><month>11</month><year>2025</year></date>
+</history><permissions><!--&#x000a9; 2026 Institute of Food Technologists.--><copyright-statement content-type="article-copyright">&#x000a9; 2026 The Author(s). <italic toggle="yes">Journal of Food Science</italic> published by Wiley Periodicals LLC on behalf of Institute of Food Technologists.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:JFDS-91-0.pdf"/><abstract><title>ABSTRACT</title><p>This study aimed to develop a pH&#x02010;sensitive intelligent packaging film using starch extracted from elephant foot yam (EFY) (<italic toggle="yes">Amorphophallus paeoniifolius</italic>). The starch was dual&#x02010;modified and blended with polyvinyl alcohol (PVA) and anthocyanin&#x02010;rich <italic toggle="yes">Clitoria ternatea</italic> extract (CTE) to produce composite films capable of real&#x02010;time chicken meat freshness monitoring. LC&#x02013;MS/MS profiling confirmed the presence of several phenolic and flavonoid compounds, including rutin, delphinidin, and quercetin. Structural analyses using field&#x02010;emission scanning electron microscopy (FE&#x02010;SEM), confocal laser scanning microscopy (CLSM), along with spectroscopic techniques such as Fourier transform infrared spectroscopy (FTIR), x&#x02010;ray diffraction (XRD), indicated&#x000a0; good dispersion of CTE within a semicrystalline polymer matrix. Incorporation of CTE modifies film properties: film thickness increased from 0.12 to 0.16&#x000a0;mm, while water vapor permeability decreased from 1.77 to 1.46&#x000a0;g&#x000a0;mm/m<sup>2</sup>/day/kPa. Colorimetric sensitivity increased, with &#x00394;<italic toggle="yes">E</italic> values rising from 1.80 to 17.5 across a broad pH range. Mechanical performance was peaked at 3% CTE, resulting in a tensile strength of 16.36&#x000a0;MPa and elongation at break of 24.20%. The films also exhibited notable antioxidant and antimicrobial activity against <italic toggle="yes">Escherichia coli</italic> and <italic toggle="yes">Staphylococcus aureus</italic>. Application to chicken packaging showed distinct color changes correlated with freshness indicators, including pH, microbial growth, TBARS (0.45&#x02013;2.32&#x000a0;mg MDA/kg), and total volatile basic nitrogen (TVB&#x02010;N) (10.2&#x02013;38.7&#x000a0;mg/100&#x000a0;g). Overall, the results suggest that EFY starch&#x02013;PVA&#x02013;CTE films are promising sustainable and biodegradable materials suitable for intelligent food packaging and real&#x02010;time freshness monitoring.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="jfds70758-kwd-0001">anthocyanins</kwd><kwd id="jfds70758-kwd-0002">
+<italic toggle="yes">Clitoria ternatea</italic> extract</kwd><kwd id="jfds70758-kwd-0003">dual&#x02010;modified starch</kwd><kwd id="jfds70758-kwd-0004">intelligent packaging film</kwd><kwd id="jfds70758-kwd-0005">LC&#x02013;MS/MS</kwd><kwd id="jfds70758-kwd-0006">pH&#x02010;sensitive film</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Science and Engineering Research Board</institution><institution-id institution-id-type="doi">10.13039/501100001843</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>DST SERB&#x02010;SRG, India</institution></institution-wrap>
+</funding-source><award-id>SRG/2023/002067</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>GITAM (Deemed to be University), Visakhapatnam</institution></institution-wrap>
+</funding-source><award-id>GITAM&#x02010;RSG 2021/0095</award-id></award-group></funding-group><counts><fig-count count="8"/><table-count count="5"/><page-count count="15"/><word-count count="8732"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.8 mode:remove_FC converted:09.01.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="jfds70758-cit-0001">
+<string-name>
+<surname>Prakruthi</surname>, <given-names>L. Y.</given-names>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>krishnan</surname>
+</string-name>, <string-name>
+<given-names>C. K.</given-names>
+<surname>Reddy</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Kumari</surname>
+</string-name>, and <string-name>
+<given-names>R.</given-names>
+<surname>Vinayagam</surname>
+</string-name>. <year>2026</year>. &#x0201c;<article-title>Fabrication and Characterization of a pH&#x02010;Responsive Intelligent Packaging Film From <italic toggle="yes">Amorphophallus paeoniifolius</italic> Starch and <italic toggle="yes">Clitoria ternatea</italic> Extract for Real&#x02010;Time Chicken Freshness Monitoring</article-title>.&#x0201d; <source>Journal of Food Science</source>
+<volume>91</volume>, no. <issue>1</issue>: <elocation-id>e70758</elocation-id>. <pub-id pub-id-type="doi">10.1111/1750-3841.70758</pub-id>
+</mixed-citation>
+</p></notes></front><body><sec id="jfds70758-sec-0020"><label>1</label><title>Introduction</title><p>Food packaging plays a crucial role in the food supply chain by maintaining product integrity, slowing deterioration, and extending shelf&#x02010;life (Thakur et&#x000a0;al. <xref rid="jfds70758-bib-0032" ref-type="bibr">2024</xref>). Petroleum&#x02010;derived plastics are widely used in consumer packaging due to their lightweight, visual appeal, ease of processing, affordability, and superior functional properties (Roy and Rhim <xref rid="jfds70758-bib-0026" ref-type="bibr">2020</xref>). However, their extensive use has raised ecological concerns because of poor degradability resulting in long&#x02010;term environmental accumulation of non&#x02010;biodegradable waste (Jiang et&#x000a0;al. <xref rid="jfds70758-bib-0012" ref-type="bibr">2023</xref>; Manzoor et&#x000a0;al. <xref rid="jfds70758-bib-0016" ref-type="bibr">2023</xref>). Although bio&#x02010;based biodegradable polymers are being increasingly explored across various industries, their overall impact on their large&#x02010;scale adoption remains limited due to higher cost, processing constraints, and variability (Ahmed et&#x000a0;al. <xref rid="jfds70758-bib-0001" ref-type="bibr">2018</xref>).</p><p>Starch is an abundant, inexpensive, and biodegradable thermoplastic biopolymer composed of amylose and amylopectin (Shanmathy et&#x000a0;al. <xref rid="jfds70758-bib-0027" ref-type="bibr">2021</xref>). Its biodegradability and strong film&#x02010;forming ability make it a promising candidate for food packaging applications (Thakur et&#x000a0;al. <xref rid="jfds70758-bib-0031" ref-type="bibr">2024</xref>). Intelligent packaging systems are gaining prominence for enhancing product quality, ensuring food safety, minimizing waste, extending shelf life, and promoting environmental sustainability (Wu et&#x000a0;al. <xref rid="jfds70758-bib-0038" ref-type="bibr">2024</xref>). These systems typically incorporate sensors, indicators, or colorimetric agents to enable real&#x02010;time monitoring of food freshness and quality (Thakur et&#x000a0;al. <xref rid="jfds70758-bib-0031" ref-type="bibr">2024</xref>). The global market for bio&#x02010;based intelligent food packaging is projected to reach $26.7 billion by 2024 and $31.98 billion by 2029 (Kumar et&#x000a0;al. <xref rid="jfds70758-bib-0013" ref-type="bibr">2024</xref>).</p><p>Natural bioactive compounds are increasingly incorporated into biopolymeric films to impart antioxidant and antimicrobial activity. Among these, anthocyanins are widely used as pH&#x02010;sensitive colorimetric indicators to detect spoilage&#x02010;related pH variations in food (Jiang et&#x000a0;al. <xref rid="jfds70758-bib-0012" ref-type="bibr">2023</xref>). Anthocyanins, possess a three&#x02010;ring flaviumstructure, exist in multiple structural forms and undergo reversible color transitions across different pH levels. These pH&#x02010;induced chromatic transitions make anthocyanins ideal for visually monitoring biochemical changes associated with food spoilage (Cheng et&#x000a0;al. <xref rid="jfds70758-bib-0005" ref-type="bibr">2022</xref>). <italic toggle="yes">Clitoria ternatea</italic> (butterfly pea flower) is particularly rich in acylated anthocyanins known as ternatins, which exhibit superior&#x000a0;stability compared with non&#x02010;acylated forms (Rashad et&#x000a0;al. <xref rid="jfds70758-bib-0023" ref-type="bibr">2025</xref>). These properties make <italic toggle="yes">C. ternatea</italic> extract (CTE) a promising natural dye for intelligent packaging applications. Recent studies have demonstrated the successful incorporation of butterfly pea flower extract into starch&#x02010;based films, such as avocado seed starch films used as pH&#x02010;sensitive indicators (Asikkutlu and Yildirim&#x02010;Yalcin <xref rid="jfds70758-bib-0003" ref-type="bibr">2025</xref>).</p><p>Starch from various botanical sources has been used for film fabrication, including maize (Fitch&#x02010;Vargas et&#x000a0;al. <xref rid="jfds70758-bib-0008" ref-type="bibr">2016</xref>), wheat (Basiak et&#x000a0;al. <xref rid="jfds70758-bib-0004" ref-type="bibr">2015</xref>), taro (Shanmathy et&#x000a0;al. <xref rid="jfds70758-bib-0027" ref-type="bibr">2021</xref>), cassava (Parra et&#x000a0;al. <xref rid="jfds70758-bib-0020" ref-type="bibr">2004</xref>), oat (Galdeano et&#x000a0;al. <xref rid="jfds70758-bib-0009" ref-type="bibr">2009</xref>), and sweet potato starches (Choi et&#x000a0;al. <xref rid="jfds70758-bib-0006" ref-type="bibr">2022</xref>), each exhibiting distinct morphological, rheological, thermal, and functional properties (Sigdel and Janaswamy <xref rid="jfds70758-bib-0028" ref-type="bibr">2024</xref>). Elephant foot yam (EFY) (<italic toggle="yes">Amorphophallus paeoniifolius</italic>) is a tropical tuber commonly consumed in Asia, and its starch has a high extraction yield of 87.7% with an amylose content ranging from 24.2% to 28.29% (Reddy et&#x000a0;al. <xref rid="jfds70758-bib-0024" ref-type="bibr">2014</xref>). Its physiochemical and functional characteristics are comparable to those of commercial starches, making it a viable alternative for food and industrial applications (Suriya et&#x000a0;al. <xref rid="jfds70758-bib-0030" ref-type="bibr">2019</xref>). Despite these advantages, EFY starch (EFYS) has seen limited use in intelligent films. Native starch&#x02010;based films often suffer from brittleness, poor mechanical strength, low water resistance, and stickiness, restrictingtheir suitability commercial application (Singh et&#x000a0;al. <xref rid="jfds70758-bib-0029" ref-type="bibr">2023</xref>).</p><p>To overcome these limitations, starch is often blended with compatible biopolymers such as polyvinyl alcohol (PVA). PVA is a biodegradable, nontoxic, and biocompatible polymer, with excellent film&#x02010;forming and, barrier properties, making it suitable for food packaging (Li et&#x000a0;al. <xref rid="jfds70758-bib-0014" ref-type="bibr">2024</xref>). Blending starch with PVA improves mechanical strength, flexibility, and stability (Nagar et&#x000a0;al. <xref rid="jfds70758-bib-0017" ref-type="bibr">2020</xref>; Arifin et&#x000a0;al. <xref rid="jfds70758-bib-0002" ref-type="bibr">2025</xref>). Recent studies have reported starch&#x02010;PVA&#x02010;based intelligent packaging films, including jackfruit seed starch/PVA films incorporating purple sweet potato anthocyanins and starch&#x02010;based films integrating colorimetric indicators for meat freshness monitoring (Nguyen et&#x000a0;al. <xref rid="jfds70758-bib-0019" ref-type="bibr">2025</xref>).</p><p>The present study developed a pH&#x02010;sensitive intelligent packaging film by incorporating anthocyanin&#x02010;rich CTE into dual&#x02010;modified EFYS&#x02013;PVA matrices. The aim was to produce a film with enhanced mechanical, barrier, and thermal properties while functioning as a reliable colorimetric freshness indicator.</p></sec><sec id="jfds70758-sec-0030"><label>2</label><title>Materials and Methods</title><sec id="jfds70758-sec-0040"><label>2.1</label><title>Materials</title><p>EFY (<italic toggle="yes">A. paeoniifolius</italic>) tubers and butterfly pea flowers (<italic toggle="yes">C. ternatea</italic>) were procured from a local farmer's market in Visakhapatnam, India. Fresh chicken samples were sourced from a local poultry farm in the same region. All chemicals and reagents used in this study, including glycerol, ethanol, glacial acetic acid, and PVA, were of analytical grade and purchased from Hi&#x02010;Media Co., Mumbai, India.</p></sec><sec id="jfds70758-sec-0050"><label>2.2</label><title>Isolation of Starch and Preparation of Dual&#x02010;Modified Starch</title><p>Starch was extracted following the method described by Reddy et&#x000a0;al. (<xref rid="jfds70758-bib-0024" ref-type="bibr">2014</xref>). Briefly, EFY tubers were peeled, chopped, and treated with 0.1% (w/v) sodium metabisulfite. The homogenized slurry was suspended in 4% (w/v) NaCl, filtered, and centrifuged. The resulting starch sediment was dried at 45&#x000b0;C for 24&#x000a0;h and stored in airtight containers.</p><p>Dual&#x02010;modification of EFY starch was performed following the method described by Prakruthi et&#x000a0;al. (<xref rid="jfds70758-bib-0021" ref-type="bibr">2025</xref>). A starch slurry (25% w/v) was ultrasonicated at 40&#x000b0;C for 15&#x000a0;min, centrifuged at 5000&#x000a0;rpm, and oven dried at 45&#x000b0;C to approximately 10% moisture content. The dried starch was then treated with acetic acid (1:4 w/v), incubated at 45&#x000b0;C for 2&#x000a0;h, centrifuged, and dried again. The dual&#x02010;modified EFY&#x000a0;starch (MEFYS) obtained was stored in airtight containers for further use.</p><sec id="jfds70758-sec-0060"><label>2.2.1</label><title>Total Starch Content, Amylose Content, and Gelatinization Temperature</title><p>The amylose and total starch contents were determined using the iodine&#x02010;binding method described by Prakruthi et&#x000a0;al. (<xref rid="jfds70758-bib-0021" ref-type="bibr">2025</xref>). Thermal properties of the starch, including onset temperature (<italic toggle="yes">T</italic>
+<sub>o</sub>), peak temperature (<italic toggle="yes">T</italic>
+<sub>p</sub>), conclusion temperature (<italic toggle="yes">T</italic>
+<sub>c</sub>), and gelatinization enthalpy (&#x00394;<italic toggle="yes">H</italic>), were analyzed using a differential scanning calorimeter (DSC&#x02010;60 Plus, Shimadzu, Japan) over a temperature range of 30&#x02013;200&#x000b0;C.</p></sec><sec id="jfds70758-sec-0070"><label>2.2.2</label><title>Starch Particle Size and Morphology</title><p>The particle size of dual&#x02010;modified EFY starch was measured using a laser diffraction particle size analyzer. For morphological analysis, starch samples were dispersed in ultrapure water, dried, and examined using field&#x02010;emission scanning electron microscopy (FE&#x02010;SEM; Tescan Mira&#x02010;3, Czech Republic). Prior to imaging, the samples were sputter&#x02010;coated with a thin layer of gold to enhance surface conductivity.</p></sec></sec><sec id="jfds70758-sec-0080"><label>2.3</label><title>Extraction of Polyphenols From <italic toggle="yes">Clitoria ternatea</italic> Flower</title><p>Polyphenols were extracted from <italic toggle="yes">C. ternatea</italic> flowers following the method described by Netravati et&#x000a0;al. (<xref rid="jfds70758-bib-0018" ref-type="bibr">2022</xref>) with minor modifications. Fresh petals were cleaned, dried, and ground into a fine powder. The powder was extracted with 50% ethanol containing 1% citric acid (1:10 w/v). The mixture was incubated at 50&#x000b0;C for 12&#x000a0;h, filtered, and concentrated at 50&#x000b0;C using a rotary vacuum evaporator. The resulting blue polyphenol&#x02010;rich extract was freeze&#x02010;dried and stored at 4&#x000b0;C for further analysis.</p><sec id="jfds70758-sec-0090"><label>2.3.1</label><title>Total Anthocyanin Content (TAC) of CTE</title><p>The TAC was determined using a pH differential method as described by Netravati et&#x000a0;al. (<xref rid="jfds70758-bib-0018" ref-type="bibr">2022</xref>). The concentrated pigment extract was diluted in pH 1.0 and pH 4.5 buffer solutions, prepared using potassium chloride and sodium acetate, respectively. The solutions were incubated for 15&#x000a0;min before absorbance measurements were taken using a spectrophotometer (UH5300 UV&#x02013;Vis spectrophotometer, Hitachi, Tokyo, Japan). Absorbance was recorded at 530 and 700&#x000a0;nm and was calculated using the following equations:<disp-formula id="jfds70758-disp-0001">
+<label>(1)</label>
+<mml:math id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:mi>A</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:msub><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mn>530</mml:mn><mml:mspace width="0.33em"/><mml:mi>nm</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mn>700</mml:mn><mml:mspace width="0.33em"/><mml:mi>nm</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mrow><mml:mrow><mml:mi>pH</mml:mi><mml:mspace width="0.33em"/></mml:mrow><mml:mn>1.0</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">&#x02212;</mml:mo><mml:msub><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mn>530</mml:mn><mml:mspace width="0.33em"/><mml:mi>nm</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mn>700</mml:mn><mml:mspace width="0.33em"/><mml:mi>nm</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mrow><mml:mrow><mml:mi>pH</mml:mi><mml:mspace width="0.33em"/></mml:mrow><mml:mn>4.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="jfds70758-disp-0002">
+<label>(2)</label>
+<mml:math id="jats-math-2" display="block"><mml:mrow><mml:mrow><mml:mrow><mml:mi>TAC</mml:mi><mml:mspace width="0.33em"/></mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mi>mg</mml:mi><mml:mo>/</mml:mo><mml:mi mathvariant="normal">L</mml:mi></mml:mrow></mml:mfenced><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mi>A</mml:mi><mml:mspace width="0.33em"/><mml:mo>&#x000d7;</mml:mo><mml:mi>MW</mml:mi><mml:mo>&#x000d7;</mml:mo><mml:mi>DF</mml:mi><mml:mo>&#x000d7;</mml:mo><mml:mn>1000</mml:mn></mml:mrow><mml:mrow><mml:mspace width="0.33em"/><mml:mi>&#x003b5;</mml:mi><mml:mo>&#x000d7;</mml:mo><mml:mi>l</mml:mi></mml:mrow></mml:mfrac><mml:mspace width="0.33em"/></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where MW is the molecular weight (449.2&#x000a0;g/mol) of cyanidin&#x02010;3&#x02010;glucoside, DF is the dilution factor, <italic toggle="yes">&#x003b5;</italic> is the molar absorptivity coefficient (29,600&#x000a0;L/mol/cm), and <italic toggle="yes">l</italic> is the optical path length (1&#x000a0;cm).</p></sec><sec id="jfds70758-sec-0100"><label>2.3.2</label><title>LC&#x02013;MS/MS (QTRAP) Analysis of CTE</title><p>Metabolite profiling of the extract was performed using a liquid chromatography system coupled with electrospray ionization tandem mass spectrometry (LC&#x02013;ESI&#x02013;MS/MS) on a SCIEX QTRAP 5500+ system. The extract was dissolved in MS&#x02010;grade methanol and stored in glass vials prior to analysis. Chromatographic separation was achieved using a Phenomenex C18 column (150&#x000a0;&#x000d7;&#x000a0;3&#x000a0;mm<sup>2</sup>, 2.6&#x000a0;&#x000b5;m, 100&#x000a0;&#x000c5;), operated with a binary pump system. The operating conditions followed the method of Reddy et&#x000a0;al. (<xref rid="jfds70758-bib-0025" ref-type="bibr">2020</xref>).</p></sec></sec><sec id="jfds70758-sec-0110"><label>2.4</label><title>Development of pH&#x02010;Intelligent Films</title><p>The composite films containing PVA, EFYS, and CTE anthocyanins were prepared following the method outlined by Li et&#x000a0;al. (<xref rid="jfds70758-bib-0015" ref-type="bibr">2022</xref>), with slight modifications. EFYS and PVA were separately gelatinized and dissolved to form 10% (w/v) solutions by heating at 80&#x000b0;C for 30&#x000a0;min and 100&#x000b0;C for 1&#x000a0;h, respectively. The two solutions were then mixed in a 60:40 ratio. Glycerol and glacial acetic acid (20% w/w, based on EFYS&#x02010;PVA content) were added as plasticizers, and the mixture was stirred at 95&#x000b0;C for 30&#x000a0;min. The resulting film&#x02010;forming solution (FFS) was divided into portions, to which 0%, 2%, 3%, or 4% (w/w) CTE anthocyanins were added and labeled C, S1, S2, S3. After heating, stirring, and degassing, 25&#x000a0;g of each FFS was cast onto 90&#x000a0;mm glass petri dishes and dried at 25&#x000b0;C for 24&#x000a0;h. The dried films were conditioned in a desiccator for 5 days before analysis to ensure stable and consistent moisture content (MC) and coded as C (CTE/MEFYS/PVA), S1 (2% CTE/MEFYS/PVA), S2 (3% CTE/MEFYS/PVA), and S3 (4% CTE/MEFYS/PVA) MEFYS/PVA/CTE films.</p></sec><sec id="jfds70758-sec-0120"><label>2.5</label><title>Characterization of Films</title><sec id="jfds70758-sec-0130"><label>2.5.1</label><title>Physical Properties</title><sec id="jfds70758-sec-0140"><label>2.5.1.1</label><title>Thickness and MC</title><p>Film thickness (FT) was measured using a digital micrometer (Mitutoyo, Japan). Five measurements were taken at different points on each film, and the mean value was recorded. MC was determined gravimetrically by recording the weight loss of film samples before and after drying in a hot&#x02010;air oven at 100&#x000b0;C until a constant weight was reached, using the following equation:
+<disp-formula id="jfds70758-disp-0003">
+<label>(3)</label>
+<mml:math id="jats-math-3" display="block"><mml:mrow><mml:mrow><mml:mrow><mml:mi>MC</mml:mi><mml:mspace width="0.33em"/></mml:mrow><mml:mfenced open="(" close=")"><mml:mo>%</mml:mo></mml:mfenced><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>M</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:msub><mml:mi>M</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfrac><mml:mo linebreak="goodbreak">&#x000d7;</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">M<sub>i</sub>
+</italic> is the initial weight of film, and <italic toggle="yes">M<sub>t</sub>
+</italic> is the final weight of film.</p></sec><sec id="jfds70758-sec-0150"><label>2.5.1.2</label><title>Swelling Rate, Water Solubility, and Water Vapor Permeability (WVP)</title><p>Film swelling rate was measured by immersing dried MEFYS/PVA/CTE films in distilled water at 25&#x000b0;C for 24&#x000a0;h. After immersion, surface moisture was removed and the films were weighed. The swelling degree was calculated as<disp-formula id="jfds70758-disp-0004">
+<label>(4)</label>
+<mml:math id="jats-math-4" display="block"><mml:mrow><mml:mrow><mml:mi>SR</mml:mi><mml:mfenced open="(" close=")"><mml:mo>%</mml:mo></mml:mfenced><mml:mo linebreak="badbreak">=</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo linebreak="goodbreak">&#x02212;</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>/</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mo linebreak="goodbreak">&#x000d7;</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">M<sub>a</sub>
+</italic> is the initial weight of film, and <italic toggle="yes">M</italic>
+<sub>0</sub> is the final weight of the film.</p><p>Film solubility (FS) was determined by re&#x02010;drying the swollen films at 60&#x000b0;C for 24&#x000a0;h and reweighing. FS was calculated as
+<disp-formula id="jfds70758-disp-0005">
+<label>(5)</label>
+<mml:math id="jats-math-5" display="block"><mml:mrow><mml:mrow><mml:mi>Film</mml:mi><mml:mspace width="0.16em"/><mml:mi>solubility</mml:mi><mml:mfenced open="(" close=")"><mml:mo>%</mml:mo></mml:mfenced><mml:mo linebreak="badbreak">=</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo linebreak="goodbreak">&#x02212;</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>/</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo linebreak="goodbreak">&#x000d7;</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">M</italic>
+<sub>0</sub> is the initial weight of film, and <italic toggle="yes">M</italic>
+<sub>1</sub> is the final weight of the film after drying.</p><p>WVP was determined using a modified gravimetric method. Film samples (2&#x000a0;&#x000d7;&#x000a0;2&#x000a0;cm<sup>2</sup>) were sealed over silica gel tubes and placed in a desiccator containing deionized water. Samples were weighed daily for 7 days, and WVP was calculated as
+<disp-formula id="jfds70758-disp-0006">
+<label>(6)</label>
+<mml:math id="jats-math-6" display="block"><mml:mrow><mml:mrow><mml:mi>WVP</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mspace width="0.33em"/><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mi mathvariant="normal">-</mml:mi><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfenced><mml:mo>&#x000d7;</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>S</mml:mi><mml:mo>&#x000d7;</mml:mo><mml:mi>t</mml:mi><mml:mo>&#x000d7;</mml:mo><mml:mi>d</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where (<italic toggle="yes">m</italic>
+<sub>1</sub>&#x02010;<italic toggle="yes">m</italic>
+<sub>2</sub>) is the increased weight of the tube (g), <italic toggle="yes">d</italic> is the FT (m), <italic toggle="yes">t</italic> is the testing time (s), <italic toggle="yes">A</italic> is the permeation area of the film (m<sup>2</sup>), and &#x02206;<italic toggle="yes">p</italic> is the water vapor pressure (2339&#x000a0;Pa)</p></sec><sec id="jfds70758-sec-0160"><label>2.5.1.3</label><title>Color Parameter of Film</title><p>Film color parameters (<italic toggle="yes">L*, a*, b*</italic>) were measured using a digital colorimeter (Hunterlab ColorFlex EZ Spectrophotometer). The total color difference (&#x02206;<italic toggle="yes">E</italic>) was calculated.</p></sec></sec><sec id="jfds70758-sec-0170"><label>2.5.2</label><title>pH Sensitivity of the CTE and CTE&#x02010;EFY Films</title><p>For pH sensitivity, 1&#x000a0;mL sample of CTE and 1&#x000a0;&#x000d7;&#x000a0;1&#x000a0;cm<sup>2</sup> of CTE&#x02010;EFY films were immersed in 10&#x000a0;mL of buffer solutions with pH values ranging from 1 to 12. The absorbance spectra were recorded between 400 and 700&#x000a0;nm using a UV&#x02013;visible spectrophotometer (UH5300 UV&#x02013;Visible spectrophotometer, Hitachi, Tokyo, Japan).</p></sec><sec id="jfds70758-sec-0180"><label>2.5.3</label><title>Mechanical Properties</title><p>The mechanical properties of the films were measured following ASTM D882, including tensile strength (TS), elongation at break (EAB), and Young's modulus (YM). Tests were conducted at 30&#x000b0;C and 68% relative humidity using a micro tensile tester equipped with a load transducer. Data were analyzed using Texture Expert software, and all tests were carried out in triplicate:<disp-formula id="jfds70758-disp-0007">
+<label>(7)</label>
+<mml:math id="jats-math-7" display="block"><mml:mrow><mml:mrow><mml:mi>TS</mml:mi><mml:mfenced open="(" close=")"><mml:mi>MPa</mml:mi></mml:mfenced><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mi>F</mml:mi><mml:mi>A</mml:mi></mml:mfrac></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="jfds70758-disp-0008">
+<label>(8)</label>
+<mml:math id="jats-math-8" display="block"><mml:mrow><mml:mrow><mml:mi>EAB</mml:mi><mml:mfenced open="(" close=")"><mml:mo>%</mml:mo></mml:mfenced><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mi>L</mml:mi><mml:msub><mml:mi>L</mml:mi><mml:mi mathvariant="normal">o</mml:mi></mml:msub></mml:mfrac><mml:mo linebreak="goodbreak">&#x000d7;</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="jfds70758-disp-0009">
+<label>(9)</label>
+<mml:math id="jats-math-9" display="block"><mml:mrow><mml:mrow><mml:mi>YM</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mi>TS</mml:mi><mml:mi>S</mml:mi></mml:mfrac></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">F</italic> is the maximum force applied at rupture, <italic toggle="yes">A</italic> is the cross&#x02010;sectional area of the film, <italic toggle="yes">L</italic> is the elongated length of the film at the point of rupture, <italic toggle="yes">L</italic>
+<sub>o</sub> is the original length of the film before stretching, TS is the tensile strength, and <italic toggle="yes">S</italic> is the strain (<italic toggle="yes">L</italic>/<italic toggle="yes">L</italic>
+<sub>o</sub>).</p></sec><sec id="jfds70758-sec-0190"><label>2.5.4</label><title>Morphological Examination</title><sec id="jfds70758-sec-0200"><label>2.5.4.1</label><title>Scanning Electron Microscopy</title><p>The morphology of starch granules and the films was examined using an FE&#x02010;SEM (Tescan Mira&#x02010;3, Czech Republic) operated at 5&#x000a0;kV. Film samples (1&#x000a0;&#x000d7;&#x000a0;1&#x000a0;cm<sup>2</sup>) were mounted on aluminum stubs with double&#x02010;sided carbon tape, sputter&#x02010;coated with gold using a vacuum evaporator, and observed on both surface and cross&#x02010;sectional views.</p></sec><sec id="jfds70758-sec-0210"><label>2.5.4.2</label><title>Confocal Laser Scanning Microscopy (CLSM)</title><p>The microstructure of the films was observed using CLSM (Olympus FV4000, Japan). Imaging was based on the autofluorescence of the film matrix, with excitation at 405&#x000a0;nm using a DAPI laser channel. Images were captured at a depth of 20&#x000a0;&#x000b5;m below the coverslip using a 20&#x000d7; objective lens.</p></sec></sec><sec id="jfds70758-sec-0220"><label>2.5.5</label><title>X&#x02010;Ray Diffraction (XRD) Analysis</title><p>The crystalline structures of the films were characterized using XRD with a Cu <italic toggle="yes">K</italic>&#x003b1; radiation source (<italic toggle="yes">&#x003bb;</italic>&#x000a0;=&#x000a0;1.5406&#x000a0;&#x000c5;). The instrument operated at 40&#x000a0;kV and 40&#x000a0;mA, scanning over a 2<italic toggle="yes">&#x003b8;</italic> range of 5&#x000b0;&#x02013;50&#x000b0;.</p></sec><sec id="jfds70758-sec-0230"><label>2.5.6</label><title>Fourier Transform Infrared Spectroscopy (FTIR)</title><p>FTIR spectra of the films were recorded at room temperature using an FTIR spectrometer (ALPHA II, Bruker, Germany) in the range of 500&#x02013;4000&#x000a0;cm<sup>&#x02212;1</sup>.</p></sec><sec id="jfds70758-sec-0240"><label>2.5.7</label><title>Thermo&#x02010;Gravimetric Analysis (TGA)</title><p>Thermal stability of the films was evaluated using a thermogravimetric analyzer (DTG&#x02010;60 Shimadzu, Japan). Samples were heated from room temperature to 400&#x000b0;C at a heating rate of 10&#x000b0;C/min under a nitrogen atmosphere.</p></sec><sec id="jfds70758-sec-0250"><label>2.5.8</label><title>Antioxidant Property</title><p>The antioxidant activity of the film samples was evaluated using DPPH and ABTS assays following the method of Wu et&#x000a0;al. (<xref rid="jfds70758-bib-0038" ref-type="bibr">2024</xref>). For the DPPH assay, 50&#x000a0;mg of each film sample was combined with a DPPH methanol solution. The mixture was then incubated in the dark for 30&#x000a0;min. Following incubation, the absorbance was measured at 517&#x000a0;nm, and the DPPH radical scavenging activity was calculated. For the ABTS assay, a working solution was prepared by reacting ABTS with potassium persulfate, and this mixture was allowed to stand in the dark overnight to ensure complete radical formation. The absorbance of the samples was subsequently recorded at 734&#x000a0;nm, and the antioxidant activity was calculated using the appropriate formula.</p></sec><sec id="jfds70758-sec-0260"><label>2.5.9</label><title>Antimicrobial Activity</title><p>The antibacterial activity of the films was assessed using the agar well diffusion method described by Li et&#x000a0;al. (<xref rid="jfds70758-bib-0014" ref-type="bibr">2024</xref>). Two representative bacterial strains were used: <italic toggle="yes">Staphylococcus aureus</italic> (Gram&#x02010;positive) and <italic toggle="yes">Escherichia coli</italic> (Gram&#x02010;negative). Bacterial suspensions were adjusted to the 0.5 McFarland standard (&#x0223c;1.5&#x000a0;&#x000d7;&#x000a0;10<sup>8</sup>&#x000a0;CFU/mL). A 100&#x000a0;&#x000b5;L aliquot of each suspension was spread on Luria&#x02013;Bertani agar plates, and wells (10&#x000a0;mm diameter) were filled with film discs. Ampicillin served as the positive control. The plates were incubated at 37&#x000b0;C for 24&#x000a0;h, after which inhibition zone diameters were measured. All tests were performed in triplicate.</p></sec><sec id="jfds70758-sec-0270"><label>2.5.10</label><title>Application for Monitoring Chicken Freshness</title><p>The effectiveness of the pH&#x02010;sensitive indicator films for monitoring chicken meat freshness was tested following method by Kumar et&#x000a0;al. (<xref rid="jfds70758-bib-0013" ref-type="bibr">2024</xref>). Film indicators were attached to the lids of petri dishes containing 20.0&#x000a0;g chicken meat samples, which were stored at 4&#x000b0;C (refrigerator) and 37&#x000b0;C (incubator). During storage, the pH of the meat and the corresponding color changes of the films were periodically recorded. Microbiological quality was assessed by determining the total viable count (TVC). For this, 1.0&#x000a0;g of raw minced chicken meat was homogenized in sterile saline, serially diluted, and plated on plate count agar (PCA). The plates were inoculated at 30&#x000b0;C for 48&#x000a0;h, and TVC values were expressed as log colony&#x02010;forming units per gram (log&#x000a0;CFU/g). Chemical indicators of freshness were also measured. Total volatile basic nitrogen (TVB&#x02010;N) was determined using a Kjeldahl apparatus (Borosil KDI040). Lipid oxidation was analyzed by the TBARS assay following Wang et&#x000a0;al. (<xref rid="jfds70758-bib-0034" ref-type="bibr">2021</xref>), with values calculated using an absorbance coefficient of 7.8 and expressed as mg malondialdehyde eq/kg sample. The pH of the supernatant was measured using a digital pH meter (Mettler Toledo). Chromatic properties of the films were quantified using a digital colorimeter (HunterLab ColorFlex EZ), and the color difference (&#x02206;<italic toggle="yes">E</italic>) values were calculated to assess visual changes.</p></sec><sec id="jfds70758-sec-0280"><label>2.5.11</label><title>Film Stability</title><p>Film stability was evaluated by monitoring color changes during storage. Samples were stored under controlled conditions (25&#x000b0;C and 35% RH) for 6 months. Color measurements and photographs were taken at 1, 3, and 6 months to assess stability over time.</p></sec></sec><sec id="jfds70758-sec-0290"><label>2.6</label><title>Statistical Analysis</title><p>All experiments were conducted in triplicate. Data were analyzed using SPSS software. One&#x02010;way analysis of variance (ANOVA) followed by Duncan's multiple range test (DMRT) was used to determine significant differences among means at the <italic toggle="yes">p</italic>&#x000a0;&#x0003c;&#x000a0;0.05 level.</p></sec></sec><sec id="jfds70758-sec-0300"><label>3</label><title>Results and Discussion</title><sec id="jfds70758-sec-0310"><label>3.1</label><title>Total Starch Content and Amylose Content</title><p>A white, refined starch powder was successfully obtained through physical separation and drying, with a yield of 24% on a dry basis after dual&#x02010;modification. Analysis revealed that the total starch content of isolated EFY starch was 79.45%, indicating high purity. The amylose content was 24.18%, whereas amylopectin accounted for 75.82%. This composition is consistent with the study reported by Iqbal et&#x000a0;al. (<xref rid="jfds70758-bib-0010" ref-type="bibr">2024</xref>) and plays a crucial role in film&#x02010;forming ability and functional properties. Lower amylose content contributes to reduced retrogradation, improved flexibility, and enhanced transparency but may decrease film strength. Therefore, blending with other polymers such as PVA and plasticizers is necessary to improve mechanical properties (Nagar et&#x000a0;al. <xref rid="jfds70758-bib-0017" ref-type="bibr">2020</xref>). Thermal analysis showed an onset temperature (<italic toggle="yes">T</italic>
+<sub>o</sub>) of 65.62&#x000b0;C, peak temperature (<italic toggle="yes">T</italic>
+<sub>p</sub>) of 88.43&#x000b0;C, conclusion temperature (<italic toggle="yes">T</italic>
+<sub>c</sub>) of 100.21&#x000b0;C, and gelatinization enthalpy (&#x00394;<italic toggle="yes">H</italic>) of 22.88&#x000a0;J/g. The relatively high &#x00394;<italic toggle="yes">H</italic> suggests a more ordered crystalline structure, that requiriesg greater energy for gelatinization. Such characteristic thermal behaviour is consistent with a comparitively rigid starch matrix, which is advantageous for film formulation. Overall, the dual&#x02010;modified EFY starch (MEFYS) exhibits promising characteristics, making it a suitable substrate for the developing, flexible, pH&#x02010;responsive packaging films.</p></sec><sec id="jfds70758-sec-0320"><label>3.2</label><title>Starch Particle Size and Morphology</title><p>Morphological analysis of native and dual&#x02010;modified EFY starches using FE&#x02010;SEM (Figure&#x000a0;<xref rid="jfds70758-fig-0001" ref-type="fig">1A,B</xref>) revealed typical tuber&#x02010;derived features, with smooth, uniform granules exhibiting oval to elliptical shapes. After treatment, granules appeared mainly oval or spherical with smooth surfaces. The final white, starch powder (Figure&#x000a0;<xref rid="jfds70758-fig-0001" ref-type="fig">1C</xref>) indicated effective drying andpigment removal, supporting ist suitablilty for edible films and pharmaceutical applications. Laser diffraction analysis (Figure&#x000a0;<xref rid="jfds70758-fig-0001" ref-type="fig">1D</xref>) showed a median particle diameter of 26.30&#x000a0;&#x000b5;m and mean diameter of 27.20&#x000a0;&#x000b5;m.</p><fig position="float" fig-type="FIGURE" id="jfds70758-fig-0001"><label>FIGURE 1</label><caption><p>(A) Microstructure of native elephant foot yam (EFY) starch, (B) dual&#x02010;modified EFY starch, (C) dual&#x02010;modified EFY starch powder, and (D) particle size distribution of EFYS.</p></caption><graphic xlink:href="JFDS-91-0-g002" position="anchor" id="jats-graphic-1"/></fig></sec><sec id="jfds70758-sec-0330"><label>3.3</label><title>Anthocyanin Content of CTE</title><p>To ensure that spectrophotometric readings remained within the linear range, crude and its lyophilized CTE extracts were diluted 15&#x02010; and 7&#x02010;fold, respectively. The TAC of the solid CTE was 1.70&#x000a0;mg/g, whereas the dried butterfly pea flower powder yielded a TAC of 93.90&#x000a0;mg/100&#x000a0;g. Although these values are slightly lower than those reported for ultrasound&#x02010;assisted extraction (Netravati et&#x000a0;al. <xref rid="jfds70758-bib-0018" ref-type="bibr">2022</xref>), the TAC obtained in this study exceeded most previously published results. This comparitively higher yield may be related to the extentime of 12&#x000a0;h, which likely enhanced pigment recovery.</p></sec><sec id="jfds70758-sec-0340"><label>3.4</label><title>LC&#x02013;MS/MS (Q&#x02010;TRAP) Analysis of CTE</title><p>High&#x02010;resolution LC&#x02013;MS/MS QTRAP analysis of CTE identified 12 distinct metabolites (Table&#x000a0;<xref rid="jfds70758-tbl-0001" ref-type="table">1</xref> and Figure <xref rid="jfds70758-supinfo-0001" ref-type="">S1</xref>), spanning multiple phytochemical classes, including carboxylic acids, flavonoids, flavonoid glycosides, phenolic acids, aldehydes, methyl esters, and alkaloids. Among these, key flavonoids, such as rutin, quercetin, delphinidin, and isoquercetin, were confirmed. Quantification reported in our recent study (Prakruthi et&#x000a0;al. <xref rid="jfds70758-bib-0021" ref-type="bibr">2025</xref>) demonstrated that <italic toggle="yes">C. ternatea</italic> contains appreciable levels of ferulic acid (125.19&#x000a0;&#x000b5;g/100&#x000a0;mg), rutin (19.20&#x000a0;&#x000b5;g/100&#x000a0;mg), ellagic acid (9.63&#x000a0;&#x000b5;g/100&#x000a0;mg), myricetin (3.20&#x000a0;&#x000b5;g/100&#x000a0;mg), quercetin (5.41&#x000a0;&#x000b5;g/100&#x000a0;mg), apigenin 7&#x02010;glucoside (0.85&#x000a0;&#x000b5;g/100&#x000a0;mg), and coumarin (1.63&#x000a0;&#x000b5;g/100&#x000a0;mg), with smaller quantities of gallic acid and protocatechuic acid also detected, which provides a strong basis for justifying their incorporation and expected pH sensitivity. Chromatographic separation revealed that smaller carboxylic acids eluted earlier, whereas larger polyphenols and glycosides appeared within the 6&#x02013;7&#x000a0;m retention time. Alkaloids (e.g., qingyangshengenin) and aldehydes (e.g., 2&#x02010;methoxycinnamaldehyde) were detected at later retention times. Carboxylic acids, such as <sc>dl</sc>&#x02010;malic acid and <sc>l</sc>&#x02010;2&#x02010;hydroxyglutaric acid, were predominantly identified in the negative ionization mode. These metabolites are often associated with redox homeostasis. Flavonoids, such as delphinidin, quercetin, and oxyresveratrol, are widely reported for for their antioxidant, anti&#x02010;inflammatory, and anticancer activities (Thuy et&#x000a0;al. <xref rid="jfds70758-bib-0033" ref-type="bibr">2021</xref>). Similarly, phenolic acids and aldehydes contribute to the antioxidant capacity of the extract, while also offering antimicrobial and anti&#x02010;inflammatory activities. The detection of qingyangshengenin, a pharmacologically active alkaloid, further broadens the the functional profile of CTE reported in the literature. Overall, the metabolomic profile underscores the richness of CTE in bioactive secondary metabolites, with a predominance of antioxidant&#x02010;related compounds supporting its potential for functional food and biomedical applications (Escher et&#x000a0;al. <xref rid="jfds70758-bib-0007" ref-type="bibr">2020</xref>). The use of LC&#x02013;MS/MS provided high&#x02010;confidence identification, especially for structurally similar or isobaric compounds.</p><table-wrap position="float" id="jfds70758-tbl-0001" content-type="TABLE"><label>TABLE 1</label><caption><p>Metabolites of <italic toggle="yes">Clitoria ternatea</italic> extract (CTE) identified in LC&#x02013;MS/MS QTRAP.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Pk no.</th><th align="center" rowspan="1" colspan="1">t<sub>R</sub>
+</th><th align="center" rowspan="1" colspan="1">Area</th><th align="center" rowspan="1" colspan="1">Adduct/Charge</th><th align="center" rowspan="1" colspan="1">Molecular formula</th><th align="center" rowspan="1" colspan="1">Precursor mass</th><th align="center" rowspan="1" colspan="1">Measured mass</th><th align="center" rowspan="1" colspan="1">Expected compound</th><th align="center" rowspan="1" colspan="1">Major class</th><th align="center" rowspan="1" colspan="1">References</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">2.11</td><td align="center" rowspan="1" colspan="1">4.39E&#x000a0;+&#x000a0;08</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;&#x02212;&#x000a0;H]&#x02212;</td><td align="center" rowspan="1" colspan="1">C<sub>4</sub>H<sub>6</sub>O<sub>5</sub>
+</td><td align="center" rowspan="1" colspan="1">133.35</td><td align="center" rowspan="1" colspan="1">133.3439</td><td align="center" rowspan="1" colspan="1">
+<sc>dl</sc>&#x02010;Malic acid</td><td align="center" rowspan="1" colspan="1">Carboxylic acid</td><td rowspan="12" align="center" colspan="1">Escher et&#x000a0;al. (<xref rid="jfds70758-bib-0007" ref-type="bibr">2020</xref>)</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">2.14</td><td align="center" rowspan="1" colspan="1">3.85E&#x000a0;+&#x000a0;07</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;&#x02212;&#x000a0;H] &#x02212;</td><td align="center" rowspan="1" colspan="1">C<sub>5</sub>H<sub>8</sub>O<sub>5</sub>
+</td><td align="center" rowspan="1" colspan="1">147.6</td><td align="center" rowspan="1" colspan="1">147.6119</td><td align="center" rowspan="1" colspan="1">
+<sc>l</sc>&#x02010;2&#x02010;Hydroxyglutaric acid</td><td align="center" rowspan="1" colspan="1">Carboxylic acid</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="center" rowspan="1" colspan="1">5.99</td><td align="center" rowspan="1" colspan="1">4.14E&#x000a0;+&#x000a0;07</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;+&#x000a0;H]+</td><td align="center" rowspan="1" colspan="1">C<sub>13</sub>H<sub>22</sub>O<sub>3</sub>
+</td><td align="center" rowspan="1" colspan="1">227.301</td><td align="center" rowspan="1" colspan="1">227.3303</td><td align="center" rowspan="1" colspan="1">Methyl dihydrojasmonate</td><td align="center" rowspan="1" colspan="1">Methyl ester</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">6.37</td><td align="center" rowspan="1" colspan="1">3.06E&#x000a0;+&#x000a0;08</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;+&#x000a0;H]+</td><td align="center" rowspan="1" colspan="1">C<sub>15</sub>H<sub>11</sub>O<sub>7</sub>
+</td><td align="center" rowspan="1" colspan="1">303.1</td><td align="center" rowspan="1" colspan="1">303.0957</td><td align="center" rowspan="1" colspan="1">Delphinidin cation</td><td align="center" rowspan="1" colspan="1">Flavonoid</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="center" rowspan="1" colspan="1">6.37</td><td align="center" rowspan="1" colspan="1">2.21E&#x000a0;+&#x000a0;08</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;+&#x000a0;H]+</td><td align="center" rowspan="1" colspan="1">C<sub>27</sub>H<sub>30</sub>O<sub>16</sub>
+</td><td align="center" rowspan="1" colspan="1">611.487</td><td align="center" rowspan="1" colspan="1">611.4882</td><td align="center" rowspan="1" colspan="1">Rutin</td><td align="center" rowspan="1" colspan="1">Flavonoid glycoside</td></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="center" rowspan="1" colspan="1">6.44</td><td align="center" rowspan="1" colspan="1">2.08E&#x000a0;+&#x000a0;08</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;+&#x000a0;H]+</td><td align="center" rowspan="1" colspan="1">C<sub>15</sub>H<sub>10</sub>O<sub>7</sub>
+</td><td align="center" rowspan="1" colspan="1">303.088</td><td align="center" rowspan="1" colspan="1">303.0879</td><td align="center" rowspan="1" colspan="1">Quercetin</td><td align="center" rowspan="1" colspan="1">Flavonoid</td></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="center" rowspan="1" colspan="1">6.56</td><td align="center" rowspan="1" colspan="1">4.00E&#x000a0;+&#x000a0;08</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;+&#x000a0;H]+</td><td align="center" rowspan="1" colspan="1">C<sub>27</sub>H<sub>30</sub>O<sub>15</sub>
+</td><td align="center" rowspan="1" colspan="1">595.6</td><td align="center" rowspan="1" colspan="1">595.6172</td><td align="center" rowspan="1" colspan="1">Kaempferol 3&#x02010;<italic toggle="yes">O</italic>&#x02010;rutinoside</td><td align="center" rowspan="1" colspan="1">Flavonoid glycoside</td></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="center" rowspan="1" colspan="1">6.65</td><td align="center" rowspan="1" colspan="1">1.83E&#x000a0;+&#x000a0;08</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;+&#x000a0;H]+</td><td align="center" rowspan="1" colspan="1">C<sub>21</sub>H<sub>20</sub>O<sub>12</sub>
+</td><td align="center" rowspan="1" colspan="1">465.533</td><td align="center" rowspan="1" colspan="1">465.5253</td><td align="center" rowspan="1" colspan="1">Isoquercitin</td><td align="center" rowspan="1" colspan="1">Flavonoid</td></tr><tr><td align="left" rowspan="1" colspan="1">9</td><td align="center" rowspan="1" colspan="1">10.05</td><td align="center" rowspan="1" colspan="1">2.33E&#x000a0;+&#x000a0;08</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;&#x02212;&#x000a0;H] &#x02212;</td><td align="center" rowspan="1" colspan="1">C<sub>11</sub>H<sub>12</sub>O<sub>4</sub>
+</td><td align="center" rowspan="1" colspan="1">207.421</td><td align="center" rowspan="1" colspan="1">207.425</td><td align="center" rowspan="1" colspan="1">Ferulic acid methyl ester</td><td align="center" rowspan="1" colspan="1">Phenolic acid</td></tr><tr><td align="left" rowspan="1" colspan="1">10</td><td align="center" rowspan="1" colspan="1">12</td><td align="center" rowspan="1" colspan="1">6.94E&#x000a0;+&#x000a0;07</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;+&#x000a0;H]+</td><td align="center" rowspan="1" colspan="1">C<sub>10</sub>H<sub>10</sub>O<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">163.323</td><td align="center" rowspan="1" colspan="1">163.323</td><td align="center" rowspan="1" colspan="1">2&#x02010;Methoxycinnamaldehyde</td><td align="center" rowspan="1" colspan="1">Aldehyde</td></tr><tr><td align="left" rowspan="1" colspan="1">11</td><td align="center" rowspan="1" colspan="1">12.97</td><td align="center" rowspan="1" colspan="1">1.08E&#x000a0;+&#x000a0;08</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;+&#x000a0;H]+</td><td align="center" rowspan="1" colspan="1">C<sub>49</sub>H<sub>72</sub>O<sub>17</sub>
+</td><td align="center" rowspan="1" colspan="1">482.992</td><td align="center" rowspan="1" colspan="1">482.9974</td><td align="center" rowspan="1" colspan="1">Qingyangshengenin</td><td align="center" rowspan="1" colspan="1">Alkaloid</td></tr><tr><td align="left" rowspan="1" colspan="1">12</td><td align="center" rowspan="1" colspan="1">14.05</td><td align="center" rowspan="1" colspan="1">5.77E&#x000a0;+&#x000a0;07</td><td align="center" rowspan="1" colspan="1">[M&#x000a0;&#x02212;&#x000a0;H] &#x02212;</td><td align="center" rowspan="1" colspan="1">C<sub>14</sub>H<sub>12</sub>O<sub>4</sub>
+</td><td align="center" rowspan="1" colspan="1">243.337</td><td align="center" rowspan="1" colspan="1">243.3391</td><td align="center" rowspan="1" colspan="1">Oxyresveratrol</td><td align="center" rowspan="1" colspan="1">Flavonoid</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="jfds70758-sec-0350"><label>3.5</label><title>Characterization of Films</title><sec id="jfds70758-sec-0360"><label>3.5.1</label><title>Physical Properties</title><p>Food packaging films require adequate physical properties to ensure effective protection of food products. These characteristics include thickness, MC, solubility, swelling, and WVP. Incorporation of CTE significantly influenced all these properties (<italic toggle="yes">p&#x000a0;</italic>&#x0003c;&#x000a0;0.05), highlighting strong interactions between its bioactive compounds and the film matrix (Table&#x000a0;<xref rid="jfds70758-tbl-0002" ref-type="table">2</xref>).</p><table-wrap position="float" id="jfds70758-tbl-0002" content-type="TABLE"><label>TABLE 2</label><caption><p>Physical properties of the films.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Film type</th><th align="center" rowspan="1" colspan="1">Thickness (mm)</th><th align="center" rowspan="1" colspan="1">Moisture (%)</th><th align="center" rowspan="1" colspan="1">Film solubility (%)</th><th align="center" rowspan="1" colspan="1">Swelling rate (%)</th><th align="center" rowspan="1" colspan="1">WVP (10<sup>&#x02212;10</sup>&#x000a0;g/m/s/Pa)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">C&#x02010;0%</td><td align="center" rowspan="1" colspan="1">0.12&#x000a0;&#x000b1;&#x000a0;0.01<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">16.2&#x000a0;&#x000b1;&#x000a0;0.5<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">27.5&#x000a0;&#x000b1;&#x000a0;1.2<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">21.5&#x000a0;&#x000b1;&#x000a0;1.3<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">1.77&#x000a0;&#x000b1;&#x000a0;0.09<sup>a</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S1&#x02010;2%</td><td align="center" rowspan="1" colspan="1">0.14&#x000a0;&#x000b1;&#x000a0;0.02<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">14.5&#x000a0;&#x000b1;&#x000a0;0.6<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">24.8&#x000a0;&#x000b1;&#x000a0;1.0<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">19.8&#x000a0;&#x000b1;&#x000a0;1.6<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">1.52&#x000a0;&#x000b1;&#x000a0;0.13<sup>b</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S2&#x02010;3%</td><td align="center" rowspan="1" colspan="1">0.15&#x000a0;&#x000b1;&#x000a0;0.02<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">13.8&#x000a0;&#x000b1;&#x000a0;0.7<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">23.5&#x000a0;&#x000b1;&#x000a0;1.1<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">18.2&#x000a0;&#x000b1;&#x000a0;0.52<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">1.48&#x000a0;&#x000b1;&#x000a0;0.18<sup>c</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S3&#x02010;4%</td><td align="center" rowspan="1" colspan="1">0.16&#x000a0;&#x000b1;&#x000a0;0.01<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">12.6&#x000a0;&#x000b1;&#x000a0;0.4<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">21.0&#x000a0;&#x000b1;&#x000a0;0.8<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">16.9&#x000a0;&#x000b1;&#x000a0;0.51<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">1.46&#x000a0;&#x000b1;&#x000a0;0.18<sup>d</sup>
+</td></tr></tbody></table><table-wrap-foot><fn id="jfds70758-tbl2-note-0001"><p>
+<italic toggle="yes">Note</italic>: Data are presented as the mean&#x000a0;&#x000b1;&#x000a0;SD. Different superscript letters in the same column indicate significant differences (<italic toggle="yes">p</italic>&#x000a0;&#x0003c;&#x000a0;0.05). Film codes: C (0% CTE), S1 (2% CTE), S2 (3% CTE), and S3 (4% CTE) MEFY starch&#x02013;PVA films.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="jfds70758-sec-0370"><label>3.5.2</label><title>Thickness and MC</title><p>As shown in Table&#x000a0;<xref rid="jfds70758-tbl-0002" ref-type="table">2</xref>, FT increased significantly with higher CTE concentrations, ranging from 0.12&#x000a0;mm in the control (C) to 0.16&#x000a0;mm in S3 (4% CTE). This increase suggests that polyphenol&#x02013;matrix interactions promoted the formation of a denser, more structured film network, likely through hydrogen bonding and CTE&#x02010;induced matrix expansion. MC decreased consistently from 16.2% (C) to 12.6% (S3). This reduction is attributed to phenolic compounds binding to starch molecules via intermolecular hydrogen bonding, thereby limiting the availability of hydrophilic sites and increasing the hydrophobicity of the matrix. A lower MC enhances film stability and shelf life under humid storage conditions (Wu et&#x000a0;al. <xref rid="jfds70758-bib-0038" ref-type="bibr">2024</xref>).</p></sec><sec id="jfds70758-sec-0380"><label>3.5.3</label><title>Swelling Rate and FS</title><p>FS decreased from 27.5% in the control to 21.0% in S3. At lower extract concentrations (S1 and S2), solubility showed only a slight reduction, likely due to initial polymer disruption. However, at higher CTE (S3), stronger polyphenol&#x02010;polymer interactions and cross&#x02010;linking enhanced water resistance, thereby lowering solubility. Similar trends have been reported in starch&#x02013;polyphenol systems, where phenolics act as natural cross&#x02010;linkers that improve water stability (Zhu et&#x000a0;al. <xref rid="jfds70758-bib-0042" ref-type="bibr">2021</xref>). The swelling rate decreased from 21.5% in the control to 16.9% in S3, indicating the formation of a tighter polymeric network with reduced water uptake capacity. This effect can be attributed to flavonoid&#x02010;induced crosslinking and reduced free volume within the film matrix. Such reduced swelling favors applications in moisture&#x02010;sensitive packaging and controlled&#x02010;release systems.</p></sec><sec id="jfds70758-sec-0390"><label>3.5.4</label><title>Water Vapor Permeability</title><p>WVP decreased from 1.77&#x000a0;&#x000d7;&#x000a0;10<sup>&#x02212;10</sup>&#x000a0;g/m/s/Pa (C) to 1.46&#x000a0;&#x000d7;&#x000a0;10<sup>&#x02212;10</sup>&#x000a0;g/m/s/Pa (S3), demonstrating enhanced barrier properties. This improvement is associated with a more compact matrix and reduced porosity. Although very high CTE levels could potentially introduce micro&#x02010;voids, the tested formulations maintained strong barrier integrity. Overall, EFY/PVA/CTE composite films exhibited superior water resistance and barrier performance compared with many conventional starch&#x02010;based films, highlighting their suitability for food packaging applications (Zhu et&#x000a0;al. <xref rid="jfds70758-bib-0042" ref-type="bibr">2021</xref>).</p></sec><sec id="jfds70758-sec-0400"><label>3.5.5</label><title>Color Parameter of Film</title><p>The incorporation of CTE significantly altered the color characteristics of the films, as shown in Table&#x000a0;<xref rid="jfds70758-tbl-0003" ref-type="table">3</xref> and Figure <xref rid="jfds70758-supinfo-0001" ref-type="">S2</xref>. With increasing CTE concentration (0%&#x02013;4%), marked shifts were observed in the CIE <italic toggle="yes">Lab</italic>* color space. The <italic toggle="yes">L*</italic> value (lightness) decreased sharply from 88.6 in the control film to 35.8 in S3 film (4% CTE), indicating a darker film appearance due to pigmented polyphenols and flavonoids, such as delphinidin and quercetin. The <italic toggle="yes">a*</italic> value (red/green axis) increased from 3.2 in the control to 14.5 in S3, reflecting the red&#x02010;violet anthocyanins, particularly delphinidin. In contrast, the <italic toggle="yes">b*</italic> value (yellow/blue) decreased progressively from &#x02212;4.90 to &#x02212;29.20, signifying an intensified shift toward blue tones, consistent with the presence of blue&#x02010;purple flavonoids. The overall color difference (&#x00394;<italic toggle="yes">E</italic>) increased significantly with higher CTE levels, with films containing 3%&#x02013;4% extract showing visibly distinct appearances compared with the control. Such pronounced color changes enhance the films&#x02019; potential for functional labeling, product differentiation, and smart packaging applications, where visual cues can serve as indicators of composition or freshness (Wang et&#x000a0;al. <xref rid="jfds70758-bib-0035" ref-type="bibr">2023</xref>).</p><table-wrap position="float" id="jfds70758-tbl-0003" content-type="TABLE"><label>TABLE 3</label><caption><p>The color parameters of films with different <italic toggle="yes">Clitoria ternatea</italic> extract (CTE) contents.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Film type</th><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">L*</italic>
+</th><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">a*</italic>
+</th><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">b*</italic>
+</th><th align="center" rowspan="1" colspan="1">&#x00394;<italic toggle="yes">E</italic>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">C&#x02010;0%</td><td align="center" rowspan="1" colspan="1">88.6&#x000a0;&#x000b1;&#x000a0;0.43<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">3.2&#x000a0;&#x000b1;&#x000a0;0.15<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">&#x02212;4.9&#x000a0;&#x000b1;&#x000a0;0.26<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">1.80&#x000a0;&#x000b1;&#x000a0;0.10<sup>d</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S1&#x02010;2%</td><td align="center" rowspan="1" colspan="1">60.4&#x000a0;&#x000b1;&#x000a0;0.30<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">6.4&#x000a0;&#x000b1;&#x000a0;0.15<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">&#x02212;22.5&#x000a0;&#x000b1;&#x000a0;0.30<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">12.2&#x000a0;&#x000b1;&#x000a0;0.20<sup>c</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S2&#x02010;3%</td><td align="center" rowspan="1" colspan="1">55.8&#x000a0;&#x000b1;&#x000a0;0.43<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">9.7&#x000a0;&#x000b1;&#x000a0;0.17<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">&#x02212;26.8&#x000a0;&#x000b1;&#x000a0;0.26<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">14.6&#x000a0;&#x000b1;&#x000a0;0.20<sup>b</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S3&#x02010;4%</td><td align="center" rowspan="1" colspan="1">35.8&#x000a0;&#x000b1;&#x000a0;0.70<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">14.5&#x000a0;&#x000b1;&#x000a0;0.30<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">&#x02212;29.2&#x000a0;&#x000b1;&#x000a0;0.35<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">17.5&#x000a0;&#x000b1;&#x000a0;0.30<sup>a</sup>
+</td></tr></tbody></table><table-wrap-foot><fn id="jfds70758-tbl3-note-0001"><p>
+<italic toggle="yes">Note</italic>: Data are presented as the mean&#x000a0;&#x000b1;&#x000a0;SD. Different superscript letters in the same column indicate significant differences (<italic toggle="yes">p</italic>&#x000a0;&#x0003c;&#x000a0;0.05). Film codes: C (0% CTE), S1 (2% CTE), S2 (3% CTE), and S3 (4% CTE) MEFY starch&#x02013;PVA films.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec></sec><sec id="jfds70758-sec-0410"><label>3.6</label><title>pH Sensitivity of the CTE and CTE&#x02010;EFY Films</title><p>CTE exhibited distinct pH&#x02010;dependent color transitions, shifting from a pink hue in acidic conditions to green&#x02010;yellow color in alkaline environments (Figure&#x000a0;<xref rid="jfds70758-fig-0002" ref-type="fig">2</xref>). UV&#x02013;visible spectroscopy confirmed these visual changes, showing a bathochromic shift in the maximum absorption wavelength from &#x0223c;520 to 540&#x000a0;nm (flavylium cation, pink color) to around 625&#x000a0;nm (quinoidal base/chalcone forms). This shift reflects the reversible protonation&#x02010;deprotonation of anthocyanins, which exist in different ionic forms across the pH spectrum.</p><fig position="float" fig-type="FIGURE" id="jfds70758-fig-0002"><label>FIGURE 2</label><caption><p>The colors and UV&#x02013;vis spectra of CTE (A) and EFY/PVA/CTE films (B) in buffers with different pH values.</p></caption><graphic xlink:href="JFDS-91-0-g006" position="anchor" id="jats-graphic-3"/></fig><p>Both CTE and EFY/PVA/CTE films displayed strong and reversible color responses over a wide pH range, confirming that film incorporation did not diminish sensitivity. The observed visual transitions are governed by the multistate equilibrium of anthocyanins and related flavonoids, enabling the films to act as natural colorimetric pH indicators. Importantly, CTE showed greater stability than many conventional natural dyes, further enhancing its suitability for long&#x02010;term use. These properties highlight the film's potential in intelligent packaging, where real&#x02010;time visual cues can signal food freshness, spoilage, or package integrity. The behavior is consistent with findings from other anthocyanin&#x02010;based systems, such as cassava starch films and <italic toggle="yes">Lycium ruthenicum</italic> anthocyanin (Qin et&#x000a0;al. <xref rid="jfds70758-bib-0022" ref-type="bibr">2019</xref>).</p></sec><sec id="jfds70758-sec-0420"><label>3.7</label><title>Mechanical Properties of Films</title><p>Table&#x000a0;<xref rid="jfds70758-tbl-0004" ref-type="table">4</xref> summarizes the mechanical properties of EFY/PVA/CTE films at different CTE concentrations. TS increased significantly with CTE incorporation, reaching a maximum of 16.36&#x000a0;MPa at 3% CTE film (S2), compared to 13.86&#x000a0;MPa in the control (C). This enhancement is attributed to strong interfacial interactions and uniform dispersion of CTE, which reinforced the polymer matrix. Similarly, YM rose with CTE addition, with S1 and S3 showing higher stiffness (71.40 and 69.26&#x000a0;MPa, respectively), indicating enhanced rigidity. EAB, however, showed a nonlinear trend: It initially increased to 24.20% at S2, suggesting greater flexibility, but declined to 21.30% at S3, reflecting reduced chain mobility and filler&#x02010;induced rigidity at higher loadings. Overall, the S2 formulation (3% CTE) achieved the best balance between strength, stiffness, and flexibility, making it the most promising among the tested films. In contrast, further increasing CTE content (S3) compromised ductility without yielding notable improvements in strength, emphasizing the importance of optimizing active compound concentration in composite film design. Similar concentration&#x02010;dependent effects on mechanical performance have been reported in starch&#x02010; and PVA&#x02010;based pH&#x02010;intelligent films (Wang et&#x000a0;al. <xref rid="jfds70758-bib-0035" ref-type="bibr">2023</xref>; Zhu et&#x000a0;al. <xref rid="jfds70758-bib-0042" ref-type="bibr">2021</xref>).</p><table-wrap position="float" id="jfds70758-tbl-0004" content-type="TABLE"><label>TABLE 4</label><caption><p>Mechanical properties of the films.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">CTE content</th><th align="center" rowspan="1" colspan="1">TS (MPa)</th><th align="center" rowspan="1" colspan="1">EAB (%)</th><th align="center" rowspan="1" colspan="1">YM (MPa)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">C&#x02010;0%</td><td align="center" rowspan="1" colspan="1">13.86&#x000a0;&#x000b1;&#x000a0;0.80<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">19.7&#x000a0;&#x000b1;&#x000a0;0.8<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">70.36&#x000a0;&#x000b1;&#x000a0;2.0<sup>b</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S1&#x02010;2%</td><td align="center" rowspan="1" colspan="1">16.13&#x000a0;&#x000b1;&#x000a0;0.20<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">22.6&#x000a0;&#x000b1;&#x000a0;1.0<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">71.40&#x000a0;&#x000b1;&#x000a0;2.5<sup>a</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S2&#x02010;3%</td><td align="center" rowspan="1" colspan="1">16.36&#x000a0;&#x000b1;&#x000a0;0.35<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">24.20&#x000a0;&#x000b1;&#x000a0;1.2<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">67.60&#x000a0;&#x000b1;&#x000a0;3.0<sup>d</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S3&#x02010;4%</td><td align="center" rowspan="1" colspan="1">14.75&#x000a0;&#x000b1;&#x000a0;0.36<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">21.30&#x000a0;&#x000b1;&#x000a0;0.6<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">69.26&#x000a0;&#x000b1;&#x000a0;2.2<sup>c</sup>
+</td></tr></tbody></table><table-wrap-foot><fn id="jfds70758-tbl4-note-0001"><p>
+<italic toggle="yes">Note</italic>: Data are presented as the mean&#x000a0;&#x000b1;&#x000a0;SD. Different superscript letters in the same column indicate significant differences (<italic toggle="yes">p</italic>&#x000a0;&#x0003c;&#x000a0;0.05). Film codes: C (0% CTE), S1 (2% CTE), S2 (3% CTE), and S3 (4% CTE) MEFY starch&#x02013;PVA films.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="jfds70758-sec-0430"><label>3.8</label><title>Morphological Characteristics</title><p>The morphological and compositional characteristics of EFY/PVA/CTE composite films were evaluated using FE&#x02010;SEM and CLSM (Figure&#x000a0;<xref rid="jfds70758-fig-0003" ref-type="fig">3</xref>). As shown in surface scanning electron microscopy (SEM) images (Figure&#x000a0;<xref rid="jfds70758-fig-0003" ref-type="fig">3A</xref>), the control film (C) exhibited a relatively smooth surface with only minor pores, suggesting uniform blending of EFYS and PVA in the absence of polyphenol fillers. In S1, the addition of CTE increased surface roughness and produced micro&#x02010;voids, indicative of partial matrix disruption. S2 displayed a smoother, denser surface with minimal defects, highlighting better filler dispersion and polymer&#x02010;filler compatibility. By contrast, S3 showed a coarse surface with visible particle agglomerates, likely associated with oversaturation and poor CTE dispersion. Cross&#x02010;sectional SEM images (Figure&#x000a0;<xref rid="jfds70758-fig-0003" ref-type="fig">3B</xref>) revealed that the control film has loosely packed, porous internal structure. S1 showed partial integration of CTE with discontinuities at the filler&#x02013;matrix interface. S2 exhibited the most compact and continuous internal morphology, suggesting optimal filler&#x02010;matrix interaction. In S3, disrupted layers, voids, and stress cracks were evident, indicating compromised structural integrity due to CTE agglomeration.</p><fig position="float" fig-type="FIGURE" id="jfds70758-fig-0003"><label>FIGURE 3</label><caption><p>(A) Surface, (B) cross&#x02010;sectional scanning electron microscope photographs; (C) CLSM images of EFY/PVA/CTE films. Film codes: C (0% CTE), S1 (2% CTE), S2 (3% CTE), and S3 (4% CTE) MEFY starch&#x02010;PVA films.</p></caption><graphic xlink:href="JFDS-91-0-g001" position="anchor" id="jats-graphic-5"/></fig><p>CLSM imaging (Figure&#x000a0;<xref rid="jfds70758-fig-0003" ref-type="fig">3C</xref>) revealed the fluorescence differences in CTE dispersion. The control film showed negligible fluorescence, whereas S1 exhibited moderate but uneven distribution. S2 revealed strong, uniform fluorescence, consistent with well&#x02010;dispersed CTE. In contrast, S3 displayed intense but irregular fluorescence, confirming CTE aggregation. Overall, the S2 formulation proved optimal, combining a compact morphology, strong filler&#x02013;matrix integration, and uniform CTE distribution. These features jointly enhance film performance and align with findings reported in bilayer smart films (Wu and Li <xref rid="jfds70758-bib-0039" ref-type="bibr">2023</xref>).</p></sec><sec id="jfds70758-sec-0440"><label>3.9</label><title>XRD Analysis</title><p>The XRD patterns, presented in Figure&#x000a0;<xref rid="jfds70758-fig-0004" ref-type="fig">4A</xref>, offer valuable insights into the crystallinity and molecular ordering within the various film matrices. The control film (C) exhibited a broad diffraction halo between 2<italic toggle="yes">&#x003b8;</italic>&#x000a0;=&#x000a0;19&#x000b0; and 21&#x000b0;, characteristic of semicrystalline materials, such as PVA&#x02010;starch systems. Crystallinity (%) values reported (C: 18.1%; S1: 19.9%; S2: 19.7%; S3: 11.6%) were calculated by deconvolution of the crystalline and amorphous contributions in the XRD profiles and are plotted in Figure&#x000a0;<xref rid="jfds70758-fig-0004" ref-type="fig">4A</xref> alongside the relative intensity traces. With the incorporation of CTE, crystallinity initially increased from 18.1% in C to 19.9% in S1, accompanied by a slightly sharper and more intense halo, indicating improved molecular alignment or ordering promoted by interactions between CTE components and the polymer chains. However, further addition of CTE resulted in reduced crystallinity, decreasing to 19.7% in S2 and 11.6% in S3. Correspondingly, the intensity of the broad peak became sharper in S1 suggesting an enhanced ordering or molecular alignment within the film structure, likely due to interactions between the CTE molecules and the polymer chains. However, the reduced crystallinity of S3 points to a disruption of chain packing at higher CTE loading. This reduction reflects disruption of polymer chain packing at higher extract concentrations, likely due to excessive polyphenolic interference or flavonoid&#x02013;polymer intercalation. These modifications suggest that moderate CTE incorporation promotes formation of ordered, crystalline&#x02010;like domains, whereas higher loading disrupts structural regularity. These structural modifications could arise from polyphenolic stacking or flavonoid&#x02013;PVA alignment, forming crystalline&#x02010;like domains in moderate concentrations but weakening order at higher levels. The observed trend is consistent with corresponding changes in mechanical flexibility and swelling index, tensile behavior, and SEM, all of which support enhanced compactness at moderate CTE levels and reduced structural regularity at higher concentrations. This semicrystalline enhancement is particularly beneficial for films that require moderate rigidity, good optical clarity, and a slower degradation rate. Overall, the XRD analysis confirms that CTE integrates effectively into the starch&#x02010;PVA matrix and induces a structural reorganization, leading to an enhancement of crystalline features without evidence of phase separation. This observation is consistent with findings reported in previous studies on similar composite systems (Fitch&#x02010;Vargas et&#x000a0;al. <xref rid="jfds70758-bib-0008" ref-type="bibr">2016</xref>; Y. Wu and Li <xref rid="jfds70758-bib-0039" ref-type="bibr">2023</xref>).</p><fig position="float" fig-type="FIGURE" id="jfds70758-fig-0004"><label>FIGURE 4</label><caption><p>FTIR spectra (A) and x&#x02010;ray diffraction patterns (B) of the films. Film codes: C (0% CTE), S1 (2% CTE), S2 (3% CTE), and S3 (4% CTE) MEFY starch&#x02013;PVA films.</p></caption><graphic xlink:href="JFDS-91-0-g007" position="anchor" id="jats-graphic-7"/></fig></sec><sec id="jfds70758-sec-0450"><label>3.10</label><title>Fourier Transform Infrared Spectroscopy (FTIR)</title><p>The FTIR spectra (Figure&#x000a0;<xref rid="jfds70758-fig-0004" ref-type="fig">4B</xref>) revealed characteristic absorption bands for both the control film (C) and the CTE&#x02010;incorporated films (S1&#x02013;S3), confirming interactions among starch, PVA, and bioactive components. All films exhibit a broad O&#x02013;H stretching band around &#x0223c;3260&#x02013;3300&#x000a0;cm<sup>&#x02212;1</sup>, attributed to extensive hydrogen bonding. The band becomes broader and slightly more intense in S1&#x02013;S3, indicating strengthened hydrogen bonding due to phenolic hydroxyl groups from CTE. The C&#x02013;H stretching vibration near &#x0223c;2940&#x000a0;cm<sup>&#x02212;1</sup> is present across all samples, corresponding to aliphatic &#x02013;CH<sub>2</sub> groups of the starch&#x02013;PVA backbone. Peaks around &#x0223c;1650&#x000a0;cm<sup>&#x02212;1</sup> (C&#x02550;O stretching) and &#x0223c;1415&#x02013;1328&#x000a0;cm<sup>&#x02212;1</sup> (C&#x02013;H bending) become more pronounced in extract&#x02010;loaded films, which is consistent with aromatic rings and carboxyl functionalities present in CTE flavonoids. In the fingerprint region (1200&#x02013;800&#x000a0;cm<sup>&#x02212;1</sup>), characteristic C&#x02013;O&#x02013;C, C&#x02013;OH, and glycosidic vibrations appear in all films. Notably, shifts and increased complexity in S2 and S3 suggest in peaks near 1089, 1040, 918, 846, and 608&#x000a0;cm<sup>&#x02212;1</sup> suggest physical entrapment and non&#x02010;covalent interactions between CTE constituents and the polymer network. These changes support successful incorporation of CTE and the formation of hydrogen&#x02010;bond&#x02010;driven interactions, which likely contribute to improved barrier functionality and bioactivity of the films. Overall, the FTIR findings validate the presence of phenolic and flavonoid moieties and their interaction with starch and PVA, in agreement with earlier reports (Li et&#x000a0;al. <xref rid="jfds70758-bib-0015" ref-type="bibr">2022</xref>).</p></sec><sec id="jfds70758-sec-0460"><label>3.11</label><title>Thermo&#x02010;Gravimetric Analysis</title><p>The thermal degradation behavior of EFY/PVA/CTE films was analyzed using TGA and derivative thermogravimetric (DTG) curves to evaluate weight loss patterns, thermal stability, and the effect of CTE incorporation on degradation profiles. The TGA curves in Figure&#x000a0;<xref rid="jfds70758-fig-0005" ref-type="fig">5</xref> revealed multistep weight loss behavior in all film samples, which is typical of polymeric bio&#x02010;composites. The major degradation phase (200&#x02013;400&#x000b0;C) is attributed to the thermal decomposition of the polymer backbone (starch and PVA) and the bioactive compounds in CTE. A residual weight plateau is observed beyond 450&#x000b0;C, suggesting the formation of thermally stable char residues. Films containing with CTE (S1&#x02013;S3) exhibited higher total weight loss, particularly at higher concentrations (S2 and S3), reflecting the thermal contribution of phytochemical components. The DTG curves provided further insight into the rate of decomposition, showing two to three main peaks corresponding to distinct degradation stages. The first major peak (&#x0223c;250&#x02013;300&#x000b0;C) is sharper in the control, indicating faster degradation, while the second degradation event (&#x0223c;350&#x02013;400&#x000b0;C) is more pronounced in S2 and S3, likely associated with the degradation of thermally sensitive flavonoids. The broadened peaks and delayed onset in films with higher CTE content suggest that CTE incorporation modifies the thermal decomposition pathway, possibly due to hydrogen bonding and network stabilization by phenolic groups. Overall, CTE incorporation alters thermal degradation, increasing total weight loss while promoting multiphase, slower decomposition, indicating improved structural interactions and thermal stability (Zhang et&#x000a0;al. <xref rid="jfds70758-bib-0041" ref-type="bibr">2020</xref>).</p><fig position="float" fig-type="FIGURE" id="jfds70758-fig-0005"><label>FIGURE 5</label><caption><p>Thermo&#x02010;gravimetric analysis curves of the films. Film codes: C (0% CTE), S1 (2% CTE), S2 (3% CTE), and S3 (4% CTE) MEFY starch&#x02013;PVA films. DTG, derivative thermogravimetric.</p></caption><graphic xlink:href="JFDS-91-0-g008" position="anchor" id="jats-graphic-9"/></fig></sec><sec id="jfds70758-sec-0470"><label>3.12</label><title>Antioxidant Property</title><p>Polyphenols, known for donating electrons or hydrogen atoms via their phenolic hydroxyl groups, exhibit potent antioxidant activity, which is crucial for mitigating oxidative degradation and enhancing food preservation during transport and storage. In this study, the CTE&#x02010;loaded films demonstrated a significantly higher free radical scavenging activity, against both DPPH and ABTS radicals, compared to pure EFY starch films (Figure&#x000a0;<xref rid="jfds70758-fig-0006" ref-type="fig">6A</xref>). The DPPH radical scavenging capacity (17%&#x02013;28%) of the CTE&#x02010;loaded films was lower than their ABTS activity (44%&#x02013;53%), likely due to limited solubility of certain CTE components in the DPPH assay solvent. Nonetheless, these results indicate that CTE is an effective polyphenol source, capable of donating hydrogen and neutralizing free radicals, highlighting its potential as a protective agent in active food packaging (Yong et&#x000a0;al. <xref rid="jfds70758-bib-0040" ref-type="bibr">2019</xref>).</p><fig position="float" fig-type="FIGURE" id="jfds70758-fig-0006"><label>FIGURE 6</label><caption><p>Antioxidant activity (A) and antimicrobial activity (B) of EFYS/PVA/CTE films. Film codes: C (0% CTE), S1 (2% CTE), S2 (3% CTE), and S3 (4% CTE) MEFYS films.</p></caption><graphic xlink:href="JFDS-91-0-g004" position="anchor" id="jats-graphic-11"/></fig></sec><sec id="jfds70758-sec-0480"><label>3.13</label><title>Antimicrobial Property</title><p>The antimicrobial activity of the EFY starch films incorporating anthocyanins from CTE was evaluated against two common foodborne pathogens: <italic toggle="yes">S. aureus</italic> and <italic toggle="yes">E. coli</italic>. As shown in Figure&#x000a0;<xref rid="jfds70758-fig-0006" ref-type="fig">6B</xref> and Figure <xref rid="jfds70758-supinfo-0001" ref-type="">S3A</xref>, the well diffusion assay confirmed clear inhibitory effects. The films exhibited concentration&#x02010;dependent activity, with inhibition zones increasing from 4&#x000a0;mm (C) to 12&#x000a0;mm (S3) against <italic toggle="yes">S. aureus</italic> and from 3&#x000a0;mm (C) to 16&#x000a0;mm (S3) against <italic toggle="yes">E. coli</italic>. The enhanced antimicrobial effect is likely driven by delphinidin&#x02010;based ternatins, the dominant anthocyanins in CTE, supported by flavanols such as rutin and quercetin (Jeyaraj et&#x000a0;al. <xref rid="jfds70758-bib-0011" ref-type="bibr">2022</xref>). Consistent with Li et&#x000a0;al. (<xref rid="jfds70758-bib-0015" ref-type="bibr">2022</xref>), a stronger effect was observed against Gram&#x02010;positive bacteria, as the absence of an outer membrane facilitates greater diffusion of bioactive compounds compared to Gram&#x02010;negative strains. These findings highlight the potential of CTE&#x02010;loaded films as antimicrobial packaging materials capable of inhibiting microbial growth thereby contributing to extending food shelf&#x02010;life.</p></sec><sec id="jfds70758-sec-0490"><label>3.14</label><title>Monitoring Chicken Freshness</title><p>Chicken, being protein&#x02010;rich, is highly susceptible to spoilage caused by microbial and enzymatic activity. The accumulation of volatile compounds and an increase in TVC are widely recognized indicators of spoilage, with TVC values above 6 log&#x000a0;CFU/mL generally signaling spoilage. In this study, TVC and pH measurements were correlated with color changes of the developed CTE&#x02010;incorporated films to assess their ability to monitor chicken freshness (Figure&#x000a0;<xref rid="jfds70758-fig-0007" ref-type="fig">7A&#x02013;D</xref>; Figure <xref rid="jfds70758-supinfo-0001" ref-type="">3C</xref>). At 37&#x000b0;C, the TVC exceeded the spoilage threshold within 16&#x000a0;h, accompanied by a rise in pH to 6.75. Correspondingly, the intelligent films exhibited a distinct chromatic transition from blue&#x02010;violet to blue, indicating the onset of spoilage. After 32&#x000a0;h, the chicken was severely spoiled (pH 7.25), and the film color shifted to blue&#x02010;green. In contrast, samples stored at 4&#x000b0;C for 32&#x000a0;h remained fresh, with the TVC below the threshold and pH stable near 6.</p><fig position="float" fig-type="FIGURE" id="jfds70758-fig-0007"><label>FIGURE 7</label><caption><p>Changes of TVC and pH of chicken stored at 4&#x000b0;C (A) and 37&#x000b0;C (B) film at the given time; changes in TVB&#x02010;N and TBRAs of chicken samples stored at 4&#x000b0;C and 37&#x000b0;C (C) and real photos (D) during freshness monitoring. Film codes: C (0% CTE), S1 (2% CTE), S2 (3% CTE), and S3 (4% CTE) MEFYS&#x02010;PVA films were arranged from left to right. TVB&#x02010;N, total volatile basic nitrogen; TVC, total viable count.</p></caption><graphic xlink:href="JFDS-91-0-g005" position="anchor" id="jats-graphic-13"/></fig><p>Figure&#x000a0;<xref rid="jfds70758-fig-0007" ref-type="fig">7C</xref> shows temporal changes in TVB&#x02010;N and TBARS, key indicators of protein degradation and lipid oxidation. At 0&#x000a0;h, TVB&#x02010;N was 6.2&#x000a0;mg/100&#x000a0;g, and TBARS was below 0.5&#x000a0;mg MDA/kg, confirming product freshness. By 16&#x000a0;h at 37&#x000b0;C, TVB&#x02010;N doubled to 14.7&#x000a0;mg/100&#x000a0;g, and TBARS rose to 1.2&#x000a0;mg MDA/kg, coinciding with initial spoilage. After 32&#x000a0;h, TVB&#x02010;N reached 32.2&#x000a0;mg/100&#x000a0;g and TBARS peaked at 2.3&#x000a0;mg MDA/kg, confirming severe deterioration. These biochemical changes closely paralleled microbial growth, pH elevation, and film color transitions. Although the films showed clear spoilage indication, color intensity decreased after 16&#x000a0;h, likely&#x000a0;due to anthocyanin degradation under alkaline conditions. Similar fading trends have been reported in earlier studies (Yong et&#x000a0;al. <xref rid="jfds70758-bib-0040" ref-type="bibr">2019</xref>; Zhang et&#x000a0;al. <xref rid="jfds70758-bib-0041" ref-type="bibr">2020</xref>; Li et&#x000a0;al. <xref rid="jfds70758-bib-0015" ref-type="bibr">2022</xref>). Despite this, &#x00394;<italic toggle="yes">E</italic> values at 37&#x000b0;C increased markedly with CTE content (from 38.89 in C to 66.13 in S3; Table&#x000a0;<xref rid="jfds70758-tbl-0005" ref-type="table">5</xref>), reflecting distinct color shifts from blue&#x02010;violet to blue&#x02010;green. At 4&#x000b0;C, &#x00394;<italic toggle="yes">E</italic> values remained low (18.96&#x02013;23.20), consistent with minimal spoilage and stable freshness. Overall, these results demonstrate that CTE&#x02010;loaded films function effectively as freshness indicators, offering real&#x02010;time visual cues of spoilage through integrated biochemical and chromatic responses.</p><table-wrap position="float" id="jfds70758-tbl-0005" content-type="TABLE"><label>TABLE 5</label><caption><p>Color changes of the films after chicken spoilage.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">CTE content</th><th align="center" rowspan="1" colspan="1">&#x00394;<italic toggle="yes">E</italic> (4&#x000b0;C)</th><th align="center" rowspan="1" colspan="1">&#x00394;<italic toggle="yes">E</italic> (37&#x000b0;C)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">C&#x02010;0%</td><td align="center" rowspan="1" colspan="1">18.96&#x000a0;&#x000b1;&#x000a0;1.0<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">38.89&#x000a0;&#x000b1;&#x000a0;2.1<sup>d</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S1&#x02010;2%</td><td align="center" rowspan="1" colspan="1">20.50&#x000a0;&#x000b1;&#x000a0;1.2<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">50.35&#x000a0;&#x000b1;&#x000a0;1.4<sup>c</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S2&#x02010;3%</td><td align="center" rowspan="1" colspan="1">22.10&#x000a0;&#x000b1;&#x000a0;1.5<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">57.21&#x000a0;&#x000b1;&#x000a0;1.6<sup>b</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">S3&#x02010;4%</td><td align="center" rowspan="1" colspan="1">23.20&#x000a0;&#x000b1;&#x000a0;1.3<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">66.13&#x000a0;&#x000b1;&#x000a0;2.5<sup>a</sup>
+</td></tr></tbody></table><table-wrap-foot><fn id="jfds70758-tbl5-note-0001"><p>
+<italic toggle="yes">Note</italic>: Data are presented as the mean&#x000a0;&#x000b1;&#x000a0;SD. Different superscript letters in the same column indicate significant differences (<italic toggle="yes">p</italic>&#x000a0;&#x0003c;&#x000a0;0.05). Film codes: C (0% CTE), S1 (2% CTE), S2 (3% CTE), and S3 (4% CTE) MEFY starch&#x02013;PVA films.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="jfds70758-sec-0500"><label>3.15</label><title>Stability of the Films</title><p>The stability of intelligent packaging films was assessed on the basis of their color retention ability (Figure&#x000a0;<xref rid="jfds70758-fig-0008" ref-type="fig">8</xref>). Films with higher CTE content, particularly S3, exhibited a 68% color change after 6 months of storage, whereas S1 films with lower CTE content showed only a 25% change. This indicates that although higher CTE concentrations enhance functional properties, they compromise long&#x02010;term color stability. Despite pigment loss, all films retained their pH&#x02010;responsive color&#x02010;shifting ability throughout the 6&#x02010;month storage period. This preserved responsiveness confirms their continued effectiveness for real&#x02010;time monitoring of food freshness, even with partial color degradation over time.</p><fig position="float" fig-type="FIGURE" id="jfds70758-fig-0008"><label>FIGURE 8</label><caption><p>Shelf&#x02010;life stability of films during storage&#x02014;images of film (A) and chromatism values (B) of EFY&#x02010;CTE films. Film codes: S1 (2% CTE), S2 (3% CTE), and S3 (4% CTE) MEFYS&#x02010;PVA films.</p></caption><graphic xlink:href="JFDS-91-0-g003" position="anchor" id="jats-graphic-15"/></fig></sec></sec><sec id="jfds70758-sec-0510"><label>4</label><title>Conclusion</title><p>This study successfully isolated and characterized EFY starch, an abundant and nontoxic agricultural byproduct, for the development of intelligent packaging film capable of indicating food freshness through pH&#x02010;responsive color changes. The fabricated films demonstrated cost&#x02010;effectiveness and potential for large&#x02010;scale production. Incorporation of CTE significantly modified FT, ductility, antioxidant activity, and light barrier performance, thereby improving the functional perforamancde of the films. Although minor mechanical parameters changed with CTE loading, MEFYS/PVA/CTE films mainatined acceptable strength and barrier properties and improved functional properties compared to conventional starch films. Overall, the findings demonstrate that EFY starch and CTE can be effectively combined to produce sustainable intelligent packaging films with strong functional properties and reliable colorimetric responses. This work highlights a novel approach for valorizing underutilized EFYS and advances the development of smart packaging technologies.</p></sec><sec id="jfds70758-sec-0520"><title>Author Contributions</title><p>
+<bold>Likhitha Yadav Prakruthi</bold>: conceptualization, methodology, software, data curation, investigation, writing &#x02013; original draft, visualization, validation. <bold>Hari Krishnan</bold>: methodology, investigation, data curation, writing &#x02013; original draft, validation, visualization. <bold>Chagam Koteswara Reddy</bold>: conceptualization, funding acquisition, project administration, supervision, resources, writing &#x02013; review and editing. <bold>Tapasya Kumari</bold>: formal analysis, writing &#x02013; review and editing, resources. <bold>Ramachandran Vinayagam</bold>: conceptualization, writing &#x02013; review and editing, formal analysis.</p></sec><sec sec-type="COI-statement" id="jfds70758-sec-0540"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="jfds70758-supinfo-0001" position="float" content-type="local-data"/><supplementary-material id="jfds70758-supitem-0001" position="float" content-type="local-data"><caption><p>Supplementary Materials: jfds70758&#x02010;sup&#x02010;0001&#x02010;figuresS1&#x02010;S3.docx</p></caption><media xlink:href="JFDS-91-0-s001.docx"/></supplementary-material></sec></body><back><ack id="jfds70758-sec-0530"><title>Acknowledgments</title><p>The authors sincerely acknowledge the financial support from DST SERB&#x02010;SRG (Grant no: SRG/2023/002067), India, and GITAM (Deemed to be University), Visakhapatnam (Grant no: GITAM&#x02010;RSG 2021/0095). Special thanks to the MURTI Facility technicians for their assistance with FE&#x02010;SEM, the Department of Chemistry's Nanoscience Lab for XRD and FTIR analyses, Physical Chemistry Research Lab for TG&#x02010;DTA and the Department of Physics, FIST Lab for DSC analysis.</p></ack><sec sec-type="data-availability" id="jfds70758-sec-0560"><title>Data Availability Statement</title><p>The data presented in this study are available on request from the corresponding authors.</p></sec><ref-list id="jfds70758-bibl-0001"><title>References</title><ref id="jfds70758-bib-0001"><mixed-citation publication-type="journal" id="jfds70758-cite-0001">
+<string-name>
+<surname>Ahmed</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Shahid</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Azeem</surname>
+</string-name>, et&#x000a0;al. <year>2018</year>. &#x0201c;<article-title>Biodegradation of Plastics: Current Scenario and Future Prospects for Environmental Safety</article-title>.&#x0201d; <source>Environmental Science and Pollution Research</source>
+<volume>25</volume>, no. <issue>8</issue>: <fpage>7287</fpage>&#x02013;<lpage>7298</lpage>. <pub-id pub-id-type="doi">10.1007/s11356-018-1234-9</pub-id>.<pub-id pub-id-type="pmid">29332271</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0002"><mixed-citation publication-type="journal" id="jfds70758-cite-0002">
+<string-name>
+<surname>Arifin</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Angelica</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Nurhadi</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Marta</surname>
+</string-name>, and <string-name>
+<given-names>R.</given-names>
+<surname>Nissa</surname>
+</string-name>. <year>2025</year>. &#x0201c;<article-title>Elephant Foot Yam Starch&#x02010;NCC Bionanocomposite Film Incorporated With Virgin Coconut Oil and Monoglyceride for Hydrophobic and Biodegradable Packaging</article-title>.&#x0201d; <source>Journal of Renewable Materials</source>
+<volume>13</volume>, no. <issue>3</issue>: <fpage>617</fpage>&#x02013;<lpage>635</lpage>. <pub-id pub-id-type="doi">10.32604/jrm.2025.057812</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0003"><mixed-citation publication-type="journal" id="jfds70758-cite-0003">
+<string-name>
+<surname>Asikkutlu</surname>, <given-names>A. G.</given-names>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Yildirim&#x02010;Yalcin</surname>
+</string-name>. <year>2025</year>. &#x0201c;<article-title>Optimization of Mechanical and Water Barrier Properties of Avocado Seed Starch&#x02010;Based Film and Its Application as Smart pH Indicator by Adding Blue Butterfly Pea Flower Extract</article-title>.&#x0201d; <source>Food Chemistry: X</source>
+<volume>25</volume>: <elocation-id>102155</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.fochx.2025.102155</pub-id>.<pub-id pub-id-type="pmid">39867212</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0004"><mixed-citation publication-type="journal" id="jfds70758-cite-0004">
+<string-name>
+<surname>Basiak</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Galus</surname>
+</string-name>, and <string-name>
+<given-names>A.</given-names>
+<surname>Lenart</surname>
+</string-name>. <year>2015</year>. &#x0201c;<article-title>Characterisation of Composite Edible Films Based on Wheat Starch and Whey&#x02010;Protein Isolate</article-title>.&#x0201d; <source>International Journal of Food Science and Technology</source>
+<volume>50</volume>, no. <issue>2</issue>: <fpage>372</fpage>&#x02013;<lpage>380</lpage>. <pub-id pub-id-type="doi">10.1111/ijfs.12628</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0005"><mixed-citation publication-type="journal" id="jfds70758-cite-0005">
+<string-name>
+<surname>Cheng</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Cui</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Yan</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name>
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>Effect of Dual&#x02010;Modified Cassava Starches on Intelligent Packaging Films Containing Red Cabbage Extracts</article-title>.&#x0201d; <source>Food Hydrocolloids</source>
+<volume>124</volume>: <elocation-id>107225</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.foodhyd.2021.107225</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0006"><mixed-citation publication-type="journal" id="jfds70758-cite-0006">
+<string-name>
+<surname>Choi</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Shin</surname>
+</string-name>, <string-name>
+<given-names>J. S.</given-names>
+<surname>Lyu</surname>
+</string-name>, et&#x000a0;al. <year>2022</year>. &#x0201c;<article-title>Physicochemical Properties and Solubility of Sweet Potato Starch&#x02010;Based Edible Films</article-title>.&#x0201d; <source>Food Packaging and Shelf Life</source>
+<volume>33</volume>: <elocation-id>100867</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.fpsl.2022.100867</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0007"><mixed-citation publication-type="journal" id="jfds70758-cite-0007">
+<string-name>
+<surname>Escher</surname>, <given-names>G. B.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Wen</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>N. D.</given-names>
+<surname>Rosso</surname>
+</string-name>, and <string-name>
+<given-names>D.</given-names>
+<surname>Granato</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Phenolic Composition by UHPLC&#x02010;Q&#x02010;TOF&#x02010;MS/MS and Stability of Anthocyanins From <italic toggle="yes">Clitoria ternatea</italic> L. (Butterfly Pea) Blue Petals</article-title>.&#x0201d; <source>Food Chemistry</source>
+<volume>331</volume>: <elocation-id>127341</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.foodchem.2020.127341</pub-id>.<pub-id pub-id-type="pmid">32569972</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0008"><mixed-citation publication-type="journal" id="jfds70758-cite-0008">
+<string-name>
+<surname>Fitch&#x02010;Vargas</surname>, <given-names>P. R.</given-names>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Aguilar&#x02010;Palazuelos</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>de Jes&#x000fa;s Zazueta&#x02010;Morales</surname>
+</string-name>, et&#x000a0;al. <year>2016</year>. &#x0201c;<article-title>Physicochemical and Microstructural Characterization of Corn Starch Edible Films Obtained by a Combination of Extrusion Technology and Casting Technique</article-title>.&#x0201d; <source>Journal of Food Science</source>
+<volume>81</volume>, no. <issue>9</issue>: <fpage>E2224</fpage>&#x02013;<lpage>E2232</lpage>. <pub-id pub-id-type="doi">10.1111/1750-3841.13416</pub-id>.<pub-id pub-id-type="pmid">27550869</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0009"><mixed-citation publication-type="journal" id="jfds70758-cite-0009">
+<string-name>
+<surname>Galdeano</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Mali</surname>
+</string-name>, <string-name>
+<given-names>M. V. E.</given-names>
+<surname>Grossmann</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Yamashita</surname>
+</string-name>, and <string-name>
+<given-names>M. A.</given-names>
+<surname>Garc&#x000ed;a</surname>
+</string-name>. <year>2009</year>. &#x0201c;<article-title>Effects of Plasticizers on the Properties of Oat Starch Films</article-title>.&#x0201d; <source>Materials Science and Engineering: C</source>
+<volume>29</volume>, no. <issue>2</issue>: <fpage>532</fpage>&#x02013;<lpage>538</lpage>. <pub-id pub-id-type="doi">10.1016/j.msec.2008.09.034</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0010"><mixed-citation publication-type="journal" id="jfds70758-cite-0010">
+<string-name>
+<surname>Iqbal</surname>, <given-names>U.</given-names>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Saini</surname>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Ahmed</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>Effect of Heat Moisture Treatment, Annealing, and Gelatinization&#x02010;Retrogradation Modifications on Physico&#x02010;Chemical, Functional, and Structural Properties of Starch From Elephant Foot Yam (<italic toggle="yes">Amorphophallus paeoniifolius</italic>)</article-title>.&#x0201d; <source>Starch&#x02014;St&#x000e4;rke</source>
+<volume>76</volume>, no. <issue>9&#x02013;10</issue>: <elocation-id>2300220</elocation-id>. <pub-id pub-id-type="doi">10.1002/star.202300220</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0011"><mixed-citation publication-type="journal" id="jfds70758-cite-0011">
+<string-name>
+<surname>Jeyaraj</surname>, <given-names>E. J.</given-names>
+</string-name>, <string-name>
+<given-names>Y. Y.</given-names>
+<surname>Lim</surname>
+</string-name>, and <string-name>
+<given-names>W. S.</given-names>
+<surname>Choo</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>Antioxidant, Cytotoxic, and Antibacterial Activities of <italic toggle="yes">Clitoria ternatea</italic> Flower Extracts and Anthocyanin&#x02010;Rich Fraction</article-title>.&#x0201d; <source>Scientific Reports</source>
+<volume>12</volume>, no. <issue>1</issue>: <elocation-id>14890</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-022-19146-z</pub-id>.<pub-id pub-id-type="pmid">36050436</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0012"><mixed-citation publication-type="journal" id="jfds70758-cite-0012">
+<string-name>
+<surname>Jiang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Cao</surname>
+</string-name>, and <string-name>
+<given-names>W.</given-names>
+<surname>Jiang</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Development of Biodegradable Active Films Based on Longan Seed Starch Incorporated With Banana Flower Bract Anthocyanin Extracts and Applications in Food Freshness Indication</article-title>.&#x0201d; <source>International Journal of Biological Macromolecules</source>
+<volume>251</volume>: <elocation-id>126372</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2023.126372</pub-id>.<pub-id pub-id-type="pmid">37595722</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0013"><mixed-citation publication-type="journal" id="jfds70758-cite-0013">
+<string-name>
+<surname>Kumar</surname>, <given-names>P. S.</given-names>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Shuprajhaa</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Rajendran</surname>
+</string-name>, and <string-name>
+<given-names>K.</given-names>
+<surname>Dhandapani</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>Banana Flower Bract Anthocyanin&#x02010;Based pH Sensitive, Intelligent Film Indicator Developed Using Banana Starch and Its Derivative</article-title>.&#x0201d; <source>Food Packaging and Shelf Life</source>
+<volume>46</volume>: <elocation-id>101375</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.fpsl.2024.101375</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0014"><mixed-citation publication-type="journal" id="jfds70758-cite-0014">
+<string-name>
+<surname>Li</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Ye</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>He</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Wei</surname>
+</string-name>, and <string-name>
+<given-names>L.</given-names>
+<surname>Dang</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>A Novel pH&#x02010;Sensitive Antibacterial Bilayer Film for Intelligent Packaging</article-title>.&#x0201d; <source>Biomass Conversion and Biorefinery</source>
+<volume>14</volume>, no. <issue>13</issue>: <fpage>14303</fpage>&#x02013;<lpage>14316</lpage>. <pub-id pub-id-type="doi">10.1007/s13399-022-03641-4</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0015"><mixed-citation publication-type="journal" id="jfds70758-cite-0015">
+<string-name>
+<surname>Li</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, and <string-name>
+<given-names>Y.</given-names>
+<surname>Qin</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>Application of pH&#x02010;Indicating Film Containing Blue Corn Anthocyanins on Corn Starch/Polyvinyl Alcohol as Substrate for Preservation of Tilapia</article-title>.&#x0201d; <source>Journal of Food Measurement and Characterization</source>
+<volume>16</volume>, no. <issue>6</issue>: <fpage>4416</fpage>&#x02013;<lpage>4424</lpage>. <pub-id pub-id-type="doi">10.1007/s11694-022-01531-x</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0016"><mixed-citation publication-type="journal" id="jfds70758-cite-0016">
+<string-name>
+<surname>Manzoor</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Ahmad</surname>
+</string-name>, and <string-name>
+<given-names>B.</given-names>
+<surname>Yousuf</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Development and Characterization of Edible Films Based on Flaxseed Gum Incorporated With <italic toggle="yes">Piper betle</italic> Extract</article-title>.&#x0201d; <source>International Journal of Biological Macromolecules</source>
+<volume>245</volume>: <elocation-id>125562</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2023.125562</pub-id>.<pub-id pub-id-type="pmid">37379948</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0017"><mixed-citation publication-type="journal" id="jfds70758-cite-0017">
+<string-name>
+<surname>Nagar</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>V. S.</given-names>
+<surname>Sharanagat</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Kumar</surname>
+</string-name>, and <string-name>
+<given-names>L.</given-names>
+<surname>Singh</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Development and Characterization of Elephant Foot Yam Starch&#x02010;Hydrocolloids Based Edible Packaging Film: Physical, Optical, Thermal and Barrier Properties</article-title>.&#x0201d; <source>Journal of Food Science and Technology</source>
+<volume>57</volume>, no. <issue>4</issue>: <fpage>1331</fpage>&#x02013;<lpage>1341</lpage>. <pub-id pub-id-type="doi">10.1007/s13197-019-04167-w</pub-id>.<pub-id pub-id-type="pmid">32180629</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0018"><mixed-citation publication-type="journal" id="jfds70758-cite-0018">
+<collab collab-type="authors">Netravati</collab>
+. <string-name>
+<surname>Gomez</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Pathrose</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Raj N</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Joseph P</surname>
+</string-name>, and <string-name>
+<given-names>B.</given-names>
+<surname>Kuruvila</surname>
+</string-name>. <year>2022</year>. &#x0201c;<article-title>Comparative Evaluation of Anthocyanin Pigment Yield and Its Attributes From Butterfly Pea (<italic toggle="yes">Clitorea ternatea</italic> L.) Flowers as Prospective Food Colorant Using Different Extraction Methods</article-title>.&#x0201d; <source>Future Foods</source>
+<volume>6</volume>: <elocation-id>100199</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.fufo.2022.100199</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0019"><mixed-citation publication-type="journal" id="jfds70758-cite-0019">
+<string-name>
+<surname>Nguyen</surname>, <given-names>T. T. T.</given-names>
+</string-name>, <string-name>
+<given-names>N. L. Q.</given-names>
+<surname>Truong</surname>
+</string-name>, <string-name>
+<given-names>T. N. Q.</given-names>
+<surname>Chiem</surname>
+</string-name>, <string-name>
+<given-names>L. D. P.</given-names>
+<surname>Truong</surname>
+</string-name>, <string-name>
+<given-names>T. T. T.</given-names>
+<surname>Nguyen</surname>
+</string-name>, and <string-name>
+<given-names>T. V.</given-names>
+<surname>Tran</surname>
+</string-name>. <year>2025</year>. &#x0201c;<article-title>Development of Intelligent Films Based on Jackfruit Seed Starch/Polyvinyl Alcohol Incorporated With Purple Sweet Potato Peel Anthocynanin as an Indicator</article-title>.&#x0201d; <source>International Journal of Biological Macromolecules</source>
+<volume>319</volume>: <elocation-id>145436</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2025.145436</pub-id>.<pub-id pub-id-type="pmid">40562137</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0020"><mixed-citation publication-type="journal" id="jfds70758-cite-0020">
+<string-name>
+<surname>Parra</surname>, <given-names>D. F.</given-names>
+</string-name>, <string-name>
+<given-names>C. C.</given-names>
+<surname>Tadini</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Ponce</surname>
+</string-name>, and <string-name>
+<given-names>A. B.</given-names>
+<surname>Lug&#x000e3;o</surname>
+</string-name>. <year>2004</year>. &#x0201c;<article-title>Mechanical Properties and Water Vapor Transmission in Some Blends of Cassava Starch Edible Films</article-title>.&#x0201d; <source>Carbohydrate Polymers</source>
+<volume>58</volume>, no. <issue>4</issue>: <fpage>475</fpage>&#x02013;<lpage>481</lpage>. <pub-id pub-id-type="doi">10.1016/j.carbpol.2004.08.021</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0021"><mixed-citation publication-type="journal" id="jfds70758-cite-0021">
+<string-name>
+<surname>Prakruthi</surname>, <given-names>L. Y.</given-names>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Krishnan</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Medha</surname>
+</string-name>, et&#x000a0;al. <year>2025</year>. &#x0201c;<article-title>Enhancing Starch Properties Through Dual Modification: Ultrasonication and Acetic Acid Treatment of Non&#x02010;Conventional Starches</article-title>.&#x0201d; <source>Ultrasonics Sonochemistry</source>
+<volume>115</volume>: <elocation-id>107301</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ultsonch.2025.107301</pub-id>.<pub-id pub-id-type="pmid">40056868</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0022"><mixed-citation publication-type="journal" id="jfds70758-cite-0022">
+<string-name>
+<surname>Qin</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Yong</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name>
+<given-names>J.</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2019</year>. &#x0201c;<article-title>Preparation and Characterization of Active and Intelligent Packaging Films Based on Cassava Starch and Anthocyanins From <italic toggle="yes">Lycium ruthenicum</italic> Murr</article-title>.&#x0201d; <source>International Journal of Biological Macromolecules</source>
+<volume>134</volume>: <fpage>80</fpage>&#x02013;<lpage>90</lpage>. <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2019.05.029</pub-id>.<pub-id pub-id-type="pmid">31075329</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0023"><mixed-citation publication-type="journal" id="jfds70758-cite-0023">
+<string-name>
+<surname>Rashad</surname>, <given-names>H. G.</given-names>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>El Khatib</surname>
+</string-name>, <string-name>
+<given-names>G. M.</given-names>
+<surname>Shokry</surname>
+</string-name>, and <string-name>
+<given-names>M. M.</given-names>
+<surname>EL&#x02010;Zawahry</surname>
+</string-name>. <year>2025</year>. &#x0201c;<article-title>Fabrication of pH&#x02010;Sensitive Silk and Wool Fabrics Treated With Pectin for Multichromic Sensor Dyes With Biochromic Butterfly Pea Flowers (<italic toggle="yes">Clitoria ternatea</italic> L.) Extract</article-title>.&#x0201d; <source>International Journal of Biological Macromolecules</source>
+<volume>311</volume>: <elocation-id>143972</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2025.143972</pub-id>.<pub-id pub-id-type="pmid">40334875</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0024"><mixed-citation publication-type="journal" id="jfds70758-cite-0024">
+<string-name>
+<surname>Reddy</surname>, <given-names>C. K.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Haripriya</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Noor Mohamed</surname>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Suriya</surname>
+</string-name>. <year>2014</year>. &#x0201c;<article-title>Preparation and Characterization of Resistant Starch III From Elephant Foot Yam (<italic toggle="yes">Amorphophallus paeonifolius</italic>) Starch</article-title>.&#x0201d; <source>Food Chemistry</source>
+<volume>155</volume>: <fpage>38</fpage>&#x02013;<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1016/j.foodchem.2014.01.023</pub-id>.<pub-id pub-id-type="pmid">24594151</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0025"><mixed-citation publication-type="journal" id="jfds70758-cite-0025">
+<string-name>
+<surname>Reddy</surname>, <given-names>C. K.</given-names>
+</string-name>, <string-name>
+<given-names>E. S.</given-names>
+<surname>Jung</surname>
+</string-name>, <string-name>
+<given-names>S. Y.</given-names>
+<surname>Son</surname>
+</string-name>, and <string-name>
+<given-names>C. H.</given-names>
+<surname>Lee</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Inclusion Complexation of Catechins&#x02010;Rich Green Tea Extract by &#x003b2;&#x02010;Cyclodextrin: Preparation, Physicochemical, Thermal, and Antioxidant Properties</article-title>.&#x0201d; <source>LWT</source>
+<volume>131</volume>: <elocation-id>109723</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.lwt.2020.109723</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0026"><mixed-citation publication-type="journal" id="jfds70758-cite-0026">
+<string-name>
+<surname>Roy</surname>, <given-names>S.</given-names>
+</string-name>, and <string-name>
+<given-names>J.&#x02010;W.</given-names>
+<surname>Rhim</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Preparation of Antimicrobial and Antioxidant Gelatin/Curcumin Composite Films for Active Food Packaging Application</article-title>.&#x0201d; <source>Colloids and Surfaces B: Biointerfaces</source>
+<volume>188</volume>: <elocation-id>110761</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.colsurfb.2019.110761</pub-id>.<pub-id pub-id-type="pmid">31901685</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0027"><mixed-citation publication-type="journal" id="jfds70758-cite-0027">
+<string-name>
+<surname>Shanmathy</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Mohanta</surname>
+</string-name>, and <string-name>
+<given-names>A.</given-names>
+<surname>Thirugnanam</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Development of Biodegradable Bioplastic Films From Taro Starch Reinforced With Bentonite</article-title>.&#x0201d; <source>Carbohydrate Polymer Technologies and Applications</source>
+<volume>2</volume>: <elocation-id>100173</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.carpta.2021.100173</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0028"><mixed-citation publication-type="journal" id="jfds70758-cite-0028">
+<string-name>
+<surname>Sigdel</surname>, <given-names>A.</given-names>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Janaswamy</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>Effect of Mineral Ions on the Functional Properties of Starch Films: Towards Developing Novel Edible Films</article-title>.&#x0201d; <source>Sustainable Chemistry and Pharmacy</source>
+<volume>42</volume>: <elocation-id>101790</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scp.2024.101790</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0029"><mixed-citation publication-type="journal" id="jfds70758-cite-0029">
+<string-name>
+<surname>Singh</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<given-names>V. S.</given-names>
+<surname>Sharanagat</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Desai</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Kumar</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Upadhyay</surname>
+</string-name>, and <string-name>
+<given-names>G.</given-names>
+<surname>Chakraborty</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>Interaction of Pulsed Electric Modified Elephant Foot Yam (<italic toggle="yes">Amorphophallus paeoniifolius</italic>) Starch and Polyvinyl Alcohol to Enhance the Mechanical and Barrier Properties of Film</article-title>.&#x0201d; <source>Starch&#x02014;St&#x000e4;rke</source>
+<volume>75</volume>, no. <issue>5&#x02013;6</issue>: <elocation-id>2200229</elocation-id>. <pub-id pub-id-type="doi">10.1002/star.202200229</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0030"><mixed-citation publication-type="journal" id="jfds70758-cite-0030">
+<string-name>
+<surname>Suriya</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>C. K.</given-names>
+<surname>Reddy</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Haripriya</surname>
+</string-name>. <year>2019</year>. &#x0201c;<article-title>Functional and Thermal Behaviors of Heat&#x02010;Moisture Treated Elephant Foot Yam Starch</article-title>.&#x0201d; <source>International Journal of Biological Macromolecules</source>
+<volume>137</volume>: <fpage>783</fpage>&#x02013;<lpage>789</lpage>. <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2019.06.228</pub-id>.<pub-id pub-id-type="pmid">31260779</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0031"><mixed-citation publication-type="journal" id="jfds70758-cite-0031">
+<string-name>
+<surname>Thakur</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Singhi</surname>
+</string-name>, <string-name>
+<given-names>V. R.</given-names>
+<surname>Suryavanshi</surname>
+</string-name>, et&#x000a0;al. <year>2024</year>. &#x0201c;<article-title>pH&#x02010;Sensitive Intelligent Packaging Films From Kodo Millet (<italic toggle="yes">Paspalum scrobiculatum</italic>) Starch and Gum Tragacanth Incorporated With Beetroot Peel Extract for Monitoring Shrimp Freshness</article-title>.&#x0201d; <source>Food Packaging and Shelf Life</source>
+<volume>46</volume>: <elocation-id>101405</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.fpsl.2024.101405</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0032"><mixed-citation publication-type="journal" id="jfds70758-cite-0032">
+<string-name>
+<surname>Thakur</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Wickramarachchi</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Pal</surname>
+</string-name>, and <string-name>
+<given-names>P.</given-names>
+<surname>Sarkar</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>Gelatin/Chitosan&#x02010;Lactate/Curcuma Hydroethanolic Extract&#x02010;Based Antimicrobial Films: Preparation, Characterization, and Application on Chicken Meat</article-title>.&#x0201d; <source>Food Hydrocolloids</source>
+<volume>154</volume>: <elocation-id>110075</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.foodhyd.2024.110075</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0033"><mixed-citation publication-type="journal" id="jfds70758-cite-0033">
+<string-name>
+<surname>Thuy</surname>, <given-names>N. M.</given-names>
+</string-name>, <string-name>
+<given-names>V. Q.</given-names>
+<surname>Minh</surname>
+</string-name>, <string-name>
+<given-names>T. C.</given-names>
+<surname>Ben</surname>
+</string-name>, <string-name>
+<given-names>M. T.</given-names>
+<surname>Thi Nguyen</surname>
+</string-name>, <string-name>
+<given-names>H. T. N.</given-names>
+<surname>Ha</surname>
+</string-name>, and <string-name>
+<given-names>N. V.</given-names>
+<surname>Tai</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Identification of Anthocyanin Compounds in Butterfly Pea Flowers (<italic toggle="yes">Clitoria ternatea</italic> L.) by Ultra Performance Liquid Chromatography/Ultraviolet Coupled to Mass Spectrometry</article-title>.&#x0201d; <source>Molecules (Basel, Switzerland)</source>
+<volume>26</volume>, no. <issue>15</issue>: <fpage>4539</fpage>. <pub-id pub-id-type="doi">10.3390/molecules26154539</pub-id>.<pub-id pub-id-type="pmid">34361692</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0034"><mixed-citation publication-type="journal" id="jfds70758-cite-0034">
+<string-name>
+<surname>Wang</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Lai</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Hu</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Lin</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>Curcumin&#x02010;Mediated Sono/Photodynamic Treatment Preserved the Quality of Shrimp Surimi and Influenced Its Microbial Community Changes During Refrigerated Storage</article-title>.&#x0201d; <source>Ultrasonics Sonochemistry</source>
+<volume>78</volume>: <elocation-id>105715</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ultsonch.2021.105715</pub-id>.<pub-id pub-id-type="pmid">34391163</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0035"><mixed-citation publication-type="journal" id="jfds70758-cite-0035">
+<string-name>
+<surname>Wang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Deng</surname>
+</string-name>, et&#x000a0;al. <year>2023</year>. &#x0201c;<article-title>A pH&#x02010;Sensitive Intelligent Packaging Film Harnessing <italic toggle="yes">Dioscorea zingiberensis</italic> Starch and Anthocyanin for Meat Freshness Monitoring</article-title>.&#x0201d; <source>International Journal of Biological Macromolecules</source>
+<volume>245</volume>: <elocation-id>125485</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2023.125485</pub-id>.<pub-id pub-id-type="pmid">37348585</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0038"><mixed-citation publication-type="journal" id="jfds70758-cite-0038">
+<string-name>
+<surname>Wu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Yan</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Luan</surname>
+</string-name>, and <string-name>
+<given-names>Q.</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2024</year>. &#x0201c;<article-title>Preparation and Characterization of pH&#x02010;Sensitive Intelligent Packaging Films Based on Cassava Starch/Polyvinyl Alcohol Matrices Containing <italic toggle="yes">Aronia melanocarpa</italic> Anthocyanins</article-title>.&#x0201d; <source>LWT</source>
+<volume>194</volume>: <elocation-id>115818</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.lwt.2024.115818</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0039"><mixed-citation publication-type="journal" id="jfds70758-cite-0039">
+<string-name>
+<surname>Wu</surname>, <given-names>Y.</given-names>
+</string-name>, and <string-name>
+<given-names>C.</given-names>
+<surname>Li</surname>
+</string-name>. <year>2023</year>. &#x0201c;<article-title>A Double&#x02010;Layer Smart Film Based on Gellan Gum/Modified Anthocyanin and Sodium Carboxymethyl Cellulose/Starch/Nisin for Application in Chicken Breast</article-title>.&#x0201d; <source>International Journal of Biological Macromolecules</source>
+<volume>232</volume>: <elocation-id>123464</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2023.123464</pub-id>.<pub-id pub-id-type="pmid">36720329</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0040"><mixed-citation publication-type="journal" id="jfds70758-cite-0040">
+<string-name>
+<surname>Yong</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Miao</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name>
+<given-names>J.</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2019</year>. &#x0201c;<article-title>Development of Antioxidant and Intelligent pH&#x02010;Sensing Packaging Films by Incorporating Purple&#x02010;Fleshed Sweet Potato Extract Into Chitosan Matrix</article-title>.&#x0201d; <source>Food Hydrocolloids</source>
+<volume>90</volume>: <fpage>216</fpage>&#x02013;<lpage>224</lpage>. <pub-id pub-id-type="doi">10.1016/j.foodhyd.2018.12.015</pub-id>.</mixed-citation></ref><ref id="jfds70758-bib-0041"><mixed-citation publication-type="journal" id="jfds70758-cite-0041">
+<string-name>
+<surname>Zhang</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<given-names>T.&#x02010;S.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Yan</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Hu</surname>
+</string-name>, and <string-name>
+<given-names>T.</given-names>
+<surname>Ren</surname>
+</string-name>. <year>2020</year>. &#x0201c;<article-title>Novel pH&#x02010;Sensitive Films Based on Starch/Polyvinyl Alcohol and Food Anthocyanins as a Visual Indicator of Shrimp Deterioration</article-title>.&#x0201d; <source>International Journal of Biological Macromolecules</source>
+<volume>145</volume>: <fpage>768</fpage>&#x02013;<lpage>776</lpage>. <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2019.12.159</pub-id>.<pub-id pub-id-type="pmid">31866540</pub-id>
+</mixed-citation></ref><ref id="jfds70758-bib-0042"><mixed-citation publication-type="journal" id="jfds70758-cite-0042">
+<string-name>
+<surname>Zhu</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Qin</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Yuan</surname>
+</string-name>, and <string-name>
+<given-names>L.</given-names>
+<surname>Li</surname>
+</string-name>. <year>2021</year>. &#x0201c;<article-title>An Intelligent pH Indicator Film Based on Cassava Starch/Polyvinyl Alcohol Incorporating Anthocyanin Extracts for Monitoring Pork Freshness</article-title>.&#x0201d; <source>Journal of Food Processing and Preservation</source>
+<volume>45</volume>, no. <issue>10</issue>: <elocation-id>e15822</elocation-id>. <pub-id pub-id-type="doi">10.1111/jfpp.15822</pub-id>.</mixed-citation></ref></ref-list></back></article>

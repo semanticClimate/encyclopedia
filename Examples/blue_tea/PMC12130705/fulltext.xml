@@ -1,0 +1,962 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Acta Biochim Biophys Sin (Shanghai)</journal-id><journal-id journal-id-type="iso-abbrev">Acta Biochim Biophys Sin (Shanghai)</journal-id><journal-id journal-id-type="publisher-id">ABBS</journal-id><journal-title-group><journal-title>Acta Biochimica et Biophysica Sinica</journal-title></journal-title-group><issn pub-type="ppub">1672-9145</issn><issn pub-type="epub">1745-7270</issn><publisher><publisher-name>Science Press</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">12130705</article-id><article-id pub-id-type="pmid">39468929</article-id>
+<article-id pub-id-type="doi">10.3724/abbs.2024192</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Anthocyanins and flavonoids derived from
+<italic toggle="yes">Clitoria ternatea</italic> L. flower inhibit bladder cancer growth via suppressing fatty acid synthesis mediated by SREBP1 pathway
+</article-title><subtitle>
+<italic toggle="yes">Clitoria ternatea</italic> L. flower inhibits bladder cancer growth via SREBP1 suppression
+</subtitle></title-group><contrib-group><contrib contrib-type="author"><name specific-use="en"><surname>Liu</surname><given-names>Chenkai</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name specific-use="en"><surname>Liu</surname><given-names>Jue</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name specific-use="en"><surname>Liu</surname><given-names>Gao</given-names></name><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name specific-use="en"><surname>Song</surname><given-names>Yusong</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name specific-use="en"><surname>Yang</surname><given-names>Xiuyu</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name specific-use="en"><surname>Gao</surname><given-names>Honglei</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name specific-use="en"><surname>Xiang</surname><given-names>Cheng</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name specific-use="en"><surname>Sang</surname><given-names>Jie</given-names></name><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="fn1" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name specific-use="en"><surname>Xu</surname><given-names>Tianrui</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="fn1" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name specific-use="en"><surname>Sang</surname><given-names>Jun</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="fn1" ref-type="corresp">*</xref></contrib><aff id="aff1">
+<label>1</label>
+<institution content-type="orgname">Faculty of Life Science and Technology</institution>
+<institution content-type="orgname">Kunming University of Science and Technology</institution>
+<addr-line>
+<named-content content-type="city">Kunming</named-content>
+<named-content content-type="zipcode">650500</named-content>
+</addr-line>
+<country>China</country>
+</aff><aff id="aff2">
+<label>2</label>
+<institution content-type="orgname">Yunnan University of Traditional Chinese Medicine</institution>
+<addr-line>
+<named-content content-type="city">Kunming</named-content>
+<named-content content-type="zipcode">650500</named-content>
+</addr-line>
+<country>China</country>
+</aff><aff id="aff3">
+<label>3</label>
+<institution content-type="orgname">School of Medicine</institution>
+<institution content-type="orgname">Ankang University</institution>
+<addr-line>
+<named-content content-type="city">Ankang</named-content>
+<named-content content-type="zipcode">725000</named-content>
+</addr-line>
+<country>China</country>
+</aff></contrib-group><author-notes><fn id="fn3" fn-type="con"><label>
+<sup>&#x02020;</sup>
+</label><p>These authors contributed equally to this work.</p></fn><corresp id="fn1">Correspondence address. Tel: 86-17338361783; (Jun.S.) / Tel: 86-13700610993; E-mail: (T.X.) / Tel: 86-18235420849; E-mail: (Jie.S.)junsang@kust.edu.cntianruixu@kust.edu.cnjiesang@foxmail.com</corresp></author-notes><pub-date pub-type="epub"><day>29</day><month>10</month><year>2024</year></pub-date><pub-date pub-type="collection"><day>25</day><month>5</month><year>2025</year></pub-date><volume content-type="Vol.">57</volume><issue content-type="No.">5</issue><fpage>770</fpage><lpage>781</lpage><history><date date-type="received"><day>9</day><month>7</month><year>2024</year></date><date date-type="accepted"><day>29</day><month>8</month><year>2024</year></date></history><permissions><copyright-statement>&#x000a9; The Author(s) 2021.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>The Author(s)</copyright-holder><license><license-p>
+<price>0</price>
+</license-p></license><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>
+<open-access><p>This is an open access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License (https://creativecommons.org/licenses/by-nc-nd/4.0/).</p></open-access>
+</license-p></license></permissions><abstract><p>
+<italic toggle="yes">Clitoria ternatea</italic> L. flowers are used as traditional herbal medicines and are known for their advanced pharmacological activities. Flavonoids and anthocyanins reportedly contribute to the therapeutic properties of
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers; however, their potential anti-bladder cancer effects and molecular mechanisms remain unknown. In this study, flavonoid- and anthocyanin-rich samples from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers (DDH) are prepared via macroporous resin-based extraction coupled with an efficient and reliable two-dimensional UPLC-DAD-MS/MS method.
+<italic toggle="yes">In vitro</italic> and
+<italic toggle="yes">in vivo</italic> studies reveal that DDH can inhibit bladder cancer cell growth and enhance the anti-bladder cancer activity of cisplatin. RNA-seq combined with KEGG analysis reveals that fatty acid synthesis is closely related to the anti-bladder cancer effect of DDH. Furthermore, DDH dose-dependently reduces cellular fatty acid levels in bladder cancer cells, and the addition of fatty acids significantly mitigates DDH-induced cell growth inhibition. Subsequent findings reveal that DDH downregulates sterol regulatory element-binding protein 1 (SREBP1), a key transcriptional regulator of
+<italic toggle="yes">de novo</italic> fatty acid synthesis in cancer cells, and its downstream targets (FASN, SCD1, and ACC). Additionally, this study demonstrates that gallic acid not only enhances the stability of DDH but also synergistically potentiates its anti-bladder cancer activity. Our study suggests that targeting the SREBP1 pathway is an effective strategy in bladder cancer therapy, and the ability of DDH to induce cell death by inhibiting the SREBP1 pathway and its good tolerance in mice make it a promising strategy for preventing and treating bladder cancer.
+</p></abstract><kwd-group kwd-group-type="inspec"><kwd>combination therapy</kwd><kwd>bladder cancer</kwd><kwd>extraction optimization</kwd><kwd>lipogenesis</kwd><kwd>phytochemicals</kwd><kwd>two-dimensional UPLC-DAD-MS/MS</kwd></kwd-group><funding-group><award-group><funding-source>the grants from the Natural Science Foundation of Yunnan</funding-source><award-id>No.</award-id><award-id>202401CF070152</award-id></award-group><award-group><funding-source>the Natural Science Foundation of China</funding-source><award-id>No.</award-id><award-id>32160157</award-id></award-group><award-group><funding-source>the Yunnan Province Major Science and Technology Projects-Kunming University of Science and Technology Double First-Class Special Project</funding-source><award-id>No.</award-id><award-id>202202AG050008</award-id></award-group><award-group><funding-source>and the Yunnan Revitalization Talent Support Program &#x0201c;Young Talent&#x0201d; Project</funding-source><award-id>No.</award-id><award-id>YNWR-QNBJ-2020-247</award-id></award-group><funding-statement>This work was supported by the grants from the Natural Science Foundation of Yunnan (No. 202401CF070152), the Natural Science Foundation of China (No. 32160157), the Yunnan Province Major Science and Technology Projects-Kunming University of Science and Technology Double First-Class Special Project (No. 202202AG050008), and the Yunnan Revitalization Talent Support Program &#x0201c;Young Talent&#x0201d; Project (No. YNWR-QNBJ-2020-247).</funding-statement></funding-group><custom-meta-group><custom-meta><meta-name>Citation</meta-name><meta-value>C Liu, J Liu, G Liu, Y Song, X Yang, H Gao, C Xiang, et al.
+<italic toggle="yes">Clitoria ternatea</italic> L. flower&#x02013;derived anthocyanins and flavonoids inhibit bladder cancer growth by suppressing SREBP1 pathway&#x02013;mediated fatty acid synthesis. Acta Biochim Biophys Sin, 2024, Vol.: fpage&#x02013;lpage,
+<uri xlink:href="https://doi.org/10.3724/abbs.2024192">https://doi.org/10.3724/abbs.2024192</uri>
+</meta-value></custom-meta><custom-meta><meta-name>Crossmark</meta-name><meta-value>2024/10/22 17:38:05</meta-value></custom-meta><custom-meta><meta-name>AuthorMark</meta-name><meta-value>C Liu</meta-value></custom-meta><custom-meta><meta-name>AuthorMarkCite</meta-name><meta-value>C Liu, J Liu, G Liu, Y Song, X Yang, H Gao, C Xiang, et al.</meta-value></custom-meta><custom-meta><meta-name>article-title</meta-name><meta-value>
+<italic toggle="yes">Clitoria ternatea</italic> L. flower&#x02013;derived anthocyanins and flavonoids inhibit bladder cancer growth by suppressing SREBP1 pathway&#x02013;mediated fatty acid synthesis
+</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title id="SEC1">Introduction</title><p>The incidence and mortality rates of bladder cancer, a malignant urological tumor, are increasing annually. The Global Cancer Statistics 2022 report estimated that there were 614,000 new cases and 220,000 deaths worldwide associated with bladder cancer in 2022
+<xref rid="REF1" ref-type="bibr">[1]</xref>. A prominent metabolic alteration observed in cancer is the reprogramming of lipid metabolism. Lipids not only are important components of biological membranes but are also involved in cellular energy metabolism and storage as well as in intracellular signaling
+<xref rid="REF2" ref-type="bibr">[2]</xref>. Tumor cells increase lipid metabolism, particularly fatty acid synthesis, to meet their needs for rapid proliferation, survival, migration, invasion, and metastasis
+<xref rid="REF3" ref-type="bibr">[3]</xref>. Sterol regulatory element-binding protein 1 (SREBP1) is a key transcriptional regulator of
+<italic toggle="yes">de novo</italic> fatty acid synthesis in cells and regulates the expressions of key enzymes involved in lipid synthesis, such as stearoyl-CoA desaturase 1 (SCD1), fatty acid synthase (FASN), and acetyl-CoA carboxylase (ACC)
+<xref rid="REF4" ref-type="bibr">[4]</xref>. Emerging evidence indicates that inhibiting the SREBP1 pathway can suppress intracellular fatty acid synthesis, thereby reducing the proliferation of tumor cells [
+<xref rid="REF3" ref-type="bibr">3</xref>,
+<xref rid="REF4" ref-type="bibr">4</xref>] . The abnormal hyperactivity of lipid metabolism in bladder cancer is closely linked to its development, progression, and drug resistance [
+<xref rid="REF5" ref-type="bibr">5</xref>&#x02013;
+<xref rid="REF7" ref-type="bibr">7</xref>] . Hence, targeting SREBP1 pathway-mediated fatty acid synthesis holds promise as a strategy for treating bladder cancer.
+</p><p>
+<italic toggle="yes">Clitoria ternatea</italic> L. is a common plant in the Sipsongpanna region of Yunnan, China, and its blue flowers are known for their advanced health benefits, such as anti-inflammatory, antioxidant, and anti-obesity effects [
+<xref rid="REF8" ref-type="bibr">8</xref>&#x02013;
+<xref rid="REF10" ref-type="bibr">10</xref>] . The primary active constituents of
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers are flavonoids and anthocyanins [
+<xref rid="REF11" ref-type="bibr">11</xref>&#x02013;
+<xref rid="REF13" ref-type="bibr">13</xref>] . Reportedly, flavonoids and anthocyanins from plant sources are promising agents for inhibiting the proliferation of various tumor cells, such as hepatocellular carcinoma, lung cancer, and bladder cancer [
+<xref rid="REF14" ref-type="bibr">14</xref>,
+<xref rid="REF15" ref-type="bibr">15</xref>] . However, whether flavonoids and anthocyanins from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers can inhibit the proliferation of bladder cancer cells as well as their underlying mechanism of action remain unclear.
+</p><p>In this study, we developed a fast and efficient two-dimensional UPLC&#x02013;DAD&#x02013;MS/MS analytical method for simultaneous qualitative and quantitative analyses of flavonoids and anthocyanins in
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers. We optimized a macroporous resin-based approach to extract flavonoid- and anthocyanin-rich samples from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers (DDH). Our results indicate that DDH could inhibit the growth of bladder cancer cells and enhance the anticancer effects of cisplatin (CDDP). Further mechanistic studies revealed that DDH kills bladder cancer cells by inhibiting the SREBP1 pathway and reducing the level of cellular fatty acids. Additionally, we found that gallic acid (GAD) not only improves the stability of DDH but also synergistically potentiates its anticancer activity against bladder cancer
+<italic toggle="yes">in vitro</italic> and
+<italic toggle="yes">in vivo</italic>. Therefore, DDH shows promise as a therapeutic agent for bladder cancer.
+</p></sec><sec><title id="SEC2">Materials and Methods</title><sec><title id="SEC2.1">Chemicals and reagents</title><p>Cyanidin-3-glucoside (purity&#x02005;&#x02265;&#x02005;98%), quercetin-3-rutinoside (purity&#x02005;&#x02265;&#x02005;98%), and GAD (purity&#x02005;&#x02265;&#x02005;98%) were purchased from Chengdu DESITE BioTechnology Co., Ltd. (Chengdu, China).
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers were purchased from a local market in Kunming, China, and herbarium samples (No. 2023-3-7-Diedouhua) were deposited at the Key Laboratory of Target Drug Screening and Utilization for Universities in Yunnan Province. Formic acid (HPLC grade) was purchased from Tianjin Kermel Chemical Reagent Co., Ltd. (Tianjin, China). Acetonitrile and trifluoroacetic acid (HPLC grade) were purchased from Fisher Chemicals Co., Ltd. (Fair Lawn, USA). Macroporous resins LX-32, LX-68, XDA-6 and XDA-7 were purchased from Xi&#x02019;an Sunresin New Material Co., Ltd. (Xi&#x02019;an, China); AB-8 was provided by Cangzhou Bon Adsorber Technology Co., Ltd. (Cangzhou, China); X-5 was purchased from the Chemical Plant of Nankai University (Tianjin, China); and LS-302 was purchased from Shaanxi Lanshen Special Resin Co., Ltd. (Xi&#x02019;an, China). Oleic acid (OA) and palmitoleic acid (POA) were purchased from MedChemExpress (Monmouth Junction, USA). Antibodies against SREBP1 (ab28481), FASN (ab128870) and SCD1 (ab19862) were purchased from Abcam (Cambridge, UK); antibodies against ACC (3662) were purchased from Cell Signaling Technology (Danvers, USA); and antibodies against GAPDH (200306-7E4), goat anti-rabbit IgG (511203) and rabbit anti-mouse IgG (701051) were purchased from ZEN-BIOSCIENCE (Chengdu, China). All other chemicals and reagents were of analytical grade, and deionized water was used in all the experiments.
+</p></sec><sec><title id="SEC2.2">Extraction and separation of anthocyanins and flavonoids from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers
+</title><p>The extraction of total anthocyanins (TA) and total flavonoids (TF) from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers was optimized via response surface methodology and central composite design (
+<xref rid="TBL1" ref-type="table">Supplementary Table S1</xref>), and macroporous resin was used to separate TA and TF from the
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flower crude extract. A detailed description is provided in the
+<uri xlink:href="https://www.sciengine.com/doi/10.3724/abbs.2024192">Supplementary Material</uri>.
+<table-wrap position="float" content-type="table" id="TBL1" xml:base="8.03pt"><caption><p>
+<bold>
+<xref rid="TBL1" ref-type="table">Table 1</xref>
+</bold> Identification of anthocyanins and flavonoids via a two-dimensional UPLC-DAD-MS-MS method
+</p></caption><table frame="hsides" rules="groups" cellpadding="0.5" cellspacing="0"><colgroup span="1"><col width="15%" span="1"/><col width="12%" span="1"/><col width="16%" span="1"/><col width="10%" span="1"/><col width="1%" span="1"/><col width="10%" span="1"/><col width="10%" span="1"/><col width="26%" span="1"/></colgroup><thead><tr><td rowspan="1" colspan="1">
+<p>First-dimensional UPLC-DAD</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>Second-dimensional UPLC-MS</p>
+</td></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+<p>Peaks</p>
+</td><td rowspan="1" colspan="1">
+<p>Retention time (min)</p>
+</td><td rowspan="1" colspan="1">
+<p>UV/Vis</p>
+</td><td rowspan="1" colspan="1">
+<p>Percentage area
+<sup>a</sup>
+</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>MS
+<sup>b</sup>
+</p>
+</td><td rowspan="1" colspan="1">
+<p>MS/MS
+<sup>b</sup>
+</p>
+</td><td rowspan="1" colspan="1">
+<p>Tentative identification</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>Anthocyanins</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A1</p>
+</td><td rowspan="1" colspan="1">
+<p>3.417</p>
+</td><td rowspan="1" colspan="1">
+<p>196, 284, 536</p>
+</td><td rowspan="1" colspan="1">
+<p>1.36%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1405</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Delphinidin derivative</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A2</p>
+</td><td rowspan="1" colspan="1">
+<p>3.963</p>
+</td><td rowspan="1" colspan="1">
+<p>196, 288, 542</p>
+</td><td rowspan="1" colspan="1">
+<p>2.35%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1491</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Ternatin A3</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A3</p>
+</td><td rowspan="1" colspan="1">
+<p>7.147</p>
+</td><td rowspan="1" colspan="1">
+<p>222, 290, 542</p>
+</td><td rowspan="1" colspan="1">
+<p>3.14%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1329</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Ternatin C1</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A4</p>
+</td><td rowspan="1" colspan="1">
+<p>7.810</p>
+</td><td rowspan="1" colspan="1">
+<p>224, 288, 552</p>
+</td><td rowspan="1" colspan="1">
+<p>7.18%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1799</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Ternatin A2</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A5</p>
+</td><td rowspan="1" colspan="1">
+<p>9.387</p>
+</td><td rowspan="1" colspan="1">
+<p>198, 266, 548</p>
+</td><td rowspan="1" colspan="1">
+<p>3.36%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1329</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Ternatin B4</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A6</p>
+</td><td rowspan="1" colspan="1">
+<p>9.800</p>
+</td><td rowspan="1" colspan="1">
+<p>226, 290, 548</p>
+</td><td rowspan="1" colspan="1">
+<p>4.04%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1638</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Ternatin B3</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A7</p>
+</td><td rowspan="1" colspan="1">
+<p>13.233</p>
+</td><td rowspan="1" colspan="1">
+<p>222, 290, 550</p>
+</td><td rowspan="1" colspan="1">
+<p>14.93%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1638</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Ternatin B2</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A8</p>
+</td><td rowspan="1" colspan="1">
+<p>13.740</p>
+</td><td rowspan="1" colspan="1">
+<p>224, 290, 552</p>
+</td><td rowspan="1" colspan="1">
+<p>17.86%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1945</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Ternatin B1</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A9</p>
+</td><td rowspan="1" colspan="1">
+<p>15.400</p>
+</td><td rowspan="1" colspan="1">
+<p>226, 294, 550</p>
+</td><td rowspan="1" colspan="1">
+<p>10.51%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1475</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Ternatin D2</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A10</p>
+</td><td rowspan="1" colspan="1">
+<p>18.267</p>
+</td><td rowspan="1" colspan="1">
+<p>226, 292, 553</p>
+</td><td rowspan="1" colspan="1">
+<p>16.99%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1783</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Ternatin D1</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>A11</p>
+</td><td rowspan="1" colspan="1">
+<p>18.833</p>
+</td><td rowspan="1" colspan="1">
+<p>230, 292, 548</p>
+</td><td rowspan="1" colspan="1">
+<p>2.55%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>1183</p>
+</td><td rowspan="1" colspan="1">
+<p>303</p>
+</td><td rowspan="1" colspan="1">
+<p>Delphinidin derivative</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>Flavonoids</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>F1</p>
+</td><td rowspan="1" colspan="1">
+<p>5.940</p>
+</td><td rowspan="1" colspan="1">
+<p>202, 256, 354</p>
+</td><td rowspan="1" colspan="1">
+<p>4.92%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>755</p>
+</td><td rowspan="1" colspan="1">
+<p>301</p>
+</td><td rowspan="1" colspan="1">
+<p>Quercetin-3-2
+<sup>G</sup>-rhamnosylrutinoside
+</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>F2</p>
+</td><td rowspan="1" colspan="1">
+<p>7.223</p>
+</td><td rowspan="1" colspan="1">
+<p>204, 256, 354</p>
+</td><td rowspan="1" colspan="1">
+<p>9.96%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>609</p>
+</td><td rowspan="1" colspan="1">
+<p>301</p>
+</td><td rowspan="1" colspan="1">
+<p>Quercetin-3-neohesperidoside</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>F3</p>
+</td><td rowspan="1" colspan="1">
+<p>7.660</p>
+</td><td rowspan="1" colspan="1">
+<p>198, 264, 346</p>
+</td><td rowspan="1" colspan="1">
+<p>16.96%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>739</p>
+</td><td rowspan="1" colspan="1">
+<p>285</p>
+</td><td rowspan="1" colspan="1">
+<p>Kaempferol-3-2
+<sup>G</sup>-rhamnosylrutinoside
+</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>F4</p>
+</td><td rowspan="1" colspan="1">
+<p>8.723</p>
+</td><td rowspan="1" colspan="1">
+<p>204, 256, 354</p>
+</td><td rowspan="1" colspan="1">
+<p>4.41%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>609</p>
+</td><td rowspan="1" colspan="1">
+<p>301</p>
+</td><td rowspan="1" colspan="1">
+<p>Quercetin-3-rutinoside</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>F5</p>
+</td><td rowspan="1" colspan="1">
+<p>9.207</p>
+</td><td rowspan="1" colspan="1">
+<p>198, 264, 348</p>
+</td><td rowspan="1" colspan="1">
+<p>47.13%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>593</p>
+</td><td rowspan="1" colspan="1">
+<p>285</p>
+</td><td rowspan="1" colspan="1">
+<p>Kaempferol-3-neohesperidoside</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>F6</p>
+</td><td rowspan="1" colspan="1">
+<p>9.540</p>
+</td><td rowspan="1" colspan="1">
+<p>204, 256, 354</p>
+</td><td rowspan="1" colspan="1">
+<p>4.03%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>741</p>
+</td><td rowspan="1" colspan="1">
+<p>301</p>
+</td><td rowspan="1" colspan="1">
+<p>Quercetin derivative</p>
+</td></tr><tr><td rowspan="1" colspan="1">
+<p>F7</p>
+</td><td rowspan="1" colspan="1">
+<p>12.237</p>
+</td><td rowspan="1" colspan="1">
+<p>226, 266, 346</p>
+</td><td rowspan="1" colspan="1">
+<p>4.59%</p>
+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<p>635</p>
+</td><td rowspan="1" colspan="1">
+<p>285</p>
+</td><td rowspan="1" colspan="1">
+<p>Kaempferol derivative</p>
+</td></tr></tbody></table><table-wrap-foot><fn><p>
+<sup>a</sup>The detection wavelengths for anthocyanins and flavonoids were 525&#x02005;nm and 360&#x02005;nm, respectively.
+</p></fn><fn><p>
+<sup>b</sup>The MS scan conditions for anthocyanins and flavonoids were positive and negative, respectively.
+</p></fn></table-wrap-foot></table-wrap>
+</p></sec><sec><title id="SEC2.3">First-dimensional UPLC-DAD analysis</title><p>UPLC analysis of
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flower anthocyanins and flavonoids was performed on an Agilent HPLC series 1290 system (Agilent Technologies Co., Ltd., Santa Clara, USA) consisting of a quaternary gradient pump, a thermostatic column compartment, an autosampler, a diode array detector and a ZORBAX Eclipse Plus C18 (4.6&#x02005;mm&#x000d7;150&#x02005;mm, 3.5&#x02005;&#x003bc;m) analytical column. The mobile phase consisted of acetonitrile (A) and an acidic aqueous solution (0.1% trifluoroacetic acid, v/v) (B). The gradient elution program was as follows: 0&#x02013;10&#x02005;min, 88%&#x02013;82% B; 10&#x02013;20&#x02005;min, 82%&#x02013;78% B; and 20&#x02013;22&#x02005;min, 78%&#x02013;0% B. The injection volume was 5&#x02005;&#x003bc;L, the flow rate was 1.5&#x02005;mL/min, the detection wavelengths were 360&#x02005;nm and 525&#x02005;nm, and the column temperature was 35&#x000b0;C.
+</p></sec><sec><title id="SEC2.4">Second-dimensional UPLC&#x02013;MS analysis</title><p>UPLC&#x02013;MS analysis of
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flower anthocyanins and flavonoids was performed with an Agilent 1290 UPLC system equipped with an Agilent ZORBAX Eclipse Plus C18 column (100&#x02005;mm&#x000d7;4.5&#x02005;mm, 3.5&#x02005;mm particle size) and an Agilent 6460C triple quadrupole mass spectrometer with an AJS electrospray ionization source (Agilent Technologies). The mobile phases were acetonitrile and formic acid aqueous solution (1%, v/v) at a 10:90 (v/v) ratio, the flow rate was 0.5&#x02005;mL/min, and the injection volume was 20&#x02005;&#x003bc;L. The MS conditions used were as follows: positive mode for anthocyanins and negative mode for flavonoids; sheath gas temperature, 350&#x000b0;C; sheath gas flow rate, 12.0&#x02005;L/min; capillary voltage, 3500&#x02005;V; nebulizer pressure, 45 psi; scan range, 100&#x02013;2000&#x02005;m/z; drying gas temperature, 300&#x000b0;C; and flow rate, 6.0&#x02005;L/min.
+</p></sec><sec><title id="SEC2.5">Cell culture</title><p>The human bladder cancer cell lines T24, UM-UC-3 and J82 were purchased from CellCook (Guangzhou, China). T24 cells were cultured in RPIM 1640 medium containing 10% (v/v) fetal bovine serum (CellCook), UM-UC-3 and J82 cells were cultured in MEM containing 10% (v/v) fetal bovine serum (CellCook), and all three cell lines were incubated at 37&#x000b0;C in a 5% CO
+<sub>2</sub> atmosphere.
+</p></sec><sec><title id="SEC2.6">Anti-proliferative assay</title><p>Bladder cancer cells were seeded in 96-well plates (5&#x000d7;10
+<sup>3</sup> cells/well) and cultured for 24&#x02005;h, and the cells were treated with DDH for 48&#x02005;h. An MTT assay was used to determine cell viability according to previously described methods
+<xref rid="REF16" ref-type="bibr">[16]</xref>. Briefly, bladder cancer cells were incubated with MTT solution (20&#x02005;&#x003bc;L; 5&#x02005;mg/mL; Solarbio, Beijing, China) for 2&#x02005;h at 37&#x000b0;C, and 100&#x02005;&#x003bc;L of DMSO was added to each well. After mixing thoroughly, the absorbance was measured at 570&#x02005;nm. In addition, the morphology of DDH-treated (12&#x02005;h) bladder cancer cells was analyzed, and a colony formation assay was performed according to previously described methods
+<xref rid="REF16" ref-type="bibr">[16]</xref>. Briefly, bladder cancer cells were seeded evenly in 6-well plates (1000 cells/well) and cultured for 24&#x02005;h and then treated with medium containing DDH for 12 days. The colonies were fixed with 4% paraformaldehyde and stained with Giemsa stain for later analysis.
+</p></sec><sec><title id="SEC2.7">Human bladder cancer xenograft models</title><p>Wild-type AB strain zebrafish embryos were purchased from Hunter Biotech (Hangzhou, China). T24 cells labeled with CM-DiI red fluorescence (200 cells/tail) were transplanted into the yolk sac of wild-type AB strain zebrafish (2 days after insemination) to establish a bladder cancer xenograft zebrafish model, and 30 tails/well were randomly assigned to 6-well plates. These zebrafish were treated with DDH (15&#x02005;&#x003bc;g/mL and 60&#x02005;&#x003bc;g/mL), CDDP (15&#x02005;&#x003bc;g/mL), or DDH (15&#x02005;&#x003bc;g/mL)&#x02005;+&#x02005;CDDP (15&#x02005;&#x003bc;g/mL) at 35&#x000b0;C for 2 days, and the red fluorescence intensity was calculated to determine the anti-bladder cancer effect of DDH in the zebrafish xenograft model.</p><p>BALB/c nu/nu male mice were purchased from the Animal Research and Resource Center at Yunnan University (Kunming, China), and a bladder cancer xenograft nude mouse model was established as previously described
+<xref rid="REF17" ref-type="bibr">[17]</xref>. Nude mice bearing T24 xenografts were gavaged with vehicle, DDH (200&#x02005;mg/kg), GAD (50&#x02005;mg/kg), or DDH (200&#x02005;mg/kg)&#x02005;+&#x02005;GAD (50&#x02005;mg/kg) once a day. At the end of the study, the tumors, livers and kidneys were harvested from the sacrificed mice (carbon dioxide narcosis) for subsequent assays.
+</p><p>All animal experiments were performed according to the Animal Ethics Procedures and approved by the Yunnan University Laboratory Animal Welfare Ethics Committee (ethics approval/permit number: YNU20230667).</p></sec><sec><title id="SEC2.8">Western blot analysis</title><p>Bladder cancer cells (T24, UM-UC-3 and J82) were seeded in 6-well plates (2&#x02005;&#x000d7;&#x02005;10
+<sup>5</sup> cells/well) and cultured for 24&#x02005;h, and the cells were treated with DDH for 12&#x02005;h. Western blot analysis was performed according to previously published protocols
+<xref rid="REF16" ref-type="bibr">[16]</xref>. Briefly, the cells were lysed in RIPA buffer, and the lysates were centrifuged at 12,000&#x02005;
+<italic toggle="yes">g</italic> for 30&#x02005;min at 4&#x000b0;C. The cell lysates were boiled at 95&#x000b0;C for 10&#x02005;min after being mixed with sample buffer. The mixture was resolved by SDS-PAGE and transferred to a PVDF membrane. The membrane was incubated with primary and secondary antibodies and detected via an enhanced chemiluminescence detection kit (Thermo Fisher Scientific, Waltham, USA).
+</p></sec><sec><title id="SEC2.9">RNA-seq analysis</title><p>T24 cells were seeded in culture dishes (10&#x02005;cm in diameter; 8&#x02005;&#x000d7;&#x02005;10
+<sup>6</sup> cells/dish) and cultured for 24&#x02005;h, and then treated with DDH (200&#x02005;mg/mL) for 12&#x02005;h. The cells were washed with PBS (4&#x000b0;C) 3 times and collected via centrifugation (100&#x02005;
+<italic toggle="yes">g</italic>). The RNA-seq analysis was performed by PANOMIX Biomedical Tech Co., Ltd. (Suzhou, China). The DEGs between the DDH group and the control group were compared via DESeq software (|log2fold change|&#x02005;&#x0003e;&#x02005;1,
+<italic toggle="yes">P</italic> &#x02005;&#x0003c;&#x02005;0.05), and the Kyoto Encyclopedia of Genes and Genomes (KEGG) database and KAAS software (Bi-directional Best Hit) were used for KEGG pathway analysis.
+</p></sec><sec><title id="SEC2.10">Fatty acid analysis</title><p>Cellular free fatty acids were measured using an Amplex Red Free Fatty Acid Test Kit (Beyotime Biotechnology, Shanghai, China) following the manufacturer&#x02019;s protocol. Briefly, bladder cancer cells in 6-well plates were treated with DDH for 12&#x02005;h and recovered via isopropanol (4&#x000b0;C). The samples were mixed with working solution provided by the manufacturer and incubated for 30&#x02005;min at 37&#x000b0;C (in the dark). After mixing thoroughly, the absorbance was measured at 570&#x02005;nm.</p></sec><sec><title id="SEC2.11">Thermal stability assay</title><p>The thermal stabilities of TA and TF were determined according to previously described methods
+<xref rid="REF18" ref-type="bibr">[18]</xref>. Briefly, DDH (0.4&#x02005;mg/mL) and GAD (0.2, 0.4 and 0.8&#x02005;mg/mL) were dissolved in 100&#x02005;mL of the Mizone beverage. The model beverages were heated in a water bath at 90&#x000b0;C and analyzed every 30&#x02005;min. The degradation of TA and TF in the model beverages was evaluated via a first-order model
+<xref rid="REF18" ref-type="bibr">[18]</xref>.
+</p></sec><sec><title id="SEC2.12">Statistical analysis</title><p>Response surface experiments were designed and analyzed via Design Expert 13 software. Statistical analyses were performed via Prism 8.3.0 (GraphPad Software, La Jolla, USA). One-way analysis of variance and Tukey&#x02019;s multiple comparison test were used to determine the statistical significance.&#x02005;
+<italic toggle="yes">P</italic> &#x02005;&#x0003c;&#x02005;0.05 was considered statistically significant.
+</p></sec></sec><sec><title id="SEC3">Results</title><sec><title id="SEC3.1">Quantitative and qualitative analysis of anthocyanins and flavonoids from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers
+</title><p>A UPLC&#x02013;DAD method was developed to analyze anthocyanins and flavonoids from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flower (
+<xref rid="FIG1" ref-type="fig">Figure 1</xref>A,B). The linear calibration curves for TA and TF were determined via cyanidin-3-glucoside and quercetin-3-rutinoside standard solutions, respectively. Method validation was performed according to a previous study
+<xref rid="REF19" ref-type="bibr">[19]</xref>, and a detailed description is provided in the
+<uri xlink:href="https://www.sciengine.com/doi/10.3724/abbs.2024192">Supplementary Material</uri>. The results indicate that the method is both valid and efficient for analyzing anthocyanins and flavonoids from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers.
+<fig position="float" id="FIG1" orientation="landscape"><caption><title>
+<xref rid="FIG1" ref-type="fig">Figure 1</xref>
+</title><p>Two-dimensional UPLC-DAD-MS/MS analysis of anthocyanins and flavonoids from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers
+</p><p>(A) First-dimensional UPLC-DAD chromatograms of C. ternatea flower anthocyanins (A1&#x02013;A11) and the cyanidin-3-glucoside standard. (B) First-dimensional UPLC-DAD chromatograms of C. ternatea flower flavonoids (F1&#x02013;F7) and the quercetin-3-rutinoside standard. (C) Second-dimensional UPLC-MS analysis of anthocyanins (A1&#x02013;A11) and flavonoids (F1&#x02013;F7) from C. ternatea flowers.</p></caption><graphic xlink:href="t1" position="float"/></fig>
+</p><p>We identified 11 anthocyanins and 7 flavonoids (percentage area&#x02005;&#x0003e;&#x02005;1% in the first-dimensional UPLC-DAD chromatogram) from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers via a second-dimensional method (
+<xref rid="FIG1" ref-type="fig">Figure 1</xref>C and
+<xref rid="TBL1" ref-type="table">Table 1</xref>). The anthocyanins found in
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers are delphinidin derivatives (MS/MS =&#x02005;303&#x02005;m/z) (
+<xref rid="TBL1" ref-type="table">Table 1</xref>). Four main peaks (A7, 14.93%; A8, 17.86%; A9, 10.51%; A10, 16.99%) were identified as Ternatin B2 (MS
+<sup>+</sup> &#x02005;=&#x02005;1638&#x02005;m/z; MS/MS =&#x02005;303&#x02005;m/z), Ternatin B1 (MS
+<sup>+</sup> &#x02005;=&#x02005;1945&#x02005;m/z; MS/MS =&#x02005;303&#x02005;m/z), Ternatin D2 (MS
+<sup>+</sup> &#x02005;=&#x02005;1475&#x02005;m/z; MS/MS =&#x02005;303&#x02005;m/z), and Ternatin D1 (MS
+<sup>+</sup> &#x02005;=1783&#x02005;m/z; MS/MS =&#x02005;303&#x02005;m/z) [
+<xref rid="REF11" ref-type="bibr">11</xref>,
+<xref rid="REF12" ref-type="bibr">12</xref>,
+<xref rid="REF20" ref-type="bibr">20</xref>] . Peak A4 (MS
+<sup>+</sup> &#x02005;=1799&#x02005;m/z; MS/MS =&#x02005;303&#x02005;m/z) was identified as Ternatin A2
+<xref rid="REF21" ref-type="bibr">[21]</xref>. Peak A6 (MS
+<sup>+</sup> &#x02005;=1638&#x02005;m/z; MS/MS =&#x02005;303&#x02005;m/z) exhibited a fragmentation pattern similar to that of anthocyanin A7, with a lower content and retention time than those of anthocyanin A7. Therefore, on the basis of previous reports, anthocyanin A6 was identified as Ternatin B3 [
+<xref rid="REF21" ref-type="bibr">21</xref>,
+<xref rid="REF22" ref-type="bibr">22</xref>] . As natural anthocyanin compounds often have structural diversity, isomers are common. Ternatin C1 and Ternatin B4 had similar fragmentation patterns (MS
+<sup>+</sup> &#x02005;=&#x02005;1799&#x02005;m/z; MS/MS =&#x02005;303&#x02005;m/z); however, the retention time and maximum absorption of Ternatin C1 were lower than those of Ternatin B4
+<xref rid="REF13" ref-type="bibr">[13]</xref>. Thus, peaks A3 and A5 were tentatively identified as Ternatin C1 and Ternatin B4, respectively. Additionally, peak A2 was identified as Ternatin A3
+<xref rid="REF13" ref-type="bibr">[13]</xref>. Anthocyanins A1 and A11, delphinidin derivatives (MS/MS =303&#x02005;m/z), have not been previously reported, and their complete structures can be elucidated via nuclear magnetic resonance spectroscopy.
+</p><p>The primary flavonoid in
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flower is kaempferol-3-neohesperidoside
+<xref rid="REF23" ref-type="bibr">[23]</xref>. Peak F5 exhibited a similar fragmentation pattern to that of kaempferol-3-neohesperidoside (MS
+<sup>+</sup> &#x02005;=&#x02005;593&#x02005;m/z; MS/MS =&#x02005;285&#x02005;m/z), as depicted in
+<xref rid="TBL1" ref-type="table">Table 1</xref>, and the main flavonoid peak was confirmed to be kaempferol-3-neohesperidoside
+<xref rid="REF13" ref-type="bibr">[13]</xref>. The peak F3 content was second only to kaempferol-3-neohesperidoside (peak F5) and was identified as kaempferol-
+<italic toggle="yes">O</italic>-rhamnosylrutinoside (MS
+<sup>+</sup> &#x02005;=739&#x02005;m/z; MS/MS =&#x02005;285&#x02005;m/z), which is consistent with a previous report
+<xref rid="REF22" ref-type="bibr">[22]</xref>. Peaks F2 and F4 exhibited similar mass spectrometry signals (MS
+<sup>+</sup> &#x02005;=&#x02005;609&#x02005;m/z; MS/MS =&#x02005;301&#x02005;m/z), with Peak F4 sharing a similar fragmentation pattern and retention time to the quercetin-3-rutinoside standard (
+<xref rid="TBL1" ref-type="table">Table 1</xref> and
+<xref rid="FIG1" ref-type="fig">Figure 1</xref>B). Thus, peaks F2 and F4 were identified as quercetin-3-rutinoside and quercetin-3-neohesperidoside, respectively [
+<xref rid="REF13" ref-type="bibr">13</xref>,
+<xref rid="REF23" ref-type="bibr">23</xref>] . Peaks F6 and F7 have not been previously reported and were provisionally identified as quercetin and kaempferol derivatives, respectively. Furthermore, peak F1 (MS
+<sup>+</sup> &#x02005;=&#x02005;755&#x02005;m/z; MS/MS =&#x02005;301&#x02005;m/z) was confirmed to be quercetin-3-2
+<sup>G</sup>-rhamnosylrutinoside [
+<xref rid="REF12" ref-type="bibr">12</xref>,
+<xref rid="REF13" ref-type="bibr">13</xref>] .
+</p></sec><sec><title id="SEC3.2">Extraction and separation of anthocyanins and flavonoids from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers
+</title><p>The extraction parameters for TA and TF from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers were optimized via response surface methodology (
+Tables S1 S2 Supplementary and
+), and a detailed description is provided in the Supplementary Material. Both models were found to be significant (
+<italic toggle="yes">P</italic> &#x02005;&#x0003c;&#x02005;0.05), and the lack of fit of each response was insignificant (
+<italic toggle="yes">P</italic> &#x02005;&#x0003e;&#x02005;0.05) (Supplementary Table S2). Furthermore, the coefficients of determination (
+<italic toggle="yes">R</italic>
+<sup>2</sup>) for both models were 86.8% and 89.2%, respectively (
+<xref rid="FIG2" ref-type="fig">Figure 2</xref>A). These results suggest an excellent fit between the experimental and predicted values, indicating that the two mathematical models are statistically acceptable and adequate for predicting the extraction of TA and TF from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers (
+<xref rid="FIG2" ref-type="fig">Figure 2</xref>B). Given the complex effects of various extraction parameters on the extraction yield of TA and TF (
+<xref rid="FIG2" ref-type="fig">Figure 2</xref>C,D), simultaneous optimization was performed via Design-Expert 13 software to maximize their yield from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers. The optimum extraction conditions for TA and TF were identified as an extraction time of 33&#x02005;min, an ethanol concentration of 45%, and an extraction temperature of 65&#x000b0;C, resulting in maximum yields of TA (3.89&#x02005;mg/g) and TF (20.38&#x02005;mg/g).
+<fig position="float" id="FIG2" orientation="landscape"><caption><title>
+<xref rid="FIG2" ref-type="fig">Figure 2</xref>
+</title><p>Preparation of DDH from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers
+</p><p>(A) Coefficients of determination (R 2) between predicted and actual values of TA or TF. (B) Mathematical models for predicting extraction conditions of TA and TF from C.ternatea flowers. (C) Response surface plots showing the combined effect of extraction temperature, extraction time and ethanol concentration on extraction yield of TA from C.ternatea flowers. (D) Response surface plots showing the combined effect of extraction temperature, extraction time and ethanol concentration on extraction yield of TF from C.ternatea flowers. (E) Adsorption ratio, desorption ratio and recovery ratio of studied macroporous resins. n&#x02005;=&#x02005;3, **P&#x02005;&#x0003c;&#x02005;0.01, ***P&#x02005;&#x0003c;&#x02005;0.001, ****P&#x02005;&#x0003c;&#x02005;0.0001, and ns means not significant compared with LX-32 resin. (F) Dynamic breakthrough curves and desorption curves of TA and TF in a resin column of LS-305, and the purity of TA and TF in crude extract or purified sample (DDH).</p></caption><graphic xlink:href="t2" position="float"/></fig>
+</p><p>Seven different microporous resins (LX-32, LS-305, XDA-7, X-5, LX-68, XDA-6, and AB-8) were evaluated for their ability to separate TA and TF from the crude extract of
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers. Our results showed that LX-32 and LS-305 demonstrated higher TF adsorption rates than the other resins. However, the adsorption capacity of LS-305 for TA was significantly greater than that of LX-32 (
+<italic toggle="yes">P&#x02005;</italic>&#x0003c;&#x02005;0.05;
+<xref rid="FIG2" ref-type="fig">Figure 2</xref>E). Both LS-305 and LX-32 exhibited similar desorption rates for TA and TF (
+<italic toggle="yes">P</italic> &#x02005;&#x0003e;&#x02005;0.05). There was no significant difference (
+<italic toggle="yes">P</italic> &#x02005;&#x0003e;&#x02005;0.05) in the recovery rate of TF between the two resins (
+<xref rid="FIG2" ref-type="fig">Figure 2</xref>E). In conclusion, LS-305 proved to be an effective microporous resin for the separation of TA and TF from the crude extract of
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers.
+</p><p>The dynamic leakage curve was crucial for determining the maximum feed volume of the LS-305 resin (
+<xref rid="FIG2" ref-type="fig">Figure 2</xref>F), and a detailed description is provided in the Supplementary Material. The crude extract of
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers contained 4.57&#x02005;mg/g TA and 23.04&#x02005;mg/g TF. Following purification with LS305 resin (
+<xref rid="FIG2" ref-type="fig">Figure 2</xref>F), the contents of TA and TF increased to 15.635 and 82.82&#x02005;mg/g, respectively, representing a greater than 3-fold increase. The purified anthocyanin- and flavonoid-rich DDH derived from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers was used for antitumor experiments after lyophilization.
+</p></sec><sec><title id="SEC3.3">Antiproliferative effects of DDH on human bladder cancer cells</title><p>The anticancer properties of DDH were assessed in a panel of human bladder cancer cells. DDH reduced the viability of T24, UM-UC-3, and J82 cells in a dose-dependent manner, with IC
+<sub>50</sub> values of 34.40, 41.44, and 52.72&#x02005;&#x003bc;g/mL, respectively (
+<xref rid="FIG3" ref-type="fig">Figure 3</xref>A). Additionally, DDH affected the morphology of bladder cancer cells, leading to shrinkage, loose intercellular contact, and blurred cell contours (
+<xref rid="FIG3" ref-type="fig">Figure 3</xref>B). Moreover, DDH reduced the colony formation of T24, UM-UC-3, and J82 cells, indicating the inhibition of long-term proliferation of bladder cancer cells (
+<xref rid="FIG3" ref-type="fig">Figure 3</xref>C). Furthermore, DDH dose-dependently increased the cytotoxicity of CDDP, a first-line therapeutic for bladder cancer, to T24, UM-UC-3, and J82 cells (
+<xref rid="FIG3" ref-type="fig">Figure 3</xref>D).
+<fig position="float" id="FIG3" orientation="landscape"><caption><title>
+<xref rid="FIG3" ref-type="fig">Figure 3</xref>
+</title><p>DDH inhibits the proliferation of human bladder cancer cells</p><p>(A) DDH decreased the viability of T24, UM-UC-3 and J82 cells. (B) DDH affected the morphology of T24, UM-UC-3 and J82 cells. (C) DDH decreased the colony formation of T24, UM-UC-3 and J82 cells. (D) DDH enhanced the cytotoxicity of CDDP against T24, UM-UC-3 and J82 cells. (E) DDH affected the survival rate of zebrafish after 2 days of treatment. (F,G) DDH inhibited bladder cancer cell growth and strengthened CDDP-induced growth suppression in a zebrafish model bearing T24 cells. n&#x02005;=&#x02005;3, *P&#x02005;&#x0003c;&#x02005;0.05, **P&#x02005;&#x0003c;&#x02005;0.01, and ***P&#x02005;&#x0003c;&#x02005;0.001 compared with the control group.</p></caption><graphic xlink:href="t3" position="float"/></fig>
+</p><p>The therapeutic potential of DDH against bladder cancer was further investigated in a xenograft zebrafish model bearing T24 cells labeled with a red fluorescent dye. The therapeutic dosages of DDH were first screened for tolerability and toxicity in zebrafish after a 2-day treatment; the dosages that did not affect the survival rate of zebrafish were selected for further
+<italic toggle="yes">in vivo</italic> experiments (
+<xref rid="FIG3" ref-type="fig">Figure 3</xref>E). DDH reduced the fluorescence density in a dose-dependent manner, indicating a promising anti-bladder cancer effect in the zebrafish model (
+<xref rid="FIG3" ref-type="fig">Figure 3</xref>F,G). Compared with CDDP or DDH alone, CDDP (15&#x02005;&#x003bc;g/mL) inhibited tumor growth, and combined treatment with DDH (15&#x02005;&#x003bc;g/mL) and CDDP (15&#x02005;&#x003bc;g/mL) had a more potent antitumor effect (
+<xref rid="FIG3" ref-type="fig">Figure 3</xref>F,G). In conclusion, DDH possessed antiproliferative properties and enhanced the antitumor effect of CDDP against bladder cancer.
+</p></sec><sec><title id="SEC3.4">DDH inhibits SREBP1-mediated lipogenesis in bladder cancer cells</title><p>To understand the underlying mechanism of action of DDH in bladder cancer cells, RNA-seq analysis was performed (
+<xref rid="FIG4" ref-type="fig">Figure 4</xref>A). Our analysis revealed a total of 1896 differentially expressed genes (DEGs), with 980 genes being downregulated and 916 upregulated when DDH-treated cells were compared with control cells (
+<italic toggle="yes">P</italic> &#x02005;&#x0003c;&#x02005;0.05;
+<xref rid="FIG4" ref-type="fig">Figure 4</xref>A). Kyoto Encyclopedia of Genes and Genomes analysis indicated that DDH might have the ability to regulate lipid metabolism in bladder cancer cells, particularly by impacting processes such as the biosynthesis of unsaturated fatty acids, fatty acid biosynthesis, fatty acid degradation, sphingolipid metabolism, and glycosphingolipid biosynthesis-ganglio series (
+<xref rid="FIG4" ref-type="fig">Figure 4</xref>A).
+<fig position="float" id="FIG4" orientation="landscape"><caption><title>
+<xref rid="FIG4" ref-type="fig">Figure 4</xref>
+</title><p>DDH inhibits SREBP1-mediated lipogenesis in bladder cancer cells</p><p>(A) RNA-seq and KEGG analyses revealed that DDH could regulate lipid metabolism in bladder cancer cells. (B) The levels of SREBP1, SCD1, FASN, and ACC in normal tissues and bladder cancer tissues and the effects of these lipogenic genes on the overall survival rate. (C) DDH decreased the expressions of SREBP1, ACC, FASN, and SCD1 in bladder cancer cells. n&#x02005;=&#x02005;3, *P&#x02005;&#x0003c;&#x02005;0.05, **P&#x02005;&#x0003c;&#x02005;0.01, ***P&#x02005;&#x0003c;&#x02005;0.001, and ****P&#x02005;&#x0003c;&#x02005;0.0001 compared with the control group. (D) DDH decreased the fatty acid level in bladder cancer cells. n&#x02005;=&#x02005;3, *P&#x02005;&#x0003c;&#x02005;0.05, **P&#x02005;&#x0003c;&#x02005;0.01, and ***P&#x02005;&#x0003c;&#x02005;0.001 compared with the control group. (E) Fatty acid OA and POA significantly attenuated DDH-induced cell death. n&#x02005;=&#x02005;3, *P&#x02005;&#x0003c;&#x02005;0.05, and **P&#x02005;&#x0003c;&#x02005;0.01.</p></caption><graphic xlink:href="t4" position="float"/></fig>
+</p><p>SREBP1, as a master transcriptional regulator of lipogenesis, promotes the transcription of target genes, including those encoding crucial enzymes involved in lipogenesis, such as FASN, SCD1, and ACC
+<xref rid="REF24" ref-type="bibr">[24]</xref>. Elevated expression or activation of these lipogenic genes has been observed in various cancer types and is closely associated with the proliferation and survival of tumor cells
+<xref rid="REF4" ref-type="bibr">[4]</xref>. Analysis of SREBP1, FASN, ACC, and SCD1 in bladder cancer via the GEPIA database (
+<uri xlink:href="http://gepia.cancer-pku.cn/index.html">http://gepia.cancer-pku.cn/index.html</uri>) revealed higher levels of SREBP1 pathway-related genes, particularly
+<italic toggle="yes">SCD1</italic> and
+<italic toggle="yes">FASN</italic>, in bladder cancer tissues than in normal tissues (
+<italic toggle="yes">P</italic> &#x02005;&#x0003c;&#x02005;0.05;
+<xref rid="FIG4" ref-type="fig">Figure 4</xref>B). Moreover, patients with lower levels of SREBP1, SCD1, FASN, or ACC presented a significantly greater overall survival rate than those with higher levels of these genes (
+<italic toggle="yes">P</italic> &#x02005;&#x0003c;&#x02005;0.05). These findings suggest that targeting SREBP1-mediated lipogenesis is a promising therapeutic strategy for bladder cancer.
+</p><p>Our investigation also revealed that DDH dose-dependently inhibited SREBP1, FASN, ACC, and SCD1 expression while decreasing fatty acid levels in T24, Um-Uc-3, and J82 cells (
+<xref rid="FIG4" ref-type="fig">Figure 4</xref>C,D). To investigate the role of lipogenesis inhibition in the antiproliferative activity of DDH, we supplemented the experiments with the fatty acids oleic acid (OA) and palmitoleic acid (POA). The results showed that OA and POA significantly attenuated DDH-induced cell death, indicating that DDH suppressed bladder cancer cell proliferation by suppressing SREBP1-mediated fatty acid synthesis (
+<xref rid="FIG4" ref-type="fig">Figure 4</xref>E).
+</p></sec><sec><title id="SEC3.5">GAD improves DDH stability and antiproliferative activity</title><p>Anthocyanins and flavonoids are at risk of degradation during processing and storage, and improving their stability is beneficial for the quality and functional properties of DDH. In a previous study, GAD, a phenolic acid (
+<xref rid="FIG5" ref-type="fig">Figure 5</xref>A), was identified as a potential stability enhancer with additional pharmacological activities, such as anti-inflammatory, hepatoprotective, and anticancer effects [
+<xref rid="REF18" ref-type="bibr">18</xref>,
+<xref rid="REF25" ref-type="bibr">25</xref>,
+<xref rid="REF26" ref-type="bibr">26</xref>] . We examined whether GAD could improve the stability of anthocyanins and flavonoids in DDH and enhance their anti-bladder cancer effects
+<italic toggle="yes">in vitro</italic> and
+<italic toggle="yes">in vivo</italic>. The thermal degradation of TA and TF followed a first-order model in the presence or absence of GAD (
+<italic toggle="yes">R</italic>
+<sup>2</sup> &#x02005;&#x0003e;&#x02005;0.9476;
+<xref rid="FIG5" ref-type="fig">Figure 5</xref>B). GAD led to a dose-dependent increase in the
+<italic toggle="yes">t</italic>
+<sub>1/2</sub> of TA and TF in model solutions, and higher GAD concentrations (100&#x02005;mg/100&#x02005;mL) more efficiently stabilized TA and TF, with 16.67% and 15.22% increases in their
+<italic toggle="yes">t</italic>
+<sub>1/2</sub>, respectively (
+<xref rid="FIG5" ref-type="fig">Figure 5</xref>B). GAD suppressed bladder cancer cell growth in a dose-dependent manner and potentiated the cytotoxic effects of DDH in T24, UM-UC-3, and J82 cells (
+<xref rid="FIG5" ref-type="fig">Figure 5</xref>C,D). Mechanistic studies also revealed that GAD reinforced the inhibitory effect of DDH on the SREBP1 pathway (SREBP1, SCD1, FASN, and ACC expression) in bladder cancer cells (
+<xref rid="FIG5" ref-type="fig">Figure 5</xref>E).
+<fig position="float" id="FIG5" orientation="landscape"><caption><title>
+<xref rid="FIG5" ref-type="fig">Figure 5</xref>
+</title><p>GAD improves DDH stability and antiproliferative activity against bladder cancer</p><p>(A) The structure of GAD. (B) Degradation kinetics of anthocyanins and flavonoids in DDH with or without GAD. (C) GAD decreased the viability of bladder cancer cells. (D) GAD potentiated the cytotoxic effects of DDH in bladder cancer cells. (E) GAD reinforced the inhibitory effect of DDH on the expressions of SREBP1, ACC, FASN, and SCD1 in bladder cancer cells. (F) DDH and GAD alone or in combination reduced the volume and weight of T24 tumor xenografts, n&#x02005;=&#x02005;5, ***P&#x02005;&#x0003c;&#x02005;0.001 and ****P&#x02005;&#x0003c;&#x02005;0.0001 compared with the control group. (G) DDH and GAD alone or in combination had no significant effects on the body weight of mice. (H,I) Representative photographs of the liver and kidney in DDH and GAD alone or in combination-treated mice and the relative liver and kidney weights in mice, n&#x02005;=&#x02005;5, ns means not significant compared with the control group.</p></caption><graphic xlink:href="t5" position="float"/></fig>
+</p><p>
+<italic toggle="yes">In vivo</italic> experiments indicated that GAD strengthened the DDH-induced growth suppression of tumor xenografts (
+<xref rid="FIG5" ref-type="fig">Figure 5</xref>F). Moreover, we used the coefficient of drug interaction (CDI) to calculate the synergy of the cotreatment
+<xref rid="REF27" ref-type="bibr">[27]</xref>. The CDI between DDH and GAD was 0.21, indicating a significant synergistic effect (CDI&#x02005;&#x0003c;&#x02005;0.7). Importantly, the administration of DDH or GAD alone or in combination did not significantly affect the body weight of the mice or the relative organ weights of the liver and kidney, indicating that DDH and GAD were well tolerated in mice alone or in combination (
+<xref rid="FIG5" ref-type="fig">Figure 5</xref>F&#x02013;I). These result suggest that cotreatment with DDH and GAD is a promising strategy for bladder cancer treatment.
+</p></sec></sec><sec><title id="SEC4">Discussion</title><p>Bladder cancer is an intractable malignant tumor that severely affects human health and quality of life. Thus, there is a need to develop safe and effective treatments for these patients. Phytochemicals have garnered increasing attention owing to their significant antitumor properties. Our research group has been dedicated to identifying potential anti-bladder cancer agents from medicinal plants in recent years [
+<xref rid="REF16" ref-type="bibr">16</xref>,
+<xref rid="REF17" ref-type="bibr">17</xref>,
+<xref rid="REF28" ref-type="bibr">28</xref>] . In this study, we investigated the anti-bladder cancer effect and underlying mechanism of DDH via
+<italic toggle="yes">in vitro</italic> and
+<italic toggle="yes">in vivo</italic> experiments.
+</p><p>Crude extracts of
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers have been used to treat arthritis, prevent methylglyoxal-induced glycation and oxidative damage, and reduce oxidative stress and inflammation in obese individuals [
+<xref rid="REF9" ref-type="bibr">9</xref>,
+<xref rid="REF10" ref-type="bibr">10</xref>] . The main pharmacological components in
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers are flavonoids and anthocyanins [
+<xref rid="REF11" ref-type="bibr">11</xref>,
+<xref rid="REF13" ref-type="bibr">13</xref>] ; however, efficient separation and analytical methods for these compounds are lacking. This study used macroporous resin to separate flavonoids and anthocyanins from
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers. We systematically optimized the separation conditions, resulting in a more than 3-fold increase in purity. We also developed an efficient and rapid two-dimensional UPLC-DAD-MS/MS method to determine the flavonoids and anthocyanins present in
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic>. The two-dimensional UPLC-DAD-MS/MS method revealed 11 anthocyanins and 7 flavonoids within 22&#x02005;min, and the method was validated to be accurate, stable, and reliable for simultaneous qualitative and quantitative analyses of the flavonoids and anthocyanins present in
+<italic toggle="yes">C</italic>.
+<italic toggle="yes">ternatea</italic> flowers.
+</p><p>The reprogramming of lipid metabolism is among the most prominent metabolic alterations in cancer, and increasing evidence suggests that lipid metabolism is typically increased at various stages of cancer development
+<xref rid="REF4" ref-type="bibr">[4]</xref>. SREBP1 signaling is a key regulator of
+<italic toggle="yes">de novo</italic> fatty acid synthesis. Our findings indicate a strong association between SREBP1 and its downstream genes (
+<italic toggle="yes">FASN</italic>,
+<italic toggle="yes">ACC</italic>, and
+<italic toggle="yes">SCD1</italic>) and bladder cancer development and prognosis (
+<xref rid="FIG4" ref-type="fig">Figure 4</xref>B). Previous studies have reported that inhibiting lipogenesis could effectively suppress bladder cancer cell proliferation and overcome chemoresistance by inhibiting SREBP1 and its downstream targets [
+<xref rid="REF5" ref-type="bibr">5</xref>&#x02013;
+<xref rid="REF7" ref-type="bibr">7</xref>,
+<xref rid="REF29" ref-type="bibr">29</xref>] . Therefore, targeting the SREBP1 pathway to inhibit lipogenesis has emerged as a promising strategy for treating bladder cancer. Our findings revealed that DDH inhibits bladder cancer cell growth
+<italic toggle="yes">in vitro</italic> and
+<italic toggle="yes">in vivo</italic>, and a transcriptomics study revealed that DDH can reduce fatty acid synthesis in bladder cancer cells. DDH dose-dependently downregulated SREBP1, FASN, ACC, and SCD1 expression, and fatty acid supplementation significantly attenuated DDH-induced cell death. These results indicate that DDH suppresses bladder cancer cell growth by inhibiting the SREBP1 pathway. To date, chemotherapeutic agents remain an important choice for cancer treatment, but the development of chemoresistance severely impacts treatment and prognosis. Previous studies have reported that targeting the SREBP1 pathway can effectively overcome CDDP resistance in various cancers, including bladder cancer, non-small-cell lung carcinoma, and oral squamous cell carcinoma [
+<xref rid="REF6" ref-type="bibr">6</xref>,
+<xref rid="REF30" ref-type="bibr">30</xref>,
+<xref rid="REF31" ref-type="bibr">31</xref>] . Our study demonstrated that DDH synergistically potentiates the anti-bladder cancer activity of CDDP
+<italic toggle="yes">in vitro</italic> and
+<italic toggle="yes">in vivo</italic>, suggesting that DDH could be an effective chemotherapy sensitizer in cancer. Furthermore, the phenolic acid compound GAD enhances the cytotoxic effects of DDH against bladder cancer cells by reinforcing the inhibitory effect of DDH on the SREBP1 pathway. Therefore, DDH, either alone or in combination with other chemotherapeutic agents, represents a potential treatment for bladder cancer.
+</p><p>In summary, DDH can inhibit the growth of bladder cancer by suppressing the SREBP1 pathway and lipogenesis. In addition, DDH has the potential as a chemosensitizer for bladder cancer therapy. Targeting the SREBP1 pathway could enhance bladder cancer treatment, and C.
+<italic toggle="yes">ternatea</italic> flower-derived anthocyanins and flavonoids may hold promise as valuable candidates for treating and preventing bladder cancer.
+</p></sec><sec sec-type="supplementary-material" id="sec1"><title>Supporting information</title><supplementary-material id="S1" position="float" content-type="local-data"><label>Supplementary_Data</label><media xlink:href="Supplementary_Data.pdf" id="d67e1794" position="anchor"/></supplementary-material></sec></body><back><ack content-type="acknowledgements"><p>We thank the members of Xu Tianrui&#x02019;s Lab for their technical assistance and discussion. We also extend our thanks to Ms. Dali Sang for her encouragement and companionship.</p></ack><notes notes-type="COI-statement"><title>COMPETING INTERESTS</title><p>The authors declare that they have no conflict of interest.</p></notes><ref-list><ref id="REF1"><label>1</label><element-citation publication-type="journal" id="CITATION1"><person-group person-group-type="author">
+<name><surname>Bray</surname><given-names>F</given-names></name>
+<name><surname>Laversanne</surname><given-names>M</given-names></name>
+<name><surname>Sung</surname><given-names>H</given-names></name>
+<name><surname>Ferlay</surname><given-names>J</given-names></name>
+<name><surname>Siegel</surname><given-names>RL</given-names></name>
+<name><surname>Soerjomataram</surname><given-names>I</given-names></name>
+<name><surname>Jemal</surname><given-names>A</given-names></name>
+</person-group><article-title>Global cancer statistics 2022: globocan estimates of incidence and mortality worldwide for 36 cancers in 185 countries</article-title><source>
+<uri xlink:href="https://doi.org/10.3322/caac.21834">CA Canc J Clin</uri>
+</source><year>2024</year><volume>74</volume><fpage>229</fpage><lpage>263</lpage><pub-id pub-id-type="doi">10.3322/caac.21834</pub-id></element-citation></ref><ref id="REF2"><label>2</label><element-citation publication-type="journal" id="CITATION2"><person-group person-group-type="author">
+<name><surname>Snaebjornsson</surname><given-names>MT</given-names></name>
+<name><surname>Janaki-Raman</surname><given-names>S</given-names></name>
+<name><surname>Schulze</surname><given-names>A</given-names></name>
+</person-group><article-title>Greasing the wheels of the cancer machine: the role of lipid metabolism in cancer</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.cmet.2019.11.010">Cell Metab</uri>
+</source><year>2020</year><volume>31</volume><fpage>62</fpage><lpage>76</lpage><pub-id pub-id-type="doi">10.1016/j.cmet.2019.11.010</pub-id><pub-id pub-id-type="pmid">31813823</pub-id>
+</element-citation></ref><ref id="REF3"><label>3</label><element-citation publication-type="journal" id="CITATION3"><person-group person-group-type="author">
+<name><surname>R&#x000f6;hrig</surname><given-names>F</given-names></name>
+<name><surname>Schulze</surname><given-names>A</given-names></name>
+</person-group><article-title>The multifaceted roles of fatty acid synthesis in cancer</article-title><source>
+<uri xlink:href="https://doi.org/10.1038/nrc.2016.89">Nat Rev Canc</uri>
+</source><year>2016</year><volume>16</volume><fpage>732</fpage><lpage>749</lpage><pub-id pub-id-type="doi">10.1038/nrc.2016.89</pub-id></element-citation></ref><ref id="REF4"><label>4</label><element-citation publication-type="journal" id="CITATION4"><person-group person-group-type="author">
+<name><surname>Martin-Perez</surname><given-names>M</given-names></name>
+<name><surname>Urdiroz-Urricelqui</surname><given-names>U</given-names></name>
+<name><surname>Bigas</surname><given-names>C</given-names></name>
+<name><surname>Benitah</surname><given-names>SA</given-names></name>
+</person-group><article-title>The role of lipids in cancer progression and metastasis</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.cmet.2022.09.023">Cell Metab</uri>
+</source><year>2022</year><volume>34</volume><fpage>1675</fpage><lpage>1699</lpage><pub-id pub-id-type="doi">10.1016/j.cmet.2022.09.023</pub-id><pub-id pub-id-type="pmid">36261043</pub-id>
+</element-citation></ref><ref id="REF5"><label>5</label><element-citation publication-type="journal" id="CITATION5"><person-group person-group-type="author">
+<name><surname>Sugino</surname><given-names>T</given-names></name>
+<name><surname>Baba</surname><given-names>K</given-names></name>
+<name><surname>Hoshi</surname><given-names>N</given-names></name>
+<name><surname>Aikawa</surname><given-names>K</given-names></name>
+<name><surname>Yamaguchi</surname><given-names>O</given-names></name>
+<name><surname>Suzuki</surname><given-names>T</given-names></name>
+</person-group><article-title>Overexpression of fatty acid synthase in human urinary bladder cancer and combined expression of the synthase and Ki-67 as a predictor of prognosis of cancer patients</article-title><source>
+<uri xlink:href="https://doi.org/10.1007/s00795-010-0517-0">Med Mol Morphol</uri>
+</source><year>2011</year><volume>44</volume><fpage>146</fpage><lpage>150</lpage><pub-id pub-id-type="doi">10.1007/s00795-010-0517-0</pub-id><pub-id pub-id-type="pmid">21922386</pub-id>
+</element-citation></ref><ref id="REF6"><label>6</label><element-citation publication-type="journal" id="CITATION6"><person-group person-group-type="author">
+<name><surname>Shahid</surname><given-names>M</given-names></name>
+<name><surname>Kim</surname><given-names>M</given-names></name>
+<name><surname>Jin</surname><given-names>P</given-names></name>
+<name><surname>Zhou</surname><given-names>B</given-names></name>
+<name><surname>Wang</surname><given-names>Y</given-names></name>
+<name><surname>Yang</surname><given-names>W</given-names></name>
+<name><surname>You</surname><given-names>S</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>
+<italic toggle="yes">S</italic>-Palmitoylation as a functional regulator of proteins associated with cisplatin resistance in bladder cancer
+</article-title><source>
+<uri xlink:href="https://doi.org/10.7150/ijbs.45640">Int J Biol Sci</uri>
+</source><year>2020</year><volume>16</volume><fpage>2490</fpage><lpage>2505</lpage><pub-id pub-id-type="doi">10.7150/ijbs.45640</pub-id><pub-id pub-id-type="pmid">32792852</pub-id>
+</element-citation></ref><ref id="REF7"><label>7</label><element-citation publication-type="journal" id="CITATION7"><person-group person-group-type="author">
+<name><surname>Du</surname><given-names>X</given-names></name>
+<name><surname>Wang</surname><given-names>Q</given-names></name>
+<name><surname>Chan</surname><given-names>E</given-names></name>
+<name><surname>Merchant</surname><given-names>M</given-names></name>
+<name><surname>Liu</surname><given-names>J</given-names></name>
+<name><surname>French</surname><given-names>D</given-names></name>
+<name><surname>Ashkenazi</surname><given-names>A</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>FGFR3 stimulates stearoyl CoA desaturase 1 activity to promote bladder tumor growth</article-title><source>
+<uri xlink:href="https://doi.org/10.1158/0008-5472.CAN-12-1329">Canc Res</uri>
+</source><year>2012</year><volume>72</volume><fpage>5843</fpage><lpage>5855</lpage><pub-id pub-id-type="doi">10.1158/0008-5472.CAN-12-1329</pub-id></element-citation></ref><ref id="REF8"><label>8</label><element-citation publication-type="journal" id="CITATION8"><person-group person-group-type="author">
+<name><surname>Adhikary</surname><given-names>R</given-names></name>
+<name><surname>Sultana</surname><given-names>S</given-names></name>
+<name><surname>Bishayi</surname><given-names>B</given-names></name>
+</person-group><article-title>
+<italic toggle="yes">Clitoria ternatea</italic> flower petals: effect on TNFR1 neutralization via downregulation of synovial matrix metalloproteases
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.jep.2017.08.017">J EthnoPharmacol</uri>
+</source><year>2018</year><volume>210</volume><fpage>209</fpage><lpage>222</lpage><pub-id pub-id-type="doi">10.1016/j.jep.2017.08.017</pub-id><pub-id pub-id-type="pmid">28826781</pub-id>
+</element-citation></ref><ref id="REF9"><label>9</label><element-citation publication-type="journal" id="CITATION9"><person-group person-group-type="author">
+<name><surname>Chayaratanasin</surname><given-names>P</given-names></name>
+<name><surname>Adisakwattana</surname><given-names>S</given-names></name>
+<name><surname>Thilavech</surname><given-names>T</given-names></name>
+</person-group><article-title>Protective role of
+<italic toggle="yes">Clitoria ternatea</italic> L. flower extract on methylglyoxal-induced protein glycation and oxidative damage to DNA
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1186/s12906-021-03255-9">BMC Complement Med Ther</uri>
+</source><year>2021</year><volume>21</volume><fpage>80</fpage><pub-id pub-id-type="doi">10.1186/s12906-021-03255-9</pub-id><pub-id pub-id-type="pmid">33648500</pub-id>
+</element-citation></ref><ref id="REF10"><label>10</label><element-citation publication-type="journal" id="CITATION10"><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>Y</given-names></name>
+<name><surname>Liu</surname><given-names>T</given-names></name>
+<name><surname>Xie</surname><given-names>Y</given-names></name>
+<name><surname>Li</surname><given-names>N</given-names></name>
+<name><surname>Liu</surname><given-names>Y</given-names></name>
+<name><surname>Wen</surname><given-names>J</given-names></name>
+<name><surname>Zhang</surname><given-names>M</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>
+<italic toggle="yes">Clitoria ternatea</italic> blue petal extract protects against obesity, oxidative stress, and inflammation induced by a high-fat, high-fructose diet in C57BL/6 mice
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.foodres.2022.112008">Food Res Int</uri>
+</source><year>2022</year><volume>162</volume><fpage>112008</fpage><pub-id pub-id-type="doi">10.1016/j.foodres.2022.112008</pub-id><pub-id pub-id-type="pmid">36461234</pub-id>
+</element-citation></ref><ref id="REF11"><label>11</label><element-citation publication-type="journal" id="CITATION11"><person-group person-group-type="author">
+<name><surname>Nair</surname><given-names>V</given-names></name>
+<name><surname>Bang</surname><given-names>WY</given-names></name>
+<name><surname>Schreckinger</surname><given-names>E</given-names></name>
+<name><surname>Andarwulan</surname><given-names>N</given-names></name>
+<name><surname>Cisneros-Zevallos</surname><given-names>L</given-names></name>
+</person-group><article-title>Protective role of ternatin anthocyanins and quercetin glycosides from butterfly pea (
+<italic toggle="yes">clitoria ternatea</italic> leguminosae) blue flower petals against lipopolysaccharide (LPS)-Induced inflammation in macrophage cells
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1021/acs.jafc.5b00928">J Agric Food Chem</uri>
+</source><year>2015</year><volume>63</volume><fpage>6355</fpage><lpage>6365</lpage><pub-id pub-id-type="doi">10.1021/acs.jafc.5b00928</pub-id><pub-id pub-id-type="pmid">26120869</pub-id>
+</element-citation></ref><ref id="REF12"><label>12</label><element-citation publication-type="journal" id="CITATION12"><person-group person-group-type="author">
+<name><surname>Escher</surname><given-names>GB</given-names></name>
+<name><surname>Wen</surname><given-names>M</given-names></name>
+<name><surname>Zhang</surname><given-names>L</given-names></name>
+<name><surname>Rosso</surname><given-names>ND</given-names></name>
+<name><surname>Granato</surname><given-names>D</given-names></name>
+</person-group><article-title>Phenolic composition by UHPLC-Q-TOF-MS/MS and stability of anthocyanins from
+<italic toggle="yes">Clitoria ternatea</italic> L. (butterfly pea) blue petals
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.foodchem.2020.127341">Food Chem</uri>
+</source><year>2020</year><volume>331</volume><fpage>127341</fpage><pub-id pub-id-type="doi">10.1016/j.foodchem.2020.127341</pub-id><pub-id pub-id-type="pmid">32569972</pub-id>
+</element-citation></ref><ref id="REF13"><label>13</label><element-citation publication-type="journal" id="CITATION13"><person-group person-group-type="author">
+<name><surname>Caroline Paz Gon&#x000e7;alves</surname><given-names>G</given-names></name>
+<name><surname>Lizandra Gomes Rosas</surname><given-names>A</given-names></name>
+<name><surname>Carneiro de Sousa</surname><given-names>R</given-names></name>
+<name><surname>Regina Rodrigues Vieira</surname><given-names>T</given-names></name>
+<name><surname>C&#x000e9;sar de Albuquerque Sousa</surname><given-names>T</given-names></name>
+<name><surname>Ramires</surname><given-names>T</given-names></name>
+<name><surname>Ferreira Ferreira da Silveira</surname><given-names>T</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>A green method for anthocyanin extraction from
+<italic toggle="yes">Clitoria ternatea</italic> flowers cultivated in southern brazil: characterization,
+<italic toggle="yes">in vivo</italic> toxicity, and biological activity
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.foodchem.2023.137575">Food Chem</uri>
+</source><year>2024</year><volume>435</volume><fpage>137575</fpage><pub-id pub-id-type="doi">10.1016/j.foodchem.2023.137575</pub-id><pub-id pub-id-type="pmid">37776651</pub-id>
+</element-citation></ref><ref id="REF14"><label>14</label><element-citation publication-type="journal" id="CITATION14"><person-group person-group-type="author">
+<name><surname>Lv</surname><given-names>Y</given-names></name>
+<name><surname>Liu</surname><given-names>Z</given-names></name>
+<name><surname>Jia</surname><given-names>H</given-names></name>
+<name><surname>Xiu</surname><given-names>Y</given-names></name>
+<name><surname>Liu</surname><given-names>Z</given-names></name>
+<name><surname>Deng</surname><given-names>L</given-names></name>
+</person-group><article-title>Properties of flavonoids in the treatment of bladder cancer (Review)</article-title><source>
+<uri xlink:href="https://doi.org/10.3892/etm.2022.11612">Exp Ther Med</uri>
+</source><year>2022</year><volume>24</volume><fpage>676</fpage><pub-id pub-id-type="doi">10.3892/etm.2022.11612</pub-id><pub-id pub-id-type="pmid">36185766</pub-id>
+</element-citation></ref><ref id="REF15"><label>15</label><element-citation publication-type="journal" id="CITATION15"><person-group person-group-type="author">
+<name><surname>Arruda Nascimento</surname><given-names>E</given-names></name>
+<name><surname>Lima Coutinho</surname><given-names>L</given-names></name>
+<name><surname>Silva</surname><given-names>CJ</given-names></name>
+<name><surname>Lima</surname><given-names>VLAG</given-names></name>
+<name><surname>Santos Aguiar</surname><given-names>J</given-names></name>
+</person-group><article-title>In vitro anticancer properties of anthocyanins: a systematic review</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.bbcan.2022.188748">Biochim Biophys Acta Rev Cancer</uri>
+</source><year>2022</year><volume>1877</volume><fpage>188748</fpage><pub-id pub-id-type="doi">10.1016/j.bbcan.2022.188748</pub-id><pub-id pub-id-type="pmid">35714889</pub-id>
+</element-citation></ref><ref id="REF16"><label>16</label><element-citation publication-type="journal" id="CITATION16"><person-group person-group-type="author">
+<name><surname>Sang</surname><given-names>J</given-names></name>
+<name><surname>Li</surname><given-names>W</given-names></name>
+<name><surname>Diao</surname><given-names>HJ</given-names></name>
+<name><surname>Fan</surname><given-names>RZ</given-names></name>
+<name><surname>Huang</surname><given-names>JL</given-names></name>
+<name><surname>Gan</surname><given-names>L</given-names></name>
+<name><surname>Zou</surname><given-names>MF</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>Jolkinolide B targets thioredoxin and glutathione systems to induce ROS-mediated paraptosis and apoptosis in bladder cancer cells</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.canlet.2021.03.030">Cancer Lett</uri>
+</source><year>2021</year><volume>509</volume><fpage>13</fpage><lpage>25</lpage><pub-id pub-id-type="doi">10.1016/j.canlet.2021.03.030</pub-id><pub-id pub-id-type="pmid">33836250</pub-id>
+</element-citation></ref><ref id="REF17"><label>17</label><element-citation publication-type="journal" id="CITATION17"><person-group person-group-type="author">
+<name><surname>Sang</surname><given-names>J</given-names></name>
+<name><surname>Liu</surname><given-names>CK</given-names></name>
+<name><surname>Liu</surname><given-names>J</given-names></name>
+<name><surname>Luo</surname><given-names>GC</given-names></name>
+<name><surname>Zheng</surname><given-names>WJ</given-names></name>
+<name><surname>Bai</surname><given-names>Y</given-names></name>
+<name><surname>Jiang</surname><given-names>DY</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>Jolkinolide B synergistically potentiates the antitumor activity of GPX4 inhibitors via inhibiting TrxR1 in cisplatin-resistant bladder cancer cells</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.bcp.2024.116194">Biochem Pharmacol</uri>
+</source><year>2024</year><volume>223</volume><fpage>116194</fpage><pub-id pub-id-type="doi">10.1016/j.bcp.2024.116194</pub-id><pub-id pub-id-type="pmid">38583812</pub-id>
+</element-citation></ref><ref id="REF18"><label>18</label><element-citation publication-type="journal" id="CITATION18"><person-group person-group-type="author">
+<name><surname>Sang</surname><given-names>J</given-names></name>
+<name><surname>Zhang</surname><given-names>Y</given-names></name>
+<name><surname>Sang</surname><given-names>J</given-names></name>
+<name><surname>Li</surname><given-names>C</given-names></name>
+</person-group><article-title>Anthocyanins from
+<italic toggle="yes">Nitraria tangutorun</italic>: qualitative and quantitative analyses, antioxidant and anti-inflammatory activities and their stabilities as affected by some phenolic acids
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1007/s11694-018-9956-4">Food Measure</uri>
+</source><year>2019</year><volume>13</volume><fpage>421</fpage><lpage>430</lpage><pub-id pub-id-type="doi">10.1007/s11694-018-9956-4</pub-id></element-citation></ref><ref id="REF19"><label>19</label><element-citation publication-type="journal" id="CITATION19"><person-group person-group-type="author">
+<name><surname>Sang</surname><given-names>J</given-names></name>
+<name><surname>Li</surname><given-names>B</given-names></name>
+<name><surname>Huang</surname><given-names>Y</given-names></name>
+<name><surname>Ma</surname><given-names>Q</given-names></name>
+<name><surname>Liu</surname><given-names>K</given-names></name>
+<name><surname>Li</surname><given-names>C</given-names></name>
+</person-group><article-title>Deep eutectic solvent-based extraction coupled with green two-dimensional HPLC-DAD-ESI-MS/MS for the determination of anthocyanins from
+<italic toggle="yes">Lycium ruthenicum</italic> Murr. fruit
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1039/C8AY00101D">Anal Methods</uri>
+</source><year>2018</year><volume>10</volume><fpage>1247</fpage><lpage>1257</lpage><pub-id pub-id-type="doi">10.1039/C8AY00101D</pub-id></element-citation></ref><ref id="REF20"><label>20</label><element-citation publication-type="journal" id="CITATION20"><person-group person-group-type="author">
+<name><surname>Zakaria</surname><given-names>NNA</given-names></name>
+<name><surname>Okello</surname><given-names>EJ</given-names></name>
+<name><surname>Howes</surname><given-names>M</given-names></name>
+<name><surname>Birch&#x02010;Machin</surname><given-names>MA</given-names></name>
+<name><surname>Bowman</surname><given-names>A</given-names></name>
+</person-group><article-title>
+<italic toggle="yes">In vitro</italic> protective effects of an aqueous extract
+<italic toggle="yes">of Clitoria ternatea</italic> L. flower against hydrogen peroxide&#x02010;induced cytotoxicity and UV&#x02010;induced mtDNA damage in human keratinocytes
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1002/ptr.6045">PhytoTher Res</uri>
+</source><year>2018</year><volume>32</volume><fpage>1064</fpage><lpage>1072</lpage><pub-id pub-id-type="doi">10.1002/ptr.6045</pub-id><pub-id pub-id-type="pmid">29464849</pub-id>
+</element-citation></ref><ref id="REF21"><label>21</label><element-citation publication-type="journal" id="CITATION21"><person-group person-group-type="author">
+<name><surname>Terahara</surname><given-names>N</given-names></name>
+<name><surname>Saito</surname><given-names>N</given-names></name>
+<name><surname>Honda</surname><given-names>T</given-names></name>
+<name><surname>Toki</surname><given-names>K</given-names></name>
+<name><surname>Osajima</surname><given-names>Y</given-names></name>
+</person-group><article-title>Acylated anthocyanins of
+<italic toggle="yes">clitoria ternatea</italic> flowers and their acyl moieties
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/0031-9422(90)80053-J">Phytochemistry</uri>
+</source><year>1990</year><volume>29</volume><fpage>949</fpage><lpage>953</lpage><pub-id pub-id-type="doi">10.1016/0031-9422(90)80053-J</pub-id></element-citation></ref><ref id="REF22"><label>22</label><element-citation publication-type="journal" id="CITATION22"><person-group person-group-type="author">
+<name><surname>Kazuma</surname><given-names>K</given-names></name>
+<name><surname>Noda</surname><given-names>N</given-names></name>
+<name><surname>Suzuki</surname><given-names>M</given-names></name>
+</person-group><article-title>Flavonoid composition related to petal color in different lines of
+<italic toggle="yes">Clitoria ternatea</italic>
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/S0031-9422(03)00504-1">Phytochemistry</uri>
+</source><year>2003</year><volume>64</volume><fpage>1133</fpage><lpage>1139</lpage><pub-id pub-id-type="doi">10.1016/S0031-9422(03)00504-1</pub-id><pub-id pub-id-type="pmid">14568080</pub-id>
+</element-citation></ref><ref id="REF23"><label>23</label><element-citation publication-type="journal" id="CITATION23"><person-group person-group-type="author">
+<name><surname>Kazuma</surname><given-names>K</given-names></name>
+</person-group><article-title>Malonylated flavonol glycosides from the petals of
+<italic toggle="yes">Clitoria ternatea</italic>
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/S0031-9422(02)00486-7">Phytochemistry</uri>
+</source><year>2003</year><volume>62</volume><fpage>229</fpage><lpage>237</lpage><pub-id pub-id-type="doi">10.1016/S0031-9422(02)00486-7</pub-id><pub-id pub-id-type="pmid">12482461</pub-id>
+</element-citation></ref><ref id="REF24"><label>24</label><element-citation publication-type="journal" id="CITATION24"><person-group person-group-type="author">
+<name><surname>Yi</surname><given-names>J</given-names></name>
+<name><surname>Zhu</surname><given-names>J</given-names></name>
+<name><surname>Wu</surname><given-names>J</given-names></name>
+<name><surname>Thompson</surname><given-names>CB</given-names></name>
+<name><surname>Jiang</surname><given-names>X</given-names></name>
+</person-group><article-title>Oncogenic activation of PI3K-AKT-mTOR signaling suppresses ferroptosis via SREBP-mediated lipogenesis</article-title><source>
+<uri xlink:href="https://doi.org/10.1073/pnas.2017152117">Proc Natl Acad Sci USA</uri>
+</source><year>2020</year><volume>117</volume><fpage>31189</fpage><lpage>31197</lpage><pub-id pub-id-type="doi">10.1073/pnas.2017152117</pub-id><pub-id pub-id-type="pmid">33229547</pub-id>
+</element-citation></ref><ref id="REF25"><label>25</label><element-citation publication-type="journal" id="CITATION25"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>F</given-names></name>
+<name><surname>Sang</surname><given-names>J</given-names></name>
+<name><surname>Zhang</surname><given-names>Y</given-names></name>
+<name><surname>Sang</surname><given-names>J</given-names></name>
+</person-group><article-title>Development of a green two&#x02010;dimensionalHPLC-DAD/ESI-MS method for the determination of anthocyanins from
+<italic toggle="yes">Prunus cerasifera</italic> var.
+<italic toggle="yes">atropurpurea</italic> leaf and improvement of their stability in energy drinks
+</article-title><source>
+<uri xlink:href="https://doi.org/10.1111/ijfs.13730">Int J Food Sci Tech</uri>
+</source><year>2018</year><volume>53</volume><fpage>1494</fpage><lpage>1502</lpage><pub-id pub-id-type="doi">10.1111/ijfs.13730</pub-id></element-citation></ref><ref id="REF26"><label>26</label><element-citation publication-type="journal" id="CITATION26"><person-group person-group-type="author">
+<name><surname>Ashrafizadeh</surname><given-names>M</given-names></name>
+<name><surname>Zarrabi</surname><given-names>A</given-names></name>
+<name><surname>Mirzaei</surname><given-names>S</given-names></name>
+<name><surname>Hashemi</surname><given-names>F</given-names></name>
+<name><surname>Samarghandian</surname><given-names>S</given-names></name>
+<name><surname>Zabolian</surname><given-names>A</given-names></name>
+<name><surname>Hushmandi</surname><given-names>K</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>Gallic acid for cancer therapy: molecular mechanisms and boosting efficacy by nanoscopical delivery</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.fct.2021.112576">Food Chem Toxicol</uri>
+</source><year>2021</year><volume>157</volume><fpage>112576</fpage><pub-id pub-id-type="doi">10.1016/j.fct.2021.112576</pub-id><pub-id pub-id-type="pmid">34571052</pub-id>
+</element-citation></ref><ref id="REF27"><label>27</label><element-citation publication-type="journal" id="CITATION27"><person-group person-group-type="author">
+<name><surname>Luchtel</surname><given-names>RA</given-names></name>
+<name><surname>Bhagat</surname><given-names>T</given-names></name>
+<name><surname>Pradhan</surname><given-names>K</given-names></name>
+<name><surname>Jacobs Jr</surname><given-names>WR</given-names></name>
+<name><surname>Levine</surname><given-names>M</given-names></name>
+<name><surname>Verma</surname><given-names>A</given-names></name>
+<name><surname>Shenoy</surname><given-names>N</given-names></name>
+</person-group><article-title>High-dose ascorbic acid synergizes with anti-PD1 in a lymphoma mouse model</article-title><source>
+<uri xlink:href="https://doi.org/10.1073/pnas.1908158117">Proc Natl Acad Sci USA</uri>
+</source><year>2020</year><volume>117</volume><fpage>1666</fpage><lpage>1677</lpage><pub-id pub-id-type="doi">10.1073/pnas.1908158117</pub-id><pub-id pub-id-type="pmid">31911474</pub-id>
+</element-citation></ref><ref id="REF28"><label>28</label><element-citation publication-type="journal" id="CITATION28"><person-group person-group-type="author">
+<name><surname>Sang</surname><given-names>J</given-names></name>
+<name><surname>Gan</surname><given-names>L</given-names></name>
+<name><surname>Zou</surname><given-names>MF</given-names></name>
+<name><surname>Lin</surname><given-names>ZJ</given-names></name>
+<name><surname>Fan</surname><given-names>RZ</given-names></name>
+<name><surname>Huang</surname><given-names>JL</given-names></name>
+<name><surname>Li</surname><given-names>W</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>Jolkinolide B sensitizes bladder cancer to mTOR inhibitors via dual inhibition of Akt signaling and autophagy</article-title><source>
+<uri xlink:href="https://doi.org/10.1016/j.canlet.2021.11.014">Cancer Lett</uri>
+</source><year>2022</year><volume>526</volume><fpage>352</fpage><lpage>362</lpage><pub-id pub-id-type="doi">10.1016/j.canlet.2021.11.014</pub-id><pub-id pub-id-type="pmid">34798195</pub-id>
+</element-citation></ref><ref id="REF29"><label>29</label><element-citation publication-type="journal" id="CITATION29"><person-group person-group-type="author">
+<name><surname>Deng</surname><given-names>J</given-names></name>
+<name><surname>Peng</surname><given-names>M</given-names></name>
+<name><surname>Zhou</surname><given-names>S</given-names></name>
+<name><surname>Xiao</surname><given-names>D</given-names></name>
+<name><surname>Hu</surname><given-names>X</given-names></name>
+<name><surname>Xu</surname><given-names>S</given-names></name>
+<name><surname>Wu</surname><given-names>J</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>Metformin targets clusterin to control lipogenesis and inhibit the growth of bladder cancer cells through SREBP-1c/FASN axis</article-title><source>
+<uri xlink:href="https://doi.org/10.1038/s41392-021-00493-8">Sig Transduct Target Ther</uri>
+</source><year>2021</year><volume>6</volume><fpage>98</fpage><pub-id pub-id-type="doi">10.1038/s41392-021-00493-8</pub-id></element-citation></ref><ref id="REF30"><label>30</label><element-citation publication-type="journal" id="CITATION30"><person-group person-group-type="author">
+<name><surname>Tiong</surname><given-names>TY</given-names></name>
+<name><surname>Weng</surname><given-names>PW</given-names></name>
+<name><surname>Wang</surname><given-names>CH</given-names></name>
+<name><surname>Setiawan</surname><given-names>SA</given-names></name>
+<name><surname>Yadav</surname><given-names>VK</given-names></name>
+<name><surname>Pikatan</surname><given-names>NW</given-names></name>
+<name><surname>Fong</surname><given-names>IH</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>Targeting the SREBP-1/Hsa-Mir-497/SCAP/FASN oncometabolic axis inhibits the cancer stem-like and chemoresistant phenotype of non-small cell lung carcinoma cells</article-title><source>
+<uri xlink:href="https://doi.org/10.3390/ijms23137283">Int J Mol Sci</uri>
+</source><year>2022</year><volume>23</volume><fpage>7283</fpage><pub-id pub-id-type="doi">10.3390/ijms23137283</pub-id><pub-id pub-id-type="pmid">35806291</pub-id>
+</element-citation></ref><ref id="REF31"><label>31</label><element-citation publication-type="journal" id="CITATION31"><person-group person-group-type="author">
+<name><surname>Almeida</surname><given-names>LY</given-names></name>
+<name><surname>Moreira</surname><given-names>FS</given-names></name>
+<name><surname>Santos</surname><given-names>GAS</given-names></name>
+<name><surname>Cuadra Zelaya</surname><given-names>FJM</given-names></name>
+<name><surname>Ortiz</surname><given-names>CA</given-names></name>
+<name><surname>Agostini</surname><given-names>M</given-names></name>
+<name><surname>Mariano</surname><given-names>FS</given-names></name>
+<etal>et al.</etal>
+</person-group><article-title>FASN inhibition sensitizes metastatic OSCC cells to cisplatin and paclitaxel by downregulating cyclin B1</article-title><source>
+<uri xlink:href="https://doi.org/10.1111/odi.14017">Oral Dis</uri>
+</source><year>2023</year><volume>29</volume><fpage>649</fpage><lpage>660</lpage><pub-id pub-id-type="doi">10.1111/odi.14017</pub-id><pub-id pub-id-type="pmid">34510641</pub-id>
+</element-citation></ref></ref-list><app-group><app><title>Supplementary Data</title><p>Supplementary data is available at
+<italic toggle="yes">Acta Biochimica et Biophysica Sinica</italic> online.
+</p></app></app-group></back></article>

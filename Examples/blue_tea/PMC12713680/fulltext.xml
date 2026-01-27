@@ -1,0 +1,1220 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.2?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties OLF?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Nanoscale Adv</journal-id><journal-id journal-id-type="iso-abbrev">Nanoscale Adv</journal-id><journal-id journal-id-type="publisher-id">NA</journal-id><journal-id journal-id-type="coden">NAADAI</journal-id><journal-title-group><journal-title>Nanoscale Advances</journal-title></journal-title-group><issn pub-type="epub">2516-0230</issn><publisher><publisher-name>RSC</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">12713680</article-id><article-id pub-id-type="publisher-id">d5na00819k</article-id><article-id pub-id-type="doi">10.1039/d5na00819k</article-id><article-categories><subj-group subj-group-type="heading"><subject>Chemistry</subject></subj-group></article-categories><title-group><article-title>Anthocyanin (ATH)-incorporating polyvinylpyrrolidone-ethyl cellulose-(2-hydroxypropyl)-&#x003b2;-cyclodextrin (PVP&#x02013;EC&#x02013;BCD) nanofiber-based pH sensor for ocular pH detection during accidental chemical spills</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Sandaruwan</surname><given-names>Benuwan</given-names></name><xref rid="affa" ref-type="aff">a</xref></contrib><contrib contrib-type="author"><name><surname>Liyanage</surname><given-names>Renuka</given-names></name><xref rid="affb" ref-type="aff">b</xref></contrib><contrib contrib-type="author"><name><surname>Costha</surname><given-names>Pabakara</given-names></name><xref rid="affc" ref-type="aff">c</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4608-2131</contrib-id><name><surname>Dassanayake</surname><given-names>Rohan S.</given-names></name><xref rid="affa" ref-type="aff">a</xref></contrib><contrib contrib-type="author"><name><surname>Wijesinghe</surname><given-names>Ruchire Eranga</given-names></name><xref rid="affd" ref-type="aff">d</xref><xref rid="affe" ref-type="aff">e</xref></contrib><contrib contrib-type="author"><name><surname>Herath</surname><given-names>H. M. L. P. B.</given-names></name><xref rid="afff" ref-type="aff">f</xref><xref rid="affg" ref-type="aff">g</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3219-3233</contrib-id><name><surname>Nalin de Silva</surname><given-names>K. M.</given-names></name><xref rid="afff" ref-type="aff">f</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0955-6366</contrib-id><name><surname>de Silva</surname><given-names>Rohini M.</given-names></name><xref rid="afff" ref-type="aff">f</xref><xref rid="affg" ref-type="aff">g</xref></contrib><contrib contrib-type="author"><name><surname>Rajapaksha</surname><given-names>Suranga M.</given-names></name><xref rid="affb" ref-type="aff">b</xref></contrib><contrib contrib-type="author"><name><surname>Wijenayake</surname><given-names>Udaya</given-names></name><xref rid="affh" ref-type="aff">h</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1489-5557</contrib-id><name><surname>Manatunga</surname><given-names>Danushika C.</given-names></name><xref rid="affa" ref-type="aff">a</xref><xref rid="afff" ref-type="aff">f</xref></contrib><aff id="affa">
+<label>a</label>
+<institution>Department of Biosystems Technology, Faculty of Technology, University of Sri Jayewardenepura</institution>
+<addr-line>Pitipana North, Homagama</addr-line>
+<postal-code>10200</postal-code>
+<country>Sri Lanka</country>
+<email>danushi@sjp.ac.lk</email>
+</aff><aff id="affb">
+<label>b</label>
+<institution>Department of Materials and Mechanical Technology, Faculty of Technology, University of Sri Jayewardenepura</institution>
+<addr-line>Pitipana North, Homagama</addr-line>
+<postal-code>10200</postal-code>
+<country>Sri Lanka</country>
+</aff><aff id="affc">
+<label>c</label>
+<institution>National Eye Hospital of Sri Lanka</institution>
+<city>Colombo</city>
+<postal-code>01000</postal-code>
+<country>Sri Lanka</country>
+</aff><aff id="affd">
+<label>d</label>
+<institution>Center for Excellence in Informatics, Electronics &#x00026; Transmission (CIET), Sri Lanka Institute of Information Technology</institution>
+<addr-line>Malabe</addr-line>
+<postal-code>10115</postal-code>
+<country>Sri Lanka</country>
+</aff><aff id="affe">
+<label>e</label>
+<institution>Department of Electrical and Electronic Engineering, Faculty of Engineering, Sri Lanka Institute of Information Technology</institution>
+<addr-line>Malabe</addr-line>
+<postal-code>10115</postal-code>
+<country>Sri Lanka</country>
+</aff><aff id="afff">
+<label>f</label>
+<institution>Center for Advanced Materials and Devices (CAMD), Department of Chemistry, University of Colombo</institution>
+<addr-line>PO Box 1490</addr-line>
+<city>Colombo 00300</city>
+<country>Sri Lanka</country>
+</aff><aff id="affg">
+<label>g</label>
+<institution>Department of Life Sciences, Faculty of Science, NSBM Green University</institution>
+<addr-line>Homagama</addr-line>
+<postal-code>10200</postal-code>
+<country>Sri Lanka</country>
+</aff><aff id="affh">
+<label>h</label>
+<institution>Department of Computer Engineering, Faculty of Engineering, University of Sri Jayewardenepura</institution>
+<addr-line>Nugegoda</addr-line>
+<postal-code>10250</postal-code>
+<country>Sri Lanka</country>
+</aff></contrib-group><pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-11-26"><day>26</day><month>11</month><year>2025</year></pub-date><pub-date pub-type="pmc-release"><day>26</day><month>11</month><year>2025</year></pub-date><!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.--><history><date date-type="received" iso-8601-date="2025-08-23"><day>23</day><month>8</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-11-21"><day>21</day><month>11</month><year>2025</year></date></history><permissions><copyright-statement>This journal is &#x000a9; The Royal Society of Chemistry</copyright-statement><copyright-year>2026</copyright-year><copyright-holder>RSC</copyright-holder><ali:free_to_read xmlns:ali="http://www.niso.org/schemas/ali/1.0/"/><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense" start_date="2025-11-26">https://creativecommons.org/licenses/by/3.0/</ali:license_ref><license-p>This article is licensed under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported Licence</ext-link>. You can use material from this article in other publications without requesting further permissions from the RSC, provided that the correct acknowledgement is given.</license-p></license></permissions><abstract><p>The existing ocular pH detection methods encounter numerous limitations, including low accuracy, poor sensitivity across a wide pH range, and patient discomfort, highlighting the need for innovative approaches. A novel biosensor for ocular pH detection has been developed to assess ocular health and chemical injuries in clinical settings. This study uses the pH-sensitive properties of anthocyanins (ATHs), natural pigments extracted from butterfly pea flowers, to develop a novel pH-responsive nanofiber mat. ATHs are integrated into a polymer blend containing polyvinylpyrrolidone (PVP), ethyl cellulose (EC), and (2-hydroxypropyl)-&#x003b2;-cyclodextrin (BCD) to fabricate electrospun nanofibers. The acquired characterization, employing scanning electron microscopy (SEM), Fourier-transform infrared spectroscopy (FTIR), X-ray diffraction (XRD), and thermogravimetric analysis (TGA), confirmed the successful fabrication of the ATH-infused nanofibers with a mean diameter ranging from 121 to 396 nm. Four formulations were tested: PVP:EC:BCD:ATH (18 ppm), PVP:EC:BCD:ATH (25 ppm), PVP:EC:BCD:ATH (35 ppm), and PVP:EC:BCD:ATH (50 ppm). Among them, the 50 ppm ATH-incorporating nanofiber mat exhibited the best performance in terms of color clarity, response time, and pH sensitivity. The fabricated 50 ppm ATH incorporating nanofiber mat demonstrated a rapid pH response time of less than 5 seconds (s) while exhibiting a color variation from pink to blue to green across the pH range of 1 to 12, providing a rapid and accurate method for visual pH detection. Based on the color performance of the 50 ppm ATH-incorporating system, a standardized color reference chart was developed to serve as a practical and visual guide for estimating pH levels in clinical applications. Zebrafish toxicity assays were conducted further to validate the safety and biocompatibility of the developed sensor, revealing no significant toxic effects across the range of ATH concentrations.</p></abstract><abstract abstract-type="toc"><p>The study presents a novel ATH-incorporated PVP&#x02013;EC&#x02013;BCD electrospun nanofiber mat as a rapid, biocompatible ocular pH sensor. It overcomes key limitations of current methods, such as low accuracy, limited sensitivity across wide pH ranges, and patient discomfort.<graphic xlink:href="d5na00819k-ga.jpg" id="ga" position="float"/></p></abstract><funding-group><award-group><funding-source>
+<institution-wrap><institution>University of Sri Jayewardenepura</institution><institution-id institution-id-type="doi">10.13039/501100008816</institution-id></institution-wrap>
+</funding-source><award-id>ASP/01/RE/TEC/2022/59</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>pubstatus</meta-name><meta-value>Advance Article</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><label>1</label><title>Introduction</title><p>Monitoring the pH level of the eye is crucial in point-of-care settings in ophthalmic clinics due to its broad implications. Generally, the monitoring process includes assessing and treating ocular chemical spillages and microbial infections, evaluating tear buffering capacity, and estimating the penetration of ocular drugs.<sup><xref rid="cit1" ref-type="bibr">1&#x02013;4</xref></sup> The normal pH of the eye is around pH 7.1, which may vary depending on the ocular condition, such as rosacea, ocular infections, or chemical spills.<sup><xref rid="cit5" ref-type="bibr">5&#x02013;7</xref></sup> Chemical spills can cause sudden alterations in ocular pH compared to other conditions. Among ocular traumas, approximately 20% are caused by chemical burns.<sup><xref rid="cit8" ref-type="bibr">8,9</xref></sup> These burns give rise to severe damage to the eye, with alkali chemicals being more detrimental than acidic chemicals.<sup><xref rid="cit10" ref-type="bibr">10</xref></sup> The severity of ocular injury depends on several factors, such as the type of chemical, volume, pH, and duration of exposure. However, the pH or concentration of the chemical is the most critical parameter related to the severity of ocular chemical burns.<sup><xref rid="cit7" ref-type="bibr">7</xref></sup> Therefore, immediate evaluation and management of ocular chemical burns are essential to prevent possible damage to the eye.<sup><xref rid="cit11" ref-type="bibr">11</xref></sup> Precise measurement of ocular pH is crucial in managing chemical burns in the eye, as it helps determine the most effective treatment approach.<sup><xref rid="cit8" ref-type="bibr">8</xref></sup> During an ocular chemical burn, the first step is to thoroughly wash the eye with plenty of water or use pH-neutralization solutions that remove the exposed chemical(s) and bring the ocular pH back to a neutral level.<sup><xref rid="cit12" ref-type="bibr">12</xref></sup> The initial ocular pH measurement determines the amount of water or neutralization solution required for irrigation to return the ocular pH to the normal range.<sup><xref rid="cit13" ref-type="bibr">13</xref></sup> However, the failure to correctly assess the ocular pH after excessive washings results in trace amounts of alkali or acid residues retained in the conjunctiva or on the ocular surface. These residual chemicals may penetrate deeper into the eye over time, leading to more severe complications, including corneal scarring, stromal necrosis, or even complete vision loss.<sup><xref rid="cit14" ref-type="bibr">14</xref></sup> Alkali substances are especially known for causing more severe tissue damage, penetrating the eye more quickly and deeply compared to acidic substances. Inaccurate pH measurements in such cases might delay appropriate treatment and further progression of injury that could have otherwise been prevented. This underscores the importance of detecting accurate pH promptly, which is necessary for appropriate therapeutic interventions.<sup><xref rid="cit15" ref-type="bibr">15</xref></sup> Once the ocular pH returns to the normal range, treatments can be implemented immediately.<sup><xref rid="cit16" ref-type="bibr">16</xref></sup> In emergency departments and ophthalmic clinics, the pH of human tears or ocular surfaces is measured using various methods, including litmus papers,<sup><xref rid="cit17" ref-type="bibr">17</xref></sup> bromothymol (BTB) dye,<sup><xref rid="cit17" ref-type="bibr">17</xref></sup> nitrazine strips,<sup><xref rid="cit17" ref-type="bibr">17</xref></sup> glass electrodes,<sup><xref rid="cit18" ref-type="bibr">18</xref></sup> fluorescent probes,<sup><xref rid="cit19" ref-type="bibr">19</xref></sup> glass probes,<sup><xref rid="cit20" ref-type="bibr">20</xref></sup> contact lenses,<sup><xref rid="cit21" ref-type="bibr">21</xref></sup> and microelectrodes.<sup><xref rid="cit3" ref-type="bibr">3,21</xref></sup> However, many of these ocular pH detection methods encounter several challenges. For instance, nitrazine strips are unsuitable for alkaline chemical spills with pH values above 7.5, while bromothymol blue (BTB) is limited to a narrow pH range of 6.0 to 7.6. Litmus papers exhibit low accuracy, and the methods involving glass probes and contact lenses cause patient discomfort. These limitations highlight the need for a simple, user-friendly approach to ocular pH detection during chemical spills.<sup><xref rid="cit8" ref-type="bibr">8,16,22</xref></sup></p><p>ATHs are water-soluble and highly pH-sensitive dye molecules that exhibit distinct color changes in response to pH variations.<sup><xref rid="cit23" ref-type="bibr">23&#x02013;25</xref></sup> ATHs are natural pigments in many vascular plants and are glycosylated polyhydroxy and polymethoxy derivatives of 2-phenylbenzopyrylium, such as the flavylium cation.<sup><xref rid="cit26" ref-type="bibr">26</xref></sup> ATHs perform various functions in plants, including protection, propagation, repelling parasites, safeguarding plants against biotic and abiotic stress, and attracting pollinators and seed dispersers.<sup><xref rid="cit27" ref-type="bibr">27</xref></sup> In healthcare, ATHs offer various health benefits, such as anti-diabetic, neuroprotective, antioxidant, anti-carcinogenic, prevention of cardiovascular disease, and anti-inflammatory properties.<sup><xref rid="cit27" ref-type="bibr">27,28</xref></sup> In ocular healthcare, ATHs have been used to manage various inflammatory diseases and circulatory disorders,<sup><xref rid="cit29" ref-type="bibr">29,30</xref></sup> including retinal inflammation<sup><xref rid="cit31" ref-type="bibr">31</xref></sup> and diabetic retinopathy.<sup><xref rid="cit32" ref-type="bibr">32</xref></sup> ATHs can be extracted from various natural sources, including grapes,<sup><xref rid="cit33" ref-type="bibr">33</xref></sup> berries,<sup><xref rid="cit34" ref-type="bibr">34</xref></sup> red cabbage,<sup><xref rid="cit35" ref-type="bibr">35</xref></sup> radishes,<sup><xref rid="cit36" ref-type="bibr">36</xref></sup> and butterfly pea flowers (<italic toggle="yes">Clitoria ternatea</italic> L.).<sup><xref rid="cit37" ref-type="bibr">37</xref></sup> Recent studies have explored ATH-incorporating materials for pH sensing in fields like food packaging,<sup><xref rid="cit38" ref-type="bibr">38</xref></sup> textile dying,<sup><xref rid="cit39" ref-type="bibr">39</xref></sup> and cosmetics.<sup><xref rid="cit40" ref-type="bibr">40</xref></sup></p><p>ATH-infused pH sensors generally consist of a supportive matrix and the ATH dye.<sup><xref rid="cit41" ref-type="bibr">41</xref></sup> A notable example is the development of biodegradable, pH-responsive films using ATHs extracted from banana bracts for intelligent food packaging, as reported by Thottathil Nazar <italic toggle="yes">et al.</italic> (2024).<sup><xref rid="cit42" ref-type="bibr">42</xref></sup> These films, fabricated by incorporating ATHs into a polyvinyl alcohol (PVA)/starch matrix through the solution casting method, exhibited distinct color changes in response to pH variations. The pH responsiveness of the films was evident through measurable shifts in lightness, redness, yellowness, and blueness values, allowing for the visual detection of changes in environmental pH.<sup><xref rid="cit42" ref-type="bibr">42</xref></sup> The work conducted by Prietto <italic toggle="yes">et al.</italic> developed a pH indicator by electrospinning purple cabbage ATH extract with zein polymer, proposing it for the active food packaging industry. This pH sensor was capable of making color changes within the pH range of 1 to 10, which the human eye can identify.<sup><xref rid="cit43" ref-type="bibr">43</xref></sup> Lv <italic toggle="yes">et al.</italic> developed a starch-ATH-based pH-sensitive electrospun nanofiber mat for real-time food freshness monitoring. The results revealed color visibility and a reversible pH response, where roselle (<italic toggle="yes">Hibiscus sabdariffa</italic>) was employed to extract the ATH pigment.<sup><xref rid="cit44" ref-type="bibr">44</xref></sup> Liu <italic toggle="yes">et al.</italic> developed a colorimetric nanofiber sensor to evaluate shrimp freshness utilizing polycaprolactone (PCL) polymer with <italic toggle="yes">Clitoria ternatea</italic> Linn ATH.<sup><xref rid="cit45" ref-type="bibr">45</xref></sup> Interestingly, the pH-responsive properties of ATHs can be employed to develop pH sensors suitable for ocular pH detection.<sup><xref rid="cit28" ref-type="bibr">28,46</xref></sup> However, the use of ATHs in ocular pH detection applications is scarce.<sup><xref rid="cit21" ref-type="bibr">21</xref></sup></p><p>Electrospinning is an emerging technique widely utilized for fabricating ATH-based pH sensors, primarily in food packaging, textile materials development, and environmental monitoring applications.<sup><xref rid="cit28" ref-type="bibr">28,41&#x02013;48</xref></sup> In recent years, electrospinning and electrospraying have advanced dramatically, providing researchers with new tools for tailoring nanofiber architectures and functionalities. The evolution of electrospinning from single-fluid blending to complex multi-fluid systems such as coaxial, side by side, triaxial, and Janus configurations has expanded the fabrication of functional nanostructures with distinct physicochemical properties. For instance, Deng Guang Yu <italic toggle="yes">et al.</italic> (2025) highlighted the unique potential of electrospun Janus nanofibers that enable dual drug loading and multifunctional wound dressing performance.<sup><xref rid="cit49" ref-type="bibr">49</xref></sup> Shu Chen <italic toggle="yes">et al.</italic> (2025) demonstrated a one-step side-by-side electrospraying approach for creating bioinspired Janus particles with multifunctional properties such as antibacterial activity and UV resistance.<sup><xref rid="cit50" ref-type="bibr">50</xref></sup> Similarly, Yaoning Chen <italic toggle="yes">et al.</italic> (2025) reported coaxial electrospinning as an efficient route for designing core&#x02013;shell nanofibers with controlled drug release, while Yujie Hu <italic toggle="yes">et al.</italic> (2025) developed a tri-layer core sheath nanofibrous coating for sequential therapeutic delivery in orthopedic implants.<sup><xref rid="cit51" ref-type="bibr">51,52</xref></sup> Weiqiang Wang <italic toggle="yes">et al.</italic> (2025) emphasized the growing importance of green electrospinning techniques to replace toxic solvents in large-scale manufacturing, while Pu Wang <italic toggle="yes">et al.</italic> (2025) used coaxial electrospinning to design ZIF-8@PAN nanofibers for efficient environmental remediation.<sup><xref rid="cit53" ref-type="bibr">53,54</xref></sup> Collectively, these studies demonstrate how innovations in electrospinning and electrospraying are expanding the versatility of nanofibers across biomedical, environmental, and sensing applications. Incorporating this context, the current study aligns with the ongoing evolution of electrospinning science, leveraging its potential to produce stable and biocompatible nanofiber matrices for ocular pH detection.</p><p>Despite its extensive use in detecting pH variations in these fields, the application of ATH-based pH sensors in biomedical and clinical settings remains limited, with only a few studies exploring their potential.<sup><xref rid="cit21" ref-type="bibr">21,55,56</xref></sup> The use of electrospinning techniques to develop matrices for ATH-based pH sensors provides high surface area, high porosity, small pore size, and high absorption capacity, making them highly suitable for biomedical applications.<sup><xref rid="cit43" ref-type="bibr">43,55,57&#x02013;59</xref></sup> In this regard, electrospun nanofiber matrices have demonstrated promising capabilities in wound healing applications, where their biocompatibility and pH-responsive properties facilitate monitoring of infection-related pH fluctuations. However, their potential in ocular diagnostics remains largely unexplored. Electrospinning is widely used for preparing non-woven fiber mats or membrane matrices using polymer solutions.<sup><xref rid="cit60" ref-type="bibr">60&#x02013;62</xref></sup> Electrospun nanofiber matrices possess a high surface-area-to-volume ratio, allowing for rapid interaction with the teardrop or ocular surface, while the porosity ensures efficient absorption and retention of the ATH dye.<sup><xref rid="cit63" ref-type="bibr">63,64</xref></sup> Additionally, the small pore size provides a controlled environment for the dye, improving its stability and responsiveness to pH changes. These features collectively make nanofiber mats an ideal candidate for real-time ocular pH monitoring, offering significant advantages over traditional materials, such as pH paper strips or contact lenses.</p><p>PVP is one of the commonly used polymers for electrospinning, which is a biocompatible polymer approved by the United Nations Food and Drug Administration (US FDA). Its rapid dissolution capability also makes it a preferred ingredient in various drug formulations.<sup><xref rid="cit65" ref-type="bibr">65,66</xref></sup> EC and BCD polymers are also employed in electrospinning due to their unique features. EC offers excellent biocompatibility and hydrophobic properties, while BCD is also a biocompatible polymer with high loading capacity.<sup><xref rid="cit65" ref-type="bibr">65,67,68</xref></sup></p><p>The current study describes the preparation and characterization of an ATH-incorporating polyvinylpyrrolidone-ethyl cellulose-(2-hydroxypropyl)-&#x003b2;-cyclodextrin (PVP&#x02013;EC&#x02013;BCD) nanofiber-based pH sensor for detecting ocular pH during a chemical spill. Our work represents a significant advancement by integrating ATHs into an electrospun nanofiber matrix mat prepared from a novel formulation of PVP, EC, and BCD. The ATH-incorporating PVP&#x02013;EC&#x02013;BCD nanofiber-based pH sensor was characterized using SEM, FTIR, XRD, and TGA. Zebrafish acute toxicity studies were also performed to investigate biocompatibility and cytotoxicity. The validation of the pH sensor was conducted using color variation analysis using originally captured images without prior post-processing. The shelf-life assessment of the ATH-incorporating nanofiber mat was investigated under different storage conditions to determine its stability. To the best of our knowledge, this is the first attempt to report an ATH-incorporating PVP&#x02013;EC&#x02013;BCD nanofiber-based pH sensor for ocular pH detection, addressing the limitations of existing ocular pH detection methods and providing a more effective solution for ophthalmic clinics.</p></sec><sec><label>2</label><title>Materials and methods</title><sec><label>2.1</label><title>Materials</title><p>Butterfly pea flowers (<italic toggle="yes">Clitoria ternatea</italic>) were collected from a local supplier in Sri Lanka. PVP (average molecular weight 360&#x02009;000 Da), EC (48% ethoxy, 4 cP), BCD (average molecular weight 1460 Da), and absolute ethanol (&#x02265;99.8%) were purchased from Sigma-Aldrich (Saint Louis, MO). All other chemicals used were of analytical grade and purchased from Sigma-Aldrich (Saint Louis, MO), and water was doubly distilled before use.</p></sec><sec><label>2.2</label><title>Methods</title><sec><label>2.2.1.</label><title>ATH extraction from butterfly pea (<italic toggle="yes">Clitoria ternatea</italic>) flowers</title><p>ATH extraction was conducted using a method described elsewhere.<sup><xref rid="cit60" ref-type="bibr">60</xref></sup> Initially, 25.0 g of the butterfly pea flowers was weighed and put into 25 mL of acidified absolute ethanol solution (5.67 (absolute ethanol)&#x02009;:&#x02009;1 (HCl, 1.5 M) v/v). The mixture was subjected to constant agitation for 1 h at room temperature (RT). After the agitation, the supernatant was separated. Then, an additional 25 mL of acidified absolute ethanol was added to the sample, and the mixture was subjected to constant agitation for 1 h at RT. After that, the supernatant was again separated. Then, the separated supernatants were centrifuged using a centrifuge machine (R-300 Buchi, Flawil, Switzerland) for 15 min at 3500 rpm at RT. The resulting secondary supernatant was then separated and stored at 4 &#x000b0;C under dark conditions until further use.</p></sec><sec><label>2.2.2.</label><title>ATH content calculation</title><p>The ATH content was calculated using the pH differential method reported previously.<sup><xref rid="cit61" ref-type="bibr">61</xref></sup> The value obtained here denotes the equivalents of cyanidin 3-glucoside (Cy 3-glc). MW represents the molecular weight of Cy 3-glc (449.2 g mol<sup>&#x02212;1</sup>), DF represents the dilution factor, and <italic toggle="yes">&#x003b5;</italic><sub>m</sub> represents the molar extinction coefficient of Cy 3-glc, which is 26&#x02009;900.<sup><xref rid="cit69" ref-type="bibr">69</xref></sup> The content of the ATH was determined using <xref rid="eqn1" ref-type="disp-formula">eqn (1)</xref>.<disp-formula id="eqn1"><label>1</label><graphic xlink:href="d5na00819k-t1.jpg" id="ugt1" position="float"/></disp-formula></p><p>The absorbance (<italic toggle="yes">A</italic>) was measured using a Thermo Scientific Genesys 20 UV-vis spectrophotometer at two pH values (1.0 and 4.5), for which the solutions were prepared using a potassium chloride&#x02013;hydrochloric acid buffer and sodium acetate&#x02013;acetic acid buffer, respectively. The absorbance was recorded at the maximum wavelength corresponding to the ATH pigment. The differential absorbance values obtained at the two pH levels were used in the above equation (<xref rid="eqn1" ref-type="disp-formula">eqn (1)</xref>) to calculate the ATH content. <xref rid="eqn2" ref-type="disp-formula">Eqn (2)</xref> represents the value for <italic toggle="yes">A</italic> within the visible range.<disp-formula id="eqn2"><label>2</label><italic toggle="yes">A</italic> = (<italic toggle="yes">A</italic> &#x02212; <italic toggle="yes">A</italic><sub>700</sub>) <sub>pH 1.0</sub> &#x02212; (<italic toggle="yes">A</italic><sub>30</sub> &#x02212; <italic toggle="yes">A</italic><sub>700</sub>) <sub>pH 4.5</sub></disp-formula></p></sec><sec><label>2.2.3.</label><title>Preparation of electrospinning solution</title><p>PVP, EC, BCD, and ATH were dissolved in 80% (v/v) ethanol aqueous solution under magnetic stirring for 12 h at RT to obtain a homogeneous solution. The total polymer concentration of PVP and EC was maintained at 10% w/v of the total volume of the electrospinning solution, where the w/w component ratio of PVP to EC was 3&#x02009;:&#x02009;1. To prepare the electrospinning solution, 0.225 g of PVP and 0.075 g of EC were added to 3 mL of 80% ethanol. The amount of BCD was also maintained constant, and only the ATH content varied during the sample preparation. <xref rid="tab1" ref-type="table">Table 1</xref> shows the amounts of PVP, EC, BCD, and ATH used to prepare electrospinning solutions.</p><table-wrap position="float" id="tab1"><label>Table 1</label><caption><title>The amounts of PVP, EC, BCD, and ATH used in electrospinning</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">PVP:EC ratio (w/w)</th><th rowspan="1" colspan="1">BCD amount (g)</th><th rowspan="1" colspan="1">ATH concentration (ppm)</th><th rowspan="1" colspan="1">Total volume (mL)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">3&#x02009;:&#x02009;1</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">3.0</td></tr><tr><td rowspan="1" colspan="1">3&#x02009;:&#x02009;1</td><td rowspan="1" colspan="1">0.025</td><td rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">3.0</td></tr><tr><td rowspan="1" colspan="1">3&#x02009;:&#x02009;1</td><td rowspan="1" colspan="1">0.025</td><td rowspan="1" colspan="1">18</td><td align="char" char="." rowspan="1" colspan="1">3.0</td></tr><tr><td rowspan="1" colspan="1">3&#x02009;:&#x02009;1</td><td rowspan="1" colspan="1">0.025</td><td rowspan="1" colspan="1">25</td><td align="char" char="." rowspan="1" colspan="1">3.0</td></tr><tr><td rowspan="1" colspan="1">3&#x02009;:&#x02009;1</td><td rowspan="1" colspan="1">0.025</td><td rowspan="1" colspan="1">35</td><td align="char" char="." rowspan="1" colspan="1">3.0</td></tr><tr><td rowspan="1" colspan="1">3&#x02009;:&#x02009;1</td><td rowspan="1" colspan="1">0.025</td><td rowspan="1" colspan="1">50</td><td align="char" char="." rowspan="1" colspan="1">3.0</td></tr></tbody></table></table-wrap></sec><sec><label>2.2.4.</label><title>Electrospinning procedure</title><p>The prepared electrospinning solutions were loaded into a 5 mL plastic Terumo syringe fitted with a metal spinneret (20 G, internal diameter 0.61 mm). To dispense the electrospinning solution at a flow rate of 1.5 mL h<sup>&#x02212;1</sup>, a syringe pump (KDS100, Cole-Parmer, USA) was used. The power supply (ZGF-2000, Shanghai Sute Electrical Co. Ltd, China) was employed to supply a high voltage of 22 kV. The distance between the needle and the grounded collector was kept at 16 cm, and the grounded collector was covered with aluminum foil. The electrospinning was conducted at a temperature of 18 &#x000b0;C for 2 h. The collected fiber mats were then stored in a vacuum desiccator at RT to remove residual moisture.</p></sec><sec><label>2.2.5.</label><title>Nanofiber characterization</title><sec><label>2.2.5.1.</label><title>SEM</title><p>The morphological and surface parameters of electrospun fibers were examined using SEM images on a Carl Zeiss Evo 18 SEM (accel. voltage: 10 kV, probe current: 1&#x02013;25 pA, resolution: 1024 px &#x000d7; 768 px). The images were analyzed using ImageJ software (National Institutes of Health).</p></sec><sec><label>2.2.5.2.</label><title>FTIR spectroscopy</title><p>FTIR spectra of the nanofiber mats were obtained using a PerkinElmer Spectrum 100 instrument in the wavelength region of 400&#x02013;4000 cm<sup>&#x02212;1</sup> in the attenuated total reflectance (ATR) mode at a resolution of 4 cm<sup>&#x02212;1</sup>. All spectra were recorded with 32 scans across the wavelength range of 400&#x02013;4000 cm<sup>&#x02212;1</sup>.</p></sec><sec><label>2.2.5.3.</label><title>XRD</title><p>Powder X-ray diffraction (XRD) patterns of the nanofibers were obtained using a Rigaku (SmartLab SE, Japan) powder X-ray diffractometer over the two theta (2<italic toggle="yes">&#x003b8;</italic>) range of 5&#x000b0;&#x02013;80&#x000b0; using Cu K&#x003b1; radiation, with a step size of 2<italic toggle="yes">&#x003b8;</italic> = 5&#x000b0; min<sup>&#x02212;1</sup>, an accelerating voltage of 40 kV, and a tube current of 44 mA.</p></sec><sec><label>2.2.5.4.</label><title>TGA</title><p>TGA was performed on a high-resolution TGA Q-500 analyzer (TA Instruments, Inc., New Castle, DE). Samples with weights ranging from 5&#x02013;10 mg were heated from 30 to 700 &#x000b0;C under a nitrogen (N<sub>2</sub>) atmosphere at a heating rate of 10 &#x000b0;C min<sup>&#x02212;1</sup> in high-resolution mode.</p></sec></sec><sec><label>2.2.6.</label><title>Zebrafish embryo toxicity assay (FET 236 acute toxicity assessment)</title><p>Adult male and female zebrafish (<italic toggle="yes">Danio rerio</italic>) were selected and set up for breeding. They were kept in a specialized mini-zebrafish facility at the Biotechnology Laboratory of the University of Colombo, Sri Lanka, following established protocols.<sup><xref rid="cit70" ref-type="bibr">70,71</xref></sup> Embryos at 48 h post-fertilization (hpf) were gathered from overnight breeding sessions in a freshly prepared embryo medium. The embryos were sorted into Petri dishes, discarding any that were unfertilized, coagulated, damaged, opaque, asymmetric, or lacked transparency. They were then gently washed two or three times with distilled water while being carefully examined under a Meichoon Digital Microscope 3-in-1 USB Interface Camera, and the &#x02018;Hi View&#x02019; application was used for the observations. Ten zebrafish embryos at 24 h post-fertilization (hpf) were then carefully placed in each 6 well plate containing 5 mL of AntiClo-treated water. Pieces of electrospun nanofiber mats, each having a size of 1 cm<sup>2</sup>, were placed into each well of a six well plate. The wells contained different mats: a neat PVP:EC:BCD polymer mat, an 18 ppm ATH-incorporating PVP:EC:BCD polymer mat, a 25 ppm ATH-incorporating PVP:EC:BCD polymer mat, a 35 ppm ATH-incorporating PVP:EC:BCD polymer mat, and a 50 ppm ATH-incorporating PVP:EC:BCD polymer mat. One well was left without adding any mat as a control.<sup><xref rid="cit72" ref-type="bibr">72</xref></sup> Each treatment was conducted in triplicate at around 28.5 &#x000b0;C. Zebrafish embryo hatching and mortality were evaluated and recorded at 24, 48, 72, and 96 hpf. Heart rate was documented at 72 hpf, while deformities were documented at 96 hpf.</p></sec><sec><label>2.2.7.</label><title>Color variation analysis</title><p>The polymeric nanofiber mats incorporating different ATH concentrations (18, 25, 35, and 50 ppm) were cut into 1 &#x000d7; 1 cm dimensions and then exposed to buffer solutions with pH values ranging from 1 to 12. Images of the mats at each concentration and pH level were captured using a Sony Cyber-shot DSC-W320 camera, positioned 16 cm away from the samples under controlled laboratory lighting at 200 lux to ensure consistency. Each image was cropped into a 50 px &#x000d7; 50 px section to maintain uniformity across all samples. These cropped images were imported into ImageJ software for histogram analysis, where the mean values of the red (R), green (G), and blue (B) color channels were calculated to quantify color variation.</p><p>These R, G, and B coordinates provided a measure of color variation for each sample across the different pH levels. The R, G, and B values were plotted as bar graphs for each ATH concentration to represent the color variations and identify significant trends.</p></sec><sec><label>2.2.8.</label><title>Shelf-life evaluation</title><p>The shelf-life evaluation of the pH-sensitive electrospun nanofiber mats was conducted to determine the optimal storage conditions for maintaining their intact behavior over time. The nanofiber mats were stored under light, dark, and refrigerated conditions for three months. The mats were tested every two weeks to evaluate their pH-responsive ability. For each evaluation, buffer solutions with selected pH values of 3, 5, 7, 9, and 11 were applied to the nanofiber mats to observe their color response. This process was repeated every two weeks for three months, allowing a comparative analysis of how storage conditions impact the stability and pH sensitivity of the nanofiber mats over time. The results from these tests were used to identify the optimal storage conditions for pH-sensitive electrospun nanofiber mats.</p></sec></sec></sec><sec><label>3</label><title>Results and discussion</title><sec><label>3.1</label><title>Morphological analysis</title><p>
+<xref rid="fig1" ref-type="fig">Fig. 1</xref> depicts the SEM images of all electrospun nanofiber mats and their mean diameters. As can be seen from <xref rid="fig1" ref-type="fig">Fig. 1</xref>, all electrospun fibers exhibited smooth and cylindrical morphologies. The mean diameters of neat PVP:EC and PVP:EC:BCD systems were 380.61 &#x000b1; 19.59 and 566.97 &#x000b1; 26.97 nm, see <xref rid="fig1" ref-type="fig">Fig. 1(a) and (b)</xref>. The diameter of the nanofibers increased after adding BCD. The mean diameters of PVP:EC:BCD:ATH (18 ppm), PVP:EC:BCD:ATH (25 ppm), PVP:EC:BCD:ATH (35 ppm), and PVP:EC:BCD:ATH (50 ppm) were 221.40 &#x000b1; 11.64 nm, 201.97 &#x000b1; 18.74 nm, 210.79 &#x000b1; 13.31 nm, and 220.30 &#x000b1; 15.69 nm, respectively, see <xref rid="fig1" ref-type="fig">Fig. 1(c)&#x02013;(f)</xref>. The variation in diameter among the ATH-containing samples is minimal, and a notable reduction in fiber diameter is observed when comparing the ATH-loaded nanofibers to the PVP:EC:BCD and PVP:EC formulations without ATH. This could be due to the change in the viscosity of the electrospinning solution after adding ATH.<sup><xref rid="cit73" ref-type="bibr">73</xref></sup> This viscosity reduction would make it easier to stretch the electrospinning jet and generate nanofibers with lower diameters.<sup><xref rid="cit74" ref-type="bibr">74</xref></sup> Additionally, ATH molecules could develop surface charges on the electrospinning jet, enhancing the elongation of the jet and reducing the fiber diameter by increasing electrostatic repulsion between similarly charged polymer chains and ATH molecules within the electrospinning jet.<sup><xref rid="cit75" ref-type="bibr">75,76</xref></sup></p><fig position="float" id="fig1"><label>Fig. 1</label><caption><title>SEM images of different electrospun nanofiber mats and their mean diameters: (a) PVP:EC, (b) PVP:EC:BCD, (c) PVP:EC:BCD:18 ppm ATH. (d) PVP:EC:BCD:25 ppm ATH. (e) PVP:EC:BCD:35 ppm ATH. (f) PVP:EC:BCD:50 ppm ATH.</title></caption><graphic xlink:href="d5na00819k-f1" position="float"/></fig><p>A visual difference in surface fiber thickness was observed among the samples, particularly between <xref rid="fig1" ref-type="fig">Fig. 1(a)&#x02013;(c) and (f)</xref>, although their mean diameters were different. This apparent variation arises from differences in fiber deposition density and spatial arrangement on the collector rather than an actual increase in individual fiber diameter. During electrospinning, small fluctuations in charge distribution and solvent evaporation rate can alter the jet trajectory and fiber packing orientation. This can lead to localized regions where fibers overlap or align sparsely or densely, thereby appearing as thicker or thinner fibers under a SEM. Such morphological heterogeneity is typical of multi-component electrospinning systems and does not represent any structural irregularity or abnormality.<sup><xref rid="cit77" ref-type="bibr">77</xref></sup></p></sec><sec><label>3.2</label><title>FTIR analysis</title><p>FTIR analysis was performed to investigate the chemical properties of the nanofiber mats prepared. The chemical structures of the compounds used are shown in Fig. S1 (SI). The different functional groups of the electrospun nanofibers and neat polymers could be identified by the FTIR spectra shown in <xref rid="fig2" ref-type="fig">Fig. 2</xref>. <xref rid="fig2" ref-type="fig">Fig. 2(a)</xref> shows the FTIR spectra of different ATH-incorporating electrospun nanofibers and neat polymers. In the PVP spectrum (see <xref rid="fig2" ref-type="fig">Fig. 2(a)</xref>), the characteristic peaks that appear at 1651 cm<sup>&#x02212;1</sup> corresponded to the C<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><!-- PBM data was replaced with SVG by xgml2pxml:
+<glyph-data id="z.dbd" format="PBM" resolution="300" x-size="8" y-size="10" xml:space="preserve">
+00000000
+00000000
+00000000
+00000000
+11111111
+00000000
+11111111
+00000000
+00000000
+00000000
+</glyph-data>
+-->
+<glyph-data id="z.dbd" format="SVG" resolution="300" x-size="8" y-size="10" xml:space="preserve">
+<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="13.200000pt" height="16.000000pt" viewBox="0 0 13.200000 16.000000" preserveAspectRatio="xMidYMid meet"><metadata>
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata><g transform="translate(1.000000,15.000000) scale(0.017500,-0.017500)" fill="currentColor" stroke="none"><path d="M0 440 l0 -40 320 0 320 0 0 40 0 40 -320 0 -320 0 0 -40z M0 280 l0 -40 320 0 320 0 0 40 0 40 -320 0 -320 0 0 -40z"/></g></svg>
+
+]]>
+</glyph-data></private-char>O stretching vibrations, whereas the band at 1284 cm<sup>&#x02212;1</sup> is attributed to the C&#x02013;N stretching.<sup><xref rid="cit65" ref-type="bibr">65,78</xref></sup> The characteristic bands at 2950 and 3434 cm<sup>&#x02212;1</sup> are ascribed to the &#x02013;C&#x02013;H symmetric and &#x02013;O&#x02013;H symmetric stretching vibrations of PVP.<sup><xref rid="cit79" ref-type="bibr">79</xref></sup> In the blank EC spectrum depicted in <xref rid="fig2" ref-type="fig">Fig. 2(a)</xref>, the characteristic peaks at 1052 cm<sup>&#x02212;1</sup> and 1375 cm<sup>&#x02212;1</sup> correspond to the C&#x02013;O&#x02013;C stretching and &#x02013;CH bending, respectively. Furthermore, the 2972 cm<sup>&#x02212;1</sup> and 2870 cm<sup>&#x02212;1</sup> bands indicated the &#x02013;CH stretching vibrations of EC.<sup><xref rid="cit65" ref-type="bibr">65</xref></sup> The band at 3431 cm<sup>&#x02212;1</sup> of BCD is due to the &#x02013;OH group vibration, while that at 2927 cm<sup>&#x02212;1</sup> is attributed to the &#x02013;CH vibrations (<xref rid="fig2" ref-type="fig">Fig. 2(a)</xref>). The characteristic peaks at 1155 cm<sup>&#x02212;1</sup>, 1083 cm<sup>&#x02212;1</sup>, and 1036 cm<sup>&#x02212;1</sup> are ascribed to the vibrations of C&#x02013;O, C&#x02013;O&#x02013;C, C&#x02013;C&#x02013;O, and C&#x02013;C&#x02013;C asymmetric valence vibrations of BCD.<sup><xref rid="cit80" ref-type="bibr">80</xref></sup> As shown in <xref rid="fig2" ref-type="fig">Fig. 2(b)</xref>, the absorption peak at 1017 cm<sup>&#x02212;1</sup> represents the C&#x02013;O(H) groups of ATH molecules.<sup><xref rid="cit81" ref-type="bibr">81</xref></sup> The peak at 1651 cm<sup>&#x02212;1</sup> is attributed to the C<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>O stretching vibration of ATH molecules.<sup><xref rid="cit82" ref-type="bibr">82</xref></sup> The broad band at 3299 cm<sup>&#x02212;1</sup> is ascribed to O&#x02013;H stretching, confirming the presence of hydroxyl functional groups, which play a critical role in facilitating hydrogen bonding interactions with the polymer matrix.<sup><xref rid="cit83" ref-type="bibr">83</xref></sup></p><fig position="float" id="fig2"><label>Fig. 2</label><caption><title>(a) FTIR spectra of neat polymers (PVP, EC, BCD), ATH and different ATH concentration incorporating electrospun nanofiber mats (PVP:EC:BCD:18 ppm ATH, PVP:EC:BCD:25 ppm ATH, PVP:EC:BCD:35 ppm ATH and PVP:EC:BCD:50 ppm ATH) in the 4000&#x02013;400 cm<sup>&#x02212;1</sup> wavelength range and (b) enlarged FTIR spectra of neat ATH, neat PVP:EC:BCD nanofiber mat, and 50 ppm ATH incorporating PVP:EC:BCD nanofiber mat.</title></caption><graphic xlink:href="d5na00819k-f2" position="float"/></fig><p>The characteristic peak at 1281 cm<sup>&#x02212;1</sup> represents the &#x02013;CO group stretching of the PVP:EC polymer blend,<sup><xref rid="cit84" ref-type="bibr">84</xref></sup> and when BCD is incorporated into the PVP:EC polymer blend, the position of this peak is slightly shifted to 1290 cm<sup>&#x02212;1</sup>, as shown in Fig. S2. After the incorporation of ATH, there is no change in the position of the peak at 1290 cm<sup>&#x02212;1</sup>; nevertheless, an increase in intensity is observed (see <xref rid="fig2" ref-type="fig">Fig. 2(b)</xref>). This increased intensity suggests enhanced hydrogen bonding interactions between the ATH molecules and the polymer blend, potentially due to the presence of more hydroxyl groups from the ATH, which could lead to stronger intermolecular forces within the system.<sup><xref rid="cit85" ref-type="bibr">85,86</xref></sup> The observed increase in the intensity of peaks, particularly around 3395 cm<sup>&#x02212;1</sup> (O&#x02013;H stretching) and 1651 cm<sup>&#x02212;1</sup> (C<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>O stretching), indicates stronger and more efficient interaction between ATH and the polymer matrix components.<sup><xref rid="cit87" ref-type="bibr">87</xref></sup></p><p>It is important to note that no new distinct absorption peaks characteristic of host&#x02013;guest inclusion complexation were observed in the FTIR spectra, suggesting that &#x003b2;-cyclodextrin (BCD) acts primarily as a stabilizing and dispersing agent rather than forming a defined inclusion complex with ATH. The broad O&#x02013;H and C&#x02013;O stretching bands of BCD indicate the presence of weak hydrogen bonding and van der Waals interactions with ATH and the surrounding polymer chains. Such non-covalent interactions help prevent ATH aggregation, enhance its uniform distribution, and improve its compatibility within the hydrophilic&#x02013;hydrophobic PVP&#x02013;EC matrix. This configuration therefore represents a multi-component physical mixture, which simplifies fabrication while ensuring homogeneous incorporation of ATH during electrospinning.</p><p>The role of BCD in this system is to provide a microenvironment that partially shields ATH from degradation and maintains its optical responsiveness without requiring the formation of a host&#x02013;guest supramolecular complex. Similar stabilizing effects of BCD have been reported in other polymer-based systems where physical interaction, rather than inclusion, improved dispersibility and photostability of natural dyes and bioactive molecules.<sup><xref rid="cit88" ref-type="bibr">88</xref></sup></p><p>To provide a clear summary, <xref rid="tab2" ref-type="table">Table 2</xref> lists the major FTIR peaks observed for PVP, EC, BCD, and ATH. PVP contains carbonyl groups, while EC has free hydroxyl groups, both of which are capable of forming proton donor&#x02013;acceptor interactions. Due to the presence of carbonyl and hydroxyl groups, inter- and intramolecular hydrogen bonding may play a critical role in maintaining the structure of the ATH-loaded PVP:EC:BCD nanofiber systems.<sup><xref rid="cit89" ref-type="bibr">89</xref></sup></p><table-wrap position="float" id="tab2"><label>Table 2</label><caption><title>Summary of the major FTIR peaks of PVP, EC, BCD, and ATH</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Compound</th><th rowspan="1" colspan="1">Wavenumber (cm<sup>&#x02212;1</sup>)</th><th rowspan="1" colspan="1">Functional group</th><th rowspan="1" colspan="1">Vibration type</th><th rowspan="1" colspan="1">Reference</th></tr></thead><tbody><tr><td rowspan="6" colspan="1">PVP</td><td rowspan="1" colspan="1">1651</td><td rowspan="1" colspan="1">C<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>O</td><td rowspan="1" colspan="1">Stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit65" ref-type="bibr">65</xref>
+</td></tr><tr><td rowspan="1" colspan="1">1284</td><td rowspan="1" colspan="1">C&#x02013;N</td><td rowspan="1" colspan="1">Stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit78" ref-type="bibr">78</xref>
+</td></tr><tr><td rowspan="1" colspan="1">3434</td><td rowspan="1" colspan="1">O&#x02013;H</td><td rowspan="1" colspan="1">Symmetric stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit79" ref-type="bibr">79</xref>
+</td></tr><tr><td rowspan="1" colspan="1">2950</td><td rowspan="1" colspan="1">C&#x02013;H</td><td rowspan="1" colspan="1">Symmetric stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit79" ref-type="bibr">79</xref>
+</td></tr><tr><td rowspan="1" colspan="1">1017</td><td rowspan="1" colspan="1">C&#x02013;H<sub>2</sub></td><td rowspan="1" colspan="1">Rocking vibration</td><td rowspan="1" colspan="1">
+<xref rid="cit90" ref-type="bibr">90</xref>
+</td></tr><tr><td rowspan="1" colspan="1">1225</td><td rowspan="1" colspan="1">C&#x02013;H<sub>2</sub></td><td rowspan="1" colspan="1">Twisting vibration</td><td rowspan="1" colspan="1">
+<xref rid="cit90" ref-type="bibr">90</xref>
+</td></tr><tr><td rowspan="4" colspan="1">EC</td><td rowspan="1" colspan="1">1052</td><td rowspan="1" colspan="1">C&#x02013;O&#x02013;C</td><td rowspan="1" colspan="1">Stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit65" ref-type="bibr">65</xref>
+</td></tr><tr><td rowspan="1" colspan="1">1375</td><td rowspan="1" colspan="1">C&#x02013;H</td><td rowspan="1" colspan="1">Bending</td><td rowspan="1" colspan="1">
+<xref rid="cit65" ref-type="bibr">65</xref>
+</td></tr><tr><td rowspan="1" colspan="1">2972, 2872</td><td rowspan="1" colspan="1">C&#x02013;H</td><td rowspan="1" colspan="1">Stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit65" ref-type="bibr">65</xref>
+</td></tr><tr><td rowspan="1" colspan="1">3485</td><td rowspan="1" colspan="1">O&#x02013;H</td><td rowspan="1" colspan="1">Stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit91" ref-type="bibr">91</xref>
+</td></tr><tr><td rowspan="7" colspan="1">BCD</td><td rowspan="1" colspan="1">3431</td><td rowspan="1" colspan="1">O&#x02013;H</td><td rowspan="1" colspan="1">Vibration (hydroxyl group)</td><td rowspan="1" colspan="1">
+<xref rid="cit80" ref-type="bibr">80</xref>
+</td></tr><tr><td rowspan="1" colspan="1">2927</td><td rowspan="1" colspan="1">C&#x02013;H</td><td rowspan="1" colspan="1">Stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit80" ref-type="bibr">80</xref>
+</td></tr><tr><td rowspan="4" colspan="1">1155, 1083, 1036</td><td rowspan="1" colspan="1">C&#x02013;O</td><td rowspan="4" colspan="1">Coupled vibrations</td><td rowspan="4" colspan="1">
+<xref rid="cit80" ref-type="bibr">80</xref>
+</td></tr><tr><td rowspan="1" colspan="1">C&#x02013;O&#x02013;C</td></tr><tr><td rowspan="1" colspan="1">C&#x02013;C&#x02013;O</td></tr><tr><td rowspan="1" colspan="1">C&#x02013;C&#x02013;C</td></tr><tr><td rowspan="1" colspan="1">1020</td><td rowspan="1" colspan="1">C&#x02013;C</td><td rowspan="1" colspan="1">Stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit92" ref-type="bibr">92</xref>
+</td></tr><tr><td rowspan="4" colspan="1">ATH</td><td rowspan="1" colspan="1">1017</td><td rowspan="1" colspan="1">C&#x02013;O(H)</td><td rowspan="1" colspan="1">Stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit81" ref-type="bibr">81</xref>
+</td></tr><tr><td rowspan="1" colspan="1">2500&#x02013;3434</td><td rowspan="1" colspan="1">O&#x02013;H</td><td rowspan="1" colspan="1">Stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit82" ref-type="bibr">82</xref>
+</td></tr><tr><td rowspan="1" colspan="1">1627&#x02013;1693</td><td rowspan="1" colspan="1">C<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>O</td><td rowspan="1" colspan="1">Stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit82" ref-type="bibr">82</xref>
+</td></tr><tr><td rowspan="1" colspan="1">2928</td><td rowspan="1" colspan="1">C&#x02013;H</td><td rowspan="1" colspan="1">Asymmetric stretching</td><td rowspan="1" colspan="1">
+<xref rid="cit82" ref-type="bibr">82</xref>
+</td></tr></tbody></table></table-wrap></sec><sec><label>3.3</label><title>XRD analysis</title><p>XRD analysis was employed to investigate the crystallinity and structural organization of the neat polymers, electrospun nanofiber mats and ATH. The XRD patterns obtained are depicted in <xref rid="fig3" ref-type="fig">Fig. 3</xref>. The PVP neat polymer (see <xref rid="fig3" ref-type="fig">Fig. 3(a)</xref>) exhibited two broad peaks at 10&#x000b0; and 20.5&#x000b0;, indicating its amorphous nature.<sup><xref rid="cit79" ref-type="bibr">79</xref></sup> The typical XRD pattern of EC further exhibits noticeable Bragg reflections between &#x02248;11&#x000b0; and a broad peak at 20&#x000b0; (2<italic toggle="yes">&#x003b8;</italic>), confirming the presence of short-range molecular ordering typical of semi-crystalline EC.<sup><xref rid="cit93" ref-type="bibr">93</xref></sup> Similar patterns have also been reported by Trivedi <italic toggle="yes">et al.</italic> (2015) and Qosim <italic toggle="yes">et al.</italic> (2024), supporting that the peaks observed in <xref rid="fig3" ref-type="fig">Fig. 3(a)</xref> arise from the intrinsic semi-crystalline nature of EC.<sup><xref rid="cit94" ref-type="bibr">94,95</xref></sup> The EC neat polymer, in this study (<xref rid="fig3" ref-type="fig">Fig. 3(a)</xref>) displayed a characteristic peak at 10.67&#x000b0; and a broad peak at 19.83&#x000b0;, indicating the semi-crystalline nature of the polymer.<sup><xref rid="cit91" ref-type="bibr">91</xref></sup> According to the literature, ATH has an amorphous nature and therefore gives a broad peak around 20&#x000b0; as shown in <xref rid="fig3" ref-type="fig">Fig. 3(b)</xref>.<sup><xref rid="cit74" ref-type="bibr">74</xref></sup> The PVP:EC:BCD electrospun nanocomposite exhibits an amorphous nature. Similar studies suggested that products obtained by electrospinning of PVP and EC usually exhibit an amorphous nature due to rapid solvent evaporation during electrospinning and the short travelling time before depositing the polymers and ingredients.<sup><xref rid="cit65" ref-type="bibr">65,74,78,79</xref></sup> This indicates that polymers and incorporated molecules in the nanocomposite do not have enough time to arrange in a regular crystalline structure during the electrospinning.</p><fig position="float" id="fig3"><label>Fig. 3</label><caption><title>(a) XRD pattern of neat polymers. (b) XRD pattern of neat ATH. (c) XRD patterns of the PVP:EC:BCD nanofiber mat and 18 ppm, 25 ppm, 35 ppm, and 50 ppm ATH incorporating PVP:EC:BCD nanofiber mats.</title></caption><graphic xlink:href="d5na00819k-f3" position="float"/></fig><p>The XRD patterns further confirm that the obtained nanofiber mats represent a multi-component physical mixture rather than a crystalline inclusion complex between ATH and BCD. The absence of additional diffraction peaks that would indicate a new crystalline phase confirms that BCD remains molecularly dispersed within the PVP&#x02013;EC network.<sup><xref rid="cit95" ref-type="bibr">95</xref></sup> This homogeneous dispersion supports efficient stabilization of ATH without altering its intrinsic amorphous characteristics. Such amorphous, physically mixed systems have been reported to enhance the optical responsiveness and environmental stability of encapsulated molecules, particularly natural pigments, while avoiding the need for complex synthesis steps associated with pre-formed inclusion complexes.<sup><xref rid="cit96" ref-type="bibr">96</xref></sup></p><p>However, in this study, a slight increase in crystallinity was observed at around 20&#x000b0; (<xref rid="fig3" ref-type="fig">Fig. 3(c)</xref>) after the incorporation of ATH into the polymer matrices, which is similar to the peak appearing in the neat ATH XRD diffractogram shown in <xref rid="fig3" ref-type="fig">Fig. 3(b)</xref>. This may result from the plasticizing effect of ATH, which refers to its ability to weaken intermolecular electrostatic interactions.<sup><xref rid="cit97" ref-type="bibr">97</xref></sup> Similar studies, such as that of Xu <italic toggle="yes">et al.</italic> (2025), reported that the crystallinity of their ATH-incorporating nanofibers increased after the ATH concentration exceeded 6%.<sup><xref rid="cit97" ref-type="bibr">97</xref></sup> Additionally, ATH molecules may engage in intramolecular interactions, such as hydrogen bonding with these polymers. As a result, increasing the concentration of ATH could promote the formation of a more ordered structure rather than maintaining the random orientation of the polymer chains. Therefore, it can be deduced that the increment in ATH concentration led to a slight increase in the crystallinity of the PVP:EC:BCD nanofibers and the electrospun nanofibers still maintain sufficient flexibility and amorphous characteristics necessary for their intended applications.</p></sec><sec><label>3.4</label><title>Thermogravimetric analysis (TGA)</title><p>The thermal degradation patterns of electrospun nanofibers are depicted in <xref rid="fig4" ref-type="fig">Fig. 4(a) and (b)</xref>. Both <xref rid="fig4" ref-type="fig">Fig. 4(a) and (b)</xref> show the initial weight loss of all samples occurred between 50 &#x000b0;C and 100 &#x000b0;C due to the removal of physically absorbed water.<sup><xref rid="cit98" ref-type="bibr">98</xref></sup> The second weight loss region between 150 &#x000b0;C and 600 &#x000b0;C represents decomposition of the precursors. Neat PVP undergoes decomposition in the temperature range of 300 &#x000b0;C to 600 &#x000b0;C, while other neat polymers exhibit thermal decomposition between 200 &#x000b0;C and 400 &#x000b0;C.<sup><xref rid="cit85" ref-type="bibr">85&#x02013;87</xref></sup> After incorporating different ATH concentrations into the PVP&#x02013;EC&#x02013;BCD polymer blend, the decomposition temperature has shifted to a higher value. For 18 ppm, it was at 227 &#x000b0;C with a total weight loss of 30%, while it was 290 &#x000b0;C, 345 &#x000b0;C, and 350 &#x000b0;C for 25 ppm, 35 ppm, and 50 ppm, respectively, accounting for weight loss percentages of 16%, 22% and 23%.</p><fig position="float" id="fig4"><label>Fig. 4</label><caption><title>TGA analysis of electrospun nanofibers. (a) TGA analysis of ATH powder and neat polymers. (b) TGA analysis of neat polymer blends and polymer blends incorporating different ATH concentrations (18 ppm, 25 ppm, 35 ppm, and 50 ppm). (c) DTG analysis of neat polymers, ATH, PVP:EC:BCD, and 50 ppm ATH incorporating PVP:EC:BCD.</title></caption><graphic xlink:href="d5na00819k-f4" position="float"/></fig><p>These results indicate a clear enhancement in thermal stability with increasing ATH concentration. Further insights from the differential thermogravimetric (DTG) analysis presented in <xref rid="fig4" ref-type="fig">Fig. 4(c)</xref> support this observation. The DTG curves show peak decomposition temperatures as follows: PVP &#x02013; 457 &#x000b0;C, EC &#x02013; 366 &#x000b0;C, BCD &#x02013; 374 &#x000b0;C, ATH &#x02013; 326 &#x000b0;C, PVP:EC:BCD &#x02013; 450 &#x000b0;C, and PVP:EC:BCD with 50 ppm ATH &#x02013; 454 &#x000b0;C. These values confirm that the 50 ppm ATH-loaded nanofiber mat exhibits a higher decomposition temperature than most neat polymers (except PVP) and slightly improved thermal stability compared to the PVP:EC:BCD system without ATH.<sup><xref rid="cit99" ref-type="bibr">99</xref></sup> Our results suggest a high thermal stability for ATH-incorporating PVP:EC:BCD nanofibers.</p></sec><sec><label>3.5</label><title>Zebrafish toxicity analysis (FET 236 acute toxicity assessment)</title><p>The acute toxicity studies of the developed pH-sensitive electrospun nanofiber mats were conducted using zebrafish embryos. The acute toxicity analysis was conducted to verify that the pH-sensitive nanofiber mat does not pose any toxicity risks when applied to sensitive areas, such as the eye. Experiments were performed according to the guidelines of the Organisation for Economic Co-operation and Development (OECD) 2013 following FET236 acute toxicity assessment guidelines. All zebrafish experiments were conducted under the standard mini-zebrafish rearing system at the Centre for Advanced Materials and Devices (CAMD), Department of Chemistry, University of Colombo. All experimental procedures complied with the Guidelines for the Care and Use of Laboratory Animals and were approved by the Animal Ethics Committee of the Institute of Biology (IOB), Sri Lanka, under ethical application number ERC IOBSL 19907 2019. This study demonstrates various types of embryonic developmental toxicity anomalies in fish exposed to different concentrations of ATH incorporated into the developed pH-sensitive material, as illustrated in <xref rid="fig5" ref-type="fig">Fig. 5</xref>. This figure provides a visual depiction of the developmental deformities observed in zebrafish embryos following exposure to various concentrations of ATH-incorporating PVP&#x02013;EC&#x02013;BCD mats. No structural deformities were observed in the control group (<xref rid="fig5" ref-type="fig">Fig. 5(a)</xref>); however, in embryos exposed to the neat polymer mat without ATH (<xref rid="fig5" ref-type="fig">Fig. 5(b) and (c)</xref>), pericardial edema (PE) and spinal scoliosis (SC) were noted, indicating the potential toxicity of the polymer itself. At an ATH concentration of 18 ppm (<xref rid="fig5" ref-type="fig">Fig. 5(d)</xref>), the embryos exhibited pericardial edema, yolk sac edema (YSE), and spinal scoliosis. As the concentration of ATH increased to 25 ppm (<xref rid="fig5" ref-type="fig">Fig. 5(e)&#x02013;(h)</xref>), yolk sac edema became the predominant deformity, with increasing severity at 35 ppm and 50 ppm (<xref rid="fig5" ref-type="fig">Fig. 5(i)</xref>). These findings suggest that while the neat polymer may cause deformities, adding ATH introduces specific anomalies, particularly at higher concentrations.</p><fig position="float" id="fig5"><label>Fig. 5</label><caption><title>Deformities developed after exposing zebrafish embryos to different ATH concentrations incorporated in PVP&#x02013;EC&#x02013;BCD mats. (a) No structural deformities (NSD) in control embryos. (b) and (c) Developmental abnormalities in zebrafish embryos exposed to a PVP:EC:BCD neat polymer mat showing pericardial edema (PE) and spinal scoliosis. (d) 18 ppm ATH incorporating polymer mat showing pericardial edema (PE), yolk sac edema (YSE), and spinal scoliosis (SC). (e)&#x02013;(h) Yolk sac edema (YSE) developed at 25 ppm of ATH. (h) and (i) Yolk sac edema (YSE) developed at 35 ppm and 50 ppm ATH concentrations.</title></caption><graphic xlink:href="d5na00819k-f5" position="float"/></fig><p>The statistical analysis of the zebrafish toxicity assay is presented in <xref rid="fig6" ref-type="fig">Fig. 6</xref>. Despite the occurrence of deformities, especially yolk sac edema, was prominently observed with increasing ATH concentrations. However, the frequency and severity did not correlate with a statistically significant increase in overall teratogenic effects, which is the ability of a substance to cause congenital deformities. Compared with the control, there is no significant difference in the hatching rate of embryos exposed to ATH concentrations of 18 ppm, 25 ppm, 35 ppm, and 50 ppm, and the neat polymer (PVP:EC:BCD) fiber mats (see <xref rid="fig6" ref-type="fig">Fig. 6(a)</xref>). Similarly, the survival rate of embryos did not show any significant differences across all tested ATH concentrations at any time interval. This suggests that while hatching rates remained unaffected at all tested ATH concentrations, overall embryo viability also remained largely unaffected, as shown in <xref rid="fig6" ref-type="fig">Fig. 6(b)</xref>. According to the heart rate analysis depicted in <xref rid="fig6" ref-type="fig">Fig. 6(c)</xref>, there were no significant differences across all ATH concentrations compared to the control. This suggests that ATH exposure did not considerably affect zebrafish cardiac function within the parameters tested. According to <xref rid="fig6" ref-type="fig">Fig. 6(d)</xref>, deformities observed in the exposed embryos included spinal scoliosis, pericardial edema, and yolk sac edema, with no notable variation between samples with different ATH concentrations and the neat polymer samples. Yolk sac edema was observable more frequently in embryos exposed to a 25 ppm ATH concentration compared to other anomalies, but this difference was not statistically significant compared to the controls at any time interval.</p><fig position="float" id="fig6"><label>Fig. 6</label><caption><title>Zebrafish toxicity assay statistical analysis of the developed pH-sensitive material: (a) hatching rate analysis, (b) survival rate analysis, (c) heart rate analysis and (d) deformity analysis.</title></caption><graphic xlink:href="d5na00819k-f6" position="float"/></fig><p>Our results suggest that ATH exposure within the concentration range of 18 ppm to 50 ppm did not significantly affect hatching rates or survival across all tested concentrations, nor did it significantly impact the heart rate. The deformities observed, including spinal scoliosis, pericardial edema, and yolk sac edema, were consistent across all concentrations and the neat polymer, with no statistically significant differences compared to the control. Accordingly, ATH had not imposed any physiological alterations in zebrafish larvae within this dose range. These findings suggest that all tested ATH concentrations (18, 25, 35, and 50 ppm) had no substantial teratogenic risk to zebrafish embryos, exhibiting biocompatibility.</p></sec><sec><label>3.6</label><title>Color variation analysis</title><p>The color variation analysis aimed to evaluate the sensitivity and responsiveness of ATH-incorporating electrospun nanofiber mats to pH fluctuations, an essential characteristic for their potential application as ocular pH sensors. By quantifying color responses across a broad pH range (1&#x02013;12), the analysis provided valuable insights into the ability of nanomats to detect and visually represent pH changes. This functionality is critical for the rapid identification and treatment of ocular conditions such as chemical injuries. <xref rid="fig7" ref-type="fig">Fig. 7(a)</xref> illustrates the visual color-changing performance of pH-sensitive nanofiber mats containing ATH at concentrations of 18, 25, 35, and 50 ppm. <xref rid="fig7" ref-type="fig">Fig. 7(b)&#x02013;(e)</xref> present the corresponding RGB analyses for each concentration, demonstrating the variation in the color intensity across the pH range. The results reveal distinct color change patterns that depend on both pH level and ATH concentration. At 18 ppm, <xref rid="fig7" ref-type="fig">Fig. 7(a)</xref> shows moderate visual fluctuations, while <xref rid="fig7" ref-type="fig">Fig. 7(b)</xref> confirms these changes through RGB analysis. However, color variations between pH 2 and 6 are less distinguishable to the naked eye, indicating reduced sensitivity to acidic environments. This is further supported by the prevalence of the blue bars in the RGB graph. While pH 6 and 7 exhibit noticeable color differences (confirmed by varying RGB values), pH 7 to 9 show minimal variation, aligning with limited visual distinction. A significant difference is observed between pH 9 and 10, whereas pH 10 to 12 show reduced color differentiation, as reflected by similar RGB bar heights.</p><fig position="float" id="fig7"><label>Fig. 7</label><caption><title>Color variation analysis of ATH-incorporating electrospun nanofiber mats across a pH range of 1&#x02013;12. (a) Visual color responses of nanofiber mats containing ATH concentrations of 18, 25, 35, and 50 ppm. (b&#x02013;e) Corresponding RGB analysis graphs for each concentration. (f) Developed reference color code.</title></caption><graphic xlink:href="d5na00819k-f7" position="float"/></fig><p>In the 25 ppm series, <xref rid="fig7" ref-type="fig">Fig. 7(c)</xref> and the corresponding visual data in <xref rid="fig7" ref-type="fig">Fig. 7(a)</xref> indicate a discernible colour response resulting from the increased ATH concentration. Nevertheless, the pH 2&#x02013;6 range still presents limited visual distinguishability, as supported by similar RGB bar heights. A visual distinction was observed between pH 6 and 7, marked by a shift in prominent RGB components from blue at pH 6 to green at pH 7, highlighting the transition. However, the color responses between pH 7 and 10 appear similar in both visual and RGB data. Distinct differences were seen between pH 10 and 11, as indicated by increased red and green values, while the distinction between pH 11 and 12 was supported by a decrease in the blue bar height. At 35 ppm, some of the color responses became distinguishable across the range, as shown in <xref rid="fig7" ref-type="fig">Fig. 7(a)</xref>. pH 2 shows a clear change, while pH 4 to 6 remains less distinct, confirmed by the similar RGB bar heights in <xref rid="fig7" ref-type="fig">Fig. 7(d)</xref>. Notably, pH 7 to 9 revealed recognizable visual and RGB variations, while pH 9 and 10 showed minimal change. A noticeable color difference was observed between pH 10 and 11. However, the variation becomes less distinct between pH 11 and 12. The 50 ppm series demonstrates effective color responsiveness across both acidic and basic pH levels. As shown in <xref rid="fig7" ref-type="fig">Fig. 7(a)</xref> and further validated by the RGB analysis in <xref rid="fig7" ref-type="fig">Fig. 7(e)</xref>, distinct variations in RGB quantifications were well correlated with each pH value. This confirmed enhanced color fluctuation at every pH level, supporting the 50 ppm ATH concentration as optimal for broad-range pH detection. The results indicate that this concentration provides enhanced sensitivity, making it especially effective for detecting changes in ocular pH during chemical exposure. In addition, a standardized color reference code was developed based on the performance of the 50 ppm ATH-incorporating nanofiber mats across the tested pH values. This reference, presented in <xref rid="fig7" ref-type="fig">Fig. 7(f)</xref>, serves as a visual guide to support the interpretation of pH levels in real-world scenarios. Such a reference can be used in practical applications to improve the speed and accuracy of ocular pH assessment in clinical or emergency settings. Considering the need for precise and immediate pH detection in cases of accidental ocular chemical spillages, the 50 ppm ATH-incorporating nanofiber mats stood out due to their clear, observable color responses across the entire pH spectrum. Their robust performance under both acidic and alkaline conditions makes them ideal for such critical applications.</p></sec><sec><label>3.7</label><title>Shelf-life evaluation</title><p>The shelf-life evaluation of the pH-sensitive electrospun nanofiber mats examined in this study revealed that storage conditions have a significant impact on the long-term stability and pH responsiveness of the materials. Over the three month evaluation period, the mats were tested at two week intervals under different storage conditions, such as dark, light, and refrigeration. The main objective of this study was to identify the optimal storage condition that maintains the pH-sensitive properties of the mats over time while minimizing degradation. The storage environments were characterized as follows: refrigeration at approximately 4 &#x000b1; 1 &#x000b0;C, light exposure under ambient room conditions at 28 &#x000b1; 2 &#x000b0;C with relative humidity (RH) of 70&#x02013;80%, and dark storage in a closed container at room temperature (28 &#x000b1; 2 &#x000b0;C, RH 65&#x02013;75%) to minimize light penetration.</p><p>According to the analysis (Fig. S3 in the SI section), it was found that mats stored under refrigeration showed the most stable performance in terms of pH responsiveness. Throughout the three months, the pH-sensitive color changes of these mats remained consistent across all tested pH levels (3, 5, 7, 9, and 11). Nevertheless, the mats stored under dark and light conditions exhibited a gradual decline in their pH sensitivity, with noticeable degradation starting as early as the fourth week in light-exposed samples. This suggests that prolonged exposure to light may accelerate the breakdown of ATH within the fibers, leading to reduced pH sensitivity. Similarly, the mats stored under dark conditions maintained their pH responsiveness better than those exposed to light but still showed minor degradation in color intensity after six weeks.</p><p>One of the significant findings of this study was the pH response time. The mats stored in refrigeration consistently demonstrated a rapid response to pH changes, with a reaction time of less than 5 seconds, even after three months of storage. In contrast, mats stored under light conditions exhibited a slower response time, particularly after eight weeks, where the color change time increased to around 10&#x02013;15 seconds, indicating a loss of reactivity. Mats stored under dark conditions showed a moderate response time, with slight increases in reaction time (&#x0223c;6&#x02013;8 s) observed after six weeks of storage. The faster pH response time observed in refrigerated mats is likely due to the preservation of ATH's structural integrity, which is sensitive to environmental conditions such as temperature and light.<sup><xref rid="cit89" ref-type="bibr">89,100</xref></sup> The findings suggest that refrigeration helps preserve both the color intensity and the pH-sensitive functionality of the nanofiber mats, making it the most suitable storage condition for long-term applications. These results further highlight the importance of controlling storage conditions to ensure the continued efficacy of pH-sensitive nanomaterials in practical applications, such as medical diagnostics or environmental monitoring.</p></sec></sec><sec><label>4</label><title>Conclusions</title><p>This study developed a novel ATH-incorporating PVP&#x02013;EC&#x02013;BCD electrospun nanofiber mat as a rapid and biocompatible pH sensor for ocular applications. The sensor exhibited uniform nanofiber morphology with mean diameters ranging from 201.97 &#x000b1; 18.74 nm to 390.79 &#x000b1; 13.31 nm and demonstrated successful ATH incorporation, as verified by FTIR and XRD analyses. Thermal and biocompatibility evaluations confirmed improved stability and non-toxicity within the tested ATH concentration range (18&#x02013;50 ppm). The 50 ppm ATH formulation provided the most distinct and reversible color transitions over a full pH range (1&#x02013;12), with rapid response and excellent shelf stability under refrigerated conditions.</p><p>Compared with conventional ocular pH detection methods such as litmus papers, nitrazine strips, bromothymol blue assays, and the glass probe method, the proposed nanofiber-based system offers enhanced sensitivity, rapid visualization, and practical adaptability for clinical and emergency settings. The integration of natural pH-responsive ATH pigments into a biocompatible nanofiber matrix presents a sustainable and minimally invasive alternative to existing technologies. Future work will focus on enhancing sensor stability under physiological conditions and expanding its applicability to other biomedical sensing applications.</p></sec><sec><title>Author contributions</title><p>Benuwan Sandaruwan: conceptualization, methodology, investigation, data curation, formal analysis, writing &#x02013; original draft preparation, writing &#x02013; review &#x00026; editing. Danushika C. Manatunga: conceptualization, supervision, writing &#x02013; review &#x00026; editing, funding acquisition. Rohan S. Dassanayake and Ruchire Eranga Wijesinghe: conceptualization, supervision, writing &#x02013; review &#x00026; editing. Renuka Liyanage, Pabakara Costha, H. M. L. P. B. Herath, K. M. Nalin de Silva, Rohini M. de Silva, and Suranga M. Rajapaksha: conceptualization, supervision, visualization, validation. Udaya Wijenayake: conceptualization, supervision, funding acquisition. All authors have approved the final version of the manuscript.</p></sec><sec sec-type="COI-statement"><title>Conflicts of interest</title><p>The authors declare that there is no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material id="NA-OLF-D5NA00819K-s001" position="float" content-type="local-data"><label>NA-OLF-D5NA00819K-s001</label><media xlink:href="NA-OLF-D5NA00819K-s001.pdf" id="d67e1488" position="anchor"/></supplementary-material><supplementary-material id="NA-OLF-D5NA00819K-s002" position="float" content-type="local-data"><label>NA-OLF-D5NA00819K-s002</label><media xlink:href="NA-OLF-D5NA00819K-s002.pdf" id="d67e1491" position="anchor"/></supplementary-material><supplementary-material id="NA-OLF-D5NA00819K-s003" position="float" content-type="local-data"><label>NA-OLF-D5NA00819K-s003</label><media xlink:href="NA-OLF-D5NA00819K-s003.pdf" id="d67e1494" position="anchor"/></supplementary-material><supplementary-material id="NA-OLF-D5NA00819K-s004" position="float" content-type="local-data"><label>NA-OLF-D5NA00819K-s004</label><media xlink:href="NA-OLF-D5NA00819K-s004.pdf" id="d67e1497" position="anchor"/></supplementary-material></sec></body><back><ack><p>We gratefully acknowledge the financial support provided by the University Grants Scheme of the University of Sri Jayewardenepura under the grant number ASP/01/RE/TEC/2022/59. We also extend our sincere thanks to the Centre for Advanced Materials and Devices (CAMD), Department of Chemistry, University of Colombo, for the valuable assistance during fiber preparation. Special thanks are extended to Mr Egodage Chavin Janitha Perera, Senior Chemist at the Department of Chemistry, University of Colombo, for his expert guidance and support with FTIR characterization.</p></ack><sec sec-type="data-availability"><title>Data availability</title><p>The authors declare that all data supporting the findings of this study are available within the article and its supplementary information (SI). Supplementary information: includes chemical structure illustrations of PVP, EC, BCD, and ATH (Fig. S1), enlarged FTIR spectra in the 700&#x02013;1500 cm<sup>&#x02212;1</sup> region (Fig. S2), and shelf-life evaluation data of pH-sensitive electrospun nanofiber mats aganist time (Fig. S3). See DOI: <uri xlink:href="https://doi.org/10.1039/d5na00819k">https://doi.org/10.1039/d5na00819k</uri>.</p></sec><ref-list><title>Notes and references</title><ref id="cit1"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mashige</surname><given-names>K.</given-names></name>
+</person-group><source>S. Afr. Fam. Pract.</source><year>2016</year><volume>58</volume><fpage>1</fpage><lpage>4</lpage></element-citation></ref><ref id="cit2"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Allam</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>El-Mokhtar</surname><given-names>M. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Elsabahy</surname><given-names>M.</given-names></name>
+</person-group><source>J. Pharm. Pharmacol.</source><year>2019</year><volume>71</volume><fpage>1209</fpage><lpage>1221</lpage><pub-id pub-id-type="pmid">31124593</pub-id>
+</element-citation></ref><ref id="cit3"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Carney</surname><given-names>L. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mauger</surname><given-names>T. F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hill</surname><given-names>R. M.</given-names></name>
+</person-group><source>Acta Ophthalmol.</source><year>1990</year><volume>68</volume><fpage>75</fpage><lpage>79</lpage><pub-id pub-id-type="pmid">2336938</pub-id>
+</element-citation></ref><ref id="cit4"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>NajafiKhoshnoo</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kim</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tavares-Negrete</surname><given-names>J. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Pei</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Das</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lee</surname><given-names>S. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rajendran</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Esfandyarpour</surname><given-names>R.</given-names></name>
+</person-group><source>Adv. Mater. Technol.</source><year>2023</year><volume>8</volume><fpage>2201655</fpage></element-citation></ref><ref id="cit5"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lim</surname><given-names>L. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ah-Kee</surname><given-names>E. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Collins</surname><given-names>C. E.</given-names></name>
+</person-group><source>Int. J. Ophthalmol.</source><year>2014</year><volume>7</volume><fpage>1067</fpage><lpage>1068</lpage><pub-id pub-id-type="pmid">25540767</pub-id>
+</element-citation></ref><ref id="cit6"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Abelson</surname><given-names>M. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Udell</surname><given-names>I. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Weston</surname><given-names>J. H.</given-names></name>
+</person-group><source>Arch. Ophthalmol.</source><year>1981</year><volume>99</volume><fpage>301</fpage><pub-id pub-id-type="pmid">7469869</pub-id>
+</element-citation></ref><ref id="cit7"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kuckelkorn</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Schrage</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Keller</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Redbrake</surname><given-names>C.</given-names></name>
+</person-group><source>Acta Ophthalmol. Scand.</source><year>2002</year><volume>80</volume><fpage>4</fpage><lpage>10</lpage><pub-id pub-id-type="pmid">11906296</pub-id>
+</element-citation></ref><ref id="cit8"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Breazzano</surname><given-names>M. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Day</surname><given-names>H. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tanaka</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tran</surname><given-names>U.</given-names></name>
+</person-group><source>Acad. Emerg. Med.</source><year>2019</year><volume>26</volume><fpage>796</fpage><lpage>802</lpage><pub-id pub-id-type="pmid">30246924</pub-id>
+</element-citation></ref><ref id="cit9"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sandaruwan</surname><given-names>H. H. P. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Manatunga</surname><given-names>D. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liyanage</surname><given-names>R. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Costha</surname><given-names>N. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dassanayake</surname><given-names>R. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wijesinghe</surname><given-names>R. E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhou</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>Y.</given-names></name>
+</person-group><source>Anal. Methods</source><year>2024</year><volume>17</volume><fpage>408</fpage><lpage>431</lpage></element-citation></ref><ref id="cit10"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Eslani</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Baradaran-Rafii</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Movahedan</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Djalilian</surname><given-names>A. R.</given-names></name>
+</person-group><source>J. Ophthalmol.</source><year>2014</year><volume>2014</volume><fpage>196827</fpage><pub-id pub-id-type="pmid">25105018</pub-id>
+</element-citation></ref><ref id="cit11"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bizrah</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yusuf</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ahmad</surname><given-names>S.</given-names></name>
+</person-group><source>Eye</source><year>2019</year><volume>33</volume><fpage>1362</fpage><lpage>1377</lpage><pub-id pub-id-type="pmid">31086244</pub-id>
+</element-citation></ref><ref id="cit12"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Spector</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fernandez</surname><given-names>W. G.</given-names></name>
+</person-group><source>Emerg. Med. Clin. North Am.</source><year>2008</year><volume>26</volume><fpage>125</fpage><lpage>136</lpage><pub-id pub-id-type="pmid">18249260</pub-id>
+</element-citation></ref><ref id="cit13"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Monaghan</surname><given-names>M. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Brogan</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lockington</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rotchford</surname><given-names>A. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ramaesh</surname><given-names>K.</given-names></name>
+</person-group><source>Eye</source><year>2020</year><volume>34</volume><fpage>2133</fpage><lpage>2134</lpage><pub-id pub-id-type="pmid">31848458</pub-id>
+</element-citation></ref><ref id="cit14"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Menke</surname><given-names>B. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ryu</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Justin</surname><given-names>G. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Chundury</surname><given-names>R. V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hayek</surname><given-names>B. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Debiec</surname><given-names>M. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yeh</surname><given-names>S.</given-names></name>
+</person-group><source>Front. Toxicol.</source><year>2023</year><volume>5</volume><fpage>1</fpage><lpage>8</lpage></element-citation></ref><ref id="cit15"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jha</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sonwani</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Singh</surname><given-names>S.</given-names></name>
+</person-group><source>Ophthalmol. Res.</source><year>2024</year><volume>19</volume><fpage>7</fpage><lpage>15</lpage></element-citation></ref><ref id="cit16"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Connor</surname><given-names>A. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Severn</surname><given-names>P.</given-names></name>
+</person-group><source>Emerg. Med. J.</source><year>2009</year><volume>26</volume><fpage>811</fpage><lpage>812</lpage><pub-id pub-id-type="pmid">19850809</pub-id>
+</element-citation></ref><ref id="cit17"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Steinegger</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wolfbeis</surname><given-names>O. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Borisov</surname><given-names>S. M.</given-names></name>
+</person-group><source>Chem. Rev.</source><year>2020</year><volume>120</volume><fpage>12357</fpage><lpage>12489</lpage><pub-id pub-id-type="pmid">33147405</pub-id>
+</element-citation></ref><ref id="cit18"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Fischer</surname><given-names>F. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wiederholt</surname><given-names>M.</given-names></name>
+</person-group><source>Graefe's Arch. Clin. Exp. Ophthalmol.</source><year>1982</year><volume>218</volume><fpage>168</fpage><lpage>170</lpage><pub-id pub-id-type="pmid">7095445</pub-id>
+</element-citation></ref><ref id="cit19"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>F. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Maurice</surname><given-names>D. M.</given-names></name>
+</person-group><source>Exp. Eye Res.</source><year>1990</year><volume>50</volume><fpage>251</fpage><lpage>259</lpage><pub-id pub-id-type="pmid">2156725</pub-id>
+</element-citation></ref><ref id="cit20"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Abelson</surname><given-names>M. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Udell</surname><given-names>I. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Weston</surname><given-names>J. H.</given-names></name>
+</person-group><source>Arch. Ophthalmol.</source><year>1981</year><volume>99</volume><fpage>301</fpage><pub-id pub-id-type="pmid">7469869</pub-id>
+</element-citation></ref><ref id="cit21"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Riaz</surname><given-names>R. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Elsherif</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Moreddu</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rashid</surname><given-names>I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hassan</surname><given-names>M. U.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yetisen</surname><given-names>A. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Butt</surname><given-names>H.</given-names></name>
+</person-group><source>ACS Omega</source><year>2019</year><volume>4</volume><fpage>21792</fpage><lpage>21798</lpage><pub-id pub-id-type="pmid">31891056</pub-id>
+</element-citation></ref><ref id="cit22"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Monaghan</surname><given-names>M. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Brogan</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lockington</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rotchford</surname><given-names>A. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ramaesh</surname><given-names>K.</given-names></name>
+</person-group><source>Eye</source><year>2020</year><volume>34</volume><fpage>2133</fpage><lpage>2134</lpage><pub-id pub-id-type="pmid">31848458</pub-id>
+</element-citation></ref><ref id="cit23"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Alappat</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Alappat</surname><given-names>J.</given-names></name>
+</person-group><source>Molecules</source><year>2020</year><volume>25</volume><issue>23</issue><fpage>5500</fpage><pub-id pub-id-type="pmid">33255297</pub-id>
+</element-citation></ref><ref id="cit24"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Delgado-Vargas</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jimenez</surname><given-names>A. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Paredes-Lopez</surname><given-names>O.</given-names></name>
+</person-group><source>Crit. Rev. Food Sci. Nutr.</source><year>2000</year><volume>40</volume><issue>3</issue><fpage>173</fpage><lpage>289</lpage><pub-id pub-id-type="pmid">10850526</pub-id>
+</element-citation></ref><ref id="cit25"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Torrini</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Renai</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Scarano</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Del Bubba</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Palladino</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Minunni</surname><given-names>M.</given-names></name>
+</person-group><source>Talanta</source><year>2022</year><volume>240</volume><fpage>123156</fpage><pub-id pub-id-type="pmid">34942476</pub-id>
+</element-citation></ref><ref id="cit26"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Liudvinaviciute</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rutkaite</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bendoraitiene</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Klimaviciute</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dagys</surname><given-names>L.</given-names></name>
+</person-group><source>Int. J. Biol. Macromol.</source><year>2020</year><volume>164</volume><fpage>726</fpage><lpage>734</lpage><pub-id pub-id-type="pmid">32698067</pub-id>
+</element-citation></ref><ref id="cit27"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>J.</given-names></name>
+</person-group>, <person-group person-group-type="author"><name><surname>Celli</surname><given-names>G. B.</given-names></name></person-group> and <person-group person-group-type="author"><name><surname>Brooks</surname><given-names>M. S.</given-names></name></person-group>, <source>Anthocyanins from Nat. sources Exploit. Target. Deliv. Improv. Heal.</source>, <year>2019</year>, pp. 1&#x02013;33</mixed-citation></ref><ref id="cit28"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Roy</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rhim</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Roy</surname><given-names>S.</given-names></name>
+</person-group><source>Crit. Rev. Food Sci. Nutr.</source><year>2020</year><fpage>1</fpage><lpage>29</lpage></element-citation></ref><ref id="cit29"><mixed-citation publication-type="other">
+<person-group person-group-type="author">
+<name><surname>Pliszka</surname><given-names>B.</given-names></name>
+</person-group>, <person-group person-group-type="author"><name><surname>Olszewska</surname><given-names>T.</given-names></name></person-group> and <person-group person-group-type="author"><name><surname>Drabent</surname><given-names>R.</given-names></name></person-group>, <source>Proc. SPIE 4515, Light and Optics in Biomedicine</source>, <year>2001</year>, pp. 103&#x02013;107, <pub-id pub-id-type="doi">10.1117/12.432965</pub-id></mixed-citation></ref><ref id="cit30"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bridle</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Timberlake</surname><given-names>C. F.</given-names></name>
+</person-group><source>Food Chem.</source><year>1997</year><volume>58</volume><fpage>103</fpage><lpage>109</lpage></element-citation></ref><ref id="cit31"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Miyake</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Takahashi</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sasaki</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kobayashi</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tsubota</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ozawa</surname><given-names>Y.</given-names></name>
+</person-group><source>Lab. Invest.</source><year>2012</year><volume>92</volume><fpage>102</fpage><lpage>109</lpage><pub-id pub-id-type="pmid">21894150</pub-id>
+</element-citation></ref><ref id="cit32"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Semeraro</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Morescalchi</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Cancarini</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Russo</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rezzola</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Costagliola</surname><given-names>C.</given-names></name>
+</person-group><source>Diabetes Metab.</source><year>2019</year><volume>45</volume><fpage>517</fpage><lpage>527</lpage><pub-id pub-id-type="pmid">31005756</pub-id>
+</element-citation></ref><ref id="cit33"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Morata</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Escott</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Loira</surname><given-names>I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>L&#x000f3;pez</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Palomero</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gonz&#x000e1;lez</surname><given-names>C.</given-names></name>
+</person-group><source>Antioxidants</source><year>2021</year><volume>10</volume><issue>12</issue><fpage>1863</fpage><pub-id pub-id-type="pmid">34942965</pub-id>
+</element-citation></ref><ref id="cit34"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Diaz-Uribe</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Vallejo</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Camargo</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mu&#x000f1;oz-Acevedo</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Qui&#x000f1;ones</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Schott</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zarate</surname><given-names>X.</given-names></name>
+</person-group><source>J. Photochem. Photobiol., A</source><year>2019</year><volume>384</volume><fpage>112050</fpage></element-citation></ref><ref id="cit35"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ghareaghajlou</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hallaj-Nezhadi</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ghasempour</surname><given-names>Z.</given-names></name>
+</person-group><source>Food Chem.</source><year>2021</year><volume>365</volume><fpage>130482</fpage><pub-id pub-id-type="pmid">34243124</pub-id>
+</element-citation></ref><ref id="cit36"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Patil</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Madhusudhan</surname><given-names>M. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Babu</surname><given-names>B. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Raghavarao</surname><given-names>K. S. M. S.</given-names></name>
+</person-group><source>Chem. Eng. Process.</source><year>2009</year><volume>48</volume><fpage>364</fpage><lpage>369</lpage></element-citation></ref><ref id="cit37"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Thanh</surname><given-names>V. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tran</surname><given-names>N. Y. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Linh</surname><given-names>N. T. V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Vy</surname><given-names>T. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Truc</surname><given-names>T. T.</given-names></name>
+</person-group><source>IOP Conf. Ser.:Mater. Sci. Eng.</source><year>2020</year><volume>736</volume><fpage>2</fpage><lpage>8</lpage></element-citation></ref><ref id="cit38"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Singh</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gaikwad</surname><given-names>K. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lee</surname><given-names>Y. S.</given-names></name>
+</person-group><source>Korean J. Packag. Sci. Technol.</source><year>2018</year><volume>24</volume><fpage>167</fpage><lpage>180</lpage></element-citation></ref><ref id="cit39"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gecchele</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Negri</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Cauzzi</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Cuccurullo</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Commisso</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Patrucco</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Anceschi</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zaffani</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Avesani</surname><given-names>L.</given-names></name>
+</person-group><source>Molecules</source><year>2021</year><volume>26</volume><fpage>1</fpage><lpage>19</lpage></element-citation></ref><ref id="cit40"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>C&#x000e2;mara</surname><given-names>J. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Locatelli</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Pereira</surname><given-names>J. A. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Oliveira</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Arlorio</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fernandes</surname><given-names>I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Perestrelo</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Freitas</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bordiga</surname><given-names>M.</given-names></name>
+</person-group><source>Nutrients</source><year>2022</year><volume>14</volume><fpage>5133</fpage><pub-id pub-id-type="pmid">36501163</pub-id>
+</element-citation></ref><ref id="cit41"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Palak</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kayao&#x0011f;lu</surname><given-names>B. K.</given-names></name>
+</person-group><source>Food Packag. Shelf Life</source><year>2023</year><volume>39</volume><fpage>101154</fpage></element-citation></ref><ref id="cit42"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Nazar</surname><given-names>M. I. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>George</surname><given-names>T. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Muhammadaly</surname><given-names>S. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kanoth</surname><given-names>B. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>George</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Balachandrakurup</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dominic</surname><given-names>M. D. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Nair</surname><given-names>A. B.</given-names></name>
+</person-group><source>Biomass Convers. Biorefinery</source><year>2024</year><volume>14</volume><fpage>20229</fpage><lpage>20240</lpage></element-citation></ref><ref id="cit43"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Prietto</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Pintoa</surname><given-names>V. Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>El Halala</surname><given-names>S. L. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Greque</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Morais</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Costa</surname><given-names>J. A. V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lim</surname><given-names>L.-T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dias</surname><given-names>A. R. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zavarezea</surname><given-names>E. d. R.</given-names></name>
+</person-group><source>J. Food. Agric.</source><year>2018</year><volume>98</volume><fpage>2735</fpage><lpage>2741</lpage></element-citation></ref><ref id="cit44"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lv</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>He</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Xu</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jin</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yuan</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Guo</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Cui</surname><given-names>B.</given-names></name>
+</person-group><source>Int. J. Biol. Macromol.</source><year>2024</year><volume>256</volume><fpage>128384</fpage><pub-id pub-id-type="pmid">38029905</pub-id>
+</element-citation></ref><ref id="cit45"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zou</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Arslan</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Shi</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhai</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Xiao</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Huang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>Y.</given-names></name>
+</person-group><source>Food Chem.</source><year>2022</year><volume>377</volume><fpage>131909</fpage><pub-id pub-id-type="pmid">34990946</pub-id>
+</element-citation></ref><ref id="cit46"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Weston</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Geng</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Chandrawati</surname><given-names>R.</given-names></name>
+</person-group><source>Adv. Mater. Technol.</source><year>2021</year><volume>6</volume><fpage>1</fpage><lpage>16</lpage></element-citation></ref><ref id="cit47"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Guclu</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gebizli</surname><given-names>S. D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Orhan</surname><given-names>M.</given-names></name>
+</person-group><source>Color. Technol.</source><year>2023</year><volume>139</volume><fpage>527</fpage><lpage>543</lpage></element-citation></ref><ref id="cit48"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hassan</surname><given-names>N. F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Khattab</surname><given-names>T. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fouda</surname><given-names>M. M. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Abu Zaid</surname><given-names>A. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Aboshanab</surname><given-names>K. M.</given-names></name>
+</person-group><source>Int. J. Biol. Macromol.</source><year>2024</year><volume>257</volume><fpage>128817</fpage><pub-id pub-id-type="pmid">38103663</pub-id>
+</element-citation></ref><ref id="cit49"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>D.-G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>He</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>He</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yang</surname><given-names>H.</given-names></name>
+</person-group><source>Nanomedicine</source><year>2025</year><volume>20</volume><fpage>271</fpage><lpage>278</lpage><pub-id pub-id-type="pmid">39716850</pub-id>
+</element-citation></ref><ref id="cit50"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ding</surname><given-names>X.</given-names></name>
+</person-group><source>Colloids Surf., A</source><year>2025</year><volume>710</volume><fpage>136227</fpage></element-citation></ref><ref id="cit51"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gong</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhou</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>D.-G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yi</surname><given-names>T.</given-names></name>
+</person-group><source>Int. J. Mol. Sci.</source><year>2024</year><volume>25</volume><issue>17</issue><fpage>9524</fpage><pub-id pub-id-type="pmid">39273471</pub-id>
+</element-citation></ref><ref id="cit52"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hu</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhou</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ding</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jiang</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>D.-G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Shen</surname><given-names>H.</given-names></name>
+</person-group><source>Small</source><year>2025</year><fpage>e05523</fpage><pub-id pub-id-type="pmid">40898688</pub-id>
+</element-citation></ref><ref id="cit53"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yin</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lu</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dou</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>D.-G.</given-names></name>
+</person-group><source>Macromol. Rapid Commun.</source><year>2025</year><volume>46</volume><fpage>2401152</fpage></element-citation></ref><ref id="cit54"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>He</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhou</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>D.</given-names></name>
+</person-group><source>Adv. Mater. Interfaces</source><year>2025</year><volume>12</volume><fpage>e00364</fpage></element-citation></ref><ref id="cit55"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pakolpak&#x000e7;&#x00131;l</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Osman</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>G&#x000f6;ktalay</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>&#x000d6;zer</surname><given-names>E. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>&#x0015e;ahan</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Becerir</surname><given-names>B.</given-names></name>
+</person-group><source>J. Polym. Res.</source><year>2021</year><volume>28</volume><fpage>1</fpage><lpage>13</lpage></element-citation></ref><ref id="cit56"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Adamu</surname><given-names>B. F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gao</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gebeyehu</surname><given-names>E. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Beyene</surname><given-names>K. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tadesse</surname><given-names>M. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liyew</surname><given-names>E. Z.</given-names></name>
+</person-group><source>Adv. Mater. Sci. Eng.</source><year>2022</year><volume>2022</volume><fpage>14</fpage></element-citation></ref><ref id="cit57"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chamanehpour</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Thouti</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rubahn</surname><given-names>H.-G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dolatshahi-Pirouz</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mishra</surname><given-names>Y. K.</given-names></name>
+</person-group><source>Adv. Mater. Technol.</source><year>2024</year><volume>9</volume><fpage>2301392</fpage></element-citation></ref><ref id="cit58"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zheng</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ma</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Deng</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Xu</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fan</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Khademolqorani</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Banitaba</surname><given-names>S. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Osman</surname><given-names>A. I.</given-names></name>
+</person-group><source>Nanoscale Horiz.</source><year>2024</year><volume>9</volume><fpage>1703</fpage><lpage>1724</lpage><pub-id pub-id-type="pmid">39087682</pub-id>
+</element-citation></ref><ref id="cit59"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jiang</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ma</surname><given-names>B. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Huang</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kaltbeitzel</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kizisavas</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Crespy</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>K. A. I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Landfester</surname><given-names>K.</given-names></name>
+</person-group><source>Nanoscale Horiz.</source><year>2018</year><volume>3</volume><fpage>439</fpage><lpage>446</lpage><pub-id pub-id-type="pmid">32254131</pub-id>
+</element-citation></ref><ref id="cit60"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Reneker</surname><given-names>D. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yarin</surname><given-names>A. L.</given-names></name>
+</person-group><source>Polymer</source><year>2008</year><volume>49</volume><issue>10</issue><fpage>2387</fpage><lpage>2425</lpage></element-citation></ref><ref id="cit61"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Greiner</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wendorff</surname><given-names>J. H.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed.</source><year>2007</year><volume>46</volume><fpage>5670</fpage><lpage>5703</lpage></element-citation></ref><ref id="cit62"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Han</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yuan</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>He</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>F.</given-names></name>
+</person-group><source>Nanoscale Horiz.</source><year>2023</year><volume>8</volume><fpage>422</fpage><lpage>440</lpage><pub-id pub-id-type="pmid">36852666</pub-id>
+</element-citation></ref><ref id="cit63"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Luo</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Shao</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sun</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>He</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Xu</surname><given-names>D.</given-names></name>
+</person-group><source>Talanta</source><year>2025</year><volume>281</volume><fpage>126866</fpage><pub-id pub-id-type="pmid">39260251</pub-id>
+</element-citation></ref><ref id="cit64"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tian</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lin</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tian</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Meng</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Saeed</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>X.</given-names></name>
+</person-group><source>Talanta</source><year>2025</year><volume>283</volume><fpage>127085</fpage><pub-id pub-id-type="pmid">39490308</pub-id>
+</element-citation></ref><ref id="cit65"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Godakanda</surname><given-names>V. U.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Alquezar</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhu</surname><given-names>L. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>de Silva</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>de Silva</surname><given-names>K. M. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Williams</surname><given-names>G. R.</given-names></name>
+</person-group><source>Int. J. Pharm.</source><year>2019</year><volume>562</volume><fpage>172</fpage><lpage>179</lpage><pub-id pub-id-type="pmid">30898638</pub-id>
+</element-citation></ref><ref id="cit66"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Koczkur</surname><given-names>K. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mourdikoudis</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Polavarapu</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Skrabalak</surname><given-names>S. E.</given-names></name>
+</person-group><source>Dalton Trans.</source><year>2015</year><volume>44</volume><fpage>17883</fpage><lpage>17905</lpage><pub-id pub-id-type="pmid">26434727</pub-id>
+</element-citation></ref><ref id="cit67"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ahmad</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stoyanov</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Pelan</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stride</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Edirisinghe</surname><given-names>M.</given-names></name>
+</person-group><source>Food Res. Int.</source><year>2013</year><volume>54</volume><fpage>1761</fpage><lpage>1772</lpage></element-citation></ref><ref id="cit68"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ignat</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dinescu</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Judit</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fenyvesi</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Therapy</surname><given-names>F.</given-names></name>
+</person-group><source>Materials</source><year>2020</year><volume>12</volume><fpage>5003</fpage></element-citation></ref><ref id="cit69"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chandrasekhar</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Madhusudhan</surname><given-names>M. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Raghavarao</surname><given-names>K. S. M. S.</given-names></name>
+</person-group><source>Food Bioprod. Process.</source><year>2012</year><volume>90</volume><fpage>615</fpage><lpage>623</lpage></element-citation></ref><ref id="cit70"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Manatunga</surname><given-names>D. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Godakanda</surname><given-names>V. U.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Herath</surname><given-names>H. M. L. P. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>De Silva</surname><given-names>R. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yeh</surname><given-names>C. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>J. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>De Silva</surname><given-names>A. A. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rajapaksha</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Nilmini</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>De Silva</surname><given-names>K. M. N.</given-names></name>
+</person-group><source>R. Soc. Open Sci.</source><year>2020</year><volume>7</volume><issue>9</issue><fpage>201266</fpage><pub-id pub-id-type="pmid">33047067</pub-id>
+</element-citation></ref><ref id="cit71"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ren</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sun</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yue</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>H.</given-names></name>
+</person-group><source>Mater. Sci. Eng., C</source><year>2017</year><volume>78</volume><fpage>324</fpage><lpage>332</lpage></element-citation></ref><ref id="cit72"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pecoraro</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>D'Angelo</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Filice</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Scalese</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Capparucci</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Marino</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Iaria</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Guerriero</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tibullo</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Scalisi</surname><given-names>E. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Salvaggio</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Nicotera</surname><given-names>I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Brundo</surname><given-names>M. V.</given-names></name>
+</person-group><source>Front. Physiol.</source><year>2018</year><volume>8</volume><fpage>1</fpage><lpage>7</lpage></element-citation></ref><ref id="cit73"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jiang</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sun</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ma</surname><given-names>Q.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jiang</surname><given-names>W.</given-names></name>
+</person-group><source>Food Biosci.</source><year>2024</year><volume>58</volume><fpage>103717</fpage></element-citation></ref><ref id="cit74"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ye</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>He</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wei</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhou</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Cai</surname><given-names>J.</given-names></name>
+</person-group><source>Polymers</source><year>2022</year><volume>14</volume><issue>19</issue><fpage>4036</fpage><pub-id pub-id-type="pmid">36235984</pub-id>
+</element-citation></ref><ref id="cit75"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Khalafi</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gharachorloo</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ganjloo</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yousefi</surname><given-names>S.</given-names></name>
+</person-group><source>J. Food Sci.</source><year>2023</year><volume>88</volume><fpage>4620</fpage><lpage>4629</lpage><pub-id pub-id-type="pmid">37799066</pub-id>
+</element-citation></ref><ref id="cit76"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Xue</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Xie</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Xia</surname><given-names>Y.</given-names></name>
+</person-group><source>Acc. Chem. Res.</source><year>2019</year><volume>50</volume><fpage>1976</fpage><lpage>1987</lpage></element-citation></ref><ref id="cit77"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Xing</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Xu</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Xing</surname><given-names>D.</given-names></name>
+</person-group><source>Mater. Today Bio</source><year>2023</year><volume>21</volume><fpage>100710</fpage></element-citation></ref><ref id="cit78"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>D. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bligh</surname><given-names>S. W. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Williams</surname><given-names>G. R.</given-names></name>
+</person-group><source>Mater. Sci. Eng., C</source><year>2020</year><volume>111</volume><fpage>110805</fpage></element-citation></ref><ref id="cit79"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Manatunga</surname><given-names>D. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jayasinghe</surname><given-names>J. A.
+B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sandaruwan</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>De Silva</surname><given-names>R. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>De Silva</surname><given-names>K. M. N.</given-names></name>
+</person-group><source>ACS Omega</source><year>2022</year><volume>7</volume><issue>42</issue><fpage>37264</fpage><lpage>37278</lpage><pub-id pub-id-type="pmid">36312427</pub-id>
+</element-citation></ref><ref id="cit80"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Vesna</surname><given-names>M. D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ilic-stojanovic</surname><given-names>S. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ljubi&#x00161;a</surname><given-names>N. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Milorad</surname><given-names>M. D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Aleksandar</surname><given-names>Z. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Agne&#x00161;</surname><given-names>K. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mirjana</surname><given-names>P. M.</given-names></name>
+</person-group><source>Hem. Ind.</source><year>2014</year><volume>68</volume><fpage>107</fpage><lpage>116</lpage></element-citation></ref><ref id="cit81"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sohany</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tawakkal</surname><given-names>I. S. M. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ariffin</surname><given-names>S. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Shah</surname><given-names>N. A. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yusof</surname><given-names>Y. A.</given-names></name>
+</person-group><source>Foods</source><year>2021</year><volume>10</volume><issue>9</issue><fpage>2005</fpage><pub-id pub-id-type="pmid">34574115</pub-id>
+</element-citation></ref><ref id="cit82"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hadi</surname><given-names>M. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jabarah</surname><given-names>Z. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Awad</surname><given-names>S. H.</given-names></name>
+</person-group><source>Iraqi J. Agric. Sci.</source><year>2025</year><volume>56</volume><fpage>33</fpage><lpage>43</lpage></element-citation></ref><ref id="cit83"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tao</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ferreira</surname><given-names>I. M. P. L. V. O.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>He</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>de Freitas</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mateus</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Oliveira</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fernandes</surname><given-names>A.</given-names></name>
+</person-group><source>Food Hydrocoll.</source><year>2025</year><fpage>111365</fpage></element-citation></ref><ref id="cit84"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Herrera-Franco</surname><given-names>P. J.</given-names></name>
+</person-group><source>Integr. Med. Res.</source><year>2020</year><volume>9</volume><fpage>13855</fpage><lpage>13869</lpage></element-citation></ref><ref id="cit85"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Vei</surname><given-names>L. S.</given-names></name>
+</person-group>, <source>MSc Thesis</source>, <publisher-name>University of Malaya</publisher-name>, <year>2013</year>. Available: <uri xlink:href="https://core.ac.uk/download/pdf/268875795.pdf">https://core.ac.uk/download/pdf/268875795.pdf</uri>.</mixed-citation></ref><ref id="cit86"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>C.</given-names></name>
+</person-group><source>Food Bioprocess Technol.</source><year>2024</year><volume>17</volume><fpage>5312</fpage><lpage>5323</lpage></element-citation></ref><ref id="cit87"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ramamoorthy</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Radha</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Maheswari</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Anandan</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Manoharan</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Williams</surname><given-names>R. V.</given-names></name>
+</person-group><source>J. Appl. Electrochem.</source><year>2016</year><volume>46</volume><fpage>929</fpage><lpage>941</lpage></element-citation></ref><ref id="cit88"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ali</surname><given-names>H. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Attia</surname><given-names>M. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rashed</surname><given-names>E. N.</given-names></name>
+</person-group><source>ACS Omega</source><year>2024</year><volume>9</volume><fpage>5319</fpage><lpage>5329</lpage><pub-id pub-id-type="pmid">38343986</pub-id>
+</element-citation></ref><ref id="cit89"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>D. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>X. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Chian</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liao</surname><given-names>Y. Z.</given-names></name>
+</person-group><source>Acta Biomater.</source><year>2013</year><volume>9</volume><fpage>5665</fpage><lpage>5672</lpage><pub-id pub-id-type="pmid">23099302</pub-id>
+</element-citation></ref><ref id="cit90"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Abdelghany</surname><given-names>A. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mekhail</surname><given-names>M. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Abdelrazek</surname><given-names>E. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Aboud</surname><given-names>M. M.</given-names></name>
+</person-group><source>J. Alloys Compd.</source><year>2015</year><volume>646</volume><fpage>326</fpage><lpage>332</lpage></element-citation></ref><ref id="cit91"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Trivedi</surname><given-names>M. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Branton</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Trivedi</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Nayak</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mishra</surname><given-names>R. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jana</surname><given-names>S.</given-names></name>
+</person-group><source>Int. J. Biomed. Mater. Res.</source><year>2015</year><volume>3</volume><issue>6</issue><fpage>83</fpage><lpage>91</lpage></element-citation></ref><ref id="cit92"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gu</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>Y.</given-names></name>
+</person-group><source>J. Mol. Struct.</source><year>2020</year><volume>1201</volume><fpage>127159</fpage></element-citation></ref><ref id="cit93"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Puente-C&#x000f3;rdova</surname><given-names>J. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Luna-Mart&#x000ed;nez</surname><given-names>J. F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mohamed-Noriega</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Miranda-Valdez</surname><given-names>I. Y.</given-names></name>
+</person-group><source>Polymers</source><year>2024</year><volume>16</volume><issue>5</issue><fpage>628</fpage><pub-id pub-id-type="pmid">38475311</pub-id>
+</element-citation></ref><ref id="cit94"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Trivedi</surname><given-names>M. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Branton</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Trivedi</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Nayak</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mishra</surname><given-names>R. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jana</surname><given-names>S.</given-names></name>
+</person-group><source>Int. J. Biomed. Mater. Res.</source><year>2015</year><volume>3</volume><fpage>83</fpage><lpage>91</lpage></element-citation></ref><ref id="cit95"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Qosim</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Majd</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Huo</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Edirisinghe</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Williams</surname><given-names>G. R.</given-names></name>
+</person-group><source>Int. J. Pharm.</source><year>2024</year><volume>654</volume><fpage>123972</fpage><pub-id pub-id-type="pmid">38458404</pub-id>
+</element-citation></ref><ref id="cit96"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Qin</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhong</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Su</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>Y.</given-names></name>
+</person-group><source>Molecules</source><year>2018</year><volume>23</volume><issue>5</issue><fpage>1179</fpage><pub-id pub-id-type="pmid">29762477</pub-id>
+</element-citation></ref><ref id="cit97"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Xu</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fang</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Shi</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Xia</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Deng</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kimatu</surname><given-names>B. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Guo</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lyu</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Cao</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>W.</given-names></name>
+</person-group><source>Food Hydrocoll.</source><year>2025</year><volume>158</volume><fpage>110586</fpage></element-citation></ref><ref id="cit98"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pakolpak&#x000e7;il</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Osman</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>&#x000d6;zer</surname><given-names>E. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>&#x0015e;ahan</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Becerir</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>G&#x000f6;ktalay</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Karaca</surname><given-names>E.</given-names></name>
+</person-group><source>Mater. Res. Express</source><year>2019</year><volume>6</volume><fpage>1250c3</fpage></element-citation></ref><ref id="cit99"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Duan</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sun</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jiang</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tong</surname><given-names>C.</given-names></name>
+</person-group><source>Int. J. Biol. Macromol.</source><year>2021</year><volume>187</volume><fpage>332</fpage><lpage>340</lpage><pub-id pub-id-type="pmid">34303741</pub-id>
+</element-citation></ref><ref id="cit100"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tan</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wen</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Xu</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zong</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sun</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wei</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wei</surname><given-names>H.</given-names></name>
+</person-group><source>Front. Plant Sci.</source><year>2023</year><volume>14</volume><fpage>1</fpage><lpage>15</lpage></element-citation></ref></ref-list></back></article>

@@ -1,0 +1,902 @@
+Citation: Singh, S.; Singh, T.; Koli, P .;
+Anele, U.Y.; Bhadoria, B.K.;
+Choudhary, M.; Ren, Y. Nutrient and
+Rumen Fermentation Studies of
+Indian Pasture Legumes for
+Sustainable Animal Feed Utilisation
+in Semiarid Areas. Animals 2023 ,13,
+3676. https://doi.org/10.3390/
+ani13233676
+Academic Editor: Leonard
+Lauriault
+Received: 10 October 2023
+Revised: 25 November 2023
+Accepted: 26 November 2023
+Published: 28 November 2023
+Copyright: © 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+animals
+Article
+Nutrient and Rumen Fermentation Studies of Indian Pasture
+Legumes for Sustainable Animal Feed Utilisation in
+Semiarid Areas
+Sultan Singh1
+, Tejveer Singh1, Pushpendra Koli1,2,*
+, Uchenna Y. Anele3
+, Brijesh K. Bhadoria1,
+Mukesh Choudhary4,5
+and Yonglin Ren2,*
+1ICAR-Indian Grassland and Fodder Research Institute, Jhansi 284003, India;
+singh.sultan@rediffmail.com (S.S.); tejveersinghbhu@gmail.com (T.S.); brijesh_bhadoria@yahoo.com (B.K.B.)
+2College of Environmental and Life Sciences, Murdoch University, Murdoch, WA 6150, Australia
+3Department of Animal Sciences, North Carolina Agricultural and Technical State University,
+Greensboro, NC 27411, USA; uyanele@ncat.edu
+4ICAR-Indian Institute of Maize Research, Ludhiana 141001, India; mukeshagri08@gmail.com
+5School of Agriculture and Environment, The UWA Institute of Agriculture, The University of Western
+Australia, Perth, WA 6009, Australia
+*Correspondence: pushpendra.koli@murdoch.edu.au (P .K.); y.ren@murdoch.edu.au (Y.R.)
+Simple Summary: This research addresses the challenge of understanding the nutritional value of
+16 Indian legume plants (5 annual and 11 perennial) for animal feed. The lack of comprehensive
+knowledge on their speciﬁc contributions and potential combinations for optimal animal nutrition
+poses a problem. The main objective is to assess the nutritive value, dry matter, mineral content and
+fermentation characteristics of these legumes. The study aims to ﬁll the gaps in our understanding,
+exploring differences in protein, ﬁbre and energy content among legumes. Additionally, it investigates
+gas and methane production to identify environmentally friendly options. The goal is to provide
+insights into how these legumes can be effectively combined, offering a scientiﬁc foundation for
+improving animal feeding practices in a sustainable and efﬁcient manner.
+Abstract: This study evaluated 5 annual and 11 perennial Indian pasture legumes species for their
+nutritive value, dry matter and mineral contents and in vitro fermentation parameters. Legume
+species differed signiﬁcantly ( p< 0.05) in various nutritional aspects such as organic matter, crude
+protein (CP), ether extract, ﬁbres and protein fractions. Perennial Clitoria ternateaa had higher
+(p< 0.05) buffer soluble protein (477), while neutral detergent soluble protein was highest in annually
+grown Lablab purpureus (420 g/kg CP). Atylosia scarabaeoides (AS) had higher levels of nonstructural
+carbohydrates (NSCs) (392 g/kg dry matter (DM)) than structural carbohydrates (SC) (367 g/kg DM).
+Its rapidly degradable fraction (51.7 g/kg (total carbohydrate) tCHO) was lower ( p< 0.05) than other
+fractions of carbohydrates. Total digestible nutrients, digestible energy and metabolisable energy
+varied, with Desmodium virgatus (DV) having higher values and Stylosanthas seabrana (SSe) having
+the lowest. Predicted dry matter intake, digestible dry matter and relative feed value also showed
+signiﬁcant differences ( p< 0.05). Annual grasses such as Dolichos biﬂorus ,Macroptilium atropurpureum ,
+Rhynchosia minima (RM) were found to be better balanced with micro minerals. In vitro dry matter
+degradability, partition factor, short-chain fatty acids and microbial protein production of legumes
+varied signiﬁcantly ( p< 0.05). Gas and CH 4production (mL/g and mL/g (digestible DM) DDM) also
+varied, with Clitoria ternatea -blue having the highest gas production and C. ternatea -white (CT-w) and
+AS having lower CH 4production. Methane in total gas was low for DV , RM and CT-w (8.99%, 9.72%
+and 9.51%). Loss of DE and ME as CH 4varied ( p< 0.05) among the legumes. Each legume offers
+unique beneﬁts, potentially allowing for tailored combinations of annual and perennial legumes to
+optimize rumen feed efﬁciency.
+Animals 2023 ,13, 3676. https://doi.org/10.3390/ani13233676 https://www.mdpi.com/journal/animals
+Animals 2023 ,13, 3676 2 of 17
+Keywords: animal feed; annual legumes; perennial legumes; nutritional value; minerals; in vitro
+fermentation; methane production
+1. Introduction
+Inadequate feed and forage availability coupled with low nutritive value (crop
+residues, pasture grasses and grazing lands) are prime factors for poor animal production
+in the tropics and subtropics. For ages, forage legumes have played an important role in
+dairy and meat production [ 1]. Forage legumes species usually have high feeding value,
+as they are generally rich in protein and provide a substantial amount of energy, minerals
+and vitamins along with higher intake and digestibility [ 2,3]. Even in grain-based feed
+lot livestock production, forage legumes can make an economical contribution to animal
+health [ 4]. In recent years, many researchers have reviewed the role of forage legumes
+in supporting mixed crop–livestock production, the maintenance of pasture and grazing
+lands, and ecosystem services [ 5–7]. Dietary supplementation with forage legumes not
+only increases livestock production primarily via higher intake, nutrient content, and di-
+gestibility than cereal crops such as grasses, sorghum, maize, etc. [ 8,9], but also improves
+the rumen with fermentation efﬁciency via enhanced metabolisable energy, protein ratios
+and ruminal bypass protein availability to animals [ 10]; increased N retention [ 11]; and
+reduced methane emissions [ 8,12,13]. Combining annual forage legumes with crops such
+as maize may present an enhanced feeding option for animals in arid regions [ 14]. Further,
+the introduction of forage legumes in grass production areas as a grass–legume mixture
+could be one of the promising strategies to mitigate greenhouse gas (GHG) emissions
+from pasture-based livestock production [ 7]. The Food and Agriculture Organization of
+the United Nations (FAO; www.feedipedia.org accessed on 16 June 2018) lists around
+169 legume species being used as forage and about 20 Mha land area are under forage
+legume monoculture [ 15]. Species of Aeschynomene ,Arachis ,Centrosema ,Desmodium ,Macrop-
+tilium and Stylosanthes offer promise for improved tropical pasture systems [ 16]. Alongside
+the wider morphological genetic variability in legume species [ 17], there exists nutritional
+variability [ 18]. In addition to genetic differences, the nutritional composition of legumes is
+also inﬂuenced by the season and growing location. It is important to obtain more infor-
+mation on legumes’ level of supplementation and nutritive value, as evaluation of their
+chemical composition has a substantial impact on the understanding of their nutritional
+value and also a great inﬂuence on animal nutrition [ 8,19]. Formulating speciﬁc diets for
+animal species at different physiological stages is inﬂuenced by the need to consider all
+parameters, including chemical composition (CP , NDF, ADF and lignin), total digestible
+nutrients (TDN) and in vitro digestibility [20,21].
+The lack of comprehensive knowledge regarding the speciﬁc contributions and op-
+timal combinations of legumes in animal nutrition constitutes a signiﬁcant research gap,
+speciﬁcally in the Indian subcontinent context. To address this, a focused study on nutri-
+tional and rumen fermentation parameters is essential to provide insights into effective
+legume combinations, ensuring balanced and beneﬁcial diets for livestock. To this end,
+the present study was planned in order to evaluate 5 annual and 11 perennial legume
+species from nine genera for cell wall constituents, carbohydrate fractions, protein fractions,
+energy contents, minerals, intake, digestibility and in vitro fermentation patterns (gas and
+methane production) for their prudent use in ruminant diets.
+2. Materials and Methods
+2.1. Experimental Sites
+The study was carried out at the Plant–Animal Relationship Division, ICAR-Indian
+Grassland and Fodder Research Institute, Jhansi, India. Laboratory procedures and animal
+management for donor sheep were carried out as per Institute animal ethics commit-
+tee guidelines.
+Animals 2023 ,13, 3676 3 of 17
+2.2. Sample Collection and Processing of Forage Legumes
+Homogeneous plant samples (Table 1) were collected randomly from three different
+plots (30 10 m), maintained by “Grassland and Silvipasture Management Division of
+Institute”, for each legume. Samples of perennial legumes were collected after post-rainy
+season re-growth at ﬂower initiation, while annual legumes samples were collected at the
+ﬂower initiation growth stage. Plant samples were ﬁrst air-dried in the shade on a cemented
+surface, followed by further drying in a hot-air oven at 60C for 72 h. Subsequently, the
+dried samples were ground using a 1 mm sieve in a Wiley mill.
+Table 1. Legume species used in the study.
+Annual speciesDolichos biﬂorus (DB), horse gram; Lablab purpures (LLP), Lablab
+bean; Macroptilium atropurpureum (MA) purple bush bean;
+Rhynchosia minima (RM), burn-mouth vine; and Stylosanthas
+hamata (SH), Caribbean stylo.
+Perennial speciesArachis glabrata (AG), perennial peanut; Arachis hagenbackii (AH);
+Atylosia scarabaeoides (AS), showy pigeonpea; Clitoria
+ternatea -white (CT-W), white butterﬂy pea vine, Clitoria
+ternatea -blue (CT-B), butterﬂy pea; Centrosoma pubescene (CPb),
+fodder pea; Desmenthus virgatus (DV), hedge lucerne; Stylosanthas
+scabra (SSc), shrubby stylo; Stylosanthas scoﬁeld (SSco), Brazilian
+lucerne; Stylosanthas seabrana (SSe), cattinga stylo; and
+Stylosanthus viscosa (SV), sticky stylo.
+2.3. Chemical Analyses
+Samples for dry matter (DM), crude protein (CP), ether extract (EE) and ash were
+estimated as per the methods of the Association of Analytical Chemistry (AOAC) (1995).
+The CP of samples was estimated, per Kjeldahl, N 6.25 via digestion in sulfuric acid and
+digestion mixture (consisting of sodium/potassium sulphate and copper sulphate in 10:1
+ratio) using a semi-auto analyser (Kel Plus Classic-DX, Pelican, Chennai, India). The EE was
+determined by reﬂuxing samples in petroleum ether using extraction apparatus. For ash
+estimation, samples were put in tarred silica basins and dried, and then basins were put into
+a mufﬂe furnace at 600C for 4 h [ 22]. Neutral detergent ﬁbre (NDF), acid detergent ﬁbre
+(ADF), cellulose and lignin (ADL) were estimated via the sequential procedure modiﬁed
+by Van Soest et al. [ 23] a using ﬁbre analyser (Fibra Plus FES 6, Pelican, Chennai, India).
+Heat-labile alpha amylase and sodium sulphite were not used in the NDF solution. For
+lignin (ADL) estimation, the sample left after ADF estimation was treated with 72% H 2SO4
+followed by ashing in a mufﬂe furnace.
+2.4. Carbohydrate and Protein Fractionation
+Carbohydrate fractions were estimated according to the Cornell Net Carbohydrate
+and Protein System (CNCPS) [24]. This is broadly classiﬁed into 4 fractions as follows:
+(a) CA: rapidly degradable carbohydrates (CHOs), including sugars.
+(b) CB1: intermediately degradable starch and pectin.
+(c) CB2: slowly degradable cell wall.
+(d) CC: unavailable/lignin-bound cell wall.
+Total carbohydrates (tCHO g/kg DM) were determined by subtracting grams of CP , EE
+and ash contents from 1000. Structural carbohydrates (SCs) were calculated as the difference
+between NDF and neutral detergent insoluble protein and non-ﬁbre carbohydrates were
+estimated as the difference between total CHOs and SCs [ 25]. Starch was estimated from
+samples after extraction with 80% ethyl alcohol to solubilize free sugars, lipids, pigments
+and waxes. The residue rich in starch was solubilized with perchloric acid and the extract
+was subjected to anthrone-sulphuric acid treatment for colorimetric determination of
+glucose, using a UV spectrophotometer (LABINDIA3000) at 630 nm [26].
+Animals 2023 ,13, 3676 4 of 17
+Protein fractions of samples were partitioned into ﬁve fractions according to Licitra
+et al. [27]. These are as follows:
+PA: non-protein nitrogen (NPN), the difference between total nitrogen and true CP
+nitrogen precipitated with sodium tungstate (0.30 M) and 0.5 M sulfuric acid.
+PB1: buffer-soluble protein, the difference between true protein and buffer-insoluble
+protein, estimated with borate-phosphate buffer (pH 6.7 to 6.8) and freshly prepared 10%
+sodium azide solution.
+PB2: neutral detergent-soluble protein (NDSP), buffer-insoluble protein minus ND-
+insoluble protein.
+PB3: acid detergent-soluble CP , the difference between ND-insoluble protein and acid
+detergent insoluble CP .
+PC: indigestible (this fraction contains protein associated with lignin, tannin–protein
+complexes and Maillard products that are unavailable to the animals. It is insoluble in the
+acid detergent).
+2.5. Dry Matter Intake, Digestibility and Energy Calculations
+Legumes’ dry matter intake (DMI), digestible DM (DDM), relative feed value (RFV),
+total digestible nutrients (TDN) and net energy for different animal functions, i.e., net
+energy of lactation (NEl), gain (NEg) and maintenance (Nem), were calculated using the
+following equations: (DMI = 120/NDF; DDM = 88.9  0.779ADF; RFV = (DDM DMI)
+0.775; TDN = 104.97  (1.302 ADF); NEl = (TDN 0.0245)  0.012; NEg = TDN
+0.029)  1.01; NEM = (TDN 0.029)  0.29) per Undersander et al. [ 28]. Digestible
+energy (DE, KJ/g DM; DE = TDN 0.04409) and metabolizable energy (ME, KJ/g DM)
+values were calculated using the equations of Fonnesbeck et al. [ 29] and Khalil et al. [ 30],
+respectively. Metabolizable energy was calculated as 0.821 DE.
+2.6. Estimation of Minerals
+For mineral estimation, legume samples were wet-digested with 3:1 HNO 3: perchloric
+acid mixture, cooled and ﬁltered through Whatman 42 ﬁlter paper. An aliquot was used
+for estimation of calcium (Ca), magnesium (Mg), copper (Cu), zinc (Zn), iron (Fe) and
+manganese (Mn), using an atomic absorption spectrophotometer (Varian AA 240) against
+the standards provided by Varian of sigma brand [31].
+2.7. Donor Animals and Inoculum Preparation
+Four male adult Jalauni sheep, with mean body weight of 36.2 kg, were used as
+inoculum donors. These animals were maintained on a solely berseem hay diet and had
+free access to clean drinking water. Rumen liquor was collected in a pre-warmed thermos
+from each animal before feeding using a perforated tube from the stomach with the help
+of vacuum pressure pump. Collected rumen liquor was ﬁltered through four layers of
+muslin cloth, and the strained rumen liquor obtained from different animals was mixed,
+kept at 39C in water bath and gassed with CO 2until used for mixing with incubating
+buffer media.
+2.8. In Vitro Incubations
+In vitro gas production was determined according to the pressure transducer technique
+of Theodorou et al. [ 32]. The incubation medium (1 L) was prepared via sequential mixing
+of buffer solution, macro-mineral solution, micro mineral solution and resazurin solution.
+Incubation medium was ﬂuxed with CO 2till the pink colour turned colourless, and then
+250 mL rumen liquor was added to obtain incubation medium with a rumen liquor ratio
+of 80:20. Samples (0.5 g) of air-dried legume samples were weighed into three 100 mL
+serum bottles. Three serum bottles without substrate/sample were used as blanks. Sample
+and control serum bottles were initially gassed brieﬂy with CO 2before 50 mL of inoculum
+medium was added. Bottles were continuously ﬂuxed with CO 2and then sealed with
+aluminium crimps. Before incubation, the gas pressure transducer was used to adjust head
+Animals 2023 ,13, 3676 5 of 17
+space gas pressure in each bottle to adjust the zero reading on the LED display and then
+incubated at 39C for 24 h to estimate the total gas production.
+2.9. Methane Measurements
+Methane in total gas for each of the legume samples, measured at 24 h of incubation
+from three bottles, was analysed via gas chromatography (Nucon 5765 Microprocessor
+controlled gas chromatograph, Okhla, New Delhi, India) equipped with a stainless-steel
+column packed with Porapak-Q and a ﬂame ionization detector. One mL of gas, sampled
+using a Hamilton syringe from total gas produced, was injected manually (pull-and-push
+method of sample injection) into the gas chromatography (GC) equipment, which was
+calibrated with standard CH 4and CO 2. Methane was also measured from blank bottles
+incubated for 24 h and used for correction of CH 4produced from the inoculum. Methane
+measured was related to total gas to estimate its concentration [ 33] and converted to energy
+and mass values using 39.54 kJ/L CH 4and 0.716 mg/mL CH 4factors, respectively [ 34].
+Short-chain fatty acids (SCFA) were calculated using 24 h gas production [ 35], while
+partition factor (PF) and microbial mass (MBM) were estimated as described in previously
+described method [36].
+2.10. Data Analysis
+Each legume was replicated three times for every analysis group, and this consistent
+approach was maintained throughout the entire study. The means of nutritional and gas
+fermentation parameters of legumes were compared using one-way analysis of variance
+(ANOVA) with the statistical package for social sciences (SPPS) (version 16), with legumes
+as a ﬁxed factor and parameters as dependent variables. Post hoc multiple comparison was
+performed using Duncan’s multiple range test to differentiate the means at p< 0.05 level.
+3. Results
+3.1. Chemical Composition
+Table 2 displays nutritional composition data for various legumes, highlighting OM,
+CP , EE, NDF, ADF, cellulose and lignin contents. The mean values across all legumes
+show an average organic matter content of 906, crude protein of 125.4, ether extract of
+33.4, NDF of 549, ADF of 382, cellulose of 280.09, lignin of 93.9 and hemicellulose of
+168 g/kg DM. Interestingly the protein contents were >150 g/kg DM in CP , CT-b and LLP
+and lower < 100 g/kg DM in DB, SSe, SH, SSc and SSco (87.9, 80.4, 93.5, 92.2 and 94.8 g/kg
+DM). The EE contends were higher in CT-w ,CT-b and DV(48.3, 46.6 and 63.8 g/kg DM),
+while lignin contents were lower in LLP (62.7) and AH(68.1), while the highest were in
+SSe(134) and CT-w (124 g/kg DM). Stylosanthes species had higher ADF (401 to 508) and
+cellulose (297 to 365 g/kg DM) contents, except ( DB), than other evaluated legumes.
+3.2. Protein and Carbohydrate Fractions
+Contents of tCHO, SC and NSC in legumes varied ( p< 0.05), and their mean values
+were 747, 484 and 263 g/kg DM, respectively. Amongst the evaluated legumes, ASis
+the legume which had higher NSC than SC (392 vs. 367 g/kg DM Table 3). SC contents
+were highest in DBand lowest in AS (684 vs. 367 g/kg DM). Carbohydrate fractions of
+CA, CB1, CB2and C Cdiffered ( p< 0.05) in legumes and ranged between 143 and 589, 33.5
+and 84.7, 4.30 and 551 and 221 and 428 g/kg tCHO, respectively. Rapidly degradable
+carbohydrate fraction in C B1(51.7) was lower ( p< 0.05) than in C A(405), C B2(242) and C C
+(302 g/kg tCHO), respectively.
+Animals 2023 ,13, 3676 6 of 17
+Table 2. Chemical composition of range legumes (g/kg DM).
+Legumes OM CP EE NDF ADF Cellulose Lignin Hemi Cellulose
+AG 873b123f20.2ab479b381cd2725e101ef976a
+AH 878c116e23.4abc478b342b273e68.1ab136bcd
+CP 905g172i27.5cd549cde380c266c103ef169d
+DB 897f88b28.1cd730h414ef325e82.4bcd316g
+CT-w 919i146h48.3f566f396cde270c124gh171d
+SSe 930L80a26.6cd604g501g365g134i103ab
+SH 923j93c27.0cd624g403e297d99.2e221e
+SSc 915h92c43.2ef548cde423f345f72.9abc124abc
+SSco 886d95c18.5a529cd401de307de83.8bc129abc
+SV 927k105d24.6bcd545cde407ef320g80.7bc139bcd
+MA 855a141g24.9bcd482b382cd271e105ef99.0a
+AS 894e105d29.7d439a342b213b115fg98.2a
+DV 928kl143gh63.8g519c266a177a73.5abc253ef
+RM 934m143gh41.5e595fg337b229b1027ef258f
+CT-b 937n183j46.6f544cde396cde296d94.6de147cd
+LLP 896e180j40.3e556de335b267c62.7a220e
+Mean 906 125.4 33.4 549 382 28.09 93.9 168
+SEM 2.12 0.283 0.421 1.002 1.51 6.93 1.69 2.87
+Signiﬁcance <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001
+AG, Arachis glabrata ; AH, Arachis hagenbackii ; CPb, Centrosoma pubescene ; DB, Dolichos biﬂorus ; CT-w, Clitoria ternatea
+(white); SSe, Stylosanthas seabrana ; SH, Stylosanthas hamata ; SSc, Stylosanthas scabra ; SSco, Stylosanthas scoﬁeld ;
+SV ,Stylosanthus viscosa ; MA, Macroptilium atropurpureum ; AS, Atylosia scarabaeoides ; DV , Desmenths virgatus ; RM,
+Rhynchosia minima ; CT-b; Clitoria ternatea (blue); LLP , Lablab purpures ; OM, organic matter; DM, dry matter; CP ,
+crude protein; EE, ether extract; NDF, neutral detergent ﬁbre expressed inclusive residual ash; ADF, acid detergent
+ﬁbre expressed inclusive of residual ash; Lignin(sa), lignin solubilized with sulphuric acid; SEM, standard error of
+means; superscripted letters indicate signiﬁcant differences in values.
+Legume protein fractions P A, PB1, PB2, PB3and P Cdiffered ( p< 0.05 Table 3), and
+mean values were 226, 295, 209, 167 and 102 g/kg CP , respectively. The highest (295)
+accumulation of rapidly degradable protein fraction was found in P B1, compared to the
+lowest (1023 g/kg CP) of lignin-bound protein fraction (Pc). Clitoria species (CT-w and
+CT-b) and MA had higher P B1fractions (437, 477 and 430) and the lowest P Cfractions (52.9,
+71.6 and 75.2 g/kg CP).
+Table 3. Carbohydrates (g/kg DM), their fractions (g/kg tCHO) and protein fractions (g/kg CP) of
+range of legumes.
+LegumesCarbohydrate and Its Fractions Protein Fractions
+tCHO SC NSC C A CB1 CB2 CC PA PB1 PB2 PB3 PC
+AG 730e424bc306ghi470f71g127bc315gh223de394fg161cd116cd98.8d
+AH 739f430bcd309ghi439ef57e282gh221a228de374ef224e92.8bc81.5c
+CP 705c457cde248def459ef48cd153cd349def214cd185b305g202ef93.7d
+DB 781i683h976a143a52d551j253a324h123a300g118cd134fg
+CT-w 725de500f225cd429ef37a121bc428g211c437h91.5b208 f 52.9a
+SSe 823L561g261ef358c43b208def391fg184b352e172d178e113e
+SH 802k589g213bc278b61e365i297bc277g232c346h60.8a83.7c
+SSc 780j483ef296gh406de37a332hi224a236ef182b292g139d150h
+SSco 773i454cde319hi431ef58e251efg260ab238ef194b179d246g142gh
+SV 797k464de333i414de65f277fgh243a214cd265d138c254g129f
+MA 689b415b274fg478f85h70b367ef165a430h252f78.3ab75.2cd
+AS 759h367a392i589g43b4.3a364def250f205bc99.1b330h116e
+DV 721d458cde263ef410de49cd296gh245a215cd281d310g110cd82.9c
+RM 749g516f233cd375cd45bc254efg326cde210c418gh25.2a245g1015d
+CT-b 708c453cde254def450ef42b187cde321cd205c477i33.8a213f71.6b
+Animals 2023 ,13, 3676 7 of 17
+Table 3. Cont.
+LegumesCarbohydrate and Its Fractions Protein Fractions
+tCHO SC NSC C A CB1 CB2 CC PA PB1 PB2 PB3 PC
+LLP 676a484ef191b356b33a388i223a215cd177b420i76.8ab111e
+Mean 747 484 263 405 52 242 302 226 295 209 167 102
+SEM 0.343 2.74 2.77 14.03 1.96 19.5 9.50 5.30 16.4 16.4 11.3 3.90
+Signiﬁcance <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001
+AG, Arachis glabrata ; AH, Arachis hagenbackii ; CPb, Centrosoma pubescene ; DB, Dolichos biﬂorus ; CT-w, Clitoria
+ternatea (white); SSe, Stylosanthas seabrana ; SH, Stylosanthas hamata ; SSc, Stylosanthas scabra ; SSco, Stylosanthas
+scoﬁeld ; SV , Stylosanthus viscosa ; MA, Macroptilium atropurpureum ; AS, Atylosia scarabaeoides ; DV , Desmenths virgatus ;
+RM, Rhynchosia minima ; CT-b; Clitoria ternatea (blue); LLP , Lablab purpures; tCHO, total carbohydrates; SC,
+structural carbohydrates; NSC, non-structural carbohydrates; C A, rapidly degradable CHO including sugars; C B1,
+intermediately degradable starch and pectin; C B2, slowly degradable cell wall; C C, unavailable/lignin-bound
+cell wall; P A, non-protein nitrogen; P B1, buffer soluble protein; P B2, neutral detergent soluble protein; P B3, acid
+detergent soluble protein; P C, indigestible protein; SEM, standard error of means; superscripted letters indicate
+signiﬁcant differences in values.
+3.3. Energy, Energy Efﬁciency, Intake, Digestibility and Relative Feed Value of Legumes
+The TDN, DE and ME contents of legumes varied ( p< 0.05) and their values were
+higher for DV(703, 12.9 and 10.6) and lowest for SSe(398, 7.28 and 5.99 kJ/g DM Table 4).
+Similarly, the NE values of legumes for lactation (NE L), maintenance (NE M) and gain (NE G)
+were higher for DV(6.66, 7.94 and 4.28) and lowest for SSe(3.53, 4.24 and 0.582 kJ/g DM),
+respectively. DMI, DDM and RFV of evaluated legumes differed ( p< 0.05) with mean
+values of 2.22% body weight, 592 g/kg DM and 102%, respectively.
+Table 4. Energy value of range of legumes.
+Legumes TDN DE ME NE L NEM NEG DMI DDM RFV
+AG 553de10.1e8.32d5.16f6.16e2.45de2.51g592de114.94ef
+AH 604f11.1f9.11e5.66g6.74f3.08f2.51g623f121.26fg
+CP 555e10.2e8.36d5.16ef6.16e2.50e2.19def593e100.45cd
+DB 511ab9.36bc7.69bc4.70be5.62bc1.96bc1.64a567bc72.20a
+CT-w 534cde9.82cde8.03cd4.95cdef5.91cde2.25cde2.12cd581cde95.48c
+SSe 398a7.28a5.99a3.54a4.24a0.58a1.99bc499a76.80a
+SH 525c9.65cd7.90c4.87cde5.78c2.12c1.93b575c86.16b
+SSc 498b9.150b7.48b4.58b5.49b1.83b2.20def559b95.65c
+SSco 528cd9.69cde7.94cd4.87cde5.82cd2.16cd2.27ef577cd101.46cd
+SV 520ab9.52bc7.82bc4.78f5.74c2.08bc2.20def572bc97.68c
+MA 552de10.1de8.32d5.12bc6.12de2.45de2.50g591de114.36e
+AS 605f11.1f9.11e5.66g6.78f3.08f2.73h623f131.73h
+DV 703g12.9g10.6f6.66h7.95g4.28g2.31f682g122.22g
+RM 611f11.2f9.19e5.74e6.82f3.16f2.02be627f97.92c
+CT-b 534cde9.77cde8.03cd4.95b5.91cde2.25cde2.21def580cde99.45cd
+LLP 613f11.2f9.23e5.74e6.86f3.20f2.16de627f104.94d
+Mean 553 10.15 8.40 5.12 6.12 2.47 2.22 592 102.04
+SEM 2.04 0.029 0.029 0.021 0.025 0.025 0.011 1.22 0.548
+Signiﬁcance <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001
+AG, Arachis glabrata ; AH, Arachis hagenbackii ; CPb, Centrosoma pubescene ; DB, Dolichos biﬂorus ; CT-w, Clitoria ternatea
+(white); SSe, Stylosanthas seabrana ; SH, Stylosanthas hamata ; SSc, Stylosanthas scabra ; SSco, Stylosanthas scoﬁeld ;
+SV ,Stylosanthus viscosa ; MA, Macroptilium atropurpureum ; AS, Atylosia scarabaeoides ; DV , Desmenths virgatus ; RM,
+Rhynchosia minima ; CT-b; Clitoria ternatea (blue); LLP , Lablab purpures ; TDN, total digestible nutrients; DE, digestible
+energy; ME, metabolizable energy; NE L, net energy for lactation; NE M, net energy for maintenance; NE G, net
+energy for growth; DMI, dry matter intake; DDM, digestible dry matter; RFV , relative feed value; SEM, standard
+error of means; superscripted letters indicate signiﬁcant differences in values.
+3.4. Minerals
+Micro minerals (Cu, Zn, Fe and Mn) of legumes varied ( p< 0.05) within ranges of
+11.11–76.74, 20.77–65.85, 31.53–1288.04 and 18.61–70.51 ppm, respectively (Table 5). Ca
+Animals 2023 ,13, 3676 8 of 17
+and Mg varied from 0.55 to 2.77 and 0.25 to 0.88% with mean values of 1.26 and 0.42%,
+respectively.
+Table 5. Macro (%) and micro minerals (ppm) of range of legumes.
+Legumes Cu Zn Fe Mn Ca Mg
+AG 76.7h65.8g1150cde47.5c2.77f0.59j
+AH 60.7g61.1g737bc47.3c2.74f0.58j
+CP 28.7ef42.2e246ab31.9ab1.48e0.37e
+DB 35.7f31.9bc1271de70.5ef1.37e0.41g
+CT-w 24.9cde41.7de311ab40.8bc0.60a0.37f
+SSe 14.9ab35.0 215ab20.3a0.94c0.24e
+SH 11.1a26.7ab259ab77.37f0.80b0.25ab
+SSc 13.6ab32.0bc174a22.1a1.34e0.28bc
+SSco 16.1abc48.7f1023cd54.5cd1.47e0.29cd
+SV 12.4ab20.8a137a27.2a1.44e0.46h
+MA 21.1bcde30.1bc1573e61.4e1.17d0.34ef
+AS 18.5abcd28.5bc1288de72.3f0.93c0.36ef
+DV 27.3def27.1ab32.8a28.3ab0.93c0.88k
+RM 59. 6g25.5ab183a18.6a0.58a0.32de
+CT-b 72.0h35.3cd31.5a41.9bc0.55a0.53 i
+LLP 62.8g39.3de39.4a41.6bc0.98c0.44gh
+Mean 34.8 37.0 542 44.0 1.26 0.42
+SEM 0.726 0.544 41.41 1.08 0.11 0.003
+Signiﬁcance <0.0001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001
+AG, Arachis glabrata ; AH, Arachis hagenbackii ; CPb, Centrosoma pubescene ; DB, Dolichos biﬂorus ; CT-w, Clitoria ternatea
+(white); SSe, Stylosanthas seabrana ; SH, Stylosanthas hamata ; SSc, Stylosanthas scabra ; SSco, Stylosanthas scoﬁeld ;
+SV ,Stylosanthus viscosa ; MA, Macroptilium atropurpureum ; AS, Atylosia scarabaeoides ; DV , Desmenths virgatus ; RM,
+Rhynchosia minima ; CT-b; Clitoria ternatea (blue); LLP , Lablab purpures ; SEM, standard error of means; superscripted
+letters indicate signiﬁcant differences in values.
+3.5. Fermentation Pattern
+Fermentation parameters (DMD, ME, PF, SCFA and MBP) of the legumes incubated
+in sheep inoculums varied ( p< 0.05 Table 6), and their mean values were 578 g/kg DM,
+5.88 kJ/g DM, 5.61 mL/mg DM, 2.42 mm/g and 351.65 mg/g, respectively. Microbial
+protein production efﬁciency varied ( p< 0.05) from 0.32 for DV to 0.68 for CT-w .
+Table 6. Partition factor (PF), short-chain fatty acids (SCFA), degradable dry matter and microbial
+protein production from fermentation of range of legumes in sheep inoculum.
+Legumes ME kJ/g DMD PFSCFA
+mm/gMBM
+mg/gEMBP
+mg/g
+AG 6.07cd649fg6.09cde2.44cd421efg0.63cd
+AH 6.04cd663g6.35cde2.41cd445g0.64cd
+CP 5.77bcd513b5.35bc2.20bcd306bc0.60bcd
+DB 6.11cd577cd5.26bc2.54cd346cde0.56bcd
+CT-w 4.86ab559cd7.05de1.80ab392defg0.68d
+SSe 5.61bc578cd5.49bc2.41cd355cdef0.59bcd
+SH 5.82bcd641fg6.20cde2.37cd417defg0.63cd
+SSc 6.18cd631efg5.60bcde2.61de385defg0.59bcd
+SSco 5.78bcd646fg6.25cde2.42cd424efg0.63cd
+SV 5.84bcd580cd5.24bc2.54cd342cd0.57bcd
+MA 5.59bc594cde7.08e2.00abc407defg0.66d
+AS 4.49a394a5.53bc1.64a238b0.58bcd
+DV 6.53cd409a3.45a2.77de142a0.32a
+RM 6.25cd547bc4.82abc2.60cde302bc0.53bc
+CT-b 6.43cd602de4.37ab3.13e301bc0.48b
+Animals 2023 ,13, 3676 9 of 17
+Table 6. Cont.
+Legumes ME kJ/g DMD PFSCFA
+mm/gMBM
+mg/gEMBP
+mg/g
+LLP 6.73d660g5.56bcd2.76de402defg0.58bcd
+Mean 5.88 578 5.61 2.42 352 0.58
+SEM 0.080 10.4 0.151 0.059 11.00 0.013
+Signiﬁcance 0.001 <0.0001 <0.0001 <0.0001 <0.0001 <0.0001
+AG, Arachis glabrata ; AH, Arachis hagenbackii ; CPb, Centrosoma pubescene ; DB, Dolichos biﬂorus ; CT-w, Clitoria ternatea
+(white); SSe, Stylosanthas seabrana ; SH, Stylosanthas hamata ; SSc, Stylosanthas scabra ; SSco, Stylosanthas scoﬁeld ;
+SV ,Stylosanthus viscosa ; MA, Macroptilium atropurpureum ; AS, Atylosia scarabaeoides ; DV , Desmenths virgatus ; RM,
+Rhynchosia minima ; CT-b; Clitoria ternatea (blue); LLP , Lablab purpures ; ME, metabolisable energy; DMD, dry matter
+degradability; PF, partition factor (gas mL/mg DM); SFCA, short-chain fatty acids; MBM, microbial protein
+production; EMBP , efﬁcient of microbial protein production; SEM, standard error of means; superscripted letters
+indicate signiﬁcant differences in values.
+3.6. Gas, Methane and Loss of Energy as Methane
+In vitro gas and methane production (mL/g and mL/g DDM) of legumes varied
+(p< 0.05 Table 7). Gas production (mL/g) was lowest from AS(55.5) and highest from CT-b
+(141), while CH 4production was lowest ( p< 0.05) from CT-w and AS(8.24 and 9.14) and
+highest from AGand AH(15.2 and 15.1). Methane in total gas varied ( p< 0.05) and was low
+forDV,RMand CT-w (8.99, 9.72 and 9.51%) and high for MA,AGand AH(14.1, 14.0 and
+13.9%), respectively. The loss of DE and ME as CH 4varied ( p< 0.05) amongst the legumes,
+with mean values of 4.62 and 7.86%, respectively.
+Table 7. Gas production, methane production and loss of energy as methane from in vitro fermenta-
+tion of range of legumes in sheep inoculum.
+Legumes Gas mL/g CH 4mL/gGas mL/g
+DDMCH 4mL/g
+DDMCH 4% Gas CH 4%DE CH 4% ME
+AG 110cde15.2d170ab23.5b13.9bc5.77ef7.03ef
+AH 109cde15.1d164ab22.7b13.9bc5.23cdef6.37cdef
+CP 99.1bcd11.0bc192abc21.4b11.1abc4.14abc5.04abc
+DB 114de13.0cd199abc22.6b11.5abc5.31def6.47def
+CT-w 81.3b8.24a145a14.7a10.1ab3.23a3.94a
+SSe 108cde11.5bc188abc20.1ab10.8abc6.10f7.43f
+SH 107cde11.5bc166ab18.1ab11.2abc4.61bcd5.61bcd
+SSc 117de12.8cd186abc20.4b11.3abc5.37def6.54def
+SSco 109cde11.9bc169ab18.6ab11.4abc4.75bcde5.79bcde
+SV 115de11.4bc197abc19.7ab10.0a4.60bcd5.60bcd
+MA 90.4bc12.4cd153a21.0b14.1c4.72bcde5.75bcde
+AS 55.4a9.1ab188abc23.2b12.5abc3.17a3.86a
+DV 122def10.8bc309d26.4c8.99a3.24a3.94a
+RM 117 de 11.4bc215bc21.0b9.72a3.92ab4.78ab
+CT-b 141f13.4cd235c22.3b9.51a5.27cdef6.42cdef
+LLP 124ef12.8cd190abc19.4ab10.4abc4.49bcd5.46bcd
+Mean 107 12.0 192 21.0 11.3 4.62 5.63
+SEM 1.80 0.219 5.86 0.495 0.315 0.134 0.163
+Signiﬁcance <0.0001 <0.0001 <0.0001 0.010 0.041 <0.0001 <0.0001
+AG, Arachis glabrata ; AH, Arachis hagenbackii ; CPb, Centrosoma pubescene ; DB, Dolichos biﬂorus ; CT-w, Clitoria ternatea
+(white); SSe, Stylosanthas seabrana ; SH, Stylosanthas hamata ; SSc, Stylosanthas scabra ; SSco, Stylosanthas scoﬁeld ;
+SV ,Stylosanthus viscosa ; MA, Macroptilium atropurpureum ; AS, Atylosia scarabaeoides ; DV , Desmenths virgatus ; RM,
+Rhynchosia minima ; CT-b; Clitoria ternatea (blue); LLP , Lablab purpures ; DDM, dry matter; DE, digestible energy;
+ME, metabolisable energy; SEM, standard error of means; superscripted letters indicate signiﬁcant differences
+in values.
+Animals 2023 ,13, 3676 10 of 17
+4. Discussion
+4.1. Chemical Composition
+Information on the chemical composition of forage has signiﬁcant impact on the un-
+derstanding of their nutritive value and animal production [ 8,19]. Legumes evaluated in
+present study except DBand Stylosanthes species had CP contents above the 110 g/kg DM
+recommended to fulﬁl the protein requirement of growing cattle. The crude protein and
+NDF content values for Arachis ,Centro ,Stylo and Siratro legumes ranged from 129 to
+191 g/kg DM and 452 to 592 g/kg DM, respectively [ 37]. In our research, the values for
+Stylosanthes species and ASaligned with the ﬁndings of the aforementioned study. The
+earlier reported CP contents of C. pubescens (221) and S. guyyanensis (179 g/kg DM) were
+higher than our values (172 and 80.4–105 g/kg DM), respectively [ 18]. The CP , EE, NDF,
+AFD, cellulose and lignin contents of C. pubesecens were similar to earlier reports [ 18,38].
+Further, the EE contents of C. pubescens and S. guyanensis (24.0 and 47.0 g/kg DM) of the
+above report were similar to the values of CPb (25.0) and SSc(43.2 g/kg DM), respectively.
+The levels of OM, NDF and ADF in C. pubescens ,S. hamata and S. scabra were found to
+be consistent with the ﬁndings of the study conducted by Musco et al. [ 39]. However,
+the lignin contents of C. pubescens (167) and S. scabra (187) were higher than our values
+(103 and 72.9 g/kg DM), respectively. The NDF and ADF contents of C. pubescens ,
+Macroptelium bracteatum and M. gracile was on par with a previous study [ 40]. Similarly,
+the range of CP , EE, OM, NDF, ADF, cellulose and lignin contents in Macroptilium species,
+Rhynchosia minima ,S. humilis , and Clitoriaternatea were found to be in agreement with other
+studies [ 41,42]. In contrast, signiﬁcant differences in the DM contents (154–253 g/kg DM)
+of 13 legumes were also recorded previously [ 43]. The CP content in 24 accessions of
+Arachis species ranged from 147 to 225.5 g/kg DM [ 44] which was like our results whereas
+in a study it was recorded even at higher range (184–250 g/kg DM) [ 45]. The OM and
+lignin contents (873–919 and 63–82 g/kg DM, respectively) closely resembled the values
+presented in the current study. The CP (73–129), EE (15–36) and ADF (373–424) except NDF
+(416–510 g/kg DM) of ten Stylosanthes guyanensis varieties recorded by Li et al. [ 46] were
+within the range of our observed values of Stylosantehs species. Furthermore, the chemical
+composition recorded in Arachis hypogeal ,C. pubescens ,Clitoria ternatea ,M. atropurpureus
+and S. guyanensis were found to be similar to those of of earlier studies [47].
+4.2. Protein and Carbohydrate Fractions
+The protein composition of feeds reﬂects potential rumen degradation rates that
+estimate dietary nitrogen efﬁciency. The utilization of the nitrogenous fraction is important
+for evaluating feeds and specifying the nutritional requirements of ruminants [ 48]. Protein
+fractions (P B1, PB2,PB3and P C) differed ( p< 0.05) across legumes and may be attributed
+to differences in concentrations of CP and lignin. Approximately 50–150 g/kg of the total
+nitrogen in forage is bound to lignin, making it unavailable to ruminal microorganisms, [ 49]
+and our legumes’ values for P Clies within this range (52.9 to 150 g/kg CP). The P Cfraction
+of ten accessions of Arachis pintoi in the range of 178–276 g/kg CP [ 45] was higher than the
+values observed in our Arachis species .
+Carbohydrates constitute the main energy source of plants (500–800 g/kg DM) and
+play an important role in animal nutrition as a prime source of energy for rumen mi-
+croorganisms [ 49]. Carbohydrate accumulation in fodder crops is inﬂuenced by several
+factors, such as plant species, variety, growth stage and environmental conditions dur-
+ing growth [ 50]. Mlay et al. [ 51] reported a mean tCHO content of 746 g/kg DM for
+Macropttlium atropurpurus , which was higher than our values (689 g/kg DM). The higher
+tCHO contents for blue (800) and white (830 g/kg DM) varieties of Clitoria ternatea than
+our CT-w (725) and CT-b (708 g/kg DM) values was reported earlier [ 41]. The tCHO
+(626–701 g/kg DM) for ten Arachis pinto accessions were found to be lower than our AGand
+AHvalues [ 45]. Higher SC in DB, SSe, SH and RM may be due to the higher NDF contents
+recorded in the present study. The legumes AG,AH,CPb,MA,CT-b and AShad higher
+values of C Afraction (> 44 g/kg tCHO), and feeds higher in this fraction are considered
+Animals 2023 ,13, 3676 11 of 17
+good energy sources to stimulate rumen microorganism growth [ 52] and the synchronism
+between protein and carbohydrate digestion rates, having an important effect on the end
+products of fermentation and on animal production [ 53]. Low contents of unavailable
+carbohydrate fraction (C C) inAH,DB,SSe,DV,SVand LLP may be due to their lower
+lignin contents. This indigestible fraction with C B2usually affects animal intake by the
+rumen ﬁll, which can reduce animal performance [ 54]. In our study we recorded that DB,
+DV,RM,SHand LLP legumes with higher hemicelluloses contents (315, 253, 258, 221 and
+220 g/kg DM) had higher C B2fraction contents (551, 296, 254, 365 and 388 g/kg tCHO),
+which are more slowly degraded in the rumen, impacting microbial synthesis and animal
+performance [ 55]. Higher hemicellulose concentrations result in higher concentrations of
+CB2fraction. Carvalho et al. [ 52] reported that NDF concentration inﬂuences carbohydrate
+fraction C B2, and forage high in NDF concentration usually has higher values of C B2. Our
+results partially agree with these observations that most of the legumes with higher NDF
+contents had higher C B2fraction value. Moreover, the annual forage RM, abundant in
+ﬂavonoids, has proven to be suitable for long-term enhancement of rangelands [ 56,57]. The
+observed variations are likely attributed to differences in sampling time, growth stage and
+climatic conditions.
+4.3. Energy, Energy Efﬁciency, Intake, Digestibility and Relative Feed Value of Legumes
+Feed or fodder nutritive value is a function of its dry matter intake and its ability to
+provide the nutrients in the right proportion required by animals for different physiological
+functions [ 58]. Greater calculated DMI value for AG,AH,MA and DV(2.51, 2.51, 2.50
+and 2.73%) than other legumes (1.64–2.31%) may be due to lower NDF contents. The
+NDF of forage has been negatively correlated with DMI, which is not always consistent,
+although NDF is positively related with resistance to ruminal degradation [ 59]. The lowest
+and highest DMD of SSeand DVlegumes may be due to their highest (501) and lowest
+(266 g/kg DM) ADF contents, respectively. Therefore, careful consideration of these factors
+is essential in optimizing the nutritional value of feed or fodder for animal consumption.
+Musco et al. [ 39] reported higher NE Lvalues for C. pubescens ,S. hamata and S. scabra
+(9.53, 6.16 and 5.49 kJ/g DM) than our recorded values (5.16, 4.88 and 4.58 kJ/g DM),
+respectively. Similarly, ME values of C. pubescens were higher (6.53) than our values
+(5.78 kJ/g DM) [ 60]. The ME contents (9.44–10.36 kJ/g DM) of 13 legumes were higher than
+ME values observed in the present study [ 43]. TDN consists of digestible nutrients that are
+available for livestock and is primarily related to forage ADF contents. As ADF increases,
+there is a corresponding decrease in TDN, leading to the unavailability of forage nutrients
+to animals [ 61]. Relatively higher values for TDN (634 g/kg DM), GE (17.2), DE (11.5) and
+ME (9.44 kJ/gDM) were recorded than the values of MA in present study [51].
+The IVDMD ofC. pubescens and S. guyanensis (530 and 570 g/kg DM) reported ear-
+lier was similar to our values of CPb (513) and SSeand SV(578 and 580 g/kg DM) but
+lower than SH(641), SSc(631) and SSco (646 g/kg DM), respectively [ 18], reported by
+us. The OMD of C. pubescens (478), S. hamata (609) and S. scabra (593) were relatively
+higher than our values (457, 447 and 471 g/kg DM, respectively). Tona et al. [ 38] reported
+higher ME and OMD for C. pubescens than our values. The DMD and OMD (614–712 and
+586–688 g/kg DM) for ﬁve forage legumes [ 40] were more than the range values (395–663
+and 375–526 g/kg DM) of legumes evaluated in the present study. Similarly, the mean
+OMD and DMD (656 and 684 g/kg DM) were higher than the average OMD and DMD
+values of tested legumes. The higher values for OMD (642–739 g/kg DM) in legume
+forage than our values mentioned earlier [ 43]. Fernandes et al. [ 62] recorded DMD of
+tenArachis species over three years in range of 501–632 g/kg DM. The values of IVOMD
+between 600 to 740 g/kg DM for 24 accessions of Arachis pinto substantiate our DMD
+values of Arachis species [ 44]. The variations in the present study’s highest and lowest total
+digestible nutrient (TDN) values for DVand SSecould be linked to differences in their
+digestibility. Speciﬁcally, the higher ADF content in SSeand the lower ADF content in DV
+Animals 2023 ,13, 3676 12 of 17
+may be inﬂuencing these TDN values, as an increase in ADF tends to lead to a decrease in
+TDN values.
+NDF and ADF contents are negatively associated with the OMD and ME values of
+legumes [ 43]. Intake, an important part of forage nutritive value, is partially related to
+cell wall content and bulkiness of forage. The lowest value of DMI for DB(1.64) versus
+the highest of AS (2.73%) may be attributable to their maximum (730) and minimum NDF
+contents (440 g/kg DM) as the NDF contents are negatively associated with DMI [49].
+The relative feed value (RFV) of ten varieties of S. guyanensis in a range of
+102.8–130.5% [ 46] were higher than the values determined for Stylosanthes species
+(70.80–101.46%). The values of IVDMD and TDN of A. hypogeaea (78.86 and 71.44), C.
+pubescens (59.89 and 51.30), Clitoria ternatea (74.15 and 60.20) M. atropurpureus (66.51
+and 56.15) and S. guyanensis (66.22% and 54.43%) are higher than our values for these
+legumes [ 63]. The DMD of Arachis species ( AGand AH) was higher (650 and 663 g/kg DM)
+except LLP than other legume species, which is similar to previous observations [ 64]
+where it was reported that the DMD of Arachis species in general is greater than other
+tropical legumes.
+4.4. Minerals
+The Ca contents (0.50–0.80%) of legumes studied here were found to be relatively
+lower than reported earlier [ 18], while Mg contents (0.32–0.63%) were like our values of
+legumes. Similar trends of Ca and Mg contents were reported in at least one other study [ 65].
+Legumes’ Fe, Cu, Mn and Zn contents in the ranges of 441–494, 2.42–7.14, 55.2–61.3 and
+34.8–65.3 ppm [ 65] were more or less similar to our micro mineral values. In contrast,
+relatively lower Ca (1.01–1.62%) and higher Mg (0.92–1.96%) in different Arachis pinto
+cultivars in humid and sub-humid environments were reported than our values [ 66].
+Further, the Cu, Fe, Zn and Mn reported for this legume were inconsistent with our values.
+Macro (Ca and Mg) and micro minerals (Cu. Zn, Fe and Mn) of the white and blue
+varieties of Clitoria ternatea reported earlier [ 41] were more or less similar to our CT-w and
+CT-b values. Fernandes et al. [ 62] reported Ca and Mg values in ranges of 1.4–2.47% and
+0.08–0.59% for ten Arachis species over three years, similar to our Arachis species values. The
+macro (Ca and Mg) and micro minerals (Cu, Fe, Zn and Mn) of four herbaceous legumes
+and two browse legumes reported by [ 66] were in partial agreement with our mineral
+values. The variation in mineral contents of legume species may be due to differences in
+soil mineral contents, growth stage, fertilizer application and environmental conditions [ 67].
+4.5. Fermentation Pattern
+The 1.15 mole SCFA content of C. pubescens at 24 h of fermentation was reported on
+earlier [ 38]. The partition factor in the range of 3.07–4.94 mg/mL reported earlier [ 39] was
+lower than the PF values (3.45–7.08) of legumes evaluated in present study. The reason for
+higher PF values for evaluated legumes may be ascribed to lower gas production due to
+lower DMD.
+Partition factor, an indicator of the fermentation efﬁciency of a feedstuff, is expressed
+as volume of gas (mL) produced per mg of substrate degraded. Legumes’ mean PF values
+were higher (5.61) than the theoretically possible maximum value (4.14) [ 36]. This suggests
+that the unique nutritional composition, potentially lower ﬁbre content, and favourable sub-
+strate characteristics in legumes contribute to enhanced microbial fermentation efﬁciency in
+the rumen, underscoring the importance of these factors in understanding and optimizing
+feedstuff utilization in ruminant nutrition. The higher PF values for CT-w (7.05) could not
+translate to higher microbial mass, probably due to their lower gas production. Higher
+SCFA for DV , LLP , SSc and RM may be due to their higher gas production as reported. For
+DV, microbial protein production was lowest (143 mg/g) and methane production was
+highest (26.45 mL/g DDM), which is consistent with previous observations [ 68]. Greater
+PF values for CT-w did not translate to greater microbial mass as noted in a previous
+study [ 69]. We expected higher PF to translate to greater microbial mass, as PF is the
+Animals 2023 ,13, 3676 13 of 17
+measure of efﬁciency of microbial production. We can only speculate the reason for this
+observation, but the higher SCFA value noted for DVis consistent with a previous report
+that microbial mass and SCFA are inversely related [ 70]. It may be that DV partitioned
+more energy into SCFA versus microbial mass production, while in the case of LLP , energy
+partition was well distributed between SCFA and microbial mass production.
+4.6. Gas, Methane Production and Loss of Energy as Methane
+One of the options to improve feed efﬁciency via efﬁcient rumen fermentation is that
+dry matter conversion to methane is less and utilization by animal is more. Methane is an
+end-product of rumen fermentation and causes loss of dietary energy [ 71]. This loss of feed
+energy as methane varies with its quality [ 72–75] and with animal species. Methane % of
+gas between 15.9 to 18.4%) from 13 legumes [ 43] was higher than our recorded values for
+16 legumes (9.0 to 14.1%). Our values for proportion of methane in total gas except for DV ,
+RM and CT-b were within the values (12.3–15.9%) reported earlier [ 65]. Lopez et al. [ 76]
+categorised methane reduction potential as low (% of CH 4in gas between 11 and 14%).
+Thus, the legumes evaluated in the present study had low methane production. A higher
+gas production for S. hamata and S. scabra (195 and 193) than C. pubescens (136 mL/g OM)
+were reported, and these values were higher, with a similar gas production pattern [ 39].
+Similarly, a report on higher gas production at 24 h for C. pubescens (25.4 mL/200 mg) than
+our values was published [60]. Like our observations, Suha et al. [43] recorded signiﬁcant
+difference in gas production (42.56 to 51.42 mL/200 mg) from the hays of 13 legumes, and
+these values were higher than our values (55.46 to 141.26 mL/g) from 16 legumes, and
+these differences may be due to our lower OMD values as low OM fermented for gas
+production. Further the methane production in range of 7.36–8.78 mL/200 mg was higher
+than our methane production values. Variations in the gas and methane production among
+the assessed pasture legume species can be attributed to differences in their chemical
+composition and degradation rates. Such variation in methane and gas production of
+legume species has been recorded earlier [43,77–79].
+The proportion of methane to total gas production is an important indicator of methane
+emission potential of feed/fodder degradation. This ratio of methane to gas for com-
+mon feeds (hays, concentrate, mixture of hays and concentrate) vary between 16–20%.
+Methane production from Desmodium intortum (3.67), Medicago sativa (5.90) and Vicia sativa
+(5.73 mL/200 mg DM) legumes observed by [ 65] was also higher than that of most of our
+legumes but similar to that of Arachis species. Maccarana et al. [ 80] reported gas production,
+methane production and CH 4% of total gas in range of 72–480 mL/g DM, 7.3–77.5 mL/g
+and 9.4–40.61% from 390 observations of 30 studies. Relatively lower values of gas produc-
+tion, methane production and CH 4% total gas in the present study may be due to sheep
+rumen liquor, as values of gas and methane production and CH 4% total gas were higher
+when bovine rumen liquor was used for incubations [ 81,82]. Greater methane production
+may be attributed to their higher IVDMD values. In line with present ﬁndings, previous
+studies have reported that feedstuffs with higher gas production and IVDMD tended to
+have higher methane production per gram DM incubated [ 83]. Methane emission differ-
+ences within legumes may be attributed to the variability in their chemical constituents as
+reported earlier [ 53,84,85]. The differences in relative proportion of CH 4to energy values
+(CH 4% of DE and % of ME) may be attributed to variations in legume energy values, level
+of methane production and dry matter degradability. Variability in proportion of methane
+to energy of feeds and fodders has been reported earlier [53,65].
+5. Conclusions
+This study ﬁlls a large gap in our understanding of the potential combination of
+sub-tropical legumes for grazing animals. Notably, AG, AH, DV and AS contained high
+energy along with lower structural carbohydrates, making them promising as potential
+livestock feeds. Additionally, DV and RM produced low methane in vitro , suggesting
+potential environmental beneﬁts. These ﬁndings enhance current nutrient knowledge of
+Animals 2023 ,13, 3676 14 of 17
+these pasture legumes and pave the way for a more sustainable livestock industry on the
+Indian sub-continent in the future. However, future studies on animal responses to high
+dietary inclusion levels are required.
+Author Contributions: Conceptualization, S.S., T.S., P .K. and Y.R.; methodology, S.S., T.S., P .K., M.C.
+and U.Y.A.; formal analysis, S.S., T.S. and P .K.; investigation, S.S., T.S. and B.K.B.; writing—original
+draft preparation, S.S., T.S., P .K., M.C. and Y.R.; writing—review and editing, S.S., T.S., P .K., U.Y.A.,
+M.C. and Y.R.; visualization, P .K. and U.Y.A.; supervision, S.S., B.K.B. and Y.R.; project administration,
+S.S. All authors have read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Data are contained within the article.
+Acknowledgments: Authors are thankful to Director IGFRI for providing ﬁnancial support and
+Head Plant Animal Relationship Division for providing laboratory and animal facilities to carry this
+research work.
+Conﬂicts of Interest: The authors have no conﬂict of interest.
+References
+1. Russelle, M.P . Alfalfa: After an 8000-year journey, the “Queen of Forages” stands poised to enjoy renewed popularity. Am. Sci.
+2001 ,89, 252–261. [CrossRef]
+2. Olalekan, A.J.; Bosede, B.F. Comparative study on chemical composition and functional properties of three Nigerian legumes
+(jack beans, pigeon pea and cowpea). J. Emerg. Trends Eng. Appl. Sci. 2010 ,1, 89–95.
+3. Amiri, F. Comparison of nutritive values of grasses and legume species using forage quality index. Songklanakarin J. Sci. Technol.
+2012 ,34, 577–586.
+4. Wattiaux, M.; Howard, T. Technical Dairy Guide: Nutrition and Feeding ; University of Wisconsin: Madison, WI, USA, 2001.
+5. Muir, J.P .; Pitman, W.D.; Dubeux, J.C., Jr.; Foster, J.L. The future of warm-season, tropical and subtropical forage legumes in
+sustainable pastures and rangelands. Afr. J. Range Forage Sci. 2014 ,31, 187–198. [CrossRef]
+6. Schultze-Kraft, R.; Rao, I.M.; Peters, M.; Clements, R.J.; Bai, C.; Liu, G. Tropical forage legumes for environmental beneﬁts: An
+overview. Trop. Grassl.-Forrajes Trop. 2018 ,6, 1–14. [CrossRef]
+7. Soussana, J.-F.; Lemaire, G. Coupling carbon and nitrogen cycles for environmentally sustainable intensiﬁcation of grasslands
+and crop-livestock systems. Agric. Ecosyst. Environ. 2014 ,190, 9–17. [CrossRef]
+8. Dewhurst, R.J.; Delaby, L.; Moloney, A.; Boland, T.; Lewis, E. Nutritive value of forage legumes used for grazing and silage. Ir. J.
+Agric. Food Res. 2009 ,48, 167–187.
+9. Kleen, J.; Taube, F.; Gierus, M. Agronomic performance and nutritive value of forage legumes in binary mixtures with perennial
+ryegrass under different defoliation systems. J. Agric. Sci. 2011 ,149, 73–84. [CrossRef]
+10. Virgona, J.; Harris, C.; Kemp, S.; Evans, J.; Salmon, R. Australian Legume Research–synthesis and future directions. Crop Pasture
+Sci.2012 ,63, 918–926. [CrossRef]
+11. Foster, J.; Adesogan, A.; Carter, J.; Blount, A.; Myer, R.; Phatak, S. Intake, digestibility, and nitrogen retention by sheep
+supplemented with warm-season legume hays or soybean meal. J. Anim. Sci. 2009 ,87, 2891–2898. [CrossRef]
+12. Eckard, R.; Grainger, C.; De Klein, C. Options for the abatement of methane and nitrous oxide from ruminant production: A
+review. Livest. Sci. 2010 ,130, 47–56. [CrossRef]
+13. Puchala, R.; Min, B.; Goetsch, A.; Sahlu, T. The effect of a condensed tannin-containing forage on methane emission by goats.
+J. Anim. Sci. 2005 ,83, 182–186. [CrossRef] [PubMed]
+14. Shanku, E.; Getiso, A.; Mijena, D.; Ijara, F. Integration of annual forage legume with maize for better feed availability of livestock
+in maize dominated mixed farming system of Southern Region, Ethiopia. Int. J. Agric. Sci. Food Technol. 2022 ,8, 173–177.
+15. Graham, P .H.; Vance, C.P . Legumes: Importance and constraints to greater use. Plant Physiol. 2003 ,131, 872–877. [CrossRef]
+16. Thomas, D.; Sumberg, J. A review of the evaluation and use of tropical forage legumes in sub-Saharan Africa. Agric. Ecosyst.
+Environ. 1995 ,54, 151–163. [CrossRef]
+17. Lewis, G.; Schrire, B.; Mackinder, B.; Lock, M. Legumes of the World. Royal Botanic Gardens, Kew. Edinb. J. Bot. 2005 ,62, 195–196.
+18. Valarini, M.; Possenti, R. Research note: Nutritive value of a range of tropical forage legumes. Trop. Grassl. 2006 ,40, 183.
+19. Zhao, D.; MacKown, C.T.; Starks, P .J.; Kindiger, B.K. Interspecies variation of forage nutritive value and nonstructural carbohy-
+drates in perennial cool-season grasses. Agron. J. 2008 ,100, 837–844. [CrossRef]
+20. Guo, X.; Wilmshurst, J.F.; Li, Z. Comparison of laboratory and ﬁeld remote sensing methods to measure forage quality. Int. J.
+Environ. Res. Public Health 2010 ,7, 3513–3530. [CrossRef]
+Animals 2023 ,13, 3676 15 of 17
+21. Kassi, A.L.; Newbold, C.; Wallace, R. Chemical composition and degradation characteristics of foliage of some African multipur-
+pose trees. Anim. Feed Sci. Technol. 2000 ,86, 27–37.
+22. Ahmad, M.S.; Mehmood, M.A.; Al Ayed, O.S.; Ye, G.; Luo, H.; Ibrahim, M.; Rashid, U.; Nehdi, I.A.; Qadir, G. Kinetic analyses and
+pyrolytic behavior of Para grass (Urochloa mutica) for its bioenergy potential. Bioresour. Technol. 2017 ,224, 708–713. [CrossRef]
+[PubMed]
+23. Van Soest, P .V .; Robertson, J.B.; Lewis, B.A. Methods for dietary ﬁber, and nonstarch polysaccharides in relation to animal
+nutrition. J. Dairy Sci. 1991 ,74, 3583–3597. [CrossRef]
+24. Sniffen, C.J.; O’Connor, J.D.; Van Soest, P .J.; Fox, D.G.; Russell, J.B. A net carbohydrate and protein system for evaluating cattle
+diets: II. Carbohydrate and protein availability. J. Anim. Sci. 1992 ,70, 3562–3577. [PubMed]
+25. Caballero, R.; Alzueta, C.; Ortiz, L.T.; Rodr íguez, M.L.; Barro, C.; Rebol é, A. Carbohydrate and protein fractions of fresh and
+dried common vetch at three maturity stages. Agron. J. 2001 ,93, 1006–1013. [CrossRef]
+26. Sastry, V .; Kamra, D.; Pathak, N. Laboratory Manual of Animal Nutrition ; Indian Veterinary Research Institute: Izatnagar, India,
+1999; p. 255.
+27. Licitra, G.; Hernandez, T.M.; Van Soest, P .J. Standardization of procedures for nitrogen fractionation of ruminant feeds. Anim.
+Feed Sci. Technol. 1996 ,57, 347–358. [CrossRef]
+28. Undersander, D.; Mertens, D.; Thiex, N. Forage Analyses. In Information Systems Division ; National Agricultural Library (United
+States of America) NAL/USDA: Beltsville, MD, USA, 1993.
+29. Fonnesbeck, P .V .; Clark, D.H.; Garret, W.N.; Speth, C.F. Predicting energy utilization from alfalfa hay from the Western Region.
+Proc. Am. Anim. Sci. (West. Sect.) 1984 ,35, 305–308.
+30. Khalil, J.; Sawaya, W.N.; Hyder, S.Z. Nutrient composition of Atriplex leaves grown in Saudi Arabia. Rangel. Ecol. Manag. J. Range
+Manag. Arch. 1986 ,39, 104–107. [CrossRef]
+31. Koli, P .; Kumar, J.; Singh, B.B.; Kumar, S. Mineral proﬁling and Phytochemical assessment of Lepidium sativum seeds from
+tropical western India. Int. J. Curr. Microbiol. Appl. Sci. 2018 ,7, 3720–3728. [CrossRef]
+32. Theodorou, M.K.; Williams, B.A.; Dhanoa, M.S.; McAllan, A.B.; France, J. A simple gas production method using a pressure
+transducer to determine the fermentation kinetics of ruminant feeds. Anim. Feed Sci. Technol. 1994 ,48, 185–197. [CrossRef]
+33. Tavendale, M.H.; Meagher, L.P .; Pacheco, D.; Walker, N.; Attwood, G.T.; Sivakumaran, S. Methane production from in vitro
+rumen incubations with Lotus pedunculatus and Medicago sativa, and effects of extractable condensed tannin fractions on
+methanogenesis. Anim. Feed Sci. Technol. 2005 ,123, 403–419. [CrossRef]
+34. Santoso, B.; Mwenya, B.; Sar, C.; Takahashi, J. Methane production and energy partition in sheep fed timothy silage-or hay-based
+diets. J. Ilmu Ternak Vet. 2007 ,12, 27–33.
+35. Getachew, G.; Makkar, H.; Becker, K. Tropical browses: Contents of phenolic compounds, in vitro gas production and stoichio-
+metric relationship between short chain fatty acid and in vitro gas production. J. Agric. Sci. 2002 ,139, 341–352. [CrossRef]
+36. Blümmel, M.; Steinga , H.; Becker, K. The relationship between in vitro gas production, in vitro microbial biomass yield and
+15N incorporation and its implications for the prediction of voluntary feed intake of roughages. Br. J. Nutr. 1997 ,77, 911–921.
+[CrossRef] [PubMed]
+37. Herrero, M.; Jessop, N. In Vitro Gas Production of Tropical Pasture Legumes. In Proceedings of the XVIII International Grassland
+Congress, Winnipeg, MB, Canada, 8–19 June 1997; pp. 63–64.
+38. Tona, G.; Ogunleke, F.; Asaolu, A.; Yusuf, A.; Olasusi, E. In vitro evaluation of grass and legume/browse species grazed by west
+african dwarf goats in South-Western Nigeria. IOSR J. Agric. Vet. Sci. 2017 ,10, 70–75. [CrossRef]
+39. Musco, N.; Koura, I.B.; Tudisco, R.; Awadjih è, G.; Adjolohoun, S.; Cutrignelli, M.I.; Mollica, M.P .; Houinato, M.; Infascelli, F.;
+Calabr ò, S. Nutritional characteristics of forage grown in south of Benin. Asian-Australas. J. Anim. Sci. 2016 ,29, 51.
+40. Mokoboki, H.; Ndlovu, L.; Ayisi, K. Chemical and physical parameters of forage legume species introduced in the Capricorn
+region of Limpopo Province, South Africa. S. Afr. J. Anim. Sci. 2002 ,32, 247–255.
+41. Deshmukh, S.; Jadhav, V . Bromatological and mineral assessment of Clitoria ternatea Linn. leaves. Energy (KJ) 2014 ,6, 244–246.
+42. Silva, D.L.; Oliveira, K.P .; Aroeira, L.J.; Chaves, D.F.; Ponciano, M.F.; Braga, A.P .; J únior, D.M.L. Chemical composition of Caatinga
+potential forages species. Trop. Subtrop. Agroecosyst. 2015 ,18, 267–272.
+43. Suha Uslu, O.; Kurt, O.; Kaya, E.; Kamalak, A. Effect of species on chemical composition, metabolizable energy, organic matter
+digestibility and methane production of some legume plants grown in Turkey. J. Appl. Anim. Res. 2018 ,46, 1158–1161. [CrossRef]
+44. Carvalho, M.; Quesenberry, K. Agronomic evaluation of Arachis pintoi (Krap. and Greg.) germplasm in Florida. Arch. Zootec.
+2012 ,61, 19–29. [CrossRef]
+45. Ferreira, A.L.; Maur ício, R.M.; Fernandes, F.D.; Carvalho, M.A.; Ramos, A.K.B.; Junior, R.G. Ranking contrasting genotypes of
+forage peanut based on nutritive value and fermentation kinetics. Anim. Feed Sci. Technol. 2012 ,175, 16–23. [CrossRef]
+46. Li, M.; Zi, X.; Zhou, H.; Hou, G.; Cai, Y. Chemical composition and in vitro digestibility of Stylosanthes guianensis varieties.
+Grassl. Sci. 2014 ,60, 125–129. [CrossRef]
+47. Ali, A.; Abdullah, L.; Karti, P .D.; Chozin, M.; Astuti, D. Production, competition indices, and nutritive values of Setaria splendida,
+Centrosema pubescens, and Clitoria ternatea in mixed cropping systems in peatland. Media Peternak. 2013 ,36, 209. [CrossRef]
+48. da Silva Cabral, L.; Filho, S.d.C.V .; Muniz, P .A.; Malafaia, R.d.P .L.; da Silva, J.F.C.; Vieira, R.A.M.; Pereira, E.S. Fraç ões prot éicas
+de alimentos tropicais e suas taxas de digest ão estimadas pela incubaç ão com proteases ruminais. Rev. Bras. Zootec. 2000 ,29,
+2316–2324.
+Animals 2023 ,13, 3676 16 of 17
+49. Van Soest, P . Nutritional Ecology of The Ruminants ; Cornell University: Ithaca, NY, USA, 1994.
+50. Buxton, D.R.; Fales, S.L. Plant environment and quality. In Forage Quality, Evaluation, and Utilization ; American Society of
+Agronomy: Madison, WI, USA, 1994; pp. 155–199.
+51. Mlay, P .S.; Pereka, A.; Chikula Phiri, E.; Balthazary, S.; Igusti, J.; Hvelplund, T.; Riis Weisbjerg, M.; Madsen, J. Feed value of
+selected tropical grasses, legumes and concentrates. Vet. Arh. 2006 ,76, 53–63.
+52. Carvalho, G.G.P .d.; Garcia, R.; Pires, A.J.V .; Pereira, O.G.; Fernandes, F. É.P .; Obeid, J.A.; Carvalho, B.M.A.d. Carbohydrate
+fractioning of elephantgrass silage wilted or enriched with cocoa meal. Rev. Bras. Zootec. 2007 ,36, 1000–1005. [CrossRef]
+53. Singh, S.; Kushwaha, B.; Nag, S.; Mishra, A.; Singh, A.; Anele, U. In vitro ruminal fermentation, protein and carbohydrate
+fractionation, methane production and prediction of twelve commonly used Indian green forages. Anim. Feed Sci. Technol. 2012 ,
+178, 2–11. [CrossRef]
+54. Teixeira, D.A.A.; de Pinho Costa, K.A.; de Castro Dias, M.B.; Guimar ães, K.C.; Epifanio, P .S.; Fernandes, P .B. Protein and
+carbohydrate fractionation of silages made from maize, Urochloa species and their mixtures. Trop. Grassl. Forrajes Trop. 2022 ,10,
+134–142. [CrossRef]
+55. Ribeiro, K.G.; Pereira, O.G.; Valadares Filho, S.d.C.; Garcia, R.; Cabral, L.d.S. Characterization of the protein and the carbohydrate
+fractions, and the respective degradation rates of Tifton 85 bermudagrass hay at different regrowth ages. Rev. Bras. De Zootec.
+2001 ,30, 589–595. [CrossRef]
+56. Adewole, A.H.; Famuyide, I.M.; McGaw, L.J.; Selepe, M.A.; October, N. Antifungal Compounds from the Leaves of Rhynchosia
+minima. Chem. Biodivers. 2022 ,19, e202200837. [CrossRef]
+57. Osman, I.M.; Acar, R.; Babikir, E.S.N. Exploiting indigenous plants species to rehabilitate degraded rangelands of sudan using
+rhynchosia minima (L.) DC. In Proceedings of the 1st International Conference on Sustainable Ecological Agriculture (1st ISEA),
+Konya, Türkiye, 12–14 May 2022; p. 157.
+58. Teferedegne, B. New perspectives on the use of tropical plants to improve ruminant nutrition. Proc. Nutr. Soc. 2000 ,59, 209–214.
+[CrossRef] [PubMed]
+59. Romney, D.; Gill, M. Intake of forages. In Forage Evaluation in Ruminant Nutrition ; CAB International: Wallingford, UK, 2000;
+pp. 43–62.
+60. Warly, L.; Fariani, A.; Ichinohe, T.; Fujihara, T. Study on nutritive value of tropical forages in North Sumatra, Indonesia.
+Asian-Australas. J. Anim. Sci. 2004 ,17, 1518–1523.
+61. Aydın, N.; Mut, Z.; Mut, H.; Ayan, ˙I. Effect of autumn and spring sowing dates on hay yield and quality of oat ( Avena sativa L.)
+genotypes. J. Anim. Veter-Adv. 2010 ,9, 1539–1545. [CrossRef]
+62. Fernandes, F.D.; Ramos, A.K.; Carvalho, M.A.; Maciel, G.A.; ASSIS, G.M.D.; Braga, G.J. Forage yield and nutritive value of
+Arachis spp. genotypes in the Brazilian savanna. Trop. Grassl.-Forrajes Trop. 2017 ,5, 19–28. [CrossRef]
+63. Nasrullah, M.N.; Niimi, M.; Akashi, R.; Kawamura, O. Nutritive evaluation of forage plants grown in South Sulawesi, Indonesia
+II. Mineral Composition. Asian-Australas. J. Anim. Sci. 2004 ,17, 63–67. [CrossRef]
+64. Gama, T.d.C.M.; Volpe, E.; Lempp, B. Biomass accumulation and chemical composition of Massai grass intercropped with forage
+legumes on an integrated crop-livestock-forest system. Rev. Bras. De Zootec. 2014 ,43, 279–288. [CrossRef]
+65. Melesse, A.; Steingass, H.; Schollenberger, M.; Rodehutscord, M. Screening of common tropical grass and legume forages in
+Ethiopia for their nutrient composition and methane production proﬁle in vitro .Trop. Grassl.-Forrajes Trop. 2017 ,5, 163–175.
+[CrossRef]
+66. Sébastien, A.; J érôme, B.; Claude, A.; Soumanou, T.S.; Marcel, H.; Brice, S. Variety and environmental effects on crude protein
+concentration and mineral composition of Arachis pintoi (Kaprovickas & Gregory) in Benin (West Africa). J. Appl. Biol. Biotechnol.
+2013 ,1, 024–028.
+67. Jukneviˇ cius, S.; Sabien ˙e, N. The content of mineral elements in some grasses and legumes. Ekologija 2007 ,53, 44–52.
+68. McCrabb, G.; Berger, K.; Magner, T.; May, C.; Hunter, R. Inhibiting methane production in Brahman cattle by dietary supplemen-
+tation with a novel compound and the effects on growth. Aust. J. Agric. Res. 1997 ,48, 323–329. [CrossRef]
+69. Anele, U.; Südekum, K.-H.; Hummel, J.; Arigbede, O.; Oni, A.; Olanite, J.; Böttger, C.; Ojo, V .; Jolaosho, A. Chemical charac-
+terization, in vitro dry matter and ruminal crude protein degradability and microbial protein synthesis of some cowpea ( Vigna
+unguiculata L. Walp) haulm varieties. Anim. Feed Sci. Technol. 2011 ,163, 161–169. [CrossRef]
+70. Hungate, R. The Rumen and Its Microbes ; Academic Press: New York, NY, USA; London, UK, 1966.
+71. Keller, M.; Scheurer, A.; Reidy, B.; Liesegang, A.; Amelchanka, S.L.; Kreuzer, M.; Giller, K. Nitrogen and energy losses and
+methane emissions from beef cattle fed diets with gradual replacement of maize silage and concentrate with grass silage and
+corn-cob mix. Animal 2023 ,17, 100722. [CrossRef]
+72. Mirzaei-Aghsaghali, A.; Maheri-Sis, N. Factors affecting mitigation of methane emission from ruminants I: Feeding strategies.
+Asian J. Anim. Vet. Adv. 2011 ,6, 888–908. [CrossRef]
+73. Singh, S.; Koli, P .; Bhadoria, B.K.; Agarwal, M.; Lata, S.; Ren, Y.; Du, X. Proanthocyanidins Modulate Rumen Enzyme Activities
+and protein utilization in vitro. Molecules 2022 ,27, 5870. [CrossRef]
+74. Singh, S.; Kundu, S.S. Effect of tropical browse leaves supplementation on rumen enzymes of sheep and goats fed Dichanthium
+annulatum grass-based diets. Trop. Anim. Health Prod. 2010 ,42, 1181–1187. [CrossRef]
+75. Koli, P .; Singh, S.; Bhadoria, B.K.; Agarwal, M.; Lata, S.; Ren, Y. Sequential Extraction of Proanthocyanidin Fractions from Ficus
+Species and Their Effects on Rumen Enzyme Activities In Vitro. Molecules 2022 ,27, 5153. [CrossRef]
+Animals 2023 ,13, 3676 17 of 17
+76. Lopez, V .M.; Florentino, B.; Barlaz, M.A. Chemical composition and methane potential of commercial food wastes. Waste Manag.
+2016 ,56, 477–490. [CrossRef]
+77. Banik, B.; Durmic, Z.; Erskine, W.; Ghamkhar, K.; Revell, C. In vitro ruminal fermentation characteristics and methane production
+differ in selected key pasture species in Australia. Crop Pasture Sci. 2013 ,64, 935–942. [CrossRef]
+78. Bezabih, M.; Pellikaan, W.; Tolera, A.; Khan, N.; Hendriks, W. Chemical composition and in vitro total gas and methane
+production of forage species from the M id R ift V alley grasslands of E thiopia. Grass Forage Sci. 2014 ,69, 635–643. [CrossRef]
+79. Boga, M.; Yurtseven, S.; Kilic, U.; Aydemir, S.; Polat, T. Determination of nutrient contents and in vitro gas production values of
+some legume forages grown in the Harran plain saline soils. Asian-Australas. J. Anim. Sci. 2014 ,27, 825. [CrossRef]
+80. Maccarana, L.; Cattani, M.; Tagliapietra, F.; Bailoni, L.; Schiavon, S. Inﬂuence of main dietary chemical constituents on the in vitro
+gas and methane production in diets for dairy cows. J. Anim. Sci. Biotechnol. 2016 ,7, 54. [CrossRef] [PubMed]
+81. Bueno, I.C.; Brandi, R.A.; Franzolin, R.; Benetel, G.; Fagundes, G.M.; Abdalla, A.L.; Louvandini, H.; Muir, J.P . In vitro methane
+production and tolerance to condensed tannins in ﬁve ruminant species. Anim. Feed Sci. Technol. 2015 ,205, 1–9. [CrossRef]
+82. Cone, J.W.; Van Gelder, A.H.; Bachmann, H. Inﬂuence of inoculum source on gas production proﬁles. Anim. Feed Sci. Technol.
+2002 ,99, 221–231. [CrossRef]
+83. Jayanegara, A.; Togtokhbayar, N.; Makkar, H.P .S.; Becker, K. Tannins determined by various methods as predictors of methane
+production reduction potential of plants by an in vitro rumen fermentation system. Anim. Feed Sci. Technol. 2009 ,150, 230–237.
+[CrossRef]
+84. Singh, S.; Bhadoria, B.K.; Koli, P .; Lata, S. Seasonal variation in chemical and biochemical constituents of tropical top feed species:
+Components in silvipasture system. Range Manag. Agrofor. 2021 ,42, 312–319.
+85. Singh, S.; Bhadoria, B.K.; Koli, P .; Singh, A. Nutritional evaluation of top foliages for livestock feeding in semi arid region of India.
+Indian J. Anim. Sci. 2019 ,89, 1389–1398. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
