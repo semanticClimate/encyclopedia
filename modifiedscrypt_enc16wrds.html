@@ -1,0 +1,220 @@
+<html>
+  <head>
+    <style>
+        /* Entry box styling */
+        div[role="ami_entry"] {
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        
+        /* Disambiguation entry styling - different background color */
+        div[role="ami_entry"][data-category="disambiguation"] {
+            background-color: #fff3cd;
+            border-color: #ffc107;
+        }
+        
+        /* Wikidata category styling */
+        .wikidata-category {
+            font-weight: bold;
+            color: #666;
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        
+        /* Link spacing */
+        .link-spacer {
+            margin: 0 10px;
+        }
+        
+        /* Wikipedia and Wikidata links */
+        .wikipedia-link, .wikidata-link {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        
+        .wikipedia-link:hover, .wikidata-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* No Wikipedia/Wikidata indicators */
+        .no-wikipedia, .no-wikidata {
+            color: #999;
+            font-style: italic;
+            margin-right: 10px;
+        }
+        
+        /* First sentence (definition) highlighting - ONLY the first sentence */
+        .first_sentence_definition {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #2c3e50;
+            background-color: #e8f4f8;
+            border-left: 4px solid #0066cc;
+            padding: 4px 8px;
+            border-radius: 3px;
+            display: inline;
+        }
+        
+        /* Description paragraph styling - regular text, NOT highlighted */
+        .wpage_first_para {
+            margin: 10px 0;
+            padding: 8px;
+            color: #333;
+            font-weight: normal;
+        }
+        
+        /* First sentence within paragraphs - ensure paragraph itself is NOT highlighted */
+        p.wpage_first_para {
+            margin: 12px 0;
+            padding: 10px;
+            color: #333;
+            font-weight: normal;
+            background-color: transparent;
+            border: none;
+        }
+        
+        /* Only highlight the span inside the paragraph */
+        p.wpage_first_para .first_sentence_definition {
+            font-weight: bold;
+            background-color: #e8f4f8;
+            border-left: 4px solid #0066cc;
+            padding: 4px 8px;
+        }
+        
+        /* Wikipedia image link */
+        .wikipedia-image-link {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 8px 12px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        
+        .wikipedia-image-link:hover {
+            background-color: #e0e0e0;
+            text-decoration: underline;
+        }
+        
+        /* Entry checkboxes container */
+        .entry-checkboxes {
+            margin-bottom: 10px;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border-radius: 3px;
+        }
+        
+        /* Checkbox wrapper */
+        .entry-checkbox-wrapper {
+            margin: 5px 0;
+        }
+        
+        /* Disambiguation wrapper */
+        .disambiguation-wrapper {
+            margin: 5px 0;
+            padding: 10px;
+            background-color: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 3px;
+        }
+        
+        /* Disambiguation label */
+        .disambiguation-label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #856404;
+        }
+        
+        /* Disambiguation checkbox wrapper */
+        .disambiguation-checkbox-wrapper {
+            margin: 5px 0;
+            padding: 3px 0;
+        }
+        
+        /* Disambiguation checkbox */
+        .disambiguation-checkbox {
+            margin-right: 5px;
+        }
+        
+        /* Disambiguation checkbox label */
+        .disambiguation-checkbox-wrapper label {
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        /* Disambiguation checkbox label link */
+        .disambiguation-checkbox-wrapper label a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        .disambiguation-checkbox-wrapper label a:hover {
+            text-decoration: underline;
+        }
+        </style>
+  </head>
+  <body>
+    <div role="ami_encyclopedia" title="Encyclopedia" data-metadata="{&#10;  &quot;created&quot;: &quot;2026-01-27T06:39:40Z&quot;,&#10;  &quot;last_edited&quot;: &quot;2026-01-27T06:40:32Z&quot;,&#10;  &quot;title&quot;: &quot;Encyclopedia&quot;,&#10;  &quot;version&quot;: &quot;1.0.0&quot;,&#10;  &quot;actions&quot;: [],&#10;  &quot;hidden_entries&quot;: [],&#10;  &quot;disambiguation_selections&quot;: [],&#10;  &quot;merge_operations&quot;: [],&#10;  &quot;sort_history&quot;: [],&#10;  &quot;statistics&quot;: {}&#10;}">
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q125928" term="global warming" wikidataID="Q125928" data-category="true_wikipedia"><div class="entry-checkboxes" data-category="true_wikipedia"><div class="entry-checkbox-wrapper"><input type="checkbox" class="merge-synonyms-checkbox" data-entry-id="Q125928" data-wikidata-id="Q125928" id="merge_Q125928" checked="checked"/><label for="merge_Q125928">Merge synonyms</label></div></div><a href="https://en.wikipedia.org/wiki/Climate_change" class="wikipedia-link">Climate change</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q125928" class="wikidata-link">Q125928</a><ul class="synonym_list"><li>global warming</li><li>&#65279;climate change</li></ul><p class="wpage_first_para">Present-day <b>climate change</b> includes both <b>global warming</b>&#8212;the ongoing increase in <a href="/wiki/Global_surface_temperature" title="Global surface temperature">global average temperature</a>&#8212;and its wider effects on Earth's <a href="/wiki/Climate_system" title="Climate system">climate system</a>. <a href="/wiki/Climate_variability_and_change" title="Climate variability and change">Climate change in a broader sense</a> also includes previous long-term changes to Earth's <a href="/wiki/Climate" title="Climate">climate</a>. The modern-day rise in global temperatures is <a href="/wiki/Scientific_consensus_on_climate_change" title="Scientific consensus on climate change">driven by human activities</a>, especially <a href="/wiki/Fossil_fuel" title="Fossil fuel">fossil fuel</a> (<a href="/wiki/Coal" title="Coal">coal</a>, <a href="/wiki/Petroleum" title="Petroleum">oil</a> and <a href="/wiki/Natural_gas" title="Natural gas">natural gas</a>) burning since the <a href="/wiki/Industrial_Revolution" title="Industrial Revolution">Industrial Revolution</a>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-Lynas_2021_4-0" class="reference"><a href="#cite_note-Lynas_2021-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup> Fossil fuel use, <a href="/wiki/Deforestation_and_climate_change" title="Deforestation and climate change">deforestation</a>, and some <a href="/wiki/Greenhouse_gas_emissions_from_agriculture" title="Greenhouse gas emissions from agriculture">agricultural</a> and industrial practices release <a href="/wiki/Greenhouse_gas" title="Greenhouse gas">greenhouse gases</a>.<sup id="cite_ref-Our_World_in_Data-2020_5-0" class="reference"><a href="#cite_note-Our_World_in_Data-2020-5"><span class="cite-bracket">[</span>5<span class="cite-bracket">]</span></a></sup> These gases <a href="/wiki/Greenhouse_effect" title="Greenhouse effect">absorb some of the heat</a> that the Earth <a href="/wiki/Thermal_radiation" title="Thermal radiation">radiates</a> after it warms from sunlight, warming the lower atmosphere. Earth's atmosphere now has <a href="/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth" title="Carbon dioxide in the atmosphere of Earth">roughly 50% more carbon dioxide</a>, the main gas driving global warming, than it did at the end of the <a href="/wiki/Pre-industrial_society" title="Pre-industrial society">pre-industrial era</a>, reaching levels not seen for millions of years.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite-bracket">[</span>6<span class="cite-bracket">]</span></a></sup>
+</p>
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q106358009" term="GHG emissions" wikidataID="Q106358009" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/GHG_emissions" class="wikipedia-link">GHG emissions</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q106358009" class="wikidata-link">Q106358009</a><p class="wpage_first_para"><b>Greenhouse gas</b> (<b>GHG</b>) <b>emissions</b> from human activities intensify the <a href="/wiki/Greenhouse_effect" title="Greenhouse effect">greenhouse effect</a>. This contributes to <a href="/wiki/Climate_change" title="Climate change">climate change</a>. <a href="/wiki/Carbon_dioxide" title="Carbon dioxide">Carbon dioxide</a> (CO<sub style="font-size: 80%;vertical-align: -0.35em">2</sub>), from burning <a href="/wiki/Fossil_fuel" title="Fossil fuel">fossil fuels</a> such as <a href="/wiki/Coal" title="Coal">coal</a>, <a href="/wiki/Petroleum" title="Petroleum">oil</a>, and <a href="/wiki/Natural_gas" title="Natural gas">natural gas</a>, is the main cause of climate change. The <a href="/wiki/List_of_locations_and_entities_by_greenhouse_gas_emissions" title="List of locations and entities by greenhouse gas emissions">largest annual emissions</a> are from China followed by the United States. The United States has <a href="/wiki/List_of_countries_by_greenhouse_gas_emissions_per_capita" title="List of countries by greenhouse gas emissions per capita">higher emissions per capita</a>. The main producers fueling the emissions globally are <a href="/wiki/Big_Oil" title="Big Oil">large oil and gas companies</a>. Emissions from human activities have increased <a href="/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth" title="Carbon dioxide in the atmosphere of Earth">atmospheric carbon dioxide</a> by about 50% over pre-industrial levels. The growing levels of emissions have varied, but have been consistent among all <a href="/wiki/Greenhouse_gas" title="Greenhouse gas">greenhouse gases</a>. Emissions in the 2010s averaged 56 billion tons a year, higher than any decade before.<sup id="cite_ref-ipccar6wg3ch2_2-0" class="reference"><a href="#cite_note-ipccar6wg3ch2-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup> Total cumulative emissions from 1870 to 2022 were 703 <abbr title="gigatons (billions of tons) of carbon">GtC</abbr> (2575 <abbr title="gigatons of carbon dioxide">GtCO<sub style="font-size: 80%;vertical-align: -0.35em">2</sub></abbr>), of which 484&#177;20 <abbr title="gigatons (billions of tons) of carbon">GtC</abbr> (1773&#177;73 <abbr title="gigatons of carbon dioxide">GtCO<sub style="font-size: 80%;vertical-align: -0.35em">2</sub></abbr>) from <a href="/wiki/Fossil_fuel" title="Fossil fuel">fossil fuels</a> and industry, and 219&#177;60 <abbr title="gigatons of carbon">GtC</abbr> (802&#177;220 <abbr title="gigatons of carbon dioxide">GtCO<sub style="font-size: 80%;vertical-align: -0.35em">2</sub></abbr>) from <a href="/wiki/Land_use,_land-use_change,_and_forestry" title="Land use, land-use change, and forestry">land use change</a>. <a href="/wiki/Land-use_change" class="mw-redirect" title="Land-use change">Land-use change</a>, such as <a href="/wiki/Deforestation_and_climate_change" title="Deforestation and climate change"> deforestation</a>, caused about 31% of cumulative emissions over 1870&#8211;2022, <a href="/wiki/Coal" title="Coal">coal</a> 32%, oil 24%, and gas 10%.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup>
+</p>
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q92092146" term="mitigation pathways" wikidataID="Q92092146" data-category="true_wikipedia">
+        <a href="https://en.wikipedia.org/wiki/Mitigation_pathways" class="wikipedia-link">Mitigation pathways</a>
+        <span class="link-spacer"> </span>
+        <a href="https://www.wikidata.org/wiki/Q92092146" class="wikidata-link">Q92092146</a>
+      </div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q21707860" term="Paris Agreement" wikidataID="Q21707860" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Paris_Agreement" class="wikipedia-link">Paris Agreement</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q21707860" class="wikidata-link">Q21707860</a><p class="wpage_first_para">The <b>Paris Agreement</b> (also called the <b>Paris Accords</b> or <b>Paris Climate Accords</b>) is an international treaty on <a href="/wiki/Climate_change" title="Climate change">climate change</a> that was signed in 2016.<sup id="cite_ref-:0_3-0" class="reference"><a href="#cite_note-:0-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup> The treaty covers <a href="/wiki/Climate_change_mitigation" title="Climate change mitigation">climate change mitigation</a>, <a href="/wiki/Climate_change_adaptation" title="Climate change adaptation">adaptation</a>, and <a href="/wiki/Climate_finance" title="Climate finance">finance</a>. The Paris Agreement was negotiated by 196 <a href="/wiki/Party_(law)" title="Party (law)">parties</a> at the <a href="/wiki/2015_United_Nations_Climate_Change_Conference" title="2015 United Nations Climate Change Conference">2015 United Nations Climate Change Conference</a> near <a href="/wiki/Paris" title="Paris">Paris</a>, France. As of February 2023, 195 members of the <a href="/wiki/United_Nations_Framework_Convention_on_Climate_Change" title="United Nations Framework Convention on Climate Change">United Nations Framework Convention on Climate Change</a> (UNFCCC) are parties to the agreement. Of the three UNFCCC member states which have not <a href="/wiki/Ratification" title="Ratification">ratified</a> the agreement, the only major <a href="/wiki/List_of_countries_by_greenhouse_gas_emissions" title="List of countries by greenhouse gas emissions">emitter</a> is <a href="/wiki/Climate_change_in_Iran" title="Climate change in Iran">Iran</a>. The United States, the second largest emitter, <a href="/wiki/United_States_and_the_Paris_Agreement" title="United States and the Paris Agreement">withdrew from the agreement</a> in 2020,<sup id="cite_ref-UScom_4-0" class="reference"><a href="#cite_note-UScom-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup> rejoined in 2021,<sup id="cite_ref-:20_5-0" class="reference"><a href="#cite_note-:20-5"><span class="cite-bracket">[</span>5<span class="cite-bracket">]</span></a></sup> and announced its <a href="/wiki/Executive_Order_14162" title="Executive Order 14162">withdrawal again in 2025</a>.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite-bracket">[</span>6<span class="cite-bracket">]</span></a></sup>
+</p>
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q16722080" term="carbon budget" wikidataID="Q16722080" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Carbon_budget" class="wikipedia-link">Carbon budget</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q16722080" class="wikidata-link">Q16722080</a><p class="wpage_first_para">A <b>carbon budget</b> is a concept used in <a href="/wiki/Politics_of_climate_change" title="Politics of climate change">politics of climate change</a> to help set <a href="/wiki/Greenhouse_gas_emissions" title="Greenhouse gas emissions">greenhouse gas emissions</a> reduction targets in a fair and effective way. It examines the "maximum amount of cumulative net global anthropogenic carbon dioxide (CO<sub style="font-size: 80%;vertical-align: -0.35em">2</sub>) emissions that would result in limiting <a href="/wiki/Climate_change" title="Climate change">global warming</a> to a given level".<sup id="cite_ref-:17_2-0" class="reference"><a href="#cite_note-:17-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup><sup class="reference nowrap"><span title="Page / location: 2220">:&#8202;2220&#8202;</span></sup> It can be expressed relative to the <a href="/wiki/Industrialisation" title="Industrialisation">pre-industrial period</a> (the year 1750). In this case, it is the <i>total carbon budget.</i> Or it can be expressed from a recent specified date onwards. In that case it is the <i>remaining carbon budget</i>.<sup id="cite_ref-:17_2-1" class="reference"><a href="#cite_note-:17-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup><sup class="reference nowrap"><span title="Page / location: 2220">:&#8202;2220&#8202;</span></sup>
+</p>
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q1774427" term="climate policy" wikidataID="Q1774427" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Climate_policy" class="wikipedia-link">Climate policy</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q1774427" class="wikidata-link">Q1774427</a><p class="wpage_first_para">The <b>politics of climate change</b> results from different perspectives on how to respond to <a href="/wiki/Climate_change" title="Climate change">climate change</a>. <a href="/wiki/Global_warming" class="mw-redirect" title="Global warming">Global warming</a> is driven largely by the <a href="/wiki/Greenhouse_gas_emissions" title="Greenhouse gas emissions">emissions of greenhouse gases</a> due to human activity, especially the burning of <a href="/wiki/Fossil_fuels" class="mw-redirect" title="Fossil fuels">fossil fuels</a>,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup> certain industries like cement and steel production, and <a href="/wiki/Land-use_change" class="mw-redirect" title="Land-use change">land use for agriculture and forestry</a>. Since the <a href="/wiki/Industrial_Revolution" title="Industrial Revolution">Industrial Revolution</a>, fossil fuels have provided the main source of energy for <a href="/wiki/Human_development_(economics)" title="Human development (economics)">economic and technological development.</a> The centrality of fossil fuels and other <a href="/wiki/Emission_intensity" title="Emission intensity">carbon-intensive</a> industries has resulted in much resistance to climate policy, despite <a href="/wiki/Scientific_consensus_on_climate_change" title="Scientific consensus on climate change">widespread scientific consensus</a> that such policy is necessary.
+</p>
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q226903" term="CDR" wikidataID="Q226903" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/CDR" class="wikipedia-link">CDR</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q226903" class="wikidata-link">Q226903</a><p class="wpage_first_para"><b>CDR</b> may refer to:
+</p>
+
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q131201" term="sustainable development" wikidataID="Q131201" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Sustainable_development" class="wikipedia-link">Sustainable development</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q131201" class="wikidata-link">Q131201</a><p class="wpage_first_para"><b>Sustainable development</b> is an approach to growth and <a href="/wiki/Human_development_(economics)" title="Human development (economics)">human development</a> that aims to meet the needs of the present without compromising the ability of future generations to meet their own needs.<sup id="cite_ref-:1_1-0" class="reference"><a href="#cite_note-:1-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-:72_2-0" class="reference"><a href="#cite_note-:72-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup> The aim is to have a society where living conditions and resources meet human needs without undermining <a href="/wiki/Planetary_integrity" class="mw-redirect" title="Planetary integrity">planetary integrity</a>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup> Sustainable development aims to balance the needs of the <a href="/wiki/Economic_development" title="Economic development">economy</a>, <a href="/wiki/Environmental_protection" title="Environmental protection">environment</a>, and society. Sustainable development aims to balance the needs of the economy, environment, and society. Equitable health access is a pillar of social sustainability. The <a href="/wiki/Brundtland_Report" class="mw-redirect" title="Brundtland Report">Brundtland Report</a> in 1987 helped to make the concept of sustainable development better known.
+</p>
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="26COP" term="26COP" data-category="true_wikipedia">
+        <a href="https://en.wikipedia.org/wiki/26COP" class="wikipedia-link">26COP</a>
+        <span class="link-spacer"> </span>
+      </div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q6881760" term="mitigation" wikidataID="Q6881760" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Mitigation" class="wikipedia-link">Mitigation</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q6881760" class="wikidata-link">Q6881760</a><p class="wpage_first_para"><b>Mitigation</b> is the reduction of something harmful that has occurred or the reduction of its harmful effects. It may refer to measures taken to reduce the harmful effects of <a href="/wiki/Hazard" title="Hazard">hazards</a> that remain <i>in potentia</i>, or to manage harmful incidents that have already occurred. It is a stage or component of <a href="/wiki/Emergency_management" title="Emergency management">emergency management</a> and of <a href="/wiki/Risk_management" title="Risk management">risk management</a>. The theory of mitigation is a frequently used element in <a href="/wiki/Criminal_Law_(Amendment)_Act,_2013" title="Criminal Law (Amendment) Act, 2013">criminal law</a> and is often used by a judge to try cases such as murder, where a perpetrator is subject to varying degrees of responsibility as a result of one's actions.<sup id="cite_ref-Merriam-Webster_1-0" class="reference"><a href="#cite_note-Merriam-Webster-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-Mitigation_guide_Intro_2-0" class="reference"><a href="#cite_note-Mitigation_guide_Intro-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup>
+</p>
+
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q2577671" term="BECCS" wikidataID="Q2577671" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/BECCS" class="wikipedia-link">BECCS</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q2577671" class="wikidata-link">Q2577671</a><p class="wpage_first_para"><b>Bioenergy with carbon capture and storage</b> (<b>BECCS</b>) is the process of extracting <a href="/wiki/Bioenergy" title="Bioenergy">bioenergy</a> from <a href="/wiki/Biomass_(energy)" title="Biomass (energy)">biomass</a> and capturing and storing the carbon dioxide (CO<sub>2</sub>) that is produced.
+</p>
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q171183" term="IPCC" wikidataID="Q171183" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/IPCC" class="wikipedia-link">IPCC</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q171183" class="wikidata-link">Q171183</a><p class="wpage_first_para">The <b>Intergovernmental Panel on Climate Change</b> (<b>IPCC</b>) is an <a href="/wiki/Intergovernmental_body" class="mw-redirect" title="Intergovernmental body">intergovernmental body</a> of the <a href="/wiki/United_Nations" title="United Nations">United Nations</a>. Its job is to "provide governments at all levels with scientific information that they can use to develop <a href="/wiki/Climate_policies" class="mw-redirect" title="Climate policies">climate policies</a>".<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup> The <a href="/wiki/World_Meteorological_Organization" title="World Meteorological Organization">World Meteorological Organization</a> (WMO) and the <a href="/wiki/United_Nations_Environment_Programme" title="United Nations Environment Programme">United Nations Environment Programme</a> (UNEP) set up the IPCC in 1988. The <a href="/wiki/United_Nations_General_Assembly" title="United Nations General Assembly">United Nations</a> endorsed the creation of the IPCC later that year.<sup id="cite_ref-UNGA_resolution_endorsing_IPCC_2-0" class="reference"><a href="#cite_note-UNGA_resolution_endorsing_IPCC-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup> It has a secretariat in <a href="/wiki/Geneva" title="Geneva">Geneva</a>, Switzerland, hosted by the WMO. It has 195 <a href="/wiki/Member_states_of_the_United_Nations" title="Member states of the United Nations">member states</a> who govern the IPCC.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup> The member states elect a bureau of scientists to serve through an assessment cycle. A cycle is usually six to seven years. The bureau selects experts in their fields to prepare IPCC reports.<sup id="cite_ref-Structure_4-0" class="reference"><a href="#cite_note-Structure-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup> 
+There is a formal nomination process by governments and observer organizations to find these experts. The IPCC has three working groups and a task force, which carry out its scientific work.<sup id="cite_ref-Structure_4-1" class="reference"><a href="#cite_note-Structure-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup>
+</p>
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q1466792" term="IAMs" wikidataID="Q1466792" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Iams" class="wikipedia-link">Iams</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q1466792" class="wikidata-link">Q1466792</a><p class="wpage_first_para"><b>Iams</b> (<span class="rt-commentedText nowrap"><span class="IPA nopopups noexcerpt" lang="en-fonipa"><a href="/wiki/Help:IPA/English" title="Help:IPA/English">/<span style="border-bottom:1px dotted"><span title="/&#712;/: primary stress follows">&#712;</span><span title="/a&#618;/: 'i' in 'tide'">a&#618;</span><span title="/&#601;/: 'a' in 'about'">&#601;</span><span title="'m' in 'my'">m</span><span title="'z' in 'zoom'">z</span></span>/</a></span></span>) is an American brand of <a href="/wiki/Dog_food" title="Dog food">dog food</a> and <a href="/wiki/Cat_food" title="Cat food">cat food</a> manufactured by <a href="/wiki/Spectrum_Brands" title="Spectrum Brands">Spectrum Brands</a> in Europe and <a href="/wiki/Mars,_Incorporated" class="mw-redirect" title="Mars, Incorporated">Mars, Incorporated</a>  worldwide excluding Europe. The food is formulated for the puppy/kitten, adult and mature stages of life. Veterinary formulas for pets with special dietary requirements are also produced.<sup id="cite_ref-juggle_1-0" class="reference"><a href="#cite_note-juggle-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>
+</p>
+
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q898653" term="climate mitigation" wikidataID="Q898653" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Climate_mitigation" class="wikipedia-link">Climate mitigation</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q898653" class="wikidata-link">Q898653</a><p class="wpage_first_para"><b>Climate change mitigation</b> (or <b>decarbonisation</b>) is an action to limit the <a href="/wiki/Greenhouse_gases" class="mw-redirect" title="Greenhouse gases">greenhouse gases</a> in the atmosphere that cause <a href="/wiki/Climate_change" title="Climate change">climate change</a>. Climate change mitigation actions include <a href="/wiki/Energy_conservation" title="Energy conservation">conserving energy</a> and <a href="/wiki/Fossil_fuel_phase-out" title="Fossil fuel phase-out">replacing fossil fuels</a> with <a href="/wiki/Sustainable_energy" title="Sustainable energy">clean energy sources</a>. Secondary mitigation strategies include changes to land use and <a href="/wiki/Carbon_sequestration" title="Carbon sequestration">removing carbon dioxide (CO<sub>2</sub>)</a> from the atmosphere.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup> Recent assessments emphasize that global greenhouse gas emissions must peak before 2025 and decline by about 43% by 2030 to limit warming to 1.5&#160;&#176;C, requiring rapid transitions in energy, transport, and land-use systems.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup> Current climate change mitigation policies are insufficient as they would still result in global warming of about 2.7&#160;&#176;C by 2100,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup> significantly above the 2015 <a href="/wiki/Paris_Agreement" title="Paris Agreement">Paris Agreement</a>'s<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span class="cite-bracket">[</span>5<span class="cite-bracket">]</span></a></sup> goal of limiting global warming to below 2&#160;&#176;C.<sup id="cite_ref-theguardian.com_6-0" class="reference"><a href="#cite_note-theguardian.com-6"><span class="cite-bracket">[</span>6<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-United_Nations_7-0" class="reference"><a href="#cite_note-United_Nations-7"><span class="cite-bracket">[</span>7<span class="cite-bracket">]</span></a></sup>Recent research shows that demand-side climate solutions&#8212;such as shifts in transportation behavior, <a href="/wiki/Diet_(nutrition)" title="Diet (nutrition)">dietary</a> change, improved building energy efficiency, and reduced material consumption&#8212;could reduce global <a href="/wiki/Greenhouse_gas_emissions" title="Greenhouse gas emissions">greenhouse gas emissions</a> by 40% to 70% by 2050 while improving human well-being.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span class="cite-bracket">[</span>8<span class="cite-bracket">]</span></a></sup>
+</p>
+
+</div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q6953279" term="NDCs" wikidataID="Q6953279" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/NDCS" class="wikipedia-link">NDCS</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q6953279" class="wikidata-link">Q6953279</a><p class="wpage_first_para"><b>NDCS</b> may refer to:
+</p>
+
+</div>
+    </div>
+  </body>
+</html>
