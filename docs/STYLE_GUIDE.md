@@ -472,6 +472,47 @@ output_file = Path(tempfile.mkdtemp(), "test_output.html")
 
 ## Encyclopedia-Specific Rules
 
+### Always Use amilib Routines Where Possible
+
+**Rule:** Always use routines from amilib where possible. Prefer amilib methods over custom implementations.
+
+**✅ CORRECT:**
+```python
+from amilib.wikimedia import WikipediaPage
+
+# Use amilib method for first paragraph
+para_obj = wikipedia_page.create_first_wikipedia_para()
+if para_obj and para_obj.para_element:
+    para_elem = para_obj.para_element
+    # Use the paragraph element from amilib
+
+# Use amilib method for images
+img_elem = wikipedia_page.extract_a_elem_with_image_from_infobox()
+if img_elem:
+    # Use the image element from amilib
+```
+
+**❌ WRONG:**
+```python
+# Manual extraction instead of using amilib methods
+paragraphs = wikipedia_page.html_elem.xpath(".//div[@id='mw-content-text']//p[1]")
+# This bypasses amilib's built-in filtering and processing
+```
+
+**Rationale**: amilib routines are tested, handle edge cases, and are maintained. Using them reduces bugs and ensures consistency with other projects that use amilib.
+
+**When to Use amilib Methods:**
+- ✅ Wikipedia page lookup: `WikipediaPage.lookup_wikipedia_page_for_term()`
+- ✅ First paragraph extraction: `wikipedia_page.create_first_wikipedia_para()`
+- ✅ Image extraction: `wikipedia_page.extract_a_elem_with_image_from_infobox()`
+- ✅ Infobox extraction: `wikipedia_page.get_infobox()`
+- ✅ Wikidata ID extraction: `wikipedia_page.get_wikidata_item()`
+
+**When Custom Code is Acceptable:**
+- Processing results from amilib methods (e.g., formatting HTML output)
+- Adding encyclopedia-specific features not in amilib
+- Fallback only when amilib method is unavailable (check with `hasattr()`)
+
 ### Entry Dictionary Structure
 
 **Rule:** Encyclopedia entries should follow a consistent dictionary structure.
