@@ -15,7 +15,7 @@ To collect relevant research articles, I used **pygetpapers** to search for publ
 <img width="568" height="22" alt="image" src="https://github.com/user-attachments/assets/262bba35-7476-45cf-9549-feebd1d36e65" />
 
 -The search returned multiple hits, providing a strong research base for the encyclopedia.  
--Total number of hits for the query are 278684
+-Total number of hits for the query are 278817
 
 ---
 
@@ -24,7 +24,7 @@ From the available results, I selected and downloaded **10 PDF research papers**
 
 All PDFs were stored inside a folder named:  
 
-- `lung_cancer_mut/`  
+- `paper/`  
 
 ---
 
@@ -37,13 +37,19 @@ After downloading the papers, I used **txt2phrases** to:
 The command used was:  
 
 ```bash
-!txt2phrases auto -i lung_cancer_mut/ -o results/ -n 100
+!txt2phrases auto -i paper/ -o results/ -n 100
 ```  
+<img width="948" height="259" alt="image" src="https://github.com/user-attachments/assets/4ae70d27-7c21-4af2-b2ad-1b3e20d77df7" />
+
+
 
 Where:  
-- `lung_cancer_mut/` contains all the downloaded PDFs  
+- `paper/` contains all the downloaded PDFs  
 - `results/` stores the extracted text files and keyword outputs  
 - `-n 100` extracts the top 100 keywords  
 
 ---
 
+
+## Step 4: Keywords ----> encyclopedia (using amilib)
+(on going)
