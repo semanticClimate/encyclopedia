@@ -1,0 +1,1791 @@
+Article https://doi.org/10.1038/s41467-024-46284-x
+Drug-resistant EGFR mutations promote
+lung cancer by stabilizing interfaces inligand-free kinase-active EGFR oligomers
+R. Sumanth Iyer1,9,10,S a r a hR .N e e d h a m1,10, Ioannis Galdadas2,3,10,
+Benjamin M. Davis1,10, Selene K. Roberts1,10,R i c oC .H .M a n4,
+Laura C. Zanetti-Domingues1, David T. Clarke1, Gilbert O. Fruhwirth4,
+Peter J. Parker5,6,D a n i e lJ .R o l f e1, Francesco L. Gervasio2,3,7,8&
+Marisa L. Martin-Fernandez1
+The Epidermal Growth Factor Recepto r (EGFR) is frequently found to be
+mutated in non-small cell lung cancer. Oncogenic EGFR has been successfully
+targeted by tyrosine kinase inhibitors, but acquired drug resistance eventuallyovercomes the ef ﬁcacy of these treatments. Atte mpts to surmount this ther-
+apeutic challenge are hindered by a poor understanding of how and why
+cancer mutations speci ﬁcally amplify ligand-independent EGFR auto-
+phosphorylation signals to enhance cell survival and how this ampli ﬁcation is
+related to ligand-dependent cell pro l i f e r a t i o n .H e r ew es h o wt h a td r u g -
+resistant EGFR mutations manipulate th e assembly of ligand-free, kinase-active
+oligomers to promote and stabilize the a ssembly of oligomer-obligate active
+dimer sub-units and circumvent the need for ligand binding. We reveal thestructure and assembly mechanisms of th ese ligand-free, kinase-active oligo-
+mers, uncovering oncogenic function s for hitherto orphan transmembrane
+and kinase interfaces, and for the ectod o m a i nt e t h e r e dc o n f o r m a t i o no fE G F R .
+Importantly, we ﬁnd that the active dimer sub-units within ligand-free oligo-
+mers are the high af ﬁnity binding sites competent to bind physiological ligand
+concentrations and thus drive tumor g rowth, revealing a link with tumor
+proliferation. Our ﬁndings provide a framework for future drug discovery
+directed at tackling oncogenic EGF R mutations by disabling oligomer-
+assembling interactions.
+Epidermal growth factor receptor (EGFR) is a transmembrane tyrosine
+kinase receptor at the heart of signals for cell survival, growth anddivision
+1. EGFR signals for growth and division are regulated on the cell
+surface by the binding of cognate growth factor ligands, which pro-mote the assembly of a two-liganded back-to-back ectodomain dimer(B2B
+ect
+dimer)2. This dimer underpins across the membrane the forma-
+tion of an asymmetric kinase dimer (Asymkin
+dimer)3,w h i c hi sfundamental to catalyze EGFR auto-phosphorylation in C-terminal
+tyrosine residues1(Fig. 1a). In the context of ligand-bound oligomers,
+EGFR auto-phosphorylation triggers EGFR-dependent canonicaldownstream signaling pathways, like PI3K/Akt and Ras-MAPK, whichpromote cell growth and proliferation
+4–6.
+Non-small cell lung cancer (NSCLC) has a 5-year relative survival
+rate of 28%7,8. Important examples of oncogenic drivers of NSCLC areReceived: 5 July 2023
+Accepted: 20 February 2024
+Check for updates
+A full list of af ﬁliations appears at the end of the paper. e-mail: daniel.rolfe@stfc.ac.uk ;Francesco.Gervasio@unige.ch ;
+marisa.martin-fernandez@stfc.ac.uk
+Nature Communications |         (2024) 15:2130 11234567890():,;
+1234567890():,;
+somatic EGFR mutations in exons 18-21, frequently identi ﬁed (10-60%
+of lung adenocarcinomas9–11) among patients successfully treated with
+ﬁrst-generation ATP-competing tyrosine kinase inhibitors (TKIs)12,a n d
+in-frame insertions of three or more base pairs in exon 20 (Ex20Ins),
+unresponsive to TKIs and accounting for 4-10% of all EGFR mutations
+in NSCLC13. In TKI-responsive patients, resistance nevertheless emer-
+ges with high frequency14–17through the development of a dominant
+secondary T766M mutation in exon 20 at the entrance of the ATP-binding site (also known as T79 0M when the 24 amino acid signal
+peptide is included) (Fig. 1a), that increases ATP-binding af ﬁnity
+18.
+Partial sensitivity is maintained with second-generation irreversibleTKIs
+19,l i k eA f a t i n i b20, that form covalent bonds with a cysteine residue
+in the ATP-binding pocket, but their potency against wild-type (WT)-EGFR induces severe epithelium-based toxicity
+21. This limitation was
+surmounted with highly selective, third-generation irreversible TKIs,
+such as Osimertinib22,23.H o w e v e r ,i n i t i a le f ﬁcacy is overcome by the
+acquisition of mutations in residues that form covalent bonds withirreversible inhibitors, like C773S
+24–26. Mutant-selective allosteric drugs
+(so-called fourth-generation) like EAI04527overcome resistance to
+third-generation TKIs by preventi ng the kinase domain from adopting
+its active conformation when combined with Cetuximab to also blockligand-induced EGFR dimerization
+27–29. However, toxicity-related con-
+cerns from off-target effects of Cetuximab limit therapeuticpotential
+30,31.
+Current approaches target either the ATP-binding pocket (Fig. 1a),
+the conformation of the kinase monomer and/or ligand-induced
+dimerization. One yet untested strategy is to interfere with the poorly
+characterized ligand-independent (or constitutive) kinase-active stateof EGFR, which elicits non-canonical, EGFR-dependent signals for cellsurvival
+32,33. This state is selectively ampli ﬁed by NSCLC mutations,
+typically resulting in a few-fold increase in ligand-independentautophosphorylation
+34, and could therefore underpin ligand-
+dependent tumor proliferation. However, the associated mechan-isms remain poorly characterized. The best understood ligand-freestructures have inactive kinases, namely EGFR monomers and auto-inhibited dimers made up of a ligand-free B2B
+ect
+dimer structurally
+coupled to a symmetric head-to-head kinase dimer (B2Bect/
+H2Hkin
+dimer)35(Fig. 1b). Exploiting super-resolution Fluorophore Loca-
+lization Imaging with Photobleaching (FLImP)6,36–40, a molecular ruler
+that measures inter-receptor separations in speci ﬁcally-labeled dimers
+and oligomers on cells (Fig. 2), guided by protein structures and
+molecular dynamics (MD) simulations, we previously made progresstowards understanding further the ligand-independent state of an
+autoinhibited oligomer EGFR architecture based on repeats of a head-to-head ectodomain dimer linked to non-interacting kinase monomers(H2H
+ect/2xkin
+monomers )36(Fig. 1b). We also previously detected the
+FLImP-separation signatures of two full-length ligand-free dimer con-
+formers. One is consistent with the structure of the B2Bect/H2Hkin
+dimer35
+(Fig. 1b). In the other, the Asymkin
+dimer is structurally coupled to a
+ligand-free stalk-to-stalk ectodomain dimer (St2Stect
+dimer)36(Fig. 1b).
+However, in the St2Stect/Asymkin
+dimer, which could account for ligand-
+independent signals, the Asymkin
+dimer is disfavored by the WT-EGFR
+kinase41,42.M o r e o v e r ,w h e nt h eA s y mkin
+dimer is arti ﬁcially joined to two
+ligand-free ectodomains, the dimer is disordered in electronmicrographs
+43,44. Intriguingly, the T766M mutation, despite increasing
+EGFR autophosphorylation in the absence of ligand, counterintuitivelydestabilizes the catalytic Asym
+kin
+dimer in favor of the inactive
+H2Hkin
+dimer36(Fig. 1b). Given this, we conjectured that the St2Stect/
+Asymkin
+dimer might be an obligate oligomer sub-unit chaperoned by the
+B2Bect/H2Hkin
+dimer in heteroconf-oligomers. However, the previous ~5 nm
+resolution of FLImP prevented us from testing the stated hypothesisbecause we could not resolve some dimer separations from each otherand/or from those that arise from the interaction between dimer sub-units in an oligomer.
+Here we implement a higher-resolution FLImP version which,
+combined with large-scale simulations of various membrane-embedded dimer interfaces, allowed us to build an experimentallybacked model of all the relevant interactions required to assemble
+St2St
+ect/Asymkin
+dimer sub-units within ligand-free EGFR oligomers.
+We show that WT-EGFR, T766M-EGFR, and Ex20Ins-EGFR share aligand-free hetero
+conf-oligomer structure in which scaffolds made of
+H2Hect/2xkin
+monomers and B2Bect/H2Hkin
+dimer sub-units held by a
+transversal transmembrane interface45cantilever into position the
+extracellular portion of the St2Stect/Asymkin
+dimer under the regula-
+tion of the ectodomain tethered conformation46. Within these
+heteroconf-oligomers, St2Stect/Asymkin
+dimer sub-units are positively
+and negatively regulated via two hitherto functionally-orphankinase interfaces (PDB IDs:3VJO [ https://www.rcsb.org/structure/
+3VJO ]
+47and in 5CNO [ https://www.rcsb.org/structure/5CNO ]48).
+Stabilization by T766M and Ex20Ins NSCLC mutations of the
+ancillary kinase interfaces leads to an increase in the number andstability of St2St
+ect/Asymkin
+dimer sub-units, which accounts for
+mutation-dependent increases in ligand-free phosphorylation.Excitingly, our ﬁnding that St2St
+ect/Asymkin
+dimer sub-units are
+Ligand-bound B2Bect
+dimer
+C-terminal
+tailEGFDI DI
+DIII DIII
+kinase 
+domainDIDIIDIII
+DIVEctodomain
+(tether)a
++ligand
+ATP-binding 
+site*
+T766Mxzside
+view
+Asymkin
+dimerb
+Ligand-free St2Stect
+dimer
+T766M
+Asymkin
+dimerDIII DIII
+DI DILigand-free H2Hect
+dimer
+2xkin
+monomersDIII DIII
+DILigand-free B2Bect
+dimer
+H2Hkin
+dimerDIII DIIIDI DI
+Fig. 1 | Cartoon models of EGFR dimers. a Left, Cartoon of a ligand-free tethered
+ectodomain (subdomains numbered) linked to a kinase monomer; the ATP-bindingsite, T766M mutation, and C-terminal tail are marked. Right, A two-liganded (EGF)extended back-to-back ectodomain dimer (B2B
+ect
+dimer) structurally coupled across
+the plasma membrane80to an asymmetric kinase dimer (Asymkin
+dimer)3,i nw h i c ha n
+“activator ”kinase (teal) stabilizes a “receiver ”kinase (dark green) in the activeconformation. bLeft, a ligand-free head-to-head ectodomain dimer (H2Hect
+dimer)
+sub-unit linked to two kinase monomers36. Middle, a ligand-free back-to-back
+ectodomain dimer (B2Bect
+dimer) sub-unit81coupled to a head-to-head kinase dimer
+(H2Hkin
+dimer) sub-unit35. Right, a ligand-free stalk-to-stalk ectodomain dimer
+(St2Stect
+dimer) sub-unit36coupled to the Asymkin
+dimer sub-unit36.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 2
+epidermal growth factor (EGF) ligand high af ﬁnity binding sites,
+which are the sites previously proposed to drive tumor growthunder pM physiological ligand concentrations
+49, explains how the
+dysregulation of the ligand-free kinase active state by NSCLCmutations translates into their ability to potentiate EGFR-dependent tumor growth in vivo.
+Results
+FLImP reports oligomer size and sub-unit conformers
+Photobleaching imaging correlation spectroscopy50analysis of CHO
+cells expressing ~105copies/cell of WT-EGFR and EGFR mutations
+indicates that ~20 –30% of EGFRs are incorporated in dimers and
+~15–40% in oligomers (Supplementary Fig. 1a), consistent with pre-
+vious results in ﬁxed36and live cells51. FLImP measures the lateral
+pairwise separations on the scale of 0 –70 nm between ﬂuorescent
+probes speci ﬁcally bound to the extracellular domain of protomers in
+non-monomer structures on the cell surface, and their relativeabundance
+6. Mimicking the viewpoint of FLImP microscopy, we can
+assume the orthogonal projection onto the cell surface (xy-plane) of ahetero
+conf-hexamer assembled by two dimer conformers (Fig. 3a). We
+created a dataset of synthetic FLImP separation probability distribu-tions simulating measurements of individual separations between
+ﬂuorophores bound to the hetero
+conf-hexamer, including spurious
+ﬂuorophore localizations (clutter), and noise, which we summed
+(Fig. 3b; gray background).
+If individual dimeric units of different conformations are present
+on the cell surface, FLImP will report one separation per type. If, asshown in Fig. 3a, heteroconf-oligomers are assembled by two dimer
+conformers, the FLImP peaks report 1st, 2nd, 3rd, etc., neighborseparations in the oligomer structure (Fig. 3b; color peaks). With the
+help of mutations, changes in intensity and position of these peaks canbe used to investigate the structural sub-units assembling an oligomer.As an example, we simulated synthetic FLImP separations for thehomo-trimer that forms when the dimer 1 conformer is disrupted(Fig. 3c, gray background). FLImP decomposes from these data the
+remaining 1
+stand 2nd-order vertical separations from the homo-trimer
+(Fig. 3c, color peaks), revealing which 1storder separation belongs to
+the disrupted interface and which higher-order peaks are dependent
+on heteroconf-interactions. The mutations and treatments that we used
+to dissect the interactions assembling ligand-free oligomers aremapped-out in Fig. 3d.
+FLImP samples a ﬁnite population of separations, and this intro-
+duces errors. We, therefore, used bootstrap-resampling
+52to estimate
+how this affects the decomposition. Figure 3e illustrates that
+bootstrap-resampling can capture changes caused by the transitionfrom hetero
+conf-hexamer to homo-trimer and evaluate signi ﬁcance
+above ﬁnite sampling errors. These synthetic results suggest a reso-
+lution of <3 nm, which was experimentally validated in cells with aknown membrane protein structure (Supplementary Fig. 1b).
+Given enough resolution and with the help of mutations/treat-
+ments, separation peaks from 1st order interfaces are typically amen-able to be assigned, but assigning higher order peaks can be harder.We interrogate the effect of mutations on unassigned higher orderpeaks by folding them into a multidimensional scaling (MDS)
+Fig. 2 | Key stages in the FLImP data acquisition and analysis process. a EGFR is a
+transmembrane protein that forms higher-order associations on the scale of 0-
+70 nm. EGFR is amenable to ﬂuorescent labeling at several sites, in this case a
+speci ﬁc site of the extracellular domain (DIII) (the intracellular domain is not
+depicted); the distances (d1-dn) provide a detailed structural signature. bWhen
+visualized under TIRF microscopy in cells, the size of labeled-EGFR dimers and
+oligomers is smaller than the diffraction limit of the microscope. Therefore, theﬂuorescent tags associated to EGFR dimers and oligomers emit light within a
+diffraction-limited point-spread function (PSF), which is also the microscope image
+of a single molecule (yellow spots). To resolve the positions of multiple EGFR
+molecules within a single diffraction limited spot, a video acquisition (FLImP rawdata) is taken as the ﬂuorophores photobleach. Single-molecule feature detection
+and tracking of these videos reveals integrated intensities through time and a
+subset of these spots which have multistep photobleaching ( c)i si d e n t i ﬁed (trackselection); such single molecules bleach in single steps, and this can be used to
+estimate the number of ﬂuorophores emitting light (red) in the spot as a function of
+time. By combining this information with prior knowledge of PSF shape, we canthen ﬁt the selected spots through time with a varying sum of Gaussian PSFs model
+to determine the positions of the emitting ﬂuorophores (FLImP localization ﬁt) with
+associated uncertainties ( d). Multiple such measurements in the form of empirical
+posteriors ( e) can be pooled (summed) into a FLImP signature of the structure
+(f, gray histogram). The green vertical line in eis the mean and the yellow shading
+represents a 70% con ﬁdence interval. Finally, a Bayesian decomposition of the
+separation measurement set ( e) is performed to determine the most likely set of
+unique discrete separations present within the structure ( f, colored components).
+Infthe legend and bars above colored component distributions give the median
+and most-compact 68% con ﬁdence interval for each. Legend also gives median
+proportion of measurements assigned to clutter. (More in Supplementary Note 3).Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 3
+b
+c
+ea d
+V635S/A
+L642S/AL638S/A
+Asymkin
+dimerB2Bect
+dimer
+Nter+ 
+Lzip3S/AH566F
+G564P
+ED/RK
+L680N
+T766MD982KE981Raffect the H2Hect
+dim
+affect the H2Hkin
+dim
+affect the S2Skin
+dim
+K946EI942E
+H2Hkin
+dimerK946EI942E
+ED/RKD982KE981R
+T766M
+L680NEx20insNPGaffect the Asymkin
+dim
+affect the Bb2Bbkin
+dim
+DI DII DIII DIV kinase domain C-term. tail1 165 310 480 618
+645682 955 1186
+transmembrane
+helixjuxtamembrane
+segmentEGFR
+ectodomainf
+Fig. 3 | FLImP measurement of pairwise separations. a Cartoon dimer con-
+formers assembling a heteroconf-hexamer. Separations between bound ﬂuor-
+ophores (red circles) are: two 1st-order interfaces (D1, D2), short and long diagonals
+(O1, O2), and 2nd-order vertical (O3). bFLImP analysis of 100 synthetic pairwise
+heteroconf-hexamer separations (inset) (Supplementary Note 3). Sum of posteriors
+of individual separations between ﬂuorophores (gray background) and abundance-
+weighted probability distributions of individual components of decomposed
+separation distribution (colored peaks). The area under each peak is weighted
+according to the estimated proportion of measurements attributed to that peak(“abundance ”). Plot legend and bars above colored component distributions give
+the median and most-compact 68% con ﬁdence interval for each. Legend also gives
+median proportion of measurements assigned to clutter. Stars and dots below
+show individual separations assigned to peaks (colored) or clutter (black). cAs (b)
+for the homo-trimer formed by the Dimer 2 conformer. dTop, map of mutations
+and treatments superimposed on the B2B
+ect
+dimer81,a nA s y mkin
+dimer3, and H2Hkin
+dimer54
+sub-units. Mutations colored according to the different dimer conformers they
+inhibit or disrupt. Bottom, EGFR sequence diagram. eComparisons betweendecomposed separation probability distributions between datasets. The con-
+tinuous lines show the marginalized separation posterior for each condition, thesum of the abundance-weighted peaks in ( bandc). Fluctuations around each
+continuous line arise from variations derived from FLImP decompositions for 20
+bootstrap-resampled datasets to assess errors due to ﬁnite number of measure-
+ments. fWasserstein MDS analysis of FLImP decompositions. This measures the
+work needed to convert a decomposed separation set into another, thereby esti-
+mating similarities and differences between whole FLImP separation decomposi-
+tions. Similarities or dissimilarities between the 21 separation sets of differentconditions (one main FLImP decomposition plus 20 bootstrap-resampled decom-positions) are compared; in this case for the hetero
+conf-hexamer (navy) ( b)a n d
+homo-trimer (cyan) ( c). The plot axes are components C1 and C2. C1 represents the
+dimension that captures the largest amount of data variance; C2 represents thesecond-largest amount of variance orthogonal to C1. The ellipse centers (95%
+conﬁdence range) mark the positions of the main FLImP decompositions. Crosses
+mark the positions of individual bootstrap-resampled separation sets.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 4
+Wasserstein metric53. As shown in the example (Fig. 3f), we also include
+the bootstrap-estimated errors associated with ﬁnite sampling and
+calibrate changes to report oligomer growth direction.
+The B2Bect/H2Hkin
+dimer and St2Stect/Asymkin
+dimer are oligomer
+sub-units
+The color peaks in Fig. 4a show the most likely positions and intensities
+of pairwise separations between CF640R ﬂuorophores speci ﬁcally
+conjugated to anti-EGFR Af ﬁbodies bound to DIII of cell surface WT-
+EGFR ectodomains. All FLImP separation sets have hereafter themedian positions of the WT-EGFR separations superimposed (dashedlines) to facilitate comparisons. FLImP measurements require immo-bilizing cell surface receptors by chemical ﬁx a t i o nv i aam e t h o d
+demonstrated not to introduce detectable artefacts
+6. Nevertheless,
+predictions arising from the results of chemically ﬁxed cells were
+validated in live cells using single particle tracking (Supplementary
+Fig. 1c), and by controls described below.
+Interpreting a FLImP separation set requires assigning 1storder
+peaks to the structural sub-units assembling the underlying dimers/oligomers. In previous work
+36, we linked the 10.8 –13.5 nm peak (Fig. 4a,
+red dashed line) to the extracellular part of the B2Bect/H2Hkin
+dimer,
+which could also exist as an oligomer sub-unit (Fig. 4b). The link
+between the 10.8 –13.5 nm peak and the B2Bect/H2Hkin
+dimer, either alone
+and/or as a protomer, is supported here by the observation that FLImPno longer indicates separation density between 8.1 –14.8 nm when a
+previously proposed double E981R/D982K (ED/RK) mutation in the
+C-terminus
+54that destabilizes electrostatic interactions at the heart of
+the intracellular portion of the B2Bect/H2Hkin
+dimer is introduced (Fig. 4c;
+r e dd a s h e dl i n e ) .B yc o n t r a s t ,s e p a r a t i o nd e n s i t ya t9 . 2 –13.2 nm
+increases when the H2Hkin
+dimer is stabilized by the T766M mutation36
+(Fig. 4d; red dashed line), further supporting the assignment of the
+10.8-13.5 nm peak in the WT-EGFR separation set to the B2Bect/
+H2Hkin
+dimer conformer.
+We previously linked a <9 nm separation to the extracellular
+portion of the St2Stect/Asymkin
+dimer36, which could also exist as an oli-
+gomer sub-unit (Fig. 4b). Our enhanced FLImP method decomposes
+two <9 nm components in the WT-EGFR separation set (Fig. 4a; cyan
+and black dashed lines). A body of previous EGF-binding experiments
+suggested that EGFR is displayed on the cell surface in two forms, aminority (2 –5%) of high-af ﬁnity EGFRs (K
+D= 10-100 pM) and a majority
+(95-98%) of low-af ﬁnity EGFRs (K D=2–5n M )55. Biophysical experi-
+ments suggested that these two af ﬁnity forms arise from two different
+dimer structures56. Given this, we speculated that if the two compo-
+nents of <9 nm arise from two different dimer conformers, we mightbe able to assign at least one according to ligand af ﬁnity. We pre-
+treated WT-EGFR-expressing cells with the conformation-selectivemonoclonal antibodies mAb-2E9
+57or mAb-10858, which select for high
+and low-af ﬁnity EGF binding, respectively. As the selectivity of these
+mAbs is bona ﬁde against EGF binding, mAb-treated cells were next
+probed with an EGF-CF640R derivative. Here cells were ﬁxed after mAb
+treatment but before probing with EGF-CF640R to avoid ligand-induced conformational changes. Results show that EGF-CF640Rbinds well to ﬁxed cells at similar sites to Af ﬁbody-CF640R (Supple-
+mentary Fig. 1d, e).
+High-af ﬁn i t yE G F R sh a v eb e e np r o p o s e dt ob em o s t l yr e s p o n s i b l e
+for ligand-dependent EGFR ’ss i g n a l i n g
+57. Confocal results using mAb-
+2E9 indicate that EGF binds cell surface St2Stect/Asymkin
+dimer con-
+formers with high af ﬁnity (Supplementary Fig. 1f). The FLImP separa-
+tion set from mAb-2E9-treated ce lls suggests two components of
+<9 nm (4.9 –6.8 nm and 7.2 –8.9 nm) (Fig. 4e; cyan and black dashed
+lines), which are consistent with those in the WT-EGFR separation set.
+In contrast, no separation density at 6.8 –9.9 nm is apparent in the set
+from cells treated with mAb-108, which blocks high-af ﬁnity binding
+(Fig. 4f; black dashed line). To assess the robustness of this result,
+because incompletely resolved components cannot be perfectlyseparated, we compared the evidence for separations in bootstrap-
+resampled datasets after pooling the individual components (mar-ginalized probability). This analysis indicates that the absence ofseparation density in the vicinity of ~8 nm associated to the mAb-108
+treatment is robust to ﬁnite sampling errors (Fig. 4g). We therefore
+assigned the 7.0 –8.6 nm peak in the WT-EGFR separation set to high-
+afﬁnity EGF-binding St2St
+ect/Asymkin
+dimer sub-units. Further validation
+of this assignment is provided below.
+Despite the T766M mutation destabilizing the Asymkin
+dimer36,t h e
+separation density at ~8 nm is similar between WT-EGFR and T766M-EGFR (Fig. 4a, d). We hypothesized that the T766M mutation under-
+pins the St2St
+ect/Asymkin
+dimer via interactions with the inactive B2Bect/
+H2Hkin
+dimer, which is stabilized by the T766M mutation36.T ot e s tt h i s ,
+WT-EGFR expressing cells were treated with Erlotinib59,aT K It h a t
+binds to EGFR ’s kinase ATP-binding pocket, stabilizing the St2Stect/
+Asymkin
+dimer60. With our previous poorer resolution, we found that
+Erlotinib treatment enhances a broad peak encompassing separations1.6-10.2 nm
+36. Our higher resolution method decomposes three com-
+ponents under this peak (Fig. 4h). Interestingly, Erlotinib treatment
+recapitulates effects induced by the T766M mutation, most notably onseparations of <20 nm associated with Erlotinib-treated WT-EGFR andT766M-EGFR (Figs. 4h, d). Quanti ﬁed in Fig. 4i, both induce a decrease
+in the 5.8 –7.1 nm component, the assignment and function of which is
+discussed below, and an increase at ~9 –12 nm. These results argue that
+the stabilizing the St2St
+ect/Asymkin
+dimer directly by Erlotinib binding
+shares characteristics of stabilizing the B2Bect/H2Hkin
+dimer via the
+T766M mutation, suggesting that the B2Bect/H2Hkin
+dimer stabilizes the
+St2Stect/Asymkin
+dimer within heteroconf-oligomers.
+Further evidence that the B2Bect/H2Hkin
+dimer and St2Stect/
+Asymkin
+dimer are structural sub-units in ligand-free heteroconf-oligomers
+is shown in Fig. 4j. This includes the increase (decrease) in oligomer
+size induced by the T766M (ED/RK) mutations and the different oli-gomer sizes associated with mAb-2E9 and mAb-108. Notably, Erlotinib,as previously found
+36, does not signi ﬁcantly increase oligomer size.
+These results assign the role of underpinning oligomer growth to theH2H
+kin
+dimer.
+H2Hect
+dimer/2xkin
+monomers are sub-units in heteroconf-oligomers
+In a previous study36, we proposed a third ligand-free dimer conformer
+based on a lattice contact in an X-ray structure of the tethered ecto-domain monomer (PDB ID:4KRP [ https://www.rcsb.org/structure/
+4KRP ]
+61), in which the monomers are held by ectodomain interac-
+tions (H2Hect
+dimer)( F i g . 5a). This model was supported by the FLImP
+results associated with ΔC-EGFR, a mutant in which the intracellular
+domains are deleted, here reanalyzed with the higher resolutiondecomposition (Fig. 5b). Results show peaks at almost a ﬁxed interval
+consistent with the previously proposed homo-oligomers of repeatingextracellular H2H
+ect
+dimer units36. The presence of H2Hect
+dimer/
+2xkin
+monomers is further supported by the ﬁnding that the 1st-order
+separation of the truncated H2Hect
+dimer ofΔC-EGFR shares position
+with the shortest component in the separation set for WT-EGFR(Fig. 5b; cyan dashed line). Taken together, previous and current evi-
+dence con ﬁrms the presence of H2H
+ect
+dimer/2xkin
+monomers as a third
+ligand-free dimer conformer.
+Higher resolution unmasked differences beyond the 1storder
+separation between the ΔC-EGFR and WT-EGFR sets (Fig. 5c). Given
+this, we speculated that H2Hect
+dimer/2xkin
+monomers conformers might
+participate in heteroconf-oligomerization. To investigate this, we intro-
+duced mutations that disrupt the H2Hect
+dimer. Our MD simulations
+suggest that inhibition of the tether via two well-understood DIV
+mutations in EGFR ’s ectodomain, H566F and G564P55, disrupts the
+H2Hect
+dimer but not the B2Bect
+dimer (Supplementary Fig. 2 and Supple-
+mentary Tables 1 and 2). Consistent with previous data55,o u rM D
+simulations also suggest that H566F, but not G564P, rearranges the DIof EGFR ’s ectodomain in a way that makes the binding site lessArticle https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 5
+f
+WT + mAb-108T766Md
+WT + ErlotinibhWTa
+gc
+ED/RK
+i jB2Bect/H2Hkin
+dimerFluorescent 
+Aﬃbody b12.5 nm
+DIII DIII
+ED/RKx
+St2Stect/Asymkin
+dimer7-8 nm
+ErlotinibDIII DIII
+e
+WT + mAb-2E9
+Fig. 4 | The B2Bect/H2Hkin
+dimer sub-unit underpins the formation of the St2Stect/
+Asymkin
+dimer sub-unit. a ,c–f,hFLImP analysis of 100 separation probability dis-
+tributions between Af ﬁbody-CF640R pairs in the conditions indicated: Sum of
+posteriors of individual separations between ﬂuorophores (gray background) and
+abundance-weighted probability distributions of individual components of
+decomposed separation distribution (colored peaks). Plot legend and bars above
+colored component distributions give the median and most-compact 68% con-ﬁdence interval for each. Legend also gives median proportion of measurements
+assigned to clutter. Stars and dots below show individual separations assigned to
+peaks (colored) or clutter (black). The median peak positions marked by dashedlines are hereafter also superimposed on all the FLImP separation diagrams tofacilitate comparisons with WT-EGFR. FLImP separations for all mutants and
+treatments are summarized in Supplementary Table 3. bLeft, cartoon of a B2B
+ect/
+H2Hkin
+dimer sub-unit labeled with two ﬂuorescent anti-EGFR Af ﬁbody bound to the
+two DIII of the ectodomains. The ED/RK mutation inhibits the B2Bect/H2Hkin
+dimer
+sub-unit. Right, a labeled St2Stect/Asymkin
+dimer sub-unit. Erlotinib binds the ATPpocket of the kinase stabilizing the St2Stect/Asymkin
+dimer sub-unit. g,iComparisons
+between decomposed separation probability distributions between FLImP data-
+sets. The continuous lines show the marginalized separation posterior, i.e. the sumof the abundance-weighted peaks, for each condition in the inset. Fluctuationsaround each continuous line arise from variations derived from FLImP decom-
+positions for 20 bootstrap-resampled datasets to assess errors due to the ﬁnite
+number of measurements. Median peak positions for WT-EGFR marked by dashedlines, as in a.jWasserstein MDS analysis of FLImP decompositions for the condi-
+tions in the inset. Similarities or dissimilarities between the 21 separation sets of
+different conditions (one main FLImP decomposition plus 20 bootstrap-resampleddecompositions) are compared. The plot axes are components C1 and C2. C1represents the dimension that captures the largest amount of variance in the data,
+while C2 represents the second-largest amount of variance that is orthogonal to C1.
+The ellipse centers (95% con ﬁdence range) mark the positions of the main FLImP
+decompositions. The crosses mark the positions of individual bootstrap-resampledseparation sets.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 6
+accessible (Supplementary Fig. 2). Using FLImP we found that H566F
+decreases oligomer size (Fig. 5c) and induces a shift in the shortest
+separation component assigned to H2Hect
+dimer/2xkin
+monomers con-
+formers from a median position of 6.5 nm to 4 nm, which implicatesthe ectodomain tethered conformation in the formation of H2H
+ect
+dimer/
+2xkin
+monomers (Figs. 5d, e; blue and orange). Analogous results for G564P
+are in Supplementary Fig. 3a –d.
+Because MD simulations suggest that the WT-EGFR H2Hect
+dimer can
+explore a separation range of 3 –7 nm between the center of mass of
+the two DIIIs (Supplementary Fig. 2c, Supplementary Note 1), the shift
+in the separation component annotated to H2Hect
+dimer/2xkin
+monomers
+conformers from a median position of 6.5 nm to 5.2 nm introduced by
+the ED/RK mutation (Fig. 5e; blue and green) suggests that inhibiting
+the B2Bect/H2Hkin
+dimer changes H2Hect
+dimer/2xkin
+monomers conformation.
+The ED/RK mutations also induce a comparable oligomer sizereduction to that of the H566F mutation (Fig. 5c). Together these
+results suggest that B2Bect/H2Hkin
+dimer sub-units interact with
+H2Hect
+dimer/2xkin
+monomers , and hence that the latter is also a sub-unit in
+ligand-free heteroconf-oligomers.
+From this, it follows that H2Hect
+dimer/2xkin
+monomers might interact
+with the St2Stect/Asymkin
+dimer. To test this, WT-EGFR expressing cells
+were treated with Lapatinib, a TKI that binds to EGFR ’s kinase ATP-
+binding site breaking the Asymkin
+dimer62. As expected, Lapatinib
+induced a signi ﬁcant reduction around the 8 nm position assigned to
+the St2Stect/Asymkin
+dimer conformer (Fig. 5e; blue and red, and 5f)60.T h i s
+is also consistent with our ﬁnding that St2Stect/Asymkin
+dimer sub-units
+display high-af ﬁnity because Lapatinib additionally decreases EGF-
+binding af ﬁnity60. The reduction in the ~8 nm component is accom-
+panied by a shift in the component assigned to the H2Hect
+dimer/
+2xkin
+monomers conformer, from a median position of 6.5 nm to 4.2 nm
+ΔCb
+WT + LapfH566Fd
+ec~3-7 nmH2Hect/2xkin
+monomers a
+Fluorescent 
+Affibody 
+ΔCDIII DIII
+DI
+DIVDIISt2Stect/Asymkin
+dimer
+6-8 nm
+LapatinibxH566F DI DIDIII DIIIArticle https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 7
+(Fig. 5e, f; cyan dashed line), arguing that inhibiting the St2Stect/
+Asymkin
+dimer changes the conformation of H2Hect
+dimer/2xkin
+monomers ,a n d
+hence that H2Hect
+dimer/2xkin
+monomers and St2Stect/Asymkin
+dimer sub-units
+interact. Interestingly, Lapatinib does not decrease oligomer size(Fig. 5c). This will be discussed later with more data (Fig. 9).
+Ligand-free conformers intera ct via transmembrane contacts
+The conformation of the three ligand-free dimer sub-units suggest
+heteroconf-oligomer assembly might be mediated by transmembrane
+interactions. Therefore, we next considered the Lzip transmembranedimer named after its leucine zipper-like interactions (Fig. 6a)
+45.I n
+principle, the Lzip interface could mediate interactions betweentransmembrane monomers and dimers (Fig. 6b). To investigate this
+possibility, we mutated all three Lzip dimer transmembrane helixamino acids (V635, L638, L642) to either serine or alanine, namedLzip3S and Lzip3A, respectively. Based on previous literature, Lzip3Smutations would be expected to strongly inhibit the Lzip interaction,unlike the more conservative Lzip3A
+63.
+We found that short separations become poorly resolved in the
+Lzip3S-EGFR set (Fig. 6c). Notable effects include increased separation
+density at 2.2-4.6 nm (Fig. 6c, d), suggesting the conformation of
+H2Hect
+dimer/2xkin
+monomer sub-units has changed, alongside an oligomer
+size reduction (Fig. 6e). The Lzip3A mutations did not show these
+effects (Supplementary Fig. 3g –i). Together, these results implicate
+Lzip contacts in heteroconf-oligomer assembly.
+To evaluate the consistency of the FLImP results, we reasoned that
+simultaneously inhibiting the H2Hkin
+dimer and Asymkin
+dimer, and thus all
+intra-dimer intracellular interactions, together with Lzip contactsshould recapitulate the ΔC-EGFR results. This hypothesis was eval-
+uated in two stages. First, by combining the ED/RK mutations with
+L680N, a kinase N-lobe mutation that inhibits the kinase domain from
+acting as receiver
+54, and thus the St2Stect/Asymkin
+dimer. Then the Lzip3S
+mutations were added. Reassuringly, the ED/RK + L680N mutationsinduce a shift in the peak assigned to H2H
+ect
+dimer/2xkin
+monomers sub-units
+comparable to the Lzip3S mutations alone, con ﬁrming that the con-
+formation of the H2Hect
+dimer/2xkin
+monomers sub-units depends on
+heteroconf-oligomer interactions (Fig. 6d, f). Also reassuringly, com-
+bining ED/RK + L680N + Lzip3S mutations recapitulated the results forΔC-EGFR (Fig. 6e, g), e.g., pseudo-periodic separations, oligomer size
+increase, and the loss of the 2.8 –4.3 nm peak, suggesting that Lzip
+contacts inhibit the formation of the homo-oligomers of repeatingextracellular H2H
+ect
+dimer interfaces.
+Extracellular structure of ligand-free heteroconf-oligomers
+Based on the above data, we constructed a model of the orthogonalprojection on the cell surface of the hetero
+conf-oligomer based on the
+known shape and dimensions of the three ligand-free dimer sub-units(Fig. 1b, Supplementary Fig. 4). H2Hect
+dimer/2xkin
+monomers and B2Bect/
+H2Hkin
+dimer could form a tetramer in which, remarkably, the Lzip
+interface aligns one ectodomain of the H2Hect
+dimer/2xkin
+monomers so it
+can link with another tetramer and form the extracellular portion ofthe St2St
+ect/Asymkin
+dimer (Fig. 7a).
+To test this model and its relevance to the dysregulated ligand-
+free state, we implemented a 2D version of FLImP that reports trian-gular arrangements between probes bound to EGFR structures (Sup-
+plementary Fig. 5). The 3-fold higher probe concentration required for
+2D FLImP was better suited to the less sticky EGF-CF640R derivative, asAfﬁbody-CF640R at this higher concentration began to show signs of
+non-speci ﬁc binding on the glass supporting the cells
+64.
+As an example, we probed cells expressing T766M-EGFR with EGF-
+CF640R after chemical ﬁxation to avoid ligand-induced conforma-
+tional changes, as discussed above. The resulting 2D FLImP triangledataset was optimally grouped into seven distinct triangles (Fig. 7b–h).
+Reassuringly, the 1D separations in the triangles are found as compo-nents decomposed by 1D FLImP for T766M-EGFR and WT-EGFR(Fig. 4d, a), arguing that T766M-EGFR and WT-EGFR share hetero
+conf-
+oligomer structure.
+To evaluate whether the 2D FLImP data supports the proposed
+model, the model was expanded to the size required by the trianglesand the positions expected for EGF-CF640R bound to EGFR ’se c t o -
+domain DIII marked. We found that the smallest triangle (T1) accounts,within errors, for four triangular probe motifs in the model(Fig. 7i).Triangles T2-T7 each account for one motif (Fig. 7j). To further
+validate the applicability of the hetero
+conf-oligomer structure to
+T766M-EGFR, we veri ﬁed that combining the T766M mutation with the
+tether-disrupting H566F mutation or the Lzip3S mutations also dis-rupts the hetero
+conf-oligomers (Supplementary Fig. 6). This, together
+with the excellent results of superimposing the triangles from 2D
+FLImP data collected from CHO cells expressing T766M-EGFR indicatethat the model is an accurate representation of the extracellular por-tion of the ligand-free hetero
+conf-oligomers. Interestingly, this model
+predicts that the smallest oligomers that could bear one St2Stect/
+Asymkin
+dimer sub-unit are a hexamer assembled from two H2Hect
+dimer/
+2xkin
+monomers sub-units and one B2Bect/H2Hkin
+dimer and an octamer
+assembled from two of each (Fig. 7a). Consistent with this, mutations
+that preserve phosphorylation are at least hexamer in size (Supple-mentary Table 3).
+A ligand-independent mechanism of Ex20ins-induced activation
+The model predicts that inhibiting the B2Bect/H2Hkin
+dimer conformer
+would result in the tetramer shown in Fig. 8a. Inhibiting the Lzip
+interface should have the same effect, but separations found whenB2B
+ect/H2Hkin
+dimer sub-units are inhibited by the ED/RK mutations are
+inconsistent with those found when Lzip contacts are inhibited viaFig. 5 | The H2Hect
+dimer/2xkin
+monomers sub-unit participates in heteroconf-oligomer
+assembly. a Left, cartoon of full-length H2Hect/2xkin
+monomers sub-unit with two
+ﬂuorescent anti-EGFR Af ﬁbodies (blue with red spot) bound to ectodomain ’s DIIIs.
+The H2Hect
+dimer is linked to two non-interacting kinase monomers36.ΔC-EGFR
+deletion mutant length is marked. DIV-binding tether-disruptive mutations (e.g.
+H566F) interfere with the H2Hect
+dimer conformation. Right, a labeled St2Stect/
+Asymkin
+dimer sub-unit. Lapatinib binds the kinase ATP-binding pocket disrupting the
+Asymkin
+dimer.b,d,fFLImP analysis of 100 separation probability distributions
+between Af ﬁbody-CF640R pairs in the conditions indicated: Sum of posteriors of
+individual separations between ﬂuorophores (gray background) and abundance-
+weighted probability distributions of individual components of decomposedseparation distribution (colored peaks). Plot legend and bars above colored com-
+ponent distributions give the median and most-compact 68% con ﬁdence interval
+for each. Legend also gives median proportion of measurements assigned toclutter. Stars and dots below show individual separations assigned to peaks(colored) or clutter (black). WT-EGFR median peak positions marked by dashed
+lines. cWasserstein MDS analysis of FLImP decompositions for conditions in theinset. Similarities or dissimilarities between the 21 separation sets of different
+conditions (one main FLImP decomposition plus 20 bootstrap-resampled decom-
+positions) are compared. The axes are components C1 and C2. C1 represents thedimension that captures the largest amount of data variance, while C2 representsthe second-largest amount of variance that is orthogonal to C1. The ellipse centers
+(95% con ﬁdence range) mark the positions of the main FLImP decompositions. The
+crosses mark the positions of individual bootstrap-resampled separation sets.eComparisons between decomposed separation probability distributions between
+FLImP datasets. The continuous lines show the marginalized separation posterior,
+i.e. the sum of the abundance-weighted peaks, for each condition in the inset.Fluctuations around each continuous line arise from variations derived from FLImPdecompositions for 20 bootstrap-resampled datasets to assess errors due to ﬁnite
+number of measurements. Note that the 8 nm separation corresponding to the
+St2St
+ect/Asymkin
+dimer sub-unit is not signi ﬁcantly decreased by the H566F mutation
+(orange), consistent with the tether-disrupting mutations not inhibitingphosphorylation
+55(Supplementary Fig. 3e). Dashed lines mark WT-EGFR median
+peak positions. Colored arrows show shift from WT.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 8
+Lzip3S mutations (Fig. 8b). This hinted at the possibility that we had
+not yet accounted for all heteroconf-oligomer assembling interactions.
+We considered a functionally orphan symmetric backbone-to-
+backbone kinase interface (Bb2Bbkin
+interface ), revealed by X-ray
+crystallography47(Fig. 8c). Because a kinase monomer could dock
+into a Bb2Bbkin
+dimer to form an Asymkin
+dimer, we speculated that the
+Bb2Bbkin
+interface might be involved in strengthening the St2Stect/Asymkin
+dimer sub-units. Giving credence to this possibility, two non-
+naturally occurring charge-reversal R938E and K946E mutations,
+which compromise the Bb2Bbkin
+dimer, as reported by MD simulations
+(Supplementary Fig. 7a), decrease receptor phosphorylation (Fig. 8d).
+Remarkably, we found that the separation set associated with
+K946E-EGFR is almost indistinguishable from that of ED/RK + L680N-EGFR (Fig. 8e–g). This reveals that disrupting the Bb2Bb
+kin
+interface via
+Lzip3Sc
+ED/RK+L680Nf g
+ED/RK+L680N+Lzip3SdNter+Cter+ Nter Cter Lzipa
+extracellular
+intracellularCter interface
+90o xz
+yb
+eArticle https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 9
+the K946E mutation recapitulates the effect of jointly inhibiting
+St2Stect/Asymkin
+dimer and B2Bect/H2Hkin
+dimer sub-units via the combined
+ED/RK + L680N mutations. This is consistent with St2Stect/Asymkin
+dimer
+and B2Bect/H2Hkin
+dimer conformers being obligate heteroconf-oligomers.
+Adding the K946E mutation to T7 66M-EGFR also reduces oligomer
+size and decreases receptor phosphorylation (Fig. 8d, g, h, Supple-
+mentary Fig. 7c). Together, results suggest that the Bb2Bbkin
+interface
+reinforces the St2Stect/Asymkin
+dimer sub-units, and thereby their inter-
+action with the B2Bect/H2Hkin
+dimer in the heteroconf-oligomers.
+If the above interpretation is correct, one would expect that sta-
+bilizing the Bb2Bbkin
+interface should mirror the effects of stabilizing the
+St2Stect/Asymkin
+dimer conformer. We conjectured that Ex20Ins might
+increase the number of contacts b etween the kinase domains of the
+Bb2Bbkin
+interface , stabilizing that interface (Fig. 8i). This was supported
+by MD simulations of the WT and D770-N771insNPG (insNPG), amutant chosen because structural data is available
+65(Supplementary
+Fig. 8a, b). In support of the notion that the Bb2Bbkin
+interface underpins
+the stability of St2Stect/Asymkin
+dimer conformers, the separation set for
+insNPG-EGFR recapitulates the effects of the Erlotinib treatment in WT-EGFR (Fig. 8j, k, Supplementary Fig. 8c), revealing that the mechanism
+by which insNPG-EGFR dysregulates ligand-independent phosphor-
+ylation is by strengthening the Bb2Bb
+kin
+interface in heteroconf-oligomers.
+A ligand-independent mechanism of T766M-induced activation
+After incorporating the Bb2Bbkin
+interface (Fig. 9a), another prediction is
+that disrupting Lzip contacts should have an analogous effect onphosphorylation to inhibiting the B2B
+ect/H2Hkin
+dimer via the ED/RK
+mutations, but only the latter increases phosphorylation (Fig. 8d). We
+speculated this might be explained if the B2Bect/H2Hkin
+dimer seques-
+tered kinase monomers from stabilizing the Asymkin
+dimer via the
+Bb2Bbkin
+interface (Fig. 9b). In the crystal lattice of the activator-impaired
+V924R H2Hkin
+dimer48we noticed a side-to-side interface (S2Skin
+interface )
+that could play such a role (Fig. 9c).
+We previously reported that the non-naturally occurring I942E
+mutation inhibits ligand-bound oligomerisation36.H e r ew es h o wt h a t
+I942E decreases ligand-free EGFR phosphorylation (Fig. 8d). The I942
+residue lies at the heart of the S2Skin
+interface ,a n dm o d e l l i n go ft h eW T
+and I942E mutant suggested that the latter stabilizes the S2Skin
+interface
+(Supplementary Fig. 9a, Supplementary Note 1). The separation setassociated with I942E-EGFR is consistent with the results obtained forWT-EGFR-expressing cells treated with Lapatinib, which inhibits theAsym
+kin
+dimer (Fig. 9d, e). These results argue that S2Skin
+interface stabili-
+zation via the I942E mutation also inhibits the St2Stect/Asymkin
+dimer,
+indicating that the S2Skin
+interface plays an autoinhibitory role. Combin-
+ing the T766M and I942E mutations support this notion (Supplemen-tary Fig. 9b, c).
+If the B2B
+ect/H2Hkin
+dimer sequestered kinase monomers via the
+S2Skin
+interface preventing these from reinforcing St2Stect/Asymkin
+dimersub-units via the Bb2Bbkin
+interface , then inhibiting the Bb2Bbkin
+interface
+should make more kinase monomers available to stabilize the B2Bect/
+H2Hkin
+dimer via the S2Skin
+interface , thereby growing larger oligomers as
+found when B2Bect/H2Hkin
+dimer sub-units are stabilized by the T766M
+mutation (Fig. 4j). To test this possibility, we need to inhibit the
+Bb2Bbkin
+interface whilst preserving St2Stect/Asymkin
+dimer and B2Bect/
+H2Hkin
+dimer sub-units so they can compete for kinase monomers.
+However, when the Bb2Bbkin
+interface -inhibitory K946E mutation is
+introduced in WT-EGFR, the mutation also disassembles the St2Stect/
+Asymkin
+dimer and B2Bect/H2Hkin
+dimer conformers (Fig. 8f). In contrast,
+partially disassembled Lzip3S-EGFR oligomers preserve their phos-phorylation (Fig. 8d) and some density around 12 nm (Fig. 8b), sug-
+gesting that Lzip3S-EGFR oligomers retain some St2St
+ect/Asymkin
+dimer
+and B2Bect/H2Hkin
+dimer sub-units. Thus, we reasoned that adding K946E
+to Lzip3S mutations should stabilize the B2Bect/H2Hkin
+dimer and increase
+oligomer size. The results are consistent with this notion (Fig. 9f). We
+also found that the separation sets of Lzip3S + K946E and Lzip3S +L680N are similar below ~35 nm (Fig. 9g, h), suggesting that inhibiting
+the St2St
+ect/Asymkin
+dimer and the Bb2Bbkin
+interface are almost equivalent,
+and explaining why disrupting the St2Stect/Asymkin
+dimer, either directly
+via Lapatinib or indirectly via the I942E mutation, does not decrease
+oligomer size, as both stabilize the S2Skin
+interface and thereby the
+H2Hkin
+dimer counterbalancing the effect of disrupting St2Stect/
+Asymkin
+dimer sub-units (Fig. 9f).
+Results, therefore, show that destabilizing the St2Stect/
+Asymkin
+dimer, either directly by the L680N mutation or indirectly by
+inhibiting the Bb2Bbkin
+interface , increases oligomer size. In WT-EGFR this
+depends on the S2Skin
+interface at the expense of phosphorylation. The
+T766M mutation directly stabilizes the B2Bect/H2Hkin
+dimer, thus pro-
+moting the formation of larger and more stable36oligomers that can
+bear more St2Stect/Asymkin
+dimer sub-units, thus accounting for the
+increase in T766M-induced ligand-independent phosphorylation
+(Supplementary Fig. 7c).
+Tumor growth depends on heteroconf-oligomerisation
+To test the relevance of the proposed ligand-free oligomer structureand assembling mechanisms in vivo, we carried out cellular transfor-mation assays using the IL3-dependent murine lymphoid Ba/F3 cellsystem with the aim of using these cells to establish tumor xenografts.Ba/F3 cells fail to survive and multiply in the absence of IL3
+66,67,b u tt h i s
+phenotype can be rescued by the ectopic expression of a constitutivelyactive receptor tyrosine kinase, like for example T766M-EGFR, whichallows survival signaling in the absence of IL3
+66.
+We generated Ba/F3 cell lines stably expressing WT-EGFR (Ba/
+F3 + WT), T766M-EGFR (Ba/F3 + T766M), and EGFR mutants at nearequal levels using the PiggyBac system and tested the ability of thetransformed cells to grow in the absence of IL3 (SupplementaryFig. 10a). To minimize mice number, from the mutations that disruptFig. 6 | Ligand-free dimer conformers interact via transversal transmembrane
+contacts. a Previously proposed transmembrane dimers45. Lzip has leucine zipper-
+like interactions (V635xxL638xxxL642) and could establish contacts with Nter+/Nter
+and Cter+/Cter to assemble oligomers. bTop, a speculative tetramer (yellow) from
+two monomers interacting through Lzip contacts with one Cter interface. A Cter
+dimer model (magenta) is placed on top of the tetramer showing that the residues
+in the Cter interface are distinct from Lzip. Bottom, orthogonal projection on xy-plane. (Equivalent for Lzip contacts with one Nter interface in Supplementary
+Fig. 3f). c,f,gFLImP analysis of 100 separation probability distributions between
+Afﬁbody-CF640R pairs in the conditions indicated: Sum of posteriors of individual
+separations between ﬂuorophores (gray background) and abundance-weighted
+probability distributions of individual components of decomposed separation
+distribution (colored peaks). Plot legend and bars above colored component dis-
+tributions give the median and most-compact 68% con ﬁdence interval for each.
+Legend also gives median proportion of measurements assigned to clutter. Starsand dots below show individual separations assigned to peaks (colored) or clutter(black). The median peak positions marked by dashed lines are those of WT-EGFR.
+dComparisons between decomposed separation probability distributions between
+FLImP datasets. The continuous lines show the marginalized separation posterior,i.e. the sum of the abundance-weighted peaks, for each condition in the inset. Theﬂuctuations around each continuous line arise from variations derived from FLImP
+decompositions for 20 bootstrap-resampled datasets to assess errors due to the
+ﬁnite number of measurements. Dashed lines mark WT-EGFR median peak posi-
+tions. Colored arrows show shift from WT. eWasserstein MDS analysis of FLImP
+decompositions for the conditions in the inset. Similarities or dissimilarities
+between the 21 separation sets of different conditions (one main FLImP decom-position plus 20 bootstrap-resampled decompositions) are compared. Plot axes arecomponents C1 and C2. C1 represents the dimension that captures the largest
+amount of variance in the data, while C2 represents the second-largest amount of
+variance that is orthogonal to C1. The ellipse centers (95% con ﬁdence range) mark
+the positions of the main FLImP decompositions. The crosses mark the positions ofindividual bootstrap-resampled separation sets.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 10
+nm nm nm
+T1(a) 6 7 11
+T1(b) 6 10 12
+T1(c) 7 11 12
+T1(d) 10 11 11
+nm nm nm
+T2 15 27 33
+T3 12 30 39
+T4 20 36 39
+T5 11 50 55T6 25 57 81
+T7 30 75 104iapproximate position
+of EGF-CF640R T1(a)
+T1(b)
+T1(d)T1(c)Asymkin
+dimer
+H2Hkin
+dimer
+monomer+
++a Kinase domain Ectodomain
+H2Hect
+dimer
+B2Bect
+dimer
+St2Stect
+dimerTM domain
+Cter
+Nter+
+Lzip
+monomer
+xy(view from the top)cell surface
+j approximate position
+of EGF-CF640R
+Fig. 7 | The extracellular structure of ligand-free heteroconf-oligomers. a Top left,
+Tetramer assembled by an H2Hect/2xkin
+monomers sub-unit and a B2Bect/H2Hkin
+dimer
+sub-unit. A transmembrane monomer of an H2Hect/2xkin
+monomers interacts with the
+transmembrane dimer of the B2Bect/H2Hkin
+dimer v i aa nL z i pi n t e r f a c e .T h eL z i p
+interface is related to the transmembrane dimers in the B2Bect/H2Hkin
+dimer sub-unit
+and St2Stect/Asymkin
+dimer sub-unit by a rotation of the helix along the long axis45.
+Bottom left, two tetramers form a St2Stect/Asymkin
+dimer sub-unit. Note that the latter
+could in principle form also from one H2Hect/2xkin
+monomers sub-unit forming an Lzip
+interface with a tetramer made of one H2Hect/2xkin
+monomers sub-unit and a B2Bect/
+H2Hkin
+dimer sub-unit. (Attempts to join a H2Hect
+dimer/2xkin
+monomers sub-unit and a
+St2Stect/Asymkin
+dimer sub-unit via Lzip contacts led to steric clashes. More details in
+Supplementary Fig. 4). Right, Annotated interfaces in the model. b–hSeven distinct
+optimally grouped triangles from 2D FLImP separations determined between EGF-CF640R probes bound to cell surface T766M-EGFR (Supplementary Fig. 5). The side
+lengths of each triangle are annotated in each inset in the colors used in 1D FLImPdecompositions when found in the separation sets of either T766M-EGFR or WT-EGFR (Fig. 4a, d), and colored and underlined if found in both. Separations >70 nm
+are outside the range of 1D FLImP. The abundance of each triangle (T1-7) is stated
+bottom right. iLigand-free hetero
+conf-oligomer model extended as described in a.
+The approximate positions where EGF-CF640R would bind DIII of the ectodomainsare marked (red circles). Four versions of (b), the experimentally-optimized triangle
+1 within errors (T1a-T1d), are superimposed. Inset, table of the side lengths of the
+superimposed triangles. jTop, ligand-free hetero
+conf-oligomer model with the tri-
+angle groups T2-T4 ( c–e) superimposed. Bottom, heteroconf-oligomer model with
+the largest triangles T5-T7 ( f–h) superimposed. Inset, table of the side lengths of the
+superimposed triangles.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 11
+heteroconf-oligomer structure but not phosphorylation we focused on
+the T766M + H566F and omitted the apparently equivalent T766M+Lzip3S (Supplementary Fig. 6). From the mutations that disrupt oli-gomer structure and phosphorylation we chose T766M + K946E over
+T766M + I942E because unlike the I942E mutation, K946E does not
+interfere with the ligand-bound state (Supplementary Fig. 10b).
+Next, we compared the ability of these Ba/F3 cell lines to establish
+and grow tumors. Notably, all these cell lines also stably expressedGFP, exploited to image growing tumors. We found a lag-time prior tothe onset of palpable tumors of around 20 days in all cohorts, after
+which the tumors formed in animals that had received Ba/F3 + T766Mand Ba/F3 + T766M + H566F cells and, with an additional delay, in theBa/F3 + T766M + K946E cohort (Fig. 10a). Importantly, mirroring the
+growth pattern observed in vitro, Ba/F3 + T766M tumors grew best
+throughout, followed by the double mutant tumors (Ba/F3 +T766M + H566F > Ba/F3 + T766M + K946E), while WT-EGFR tumors didnot establish or grow. The lack of tumor cell survival in the Ba/F3 + WTcohort was already strongly suggested by day 21 when we observed no
+side-view top-viewBb2Bbkin
+dimeroo
+active A-loopαC/β4 loop
+Ex20Ins 
+(insNPG)iBb2Bbkin
+dimer
+Asymkin
+dimer
+active A-loopc
+xya Ectodomain
+St2StectH2Hect
+Lzip inhibited
+B2Bect/H2Hkin
+dimerinhibitedKinase domain
+Asymkin
+dimer
+TM domain
+Nter
+monomermonomer
+top-viewside-view
+90o
+αC
+αCBb2Bbkin
+dimer
+αC
+αCd
+Total EGFRWT
+ED/RK
+Lzip3A
+Lzip3S
+K946E
+R938E+K946E
+K946E+ Lzip3S
+R938E
+I942E
+pY1068
+Actin250
+180
+50
+40250
+180kDaK946E
+gxz
+K946Ee
+T766M+K946Eh
+insNPGjf
+kbArticle https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 12
+GFP reporter signals at the injection site (Supplementary Fig. 10c –e).
+The experimental endpoint was on day 41 when we imaged all animalsby IVIS (Fig. 10b, c) to determine tumor ﬂuorescence as an indepen-
+dent measure of tumor growth between cohorts. We found signi ﬁcant
+differences in ﬂuorescence signals between groups, in line with caliper
+measurements (Fig. 10a), except for Ba/F3 + T766M vs. Ba/F3 +
+T766M + H566F tumors. The latter highlights the limitations of epi-ﬂuorescence imaging, which did not re ﬂect accurately the signal dif-
+ferences between larger tumors due to limited tissue penetration and
+absorption within thicker tissues. Harvested tumors were ﬁrst quali-
+tatively imaged under daylight (Fig. 10d) and then weighed (Fig. 10e),
+upon which the signi ﬁcant growth differences between the Ba/
+F3 + T766M vs. Ba/F3 + T766M + H566F tumors were evident, as were
+the other differences already seen in vivo in Fig. 10a. Moreover, we
+subjected harvested tumor tissues to histology to demonstrate tumormorphology by H&E (Fig. 10f) and pan-EGFR expression by anti-EGFR
+staining (Fig. 10g vs. staining control in Supplementary Fig. 10f). All
+tumors were positive for EGFR with plasma membrane localizationclearly visible in stained tissues (Fig. 10g). Receptor copy numbers of
+~2×10
+5per cell were estimated by comparison with tumor xenografts
+from other cell lines (Supplementary Fig. 10g). Our results are con-sistent with previous intravital ﬂuorescence imaging data that showed
+predominant localization of EGFR at the plasma membrane consistentwith very low ligand binding
+49.
+Notably, the T766M + H566F mutant, which does not reduce basal
+phosphorylation compared with T766M (Supplementary Fig. 7c), alsohandicaps tumor growth. An explanation is that T766M + H566Fexpressing Ba/F3 cells are unable to phosphorylate and activate AKTsignaling to the same extent as T766M (Supplementary Fig. 7c).
+Discussion
+We combined super-resolution FLImP imaging with in silico modelingand mutagenesis to identify the interfaces that assemble ligand-free,kinase active EGFR oligomers. The <3 nm resolution achieved allowedus not only to ﬁngerprint previously proposed ligand-free dimer
+conformers but, crucially, show how interactions between kinaseinactive dimers assemble ligand-free hetero
+conf-oligomers that bear
+active St2Stect/Asymkin
+dimer sub-units. From this knowledge and the
+known shapes of the ligand-free dimer conformers we derived astructural model of ligand-free hetero
+conf-oligomerization that explains
+how EGFR can achieve ligand-independent auto-phosphorylation. Inaddition, the extracellular part of this model was validated by imple-
+menting a 2D FLImP version.
+The tethered conformation of EGFR ’s ectodomain appeared dur-
+ing the evolution of vertebrates
+68a n dw a ss u g g e s t e dt oh a v ee v o l v e d
+to prevent crosstalk between the different EGFR homologs in thevertebrate EGFR family
+69. Our MD simulations and FLImP resultspropose another biological role for the tethered conformation, which
+is to regulate the formation of the H2Hect
+dimer,a n dt h r o u g hi t ,
+heteroconf-oligomer size, receptor activation, and, in the pathological
+context of T766M-EGFR, tumor formation.
+Comparing models and data revealed that a previously orphan
+Bb2Bbkin
+interface reported by X-ray crystallography47plays a regulatory
+role in ligand-free heteroconf-oligomerization and activation. The role of
+the Bb2Bbkin
+interface is to buttress the Asymkin
+dimer, leading to activation
+once the B2Bect/H2Hkin
+dimer cantilevers H2Hect
+dimer/2xkin
+monomers into
+position to form the St2Stect/Asymkin
+dimer. This mechanism explains
+how the Asymkin
+dimer can form in the absence of ligand-induced con-
+formational changes that are typically required to overcome the acti-vation barrier associated with the formation of the asymmetricinterface between activator and receiver kinases
+42. Importantly, our
+work shows that Ex20Ins mutations stabilize the Bb2Bbkin
+interface , pro-
+viding a breakthrough in our understanding of these mutations, whichso far have been studied only at the monomeric level.
+Comparing models and data also suggested a second S2S
+kin
+interface
+that we identi ﬁed from a crystal contact in a structure of the
+H2Hkin
+dimer54. This interface allows the H2Hkin
+dimer to hijack kinase
+monomers, preventing formation of the stimulatory Bb2Bbkin
+interface ,
+and down-regulating activation. The S2Skin
+interface stabilizes the
+H2Hkin
+dimer, explaining its autoinhibitory role. We propose that the
+regulation of the activation of ligand-free heteroconf-oligomers rests on
+balancing the interactions between the Asymkin
+dimer and the H2Hkin
+dimer
+with the Bb2Bbkin
+interface and the S2Skin
+interface .
+Beyond its autoinhibitory role, the H2Hkin
+dimer also acts as a scaf-
+fold promoting the formation of larger heteroconf-oligomers. Thus, by
+stabilizing the H2Hkin
+dimer, the T766M mutation decouples oligomer
+growth from its dependence on the autoinhibitory S2Skin
+interface .T h i s
+indirectly underpins the formation of Asymkin
+dimer units without the
+need to hijack monomers from the Bb2Bbkin
+interface , which can thereby
+still buttress Asymkin
+dimer sub-units within larger oligomers, thus
+amplifying ligand-independent phosphorylation for the T766Mreceptor mutant.
+As an example, we used T766M-EGFR-dependent cell growth to
+evaluate in vivo the effect of disrupting ligand-free hetero
+conf-oligomer
+structure by inhibiting the tethered conformation and theBb2Bb
+kin
+interface . Excitingly, disrupting the Bb2Bbkin
+interface , which has a
+deleterious effect on oligomer size and phosphorylation, almostabolishes tumor growth. A clue to a possible mechanism is provided byprevious in vivo intravital microscopy studies that proposed that the
+small pool of high-af ﬁnity EGFRs drives tumor xenograft growth when
+stimulated by the 17 –100 pM ligand concentration surrounding the
+tumor cells
+49. We found that St2Stect/Asymkin
+dimer sub-units are high-
+afﬁnity ligand binding sites. According to our model, oligomers display
+~25 –30% high-af ﬁnity St2Stect/Asymkin
+dimer sub-units. In CHO cellsFig. 8 | A Bb2Bbkin
+dimer sub-unit underpins activation in ligand-free oligomers.
+aTetramer that would form if B2Bect/H2Hkin
+dimer sub-units or Lzip contacts were
+inhibited (interfaces annotated). b,f,kComparisons between decomposed
+separation probability distributions between FLImP datasets. Continuous linesshow the marginalized separation posterior sum of the abundance-weighted peaks,
+for each condition in the inset. Fluctuations around each continuous line arise from
+variations from FLImP decompositions for 20 bootstrap-resampled datasets toassess errors from ﬁnite measurements number. cStructure and cartoon of the
+Bb2Bb
+kin
+dimer formed mainly through N-to-C lobe interactions (PDB ID 3VJO [ https://
+www.rcsb.org/structure/3VJO ])47. A kinase monomer can dock in the Bb2Bbkin
+dimer
+to form an Asymkin
+dimer, as shown, with the position of the A-loop marked. The
+K946E mutation breaks the Bb2Bbkin
+interface interface (Supplementary Fig. 7a, Sup-
+plementary Note 1). dWestern blot showing phosphorylation in the absence of
+ligand in transfected CHO cells. (Blot quanti ﬁcation in Supplementary Fig. 7b,
+representative of n = 3 blots) .e,h,jFLImP analysis of 100 separation probability
+distributions between Af ﬁbody-CF640R pairs. The sum of posteriors of individual
+separations (gray background) and abundance-weighted probability distributionsof individual components of decomposed separation distribution (colored peaks).
+Plot legend and bars above colored component distributions give the median and
+most-compact 68% con ﬁdence interval for each. Stars and dots below show indi-
+vidual separations assigned to peaks (colored) or clutter (black). Legend also givesmedian proportion of measurements assigned to clutter. Dashed lines mark WT-
+EGFR median peak positions (also in (k)). gWasserstein MDS analysis of FLImP
+decompositions. Similarities or dissimilarities between the 21 separation sets ofdifferent conditions (one main FLImP decomposition plus 20 bootstrap-resampled
+decompositions) are compared. The plot axes are components C1 and C2. C1
+represents the dimension that captures the largest amount of data variance, whileC2 represents the second-largest amount of variance orthogonal to C1. The ellipsecenters (95% con ﬁdence range) mark the positions of the main FLImP decom-
+positions. The crosses mark those of individual bootstrap-resampled separation
+sets. iThe Bb2Bb
+kin
+dimer sub-unit47(side and top-view). Inserted residues of the
+Ex20Ins mutation on the αC/β4 loop shown (yellow circles). Source data provided
+as a ‘Source data ’ﬁle.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 13
+Lzip3S+L680Nhf I942EaKinase domain
+Asymkin
+dimerEctodomain
+St2StectTM domain
+H2Hect
+Bb2Bbkin
+interfaceNter+
+monomer
+Lzip inhibitedB2Bect/H2Hkin
+dimerinhibited
+Src-like 
+inactive A-loop
+H2Hkin
+dimerc
+I942ES2Skin
+dimer
+αΕαD
+αIxy
+top-view
+xz
+side-view
+90o S2Skin
+dimer,bKinase domain
+Asymkin
+dimerEctodomain
+St2StectTM domain
+Nter+
+LzipH2Hkin
+dimer
+B2BectCterS2Skin
+interfaceH2Hect
+Sequestered 
+Bb2Bbkin
+interface
+d e
+Lzip3S+K946Eg
+Fig. 9 | An autoinhibitory S2Skin
+dimer sub-unit promotes heteroconf-oligomer
+growth. a Tetramer that would form after inhibiting B2Bect/H2Hkin
+dimer sub-units or
+Lzip contacts with two Bb2Bbkin
+interfaces buttressing an Asymkin
+dimer sub-unit. Ecto-
+domains and kinases belonging to the same receptor in H2Hect
+dimer/2xkin
+monomers
+sub-units are colored accordingly. bLigand-free heteroconf-oligomer model incor-
+porating four S2Skin
+interfaces .cLeft, side-view of the S2Skin
+dimer sub-unit maintained
+mainly through the β2-sheet and αD-helix of the one monomer and the αE- and αΙ-
+helices of another (PDB ID: 5CNO [ https://www.rcsb.org/structure/5CNO ])48.T h e
+position of the A-loop in the inactive con ﬁguration is marked. Right, cartoon
+representation of the top-view of an H2Hkin
+dimer sub-unit ﬂanked by two monomers
+via S2Skin
+interfaces .d,g,hFLImP analysis of 100 separation probability distributions
+between Af ﬁbody-CF640R pairs in the conditions indicated: Sum of posteriors of
+individual separations between ﬂuorophores (gray background) and abundance-
+weighted probability distributions of individual components of decomposedseparation distribution (colored peaks). Plot legend and bars above colored com-ponent distributions give the median and most-compact 68% con ﬁdence interval
+for each. Legend also gives median proportion of measurements assigned toclutter. The median peak positions marked by dashed lines are those of WT-EGFR.
+eComparisons between decomposed separation probability distributions between
+datasets. The continuous lines show the marginalized separation posterior, i.e. thesum of the abundance-weighted peaks, for each condition in the inset. The ﬂuc-
+tuations around each continuous line arise from variations derived from FLImP
+decompositions for 20 bootstrap-resampled datasets to assess errors due to ﬁnite
+number of measurements. Dashed lines marked WT-EGFR median peak positions(as in d). Colored arrows show shift from WT-EGFR. fWasserstein MDS analysis of
+FLImP decompositions for the conditions in the inset. Similarities or dissimilarities
+between the 21 separation sets of different conditions (one main FLImP decom-position plus 20 bootstrap-resampled decompositions) are compared. The plotaxes are components C1 and C2. C1 represents the dimension that captures the
+largest amount of variance in the data, while C2 represents the second-largest
+amount of variance that is orthogonal to C1. The ellipse centers (95% con ﬁdence
+range) mark the positions of the main FLImP decompositions. The crosses mark thepositions of individual bootstrap-resampled separation sets.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 14
+expressing ~105EGFR copies/cell we estimated that ~15-40% of cell
+surface EGFRs are incorporated in ligand-free oligomers. Similar oli-gomer fractions would be expected for Ba/F3 + T766M tumor xeno-graft cells, which we found to express ~2 × 10
+5EGFR copies/cell70.
+Among the oligomer species, ~1/2 are hexamers and larger oligomers36
+t h a tc a nb e a ra tl e a s to n eS t 2 S tect/Asymkin
+dimer sub-unit. Thus, our
+model predicts that ~2 –6% of the total sites will be high-af ﬁnity St2Stect/
+Asymkin
+dimer sub-units, consistent with previous predictions71–73.
+T766M-EGFR oligomers are larger and more stable36, displaying morehigh-af ﬁnity St2Stect/Asymkin
+dimer sites. The ﬁnding that inhibition of
+the Bb2Bbkin
+interface , which abolishes the assembly of high-af ﬁnity
+St2Stect/Asymkin
+dimer sub-units, also abolishes tumor growth is there-
+fore consistent with the premise that high-af ﬁnity sites drive tumor
+growth when stimulated by ligand. We note that the decreased
+accessibility of the ligand to its binding site in H566F-EGFRs might alsoexplain the partial effect of this mutation in reducing tumor growth.
+By revealing how tumor-driving high-af ﬁnity St2St
+ect/Asymkin
+dimer
+sub-units assemble within oligomers, our work has also revealed an
+b
+Ba/F3
++WTBa/F3
++T766MBa/F3
++T766M+H566FBa/F3
++T766M+K946E
+3.0 2.0 1.0 0.4 3.5Brightfield
+Ba/F3+WT
+Ba/F3+T766MBa/F3+T766M+H566F
+Ba/F3+T766M+K946Ed
+fBa/F3
++T766MBa/F3
++T766M+H566FBa/F3
++T766M+K946EHematoxylin & Eosin IHC anti-EGFR ga
+0 1 02 03 04 00500100015002000
+Time (days)Tumourvolume(mm3)
+Ba/F3+T766M
+Ba/F3+T766M+H566F
+Ba/F3+T766M+K946EBa/F3+WT
+c
+Ba/F3 Ba/F3 Ba/F3 Ba/F3
+e
+Ba/F3 Ba/F3 Ba/F3 Ba/F3Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 15
+Achilles heel in drug-resistant NSCLC tumors that could be ther-
+apeutically targeted, counterintuitively, with drugs or small proteins
+that interfere with the tether , and/or can inhibit the Bb2Bbkin
+interface .
+Furthermore, these interfaces are away from the ATP-binding pocketmutational hotspot. Targeting pro tein-protein interactions is an
+alternative direction in treating diseases and an essential strategy fordrug development
+74. Given the poor long-term ef ﬁcacy of current
+treatments for NSCLC, the structural understanding from this work ofhow T766M-EGFR and Ex20Ins-EGFR amplify cell growth suggests apossible route for more effective therapies. Notably, mutant, and WT-EGFR share hetero
+conf-oligomer structure. It would be interesting to
+ﬁnd out whether these principles apply to cancers driven by EGFR
+overexpression which currently have very limited therapeutic options.
+Methods
+Reagents
+Antibodies and reagents were purchased as follows: mAb-2E9 (Abcamab8465, RRID: AB_2096462), Anti-EGFR Af ﬁbody® Molecule (Abcam
+ab95116; RRID: AB_11156238), Anti-EGFR (D38B1, Cell Signaling Tech-nology (CST) 4267; RRID: AB_2246311), Anti-Phospho-Akt (Ser473, D9E,CST 4060; RRID: AB_2315049), Anti-beta-Actin Monoclonal Antibody,HRP Conjugated (13E5 CST 5125; RRID: AB_1903890), Anti-Phospho-EGF Receptor (Tyr1068, D7A5 CST 3777; RRID: AB_2096270), Anti-EGFR (R & D Systems, AF231; RRID: AB_355220), Anti-EGFR (phospho
+Y992, EM-12, Abcam ab81440; RRID: AB_1658463), Anti-mouse IgG-
+HRP (Jackson ImmunoResearch 715-035-150; RRID: AB_2340770), Anti-rabbit IgG-HRP (Jackson ImmunoResearch 711-035-152;RRID: AB_10015282), Anti goat IgG-HRP (Jackson ImmunoResearch705-035-147; RRID: AB_2313587), Anti-Rabbit-HRP (Dako P044801,RRID: AB_2617138), Recombinant Murine EGF (Peprotech, 315-09),Recombinant Murine IL-3 (Peprotech, 213-13), Erlotinib Hydrochloride(Biovision, 1558-100), Lapatinib Ditosylate (Biovision, 1642-25), 4%Paraformaldehyde (EM Grade, Electron Microscopy Service (EMS), 157-4), 25% Glutaraldehyde (Grade I, Sigma G5882), FluoSpheres ™(car-
+boxylate modi ﬁed, 0.1 μm, infrared (715/755), Invitrogen F8799).
+Cell culture
+mAb-108 expressing hybridoma cells (ATCC, HB-9764) were grown in
+high glucose DMEM media, no phenol red (Gibco, 31053044) supple-mented with 10% fetal bovine serum (FBS –Gibco, 10270-106) and
+1 mM sodium pyruvate (Gibco, 11360070). Chinese Hamster Ovary(CHO) cells (gift from Prof. Peter Parker at The Francis Crick Institute,UK) were grown in DMEM/F12 with no phenol red (Gibco, 21041-025) + 10% (v/v) FBS + 1% penicillin/streptomycin (Gibco, 15140148)and when made to stably express EGFR or mutants the media wassupplemented with 4 µg/mL puromycin (Gibco, A1113803) to maintain
+expression. CHO cells expressing ΔC-EGFR (gift from Prof. Linda Pike,
+Washington University School of Medicine, USA) were grown in
+phenol-red-free DMEM supplemented with 10% FBS, 2 mM glutamine(Gibco, 25030081), 1% penicillin/streptomycin, 100 µg/mL hygromycin
+(Gibco, 10687010) and 100 µg/mL geneticin (Gibco, 10131035). Ba/F3
+cells (Creative Biogene, CSC-C2045) stably expressing EGFR or EGFRmutants were grown in RPMI1640, no phenol red (Gibco, 11835063),
+with 2 mM L-glutamine and without HEPES + 10% heat-inactivated FBS
+(Gibco, 10500064) + 10 ng/mL mouse IL3 (Peprotech, 213-13) + 1%
+penicillin/streptomycin + 2 µg/mL puromycin. All cell lines were ver-
+iﬁed negative for mycoplasma before use and tested routinely.
+Plasmid construction & mutagenesis
+Point mutations in EGFR plasmids were introduced using Quikchange
+Lightning Site-directed mutagenesis kit (Agilent Technologies –cat.
+no. 210518-5) using primer pairs listed in Supplementary Table 4. Allconstructs were veri ﬁed by sequencing the whole coding sequence of
+EGFR. To generate EGFR PiggyBac plasmids, WT-EGFR was PCRampli ﬁed from WT-EGFR/pcDNA3 plasmid using primer pairs with
+NheI and NotI restriction enzyme sites (Supplementary Table 4) and
+inserted into PB513B-1 vector using standard molecular biologytechniques.
+Puriﬁcation of mAb-108 from cell culture media
+mAb-108 antibody was puri ﬁed from mAb-108 hybridoma cell culture
+supernatant using a mouse TCS antibody puri ﬁcation kit (Abcam,
+ab128749). Puri ﬁed antibody was quanti ﬁed using a Nanodrop and
+stored at 4 °C.
+Generation of EGFR CHO stable cell lines
+CHO cells expressing one of the following were generated: WT-EGFR,ED/RK-EGFR, T766M-EGFR, T766 M + K946E-EGFR or T766M + I942E-
+EGFR. CHO cells were transfected with a mix of 0.1 μg of Super Pig-
+gybac Transposase expression vector (PB210PA-1, System Biosciences)and 1 μg of the appropriate endotoxin-free EGFR plasmid DNA (in
+PB513B-1 vector, System Biosciences) using FuGENE HD at 1:3 DNA:-FuGENE HD ratio according to manufacturer ’si n s t r u c t i o n s .T h ec e l l s
+were selected in fresh media containing 4 μg/mL puromycin for 7-10
+days. Surviving clones of cells were pooled and checked for EGFRexpression by western blotting and confocal imaging.
+Generation of Ba/F3 stable cell lines
+Ba/F3 cell lines were electroporated using a Neon transfection kit(Invitrogen, MPK10096) and MicroPorator device (Invitrogen). On theday of electroporation, cells were washed once in PBS and resuspendedin buffer R at a ﬁnal concentration of 1.5 × 10
+7cells/mL. 100 μL cells
+( = 1.5 × 106cells) were electroporated with a mix of 0.5 μgo fS u p e r
+Piggybac Transposase e xpression vector and 5 μg of the appropriate
+endotoxin-free EGFR plasmid DNA according to the manufacturer ’s
+instructions. Cells were selected in media containing 2 μg/mL Pur-
+omycin at a density between 0.3 to 1 × 106cells/mL for 7 –10 days to
+obtain polyclonal cell populations stably expressing EGFR.
+Ba/F3 IL3-independent growth assay
+Ba/F3 cells stably expressing EGFR or EGFR mutants were washed once
+in PBS and resuspended in Ba/F3 media without IL3 and puromycin.Cells were grown in the absence of IL3 for 5 days, then seeded at adensity of 20,000 cells (in 100 μL of media) per well in white-bottomedFig. 10 | Tumors established from Ba/F3 cell lines with wild-type or indicated
+mutant EGFR showed different growth behavior in vivo. a Tumor growth
+measurements by calipers: immunode ﬁcient (NSG) mice were used to establish
+tumors in their ﬂanks and tumor establishment and cumulative growth was mon-
+itored using calipers. N= 6 biologically independent animals per cohort, mean
+values plotted with error bars representing standard deviation (SD). bIVIS imaging
+of all animals from (a) at the experimental endpoint (day 41) showing epi-ﬂuorescence signals from animal tumors. Radial ef ﬁciency was calculated as 10
+10(p/
+s/cm2/sr)/( μW/cm2).cGFPﬂuorescence signal quanti ﬁcation of tumors corre-
+sponding to N= 6 biologically independent animals in b. Statistical analysis by
+1-way ANOVA ( α= 0.05 and Tukey ’s multiple comparison correction). * = 0.012; ** =0.0029; *** = 0.0001-0.0006 (Supplementary Table 5). Data are presented as mean
+values; error bars are SD. dHarvested tumors from animals with established tumors
+were photographed under daylight. No tumors had established in the cohortthat had received Ba/F3 + WT cells. eTumor weights from harvested tumors of
+N = 6 biologically independent animals. Statistical analysis by 1-way ANOVA with
+Tukey ’s multiple comparison correction: * = 0.0416; ** = 0.0013; **** <0.0001
+(Supplementary Table 5; data are presented as mean values; error bars are SD).fHematoxylin and eosin staining of tumors; scale bars are 100 μm.
+gImmunohistochemistry staining using a pan anti-EGFR antibody; corresponding
+background control staining is shown in Supplementary Fig. 10f. Scale bars are 100μm. Source data are provided as a ‘Source data ’ﬁle.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 16
+96-well plates in triplicate. As a positive control for cell growth, addi-
+tional cultures of each cell line were maintained in complete media(including 10 ng/mL recombinant murine IL3). These cells were seededas above in the presence of IL3. Cell viability was measured every day for
+4 days for the positive controls, or 10 days for the cells without IL3,
+using CellTiter-Glo Luminescent Assay (Promega, G7572) and a CLAR-IOstar plus microplate reader according to manufacturer ’s instructions.
+FLImP sample Af ﬁbody labeling
+CHO cells stably expressing WT-EGFR or mutant EGFR were seeded in 3
+of the central 4 wells of μ-Slide 8 well high glass bottom slides (ibidi,
+80807), coated with 1% BSA, at 1.8 × 104cells per well and allowed to
+grow for 2 days. The 4th well (top left) was coated with poly-L-Lysine(PLL –Sigma P4707-50ml) only. ΔC-EGFR-expressing CHO cells were
+grown in the presence of 50 ng/ml doxycycline (ThermoFisher Che-
+micals, J67043.AD). Cells were cultured for 48 h prior to labeling.
+Transient transfections of WT CHO cells using FuGENE HD (Pro-
+mega, E2312) and 600 ng plasmid DNA, at 1:3 DNA:FuGENE ratio, werenecessary for the following EGFR mutants: H566F, Lzip3S, ED/RK +L680N, ED/RK + L680N + Lzip3S, K946E, insNPG, G564P, G564P + ED/RK, Lzip3A, T766M + Lzip3S and T766M + I942E. Transfections werecarried out 24 h after seeding and left a further 24 h prior to labeling.
+Samples were starved in low serum medium (0.1% FBS), with 1 µM
+Lapatinib or Erlotinib if necessary, for 2 h before rinsing with PBS (PBSwithout Ca
+2+and Mg2+was used throughout). Samples were then
+chilled on ice at 4 °C for 10 min in PBS and labeled with 8 nM HER1
+Afﬁbody-CF640R, with 1 µM Lapatinib or Erlotinib if necessary, for 1 h
+on ice at 4 °C. Cells were rinsed and ﬁxed with 3% paraformaldehyde
+plus 0.5% glutaraldehyde for 15 min on ice and 15 min at roomtemperature (RT).
+Cells were rinsed with PBS and stained with 1 µg/mL Hoechst
+(Invitrogen, H21492) in PBS at RT for 10 min then rinsed again with PBS.Samples were stored at 4 °C and prior to imaging slides were broughtup to RT. PLL was removed from the top left well and PBS from thesamples wells. In all wells, 300 µLs of FluoSpheres ™,0 . 1 µm, infrared
+(715/755) (Invitrogen F8799) were added (1/50,000 dilution of stock inPBS) to be used as ﬁducials.
+Samples were loaded onto the ONI nanoimager microscope so that
+the central dividing cross between the central 4 wells of the slide corre-sponded to position 0,0. The slide was warmed to 34 °C prior to samplecollection and the sample was brought into initial focus by the operator.
+FLImP sample EGF labeling
+Samples were labeled as above except for the following: for mAb-108and mAb-2E9 treatment, CHO cells expressing WT-EGFR were starvedof serum for 2 h then treated with 200 nM mAb on ice at 4 °C for 2 h.For 2D FLImP triangles, CHO cells expressing T766M-EGFR were serumstarved for 2 h. Cells were ﬁxed in 3% paraformaldehyde in PBS for
+15 min at RT and rinsed. WT-EGFR cells and T766M-EGFR cells were
+labeled with 10 or 20 nM EGF-CF640R respectively for 1 h at RT andrinsed with PBS. The samples were ﬁxed again for 15 min at RT with 3%
+paraformaldehyde plus 0.5% glutaraldehyde.
+FLImP data acquisition
+Image acquisition was performed using an Nanoimager S (ONI Oxford,UK) single molecule imaging microscope with a 1.49 N oil immersionobjective, operating NanoImager software (Version:1.7.3.10248 –ef4ff2c0). Single frame FLImP acquisitions used an 8 mW
+640 nm diode laser for 20 ms exposure, single frame Hoechst acqui-sitions used an 8 mW 405 nm diode laser with 20 ms exposure.
+The TIRF angle was set, and the instrument temperature was
+maintained at 34 °C. Data acquisition was facilitated using the PythONI(Python API from ONI) included with the NanoImager software suite.Automated data acquisition procedures are described in SupplementaryNote 2. Fiducials in the top left well of each plate were used to estimatePSF properties from a 3 × 3 frame region of interest (ROI). The focal plane
+was established using the provided ONI autofocusing software (followedby a focal polishing step as described in Supplementary Note 2).
+Western blot
+CHO cells, 24 h post-transfection with FuGENE HD as described above,were serum starved in media containing 0.1% FBS for 2 h at 37 °C. Cellswere placed on ice, washed in cold PBS and lysed directly in 6-welldishes in cell lysis buffer [50 mM Tris/HCl (pH 7.4), 1 mM EDTA, 1 mMEGTA, 50 mM sodium ﬂuoride, 5 mM sodium pyrophosphate, 10 mM
+sodium β-glycerol 1-phosphate, 1 mM dithiothreitol, 1 mM sodium
+orthovanadate, 0.27 M sucrose, 1% (v/ v) Triton X-100, 1x Protease inhi-
+bitor]. Cell extracts were clari ﬁed by centrifugation, and the protein
+concentration was determined using Bradford assay. 10 –20µgo ft o t a l
+cell lysate was resolved on an 8% Bolt Bris-Tris gel, and proteins were
+transferred to PVDF membrane. Membranes were blocked and probed
+with primary and secondary-HRP antibodies according to manu-facturer ’s instructions. Subsequently, m embranes were incubated with
+Immobilon ECL Ultra Western HRP substrate solution (MilliporeWBKLS0500) and imaged on Biorad Chemidoc MP Imager. Images werequanti ﬁed in ImageLab software (Biorad) where intensity of each band
+was relatively quanti ﬁed against WT-EGFR which was set to 1.
+Single particle tracking
+Cells were seeded on 1% BSA-coated 35 mm no. 1.5 (high precision)
+glass-bottomed dishes (MatTek) in 2 mL of media. After 24 h, transient
+transfections were performed using FuGENE HD as described above,
+and cells were grown for further 24 h. Prior to imaging, cells werestarved for 2 h at 37 °C in 0.1% FBS. Cells were then rinsed twice with0.1% FBS pre-heated at 37 °C and were labeled with a 1:1 mixture of8n MA f ﬁbody- Alexa 488 / Af ﬁbody- CF640R for 7 min at 37 °C. Cells
+were rinsed twice with low serum medium pre-heated at 37 °C andpromptly imaged as described previously
+36,75.T y p i c a l l y ,f o re a c hc o n -
+dition, at least 30 ﬁeld of views comprising one or more cells were
+acquired from a total of at least 3 independent biological replicates.
+All single-molecule time series data (for FLImP and single particle
+tracking) were initially analyzed using the multidimensional analysis
+software described previously76. The colocalization event duration
+analysis was performed as before36.
+Confocal imaging
+For all confocal experiments, cells expressing WT-EGFR, L680N-EGFRor ED/RK-EGFR were seeded, serum-starved for 2 h as described aboveand rinsed twice in ice-cold PBS and cooled down for 10 min on ice.
+For anti-EGFR Af ﬁbody and EGF competition binding experi-
+ments, cells were then pre-treated with either 200 nM, 400 nM or600 nM of ice-cold Af ﬁbody-CF640R in PBS or with mock treatment
+(PBS) for 1 h at 4 °C, rinsed with ice-cold PBS and ﬁxed with 3% paraf-
+o r m a l d e h y d ei nP B Sf o r3 0m i na t4° C .A f t e r ﬁxation, cells were rinsed
+again with RT PBS and labeled with 400 nM EGF-Alexa488 in PBS for 1 hat RT, rinsed with RT PBS, then ﬁxed with 3% paraformaldehyde + 0.5%
+glutaraldehyde for 15 min at RT.
+For the mAb-2E9 (Abcam, ab8465, RRID: AB_2096462) binding
+experiments, after starvation cells were pre-treated with 200 nM ofmAb-2E9-AF488 in PBS or with mock treatment (PBS) for 2 h at 4 °C,rinsed with ice-cold PBS and ﬁxed with 3% paraformaldehyde in PBS for
+15 min at 4 °C. For the EGF binding post- ﬁxation test, cells were labeled
+with 200 nM EGF-CF640R for 2 h at 4 °C then ﬁxed.
+After ﬁxation, cells were rinsed again with RT PBS and labeled with
+200 nM EGF-CF640R in PBS for 1 h at RT, then rinsed with PBS, ﬁxed with
+3% paraformaldehyde + 0.5% glutaraldehyde for 15 min at RT and rinsed
+with PBS. All samples were stored in PBS at 4 °C until the time of acqui-sition, and allowed to pre-warm at RT, before loading on the microscope.
+Image acquisition was performed on an Elyra PS1, using Zen Black
+v2.3 SP1 using 633 nm or 488 nm laser excitation.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 17
+Colocalization analyses were carried out on images of 600 μm
+optical slices and performed using Huygens software (Scienti ﬁc
+Volume Imaging).
+For the mAb-2E9 binding experiments, pixel-wise intensity or
+intensity ratio distributions were extracted from the data using Huy-
+gens (SVI). The non-parametric Kruskal-Wallis statistical test was per-formed and T-test post-hoc analysis with Bonferroni multiplecomparison correction was applied to calculate P Values in Python.
+Mice tumor models
+In this study, 24 young adult male (6-7 weeks old, 24.6 ± 2.1 g) wereused for all animal experiments (NOD.Cg-Prkdc
+scidIl2rgtm1Wjl/SzJ mice
+mice, Charles River UK, Strain code: 614; RRID:IMSR_JAX:005557). Allmice were maintained within the King ’s College London Biological
+Services Unit under speci ﬁc pathogen-free conditions in a dedicated
+and licensed air-conditioned animal room (at 23 ± 2 °C and 40-60%
+relative humidity) under light/dark cycles lasting 12 h every day. Theywere kept in individually ventilated standard plastic cages (501cm
+2
+ﬂoor space; from Tecniplast) including environmental enrichment and
+bedding material in the form of sterilized wood chips, paper stripesand one cardboard roll per cage. Maximum cage occupancy was ﬁve
+animals, and animals were moved to fresh cages with fresh environ-mental enrichment and bedding material twice per week. Sterilized tapwater and food were available ad libitum ; food was PicoLab Rodent
+Diet 20 (LabDiet) in the form of 2.5 × 1.6 × 1.0 cm oval pellets that weresupplied at the top of the cages.
+Male NSG mice were used to establish subcutaneous tumor
+models (in right ﬂanks) with indicated stable Ba/F3 cell lines. Males
+were used because lung cancer has a higher incidence in human males.After acclimatization, mice were randomly allocated into four cohortswith six individuals each, shaved on their ﬂanks, and then each
+received 2 × 10
+6tumor cells suspended in 100 μL PBS subcutaneously.
+Tumor growth was followed by calipers and tumor volumes calculated.Tumor models were grown to compare tumor growth betweencohorts. The experimental endpoint was de ﬁned by the time the
+humane endpoint was reached for the cohort with the largest tumorgrowth, and then all animals were sacri ﬁced. All experimental proto-
+cols were monitored and approved by the King ’s College London
+Animal Welfare and Ethical Review Body in accordance with UK HomeOfﬁce regulations (Project License PP4067431) under the Animals
+(Scienti ﬁc Procedures) Act 1986 and UK National Cancer Research
+Institute (NCRI) Guidelines for the Welfare and Use of Animals inCancer Research. The mice were treated according to the endpointsstated in the Project License. The mice were well throughout, and thetumor volumes were established using the formula for an ellipsoid,V = ½LxW
+2. The volumetric size limit is 1.5 cm3which determined the
+end point of the experiment.
+In vivo imaging of tumor models
+In vivo GFP ﬂuorescence imaging of super ﬁcial tumor models was
+performed to visualize tumor growth in some animals per group overtime and to quantify tumor growth differences in all animals at theexperimental endpoint. ROIs were manually drawn including thewhole tumor (or the injection sites where no tumors were visible) andused to calculate the radiant ef ﬁciency. Prism software version 9
+(GraphPad, La Jolla, USA) was used to calculate all statistical para-meters as indicated. Generally, p-values were calculated using sig-niﬁcance levels of α= 0.05. In-text numbers indicate means of pooled
+data ± standard deviation (SD) unless otherwise stated.
+Tissue staining and histologic analysis
+Formaldehyde- ﬁxed paraf ﬁn-embedded (FFPE) tissues were prepared
+using standard methods as described in77. Morphologic analysis of
+tumor tissues was performed on hematoxylin- and eosin-stained sec-tions. For antibody staining, sections were blocked (Dual EndogenousEnzyme Blocking Reagent, Dako, S2 00389-2) in 1% (w/v) BSA for 60 min
+at RT, incubated with primary antibodies (Anti-EGFR, D38B1, CST 4267;RRID: AB_2246311) at 4 °C overnight and secondary antibody (2 µg/mL
+Anti-Rabbit Ig-HRP, Dako P044801 in Tris Borate Saline - TBS) for 60 min
+at RT. Samples were developed (using Liquid DAB+ Substrate Chromo-
+gen System, Dako, K3467) and counte rstained with hematoxylin before
+mounting. Slides were scanned using a Nanozoomer (Hamamatsu,Japan) with images being analyzed and processed by ImageJ.
+Reporting summary
+Further information on research design is available in the NaturePortfolio Reporting Summary linked to this article.
+Data availability
+FLImP and single particle tracking data generated in this study are
+available within this paper and upon request from the Lead Contact.
+Source data are provided with this paper. The confocal data generatedin this study to assess binding af ﬁnities have been deposited in the
+Zenodo database under accession code https://doi.org/10.5281/
+zenodo.10567248
+78and the input ﬁles for the MD simulations are
+deposited in YARETA under accession code https://doi.org/10.26037/
+yareta:qtkuoibmhndc3jxcwtwzo7eeey79. Source data are provided
+with this paper.
+Code availability
+The code used in this study is available upon request from the Lead
+Contact.
+References
+1. Lemmon, M. A., Schlessinger, J. & Ferguson, K. M. The EGFR family:
+Not so prototypical receptor Tyrosine Kinases. Cold Spring Harb.
+Perspect. Biol. 6,a 0 2 0 7 6 8 –a020768 (2014).
+2. Lemmon, M. A. & Schlessinger, J. Cell signaling by receptor Tyr-
+osine Kinases. Cell141, 1117 –1134 (2010).
+3. Zhang, X., Gureasko, J., Shen, K., Cole, P. A. & Kuriyan, J. An allos-
+teric mechanism for activation of the kinase domain of epidermalgrowth factor receptor. Cell125, 1137 –1149 (2006).
+4. Wee, P. & Wang, Z. Epidermal growth factor receptor cell pro-
+liferation signaling pathways. Cancers 9, 52 (2017).
+5. Liang, S. I. et al. Phosphorylated EGFR dimers are not suf ﬁcient to
+activate ras. Cell Rep. 22,2 5 9 3 –2600 (2018).
+6. Needham, S. R. et al. EGFR oligomerization organizes kinase-active
+dimers into competent signalling platforms. Nat. Commun. 7,
+13307 (2016).
+7. SEER*Explorer: An interactive website for SEER cancer statistics.
+https://seer.cancer.gov/stat istics-network/explorer/ (2023).
+8. SEER Incidence Data, November 2022 Submission (1975-2020),
+SEER 22 registries (excluding Illinois and Massachusetts). Expected
+Survival Life Tables by Socio-Economic Standards. (2022).
+9. Mok, T. S. et al. Ge ﬁtinib or Carboplatin –Paclitaxel in pulmonary
+Adenocarcinoma. N. Engl. J. Med. 361,9 4 7 –957 (2009).
+10. Rosell, R. et al. Screening for e pidermal growth factor receptor
+mutations in lung cancer. N. Engl. J. Med. 361,9 5 8 –967 (2009).
+11. Douillard, J.-Y. et al. First-line ge ﬁtinib in Caucasian EGFR mutation-
+positive NSCLC patients: a phase-IV, open-label, single-arm study.Br. J. Cancer 110,5 5 –62 (2014).
+12. Gazdar, A. F. Activating and resistance mutations of EGFR in non-
+small-cell lung cancer: role in clinical response to EGFR tyrosinekinase inhibitors. Oncogene 28,S 2 4 –31 (2009).
+13. Vyse, S. & Huang, P. H. Targeting EGFR exon 20 insertion mutations
+in non-small cell lung cancer. Signal Transduct. Target. Ther. 4,
+1–10 (2019).
+14. Kuiper, J. L. et al. Incidence of T 7 9 0 Mm u t a t i o ni n( s e q u e n t i a l )
+rebiopsies in EGFR-mutated NSCLC-patients. Lung Cancer 85,
+19–24 (2014).Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 18
+15. Wang, Z.-F., Ren, S.-X., Li, W. & Gao, G.-H. Frequency of the
+acquired resistant mutation T79 0 M in non-small cell lung cancer
+patients with active exon 19Del a nd exon 21 L858R: a systematic
+review and meta-analysis. BMC Cancer 18, 148 (2018).
+16. Wu, S.-G. et al. The mechanism of acquired resistance to irrever-
+sible EGFR tyrosine kinase inhibitor-afatinib in lung adenocarci-noma patients. Oncotarget 7,1 2 4 0 4 –12413 (2016).
+17. Del Re, M. et al. Concise review: resistance to tyrosine kinase inhi-
+bitors in non-small cell lung cancer: the role of cancer stem cells.STEM CELLS 36,6 3 3 –640 (2018).
+18. Yun, C.-H. et al. The T790M mutation in EGFR kinase causes drug
+resistance by increasing the af ﬁnity for ATP. P r o c .N a t lA c a d .S c i .
+USA. 105,2 0 7 0 –2075 (2008).
+19. Carmi, C. et al. Irreversible inhibition of epidermal growth factor
+receptor activity by 3-Aminopropanamides. J. Med. Chem. 55,
+2251 –2264 (2012).
+20. Harvey, R. D., Adams, V. R., Beardslee, T. & Medina, P. Afatinib for
+the treatment of EGFR mutation-positive NSCLC: a review of clinicalﬁndings. J. Oncol. Pharm. Pract. 26, 1461 –1474 (2020).
+21. Sequist, L. V. et al. Neratinib, an irreversible Pan-ErbB receptor
+tyrosine kinase inhibitor: Result s of a Phase II trial in patients with
+advanced non –small-cell lung. Cancer J. Clin. Oncol. 28,
+3076 –3083 (2010).
+22. Soria, J.-C. et al. Osimertinib in untreated EGFR-mutated
+advanced non-small- cell lung cancer. N .E n g l .J .M e d . 378,
+113–125 (2018).
+23. Carlisle, J. W. & Ramalingam, S. S. Role of osimertinib in the treat-
+ment of EGFR-mutation positiv e non-small-cell lung cancer. Future
+Oncol. Lond. Engl. 15,8 0 5 –816 (2019).
+24. Le, X. et al. Landscape of EGFR-dependent and -independent
+resistance mechanisms to osimertinib and continuation therapybeyond progression in EGFR-mutant NSCLC. Clin. Cancer Res. J.
+A m .A s s o c .C a n c e rR e s . 24,6 1 9 5 –6203 (2018).
+25. Ramalingam, S. S. et al. Mechanisms of acquired resistance to ﬁrst-
+line osimertinib: Preliminary data from the phase III FLAURA study.Ann. Oncol. 29, viii740 (2018).
+26. Papadimitrakopoulou, V. A. et al. A nalysis of resistance mechanisms
+to osimertinib in patients wit h EGFR T790M advanced NSCLC from
+the AURA3 study. Ann. Oncol. 29, viii741 (2018).
+27. Wang, S., Song, Y. & Liu, D. EAI045: The fourth-generation EGFR
+inhibitor overcoming T790M and C797S resistance. Cancer Lett.
+385,5 1 –54 (2017).
+28. Jia, Y. et al. Overcoming EGFR(T790M) and EGFR(C797S) resistance
+with mutant-selective allosteric inhibitors. Nature 534,
+129 –132 (2016).
+29. Red Brewer, M. et al. Mechanism for activation of mutated epi-
+dermal growth factor receptors in lung cancer. Proc. Natl Acad. Sci.
+USA110,E 3 5 9 5 –604 (2013).
+30. Bhullar, K. S. et al. Kinase-targeted cancer therapies: progress,
+challenges and future directions. Mol. Cancer 17,1–20 (2018).
+31. Pottier, C. et al. Tyrosine Kinase inhibitors in cancer: breakthrough
+and challenges of targeted therapy. Cancers 12, 731 (2020).
+32. Chakraborty, S. et al. Constitutive and ligand-induced EGFR sig-
+nalling triggers distinct and mutually exclusive downstream sig-nalling networks. Nat. Commun. 5,5 8 1 1( 2 0 1 4 ) .
+33. Guo, G. et al. Ligand-independent EGFR signaling. Cancer Res. 75,
+3436 –3441 (2015).
+34. Paez, J. G. et al. EGFR mutations in lung cancer: correlation with
+clinical response to ge ﬁtinib therapy. Science 304,
+1497 –1500 (2004).
+35. Arkhipov, A. et al. Architecture and membrane interactions of the
+EGF receptor. Cell152, 557 –569 (2013).
+36. Zanetti-Domingues, L. C. et al. The architecture of EGFR ’sb a s a l
+complexes reveals autoinhibiti on mechanisms in dimers and oli-
+gomers. Nat. Commun. 9,4 3 2 5( 2 0 1 8 ) .37. Zanetti-Domingues, L. C. et al. Determining the geometry of oligo-
+mers of the human epidermal growth factor family on cells with7 nm resolution. Prog. Biophys. Mol. Biol .118,1 3 9 –152 (2015).
+38. Webb, S. E. D. et al. Nanometric molecular separation measure-
+ments by single molec ule photobleaching. Methods San. Diego
+Calif. 88,7 6 –80 (2015).
+39. Needham, S. R. et al. Determining the geometry of oligomers of the
+human epidermal growth factor family on cells with <10 nm reso-lution. Biochem. Soc. Trans .43,3 0 9 –314 (2015).
+40. Needham, S. R. et al. Measuring EGFR separations on cells with
+∼
+10 nm resolution via ﬂuorophore localization imaging with pho-
+tobleaching. PloS One 8,e 6 2 3 3 1( 2 0 1 3 ) .
+41. Sutto, L. & Gervasio, F. Effects of oncogenic mutations on the
+conformational free-energy landscape of EGFR kinase. Proc. Natl
+Acad. Sci. 110,1 0 6 1 6 –10621 (2013).
+42. Shan, Y. et al. Oncogenic mutati ons counteract intrinsic disorder in
+the EGFR kinase and promote receptor dimerization. Cell149,
+860 –870 (2012).
+4 3 . L u ,C . ,M i ,L . - Z . ,S c h u r p f ,T . ,W a l z ,T .&S p r i n g e r ,T .a .M e c h a n i s m sf o r
+Kinase-mediated dimerization of the epidermal growth factorreceptor. J. Biol. Chem. 287,3 8 2 4 4 –38253 (2012).
+44. Bessman, N. J., Bagchi, A., Ferguson, K. M. & Lemmon, M. A.
+Complex relationship between ligand binding and dimerization inthe epidermal growth factor receptor. Cell Rep. 9,1 3 0 6 –1317 (2014).
+45. Lelimousin, M., Limongelli, V. & Sansom, M. S. P. Conformational
+changes in the epidermal growth factor receptor: role of the
+transmembrane domain investigated by coarse-grained metady-
+namics free energy calculations. J. Am. Chem. Soc. 138,
+10611 –10622 (2016).
+46. Ferguson, K. M. et al. EGF activates its receptor by removing
+interactions that autoinhibit Ectodomain Dimerization. Mol. Cell 11,
+507 –517 (2003).
+47. Yoshikawa, S. et al. Structural basis for the altered drug sensitivities
+of non-small cell lung cancer-associated mutants of human epi-dermal growth factor receptor. Oncogene 32,2 7 –38 (2013).
+48. Kovacs, E. et al. Analysis of the role of the C-terminal tail in the
+regulation of the epidermal growth factor receptor. Mol. Cell. Biol.
+35,3 0 8 3 –3102 (2015).
+4 9 . P i n i l l a - M a c u a ,I . ,G r a s s a r t ,A . ,D u v v u r i ,U . ,W a t k i n s ,S .C .&S o r k i n ,A .
+EGF receptor signaling, phosphoryl ation, ubiquitylation and endo-
+c y t o s i si nt u m o r si nv i v o . eLife 6,e 3 1 9 9 3( 2 0 1 7 ) .
+50. Kozer, N. et al. Exploring higher-order EGFR oligomerisation and
+phosphorylation-a combined e xperimental and theoretical
+approach. Mol. Biosyst. 9,1 8 4 9 –1863 (2013).
+51. Saffarian, S., Li, Y., Elson, E. L. & P ike, L. J. Oligomerization of the EGF
+receptor investigated by live cell ﬂuorescence intensity distribution
+analysis. Biophys. J. 93,1 0 2 1 –1031 (2007).
+5 2 . D i x o n ,P .M .B o o t s t r a pR e s a m p l i n g .i n Encyclopedia of Environ-
+metrics (eds. El-Shaarawi, A. H. & Piegorsch, W. W.) (John Wiley &
+S o n s ,L t d ,2 0 0 6 ) . https://doi.org/10.1002/ 9780470057339.vab028 .
+53. Vaserstein, L. N. Markov processes over denumerable products of
+spaces, describing large systems of automata. Ross. Akad. Nauk
+Probl. Peredachi Informatsii 5,6 4 –72 (1969).
+54. Jura, N. et al. Mechanism for activation of the EGF receptor catalytic
+domain by the juxtamembrane segment. Cell137,1 2 9 3 –1307 (2009).
+55. Mattoon, D., Klein, P., Lemmon, M. A., Lax, I. & Schlessinger, J. The
+tethered con ﬁguration of the EGF recept or extracellular domain
+exerts only a limited control of receptor function. Proc. Natl Acad.
+Sci. USA 101,9 2 3 –928 (2004).
+56. Tynan, C. J. et al. Human epidermal growth factor receptor (EGFR)
+aligned on the plasma membrane adopts key features of Drosophila
+EGFR asymmetry. Mol. Cell. Biol. 31, 2241 –2252 (2011).
+57. De ﬁze, L. H. et al. Signal transduction by epidermal growth factor
+occurs through the subclass of high af ﬁnity receptors. J. Cell Biol.
+109,2 4 9 5 –2507 (1989).Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 19
+5 8 . S c h m i t z ,K .R .&F e r g u s o n ,K .M .I n t e r a c t i o no fa n t i b o d i e sw i t hE r b B
+receptor extracellular regions. Exp. Cell Res. 315,6 5 9 –670 (2009).
+59. Shepherd, F. A. et al. Erlotinib in previously treated non –small-cell
+lung cancer. N. Engl. J. Med. 353,1 2 3 –132 (2005).
+60. Macdonald-Obermann, J. L. & Pike, L. J. Allosteric regulation of EGF
+receptor ligand binding by tyrosine kinase inhibitors. J. Biol. Chem.
+293,1 3 4 0 1 –13414 (2018).
+6 1 . S c h m i t z ,K .R . ,B a g c h i ,A . ,R o o v ers, R. C., van Bergen en Henegou-
+wen, P. M. P. & Ferguson, K. M. Structural evaluation of EGFR inhi-bition mechanisms for nanobodies/VHH domains. Structure 21,
+1214 –1224 (2013).
+62. Mi, L.-Z. et al. Simultaneous visualization of the extracellular and
+cytoplasmic domains of the epidermal growth factor receptor. Nat.
+Struct. Mol. Biol. 18,9 8 4 –989 (2011).
+63. Lecordier, L. et al. C-terminal mutants of apolipoprotein LI ef ﬁ-
+ciently kill both Trypanosoma brucei brucei and Trypanosoma
+brucei rhodesiense. PLoS Pathog. 5, e1000685 (2009).
+6 4 . Z a n e t t i - D o m i n g u e s ,L .C . ,T y n a n ,C .J . ,R o l f e ,D .J . ,C l a r k e ,D .T .&
+M a r t i n - F e r n a n d e z ,M .H y d r o p h o b i c ﬂuorescent probes introduce
+artifacts into single molecule t racking experiments due to non-
+speci ﬁcb i n d i n g . PLoS ONE 8, e74200 (2013).
+65. Yasuda, H. et al. Structural, biochemical, and clinical characteriza-
+tion of Epidermal Growth Factor Receptor (EGFR) Exon 20 insertionmutations in lung cancer. Sci. Transl. Med. 5,
+216ra177 –216ra177 (2013).
+66. Chakroborty, D. et al. An unbiased in vitro screen for activating
+epidermal growth factor receptor mutations. J. Biol. Chem. 294,
+9377 –9389 (2019).
+67. Collins, M. K. et al. Transfer of functional EGF receptors to an IL3-
+dependent cell line. J. Cell. Physiol. 137,2 9 3 –298 (1988).
+68. Liu, P. et al. A single ligand is suf ﬁcient to activate EGFR dimers.
+P r o c .N a t lA c a d .S c i .U S A 109,1 0 8 6 1 –10866 (2012).
+6 9 . L i u ,P . ,B o u y a i n ,S . ,E i g e n b r o t ,C .&L e a h y ,D .J .T h eE r b B 4e x t r a -
+cellular region retains a tethered-like conformation in the absenceof the tether. Protein Sci. 21,1 5 2 –155 (2012).
+70. Byrne, P. O., Hristova, K. & Leahy, D. J. EGFR forms ligand-
+independent oligomers that are d istinct from the active state.
+J.
+Biol. Chem. 295, 13353 –13362 (2020).
+71. Ringerike, T. et al. High-af ﬁnity binding of Epidermal Growth Factor
+(EGF) to EGF receptor is disrup ted by overexpression of mutant
+dynamin (K44A) *. J. Biol. Chem. 273, 16639 –16642 (1998).
+72. Rees, A. R., Gregoriou, M., Johnson, P. & Garland, P. B. High af ﬁnity
+epidermal growth factor receptors on the surface of A431 cells haverestricted lateral diffusion. EMBO J. 3, 1843 –1847 (1984).
+73. Sorkin, A., Waters, C., Overholser, K. A. & Carpenter, G. Multiple
+autophosphorylation site mutations of the epidermal growth factorreceptor. Analysis of kinase activity and endocytosis. J. Biol. Chem.
+266,8 3 5 5 –8362 (1991).
+74. Lu, H. et al. Recent advances in the development of protein –protein
+interactions modulators: mechanisms and clinical trials. Signal
+Transduct. Target. Ther. 5,1–23 (2020).
+75. Clarke, D. T. et al. Optics clustered to output unique solutions: A
+multi-laser facility for combin ed single molecule and ensemble
+microscopy. Rev. Sci. Instrum. 82, 93705 (2011).
+7 6 . R o l f e ,D .J .e ta l .A u t o m a t e dm u l tidimensional single molecule
+ﬂuorescence microscopy feature detection and tracking. Eur. Bio-
+phys. J. EBJ 40, 1167 –1186 (2011).
+7 7 . F r u h w i r t h ,G .O . ,D i o c o u ,S . ,B l o w e r ,P .J . ,N g ,T .&M u l l e n ,G .E .D .A
+whole-body dual-modality radionu clide optical strategy for pre-
+clinical imaging of metastasis and heterogeneous treatment
+response in different microenvironments. J. Nucl. Med. Publ. Soc.
+Nucl. Med. 55,6 8 6 –694 (2014).
+78. Iyer, R. S. et al. Drug-resistant EGFR mutations promote lung cancer
+by stabilizing interfaces in ligand-free kinase active EGFR oligo-mers. Zenodo https://doi.org/10.5281/zenodo.10567249 (2024).79. Gervasio, F. L. & Galdadas, I. Drug-resistant EGFR lung cancer
+mutations promote tumor growth by stabilizing interfaces in ligand-free signaling-competent EGFR oligomers. YARETA https://doi.org/
+10.26037/yareta:qtkuoibmhndc3jxcwtwzo7eeey (2024).
+80. Endres, N. F. et al. Conformational coupling across the plasma
+membrane in activation of the EGF receptor. Cell152,
+543 –556 (2013).
+81. Lu, C. et al. Structural evidence for loose linkage between ligand
+binding and kinase activation in the epidermal growth factorreceptor. Mol. Cell. Biol. 30,5 4 3 2 –5443 (2010).
+Acknowledgements
+We thank Drs Esther Garcia-Gonzalez, Jana Harizanova, Christopher
+Tynan, Michael Hirsch, Jianguo Rao and Michalis Vrettas for technicalsupport. We thank James Rosekilly and Dr Cheryl Gillett for providing the
+human tissue TMA that consisted of no/low/high human cancer tissues.
+We thank Prof Andrew Clayton for his support in collecting the pbICSdata. We also thank Dr Michael Hirsch for comments on the manuscript.This work has been funded by grant Ref: ST/S000682/1 from the Sci-ence and Technology Facilities Council UK (R.S.I. and B.M.D.) and a joint-funded King ’s College London-The University of Hong Kong PhD stu-
+dentship (R.C.H.M.). M.L.M.-F., D.J.R., and B.M.D. are grateful for sig-niﬁcant computing resources and support provided by STFC Scienti ﬁc
+Computing Department ’s SCARF cluster and its Data Services, Research
+Infrastructure and Cloud Operations Groups, with funding from STFC ’s
+Ada Lovelace Centre and IRIS eInfrastructure consortium. F.L.G. and I.G.
+acknowledge the Swiss National Sci ence Foundation and Bridge for
+ﬁnancial support (project number: 200021_204795 and 40B2-
+0_203628). F.L.G. and I.G. also acknowledge the Swiss National Super-computing Centre (CSCS) for large supercomputer time allocations,project IDs: s1107, s1169, s1228.
+Author contributions
+R.S.I., S.R.N., I.G., B.M.D., and S.K.R. contributed equally to this work.Conceptualization, R.S.I., I.G., S.K.R., S.R.N., L.C.Z.-D., P.J.P., D.J.R.,B.M.D., D.T.C., F.L.G., and M.L.M.-F.; molecular biology, R.S.I. and S.K.R.;in vitro data acquisition, R.S.I., S.R.N., S.K.R., L.C.Z.-D.; FLImP automa-
+tion, D.J.R., B.M.D., S.R.N.; algorithm development and data analysis,
+D.J.R., B.M.D.; MD simulations, I.G. and F.L.G.; in vivo work R.C.H.M.,G.O.F., R.S.I., and S.K.R.; writing –original draft, M.L.M.-F.; writing –
+review & editing, I.G., L.C.Z.-D., R.S.I., S.R.N., D.J.R., B.M.D., G.O.F., P.J.P.,S.K.R., D.T.C., F.L.G., M.L.M.-F.; visualization, S.R.N., L.C.Z.-D., B.M.D.,D.J.R., S.K.R., D.T.C., I.G., R.C.H.M., R.S.I.; funding acquisition M.L.M.-F.,D.J.R., B.M.D., and F.L.G.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available athttps://doi.org/10.1038/s41467-024-46284-x .
+Correspondence and requests for materials should be addressed to
+Daniel J. Rolfe, Francesco L. Gervasio or Marisa L. Martin-Fernandez.
+Peer review information Nature Communications thanks the anon-
+ymous reviewer(s) for their contribution to the peer review of this work. Apeer review ﬁle is available.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher ’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional af ﬁliations.Article https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 20
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,adaptation, distribution and reproduction in any medium or format, aslong as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in thisarticle are included in the article ’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is notincluded in the article ’s Creative Commons licence and your intended
+use is not permitted by statutory re gulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyrightholder. To view a copy of this licence, visit http://creativecommons.org/
+licenses/by/4.0/ .
+© The Author(s) 2024
+1Central Laser Facility, UKRI-STFC Rutherford Appleton Laboratory, Didcot, Oxfordshire, UK.2School of Pharmaceutical Sciences, University of Geneva,
+Geneva, Switzerland.3ISPSO, University of Geneva, Geneva, Switzerland.4Imaging Therapies and Cancer Group, Comprehensive Cancer Centre, School of
+Cancer and Pharmaceutical Sciences, Guy ’sC a m p u s ,K i n g ’s College London, London, UK.5Protein Phosphorylation Laboratory, The Francis Crick Institute,
+London, UK.6School of Cancer and Pharmaceutical Sciences, Guy ’s Campus, King ’s College London, London, UK.7Chemistry Department, University College
+London, London, UK.8Swiss Institute of Bioinformatics, University of Geneva, Geneva, Switzerland.9Present address: Immunocore Limited, 92 Park Drive,
+Milton Park, Abingdon, UK.10These authors contributed equally: R. Sumanth Iyer, Sarah R. Needham, Ioannis Galdadas, Benjamin M. Davis, Selene K. Roberts.
+e-mail: daniel.rolfe@stfc.ac.uk ;Francesco.Gervasio@unige.ch ;marisa.martin-fernandez@stfc.ac.ukArticle https://doi.org/10.1038/s41467-024-46284-x
+Nature Communications |         (2024) 15:2130 21
