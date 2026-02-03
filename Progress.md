@@ -12,6 +12,8 @@ To collect relevant research articles, I used **pygetpapers** to search for publ
 
 !pip install pygetpapers
 
+<img width="568" height="22" alt="image" src="https://github.com/user-attachments/assets/262bba35-7476-45cf-9549-feebd1d36e65" />
+
 -The search returned multiple hits, providing a strong research base for the encyclopedia.  
 -Total number of hits for the query are 278684
 
