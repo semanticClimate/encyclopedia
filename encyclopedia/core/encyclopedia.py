@@ -309,6 +309,9 @@ class AmiEncyclopedia:
                     'description_html': description_html,
                     'classification': self.CLASSIFICATION_UNPROCESSED,  # Initial classification
                     'wikidata_category': wikidata_category,  # Wikidata label/title
+                    # Diagnostic attributes for Wikipedia retrieval
+                    'wikipedia_page_retrieved': False,  # Will be set to True when Wikipedia page is found
+                    'first_paragraph_retrieved': False,  # Will be set to True when paragraph is extracted
                 }
                 self.entries.append(entry_dict)
         finally:
@@ -477,7 +480,10 @@ class AmiEncyclopedia:
                         'page_title': entry.get('term', entry.get('search_term', '')),
                         'description_html': entry.get('description_html', ''),
                         'figure_html': entry.get('figure_html'),
+                        'image_link': entry.get('image_link'),
                         'wikidata_category': wikidata_category,
+                        'wikipedia_page_retrieved': entry.get('wikipedia_page_retrieved', False),
+                        'first_paragraph_retrieved': entry.get('first_paragraph_retrieved', False),
                         'entry_count': 1,
                         'source_entries': [entry]
                     })
@@ -506,10 +512,15 @@ class AmiEncyclopedia:
                 # Get figure from first entry that has one
                 # Check both figure_html and images fields
                 figure_html = None
+                image_link = None
                 for entry in entries:
                     if entry.get('figure_html'):
                         figure_html = entry.get('figure_html')
+                        image_link = entry.get('image_link')  # Also preserve image_link
                         break
+                    elif entry.get('image_link'):
+                        # If we have image_link but no figure_html, preserve it
+                        image_link = entry.get('image_link')
                     elif entry.get('images'):
                         # Convert images list to figure_html
                         images = entry.get('images')
@@ -537,6 +548,10 @@ class AmiEncyclopedia:
                 if not wikidata_category and wikidata_id:
                     wikidata_category = self._get_wikidata_category(wikidata_id)
                 
+                # Get diagnostic attributes (True if any entry has True)
+                wikipedia_page_retrieved = any(entry.get('wikipedia_page_retrieved', False) for entry in entries)
+                first_paragraph_retrieved = any(entry.get('first_paragraph_retrieved', False) for entry in entries)
+                
                 merged_entries.append({
                     'wikidata_id': wikidata_id,
                     'canonical_term': canonical_term,
@@ -545,7 +560,10 @@ class AmiEncyclopedia:
                     'page_title': page_title,
                     'description_html': best_description,
                     'figure_html': figure_html,
+                    'image_link': image_link,
                     'wikidata_category': wikidata_category,
+                    'wikipedia_page_retrieved': wikipedia_page_retrieved,
+                    'first_paragraph_retrieved': first_paragraph_retrieved,
                     'entry_count': len(entries),
                     'source_entries': entries
                 })
@@ -1020,6 +1038,13 @@ class AmiEncyclopedia:
             if wikidata_id and wikidata_id not in ('no_wikidata_id', 'invalid_wikidata_id'):
                 entry_div.attrib["wikidataID"] = wikidata_id
             
+            # Add diagnostic attributes for Wikipedia retrieval (always include, default to False)
+            wikipedia_page_retrieved = merged_entry.get('wikipedia_page_retrieved', False)
+            entry_div.attrib["data-wikipedia-page-retrieved"] = str(wikipedia_page_retrieved).lower()
+            
+            first_paragraph_retrieved = merged_entry.get('first_paragraph_retrieved', False)
+            entry_div.attrib["data-first-paragraph-retrieved"] = str(first_paragraph_retrieved).lower()
+            
             # Add Wikidata category if available
             wikidata_category = merged_entry.get('wikidata_category', '')
             if wikidata_category:
@@ -1070,12 +1095,26 @@ class AmiEncyclopedia:
             
             # Add synonym list if there are multiple synonyms
             synonyms = merged_entry.get('synonyms', [])
+            canonical_term = merged_entry.get('canonical_term', '')
+            
+            # Show synonyms if we have multiple terms total (canonical + synonyms)
             if len(synonyms) > 1:
+                # Add a label/header for the synonym list
+                synonym_label = ET.SubElement(entry_div, "div")
+                synonym_label.attrib["class"] = "synonym_label"
+                synonym_label.text = "Synonyms: "
+                
                 synonym_ul = ET.SubElement(entry_div, "ul")
                 synonym_ul.attrib["class"] = "synonym_list"
-                for synonym in synonyms:
+                
+                # Add all synonyms (including canonical term, but mark canonical)
+                for synonym in sorted(synonyms):  # Sort for consistent display
                     synonym_li = ET.SubElement(synonym_ul, "li")
-                    synonym_li.text = synonym
+                    if synonym.lower() == canonical_term.lower():
+                        synonym_li.attrib["class"] = "canonical_synonym"
+                        synonym_li.text = f"{synonym} (canonical)"
+                    else:
+                        synonym_li.text = synonym
             
             # Add description with first sentence highlighted
             description_html = merged_entry.get('description_html', '')
@@ -1144,11 +1183,61 @@ class AmiEncyclopedia:
                     desc_p.text = description_html
             
             # Add figure if available
-            
-            # Add figure if available
             figure_html = merged_entry.get('figure_html')
+            image_link = merged_entry.get('image_link')
+            
+            # If we have figure_html, copy it to the new document context
             if figure_html is not None:
-                entry_div.append(figure_html)
+                try:
+                    # If it's an lxml element, we need to copy it to the new document tree
+                    if hasattr(figure_html, 'tag'):
+                        # Convert to string and reparse in the new document context
+                        figure_html_str = XmlLib.element_to_string(figure_html)
+                        from lxml.html import fromstring
+                        figure_elem = fromstring(figure_html_str)
+                        entry_div.append(figure_elem)
+                    elif isinstance(figure_html, str):
+                        # It's already a string, parse it
+                        from lxml.html import fromstring
+                        figure_elem = fromstring(figure_html)
+                        entry_div.append(figure_elem)
+                except Exception as e:
+                    logger.warning(f"Could not append figure_html for entry '{canonical_term}': {e}")
+                    # Fallback: create from image_link if available
+                    if image_link:
+                        try:
+                            image_elem = ET.SubElement(entry_div, "a")
+                            image_elem.attrib["href"] = image_link
+                            image_elem.attrib["class"] = "wikipedia-image-link"
+                            # Extract filename from URL for display
+                            if '/wiki/File:' in image_link:
+                                filename = image_link.split('/wiki/File:')[-1].replace('_', ' ')
+                            elif '/File:' in image_link:
+                                filename = image_link.split('/File:')[-1].replace('_', ' ')
+                            else:
+                                filename = "View image"
+                            image_elem.text = f"📷 {filename}"
+                        except Exception as e2:
+                            logger.warning(f"Could not create image link from image_link: {e2}")
+            # If no figure_html but we have image_link, create figure_html from image_link
+            elif image_link:
+                try:
+                    image_elem = ET.SubElement(entry_div, "a")
+                    image_elem.attrib["href"] = image_link
+                    image_elem.attrib["class"] = "wikipedia-image-link"
+                    # Extract filename from URL for display
+                    if '/wiki/File:' in image_link:
+                        filename = image_link.split('/wiki/File:')[-1].replace('_', ' ')
+                    elif '/File:' in image_link:
+                        filename = image_link.split('/File:')[-1].replace('_', ' ')
+                    elif 'wikidata.org' in image_link:
+                        # Wikidata URL - use a generic label
+                        filename = "View image on Wikidata"
+                    else:
+                        filename = "View image"
+                    image_elem.text = f"📷 {filename}"
+                except Exception as e:
+                    logger.warning(f"Could not create image link from image_link for entry '{canonical_term}': {e}")
         
         return XmlLib.element_to_string(html_root, pretty_print=True)
     

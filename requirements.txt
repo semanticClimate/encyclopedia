@@ -4,6 +4,12 @@ lxml>=4.9.0
 requests>=2.28.0
 scikit-learn>=1.0.0  # Required by amilib
 
+# Text to phrases conversion (external project)
+# GitHub: https://github.com/semanticClimate/txt2phrases
+# For local development: pip install -e ../txt2phrases
+# For production: pip install txt2phrases
+txt2phrases>=1.0.3
+
 # For keyword extraction (existing)
 transformers>=4.20.0
 torch>=1.12.0

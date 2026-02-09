@@ -1,194 +1,239 @@
-# Refactoring Summary: `create_encyclopedia_from_wordlist.py`
+# Encyclopedia Refactoring Summary
 
-## ✅ Refactoring Complete
+**Date:** February 7, 2026  
+**System Date:** Saturday Feb 7, 2026
 
-### 1. Script Refactored into Smaller Methods
+## Summary of Encyclopedia Functionality
 
-The main function `create_encyclopedia_from_wordlist()` has been refactored to use utility functions:
+### In `../amilib` Project
 
-**Before:** 700+ lines monolithic function  
-**After:** ~150 lines calling focused utility functions
+The `amilib` project contains encyclopedia functionality that extends the dictionary (`--DICT`) functionality:
 
-#### New Utility Modules Created:
+#### Core Components:
 
-**`encyclopedia/utils/encyclopedia_builder.py`**
-- `create_dictionary_from_terms()` - Step 1: Create dictionary
-- `enhance_dictionary_with_wikipedia()` - Step 2: Add Wikipedia content
-- `convert_dictionary_to_encyclopedia()` - Step 3: Convert to encyclopedia
-- `add_wikipedia_descriptions_to_encyclopedia()` - Step 6: Add descriptions with first sentence extraction
-- `add_image_links_to_encyclopedia()` - Step 7: Add image links
-- Helper functions for individual entry processing
+1. **`ami_encyclopedia.py`** (~1990 lines)
+   - `AmiEncyclopedia` class - main encyclopedia management
+   - Creates encyclopedia from HTML dictionary content
+   - Normalizes entries by Wikidata ID
+   - Merges synonyms (entries with same Wikidata ID)
+   - Generates normalized HTML output
+   - Manages metadata (created, last_edited, actions, hidden entries, disambiguation selections)
+   - Entry classification and categorization
 
-**`encyclopedia/utils/validation.py`**
-- `validate_first_sentences_extracted()` - Check for definitions
-- `validate_image_links_added()` - Check for image links
-- `validate_encyclopedia_completeness()` - Comprehensive validation
-- `print_validation_report()` - Human-readable report
+2. **`ami_encyclopedia_args.py`** (~280 lines)
+   - CLI argument parsing for `--ENCYCLOPEDIA` operations
+   - Integrated with main amilib CLI as subparser
+   - Operations: create, normalize, merge, add figures, show statistics
 
-### 2. Validation Added
+3. **`ami_encyclopedia_cluster.py`** (~600 lines)
+   - Clustering functionality for encyclopedia entries
+   - Description similarity-based clustering
+   - `AmiEncyclopediaClusterer` class
 
-#### Command-Line Options:
-- `--validate` (default: True) - Enable validation
-- `--no-validate` - Disable validation
-- `--verbose` - Show detailed validation reports
+4. **`ami_encyclopedia_util.py`** (~390 lines)
+   - Link extraction and validation utilities
+   - `EncyclopediaLinkExtractor` - extracts links from entries
+   - `LinkValidator` - validates Wikipedia links
+   - `SynonymNormalizer` - normalizes terms for synonym detection
 
-#### Validation Checks:
-1. **Definitions (First Sentences)**
-   - Checks for `definition_html` with `first_sentence_definition` class
-   - Reports success rate and sample entries
+5. **`dict_args.py`**
+   - CLI arguments for `--DICT` operations
+   - Dictionary creation from words/files/CSV
+   - Wikimedia content enhancement (Wikipedia, Wikidata, Wiktionary)
 
-2. **Image Links**
-   - Checks for `figure_html` or `image_link` pointing to Wikipedia File: pages
-   - Reports success rate and sample entries
+#### Key Functionality Flow:
 
-3. **Comprehensive Report**
-   - Shows all validation results
-   - Includes Wikipedia URLs, Wikidata IDs, descriptions
-   - Provides overall validation status
+1. **Dictionary Creation** (`AmiDictionary.create_dictionary_from_words()`)
+   - Creates basic dictionary structure from terms
+   - Each entry has: term, name, optional content
 
-### 3. Validation Flow
+2. **Enhancement** (via `dict_args.py`)
+   - Adds Wikipedia pages (first paragraphs, URLs)
+   - Adds Wikidata IDs and descriptions
+   - Adds Wiktionary definitions
 
-```python
-# In create_encyclopedia_from_wordlist()
-if validate:
-    print("\nStep 8: Validating encyclopedia completeness...")
-    validation_results = validate_encyclopedia_completeness(encyclopedia)
-    print_validation_report(validation_results, verbose=verbose)
-```
+3. **HTML Generation** (`AmiDictionary.create_html_dictionary()`)
+   - Converts dictionary to HTML with semantic markup
+   - Adds role attributes (`ami_dictionary`, `ami_entry`)
 
-The validation is called automatically at Step 8, after all processing is complete.
+4. **Encyclopedia Creation** (`AmiEncyclopedia.create_from_html_content()`)
+   - Parses HTML dictionary into encyclopedia entries
+   - Extracts Wikidata IDs, Wikipedia URLs, descriptions
 
-### 4. Function Structure
+5. **Normalization** (`AmiEncyclopedia.normalize_by_wikidata_id()`)
+   - Groups entries by Wikidata ID
+   - Identifies synonyms (same Wikidata ID)
 
-**Main Function (`create_encyclopedia_from_wordlist`):**
-```python
-def create_encyclopedia_from_wordlist(
-    terms: List[str], 
-    title: str = "My Encyclopedia",
-    add_wikipedia: bool = True,
-    add_images: bool = False,
-    batch_size: int = 10,
-    validate: bool = True,      # ✅ NEW
-    verbose: bool = False       # ✅ NEW
-) -> AmiEncyclopedia:
-    # Step 1: Create dictionary
-    dictionary = create_dictionary_from_terms(terms, title, temp_path)
-    
-    # Step 2: Enhance with Wikipedia
-    if add_wikipedia:
-        dictionary = enhance_dictionary_with_wikipedia(dictionary, verbose)
-    
-    # Step 3: Convert to encyclopedia
-    encyclopedia = convert_dictionary_to_encyclopedia(dictionary, temp_path, title)
-    
-    # Step 4: Normalize
-    encyclopedia.normalize_by_wikidata_id()
-    
-    # Step 5: Merge
-    encyclopedia.merge()
-    
-    # Step 6: Add Wikipedia descriptions
-    if add_wikipedia:
-        encyclopedia, wikipedia_results = add_wikipedia_descriptions_to_encyclopedia(...)
-    
-    # Step 7: Add images
-    if add_images:
-        encyclopedia, image_results = add_image_links_to_encyclopedia(...)
-    
-    # Step 8: Validate ✅
-    if validate:
-        validation_results = validate_encyclopedia_completeness(encyclopedia)
-        print_validation_report(validation_results, verbose)
-    
-    return encyclopedia
-```
+6. **Merging** (`AmiEncyclopedia.merge_synonyms_by_wikidata_id()`)
+   - Merges synonyms into canonical entries
+   - Aggregates terms and content
 
-### 5. Validation Output Example
+7. **Output** (`AmiEncyclopedia.generate_html()`)
+   - Generates normalized HTML encyclopedia
 
-When validation runs, it reports:
+#### Dependencies (remain in amilib):
+- `ami_dict.py` - Dictionary creation and management
+- `wikimedia.py` - Wikipedia/Wikidata/Wiktionary lookups
+- `ami_html.py` - HTML processing utilities
+- `file_lib.py`, `util.py`, `xml_lib.py` - General utilities
 
-```
-============================================================
-ENCYCLOPEDIA VALIDATION REPORT
-============================================================
+### In `./encyclopedia` Project
 
-Total entries: 11
+The `encyclopedia` project contains encyclopedia functionality that has been partially migrated or developed independently:
 
-📝 Definitions (First Sentences):
-  ✓ With definitions: 8/11 (72.7%)
-  ✗ Without definitions: 3/11
+#### Core Components:
 
-  Sample entries WITHOUT definitions:
-    - cutx
-      Wikipedia: https://en.wikipedia.org/wiki/Cutx
-      Has description_html: True
-      Has definition_html: False
+1. **`encyclopedia/core/encyclopedia.py`** (~2286 lines)
+   - `AmiEncyclopedia` class (appears to be migrated from amilib)
+   - Same core functionality as amilib version
+   - Entry management, normalization, merging
+   - Currently imports from `amilib` for dependencies
 
-🖼️  Image Links:
-  ✓ With images: 5/11 (45.5%)
-  ✗ Without images: 6/11
+2. **`encyclopedia/cli/args.py`** (~302 lines)
+   - `EncyclopediaArgs` class for CLI operations
+   - Similar functionality to `ami_encyclopedia_args.py`
 
-  Sample entries WITHOUT images:
-    - greenhouse gas
-      Wikipedia: https://en.wikipedia.org/wiki/Greenhouse_gas
-      Has figure_html: False
-      Has image_link: False
+3. **`encyclopedia/cli/versioned_editor.py`**
+   - Versioned editor functionality
+   - Browser-based editing interface for encyclopedia entries
 
-🌐 Wikipedia URLs:
-  ✓ With URLs: 10/11 (90.9%)
-  ✗ Without URLs: 1/11
+4. **`encyclopedia/utils/encyclopedia_builder.py`**
+   - Utility functions for building encyclopedias
+   - Wrapper functions around amilib dictionary creation
 
-🔗 Wikidata IDs:
-  ✓ With IDs: 10/11 (90.9%)
-  ✗ Without IDs: 1/11
+5. **`encyclopedia/utils/link_extractor.py`**
+   - Link extraction utilities
+   - Similar to `ami_encyclopedia_util.py` in amilib
 
-📄 Descriptions:
-  ✓ With descriptions: 10/11 (90.9%)
-  ✗ Without descriptions: 1/11
+6. **`encyclopedia/browser/`**
+   - Web-based browser for searching encyclopedia entries
+   - Streamlit-based interface
+   - Search engine with indexing capabilities
+   - Supports up to 5,000 entries
 
-============================================================
-⚠️  VALIDATION WARNINGS: Some entries are missing content
+#### Additional Components:
 
-Issues found:
-  - 3 entries missing definitions
-  - 6 entries missing images
-============================================================
-```
+- **`Keyword_extraction/`** - AI-powered keyword extraction (separate concern)
+- **`Dictionary/`** - Storage for processed keywords and documents
+- **`txt2phrases/`** - Text to phrases conversion (needs removal - see below)
 
-### 6. Usage
+## Key Differences: DICT vs ENCYCLOPEDIA
 
-```bash
-# With validation (default)
-python Examples/create_encyclopedia_from_wordlist.py \
-    --wordlist terms.txt \
-    --add-wikipedia \
-    --add-images \
-    --validate
+### AmiDictionary (`--DICT`):
+- **Purpose**: Creates a list of entries from terms
+- **Structure**: Flat list of entries
+- **Content**: Each entry has term, name, optional Wikipedia/Wikidata/Wiktionary content
+- **Output**: HTML dictionary with entries
+- **Use Case**: Basic term-to-content mapping
 
-# Without validation
-python Examples/create_encyclopedia_from_wordlist.py \
-    --wordlist terms.txt \
-    --no-validate
+### AmiEncyclopedia (`--ENCYCLOPEDIA`):
+- **Purpose**: Semantic, normalized knowledge base
+- **Structure**: Normalized entries grouped by Wikidata ID
+- **Content**: Same as dictionary, plus:
+  - Wikidata ID-based normalization
+  - Synonym merging
+  - Metadata tracking (actions, hidden entries, disambiguation)
+- **Output**: Normalized HTML encyclopedia with merged entries
+- **Use Case**: Knowledge base with semantic linking
 
-# With verbose validation
-python Examples/create_encyclopedia_from_wordlist.py \
-    --wordlist terms.txt \
-    --validate \
-    --verbose
-```
+**Key Insight**: An `AmiDictionary` is essentially a list of encyclopedia entries. `AmiEncyclopedia` adds normalization, merging, and metadata on top of dictionary functionality. The HTML output formats are very similar, with encyclopedia adding normalization indicators.
 
-### 7. Benefits
+## Issues Addressed
 
-✅ **Modularity**: Each step is a separate, testable function  
-✅ **Validation**: Clear feedback on what worked and what didn't  
-✅ **Debuggability**: Easy to identify where failures occur  
-✅ **Maintainability**: Smaller, focused functions  
-✅ **Transparency**: Validation shows exactly what's missing  
+### 1. txt2phrases Removal
 
-### 8. Files Modified
+**Current State**: `txt2phrases/` directory exists in `encyclopedia` project
 
-1. ✅ `Examples/create_encyclopedia_from_wordlist.py` - Refactored main function
-2. ✅ `encyclopedia/utils/encyclopedia_builder.py` - New utility module
-3. ✅ `encyclopedia/utils/validation.py` - New validation module
+**Purpose**: 
+- Converts PDF/HTML to text
+- Extracts keywords using AI models (Hugging Face transformers)
+- Classifies keywords using TF-IDF
+- Creates wordlists from documents
 
-All files compile successfully and validation is fully integrated!
+**Why Remove**:
+- Separate concern from encyclopedia creation
+- Main purpose is wordlist creation (precursor to encyclopedia, but not encyclopedia itself)
+- Should be its own project
+- Currently used by encyclopedia scripts but can be external dependency
+
+**Action**: Move to separate project, update imports in encyclopedia scripts
+
+### 2. DICT vs ENCYCLOPEDIA Overlap
+
+**Current State**: Both exist in amilib with significant overlap
+
+**Analysis**:
+- `AmiDictionary` creates entries from terms
+- `AmiEncyclopedia` uses `AmiDictionary` internally (composition)
+- HTML output formats are very similar
+- Main difference is normalization and merging in encyclopedia
+
+**Future Direction**: 
+- Focus on encyclopedias going forward
+- Dictionary creation remains in amilib as utility
+- Encyclopedia becomes primary output format
+
+### 3. wikimedia.py Location
+
+**Current State**: `amilib/wikimedia.py` contains Wikipedia/Wikidata/Wiktionary integration
+
+**Decision**: **Keep in amilib**
+- Used by both dictionary and encyclopedia creation
+- General-purpose Wikimedia integration
+- Will continue to be developed for encyclopedia needs
+- Shared utility across projects
+
+### 4. Future Features
+
+**Planned Enhancements**:
+- **Search capabilities**: Partially implemented in `encyclopedia/browser/`, needs integration into core `AmiEncyclopedia`
+- **Link creation**: Link extraction exists, need to create links between entries
+- **Knowledge graph**: Generate graph from encyclopedia links
+
+**Current State**:
+- Browser-based search exists (`encyclopedia/browser/`)
+- Link extraction exists (`encyclopedia/utils/link_extractor.py`, `amilib/ami_encyclopedia_util.py`)
+- Knowledge graph functionality not yet implemented
+
+## Proposed Strategy Overview
+
+See `docs/refactoring_strategy.md` for detailed plan. Summary:
+
+### Phase 1: Remove txt2phrases (Week 1)
+- Extract to separate project
+- Update encyclopedia scripts to use external package
+
+### Phase 2: Consolidate Encyclopedia Code (Weeks 2-3)
+- Move all encyclopedia code from amilib to encyclopedia
+- Merge duplicate functionality
+- Update imports to use amilib as dependency
+
+### Phase 3: Deprecate in amilib (Week 4)
+- Add deprecation warnings
+- Redirect imports to encyclopedia package
+- Maintain for 1-2 release cycles
+
+### Phase 4: Enhance Features (Weeks 5-6)
+- Integrate search capabilities
+- Enhance link management
+- Implement knowledge graph foundation
+
+### Phase 5: Documentation (Week 7)
+- Update all documentation
+- Create migration guide
+- Comprehensive testing
+
+## Key Decisions
+
+1. **wikimedia.py stays in amilib** - Shared utility, continues development
+2. **Dictionary creation stays in amilib** - Utility function, encyclopedia uses it
+3. **Encyclopedia becomes primary focus** - All encyclopedia-specific code moves to encyclopedia project
+4. **txt2phrases becomes separate project** - Different concern, can be dependency
+5. **Future: Search and knowledge graph** - Core features for encyclopedia project
+
+## Next Steps
+
+1. Review `docs/refactoring_strategy.md` for detailed plan
+2. Resolve questions about txt2phrases location
+3. Get approval for approach
+4. Begin Phase 1 when approved
