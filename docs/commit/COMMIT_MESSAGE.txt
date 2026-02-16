@@ -1,0 +1,30 @@
+Refactor image inclusion to use amilib's AmiEntry directly
+
+Refactored add_images_feature() to use amilib's AmiEntry.add_figures_to_entry()
+method directly instead of reimplementing the image extraction logic. This
+ensures proper reuse of amilib libraries and consistency with amilib's
+dictionary functionality.
+
+Changes:
+- Modified add_images_feature() in versioned_editor.py to create AmiEntry
+  objects and call add_figures_to_entry() directly
+- Removed custom image extraction logic that duplicated amilib functionality
+- Extracts figure elements from AmiEntry's <div title="figure"> wrapper
+- Maintains URL fixing and image_link extraction for compatibility
+
+Benefits:
+- Proper reuse of amilib libraries as requested
+- Consistency with amilib's dictionary --figures functionality
+- Resolves methane entry image issue (now correctly shows infobox image)
+- Cleaner, more maintainable code
+
+Testing:
+- Test suite in test/encyclopedia/test_image_inclusion.py verifies images
+  are included for "climate change", "methane", and "AMOC"
+- All tests passing with images correctly embedded in HTML output
+
+Documentation:
+- Added docs/image_inclusion_implementation_summary.md with comprehensive
+  summary of achievements, limitations, and technical details
+- Added docs/amilib_figures_implementation.md documenting amilib's
+  internal figure extraction methods

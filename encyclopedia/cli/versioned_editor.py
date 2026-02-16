@@ -263,7 +263,8 @@ def _get_first_paragraph_html_from_wikipedia_page(wikipedia_page) -> tuple:
     """Get first paragraph HTML from WikipediaPage using amilib methods.
     
     Uses amilib's create_first_wikipedia_para() method which handles filtering
-    and extraction. Trusts amilib's result.
+    and extraction. If that fails, falls back to manual extraction using
+    amilib's get_main_element() method.
     
     Args:
         wikipedia_page: WikipediaPage object
@@ -274,20 +275,72 @@ def _get_first_paragraph_html_from_wikipedia_page(wikipedia_page) -> tuple:
         - description_html: Full paragraph HTML (or None)
     """
     from amilib.xml_lib import XmlLib
+    import lxml.etree as ET
     
-    # Use amilib's create_first_wikipedia_para() - it handles filtering and extraction
+    # Primary method: Use amilib's create_first_wikipedia_para() - it handles filtering and extraction
     # This method uses get_main_element() which cleans the page and filters paragraphs
-    para_obj = wikipedia_page.create_first_wikipedia_para()
+    para_obj = None
+    try:
+        para_obj = wikipedia_page.create_first_wikipedia_para()
+    except Exception as e:
+        # If amilib method raises exception, fall back to manual extraction
+        pass
     
-    if para_obj is None or para_obj.para_element is None:
+    if para_obj is not None and para_obj.para_element is not None:
+        # Use the paragraph element from amilib (already filtered and processed)
+        para_elem = para_obj.para_element
+        
+        # Extract definition and description from the paragraph
+        # The paragraph already has class 'wpage_first_para' set by amilib
+        result = _extract_definition_from_paragraph(para_elem)
+        # Only return if extraction succeeded (not filtered out)
+        if result[0] is not None or result[1] is not None:
+            return result
+        # If extraction filtered it out, continue to fallback
+    
+    # Fallback: If create_first_wikipedia_para() fails or returns None para_element,
+    # use get_main_element() and extract manually
+    # This handles edge cases where amilib's method doesn't find a paragraph
+    main_elem = None
+    try:
+        main_elem = wikipedia_page.get_main_element()
+    except Exception as e:
+        # If get_main_element fails, return None
         return None, None
     
-    # Use the paragraph element from amilib (already filtered and processed)
-    para_elem = para_obj.para_element
+    if main_elem is None:
+        return None, None
     
-    # Extract definition and description from the paragraph
-    # The paragraph already has class 'wpage_first_para' set by amilib
-    return _extract_definition_from_paragraph(para_elem)
+    # Try to find first valid paragraph in main content
+    # Look for paragraphs in the main content area (similar to amilib's logic)
+    paragraphs = main_elem.xpath(".//div[@id='mw-content-text']//p | .//main//p")
+    
+    # Try first few paragraphs (amilib typically checks first 3-5)
+    for para_elem in paragraphs[:5]:
+        if para_elem is None:
+            continue
+        
+        # Get text content
+        para_text = para_elem.text_content() if hasattr(para_elem, 'text_content') else ''
+        
+        # Apply same filtering as amilib (length check + message filtering)
+        # amilib filters paragraphs shorter than ~50 characters
+        if not para_text or len(para_text.strip()) < 50:
+            continue
+        
+        # Apply Wikipedia message filtering
+        if _filter_wikipedia_messages(para_text):
+            continue
+        
+        # Found valid paragraph - process it
+        # Set class to match amilib's standard
+        para_elem.set('class', 'wpage_first_para')
+        
+        # Extract definition and description
+        return _extract_definition_from_paragraph(para_elem)
+    
+    # No valid paragraph found
+    return None, None
 
 
 def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
@@ -399,7 +452,7 @@ def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
                 print(f"    Warning: Could not ensure wpage_first_para class: {e}")
         
         # Update entry with Wikipedia data
-        entry_dict['wikipedia_url'] = wikipedia_page.url
+        entry_dict['wikipedia_url'] = getattr(wikipedia_page, 'url', None) or entry_dict.get('wikipedia_url', '')
         
         # Store definition and description separately
         if definition_html:
@@ -417,7 +470,8 @@ def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
                 entry_dict['wikidata_id'] = wikidata_id
         
         print(f"  ✓ Added Wikipedia description for '{term}'")
-        print(f"    URL: {wikipedia_page.url}")
+        page_url = getattr(wikipedia_page, 'url', None) or entry_dict.get('wikipedia_url', 'N/A')
+        print(f"    URL: {page_url}")
     else:
         # Wikipedia page retrieved but no paragraph extracted
         entry_dict['first_paragraph_retrieved'] = False
@@ -430,7 +484,7 @@ def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
         print(f"      - Page is a disambiguation or redirect")
         print(f"      - Extraction method failed (check amilib version)")
         # Still save URL even if no description
-        entry_dict['wikipedia_url'] = wikipedia_page.url
+        entry_dict['wikipedia_url'] = getattr(wikipedia_page, 'url', None) or entry_dict.get('wikipedia_url', '')
         # Clear any empty description_html that might exist
         if not entry_dict.get('description_html') or not _has_non_empty_description(entry_dict):
             entry_dict.pop('description_html', None)
@@ -442,26 +496,38 @@ def add_wikipedia_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia):
 def _extract_images_from_wikipedia_page(wikipedia_page, verbose: bool = False) -> List:
     """Extract images from WikipediaPage using amilib methods.
     
-    Uses amilib's extract_a_elem_with_image_from_infobox() method which handles
-    infobox extraction and image finding. Trusts amilib's result.
+    Uses amilib's extract_a_elem_with_image_from_infobox() method first,
+    then falls back to finding <figure> elements if no infobox image is found.
+    This matches the strategy used by amilib's AmiEntry.add_figures_from_wikipedia().
     
     Args:
         wikipedia_page: WikipediaPage object
         verbose: If True, show detailed progress
         
     Returns:
-        List of image elements (<a> tags linking to File: pages)
+        List of image elements (<a> tags or <figure> elements)
     """
     images = []
     
-    # Use amilib's extract_a_elem_with_image_from_infobox() method
-    # This method handles infobox extraction and finds images
+    # Step 1: Try to get <a> element with image from infobox
     img_elem = wikipedia_page.extract_a_elem_with_image_from_infobox()
     
     if img_elem is not None:
         images.append(img_elem)
         if verbose:
             print(f"    ✓ Found image via amilib extract_a_elem_with_image_from_infobox()")
+    else:
+        # Step 2: Fallback - look for <figure> elements if no infobox image
+        if hasattr(wikipedia_page, 'html_elem') and wikipedia_page.html_elem is not None:
+            figures = wikipedia_page.html_elem.xpath(".//figure")
+            if len(figures) > 0:
+                images.append(figures[0])
+                if verbose:
+                    print(f"    ✓ Found image via fallback <figure> element")
+            elif verbose:
+                print(f"    ⚠ No images found (no infobox image, no <figure> elements)")
+        elif verbose:
+            print(f"    ⚠ No images found (no infobox image, no html_elem available)")
     
     return images
 
@@ -522,10 +588,10 @@ def _fix_image_urls(element):
 
 
 def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia, verbose: bool = False):
-    """Add figures to entry from Wikipedia using amilib's AmiEntry directly.
+    """Add figures to entry from Wikipedia using _extract_images_from_wikipedia_page().
     
-    Uses amilib's AmiEntry.add_figures_to_entry() method to extract and add figures,
-    then extracts the figure from the AmiEntry element for storage in entry_dict.
+    Uses _extract_images_from_wikipedia_page() which calls amilib's 
+    extract_a_elem_with_image_from_infobox() method to extract images.
     
     Args:
         entry_dict: Entry dictionary
@@ -533,8 +599,6 @@ def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia, verbose:
         verbose: If True, show detailed progress
     """
     import copy
-    
-    from amilib.ami_dict import AmiEntry
     
     term = entry_dict.get('term', entry_dict.get('canonical_term', ''))
     
@@ -553,36 +617,23 @@ def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia, verbose:
             print(f"  ⚠ Entry '{term}' has no Wikipedia page, skipping images")
         return
     
-    page_url = wikipedia_page.url if hasattr(wikipedia_page, 'url') else 'N/A'
+    page_url = getattr(wikipedia_page, 'url', None) or 'N/A'
     if verbose:
         print(f"  ✓ Wikipedia page retrieved: {page_url}")
     
-    # Use amilib's AmiEntry.add_figures_to_entry() directly
+    # Extract images using helper function
     if verbose:
-        print(f"  Extracting figures for '{term}' using amilib AmiEntry...")
+        print(f"  Extracting images for '{term}' using amilib methods...")
     
     try:
-        # Create an AmiEntry from the term (reusing amilib's code)
-        entry_elem = AmiEntry.create_lxml_entry_from_term(term)
-        ami_entry = AmiEntry.create_from_element(entry_elem)
+        # Use _extract_images_from_wikipedia_page() helper function
+        image_elements = _extract_images_from_wikipedia_page(wikipedia_page, verbose=verbose)
         
-        # Use amilib's method to add figures to the entry
-        ami_entry.add_figures_to_entry(wikipedia_page)
-        
-        # Extract the figure div from the AmiEntry's element
-        # amilib adds figures in a <div title="figure"> wrapper
-        figure_divs = ami_entry.element.xpath('.//div[@title="figure"]')
-        
-        if figure_divs:
-            # Get the figure element from inside the wrapper div
-            figure_elem = figure_divs[0]
-            # The actual figure (<a> or <figure>) is a child of the wrapper div
-            figure_children = figure_elem.xpath('./*')
+        if image_elements:
+            # Use the first image element
+            figure_elem = image_elements[0]
             
-            if figure_children:
-                # Use the first child (the actual figure element)
-                figure_elem = figure_children[0]
-                
+            try:
                 # Fix relative URLs to absolute (ensure images load correctly)
                 _fix_image_urls(figure_elem)
                 
@@ -590,40 +641,69 @@ def add_images_feature(entry_dict: Dict, encyclopedia: AmiEncyclopedia, verbose:
                 entry_dict['figure_html'] = copy.deepcopy(figure_elem)
                 
                 # Extract image_link URL for reference
-                if hasattr(figure_elem, 'get'):
-                    href = figure_elem.get('href', '')
-                    if href:
-                        # Ensure it's a full Wikipedia URL
-                        if not href.startswith('http'):
-                            if href.startswith('/wiki/File:') or href.startswith('/wiki/'):
-                                href = f"https://en.wikipedia.org{href}"
-                            elif href.startswith('/'):
-                                href = f"https://en.wikipedia.org{href}"
-                        entry_dict['image_link'] = href
+                # Handle both <a> elements and <figure> elements
+                image_url = None
+                
+                # Try to get href from <a> element (if figure_elem is an <a> tag)
+                if hasattr(figure_elem, 'get') and hasattr(figure_elem, 'tag'):
+                    if figure_elem.tag == 'a':
+                        href = figure_elem.get('href', '')
+                        if href:
+                            # Ensure it's a full Wikipedia URL
+                            if not href.startswith('http'):
+                                if href.startswith('/wiki/File:') or href.startswith('/wiki/'):
+                                    href = f"https://en.wikipedia.org{href}"
+                                elif href.startswith('/'):
+                                    href = f"https://en.wikipedia.org{href}"
+                            image_url = href
+                
+                # If no href found, try to find img src in the element (works for both <a> and <figure>)
+                if not image_url:
+                    img_elem = figure_elem.xpath(".//img[@src]")
+                    if img_elem:
+                        img_src = img_elem[0].get('src', '')
+                        if img_src:
+                            image_url = img_src
                     else:
-                        # Try to find img src in the element
-                        img_elem = figure_elem.xpath(".//img[@src]")
-                        if img_elem:
-                            img_src = img_elem[0].get('src', '')
-                            if img_src:
-                                entry_dict['image_link'] = img_src
+                        # For <figure> elements, also check for <a> tags inside
+                        a_elem = figure_elem.xpath(".//a[@href]")
+                        if a_elem:
+                            href = a_elem[0].get('href', '')
+                            if href:
+                                if not href.startswith('http'):
+                                    if href.startswith('/wiki/File:') or href.startswith('/wiki/'):
+                                        href = f"https://en.wikipedia.org{href}"
+                                    elif href.startswith('/'):
+                                        href = f"https://en.wikipedia.org{href}"
+                                image_url = href
+                
+                if image_url:
+                    entry_dict['image_link'] = image_url
                 
                 if verbose:
-                    print(f"  ✓ Added figure for '{term}' using amilib AmiEntry")
+                    print(f"  ✓ Added figure for '{term}'")
                     if entry_dict.get('image_link'):
                         print(f"    Link: {entry_dict['image_link']}")
-            else:
+            except Exception as e:
+                # If we got an image element but failed to process it, still store it
+                # This ensures figure_html is set even if URL fixing fails
+                if 'figure_html' not in entry_dict:
+                    entry_dict['figure_html'] = copy.deepcopy(figure_elem)
                 if verbose:
-                    print(f"  ⚠ AmiEntry added figure div but no figure element found for '{term}'")
+                    print(f"  ⚠ Warning: Error processing image element for '{term}': {e}")
+                    import traceback
+                    traceback.print_exc()
         else:
             if verbose:
-                print(f"  ⚠ No figures found for '{term}'")
+                print(f"  ⚠ No images found for '{term}'")
                 
     except Exception as e:
         if verbose:
-            print(f"  ⚠ Error extracting figures for '{term}': {e}")
+            print(f"  ⚠ Error extracting images for '{term}': {e}")
             import traceback
             traceback.print_exc()
+        # Re-raise to ensure test failures are visible
+        raise
 
 
 def _extract_entries_from_encyclopedia_html(html_root) -> List[Dict]:
@@ -697,6 +777,54 @@ def _extract_entries_from_encyclopedia_html(html_root) -> List[Dict]:
                         break
         
         entry_dict['description_html'] = description_html
+        
+        # Extract figure_html/image HTML - check for div[@title="figure"] wrapper (amilib standard)
+        figure_html = ''
+        figure_divs = entry_div.xpath(".//div[@title='figure']")
+        if figure_divs:
+            from amilib.xml_lib import XmlLib
+            # Get the actual figure element (first child of the wrapper div)
+            figure_children = figure_divs[0].xpath('./*')
+            if figure_children:
+                # Use the first child (the actual figure element: <a> or <figure>)
+                figure_html = XmlLib.element_to_string(figure_children[0])
+            else:
+                # If no children, use the div itself
+                figure_html = XmlLib.element_to_string(figure_divs[0])
+        else:
+            # Fallback: look for <figure> elements directly
+            figure_elems = entry_div.xpath(".//figure")
+            if figure_elems:
+                from amilib.xml_lib import XmlLib
+                figure_html = XmlLib.element_to_string(figure_elems[0])
+            else:
+                # Fallback: look for image links with wikipedia-image-link class
+                img_links = entry_div.xpath(".//a[contains(@class, 'wikipedia-image-link')]")
+                if img_links:
+                    from amilib.xml_lib import XmlLib
+                    figure_html = XmlLib.element_to_string(img_links[0])
+        
+        if figure_html:
+            entry_dict['figure_html'] = figure_html
+            # Also extract image_link URL if available
+            if figure_divs:
+                # Try to get href from <a> tag inside figure div
+                a_elem = figure_divs[0].xpath(".//a[@href]")
+                if a_elem:
+                    href = a_elem[0].get('href', '')
+                    if href:
+                        if not href.startswith('http'):
+                            if href.startswith('/wiki/File:') or href.startswith('/wiki/'):
+                                href = f"https://en.wikipedia.org{href}"
+                            elif href.startswith('/'):
+                                href = f"https://en.wikipedia.org{href}"
+                        entry_dict['image_link'] = href
+                else:
+                    # Try to get img src
+                    img_elem = figure_divs[0].xpath(".//img[@src]")
+                    if img_elem:
+                        entry_dict['image_link'] = img_elem[0].get('src', '')
+        
         entries.append(entry_dict)
     
     return entries

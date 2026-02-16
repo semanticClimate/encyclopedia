@@ -263,29 +263,64 @@ def validate_image_links_added(encyclopedia: AmiEncyclopedia, check_url_exists: 
         image_url = None
         
         if figure_html:
-            # Check if it's an element
+            # Check if it's an element (lxml Element)
             if hasattr(figure_html, 'tag'):
+                # Check for <a> element with href
                 if figure_html.tag == 'a':
                     href = figure_html.get('href', '')
-                    if '/wiki/File:' in href or '/File:' in href:
+                    if href and ('/wiki/File:' in href or '/File:' in href or 'upload.wikimedia.org' in href):
                         has_image = True
                         image_url = href
+                # Check for <figure> element with image
+                elif figure_html.tag == 'figure':
+                    img_elem = figure_html.xpath('.//img')
+                    if img_elem:
+                        src = img_elem[0].get('src', '')
+                        if src and ('upload.wikimedia.org' in src or '/wiki/File:' in src):
+                            has_image = True
+                            image_url = src
+                # Check for <img> element directly
+                elif figure_html.tag == 'img':
+                    src = figure_html.get('src', '')
+                    if src and ('upload.wikimedia.org' in src or '/wiki/File:' in src):
+                        has_image = True
+                        image_url = src
+                # Check for <div title="figure"> wrapper (amilib format)
+                elif figure_html.tag == 'div' and figure_html.get('title') == 'figure':
+                    # Look for <a> or <img> inside
+                    a_elem = figure_html.xpath('.//a')
+                    if a_elem:
+                        href = a_elem[0].get('href', '')
+                        if href and ('/wiki/File:' in href or '/File:' in href or 'upload.wikimedia.org' in href):
+                            has_image = True
+                            image_url = href
+                    if not has_image:
+                        img_elem = figure_html.xpath('.//img')
+                        if img_elem:
+                            src = img_elem[0].get('src', '')
+                            if src and ('upload.wikimedia.org' in src or '/wiki/File:' in src):
+                                has_image = True
+                                image_url = src
             # Check if it's HTML string
             elif isinstance(figure_html, str):
-                if 'wikipedia-image-link' in figure_html or '/wiki/File:' in figure_html:
+                if 'wikipedia-image-link' in figure_html or '/wiki/File:' in figure_html or 'upload.wikimedia.org' in figure_html:
                     has_image = True
                     # Try to extract URL from HTML string
-                    url_match = re.search(r'href=["\']([^"\']*wiki/File:[^"\']*)["\']', figure_html)
+                    url_match = re.search(r'href=["\']([^"\']*(?:wiki/File:|upload\.wikimedia\.org)[^"\']*)["\']', figure_html)
                     if url_match:
                         image_url = url_match.group(1)
-                    # Also check for image_link attribute in HTML
-                    elif 'image_link' in figure_html.lower():
-                        # Try to extract from data attributes or other patterns
-                        pass
+                    # Also try to extract from img src
+                    if not image_url:
+                        img_match = re.search(r'src=["\']([^"\']*(?:upload\.wikimedia\.org|wiki/File:)[^"\']*)["\']', figure_html)
+                        if img_match:
+                            image_url = img_match.group(1)
         
-        if image_link and ('/wiki/File:' in image_link or '/File:' in image_link):
-            has_image = True
-            image_url = image_link
+        # Check image_link field - accept both Wikipedia File: URLs and direct Wikimedia Commons URLs
+        if image_link:
+            if '/wiki/File:' in image_link or '/File:' in image_link or 'upload.wikimedia.org' in image_link:
+                has_image = True
+                if not image_url:  # Use image_link if figure_html didn't provide URL
+                    image_url = image_link
         
         if has_image:
             # Normalize URL

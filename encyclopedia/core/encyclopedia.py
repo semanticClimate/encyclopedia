@@ -125,12 +125,51 @@ class AmiEncyclopedia:
         self.metadata[self.METADATA_LAST_EDITED] = self._get_system_date()
         
     def create_from_html_file(self, html_file: Path) -> 'AmiEncyclopedia':
-        """Create encyclopedia from HTML file"""
+        """Create encyclopedia from HTML file, handling both dictionary and encyclopedia formats.
+        
+        Detects the format by checking for div[@role='ami_encyclopedia'] or 
+        div[@role='ami_dictionary'] and handles accordingly.
+        
+        Args:
+            html_file: Path to HTML file
+            
+        Returns:
+            AmiEncyclopedia instance
+            
+        Raises:
+            FileNotFoundError: If file doesn't exist
+            ValueError: If file doesn't contain valid encyclopedia or dictionary format
+        """
         if not html_file.exists():
             raise FileNotFoundError(f"HTML file not found: {html_file}")
         
         html_content = html_file.read_text(encoding='utf-8')
-        return self.create_from_html_content(html_content)
+        
+        # Parse HTML to detect format
+        from lxml.html import fromstring
+        try:
+            html_root = fromstring(html_content.encode('utf-8'))
+            encyclopedia_div = html_root.xpath(".//div[@role='ami_encyclopedia']")
+            dictionary_div = html_root.xpath(".//div[@role='ami_dictionary']")
+        except Exception as e:
+            raise ValueError(f"Error parsing HTML file: {e}\nFile: {html_file}")
+        
+        if encyclopedia_div:
+            # Encyclopedia format - extract entries directly
+            from encyclopedia.cli.versioned_editor import _extract_entries_from_encyclopedia_html
+            entries = _extract_entries_from_encyclopedia_html(html_root)
+            self.entries = entries
+            self.title = encyclopedia_div[0].get('title', 'Encyclopedia')
+            return self
+        elif dictionary_div:
+            # Dictionary format - use existing method
+            return self.create_from_html_content(html_content)
+        else:
+            raise ValueError(
+                f"File does not contain a valid encyclopedia or dictionary.\n"
+                f"Expected div with role='ami_encyclopedia' or role='ami_dictionary'\n"
+                f"File: {html_file}"
+            )
     
     def create_from_html_content(self, html_content: str) -> 'AmiEncyclopedia':
         """Create encyclopedia from HTML content"""

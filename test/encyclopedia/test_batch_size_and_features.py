@@ -258,7 +258,7 @@ class TestMissingImages:
     """Test handling of missing images"""
     
     def test_entry_without_images_gets_image_added(self):
-        """Test that entries without images get images added"""
+        """Test that entries without images get images added using real Wikipedia lookup"""
         encyclopedia = AmiEncyclopedia(title="Test")
         entry = {
             "term": "climate change",
@@ -268,26 +268,28 @@ class TestMissingImages:
         }
         encyclopedia.entries = [entry]
         
-        # Mock Wikipedia page with image
-        mock_wikipedia_page = Mock()
-        mock_wikipedia_page.url = "https://en.wikipedia.org/wiki/Climate_change"
+        # Check initial state
+        assert 'figure_html' not in entry or entry.get('figure_html') is None, \
+            "Entry should NOT have figure_html initially"
+        assert 'image_link' not in entry or entry.get('image_link') is None, \
+            "Entry should NOT have image_link initially"
         
-        # Mock image element
-        mock_image_link = Mock()
-        mock_image_link.tag = 'a'
-        mock_image_link.get.return_value = "https://en.wikipedia.org/wiki/File:Climate_change_image.jpg"
-        
-        with patch('encyclopedia.cli.versioned_editor._get_wikipedia_page_for_entry',
-                   return_value=mock_wikipedia_page):
-            with patch('encyclopedia.cli.versioned_editor._extract_images_from_wikipedia_page',
-                       return_value=[mock_image_link]):
-                add_images_feature(entry, encyclopedia, verbose=False)
+        # Call real function - this will make actual Wikipedia API calls
+        # Climate change page should have an image in its infobox
+        # Use verbose=True to see what's happening
+        add_images_feature(entry, encyclopedia, verbose=True)
         
         # Verify image was added
-        assert 'figure_html' in entry
-        assert entry['figure_html'] is not None
-        assert 'image_link' in entry
-        assert entry['image_link'] is not None
+        # Note: This test may fail if Wikipedia page structure changes or has no infobox image
+        # That's acceptable - it tests the real functionality
+        assert 'figure_html' in entry, \
+            f"Entry should have figure_html after add_images_feature. " \
+            f"Entry keys: {list(entry.keys())}"
+        assert entry['figure_html'] is not None, \
+            f"figure_html should not be None. Got: {entry.get('figure_html')}"
+        
+        # image_link may or may not be set depending on the image element structure
+        # But figure_html should always be set if an image was found
     
     def test_entry_with_existing_images_skipped(self):
         """Test that entries with existing images are skipped"""

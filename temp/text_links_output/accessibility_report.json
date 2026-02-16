@@ -1,7 +1,12 @@
 {
-  "/wiki/Southern_Hemisphere": {
+  "/wiki/Statistical_population": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Southern_Hemisphere",
+    "final_url": "https://en.wikipedia.org/wiki/Statistical_population",
+    "accessible": true
+  },
+  "/wiki/Earth%27s_energy_imbalance": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Earth%27s_energy_imbalance",
     "accessible": true
   },
   "/wiki/Tropopause": {
@@ -9,19 +14,14 @@
     "final_url": "https://en.wikipedia.org/wiki/Tropopause",
     "accessible": true
   },
+  "/wiki/Extratropical_cyclone": {
+    "status_code": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Extratropical_cyclone",
+    "accessible": true
+  },
   "/wiki/Climate_system": {
     "status_code": 200,
     "final_url": "https://en.wikipedia.org/wiki/Climate_system",
-    "accessible": true
-  },
-  "/wiki/Nocturnality": {
-    "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Nocturnality",
-    "accessible": true
-  },
-  "/wiki/Monotreme": {
-    "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Monotreme",
     "accessible": true
   }
 }
