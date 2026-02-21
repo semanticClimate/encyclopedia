@@ -170,10 +170,27 @@ def create_landing_page_html(encyclopedia: AmiEncyclopedia) -> str:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             margin-bottom: 30px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }}
+        
+        .search-controls {{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }}
+        
+        .search-input-wrapper {{
+            flex: 1;
+            min-width: 200px;
+            display: flex;
+            gap: 10px;
         }}
         
         #search-box {{
-            width: 100%;
+            flex: 1;
             padding: 15px;
             font-size: 1.1em;
             border: 2px solid #ddd;
@@ -183,6 +200,97 @@ def create_landing_page_html(encyclopedia: AmiEncyclopedia) -> str:
         #search-box:focus {{
             outline: none;
             border-color: #667eea;
+        }}
+        
+        .search-options {{
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }}
+        
+        .search-option-group {{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }}
+        
+        .search-option-group label {{
+            font-size: 0.9em;
+            font-weight: bold;
+            color: #666;
+        }}
+        
+        .search-option-group select {{
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.95em;
+        }}
+        
+        .search-button {{
+            padding: 15px 25px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }}
+        
+        .search-button:hover {{
+            background: #5568d3;
+        }}
+        
+        .clear-button {{
+            padding: 15px 25px;
+            background: #999;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }}
+        
+        .clear-button:hover {{
+            background: #777;
+        }}
+        
+        .search-results-info {{
+            margin-top: 15px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            font-size: 0.9em;
+            color: #666;
+        }}
+        
+        .back-to-search {{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 15px 25px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+            display: none;
+        }}
+        
+        .back-to-search.visible {{
+            display: block;
+        }}
+        
+        .back-to-search:hover {{
+            background: #5568d3;
         }}
         
         .toc-section {{
@@ -367,8 +475,37 @@ def create_landing_page_html(encyclopedia: AmiEncyclopedia) -> str:
     
     <div class="container">
         <div class="search-section">
-            <input type="text" id="search-box" placeholder="Search entries... (e.g., climate, atom, DNA)">
+            <div class="search-controls">
+                <div class="search-input-wrapper">
+                    <input type="text" id="search-box" placeholder="Search entries... (e.g., climate, atom, DNA)" autocomplete="off">
+                    <button class="search-button" id="search-button">Search</button>
+                    <button class="clear-button" id="clear-button">Clear</button>
+                </div>
+            </div>
+            <div class="search-options">
+                <div class="search-option-group">
+                    <label for="search-target">Search In:</label>
+                    <select id="search-target">
+                        <option value="all">All Fields</option>
+                        <option value="term">Term Only</option>
+                        <option value="definition">Definition Only</option>
+                        <option value="description">Description Only</option>
+                    </select>
+                </div>
+                <div class="search-option-group">
+                    <label for="search-type">Search Type:</label>
+                    <select id="search-type">
+                        <option value="partial">Partial Match</option>
+                        <option value="exact">Exact Match</option>
+                        <option value="regex">Regular Expression</option>
+                        <option value="word">Whole Word</option>
+                    </select>
+                </div>
+            </div>
+            <div id="search-results-info" class="search-results-info" style="display: none;"></div>
         </div>
+        
+        <button id="back-to-search" class="back-to-search" title="Back to Search (Esc)">↑ Back to Search</button>
         
         {stats_html}
         
@@ -378,28 +515,166 @@ def create_landing_page_html(encyclopedia: AmiEncyclopedia) -> str:
     </div>
     
     <script>
-        // Simple client-side search
+        // Search functionality
         const searchBox = document.getElementById('search-box');
+        const searchButton = document.getElementById('search-button');
+        const clearButton = document.getElementById('clear-button');
+        const searchTarget = document.getElementById('search-target');
+        const searchType = document.getElementById('search-type');
+        const searchResultsInfo = document.getElementById('search-results-info');
+        const backToSearchButton = document.getElementById('back-to-search');
         const entryCards = document.querySelectorAll('.entry-card');
         const tocLinks = document.querySelectorAll('.toc-entry-link');
+        const searchSection = document.querySelector('.search-section');
         
-        function searchEntries(query) {{
-            const searchTerm = query.toLowerCase().trim();
+        let currentSearchQuery = '';
+        let searchTimeout = null;
+        
+        // Extract plain text from HTML
+        function extractText(html) {{
+            if (!html) return '';
+            const div = document.createElement('div');
+            div.innerHTML = html;
+            return div.textContent || div.innerText || '';
+        }}
+        
+        // Search function
+        function performSearch(query) {{
+            if (!query || query.trim() === '') {{
+                // Show all entries
+                entryCards.forEach(card => {{
+                    card.classList.remove('hidden');
+                }});
+                searchResultsInfo.style.display = 'none';
+                backToSearchButton.classList.remove('visible');
+                return;
+            }}
+            
+            const target = searchTarget.value;
+            const type = searchType.value;
+            const searchTerm = query.trim();
+            let regex = null;
+            
+            // Build regex based on search type
+            try {{
+                if (type === 'exact') {{
+                    regex = new RegExp('^' + searchTerm.replace(/[.*+?^${{}}()|[\\]\\\\]/g, '\\\\$&') + '$', 'i');
+                }} else if (type === 'regex') {{
+                    regex = new RegExp(searchTerm, 'i');
+                }} else if (type === 'word') {{
+                    regex = new RegExp('\\\\b' + searchTerm.replace(/[.*+?^${{}}()|[\\]\\\\]/g, '\\\\$&') + '\\\\b', 'i');
+                }} else {{ // partial
+                    regex = new RegExp(searchTerm.replace(/[.*+?^${{}}()|[\\]\\\\]/g, '\\\\$&'), 'i');
+                }}
+            }} catch (e) {{
+                searchResultsInfo.textContent = 'Invalid regular expression';
+                searchResultsInfo.style.display = 'block';
+                return;
+            }}
+            
+            let matchCount = 0;
             
             entryCards.forEach(card => {{
-                const term = card.querySelector('.entry-term').textContent.toLowerCase();
-                const description = card.querySelector('.entry-description, .entry-definition')?.textContent.toLowerCase() || '';
+                const term = card.querySelector('.entry-term').textContent;
+                const definitionElem = card.querySelector('.entry-definition');
+                const descriptionElem = card.querySelector('.entry-description');
+                const definition = definitionElem ? extractText(definitionElem.innerHTML) : '';
+                const description = descriptionElem ? extractText(descriptionElem.innerHTML) : '';
                 
-                if (searchTerm === '' || term.includes(searchTerm) || description.includes(searchTerm)) {{
+                let matches = false;
+                
+                // Check based on search target
+                if (target === 'term') {{
+                    matches = regex.test(term);
+                }} else if (target === 'definition') {{
+                    matches = regex.test(definition);
+                }} else if (target === 'description') {{
+                    matches = regex.test(description);
+                }} else {{ // all
+                    matches = regex.test(term) || regex.test(definition) || regex.test(description);
+                }}
+                
+                if (matches) {{
                     card.classList.remove('hidden');
+                    matchCount++;
                 }} else {{
                     card.classList.add('hidden');
                 }}
             }});
+            
+            // Update results info
+            if (matchCount > 0) {{
+                searchResultsInfo.textContent = `Found ${{matchCount}} ${{matchCount === 1 ? 'entry' : 'entries'}}`;
+                searchResultsInfo.style.display = 'block';
+                backToSearchButton.classList.add('visible');
+                
+                // Scroll to first result
+                const firstVisible = Array.from(entryCards).find(card => !card.classList.contains('hidden'));
+                if (firstVisible) {{
+                    setTimeout(() => {{
+                        firstVisible.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+                    }}, 100);
+                }}
+            }} else {{
+                searchResultsInfo.textContent = 'No entries found';
+                searchResultsInfo.style.display = 'block';
+                backToSearchButton.classList.add('visible');
+            }}
+            
+            currentSearchQuery = query;
         }}
         
+        // Search button click
+        searchButton.addEventListener('click', () => {{
+            performSearch(searchBox.value);
+        }});
+        
+        // Clear button click
+        clearButton.addEventListener('click', () => {{
+            searchBox.value = '';
+            performSearch('');
+            searchBox.focus();
+        }});
+        
+        // Enter key in search box
+        searchBox.addEventListener('keydown', (e) => {{
+            if (e.key === 'Enter') {{
+                e.preventDefault();
+                performSearch(searchBox.value);
+            }} else if (e.key === 'Escape') {{
+                clearButton.click();
+            }}
+            // Let normal key events (including backspace) work normally
+        }});
+        
+        // Real-time search with debouncing
         searchBox.addEventListener('input', (e) => {{
-            searchEntries(e.target.value);
+            // Clear previous timeout
+            if (searchTimeout) {{
+                clearTimeout(searchTimeout);
+            }}
+            
+            // Debounce search
+            searchTimeout = setTimeout(() => {{
+                performSearch(e.target.value);
+            }}, 300); // Wait 300ms after user stops typing
+        }});
+        
+        // Back to search button
+        backToSearchButton.addEventListener('click', () => {{
+            searchSection.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+            searchBox.focus();
+        }});
+        
+        // Keyboard shortcut: Esc to clear, Ctrl+F or Cmd+F to focus search
+        document.addEventListener('keydown', (e) => {{
+            if (e.key === 'Escape' && searchBox.value) {{
+                clearButton.click();
+            }} else if ((e.ctrlKey || e.metaKey) && e.key === 'f') {{
+                e.preventDefault();
+                searchBox.focus();
+                searchBox.select();
+            }}
         }});
         
         // Smooth scrolling for TOC links
