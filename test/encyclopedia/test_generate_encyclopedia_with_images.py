@@ -91,14 +91,12 @@ class TestGenerateEncyclopediaWithImages:
         print(f"\nEntry Details:")
         for entry in encyclopedia.entries:
             term = entry.get('term', entry.get('canonical_term', 'Unknown'))
-            has_image = bool(entry.get('figure_html') or entry.get('image_link'))
+            has_image = (entry.get('figure_html') is not None) or bool(entry.get('image_link'))
             print(f"  - {term}: Image={'✓' if has_image else '✗'}")
         
         print(f"\n{'='*60}")
         print(f"✓ Encyclopedia generated: {output_file}")
         print(f"{'='*60}\n")
-        
-        return output_file
     
     def test_generate_science_encyclopedia_with_images(self):
         """Generate a science-themed encyclopedia with ~12 entries, all with images"""
@@ -172,11 +170,9 @@ class TestGenerateEncyclopediaWithImages:
         print(f"\nEntry Details:")
         for entry in encyclopedia.entries:
             term = entry.get('term', entry.get('canonical_term', 'Unknown'))
-            has_image = bool(entry.get('figure_html') or entry.get('image_link'))
+            has_image = (entry.get('figure_html') is not None) or bool(entry.get('image_link'))
             print(f"  - {term}: Image={'✓' if has_image else '✗'}")
         
         print(f"\n{'='*60}")
         print(f"✓ Encyclopedia generated: {output_file}")
         print(f"{'='*60}\n")
-        
-        return output_file

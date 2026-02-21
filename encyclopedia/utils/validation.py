@@ -262,7 +262,7 @@ def validate_image_links_added(encyclopedia: AmiEncyclopedia, check_url_exists: 
         has_image = False
         image_url = None
         
-        if figure_html:
+        if figure_html is not None:
             # Check if it's an element (lxml Element)
             if hasattr(figure_html, 'tag'):
                 # Check for <a> element with href
@@ -352,7 +352,7 @@ def validate_image_links_added(encyclopedia: AmiEncyclopedia, check_url_exists: 
                 'wikipedia_url': wikipedia_url,
                 'has_figure_html': figure_html is not None,
                 'has_image_link': image_link is not None,
-                'figure_html_type': type(figure_html).__name__ if figure_html else None
+                'figure_html_type': type(figure_html).__name__ if figure_html is not None else None
             })
     
     success_rate = (len(entries_with_images) / total * 100) if total > 0 else 0.0

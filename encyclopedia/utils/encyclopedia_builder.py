@@ -408,12 +408,12 @@ def add_image_link_to_entry(
         figure_html = entry.get('figure_html')
         image_link = entry.get('image_link')
         
-        if figure_html or image_link:
+        if figure_html is not None or image_link:
             result['success'] = True
             result['has_image_link'] = True
             
             # Extract URL from figure_html if it's an element
-            if figure_html and hasattr(figure_html, 'get'):
+            if figure_html is not None and hasattr(figure_html, 'get'):
                 result['image_url'] = figure_html.get('href') or image_link
             else:
                 result['image_url'] = image_link

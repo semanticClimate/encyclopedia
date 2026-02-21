@@ -105,7 +105,7 @@ class TestImageInclusion:
         
         for entry in encyclopedia.entries:
             term = entry.get('term', entry.get('canonical_term', 'Unknown'))
-            has_figure_html = bool(entry.get('figure_html'))
+            has_figure_html = entry.get('figure_html') is not None
             has_image_link = bool(entry.get('image_link'))
             has_images = bool(entry.get('images'))
             
@@ -158,6 +158,3 @@ class TestImageInclusion:
         print(f"\n{'='*60}")
         print(f"✓ Test passed: Images are included when add_images=True")
         print(f"{'='*60}\n")
-        
-        # Return file path for manual verification
-        return output_file

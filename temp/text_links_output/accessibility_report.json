@@ -1,27 +1,27 @@
 {
-  "/wiki/Statistical_population": {
+  "/wiki/Hair": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Statistical_population",
+    "final_url": "https://en.wikipedia.org/wiki/Hair",
     "accessible": true
   },
-  "/wiki/Earth%27s_energy_imbalance": {
+  "/wiki/Experiment": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Earth%27s_energy_imbalance",
+    "final_url": "https://en.wikipedia.org/wiki/Experiment",
     "accessible": true
   },
-  "/wiki/Tropopause": {
+  "/wiki/Watt": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Tropopause",
+    "final_url": "https://en.wikipedia.org/wiki/Watt",
     "accessible": true
   },
-  "/wiki/Extratropical_cyclone": {
+  "/wiki/Meteorology": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Extratropical_cyclone",
+    "final_url": "https://en.wikipedia.org/wiki/Meteorology",
     "accessible": true
   },
-  "/wiki/Climate_system": {
+  "/wiki/Climate_change_feedback": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Climate_system",
+    "final_url": "https://en.wikipedia.org/wiki/Climate_change_feedback",
     "accessible": true
   }
 }

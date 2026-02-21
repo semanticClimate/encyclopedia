@@ -553,7 +553,7 @@ class AmiEncyclopedia:
                 figure_html = None
                 image_link = None
                 for entry in entries:
-                    if entry.get('figure_html'):
+                    if entry.get('figure_html') is not None:
                         figure_html = entry.get('figure_html')
                         image_link = entry.get('image_link')  # Also preserve image_link
                         break
