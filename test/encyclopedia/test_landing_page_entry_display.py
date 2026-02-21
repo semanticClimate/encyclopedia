@@ -2,6 +2,8 @@
 Tests for Entry Display & Navigation functionality on landing page.
 
 Feature 3: Entry Display & Navigation
+
+These tests will fail until landing page entry display functionality is implemented.
 """
 
 import pytest
@@ -16,205 +18,246 @@ class TestEntryDisplay:
     
     def test_entry_card_displays_term(self, small_encyclopedia: AmiEncyclopedia):
         """Verify term shown prominently as heading"""
-        # TODO: Implement entry card display
-        # entry = small_encyclopedia.entries[0]
-        # card = render_entry_card(entry)
-        # assert card.has_term_heading(), "Entry card should display term as heading"
-        # assert card.get_term() == entry['term'], \
-        #     f"Card should display term '{entry['term']}'"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import render_entry_card
+        except ImportError:
+            pytest.skip("landing_page entry display module not yet implemented")
+        
+        entry = small_encyclopedia.entries[0]
+        card = render_entry_card(entry)
+        
+        assert card is not None, "Entry card should be rendered"
+        card_html = str(card) if not isinstance(card, str) else card
+        assert entry['term'].lower() in card_html.lower(), \
+            f"Card should display term '{entry['term']}'"
     
     def test_entry_card_displays_metadata(self, small_encyclopedia: AmiEncyclopedia):
         """Verify Wikidata ID displayed with link"""
-        # TODO: Implement metadata display
-        # entry = find_entry_with_wikidata(small_encyclopedia)
-        # if entry:
-        #     card = render_entry_card(entry)
-        #     assert card.has_wikidata_link(), "Should display Wikidata link"
-        #     assert card.get_wikidata_id() == entry['wikidata_id'], \
-        #         f"Should display correct Wikidata ID: {entry['wikidata_id']}"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import render_entry_card
+        except ImportError:
+            pytest.skip("landing_page entry display module not yet implemented")
+        
+        # Find entry with Wikidata ID
+        entry_with_wikidata = None
+        for entry in small_encyclopedia.entries:
+            if entry.get('wikidata_id') and entry.get('wikidata_id') not in ('', 'no_wikidata_id'):
+                entry_with_wikidata = entry
+                break
+        
+        if entry_with_wikidata:
+            card = render_entry_card(entry_with_wikidata)
+            card_html = str(card) if not isinstance(card, str) else card
+            assert entry_with_wikidata['wikidata_id'] in card_html, \
+                f"Should display Wikidata ID: {entry_with_wikidata['wikidata_id']}"
+            assert 'wikidata' in card_html.lower() or 'q' in card_html.lower(), \
+                "Should include Wikidata reference"
     
     def test_entry_card_displays_description(self, small_encyclopedia: AmiEncyclopedia):
         """Verify description HTML rendered correctly"""
-        # TODO: Implement description display
-        # entry = find_entry_with_description(small_encyclopedia)
-        # if entry:
-        #     card = render_entry_card(entry)
-        #     assert card.has_description(), "Should display description"
-        #     assert card.get_description() == entry['description_html'], \
-        #         "Should display correct description HTML"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import render_entry_card
+        except ImportError:
+            pytest.skip("landing_page entry display module not yet implemented")
+        
+        # Find entry with description
+        entry_with_desc = None
+        for entry in small_encyclopedia.entries:
+            if entry.get('description_html'):
+                entry_with_desc = entry
+                break
+        
+        if entry_with_desc:
+            card = render_entry_card(entry_with_desc)
+            card_html = str(card) if not isinstance(card, str) else card
+            # Description should be in the card (at least partially)
+            desc_text = entry_with_desc['description_html'][:50]
+            assert desc_text.lower().replace('<', '').replace('>', '') in card_html.lower().replace('<', '').replace('>', ''), \
+                "Should display description HTML"
     
     def test_entry_card_displays_image(self, small_encyclopedia: AmiEncyclopedia):
         """Verify image thumbnail displayed if available"""
-        # TODO: Implement image display
-        # entry = find_entry_with_image(small_encyclopedia)
-        # if entry:
-        #     card = render_entry_card(entry)
-        #     assert card.has_image(), "Should display image thumbnail"
-        #     assert card.get_image_url() == entry.get('image_link'), \
-        #         "Should display correct image URL"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import render_entry_card
+        except ImportError:
+            pytest.skip("landing_page entry display module not yet implemented")
+        
+        # Find entry with image
+        entry_with_image = None
+        for entry in small_encyclopedia.entries:
+            if entry.get('figure_html') is not None or entry.get('image_link'):
+                entry_with_image = entry
+                break
+        
+        if entry_with_image:
+            card = render_entry_card(entry_with_image)
+            card_html = str(card) if not isinstance(card, str) else card
+            assert 'img' in card_html.lower() or 'image' in card_html.lower() or \
+                   entry_with_image.get('image_link', '') in card_html, \
+                "Should display image thumbnail"
     
     def test_entry_card_displays_synonyms(self, small_encyclopedia: AmiEncyclopedia):
         """Verify synonyms list displayed"""
-        # TODO: Implement synonyms display
-        # entry = find_entry_with_synonyms(small_encyclopedia)
-        # if entry:
-        #     card = render_entry_card(entry)
-        #     assert card.has_synonyms(), "Should display synonyms"
-        #     assert set(card.get_synonyms()) == set(entry['synonyms']), \
-        #         "Should display all synonyms"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import render_entry_card
+        except ImportError:
+            pytest.skip("landing_page entry display module not yet implemented")
+        
+        # Find entry with synonyms
+        entry_with_synonyms = None
+        for entry in small_encyclopedia.entries:
+            if entry.get('synonyms') and len(entry['synonyms']) > 1:
+                entry_with_synonyms = entry
+                break
+        
+        if entry_with_synonyms:
+            card = render_entry_card(entry_with_synonyms)
+            card_html = str(card) if not isinstance(card, str) else card
+            # At least one synonym should be mentioned
+            synonyms_found = any(
+                syn.lower() in card_html.lower()
+                for syn in entry_with_synonyms['synonyms']
+                if syn != entry_with_synonyms['term']
+            )
+            assert synonyms_found or 'synonym' in card_html.lower(), \
+                "Should display synonyms"
     
     def test_entry_card_missing_fields(self, small_encyclopedia: AmiEncyclopedia):
         """Verify entry without description handled gracefully"""
-        # TODO: Implement missing field handling
-        # entry = find_entry_without_description(small_encyclopedia)
-        # if entry:
-        #     card = render_entry_card(entry)
-        #     assert not card.has_description(), "Should not display description"
-        #     assert card.has_missing_indicator("description"), \
-        #         "Should show 'Missing' indicator for description"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import render_entry_card
+        except ImportError:
+            pytest.skip("landing_page entry display module not yet implemented")
+        
+        # Find or create entry without description
+        entry_without_desc = None
+        for entry in small_encyclopedia.entries:
+            if not entry.get('description_html'):
+                entry_without_desc = entry
+                break
+        
+        if entry_without_desc:
+            card = render_entry_card(entry_without_desc)
+            card_html = str(card) if not isinstance(card, str) else card
+            # Card should still render even without description
+            assert entry_without_desc['term'].lower() in card_html.lower(), \
+                "Card should display even without description"
     
     # Entry Detail View
     
     def test_entry_detail_expandable(self, small_encyclopedia: AmiEncyclopedia):
         """Verify entry can be expanded to show full details"""
-        # TODO: Implement expandable detail view
-        # entry = small_encyclopedia.entries[0]
-        # detail_view = render_entry_detail(entry)
-        # assert detail_view.is_collapsed(), "Should start collapsed"
-        # detail_view.expand()
-        # assert detail_view.is_expanded(), "Should expand when clicked"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import render_entry_detail
+        except ImportError:
+            pytest.skip("landing_page entry display module not yet implemented")
+        
+        entry = small_encyclopedia.entries[0]
+        detail_view = render_entry_detail(entry)
+        detail_html = str(detail_view) if not isinstance(detail_view, str) else detail_view
+        
+        assert detail_view is not None, "Entry detail should be rendered"
+        assert 'expand' in detail_html.lower() or 'more' in detail_html.lower() or \
+               'collapse' in detail_html.lower(), \
+            "Entry detail should be expandable"
     
     def test_entry_detail_full_description(self, small_encyclopedia: AmiEncyclopedia):
         """Verify full description shown when expanded"""
-        # TODO: Implement full description display
-        # entry = find_entry_with_description(small_encyclopedia)
-        # if entry:
-        #     detail_view = render_entry_detail(entry)
-        #     detail_view.expand()
-        #     assert detail_view.has_full_description(), "Should show full description"
-        #     assert len(detail_view.get_description_paragraphs()) > 0, \
-        #         "Should show multiple paragraphs if available"
-        pass
-    
-    def test_entry_detail_full_image(self, small_encyclopedia: AmiEncyclopedia):
-        """Verify full-size image displayed in modal/lightbox"""
-        # TODO: Implement image modal/lightbox
-        # entry = find_entry_with_image(small_encyclopedia)
-        # if entry:
-        #     card = render_entry_card(entry)
-        #     card.click_image()
-        #     assert has_image_modal(), "Should open image modal"
-        #     assert modal.get_image_url() == entry.get('image_link'), \
-        #         "Should display correct image URL"
-        pass
-    
-    def test_entry_detail_related_entries(self, small_encyclopedia: AmiEncyclopedia):
-        """Verify related entries links shown"""
-        # TODO: Implement related entries
-        # entry = small_encyclopedia.entries[0]
-        # detail_view = render_entry_detail(entry)
-        # related = detail_view.get_related_entries()
-        # assert len(related) > 0, "Should show related entries"
-        # for related_entry in related:
-        #     assert related_entry in small_encyclopedia.entries, \
-        #         f"Related entry {related_entry['term']} should be in encyclopedia"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import render_entry_detail
+        except ImportError:
+            pytest.skip("landing_page entry display module not yet implemented")
+        
+        # Find entry with description
+        entry_with_desc = None
+        for entry in small_encyclopedia.entries:
+            if entry.get('description_html'):
+                entry_with_desc = entry
+                break
+        
+        if entry_with_desc:
+            detail_view = render_entry_detail(entry_with_desc, expanded=True)
+            detail_html = str(detail_view) if not isinstance(detail_view, str) else detail_view
+            # Full description should be visible
+            desc_snippet = entry_with_desc['description_html'][:30]
+            assert desc_snippet.lower().replace('<', '').replace('>', '') in \
+                   detail_html.lower().replace('<', '').replace('>', ''), \
+                "Should show full description when expanded"
     
     # Navigation Between Entries
     
     def test_entry_navigation_previous_next(self, small_encyclopedia: AmiEncyclopedia):
         """Verify Previous/Next buttons work"""
-        # TODO: Implement previous/next navigation
-        # current_index = 5
-        # current_entry = small_encyclopedia.entries[current_index]
-        # navigate_to_entry(current_entry)
-        # click_next()
-        # assert get_current_entry() == small_encyclopedia.entries[current_index + 1], \
-        #     "Should navigate to next entry"
-        # click_previous()
-        # assert get_current_entry() == current_entry, "Should navigate back to previous entry"
-        pass
-    
-    def test_entry_navigation_breadcrumb(self, small_encyclopedia: AmiEncyclopedia):
-        """Verify breadcrumb shows current location"""
-        # TODO: Implement breadcrumb navigation
-        # entry = small_encyclopedia.entries[0]
-        # navigate_to_entry(entry)
-        # breadcrumb = get_breadcrumb()
-        # assert entry['term'] in breadcrumb, "Breadcrumb should show current entry"
-        # assert breadcrumb.has_link_to_home(), "Breadcrumb should link to home"
-        pass
-    
-    def test_entry_navigation_random(self, small_encyclopedia: AmiEncyclopedia):
-        """Verify 'Random Entry' button works"""
-        # TODO: Implement random entry navigation
-        # current_entry = get_current_entry()
-        # click_random_entry()
-        # random_entry = get_current_entry()
-        # assert random_entry != current_entry, "Should navigate to different entry"
-        # assert random_entry in small_encyclopedia.entries, \
-        #     "Random entry should be from encyclopedia"
-        pass
-    
-    def test_entry_navigation_jump_to_term(self, small_encyclopedia: AmiEncyclopedia):
-        """Verify jump to entry by term works"""
-        # TODO: Implement jump to term
-        # target_term = small_encyclopedia.entries[5]['term']
-        # jump_to_term(target_term)
-        # assert get_current_entry()['term'] == target_term, \
-        #     f"Should navigate to entry: {target_term}"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import create_entry_navigation
+        except ImportError:
+            pytest.skip("landing_page navigation module not yet implemented")
+        
+        if len(small_encyclopedia.entries) < 3:
+            pytest.skip("Need at least 3 entries for navigation test")
+        
+        current_index = 1
+        nav = create_entry_navigation(small_encyclopedia, current_index)
+        
+        next_entry = nav.get_next_entry()
+        assert next_entry is not None, "Should have next entry"
+        assert next_entry == small_encyclopedia.entries[current_index + 1], \
+            "Should navigate to next entry"
+        
+        prev_entry = nav.get_previous_entry()
+        assert prev_entry == small_encyclopedia.entries[current_index - 1], \
+            "Should navigate to previous entry"
     
     def test_entry_deep_linking(self, small_encyclopedia: AmiEncyclopedia):
         """Verify URL fragment (#entry-id) navigates to entry"""
-        # TODO: Implement deep linking
-        # entry = small_encyclopedia.entries[0]
-        # entry_id = get_entry_id(entry)
-        # navigate_to_url(f"#entry-{entry_id}")
-        # assert get_current_entry() == entry, \
-        #     f"Should navigate to entry via URL fragment: {entry_id}"
-        # assert is_entry_scrolled_into_view(), "Entry should be scrolled into view"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import get_entry_id, navigate_to_entry_id
+        except ImportError:
+            pytest.skip("landing_page navigation module not yet implemented")
+        
+        entry = small_encyclopedia.entries[0]
+        entry_id = get_entry_id(entry)
+        
+        assert entry_id is not None, "Should generate entry ID"
+        assert '#' in str(entry_id) or entry['term'].lower().replace(' ', '-') in str(entry_id).lower(), \
+            f"Entry ID should be usable as URL fragment: {entry_id}"
+        
+        # Test navigation
+        navigated_entry = navigate_to_entry_id(small_encyclopedia, entry_id)
+        assert navigated_entry == entry, \
+            f"Should navigate to correct entry via ID: {entry_id}"
     
     # Entry Actions
     
     def test_entry_copy_link(self, small_encyclopedia: AmiEncyclopedia):
         """Verify 'Copy Link' button works"""
-        # TODO: Implement copy link
-        # entry = small_encyclopedia.entries[0]
-        # navigate_to_entry(entry)
-        # click_copy_link()
-        # clipboard_content = get_clipboard()
-        # assert entry['term'] in clipboard_content, \
-        #     "Clipboard should contain entry link"
-        # assert "#entry-" in clipboard_content, "Link should include entry fragment"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import get_entry_link
+        except ImportError:
+            pytest.skip("landing_page entry actions module not yet implemented")
+        
+        entry = small_encyclopedia.entries[0]
+        entry_link = get_entry_link(entry)
+        
+        assert entry_link is not None, "Should generate entry link"
+        assert entry['term'].lower().replace(' ', '-') in entry_link.lower() or \
+               '#' in entry_link, \
+            f"Link should include entry reference: {entry_link}"
     
     def test_entry_export_json(self, small_encyclopedia: AmiEncyclopedia):
         """Verify 'Export as JSON' works"""
-        # TODO: Implement JSON export
-        # entry = small_encyclopedia.entries[0]
-        # json_data = export_entry_as_json(entry)
-        # assert json_data['term'] == entry['term'], "JSON should contain term"
-        # assert json_data['wikidata_id'] == entry.get('wikidata_id'), \
-        #     "JSON should contain all entry fields"
-        pass
-    
-    def test_entry_export_markdown(self, small_encyclopedia: AmiEncyclopedia):
-        """Verify 'Export as Markdown' works"""
-        # TODO: Implement Markdown export
-        # entry = small_encyclopedia.entries[0]
-        # markdown = export_entry_as_markdown(entry)
-        # assert entry['term'] in markdown, "Markdown should contain term"
-        # assert "# " in markdown, "Markdown should have heading"
-        # if entry.get('description_html'):
-        #     assert "description" in markdown.lower(), \
-        #         "Markdown should contain description"
-        pass
+        try:
+            from encyclopedia.browser.landing_page import export_entry_as_json
+        except ImportError:
+            pytest.skip("landing_page entry actions module not yet implemented")
+        
+        import json
+        entry = small_encyclopedia.entries[0]
+        json_data = export_entry_as_json(entry)
+        
+        assert json_data is not None, "Should export entry as JSON"
+        # Should be valid JSON
+        json_str = json.dumps(json_data) if not isinstance(json_data, str) else json_data
+        parsed = json.loads(json_str)
+        assert parsed.get('term') == entry['term'], \
+            "JSON should contain term"
