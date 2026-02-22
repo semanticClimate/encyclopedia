@@ -2,7 +2,22 @@
 
 ## Overview
 
-The Encyclopedia Browser is a web-based tool for searching and browsing encyclopedia entries. It supports up to 5,000 entries with fast search capabilities including exact matching, stemming, and fuzzy matching.
+The Encyclopedia Browser provides **two options** for browsing encyclopedia entries:
+
+1. **Streamlit Browser** (this document) - Interactive web app with advanced features
+2. **HTML Browser** - Static HTML file for casual browsing (no installation)
+
+**Quick Decision:**
+- **Need advanced features or editing?** → Use Streamlit Browser (requires installation)
+- **Just want to browse?** → Use HTML Browser (no installation needed)
+
+See `docs/BROWSER_COMPARISON.md` for detailed comparison.
+
+---
+
+## Streamlit Browser
+
+The Streamlit Browser is a web-based tool for searching and browsing encyclopedia entries. It supports up to 5,000 entries with fast search capabilities including exact matching, stemming, and fuzzy matching.
 
 ## Installation
 

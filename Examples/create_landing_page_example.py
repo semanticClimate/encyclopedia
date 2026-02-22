@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
 """
-Create an example landing page HTML file from an encyclopedia.
+Create a static HTML landing page for casual browsing.
 
-This creates a basic landing page with:
+This generates a self-contained HTML file that works offline without any installation.
+Perfect for casual users who just want to browse and search entries.
+
+For advanced features (editing, complex operations), use the Streamlit browser:
+    streamlit run encyclopedia/browser/app.py
+
+HTML Browser Features:
 - Table of Contents (TOC)
-- Search functionality
+- Search functionality with target options
 - Statistics dashboard
 - Entry display
 - Pagination
+- Works offline (no server needed)
+- No installation required
 
 Usage:
     python Examples/create_landing_page_example.py

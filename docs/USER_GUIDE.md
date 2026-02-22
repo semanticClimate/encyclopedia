@@ -25,17 +25,23 @@ python -m Examples.create_encyclopedia_from_wordlist \
 
 ### 2. View Your Encyclopedia
 
-**Option A: Landing Page (Recommended)**
+**Option A: HTML Browser (No Installation)**
 ```bash
 python Examples/create_landing_page_example.py
 # Opens: temp/examples/landing_page/encyclopedia_landing_page.html
+# Just open in any browser - works offline!
 ```
+Perfect for casual browsing - no installation needed.
 
-**Option B: Streamlit Browser**
+**Option B: Streamlit Browser (Advanced Features)**
 ```bash
+# First install: pip install streamlit whoosh nltk lxml
 streamlit run encyclopedia/browser/app.py
 # Then upload your encyclopedia HTML file in the sidebar
 ```
+Best for advanced features and future editing capabilities.
+
+See `BROWSER_COMPARISON.md` for detailed comparison.
 
 ### 3. Process Existing Encyclopedia
 
