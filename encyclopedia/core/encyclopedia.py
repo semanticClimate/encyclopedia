@@ -59,6 +59,7 @@ class AmiEncyclopedia:
     METADATA_VERSION = "version"
     METADATA_ACTIONS = "actions"
     METADATA_HIDDEN_ENTRIES = "hidden_entries"
+    METADATA_DELETED_ENTRIES = "deleted_entries"
     METADATA_DISAMBIGUATION_SELECTIONS = "disambiguation_selections"
     METADATA_MERGE_OPERATIONS = "merge_operations"
     METADATA_SORT_HISTORY = "sort_history"
@@ -66,8 +67,15 @@ class AmiEncyclopedia:
     
     # Action type constants
     ACTION_HIDE = "hide"
+    ACTION_SHOW = "show"
+    ACTION_DELETE = "delete"
+    ACTION_RESTORE = "restore"
     ACTION_DISAMBIGUATION_SELECT = "disambiguation_select"
     ACTION_MERGE_SYNONYMS = "merge_synonyms"
+    ACTION_MARK_NEEDS_EDITING = "mark_needs_editing"
+    ACTION_RESOLVE_EDITING = "resolve_editing"
+    ACTION_ADD_FROM_WIKIPEDIA = "add_from_wikipedia"
+    ACTION_MERGE = "merge"
     ACTION_SORT = "sort"
     
     def __init__(self, title: str = "Encyclopedia"):
@@ -114,6 +122,7 @@ class AmiEncyclopedia:
             self.METADATA_VERSION: "1.0.0",
             self.METADATA_ACTIONS: [],
             self.METADATA_HIDDEN_ENTRIES: [],
+            self.METADATA_DELETED_ENTRIES: [],
             self.METADATA_DISAMBIGUATION_SELECTIONS: [],
             self.METADATA_MERGE_OPERATIONS: [],
             self.METADATA_SORT_HISTORY: [],
@@ -160,6 +169,51 @@ class AmiEncyclopedia:
             entries = _extract_entries_from_encyclopedia_html(html_root)
             self.entries = entries
             self.title = encyclopedia_div[0].get('title', 'Encyclopedia')
+            
+            # Load metadata from data-metadata attribute if present
+            metadata_attr = encyclopedia_div[0].get('data-metadata')
+            if metadata_attr:
+                try:
+                    loaded_metadata = json.loads(metadata_attr)
+                    # Merge loaded metadata with existing metadata (preserve structure)
+                    # Update fields that should be preserved
+                    if self.METADATA_DELETED_ENTRIES in loaded_metadata:
+                        self.metadata[self.METADATA_DELETED_ENTRIES] = loaded_metadata.get(self.METADATA_DELETED_ENTRIES, [])
+                    if self.METADATA_HIDDEN_ENTRIES in loaded_metadata:
+                        self.metadata[self.METADATA_HIDDEN_ENTRIES] = loaded_metadata.get(self.METADATA_HIDDEN_ENTRIES, [])
+                    if self.METADATA_MERGE_OPERATIONS in loaded_metadata:
+                        self.metadata[self.METADATA_MERGE_OPERATIONS] = loaded_metadata.get(self.METADATA_MERGE_OPERATIONS, [])
+                    if self.METADATA_ACTIONS in loaded_metadata:
+                        self.metadata[self.METADATA_ACTIONS] = loaded_metadata.get(self.METADATA_ACTIONS, [])
+                    if self.METADATA_VERSION in loaded_metadata:
+                        self.metadata[self.METADATA_VERSION] = loaded_metadata.get(self.METADATA_VERSION, "1.0.0")
+                    # Preserve created date, update last_edited
+                    if self.METADATA_CREATED in loaded_metadata:
+                        self.metadata[self.METADATA_CREATED] = loaded_metadata.get(self.METADATA_CREATED)
+                    self.metadata[self.METADATA_LAST_EDITED] = loaded_metadata.get(self.METADATA_LAST_EDITED, self._get_system_date())
+                except (json.JSONDecodeError, KeyError) as e:
+                    logger.warning(f"Failed to load metadata from HTML: {e}")
+            
+            # Also check for needs_editing flags in entry divs
+            entry_divs = html_root.xpath(".//div[@role='ami_entry']")
+            for entry_div in entry_divs:
+                entry_id = entry_div.get('data-entry-id', '')
+                data_needs_editing = entry_div.get('data-needs-editing')
+                data_editing_reason = entry_div.get('data-editing-reason', '')
+                
+                if data_needs_editing and data_needs_editing.lower() == 'true':
+                    # Find corresponding entry and add needs_editing flag
+                    for entry in self.entries:
+                        e_id = self._generate_entry_id_from_entry(entry, self.entries.index(entry))
+                        if e_id == entry_id:
+                            entry['needs_editing'] = {
+                                'flag': True,
+                                'reason': data_editing_reason or 'user_marked',
+                                'notes': '',
+                                'marked_at': self._get_system_date()
+                            }
+                            break
+            
             return self
         elif dictionary_div:
             # Dictionary format - use existing method
@@ -1067,6 +1121,33 @@ class AmiEncyclopedia:
             entry_id = self._generate_entry_id_from_merged_entry(merged_entry, idx)
             entry_div.attrib["data-entry-id"] = entry_id
             
+            # Add hidden attribute if entry is hidden
+            hidden_entries = self.metadata.get(self.METADATA_HIDDEN_ENTRIES, [])
+            if entry_id in hidden_entries:
+                entry_div.attrib["data-hidden"] = "true"
+            
+            # Add needs-editing attribute if entry needs editing
+            # Check original entries for needs_editing flag
+            # Match by Wikidata ID first, then by term
+            wikidata_id = merged_entry.get('wikidata_id', '')
+            canonical_term = merged_entry.get('canonical_term', '')
+            
+            for orig_idx, orig_entry in enumerate(self.entries):
+                orig_entry_id = self._generate_entry_id_from_entry(orig_entry, orig_idx)
+                
+                # Match by entry ID, Wikidata ID, or term
+                if (orig_entry_id == entry_id or
+                    (wikidata_id and orig_entry.get('wikidata_id') == wikidata_id) or
+                    (canonical_term and orig_entry.get('term', '').lower() == canonical_term.lower())):
+                    
+                    needs_editing = orig_entry.get('needs_editing', {})
+                    if needs_editing.get('flag') is True:
+                        entry_div.attrib["data-needs-editing"] = "true"
+                        reason = needs_editing.get('reason', '')
+                        if reason:
+                            entry_div.attrib["data-editing-reason"] = reason
+                    break
+            
             # Add canonical term (primary term for this merged entry)
             canonical_term = merged_entry.get('canonical_term', '')
             if canonical_term:
@@ -1286,6 +1367,8 @@ class AmiEncyclopedia:
     
     def save_wiki_normalized_html(self, output_file: Path) -> None:
         """Save wiki-normalized encyclopedia as HTML file"""
+        # Bump version before saving
+        self._bump_version()
         html_content = self.create_wiki_normalized_html()
         output_file.parent.mkdir(parents=True, exist_ok=True)
         output_file.write_text(html_content, encoding='utf-8')
@@ -2322,3 +2405,595 @@ class AmiEncyclopedia:
                 # Don't fail - just log the warning
         
         return stats
+    
+    # ============================================================================
+    # Editing Methods - Delete Functionality
+    # ============================================================================
+    
+    def _bump_version(self) -> None:
+        """Increment version number in metadata."""
+        current_version = self.metadata.get(self.METADATA_VERSION, "1.0.0")
+        # Parse version (e.g., "1.0.0" -> ["1", "0", "0"])
+        parts = current_version.split('.')
+        if len(parts) == 3:
+            try:
+                major, minor, point = int(parts[0]), int(parts[1]), int(parts[2])
+                # Increment point version
+                point += 1
+                new_version = f"{major}.{minor}.{point}"
+                self.metadata[self.METADATA_VERSION] = new_version
+            except ValueError:
+                # If version format is invalid, reset to 1.0.1
+                self.metadata[self.METADATA_VERSION] = "1.0.1"
+        else:
+            # If version format is unexpected, reset to 1.0.1
+            self.metadata[self.METADATA_VERSION] = "1.0.1"
+    
+    def _add_action(self, action_type: str, entry_id: str, details: Optional[Dict] = None) -> None:
+        """Add action to metadata actions list.
+        
+        Args:
+            action_type: Type of action (use ACTION_* constants)
+            entry_id: Entry ID affected
+            details: Optional additional details
+        """
+        action = {
+            'type': action_type,
+            'entry_id': entry_id,
+            'timestamp': self._get_system_date()
+        }
+        if details:
+            action.update(details)
+        
+        if self.METADATA_ACTIONS not in self.metadata:
+            self.metadata[self.METADATA_ACTIONS] = []
+        self.metadata[self.METADATA_ACTIONS].append(action)
+    
+    def delete_entry(self, entry_id: str, soft: bool = True) -> bool:
+        """Delete an entry from the encyclopedia.
+        
+        Args:
+            entry_id: Unique identifier for the entry to delete
+            soft: If True, mark as deleted in metadata (recoverable). 
+                  If False, remove from entries list.
+        
+        Returns:
+            True if entry was deleted, False if entry not found
+        """
+        # Find entry by ID
+        entry = None
+        entry_index = None
+        for idx, e in enumerate(self.entries):
+            e_id = self._generate_entry_id_from_entry(e, idx)
+            if e_id == entry_id:
+                entry = e
+                entry_index = idx
+                break
+        
+        if entry is None:
+            return False
+        
+        # Create deleted entry record
+        deleted_entry = {
+            'entry_id': entry_id,
+            'term': entry.get('term', ''),
+            'deleted_at': self._get_system_date(),
+            'entry_data': entry.copy(),  # Full entry for recovery
+            'soft': soft
+        }
+        
+        # Add to deleted_entries metadata
+        if self.METADATA_DELETED_ENTRIES not in self.metadata:
+            self.metadata[self.METADATA_DELETED_ENTRIES] = []
+        self.metadata[self.METADATA_DELETED_ENTRIES].append(deleted_entry)
+        
+        # If hard delete, remove from entries list
+        if not soft:
+            self.entries.pop(entry_index)
+        
+        # Add action
+        self._add_action(self.ACTION_DELETE, entry_id, {'soft': soft})
+        
+        # Update timestamps
+        self._update_last_edited()
+        
+        return True
+    
+    def restore_entry(self, entry_id: str) -> bool:
+        """Restore a deleted entry.
+        
+        Args:
+            entry_id: Unique identifier for the entry to restore
+        
+        Returns:
+            True if entry was restored, False if entry not found in deleted_entries
+        """
+        deleted_entries = self.metadata.get(self.METADATA_DELETED_ENTRIES, [])
+        
+        # Find deleted entry
+        deleted_entry = None
+        deleted_index = None
+        for idx, de in enumerate(deleted_entries):
+            if de.get('entry_id') == entry_id:
+                deleted_entry = de
+                deleted_index = idx
+                break
+        
+        if deleted_entry is None:
+            return False
+        
+        # If it was hard deleted, add back to entries list
+        if not deleted_entry.get('soft', True):
+            entry_data = deleted_entry.get('entry_data')
+            if entry_data:
+                self.entries.append(entry_data)
+        
+        # Remove from deleted_entries
+        deleted_entries.pop(deleted_index)
+        self.metadata[self.METADATA_DELETED_ENTRIES] = deleted_entries
+        
+        # Add action
+        self._add_action(self.ACTION_RESTORE, entry_id)
+        
+        # Update timestamps
+        self._update_last_edited()
+        
+        return True
+    
+    def get_deleted_entries(self) -> List[Dict]:
+        """Get list of all deleted entries.
+        
+        Returns:
+            List of deleted entry dictionaries from metadata['deleted_entries']
+        """
+        return self.metadata.get(self.METADATA_DELETED_ENTRIES, [])
+    
+    # ============================================================================
+    # Editing Methods - Hide Functionality
+    # ============================================================================
+    
+    def hide_entry(self, entry_id: str) -> bool:
+        """Hide an entry (temporary, reversible).
+        
+        Args:
+            entry_id: Unique identifier for the entry to hide
+        
+        Returns:
+            True if entry was hidden, False if entry not found
+        """
+        # Find entry by ID
+        entry = None
+        for idx, e in enumerate(self.entries):
+            e_id = self._generate_entry_id_from_entry(e, idx)
+            if e_id == entry_id:
+                entry = e
+                break
+        
+        if entry is None:
+            return False
+        
+        # Add to hidden_entries if not already there
+        hidden_entries = self.metadata.get(self.METADATA_HIDDEN_ENTRIES, [])
+        if entry_id not in hidden_entries:
+            hidden_entries.append(entry_id)
+            self.metadata[self.METADATA_HIDDEN_ENTRIES] = hidden_entries
+        
+        # Add action
+        self._add_action(self.ACTION_HIDE, entry_id)
+        
+        # Update timestamps
+        self._update_last_edited()
+        
+        return True
+    
+    def show_entry(self, entry_id: str) -> bool:
+        """Show a hidden entry (remove from hidden list).
+        
+        Args:
+            entry_id: Unique identifier for the entry to show
+        
+        Returns:
+            True if entry was shown, False if entry not found in hidden_entries
+        """
+        hidden_entries = self.metadata.get(self.METADATA_HIDDEN_ENTRIES, [])
+        
+        if entry_id not in hidden_entries:
+            return False
+        
+        # Remove from hidden_entries
+        hidden_entries.remove(entry_id)
+        self.metadata[self.METADATA_HIDDEN_ENTRIES] = hidden_entries
+        
+        # Add action
+        self._add_action(self.ACTION_SHOW, entry_id)
+        
+        # Update timestamps
+        self._update_last_edited()
+        
+        return True
+    
+    def get_hidden_entries(self) -> List[str]:
+        """Get list of hidden entry IDs.
+        
+        Returns:
+            List of entry IDs from metadata['hidden_entries']
+        """
+        return self.metadata.get(self.METADATA_HIDDEN_ENTRIES, [])
+    
+    # ============================================================================
+    # Editing Methods - Mark Needs Editing Functionality
+    # ============================================================================
+    
+    def mark_entry_needs_editing(self, entry_id: str, reason: str, notes: str = "") -> bool:
+        """Mark an entry as needing editing.
+        
+        Args:
+            entry_id: Unique identifier for the entry
+            reason: Reason code ("disambiguation", "incomplete", "error", "user_marked")
+            notes: Optional notes about why it needs editing
+        
+        Returns:
+            True if entry was marked, False if entry not found
+        """
+        # Find entry by ID
+        entry = None
+        entry_index = None
+        for idx, e in enumerate(self.entries):
+            e_id = self._generate_entry_id_from_entry(e, idx)
+            if e_id == entry_id:
+                entry = e
+                entry_index = idx
+                break
+        
+        if entry is None:
+            return False
+        
+        # Add needs_editing flag to entry
+        entry['needs_editing'] = {
+            'flag': True,
+            'reason': reason,
+            'notes': notes,
+            'marked_at': self._get_system_date()
+        }
+        
+        # Update entry in list
+        self.entries[entry_index] = entry
+        
+        # Add action
+        self._add_action(self.ACTION_MARK_NEEDS_EDITING, entry_id, {'reason': reason})
+        
+        # Update timestamps
+        self._update_last_edited()
+        
+        return True
+    
+    def resolve_entry_editing(self, entry_id: str) -> bool:
+        """Resolve editing flag (mark as no longer needing editing).
+        
+        Args:
+            entry_id: Unique identifier for the entry
+        
+        Returns:
+            True if entry was resolved, False if entry not found or not marked
+        """
+        # Find entry by ID
+        entry = None
+        entry_index = None
+        for idx, e in enumerate(self.entries):
+            e_id = self._generate_entry_id_from_entry(e, idx)
+            if e_id == entry_id:
+                entry = e
+                entry_index = idx
+                break
+        
+        if entry is None:
+            return False
+        
+        # Check if entry has needs_editing flag
+        if 'needs_editing' not in entry:
+            return False
+        
+        # Set flag to False or remove
+        needs_editing = entry.get('needs_editing', {})
+        needs_editing['flag'] = False
+        entry['needs_editing'] = needs_editing
+        
+        # Update entry in list
+        self.entries[entry_index] = entry
+        
+        # Add action
+        self._add_action(self.ACTION_RESOLVE_EDITING, entry_id)
+        
+        # Update timestamps
+        self._update_last_edited()
+        
+        return True
+    
+    def get_entries_needing_editing(self, reason: Optional[str] = None) -> List[Dict]:
+        """Get list of entries that need editing.
+        
+        Args:
+            reason: Optional filter by reason (if None, returns all entries needing editing)
+        
+        Returns:
+            List of entry dictionaries that need editing
+        """
+        needing_editing = []
+        
+        for entry in self.entries:
+            needs_editing = entry.get('needs_editing', {})
+            if needs_editing.get('flag') is True:
+                if reason is None or needs_editing.get('reason') == reason:
+                    needing_editing.append(entry)
+        
+        return needing_editing
+    
+    # ============================================================================
+    # Editing Methods - Add From Wikipedia Functionality
+    # ============================================================================
+    
+    def check_duplicate_entry(self, entry: Dict) -> tuple:
+        """Check if an entry is a duplicate of an existing entry.
+        
+        Args:
+            entry: Entry dictionary to check
+        
+        Returns:
+            Tuple of (is_duplicate: bool, existing_entry: Dict or None, match_type: str)
+        """
+        entry_wikidata_id = entry.get('wikidata_id', '')
+        entry_term = entry.get('term', '').lower()
+        entry_url = entry.get('wikipedia_url', '')
+        
+        # Check for duplicates in this order:
+        # 1. Exact Wikidata ID match (highest priority)
+        if entry_wikidata_id and entry_wikidata_id not in ('', 'no_wikidata_id', 'invalid_wikidata_id'):
+            for idx, existing in enumerate(self.entries):
+                existing_id = self._generate_entry_id_from_entry(existing, idx)
+                existing_wikidata_id = existing.get('wikidata_id', '')
+                if existing_wikidata_id == entry_wikidata_id:
+                    return (True, existing, 'wikidata_id')
+        
+        # 2. Exact term match (case-insensitive)
+        if entry_term:
+            for idx, existing in enumerate(self.entries):
+                existing_term = existing.get('term', '').lower()
+                if existing_term == entry_term:
+                    return (True, existing, 'term')
+        
+        # 3. Wikipedia URL match
+        if entry_url:
+            normalized_entry_url = self._normalize_wikipedia_url(entry_url)
+            for idx, existing in enumerate(self.entries):
+                existing_url = existing.get('wikipedia_url', '')
+                if existing_url:
+                    normalized_existing_url = self._normalize_wikipedia_url(existing_url)
+                    if normalized_existing_url == normalized_entry_url:
+                        return (True, existing, 'url')
+        
+        return (False, None, '')
+    
+    def add_entry_from_wikipedia(self, term: str, check_duplicates: bool = True) -> Dict:
+        """Add a new entry by searching Wikipedia.
+        
+        Args:
+            term: Search term for Wikipedia
+            check_duplicates: If True, check for duplicates before adding
+        
+        Returns:
+            Dictionary with:
+            - added: bool - Whether entry was added
+            - is_duplicate: bool - Whether duplicate was detected
+            - existing_entry: Dict or None - Existing entry if duplicate
+            - match_type: str or None - Type of duplicate match
+            - error: str or None - Error message if failed
+            - entry: Dict or None - New entry if added
+        """
+        result = {
+            'added': False,
+            'is_duplicate': False,
+            'existing_entry': None,
+            'match_type': None,
+            'error': None,
+            'entry': None
+        }
+        
+        try:
+            # Search Wikipedia
+            wikipedia_page = WikipediaPage.lookup_wikipedia_page_for_term(term)
+            
+            if not wikipedia_page:
+                result['error'] = f"No Wikipedia page found for '{term}'"
+                return result
+            
+            # Create entry dictionary
+            new_entry = {
+                'term': term,
+                'canonical_term': term,
+                'wikidata_id': '',
+                'wikipedia_url': wikipedia_page.url if hasattr(wikipedia_page, 'url') else '',
+                'description_html': '',
+                'definition_html': '',
+                'synonyms': []
+            }
+            
+            # Get Wikidata ID
+            if hasattr(wikipedia_page, 'get_wikidata_item'):
+                wikidata_item = wikipedia_page.get_wikidata_item()
+                if wikidata_item:
+                    new_entry['wikidata_id'] = wikidata_item.qid if hasattr(wikidata_item, 'qid') else ''
+            
+            # Get description (first paragraph)
+            if hasattr(wikipedia_page, 'create_first_wikipedia_para'):
+                para_obj = wikipedia_page.create_first_wikipedia_para()
+                if para_obj is and para_obj.para_element:
+                    para_html = XmlLib.element_to_string(para_obj.para_element)
+                    new_entry['description_html'] = para_html
+                    # Extract first sentence for definition
+                    para_text = para_obj.para_element.text_content() if hasattr(para_obj.para_element, 'text_content') else ''
+                    if para_text:
+                        first_sentence = para_text.split('.')[0] + '.' if '.' in para_text else para_text
+                        new_entry['definition_html'] = first_sentence
+            
+            # Check for duplicates
+            if check_duplicates:
+                is_duplicate, existing_entry, match_type = self.check_duplicate_entry(new_entry)
+                if is_duplicate:
+                    result['is_duplicate'] = True
+                    result['existing_entry'] = existing_entry
+                    result['match_type'] = match_type
+                    return result
+            
+            # Check if disambiguation page
+            is_disambiguation = False
+            if hasattr(wikipedia_page, 'is_disambiguation_page'):
+                is_disambiguation = wikipedia_page.is_disambiguation_page()
+            elif self._is_disambiguation_page(wikipedia_url=new_entry.get('wikipedia_url')):
+                is_disambiguation = True
+            
+            # Add entry to encyclopedia
+            self.entries.append(new_entry)
+            
+            # If disambiguation, auto-mark as needing editing
+            if is_disambiguation:
+                entry_id = self._generate_entry_id_from_entry(new_entry, len(self.entries) - 1)
+                self.mark_entry_needs_editing(entry_id, 'disambiguation', 
+                                             f'Auto-detected disambiguation page for {term}')
+            
+            # Add action
+            entry_id = self._generate_entry_id_from_entry(new_entry, len(self.entries) - 1)
+            self._add_action(self.ACTION_ADD_FROM_WIKIPEDIA, entry_id, {'term': term})
+            
+            # Update timestamps
+            self._update_last_edited()
+            
+            result['added'] = True
+            result['entry'] = new_entry
+            
+        except Exception as e:
+            result['error'] = str(e)
+            logger.error(f"Error adding entry from Wikipedia for '{term}': {e}")
+        
+        return result
+    
+    # ============================================================================
+    # Editing Methods - Merge Functionality
+    # ============================================================================
+    
+    def merge_encyclopedia(self, other: 'AmiEncyclopedia', conflict_resolution: Optional[Dict] = None) -> Dict:
+        """Merge another encyclopedia into this one.
+        
+        Args:
+            other: AmiEncyclopedia instance to merge FROM
+            conflict_resolution: Optional dict mapping term -> strategy 
+                                ("keep_target", "replace_with_source", "merge", "skip")
+        
+        Returns:
+            Dictionary with merge results:
+            - entries_added: int - Number of new entries added
+            - entries_merged: int - Number of entries merged (same Wikidata ID)
+            - conflicts: List[Dict] - List of conflicts detected
+            - resolved_conflicts: List[Dict] - List of conflicts resolved
+        """
+        result = {
+            'entries_added': 0,
+            'entries_merged': 0,
+            'conflicts': [],
+            'resolved_conflicts': []
+        }
+        
+        conflict_resolution = conflict_resolution or {}
+        
+        for source_entry in other.entries:
+            # Check for duplicates
+            is_duplicate, existing_entry, match_type = self.check_duplicate_entry(source_entry)
+            
+            if is_duplicate:
+                if match_type == 'wikidata_id':
+                    # Same Wikidata ID - merge as synonyms
+                    # This is handled by normalize/merge, so just count it
+                    result['entries_merged'] += 1
+                elif match_type == 'term':
+                    # Same term, different Wikidata ID - conflict
+                    conflict = {
+                        'term': source_entry.get('term'),
+                        'target_entry': existing_entry,
+                        'source_entry': source_entry,
+                        'match_type': match_type
+                    }
+                    
+                    # Check conflict resolution
+                    term = source_entry.get('term', '')
+                    resolution = conflict_resolution.get(term, 'keep_target')
+                    
+                    if resolution == 'replace_with_source':
+                        # Replace target with source
+                        target_index = self.entries.index(existing_entry)
+                        self.entries[target_index] = source_entry
+                        result['resolved_conflicts'].append({
+                            'term': term,
+                            'resolution': 'replace_with_source'
+                        })
+                    elif resolution == 'merge':
+                        # Merge entries (combine descriptions, etc.)
+                        # Keep target but enhance with source data
+                        if source_entry.get('description_html') and not existing_entry.get('description_html'):
+                            existing_entry['description_html'] = source_entry.get('description_html')
+                        result['resolved_conflicts'].append({
+                            'term': term,
+                            'resolution': 'merge'
+                        })
+                    elif resolution == 'skip':
+                        # Skip source entry
+                        result['resolved_conflicts'].append({
+                            'term': term,
+                            'resolution': 'skip'
+                        })
+                    else:
+                        # keep_target (default) - keep existing entry
+                        result['conflicts'].append(conflict)
+                else:
+                    # URL match - treat as duplicate, skip
+                    pass
+            else:
+                # No duplicate - add entry
+                self.entries.append(source_entry)
+                result['entries_added'] += 1
+        
+        # Merge metadata
+        # Merge hidden_entries
+        target_hidden = set(self.metadata.get(self.METADATA_HIDDEN_ENTRIES, []))
+        source_hidden = set(other.metadata.get(self.METADATA_HIDDEN_ENTRIES, []))
+        self.metadata[self.METADATA_HIDDEN_ENTRIES] = list(target_hidden | source_hidden)
+        
+        # Merge deleted_entries (keep both)
+        target_deleted = self.metadata.get(self.METADATA_DELETED_ENTRIES, [])
+        source_deleted = other.metadata.get(self.METADATA_DELETED_ENTRIES, [])
+        self.metadata[self.METADATA_DELETED_ENTRIES] = target_deleted + source_deleted
+        
+        # Merge actions
+        target_actions = self.metadata.get(self.METADATA_ACTIONS, [])
+        source_actions = other.metadata.get(self.METADATA_ACTIONS, [])
+        self.metadata[self.METADATA_ACTIONS] = target_actions + source_actions
+        
+        # Add merge operation to metadata
+        merge_operation = {
+            'source_file': getattr(other, 'title', 'Unknown'),
+            'target_file': self.title,
+            'merged_at': self._get_system_date(),
+            'entries_added': result['entries_added'],
+            'entries_merged': result['entries_merged'],
+            'conflicts_resolved': len(result['resolved_conflicts'])
+        }
+        
+        if self.METADATA_MERGE_OPERATIONS not in self.metadata:
+            self.metadata[self.METADATA_MERGE_OPERATIONS] = []
+        self.metadata[self.METADATA_MERGE_OPERATIONS].append(merge_operation)
+        
+        # Add action
+        self._add_action(self.ACTION_MERGE, '', {'merge_operation': merge_operation})
+        
+        # Update timestamps
+        self._update_last_edited()
+        
+        return result

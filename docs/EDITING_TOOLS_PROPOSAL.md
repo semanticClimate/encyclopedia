@@ -1,7 +1,8 @@
 # Editing Tools Proposal
 
 **Date:** February 21, 2026  
-**Status:** Proposal - Comments Only (No Implementation Yet)
+**Status:** Decisions Made - Ready for Implementation  
+**Last Updated:** February 21, 2026 (Decisions finalized)
 
 ## Overview
 
@@ -444,39 +445,94 @@ Streamlit Browser Tabs:
 
 ---
 
-## Questions for Discussion
+## Decisions Made (February 21, 2026)
 
-1. **Delete vs Hide:** Should we have both, or just hide with a "permanently delete" option?
-   - **Recommendation:** Both - hide for temporary, delete for permanent
+1. **Delete vs Hide:** ✅ **Both** - Hide for temporary, delete for permanent
+   - Hide: Temporary, reversible, entries remain searchable (if enabled)
+   - Delete: Permanent (after confirmation period), entries removed from data
 
-2. **Undo/Redo:** Should we implement full undo/redo, or just recovery from metadata?
-   - **Recommendation:** Start with recovery from metadata, add undo/redo later
+2. **Undo/Redo:** ✅ **Recovery from metadata first, undo/redo later**
+   - Start with recovery from metadata (deleted entries stored for 30 days)
+   - Add full undo/redo functionality in future phase
 
-3. **Batch Operations:** How many entries can be edited at once?
-   - **Recommendation:** Support batch operations with progress indicators
+3. **Batch Operations:** ✅ **Batch creation and editing workflow**
+   - Start with skeleton entries (term only)
+   - Add Wikipedia content in batches
+   - Resolve manual edits in batches
+   - Support batch operations with progress indicators
 
-4. **Conflict Resolution:** Automatic or always ask user?
-   - **Recommendation:** Default automatic, but show conflicts and allow override
+4. **Conflict Resolution:** ✅ **Always ask user**
+   - No automatic resolution
+   - Show conflicts in UI with side-by-side comparison
+   - User chooses: Keep target, Replace with source, Merge, Skip
 
-5. **Editing Interface:** Full WYSIWYG editor or form-based?
-   - **Recommendation:** Start with form-based (Streamlit forms), add rich editor later
+5. **Editing Interface:** ✅ **Form-based**
+   - Start with form-based editing (Streamlit forms)
+   - Add rich/WYSIWYG editor later if needed
 
-6. **Version Control:** Should editing operations create versions?
-   - **Recommendation:** Track in metadata, optional Git integration later
+6. **Version Control:** ✅ **Version bump when saved to file**
+   - Increment version in metadata when encyclopedia is saved
+   - Track in `metadata['version']` field
+   - Optional Git integration later
 
-7. **HTML Browser:** Should editing be available in HTML browser or only Streamlit?
-   - **Recommendation:** Streamlit only (requires server for persistence)
+7. **HTML Browser Editing:** ✅ **Streamlit only, but...**
+   - Editing always in Streamlit (requires server for persistence)
+   - **HTML users marking files as needing editing:**
+     - Challenge: No central server for HTML browser
+     - **Proposed solution:** GitHub Issues integration
+     - HTML browser could generate GitHub Issue URL with entry details
+     - Or: Save editing flags to HTML metadata, sync via Git when file is committed
+     - Or: Add comment/annotation system that saves to HTML file itself (readable by Streamlit)
 
 ---
 
+## Implementation Plan (Based on Decisions)
+
+### Phase 1: Core Infrastructure
+1. ✅ Extend `AmiEncyclopedia` metadata structure
+2. ✅ Add helper methods for entry manipulation
+3. ✅ Update `save_wiki_normalized_html()` to handle hidden/editing flags
+4. ✅ Add duplicate detection utilities
+5. ✅ **Version bumping on save** - Increment version in metadata
+
+### Phase 2: Basic Editing (Streamlit)
+1. ✅ Hide/Show entries UI
+2. ✅ Delete entries UI (with confirmation, soft delete first)
+3. ✅ Mark for editing UI (form-based)
+4. ✅ Filter by editing status
+5. ✅ **Batch operations** - Start with skeleton entries, batch Wikipedia addition
+
+### Phase 3: Advanced Editing
+1. ✅ Add from Wikipedia (with duplicate detection, always ask on conflict)
+2. ✅ Entry editing interface (form-based editing)
+3. ✅ Batch operations (hide/delete multiple, batch Wikipedia addition)
+4. ✅ **Recovery from metadata** - Restore deleted entries
+
+### Phase 4: Merge Functionality
+1. ✅ Merge encyclopedias (CLI)
+2. ✅ Merge encyclopedias (Streamlit UI, always ask user on conflicts)
+3. ✅ Conflict resolution interface (side-by-side comparison)
+
+### Phase 5: HTML Browser Integration
+1. ✅ **GitHub Issues integration** - Allow HTML users to mark entries needing editing
+2. ✅ Or: HTML metadata comments that Streamlit can read
+3. ✅ Export/Import editing history
+4. ✅ Statistics dashboard updates
+5. ✅ Documentation
+
+### Phase 6: Future Enhancements
+1. Full undo/redo functionality
+2. Rich text editor (if needed)
+3. Git integration for version control
+4. Advanced batch processing workflows
+
 ## Next Steps
 
-1. **Review this proposal** - Get feedback on architecture and approach
-2. **Prioritize features** - Which features are most important?
-3. **Design UI mockups** - Sketch Streamlit interface layouts
-4. **Implement Phase 1** - Core infrastructure
-5. **Test with real data** - Use actual encyclopedia files
-6. **Iterate based on feedback** - Refine based on user needs
+1. ✅ **Decisions made** - All questions answered
+2. **Design UI mockups** - Sketch Streamlit interface layouts based on decisions
+3. **Implement Phase 1** - Core infrastructure with version bumping
+4. **Test with real data** - Use actual encyclopedia files
+5. **Iterate based on feedback** - Refine based on user needs
 
 ---
 

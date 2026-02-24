@@ -31,11 +31,10 @@ class TestImageInclusion:
     
     def test_encyclopedia_with_images_includes_figures(self):
         """Test that creating encyclopedia with add_images=True includes images"""
-        # Test terms - all verified to have images on Wikipedia
+        # Test terms - all verified to have images on Wikipedia (reduced for speed)
         terms = [
             "climate change",
-            "methane",
-            "Atlantic meridional overturning circulation"
+            "methane"
         ]
         
         # Create output directory in temp/

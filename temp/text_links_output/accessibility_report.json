@@ -1,27 +1,27 @@
 {
-  "/wiki/Hair": {
+  "/wiki/Theria": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Hair",
+    "final_url": "https://en.wikipedia.org/wiki/Theria",
     "accessible": true
   },
-  "/wiki/Experiment": {
+  "/wiki/Psychology": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Experiment",
+    "final_url": "https://en.wikipedia.org/wiki/Psychology",
     "accessible": true
   },
-  "/wiki/Watt": {
+  "/wiki/Earth%27s_energy_imbalance": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Watt",
+    "final_url": "https://en.wikipedia.org/wiki/Earth%27s_energy_imbalance",
     "accessible": true
   },
-  "/wiki/Meteorology": {
+  "/wiki/Dust_devil": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Meteorology",
+    "final_url": "https://en.wikipedia.org/wiki/Dust_devil",
     "accessible": true
   },
-  "/wiki/Climate_change_feedback": {
+  "/wiki/Air_mass": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Climate_change_feedback",
+    "final_url": "https://en.wikipedia.org/wiki/Air_mass",
     "accessible": true
   }
 }

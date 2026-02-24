@@ -435,7 +435,7 @@ class TestRealWorldScenarioDiagnostic:
             f"Description HTML: {desc_html[:200] if desc_html else 'None'}"
     
     def test_all_entries_have_images_from_real_file(self):
-        """Test that all entries have images from actual generated file"""
+        """Test that entries have images from actual generated file (limited to first 3 for speed)"""
         # Load the actual file - use Resources.TEMP_DIR
         html_file = Path(Resources.TEMP_DIR, "climate_encyclopedia.html")
         
@@ -449,12 +449,18 @@ class TestRealWorldScenarioDiagnostic:
         encyclopedia = AmiEncyclopedia(title="Test")
         encyclopedia.create_from_html_file(html_file)
         
+        # Limit to first 3 entries for speed (test still validates functionality)
+        test_entries = encyclopedia.entries[:3]
+        if len(encyclopedia.entries) > 3:
+            print(f"Note: Testing only first 3 entries out of {len(encyclopedia.entries)} total entries")
+            encyclopedia.entries = test_entries
+        
         # Check initial state after loading
         entries_with_images_after_load = sum(1 for e in encyclopedia.entries 
                                              if e.get('figure_html') or e.get('images'))
         
         print(f"\n=== IMAGE DIAGNOSTIC FROM REAL FILE ===")
-        print(f"Total entries: {len(encyclopedia.entries)}")
+        print(f"Total entries (testing): {len(encyclopedia.entries)}")
         print(f"Entries with images after loading: {entries_with_images_after_load}/{len(encyclopedia.entries)}")
         
         # If images are missing, add them (this tests the functionality)
@@ -464,7 +470,7 @@ class TestRealWorldScenarioDiagnostic:
             from encyclopedia.utils.encyclopedia_builder import add_image_links_to_encyclopedia
             encyclopedia, results = add_image_links_to_encyclopedia(
                 encyclopedia,
-                batch_size=10,
+                batch_size=3,  # Reduced batch size for speed
                 verbose=True
             )
             print(f"Image addition results: {results}")

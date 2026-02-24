@@ -1,6 +1,5 @@
 """
-Test fixtures for encyclopedia landing page tests.
-"""
+Test fixtures for encyclopedia tests.
 
-# Import functions are done directly in conftest.py to avoid circular imports
-__all__ = []
+Empty __init__.py file per style guide.
+"""

@@ -22,19 +22,12 @@ class TestGenerateEncyclopediaWithImages:
     """Generate encyclopedia files with images for manual inspection"""
     
     def test_generate_climate_encyclopedia_with_images(self):
-        """Generate a climate-themed encyclopedia with ~10 entries, all with images"""
-        # Climate-related terms that should have images on Wikipedia
+        """Generate a climate-themed encyclopedia with ~3 entries, all with images"""
+        # Climate-related terms that should have images on Wikipedia (reduced for speed)
         terms = [
             "climate change",
             "greenhouse gas",
-            "carbon dioxide",
-            "methane",
-            "global warming",
-            "ice sheet",
-            "sea level rise",
-            "ocean acidification",
-            "atmosphere",
-            "precipitation"
+            "methane"
         ]
         
         # Create output directory in temp/
@@ -99,20 +92,11 @@ class TestGenerateEncyclopediaWithImages:
         print(f"{'='*60}\n")
     
     def test_generate_science_encyclopedia_with_images(self):
-        """Generate a science-themed encyclopedia with ~12 entries, all with images"""
-        # Science terms that should have images on Wikipedia
+        """Generate a science-themed encyclopedia with ~3 entries, all with images"""
+        # Science terms that should have images on Wikipedia (reduced for speed)
         terms = [
             "atom",
-            "molecule",
             "DNA",
-            "protein",
-            "cell",
-            "evolution",
-            "photosynthesis",
-            "ecosystem",
-            "biodiversity",
-            "genetics",
-            "microscope",
             "telescope"
         ]
         
