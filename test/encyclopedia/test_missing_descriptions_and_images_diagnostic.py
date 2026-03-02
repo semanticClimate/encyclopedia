@@ -379,8 +379,8 @@ class TestRealWorldScenarioDiagnostic:
     
     def test_climate_entry_from_real_file(self):
         """Test Climate entry from actual generated file"""
-        # Load the actual file - use Resources.TEMP_DIR
-        html_file = Path(Resources.TEMP_DIR, "climate_encyclopedia.html")
+        # Load the actual file - use test subdirectory in temp/
+        html_file = Path(Resources.TEMP_DIR, "test", "encyclopedia", "TestRealWorldScenarioDiagnostic", "climate_encyclopedia.html")
         
         if not html_file.exists():
             pytest.skip(f"File {html_file} does not exist. Run the command first.")
@@ -436,8 +436,8 @@ class TestRealWorldScenarioDiagnostic:
     
     def test_all_entries_have_images_from_real_file(self):
         """Test that entries have images from actual generated file (limited to first 3 for speed)"""
-        # Load the actual file - use Resources.TEMP_DIR
-        html_file = Path(Resources.TEMP_DIR, "climate_encyclopedia.html")
+        # Load the actual file - use test subdirectory in temp/
+        html_file = Path(Resources.TEMP_DIR, "test", "encyclopedia", "TestRealWorldScenarioDiagnostic", "climate_encyclopedia.html")
         
         if not html_file.exists():
             pytest.skip(f"File {html_file} does not exist. Run the command first.")

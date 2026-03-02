@@ -111,7 +111,7 @@ python -m pytest test/encyclopedia/test_missing_descriptions_and_images_diagnost
 ### TestRealWorldScenarioDiagnostic
 
 1. **`test_climate_entry_from_real_file`**
-   - Tests the actual Climate entry from `temp/climate_encyclopedia.html`
+   - Tests the actual Climate entry from `temp/test/encyclopedia/TestRealWorldScenarioDiagnostic/climate_encyclopedia.html`
    - **Diagnostic assertions:**
      - Loads the actual generated file
      - Finds Climate entry (Q7937)

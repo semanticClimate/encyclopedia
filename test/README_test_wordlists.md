@@ -41,7 +41,7 @@ These overlapping terms will be used to test:
 ```bash
 python -m encyclopedia.cli.versioned_editor create \
     --wordlist test/wordlist_a.txt \
-    --output test/encyclopedia_a.html \
+    --output temp/test/encyclopedia/wordlist_tests/encyclopedia_a.html \
     --title "Climate Encyclopedia A"
 ```
 
@@ -49,7 +49,7 @@ python -m encyclopedia.cli.versioned_editor create \
 ```bash
 python -m encyclopedia.cli.versioned_editor create \
     --wordlist test/wordlist_b.txt \
-    --output test/encyclopedia_b.html \
+    --output temp/test/encyclopedia/wordlist_tests/encyclopedia_b.html \
     --title "Climate Encyclopedia B"
 ```
 
@@ -57,8 +57,9 @@ python -m encyclopedia.cli.versioned_editor create \
 ```bash
 # When merge functionality is implemented
 python -m encyclopedia.cli.versioned_editor merge \
-    --input test/encyclopedia_a.html test/encyclopedia_b.html \
-    --output test/encyclopedia_merged.html
+    --input temp/test/encyclopedia/wordlist_tests/encyclopedia_a.html \
+            temp/test/encyclopedia/wordlist_tests/encyclopedia_b.html \
+    --output temp/test/encyclopedia/wordlist_tests/encyclopedia_merged.html
 ```
 
 ## Expected Results

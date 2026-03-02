@@ -23,6 +23,9 @@ Usage:
     
     # Launch Streamlit interface
     python -m encyclopedia.cli.versioned_editor streamlit --input test/encyclopedia_a.html
+    
+    # Create knowledge graph
+    python -m encyclopedia.cli.versioned_editor graph --input encyclopedia.html --output graph.graphml --format graphml --include-wikipedia --include-wikidata
 """
 
 import argparse
@@ -1386,6 +1389,135 @@ def launch_streamlit(input_file: Path, port: int = 8501):
         return 1
 
 
+def create_knowledge_graph(
+    input_file: Path,
+    output_file: Path,
+    format: str = 'graphml',
+    include_wikipedia: bool = False,
+    include_wikidata: bool = False,
+    min_weight: float = 0.0
+) -> int:
+    """
+    Create knowledge graph from encyclopedia.
+    
+    Args:
+        input_file: Input encyclopedia HTML file
+        output_file: Output graph file
+        format: Output format ('graphml', 'gexf', 'json', 'rdf')
+        include_wikipedia: Include Wikipedia description links
+        include_wikidata: Include Wikidata relationships
+        min_weight: Minimum edge weight to include
+        
+    Returns:
+        Exit code (0 for success, 1 for error)
+    """
+    from encyclopedia.utils.knowledge_graph import KnowledgeGraphBuilder, GraphExporter
+    
+    print(f"Loading encyclopedia from {input_file}...")
+    
+    if not input_file.exists():
+        print(f"Error: File not found: {input_file}")
+        return 1
+    
+    # Load encyclopedia
+    try:
+        encyclopedia = AmiEncyclopedia()
+        encyclopedia.create_from_html_file(input_file)
+        print(f"Loaded {len(encyclopedia.entries)} entries")
+    except Exception as e:
+        print(f"Error loading encyclopedia: {e}")
+        return 1
+    
+    # Determine which relationship types to include
+    # If neither flag is set, include all by default
+    if not include_wikipedia and not include_wikidata:
+        include_wikipedia = True
+        include_wikidata = True
+        print("No relationship types specified, including all by default")
+    
+    # Determine output file path (ensure it's in temp/ directory)
+    input_stem = input_file.stem
+    if str(output_file).startswith('temp/'):
+        # Already in temp/, use as-is but ensure directory exists
+        final_output_file = output_file
+        final_output_file.parent.mkdir(parents=True, exist_ok=True)
+    else:
+        # Create output directory based on input file name
+        output_dir = Path("temp/knowledge_graphs") / input_stem
+        output_dir.mkdir(parents=True, exist_ok=True)
+        # Use input stem + format for output filename
+        format_extensions = {
+            'graphml': '.graphml',
+            'gexf': '.gexf',
+            'json': '.json',
+            'rdf': '.ttl'
+        }
+        ext = format_extensions.get(format, output_file.suffix)
+        final_output_file = output_dir / f"{input_stem}{ext}"
+    
+    # Adjust output file extension for RDF format if needed
+    if format == 'rdf' and final_output_file.suffix != '.ttl':
+        final_output_file = final_output_file.with_suffix('.ttl')
+    
+    # Build graph
+    print("Building knowledge graph...")
+    try:
+        builder = KnowledgeGraphBuilder(encyclopedia)
+        graph = builder.build_graph(
+            include_wikipedia_links=include_wikipedia,
+            include_wikidata_ancestry=include_wikidata,
+            include_wikidata_parts=include_wikidata,
+            include_shared_properties=include_wikidata,
+            include_shared_values=include_wikidata
+        )
+        
+        print(f"Graph created: {graph.number_of_nodes()} nodes, {graph.number_of_edges()} edges")
+        
+        # Filter by minimum weight if specified
+        if min_weight > 0.0:
+            edges_to_remove = [
+                (u, v) for u, v, d in graph.edges(data=True)
+                if d.get('weight', 0.0) < min_weight
+            ]
+            graph.remove_edges_from(edges_to_remove)
+            print(f"Filtered to {graph.number_of_edges()} edges (min weight: {min_weight})")
+        
+    except Exception as e:
+        print(f"Error building graph: {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    
+    # Export graph
+    print(f"Exporting graph to {final_output_file} ({format} format)...")
+    try:
+        exporter = GraphExporter()
+        
+        if format == 'graphml':
+            exporter.export_graphml(graph, final_output_file)
+        elif format == 'gexf':
+            exporter.export_gexf(graph, final_output_file)
+        elif format == 'json':
+            exporter.export_json(graph, final_output_file)
+        elif format == 'rdf':
+            exporter.export_rdf_turtle(graph, final_output_file)
+        else:
+            print(f"Error: Unknown format: {format}")
+            return 1
+        
+        print(f"✓ Graph exported successfully to {final_output_file}")
+        print(f"  Nodes: {graph.number_of_nodes()}")
+        print(f"  Edges: {graph.number_of_edges()}")
+        
+        return 0
+        
+    except Exception as e:
+        print(f"Error exporting graph: {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+
+
 def main():
     """Main CLI entry point."""
     from encyclopedia import __version__
@@ -1454,6 +1586,19 @@ Examples:
     streamlit_parser.add_argument('--input', type=Path, required=True, help='Input encyclopedia HTML file')
     streamlit_parser.add_argument('--port', type=int, default=8501, help='Port to run Streamlit on')
     
+    # Graph command
+    graph_parser = subparsers.add_parser('graph', help='Create knowledge graph from encyclopedia')
+    graph_parser.add_argument('--input', type=Path, required=True, help='Input encyclopedia HTML file')
+    graph_parser.add_argument('--output', type=Path, required=True, help='Output graph file')
+    graph_parser.add_argument('--format', choices=['graphml', 'gexf', 'json', 'rdf'], 
+                             default='graphml', help='Output format (default: graphml)')
+    graph_parser.add_argument('--include-wikipedia', action='store_true', 
+                             help='Include Wikipedia description links')
+    graph_parser.add_argument('--include-wikidata', action='store_true', 
+                             help='Include Wikidata relationships (ancestry, parts, shared properties)')
+    graph_parser.add_argument('--min-weight', type=float, default=0.0,
+                             help='Minimum edge weight to include (default: 0.0, include all)')
+    
     args = parser.parse_args()
     
     if not args.command:
@@ -1486,6 +1631,15 @@ Examples:
         return show_status(args.input)
     elif args.command == 'streamlit':
         return launch_streamlit(args.input, args.port)
+    elif args.command == 'graph':
+        return create_knowledge_graph(
+            args.input, 
+            args.output, 
+            args.format,
+            include_wikipedia=args.include_wikipedia,
+            include_wikidata=args.include_wikidata,
+            min_weight=args.min_weight
+        )
     else:
         parser.print_help()
         return 1

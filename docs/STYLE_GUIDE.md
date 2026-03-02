@@ -596,6 +596,55 @@ def process_batch(entries, batch_size=10, verbose=False):
 
 ---
 
+## Test Output Files
+
+### All Test Outputs Must Be in temp/ Directory
+
+**Rule:** Files output from tests should always be in `<root>/temp/` directory and generally follow test naming conventions. Never in `<root>/`.
+
+**✅ CORRECT:**
+```python
+from encyclopedia.utils.resources import Resources
+
+# Output to temp/test/encyclopedia/TestClassName/
+output_dir = Path(Resources.TEMP_DIR, "test", "encyclopedia", "TestClassName")
+output_file = Path(output_dir, "test_output.html")
+```
+
+**❌ WRONG:**
+```python
+# Output to root directory
+output_file = Path("encyclopedia_output.html")
+
+# Output to root temp directory without test subdirectory
+output_file = Path(Resources.TEMP_DIR, "climate_encyclopedia.html")
+```
+
+**Rationale**: 
+- Keeps project root clean
+- Organizes test outputs by test class/module
+- Makes it easy to find and clean up test artifacts
+- Follows standard test output conventions
+- Prevents accidental commits of test outputs
+
+**Test Output Directory Structure:**
+```
+temp/
+└── test/
+    └── encyclopedia/
+        ├── TestClassName/
+        │   ├── test_output.html
+        │   └── test_metadata.json
+        └── TestOtherClass/
+            └── other_test_output.html
+```
+
+**Pattern:**
+- Use `Path(Resources.TEMP_DIR, "test", "encyclopedia", "TestClassName", "filename.html")`
+- Or use `Resources.get_temp_dir("test", "encyclopedia", "TestClassName")` helper
+
+---
+
 ## References
 
 - **amilib Style Guide**: `../amilib/docs/style_guide_compliance.md`

@@ -374,7 +374,7 @@ class TestComprehensiveValidation:
     
     def test_validation_from_real_file(self, verbose=False):
         """Test validation on a real generated encyclopedia file"""
-        html_file = Path(Resources.TEMP_DIR, "climate_encyclopedia.html")
+        html_file = Path(Resources.TEMP_DIR, "test", "encyclopedia", "TestImageValidation", "climate_encyclopedia.html")
         
         if not html_file.exists():
             pytest.skip(f"File {html_file} does not exist. Run the command first.")
