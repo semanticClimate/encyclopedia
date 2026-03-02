@@ -6,8 +6,14 @@ Supports incremental processing, feature addition, and entry management.
 Can also launch Streamlit interface.
 
 Usage:
-    # Create encyclopedia from wordlist
+    # Create encyclopedia from wordlist (text file)
     python -m encyclopedia.cli.versioned_editor create --wordlist test/wordlist_a.txt --output test/encyclopedia_a.html
+    
+    # Create encyclopedia from CSV file (auto-detect columns)
+    python -m encyclopedia.cli.versioned_editor create --wordlist phrases.csv --output encyclopedia.html --title "My Encyclopedia"
+    
+    # Create encyclopedia from CSV with specific columns
+    python -m encyclopedia.cli.versioned_editor create --wordlist phrases.csv --output encyclopedia.html --phrase-column "keyword" --count-column "frequency"
     
     # Process next batch of entries
     python -m encyclopedia.cli.versioned_editor process --input test/encyclopedia_a.html --feature wikipedia --batch-size 10
@@ -22,33 +28,61 @@ Usage:
 import argparse
 import sys
 from pathlib import Path
-from typing import Optional, List, Callable, Dict
+from typing import Optional, List, Callable, Dict, Union
 
 from encyclopedia.core.encyclopedia import AmiEncyclopedia
 from Examples.create_encyclopedia_from_wordlist import create_encyclopedia_from_wordlist
 
 
-def create_encyclopedia(wordlist_file: Path, output_file: Path, title: str = "Encyclopedia"):
-    """Create new encyclopedia from wordlist.
+def create_encyclopedia(
+    wordlist_file: Path, 
+    output_file: Path, 
+    title: str = "Encyclopedia",
+    phrase_column: Optional[Union[str, int]] = None,
+    count_column: Optional[Union[str, int]] = None
+):
+    """Create new encyclopedia from wordlist (text file) or CSV file.
     
     Args:
-        wordlist_file: Path to wordlist text file
+        wordlist_file: Path to wordlist text file or CSV file
         output_file: Path to output HTML file
         title: Encyclopedia title
+        phrase_column: For CSV files - column name (str), column number (int), or None for auto-detect
+        count_column: For CSV files - column name (str), column number (int), None for auto-detect, or omit
     """
     print(f"Creating encyclopedia from {wordlist_file}...")
     
-    # Read wordlist
+    # Read wordlist or CSV
     if not wordlist_file.exists():
-        print(f"Error: Wordlist file not found: {wordlist_file}")
+        print(f"Error: File not found: {wordlist_file}")
         return 1
     
-    terms = []
-    with open(wordlist_file, 'r', encoding='utf-8') as f:
-        for line in f:
-            term = line.strip()
-            if term and not term.startswith('#'):
-                terms.append(term)
+    # Check if CSV file (by extension)
+    if wordlist_file.suffix.lower() == '.csv':
+        # Read CSV file
+        from encyclopedia.utils.csv_reader import read_phrases_from_csv
+        try:
+            phrases, counts = read_phrases_from_csv(
+                wordlist_file,
+                phrase_column=phrase_column,
+                count_column=count_column
+            )
+            terms = phrases
+            if counts:
+                print(f"Loaded {len(terms)} phrases with counts from CSV")
+            else:
+                print(f"Loaded {len(terms)} phrases from CSV (no counts)")
+        except Exception as e:
+            print(f"Error reading CSV file: {e}")
+            return 1
+    else:
+        # Read text file (one term per line)
+        terms = []
+        with open(wordlist_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                term = line.strip()
+                if term and not term.startswith('#'):
+                    terms.append(term)
     
     if not terms:
         print(f"Error: No terms found in {wordlist_file}")
@@ -1386,10 +1420,15 @@ Examples:
     subparsers = parser.add_subparsers(dest='command', help='Command to execute')
     
     # Create command
-    create_parser = subparsers.add_parser('create', help='Create new encyclopedia from wordlist')
-    create_parser.add_argument('--wordlist', type=Path, required=True, help='Wordlist file')
+    create_parser = subparsers.add_parser('create', help='Create new encyclopedia from wordlist (text) or CSV file')
+    create_parser.add_argument('--wordlist', type=Path, required=True, 
+                              help='Wordlist text file (one term per line) or CSV file')
     create_parser.add_argument('--output', type=Path, required=True, help='Output HTML file')
     create_parser.add_argument('--title', type=str, default='Encyclopedia', help='Encyclopedia title')
+    create_parser.add_argument('--phrase-column', type=str, default=None,
+                              help='For CSV files: column name (e.g., "phrase", "keyword") or column number (0-indexed). Auto-detects if not specified.')
+    create_parser.add_argument('--count-column', type=str, default=None,
+                              help='For CSV files: column name (e.g., "count", "frequency") or column number. Auto-detects if not specified. Optional.')
     
     # Process command
     process_parser = subparsers.add_parser('process', help='Process batch of entries')
@@ -1423,7 +1462,20 @@ Examples:
     
     # Execute command
     if args.command == 'create':
-        return create_encyclopedia(args.wordlist, args.output, args.title)
+        # Parse phrase_column and count_column (can be int or str)
+        phrase_col = None
+        count_col = None
+        if args.phrase_column:
+            try:
+                phrase_col = int(args.phrase_column)
+            except ValueError:
+                phrase_col = args.phrase_column
+        if args.count_column:
+            try:
+                count_col = int(args.count_column)
+            except ValueError:
+                count_col = args.count_column
+        return create_encyclopedia(args.wordlist, args.output, args.title, phrase_col, count_col)
     elif args.command == 'process':
         return process_batch(args.input, args.feature, args.batch_size, resume=args.resume)
     elif args.command == 'next':

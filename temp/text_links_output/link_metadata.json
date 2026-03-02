@@ -1,14 +1,14 @@
 {
   "metadata_fields": [
+    "normalized_url",
+    "link_type",
+    "source_entries",
+    "contexts",
+    "original_url",
     "source_entry",
     "context",
-    "source_entries",
-    "status_code",
-    "original_url",
-    "normalized_url",
     "canonical_url",
-    "link_type",
-    "contexts"
+    "status_code"
   ],
   "field_completeness": {
     "original_url": 37,

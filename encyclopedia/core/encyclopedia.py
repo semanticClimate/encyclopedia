@@ -2826,7 +2826,7 @@ class AmiEncyclopedia:
             # Get description (first paragraph)
             if hasattr(wikipedia_page, 'create_first_wikipedia_para'):
                 para_obj = wikipedia_page.create_first_wikipedia_para()
-                if para_obj is and para_obj.para_element:
+                if para_obj and para_obj.para_element:
                     para_html = XmlLib.element_to_string(para_obj.para_element)
                     new_entry['description_html'] = para_html
                     # Extract first sentence for definition
