@@ -6,6 +6,8 @@ This package provides functionality to:
 - Enhance with Wikipedia/Wikidata/Wiktionary
 - Normalize and merge synonyms
 - Generate HTML encyclopedias
+
+Non-empty by agreement: __version__ and lazy AmiEncyclopedia import (avoids circular deps).
 """
 
 __version__ = "0.0.7"  # 2026-02-09

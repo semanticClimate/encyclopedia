@@ -133,7 +133,7 @@ def main():
     """Main function to create network graphs from existing JSON files"""
     
     # Find all shared links JSON files
-    output_dir = Path('temp/text_links_output')
+    output_dir = Path("temp", "text_links_output")
     json_files = list(output_dir.glob('shared_article_links_*.json'))
     
     print(f"Found {len(json_files)} shared links JSON files")
@@ -164,7 +164,7 @@ def main():
         for min_occ in [10, 20]:
             B_filtered, _, _ = create_filtered_graph(json_file, min_occurrences=min_occ)
             if B_filtered.number_of_nodes() > 0:
-                filtered_file = json_file.parent / json_file.stem
+                filtered_file = Path(json_file.parent, json_file.stem)
                 filtered_gexf = f"{filtered_file}_filtered_{min_occ}.gexf"
                 print(f"\nFiltered graph (min {min_occ} occurrences):")
                 print(f"Nodes: {B_filtered.number_of_nodes()}, Edges: {B_filtered.number_of_edges()}")

@@ -1437,13 +1437,14 @@ def create_knowledge_graph(
     
     # Determine output file path (ensure it's in temp/ directory)
     input_stem = input_file.stem
-    if str(output_file).startswith('temp/'):
-        # Already in temp/, use as-is but ensure directory exists
+    output_path = Path(output_file)
+    if len(output_path.parts) > 0 and output_path.parts[0] == "temp":
+        # Already under temp/, use as-is but ensure directory exists
         final_output_file = output_file
         final_output_file.parent.mkdir(parents=True, exist_ok=True)
     else:
         # Create output directory based on input file name
-        output_dir = Path("temp/knowledge_graphs") / input_stem
+        output_dir = Path("temp", "knowledge_graphs", input_stem)
         output_dir.mkdir(parents=True, exist_ok=True)
         # Use input stem + format for output filename
         format_extensions = {
@@ -1453,7 +1454,7 @@ def create_knowledge_graph(
             'rdf': '.ttl'
         }
         ext = format_extensions.get(format, output_file.suffix)
-        final_output_file = output_dir / f"{input_stem}{ext}"
+        final_output_file = Path(output_dir, f"{input_stem}{ext}")
     
     # Adjust output file extension for RDF format if needed
     if format == 'rdf' and final_output_file.suffix != '.ttl':

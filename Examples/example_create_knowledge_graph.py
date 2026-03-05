@@ -5,14 +5,10 @@ Quick example script for creating knowledge graphs.
 This script demonstrates how to create knowledge graphs from an encyclopedia.
 It will use an existing encyclopedia file or create a small test one.
 
-Date: March 2, 2026 (system date)
+Date: 2025-03-05 (system date)
 """
 
 from pathlib import Path
-import sys
-
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from encyclopedia.core.encyclopedia import AmiEncyclopedia
 from encyclopedia.utils.knowledge_graph import KnowledgeGraphBuilder, GraphExporter
@@ -23,8 +19,8 @@ def find_encyclopedia_file():
     # Check common locations
     possible_files = [
         Path("encyclopedia_output.html"),
-        Path("temp/test/encyclopedia/TestKnowledgeGraphBuilder/climate_encyclopedia.html"),
-        Path("temp/example_encyclopedia.html"),
+        Path("temp", "test", "encyclopedia", "TestKnowledgeGraphBuilder", "climate_encyclopedia.html"),
+        Path("temp", "example_encyclopedia.html"),
     ]
     
     for file_path in possible_files:
@@ -38,7 +34,7 @@ def find_encyclopedia_file():
     from Examples.create_encyclopedia_from_wordlist import create_encyclopedia_from_wordlist
     
     terms = ["climate change", "greenhouse gas", "carbon dioxide"]
-    output_file = Path("temp/example_encyclopedia.html")
+    output_file = Path("temp", "example_encyclopedia.html")
     output_file.parent.mkdir(parents=True, exist_ok=True)
     
     encyclopedia = create_encyclopedia_from_wordlist(
@@ -78,7 +74,7 @@ def main():
     
     # Create output directory based on input file name
     input_stem = encyclopedia_file.stem
-    output_dir = Path("temp/knowledge_graphs") / input_stem
+    output_dir = Path("temp", "knowledge_graphs", input_stem)
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # Example 1: GraphML format
@@ -95,14 +91,14 @@ def main():
     print(f"  Graph created: {graph.number_of_nodes()} nodes, {graph.number_of_edges()} edges")
     
     exporter = GraphExporter()
-    graphml_file = output_dir / f"{input_stem}.graphml"
+    graphml_file = Path(output_dir, f"{input_stem}.graphml")
     exporter.export_graphml(graph, graphml_file)
     print(f"  ✓ Exported to: {graphml_file}")
     print()
     
     # Example 2: JSON format
     print("Example 2: Creating JSON graph...")
-    json_file = output_dir / f"{input_stem}.json"
+    json_file = Path(output_dir, f"{input_stem}.json")
     exporter.export_json(graph, json_file)
     print(f"  ✓ Exported to: {json_file}")
     print()
@@ -129,7 +125,7 @@ def main():
     
     print(f"  Filtered: {graph.number_of_edges()} → {filtered_graph.number_of_edges()} edges")
     
-    filtered_file = output_dir / f"{input_stem}_filtered.graphml"
+    filtered_file = Path(output_dir, f"{input_stem}_filtered.graphml")
     exporter.export_graphml(filtered_graph, filtered_file)
     print(f"  ✓ Exported to: {filtered_file}")
     print()

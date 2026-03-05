@@ -38,14 +38,14 @@ def main():
     
     # Check dependencies if requested
     if args.check_deps:
-        check_script = Path(__file__).parent / "check_dependencies.py"
+        check_script = Path(Path(__file__).parent, "check_dependencies.py")
         if check_script.exists():
             print("Checking dependencies...")
             subprocess.run([sys.executable, str(check_script)], check=False)
             print()
     
     # Get path to app.py
-    app_path = Path(__file__).parent / "app.py"
+    app_path = Path(Path(__file__).parent, "app.py")
     
     if not app_path.exists():
         print(f"Error: Could not find app.py at {app_path}")

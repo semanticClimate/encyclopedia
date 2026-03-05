@@ -60,8 +60,8 @@ class EncyclopediaIndexer:
             index_dir: Directory to store index files (default: temp directory)
         """
         if index_dir is None:
-            import tempfile
-            index_dir = Path(tempfile.gettempdir()) / "encyclopedia_index"
+            from encyclopedia.utils.resources import Resources
+            index_dir = Resources.get_temp_dir("browser", "index")
         
         self.index_dir = Path(index_dir)
         self.index_dir.mkdir(parents=True, exist_ok=True)
@@ -108,7 +108,7 @@ class EncyclopediaIndexer:
             Path to the index directory
         """
         # Create index directory
-        index_path = self.index_dir / index_name
+        index_path = Path(self.index_dir, index_name)
         index_path.mkdir(parents=True, exist_ok=True)
         
         # Create or open index
@@ -222,7 +222,7 @@ class EncyclopediaIndexer:
         entry_divs = encyclopedia_div.xpath(".//div[@role='ami_entry']")
         
         # Create index directory
-        index_path = self.index_dir / index_name
+        index_path = Path(self.index_dir, index_name)
         index_path.mkdir(parents=True, exist_ok=True)
         
         # Create or open index
@@ -323,7 +323,7 @@ class EncyclopediaIndexer:
             Whoosh index object
         """
         if self._index is None:
-            index_path = self.index_dir / index_name
+            index_path = Path(self.index_dir, index_name)
             if index.exists_in(str(index_path)):
                 self._index = index.open_dir(str(index_path))
             else:
@@ -340,5 +340,5 @@ class EncyclopediaIndexer:
         Returns:
             True if index exists, False otherwise
         """
-        index_path = self.index_dir / index_name
+        index_path = Path(self.index_dir, index_name)
         return index.exists_in(str(index_path))

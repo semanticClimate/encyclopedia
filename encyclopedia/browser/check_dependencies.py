@@ -12,7 +12,6 @@ print("Dependency Check for Encyclopedia Browser")
 print("=" * 60)
 print(f"\nPython version: {sys.version}")
 print(f"Python executable: {sys.executable}")
-print(f"Python path: {sys.path[:3]}...")
 print()
 
 # Check required dependencies

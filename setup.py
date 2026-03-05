@@ -16,7 +16,7 @@ with open(str(Path(parent, "encyclopedia", "__init__.py"))) as f:
 version = re.search(r'__version__ = ["\']([^"\']+)["\']', content).group(1)
 
 # Read README
-readme_path = Path(__file__).parent / "README.md"
+readme_path = Path(Path(__file__).parent, "README.md")
 readme = readme_path.read_text(encoding="utf-8") if readme_path.exists() else ""
 
 setup(

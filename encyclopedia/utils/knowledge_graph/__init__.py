@@ -1,6 +1,8 @@
 """
 Knowledge graph creation from encyclopedia entries.
 
+Non-empty by agreement: re-exports for package API (KnowledgeGraphBuilder, GraphExporter, etc.).
+
 This module provides functionality to:
 - Extract Wikipedia links from entry descriptions
 - Extract Wikidata relationships
@@ -8,7 +10,7 @@ This module provides functionality to:
 - Build knowledge graphs
 - Export graphs to various formats
 
-Date: March 2, 2026 (system date)
+Date: 2025-03-05 (system date)
 """
 
 from encyclopedia.utils.knowledge_graph.wikipedia_extractor import WikipediaLinkExtractor

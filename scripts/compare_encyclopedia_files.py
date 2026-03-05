@@ -280,23 +280,23 @@ def main():
     comparisons = [
         {
             "name": "Core Encyclopedia",
-            "source": Path("../amilib/amilib/ami_encyclopedia.py"),
-            "target": Path("encyclopedia/core/encyclopedia.py"),
+            "source": Path("..", "amilib", "amilib", "ami_encyclopedia.py"),
+            "target": Path("encyclopedia", "core", "encyclopedia.py"),
         },
         {
             "name": "Clustering",
-            "source": Path("../amilib/amilib/ami_encyclopedia_cluster.py"),
-            "target": Path("encyclopedia/clustering/clusterer.py"),
+            "source": Path("..", "amilib", "amilib", "ami_encyclopedia_cluster.py"),
+            "target": Path("encyclopedia", "clustering", "clusterer.py"),
         },
         {
             "name": "Utilities (Link Extractor)",
-            "source": Path("../amilib/amilib/ami_encyclopedia_util.py"),
-            "target": Path("encyclopedia/utils/link_extractor.py"),
+            "source": Path("..", "amilib", "amilib", "ami_encyclopedia_util.py"),
+            "target": Path("encyclopedia", "utils", "link_extractor.py"),
         },
         {
             "name": "CLI Arguments",
-            "source": Path("../amilib/amilib/ami_encyclopedia_args.py"),
-            "target": Path("encyclopedia/cli/args.py"),
+            "source": Path("..", "amilib", "amilib", "ami_encyclopedia_args.py"),
+            "target": Path("encyclopedia", "cli", "args.py"),
         },
     ]
     
@@ -307,8 +307,8 @@ def main():
     all_results = []
     
     for comp in comparisons:
-        source_path = project_root / comp["source"]
-        target_path = project_root / comp["target"]
+        source_path = Path(project_root, *Path(comp["source"]).parts)
+        target_path = Path(project_root, *Path(comp["target"]).parts)
         
         print(f"\n{'='*80}")
         print(f"COMPARING: {comp['name']}")

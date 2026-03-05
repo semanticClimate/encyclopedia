@@ -137,7 +137,7 @@ class EncyclopediaArgs(AbstractArgs):
         
         if not self.output_file:
             # Generate default output filename
-            self.output_file = self.input_file.parent / f"{self.input_file.stem}_normalized.html"
+            self.output_file = Path(self.input_file.parent, f"{self.input_file.stem}_normalized.html")
         
         # Run the encyclopedia operation
         self.run_encyclopedia_operation()

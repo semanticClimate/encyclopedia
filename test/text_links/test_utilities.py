@@ -232,7 +232,7 @@ This report summarizes the results of comprehensive testing for encyclopedia lin
 # Utility functions for test modules
 def create_test_output_dir(test_name: str) -> Path:
     """Create output directory for specific test"""
-    test_dir = OUTPUT_DIR / test_name
+    test_dir = Path(OUTPUT_DIR, test_name)
     test_dir.mkdir(parents=True, exist_ok=True)
     return test_dir
 

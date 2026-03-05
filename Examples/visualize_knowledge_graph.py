@@ -424,18 +424,19 @@ def main():
     if args.output:
         output_file = args.output
         # Ensure output is in temp/ if not explicitly specified elsewhere
-        if not str(output_file).startswith('temp/'):
+        output_file_path = Path(output_file)
+        if len(output_file_path.parts) == 0 or output_file_path.parts[0] != "temp":
             # Extract input name for output directory
             input_stem = args.input.stem
-            output_dir = Path("temp/visualizations") / input_stem
+            output_dir = Path("temp", "visualizations", input_stem)
             output_dir.mkdir(parents=True, exist_ok=True)
-            output_file = output_dir / output_file.name
+            output_file = Path(output_dir, output_file_path.name)
     else:
         # Create output directory based on input file name
         input_stem = args.input.stem
-        output_dir = Path("temp/visualizations") / input_stem
+        output_dir = Path("temp", "visualizations", input_stem)
         output_dir.mkdir(parents=True, exist_ok=True)
-        output_file = output_dir / f"{input_stem}_{args.style}.png"
+        output_file = Path(output_dir, f"{input_stem}_{args.style}.png")
     
     # Print statistics if requested
     if args.stats:

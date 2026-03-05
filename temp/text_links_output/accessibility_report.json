@@ -1,27 +1,27 @@
 {
-  "/wiki/Air_mass": {
+  "/wiki/Climate_variability_and_change": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Air_mass",
+    "final_url": "https://en.wikipedia.org/wiki/Climate_variability_and_change",
     "accessible": true
   },
-  "/wiki/Synoptic_scale": {
+  "/wiki/Randomized_controlled_trial": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Synoptic_scale",
+    "final_url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial",
     "accessible": true
   },
-  "/wiki/Sense": {
+  "/wiki/Experiment": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Sense",
+    "final_url": "https://en.wikipedia.org/wiki/Experiment",
     "accessible": true
   },
-  "/wiki/Mesoscale_meteorology": {
+  "/wiki/Tropopause": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Mesoscale_meteorology",
+    "final_url": "https://en.wikipedia.org/wiki/Tropopause",
     "accessible": true
   },
-  "/wiki/Random_assignment": {
+  "/wiki/Polar_vortices": {
     "status_code": 200,
-    "final_url": "https://en.wikipedia.org/wiki/Random_assignment",
+    "final_url": "https://en.wikipedia.org/wiki/Polar_vortices",
     "accessible": true
   }
 }

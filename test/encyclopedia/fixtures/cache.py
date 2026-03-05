@@ -15,7 +15,7 @@ from encyclopedia.utils.resources import Resources
 
 
 # Cache directory for test fixtures (for fast loading)
-CACHE_DIR = Path(__file__).parent / "cache"
+CACHE_DIR = Path(Path(__file__).parent, "cache")
 CACHE_DIR.mkdir(exist_ok=True)
 
 # Temp directory for human-readable copies
@@ -63,7 +63,7 @@ def _get_cache_file_path(cache_key: str) -> Path:
     Returns:
         Path to cached HTML file
     """
-    return CACHE_DIR / f"encyclopedia_{cache_key}.html"
+    return Path(CACHE_DIR, f"encyclopedia_{cache_key}.html")
 
 
 def _get_cache_metadata_path(cache_key: str) -> Path:
@@ -76,7 +76,7 @@ def _get_cache_metadata_path(cache_key: str) -> Path:
     Returns:
         Path to metadata JSON file
     """
-    return CACHE_DIR / f"encyclopedia_{cache_key}.json"
+    return Path(CACHE_DIR, f"encyclopedia_{cache_key}.json")
 
 
 def load_cached_encyclopedia(
@@ -184,11 +184,11 @@ def save_encyclopedia_to_cache(
         # Create readable filename from title
         safe_title = title.lower().replace(' ', '_').replace('/', '_')
         temp_filename = f"{safe_title}.html"
-        temp_file = TEMP_FIXTURES_DIR / temp_filename
+        temp_file = Path(TEMP_FIXTURES_DIR, temp_filename)
         encyclopedia.save_wiki_normalized_html(temp_file)
         
         # Save metadata to temp as well
-        temp_metadata_file = TEMP_FIXTURES_DIR / f"{safe_title}_metadata.json"
+        temp_metadata_file = Path(TEMP_FIXTURES_DIR, f"{safe_title}_metadata.json")
         temp_metadata_file.write_text(json.dumps(metadata, indent=2), encoding='utf-8')
     
     return cache_file

@@ -5,6 +5,8 @@ Creates a medium encyclopedia for realistic testing and performance checks.
 Uses caching to avoid recreating encyclopedias on every test run.
 """
 
+from pathlib import Path
+
 from encyclopedia.core.encyclopedia import AmiEncyclopedia
 from Examples.create_encyclopedia_from_wordlist import create_encyclopedia_from_wordlist
 from test.encyclopedia.fixtures.cache import (
@@ -151,7 +153,7 @@ def create_medium_encyclopedia(
         if verbose:
             print(f"Saved medium encyclopedia to cache: {cache_file}")
             from test.encyclopedia.fixtures.cache import TEMP_FIXTURES_DIR
-            temp_file = TEMP_FIXTURES_DIR / "medium_test_encyclopedia.html"
+            temp_file = Path(TEMP_FIXTURES_DIR, "medium_test_encyclopedia.html")
             print(f"Saved readable copy to temp: {temp_file}")
     
     return encyclopedia

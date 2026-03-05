@@ -336,9 +336,11 @@ def main():
             html_file = None
             
             if uploaded_file is not None:
-                # Save uploaded file temporarily
-                import tempfile
-                temp_path = Path(tempfile.gettempdir()) / uploaded_file.name
+                # Save uploaded file temporarily under project temp (style guide)
+                from encyclopedia.utils.resources import Resources
+                upload_dir = Resources.get_temp_dir("browser", "uploads")
+                upload_dir.mkdir(parents=True, exist_ok=True)
+                temp_path = Path(upload_dir, uploaded_file.name)
                 with open(temp_path, 'wb') as f:
                     f.write(uploaded_file.getbuffer())
                 html_file = temp_path

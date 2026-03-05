@@ -707,7 +707,7 @@ def create_landing_page_html(encyclopedia: AmiEncyclopedia) -> str:
 def main():
     """Create example landing page from cached encyclopedia."""
     # Try to load from cache
-    cache_dir = Path(__file__).parent.parent / "test" / "encyclopedia" / "fixtures" / "cache"
+    cache_dir = Path(Path(__file__).parent.parent, "test", "encyclopedia", "fixtures", "cache")
     cache_files = list(cache_dir.glob("encyclopedia_*.html"))
     
     if not cache_files:
@@ -730,7 +730,7 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     
     safe_title = encyclopedia.title.lower().replace(' ', '_')
-    output_file = output_dir / f"{safe_title}_landing_page.html"
+    output_file = Path(output_dir, f"{safe_title}_landing_page.html")
     
     output_file.write_text(landing_page_html, encoding='utf-8')
     

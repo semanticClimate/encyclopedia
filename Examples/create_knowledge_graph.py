@@ -173,13 +173,14 @@ def main():
     
     # Determine output file path (ensure it's in temp/ directory)
     input_stem = args.input.stem
-    if str(args.output).startswith('temp/'):
-        # Already in temp/, use as-is but ensure directory exists
+    output_path = Path(args.output)
+    if len(output_path.parts) > 0 and output_path.parts[0] == "temp":
+        # Already under temp/, use as-is but ensure directory exists
         output_file = args.output
         output_file.parent.mkdir(parents=True, exist_ok=True)
     else:
         # Create output directory based on input file name
-        output_dir = Path("temp/knowledge_graphs") / input_stem
+        output_dir = Path("temp", "knowledge_graphs", input_stem)
         output_dir.mkdir(parents=True, exist_ok=True)
         # Use input stem + format for output filename
         format_extensions = {
@@ -189,7 +190,7 @@ def main():
             'rdf': '.ttl'
         }
         ext = format_extensions.get(args.format, args.output.suffix)
-        output_file = output_dir / f"{input_stem}{ext}"
+        output_file = Path(output_dir, f"{input_stem}{ext}")
     
     # Adjust output file extension for RDF format if needed
     if args.format == 'rdf' and output_file.suffix != '.ttl':
