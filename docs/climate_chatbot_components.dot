@@ -1,0 +1,48 @@
+// Climate Encyclopedia Chatbot — Component architecture
+// Render: dot -Tsvg docs/climate_chatbot_components.dot -o docs/climate_chatbot_components.svg
+
+digraph components {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontname="Helvetica", fontsize=10];
+    edge [fontname="Helvetica", fontsize=9];
+
+    // ========== Data sources ==========
+    subgraph cluster_corpus {
+        label="Corpus";
+        style=dashed;
+        ENC_HTML [label="Encyclopedia HTML\n(aggregated / dedup)", fillcolor=lightblue, style="rounded,filled"];
+        PARSER [label="Parser\n(AmiEncyclopedia\ncreate_from_html_file)", fillcolor=lightblue, style="rounded,filled"];
+        ENTRIES [label="Entries with\nlabelled sections\n(term, definition,\ndescription, …)", fillcolor=lightcyan, style="rounded,filled"];
+        ENC_HTML -> PARSER -> ENTRIES;
+    }
+
+    // ========== Indexing ==========
+    subgraph cluster_indexing {
+        label="Indexing pipeline";
+        style=dashed;
+        CHUNK [label="Chunker\n(per entry or\nper section)", fillcolor=lightgreen, style="rounded,filled"];
+        EMB_MODEL [label="Embedding model\n(sentence-transformers\nall-MiniLM-L6-v2)", fillcolor=lightgreen, style="rounded,filled"];
+        VECTOR_STORE [label="Vector store\n(ChromaDB / FAISS)", fillcolor=lightgreen, style="rounded,filled"];
+        CHUNK -> EMB_MODEL -> VECTOR_STORE;
+    }
+
+    // ========== Runtime ==========
+    subgraph cluster_runtime {
+        label="Runtime (per query)";
+        style=dashed;
+        API [label="API / CLI\n(FastAPI, uvicorn)", fillcolor=wheat, style="rounded,filled"];
+        RETRIEVAL [label="Retrieval\n(embed question →\nvector search → top-k)", fillcolor=lightyellow, style="rounded,filled"];
+        GUARDRAIL_SCOPE [label="Guardrail: scope\n(empty / low score →\nrefuse)", fillcolor=lightcoral, style="rounded,filled"];
+        PROMPT [label="Prompt builder\n(system + chunks +\nquestion)", fillcolor=lightyellow, style="rounded,filled"];
+        LLM [label="LLM\n(Ollama / API\ne.g. llama3.2:3b)", fillcolor=lavender, style="rounded,filled"];
+        GUARDRAIL_CHECK [label="Guardrail: optional\nconsistency check", fillcolor=lightcoral, style="rounded,filled"];
+        RESPONSE [label="Response\n(answer + citation)", fillcolor=lightcyan, style="rounded,filled"];
+
+        API -> RETRIEVAL -> GUARDRAIL_SCOPE -> PROMPT -> LLM -> GUARDRAIL_CHECK -> RESPONSE;
+        GUARDRAIL_SCOPE -> RESPONSE [label="refuse"];
+    }
+
+    // Cross-cluster edges
+    ENTRIES -> CHUNK [label="sections"];
+    VECTOR_STORE -> RETRIEVAL [label="query embedding"];
+}

@@ -1,0 +1,24 @@
+// Climate Encyclopedia Chatbot — Program flow (per request)
+// Render: dot -Tsvg docs/climate_chatbot_flow.dot -o docs/climate_chatbot_flow.svg
+
+digraph flow {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontname="Helvetica", fontsize=10];
+    edge [fontname="Helvetica", fontsize=9];
+
+    START [label="User question", fillcolor=lightblue, style="rounded,filled"];
+    EMB_Q [label="Embed question\n(same model as index)", fillcolor=lightgreen, style="rounded,filled"];
+    SEARCH [label="Vector search\n(top-k chunks\nwith section labels)", fillcolor=lightgreen, style="rounded,filled"];
+    DECIDE [label="Any results\nabove threshold?", shape=diamond, fillcolor=wheat, style="rounded,filled"];
+    REFUSE [label="Return:\n\"I can only answer from\nthe encyclopedia.\nI don't have information on that.\"", fillcolor=lightcoral, style="rounded,filled"];
+    BUILD [label="Build prompt:\n- system (scope + cite sections)\n- retrieved chunks (with labels)\n- user question", fillcolor=lightyellow, style="rounded,filled"];
+    CALL_LLM [label="Call LLM\n(Ollama / API)", fillcolor=lavender, style="rounded,filled"];
+    PARSE [label="Parse answer\n(and optional citations)", fillcolor=lightyellow, style="rounded,filled"];
+    OPT_CHECK [label="Optional: check answer\nagainst retrieved text", fillcolor=lightcoral, style="rounded,filled"];
+    RETURN [label="Return answer\n(+ citations)", fillcolor=lightcyan, style="rounded,filled"];
+
+    START -> EMB_Q -> SEARCH -> DECIDE;
+    DECIDE -> REFUSE [label="no"];
+    DECIDE -> BUILD [label="yes"];
+    BUILD -> CALL_LLM -> PARSE -> OPT_CHECK -> RETURN;
+}

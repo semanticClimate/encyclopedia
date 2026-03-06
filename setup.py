@@ -32,6 +32,12 @@ setup(
         "lxml>=4.9.0",
         "requests>=2.28.0",
     ],
+    extras_require={
+        "chatbot": [
+            "sentence-transformers>=2.2.0",
+            "chromadb>=0.4.0",
+        ],
+    },
     python_requires=">=3.8",
     classifiers=[
         "Development Status :: 4 - Beta",
