@@ -3,7 +3,7 @@
 **Basis:** Aggregated, deduplicated climate encyclopedia (~544 entries from existing HTML sources in the repo).  
 **Goal:** Lightweight, open-source chatbot that answers user questions from labelled sections only, with guardrails.
 
-**Date:** 2025-03-05 (system date)
+**Date:** 2026-03-12 (system date)
 
 ---
 
@@ -106,6 +106,28 @@ dot -Tpng docs/climate_chatbot_flow.dot -o docs/climate_chatbot_flow.png
 | Corpus aggregation script | `scripts/count_climate_encyclopedia_entries.py` (basis: ~544 deduplicated entries) |
 | Chatbot package (corpus, chunker, retrieval, guardrails, prompt, pipeline) | `encyclopedia/chatbot/` |
 | Chatbot tests (TDD) | `test/chatbot/` |
+| **Aggregated corpus export (JSON)** | `temp/chatbot/climate_encyclopedia_entries.json` |
+| **Chatbot API (FastAPI)** | `encyclopedia/chatbot/app.py` |
+| **Run API + UI** | `scripts/run_chatbot_api.py` |
+
+---
+
+## 4.1 Aggregated corpus export (for indexing)
+
+The script `scripts/count_climate_encyclopedia_entries.py` aggregates climate-related encyclopedia HTML sources, deduplicates entries by `wikidata_id` / `wikipedia_url` / `term`, and can export to a single JSON file for chatbot indexing.
+
+**Generate the export:**
+```bash
+python scripts/count_climate_encyclopedia_entries.py --export
+```
+
+**Output path:** `temp/chatbot/climate_encyclopedia_entries.json` (under project root; `temp/` is gitignored).
+
+**JSON format:**
+- Top-level: `{"entries": [...], "count": N}`.
+- Each entry is a dict with at least: `term`, `canonical_term`, `wikidata_id`, `wikipedia_url`, and optionally `description_html`, `definition_html`, `figure_html`, and other fields from the source encyclopedia.
+
+**Loading in the chatbot:** `encyclopedia.chatbot.corpus.load_entries_from_encyclopedia(Path("temp/chatbot/climate_encyclopedia_entries.json"))` accepts this JSON path and returns the entries list (via `load_entries_from_json`).
 
 ---
 
@@ -116,8 +138,31 @@ dot -Tpng docs/climate_chatbot_flow.dot -o docs/climate_chatbot_flow.png
 - **Optional install:** `pip install encyclopedia[chatbot]` (sentence-transformers, chromadb).
 - **Example:** `Examples/chatbot_embedding_example.py` — loads encyclopedia, runs InMemoryRetriever and VectorRetriever, then pipeline with vector retriever.
 
+---
+
+## 5.1 Pipeline + LLM (query → retrieve → guardrail → prompt → LLM)
+
+- **Pipeline:** `encyclopedia.chatbot.pipeline.answer_question(question, retriever, min_score=..., llm_generate=...)` runs: retrieval → scope guardrail (refuse if empty or max score &lt; min_score) → prompt build → LLM → response. Returns `{answer, refused, citations}`.
+- **Guardrails:** `encyclopedia.chatbot.guardrails.check_scope_refuse(retrieval_result, min_score)` — refuse when no results or below threshold.
+- **Prompt:** `encyclopedia.chatbot.prompt.build_prompt(chunks, question, system_prompt)` — system + context (chunks with labels) + question.
+- **LLM backends:** `encyclopedia.chatbot.llm`:
+  - **Ollama (local):** `make_ollama_generator(model="llama3.2:3b", base_url="http://localhost:11434")` → callable `(prompt: str) -> str`. Run `ollama run llama3.2:3b` (or phi3:mini) first.
+  - **OpenAI-compatible API:** `make_openai_generator(model="gpt-4o-mini", api_key=..., base_url=None)` → callable. Use for OpenAI, Mistral, or any server that exposes `/v1/chat/completions`.
+- **Example with LLM:** `Examples/chatbot_embedding_example.py` prefers aggregated JSON; set `OLLAMA_MODEL=llama3.2:3b` or `OPENAI_API_KEY=...` to use an LLM in the pipeline.
+
 ## 6. Next steps
 
-1. Export aggregated encyclopedia to a single JSON or HTML for indexing (script exists: `scripts/count_climate_encyclopedia_entries.py`).
-2. Wire query → retrieve → prompt → LLM (Ollama or API) with guardrails.
-3. Add simple FastAPI endpoint and optional UI for testing.
+1. ~~Export aggregated encyclopedia to a single JSON or HTML for indexing~~ **Done:** `scripts/count_climate_encyclopedia_entries.py --export` writes `temp/chatbot/climate_encyclopedia_entries.json`.
+2. ~~Wire query → retrieve → prompt → LLM (Ollama or API) with guardrails~~ **Done:** Pipeline wired; `encyclopedia.chatbot.llm` provides Ollama and OpenAI-compatible generators; example uses env for LLM.
+3. ~~Add simple FastAPI endpoint and optional UI for testing~~ **Done:** `encyclopedia.chatbot.app.create_app()`; `scripts/run_chatbot_api.py`; GET `/` (UI), POST `/ask`, GET `/health`.
+
+---
+
+## 6.1 Chatbot API (FastAPI + UI)
+
+- **App:** `encyclopedia.chatbot.app.create_app()` — builds pipeline at startup (corpus from env or aggregated JSON, VectorRetriever, optional LLM from `OLLAMA_MODEL` / `OPENAI_API_KEY`), then exposes:
+  - **GET /** — Simple HTML UI: input question, display answer and citations.
+  - **POST /ask** — Body `{"question": "..."}` → `{"answer": "...", "refused": bool, "citations": [...]}`.
+  - **GET /health** — Liveness; returns 503 if pipeline failed to load.
+- **Run:** `python scripts/run_chatbot_api.py` (or `uvicorn encyclopedia.chatbot.app:create_app --factory --host 0.0.0.0 --port 8000`). Open http://localhost:8000/ for the UI.
+- **Dependencies:** `pip install fastapi uvicorn`; for the index also `sentence-transformers chromadb`.

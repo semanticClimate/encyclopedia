@@ -17,7 +17,9 @@ def load_entries_from_encyclopedia(source) -> List[Dict[str, Any]]:
     Load entries from an encyclopedia (file path or AmiEncyclopedia instance).
 
     Args:
-        source: Path to HTML file or AmiEncyclopedia instance with .entries
+        source: Path to HTML file, path to JSON file (aggregated export from
+            count_climate_encyclopedia_entries.py --export), or AmiEncyclopedia
+            instance with .entries.
 
     Returns:
         List of entry dicts, each with at least term and optional
@@ -26,12 +28,36 @@ def load_entries_from_encyclopedia(source) -> List[Dict[str, Any]]:
     if isinstance(source, Path):
         source = str(source)
     if isinstance(source, str):
+        path = Path(source)
+        if path.suffix.lower() == ".json" and path.exists():
+            return load_entries_from_json(path)
         enc = AmiEncyclopedia()
-        enc.create_from_html_file(Path(source))
+        enc.create_from_html_file(path)
         return list(enc.entries) if enc.entries else []
     if hasattr(source, "entries"):
         return list(source.entries) if source.entries else []
     return []
+
+
+def load_entries_from_json(json_path: Path) -> List[Dict[str, Any]]:
+    """
+    Load entries from the aggregated JSON export (e.g. temp/chatbot/climate_encyclopedia_entries.json).
+
+    Expects JSON with top-level key "entries" containing a list of entry dicts.
+
+    Args:
+        json_path: Path to the JSON file.
+
+    Returns:
+        List of entry dicts.
+    """
+    import json as json_module
+    text = json_path.read_text(encoding="utf-8")
+    data = json_module.loads(text)
+    entries = data.get("entries", data) if isinstance(data, dict) else data
+    if not isinstance(entries, list):
+        return []
+    return entries
 
 
 def _strip_html(html: str) -> str:
