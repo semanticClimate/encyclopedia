@@ -109,6 +109,7 @@ dot -Tpng docs/climate_chatbot_flow.dot -o docs/climate_chatbot_flow.png
 | **Aggregated corpus export (JSON)** | `temp/chatbot/climate_encyclopedia_entries.json` |
 | **Chatbot API (FastAPI)** | `encyclopedia/chatbot/app.py` |
 | **Run API + UI** | `scripts/run_chatbot_api.py` |
+| **RAG pipeline notebook (for collaborators)** | `docs/tutorials/CLIMATE_RAG_PIPELINE.ipynb` |
 
 ---
 
