@@ -405,6 +405,8 @@ output_file = Path(tempfile.mkdtemp(), "test_output.html")
 
 **Rationale**: Using incorrect dates in documentation creates confusion and reduces credibility. Always verify the current date from the system.
 
+**Maintenance:** Systematic failure to follow this rule is tracked as **MI-001** in `docs/MAINTENANCE_ISSUES.md` (deferred remediation).
+
 ### Comprehensive Documentation
 
 **Rule:** All components should have comprehensive documentation.
@@ -413,6 +415,28 @@ output_file = Path(tempfile.mkdtemp(), "test_output.html")
 - ✅ **Docstrings**: All public methods should have docstrings
 - ✅ **Inline comments**: Complex logic should have explanatory comments
 - ✅ **Workflow documentation**: Document complete workflows (see `docs/html_to_knowledge_graph_workflow.md`)
+
+### File Path References in Documentation
+
+**Rule:** When referring to filenames, use repository-root-relative paths.
+
+**✅ CORRECT (this repository):**
+```text
+<root>/encyclopedia/docs/summary/2025_10_26.md
+```
+
+**✅ CORRECT (sibling repositories):**
+```text
+../amilib/test/resources/ipcc/syr/lr/frontmatter/fm.html
+```
+
+**❌ WRONG:**
+```text
+docs/summary/2025_10_26.md
+/Users/pm286/workspace/encyclopedia/docs/summary/2025_10_26.md
+```
+
+**Rationale**: Root-relative references are stable across machines and easier to read in reviews and chat logs. Use sibling-relative paths (for example `../amilib/...`) when intentionally referencing external repositories next to this one.
 
 ---
 
