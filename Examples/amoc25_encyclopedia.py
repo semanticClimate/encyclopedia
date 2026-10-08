@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
 """
-Build an encyclopedia of the term AMOC from 100 Europe PMC papers.
+Build an AMOC encyclopedia from 25 Europe PMC papers and 50 terms.
 
-This is separate from Examples/amoc_query_to_encyclopedia.py, which searched
-for AMOC together with European climate and adaptation and kept the 50-paper
-corpus at ~/temp/amoc0. This script writes a new corpus at ~/temp/amoc.
+This is the smaller AMOC example. Examples/amoc_encyclopedia.py uses 100 papers
+and 100 entries at ~/temp/amoc. Examples/amoc_query_to_encyclopedia.py uses the
+narrower climate-and-adaptation query and the 50-paper corpus at ~/temp/amoc0.
+This script writes ~/temp/amoc25.
 
 The query Europe PMC receives is AMOC. The command is:
 
-    pygetpapers -q AMOC -k 100 -o ~/temp/amoc/pygetpapers --api europe_pmc -x
+    pygetpapers -q AMOC -k 25 -o ~/temp/amoc25/pygetpapers --api europe_pmc -x
 
-Up to 300 candidate terms are collected. A term is dropped when every saved
-hit is an affiliation or a reference. The 100 most relevant remaining terms
+Up to 150 candidate terms are collected. A term is dropped when every saved
+hit is an affiliation or a reference. The 50 most relevant remaining terms
 become encyclopedia entries. Wikipedia disambiguation pages are resolved from
-the body sentences of those terms.
+the body sentences of those terms. Terms with no Wikipedia article are listed
+on one page at the end.
 
 The script does not run on import:
 
-    python Examples/amoc_encyclopedia.py
+    python Examples/amoc25_encyclopedia.py
 
 Date: October 8, 2026 (system date)
 """
@@ -43,12 +45,12 @@ from encyclopedia.pipeline.query_to_encyclopedia import (
 
 
 QUERY = "AMOC"
-PAPER_LIMIT = 100
-MAX_ENTRIES = 100
-CANDIDATE_TERMS = 300
+PAPER_LIMIT = 25
+MAX_ENTRIES = 50
+CANDIDATE_TERMS = 150
 TITLE = "AMOC"
 
-AMOC_ROOT = Path(Path.home(), "temp", "amoc")
+AMOC_ROOT = Path(Path.home(), "temp", "amoc25")
 PYGETPAPERS_DIR = Path(AMOC_ROOT, "pygetpapers")
 CORPUS_DIR = Path(AMOC_ROOT, "corpus")
 ENCYCLOPEDIA_HTML = Path(AMOC_ROOT, "encyclopedia", "amoc_encyclopedia.html")
@@ -56,13 +58,13 @@ ENCYCLOPEDIA_HTML = Path(AMOC_ROOT, "encyclopedia", "amoc_encyclopedia.html")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Build a 100-entry AMOC encyclopedia from 100 papers."
+        description="Build a 50-entry AMOC encyclopedia from 25 papers."
     )
     parser.add_argument(
         "--max-terms",
         type=int,
         default=MAX_ENTRIES,
-        help="Encyclopedia entries after false positives are removed (default: 100)",
+        help="Encyclopedia entries after false positives are removed (default: 50)",
     )
     parser.add_argument(
         "--examples",
@@ -105,11 +107,11 @@ def _write_candidate_wordlist(max_candidates: int):
     return wordlist_csv
 
 
-def build_amoc_encyclopedia(max_terms: int = MAX_ENTRIES, max_paper_examples: int = 3):
-    """Download up to 100 papers and write a 100-entry encyclopedia.
+def build_amoc25_encyclopedia(max_terms: int = MAX_ENTRIES, max_paper_examples: int = 3):
+    """Download up to 25 papers and write a 50-entry encyclopedia.
 
-    Reuses ~/temp/amoc/pygetpapers and ~/temp/amoc/keywords when they already exist.
-    Does not read ~/temp/amoc0.
+    Reuses ~/temp/amoc25/pygetpapers and ~/temp/amoc25/keywords when they already exist.
+    Does not read ~/temp/amoc or ~/temp/amoc0.
     """
     command = build_pygetpapers_command(QUERY, PYGETPAPERS_DIR, PAPER_LIMIT)
     print(f"Query: {QUERY}")
@@ -136,7 +138,7 @@ def build_amoc_encyclopedia(max_terms: int = MAX_ENTRIES, max_paper_examples: in
 
 def main() -> None:
     args = parse_args()
-    build_amoc_encyclopedia(max_terms=args.max_terms, max_paper_examples=args.examples)
+    build_amoc25_encyclopedia(max_terms=args.max_terms, max_paper_examples=args.examples)
 
 
 if __name__ == "__main__":

@@ -27,6 +27,7 @@ from encyclopedia.pipeline.query_to_encyclopedia import (
     STOP_AFTER_ENCYCLOPEDIA,
     build_encyclopedia_from_terms,
     discover_paper_folders,
+    load_paper_examples,
     run_query_to_encyclopedia,
     write_filtered_wordlist,
 )
@@ -78,13 +79,15 @@ def build_eeflood_encyclopedia(max_terms: int = MAX_TERMS):
             text_dir=Path(EEFLOOD_ROOT, "texts"),
         )
         print(f"Wordlist: {wordlist_csv} ({len(terms)} terms)")
-        contexts = load_context_sentences(Path(EEFLOOD_ROOT, "wordlist_contexts.jsonl"))
+        context_path = Path(EEFLOOD_ROOT, "wordlist_contexts.jsonl")
+        contexts = load_context_sentences(context_path)
         build_encyclopedia_from_terms(
             terms,
             TITLE,
             ENCYCLOPEDIA_HTML,
             add_wikipedia=True,
             contexts_by_term=contexts,
+            paper_examples_by_term=load_paper_examples(context_path),
         )
         print(f"Wordlist: {wordlist_csv}")
         print(f"Encyclopedia: {ENCYCLOPEDIA_HTML}")

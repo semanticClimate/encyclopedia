@@ -30,6 +30,12 @@ pygetpapers -q AMOC -k 100 -o ~/temp/amoc/pygetpapers --api europe_pmc -x
 
 Candidate terms that occur only in an affiliation or a reference are removed before the 100 entries are chosen. Disambiguation then uses the remaining body sentences. The example has not been run.
 
+A smaller AMOC example downloads 25 papers and keeps 50 encyclopedia entries. It is `Examples/amoc25_encyclopedia.py`. Output is `~/temp/amoc25`. The command is:
+
+```bash
+pygetpapers -q AMOC -k 25 -o ~/temp/amoc25/pygetpapers --api europe_pmc -x
+```
+
 Every pipeline run writes that `-q` value and the full command into `<work-dir>/pipeline_summary.json` as `query` and `pygetpapers_command`. For this example the file is `~/temp/eeflood/pipeline_summary.json`.
 
 ### Checking quotes and brackets
@@ -103,7 +109,7 @@ python scripts/query_to_encyclopedia.py \
     --output encyclopedia.html
 ```
 
-`--stop-after` accepts `download`, `review`, `wordlist`, or `encyclopedia`.
+`--stop-after` accepts `download`, `review`, `wordlist`, or `encyclopedia`. `--examples` sets how many papers each entry links back to (default 3). Reset on the encyclopedia page restores that maximum.
 
 `amilib` and `txt2phrases` import in the encyclopedia environment. `pygetpapers` and `semantic_corpus` still need `pip install -e` from their sibling checkouts before a live query.
 

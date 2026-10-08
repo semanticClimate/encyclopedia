@@ -8,13 +8,18 @@ import pytest
 from encyclopedia.pipeline.query_to_encyclopedia import (
     apply_false_positive_filter,
     build_pygetpapers_command,
+    commons_thumbnail_url,
     discover_paper_folders,
     is_boilerplate_sentence,
     links_from_wikipedia_page,
     load_terms_by_relevance,
     prepare_plain_texts,
+    redirect_pointer,
     search_term_in_text,
+    select_paper_examples,
     select_paper_folders,
+    thumbnail_html,
+    wikipedia_thumbnail_html,
     write_filtered_wordlist,
     xml_file_to_plain_text,
     _load_run_pygetpapers,
@@ -362,6 +367,22 @@ def test_false_positive_filter_keeps_body_terms_and_resolves_contexts(tmp_path: 
     assert "climate change" in rejected
 
 
+def test_amoc25_encyclopedia_example_asks_for_25_papers_and_50_entries():
+    import importlib.util
+
+    path = Path(__file__).resolve().parents[2] / "Examples" / "amoc25_encyclopedia.py"
+    spec = importlib.util.spec_from_file_location("amoc25_encyclopedia_example", path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    assert module.QUERY == "AMOC"
+    assert module.PAPER_LIMIT == 25
+    assert module.MAX_ENTRIES == 50
+    assert module.AMOC_ROOT == Path.home() / "temp" / "amoc25"
+    command = build_pygetpapers_command(module.QUERY, module.PYGETPAPERS_DIR, module.PAPER_LIMIT)
+    assert "-q AMOC" in command
+    assert "-k 25" in command
+
+
 def test_amoc_encyclopedia_example_asks_for_100_papers_and_100_entries():
     import importlib.util
 
@@ -376,6 +397,232 @@ def test_amoc_encyclopedia_example_asks_for_100_papers_and_100_entries():
     command = build_pygetpapers_command(module.QUERY, module.PYGETPAPERS_DIR, module.PAPER_LIMIT)
     assert "-q AMOC" in command
     assert "-k 100" in command
+
+
+def test_commons_thumbnail_url_uses_an_upload_wikimedia_thumb():
+    parsed = (
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Antarctica.svg/"
+        "250px-Antarctica.svg.png?utm_source=en.wikipedia.org&utm_content=thumbnail"
+    )
+    thumb = commons_thumbnail_url(parsed)
+    assert thumb == (
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/"
+        "Antarctica.svg/250px-Antarctica.svg.png"
+    )
+    too_small = thumb.replace("/250px-", "/220px-")
+    assert commons_thumbnail_url(too_small).endswith("/250px-Antarctica.svg.png")
+    original = "https://upload.wikimedia.org/wikipedia/commons/5/59/Arctic_Ocean_-_en.png"
+    assert commons_thumbnail_url(original).endswith("/250px-Arctic_Ocean_-_en.png")
+    html = thumbnail_html(original, "https://en.wikipedia.org/wiki/File:Arctic_Ocean_-_en.png", "Arctic")
+    assert 'class="encyclopedia-thumbnail"' in html
+    assert 'width="220"' in html
+    assert "/250px-" in html
+    assert "utm_source" not in html
+
+
+def test_wikipedia_thumbnail_html_prefers_the_infobox_image():
+    from lxml.html import fromstring
+
+    class Page:
+        html_elem = fromstring(
+            "<html><body><table class='infobox'><tr><td>"
+            "<a href='/wiki/File:AMOC.svg' class='mw-file-description'>"
+            "<img alt='AMOC' src='//upload.wikimedia.org/wikipedia/commons/a/ab/AMOC.svg' width='220'>"
+            "</a></td></tr></table></body></html>"
+        )
+
+    html = wikipedia_thumbnail_html(Page())
+    assert "250px-AMOC.svg.png" in html
+    assert 'href="https://en.wikipedia.org/wiki/File:AMOC.svg"' in html
+
+
+def test_redirect_pointer_uses_the_wikipedia_redirect_banner():
+    from lxml.html import fromstring
+
+    class Page:
+        html_elem = fromstring(
+            "<html><head><title>Atlantic meridional overturning circulation - Wikipedia</title>"
+            '<link rel="canonical" href="https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation"/>'
+            "</head><body><div class='mw-redirectedfrom'>"
+            "(Redirected from <a href='/w/index.php?title=AMOC&amp;redirect=no'>AMOC</a>)</div>"
+            "</body></html>"
+        )
+
+    url, title = redirect_pointer(Page(), "AMOC")
+    assert url == "https://en.wikipedia.org/w/index.php?title=AMOC&redirect=no"
+    assert title == "AMOC"
+
+
+def test_missing_articles_are_one_page_and_pointers_keep_their_source(tmp_path: Path):
+    from encyclopedia.core.encyclopedia import AmiEncyclopedia
+
+    encyclopedia = AmiEncyclopedia(title="AMOC")
+    encyclopedia.entries = [
+        {
+            "term": "zebra missing",
+            "search_term": "zebra missing",
+            "content_note": "No description: no Wikipedia article",
+            "description_html": '<p class="no-description">No description: no Wikipedia article</p>',
+            "page_title": "zebra missing",
+        },
+        {
+            "term": "AMOC",
+            "search_term": "AMOC",
+            "wikidata_id": "Q1",
+            "wikidata_category": "ocean current",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation",
+            "page_title": "Atlantic meridional overturning circulation",
+            "description_html": "<p>The AMOC is an ocean current.</p>",
+            "pointer_kind": "redirect",
+            "pointer_url": "https://en.wikipedia.org/w/index.php?title=AMOC&redirect=no",
+            "pointer_title": "AMOC",
+            "figure_html": (
+                '<a class="encyclopedia-thumbnail" href="https://en.wikipedia.org/wiki/File:AMOC.svg">'
+                '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/AMOC.svg/220px-AMOC.svg.png"'
+                ' alt="AMOC" width="220"></a>'
+            ),
+        },
+        {
+            "term": "alpha missing",
+            "search_term": "alpha missing",
+            "content_note": "No description: no Wikipedia article",
+            "description_html": '<p class="no-description">No description: no Wikipedia article</p>',
+            "page_title": "alpha missing",
+        },
+        {
+            "term": "SST",
+            "search_term": "SST",
+            "wikidata_id": "Q2",
+            "wikidata_category": "temperature",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Sea_surface_temperature",
+            "page_title": "Sea surface temperature",
+            "description_html": "<p>Sea surface temperature is measured.</p>",
+            "pointer_kind": "disambiguation",
+            "pointer_url": "https://en.wikipedia.org/wiki/SST",
+            "pointer_title": "SST",
+        },
+    ]
+    html = encyclopedia.create_wiki_normalized_html()
+    assert html.index('term="AMOC"') < html.index('class="encyclopedia-entry missing-articles"')
+    assert html.index('term="SST"') < html.index('class="encyclopedia-entry missing-articles"')
+    assert html.count("No description: no Wikipedia article") == 1
+    assert html.index(">alpha missing<") < html.index(">zebra missing<")
+    assert "Redirected from " in html
+    assert 'href="https://en.wikipedia.org/w/index.php?title=AMOC&amp;redirect=no"' in html
+    assert "disambiguated from " in html
+    assert 'href="https://en.wikipedia.org/wiki/SST"' in html
+    assert 'class="encyclopedia-thumbnail"' in html
+    assert 'width="220"' in html
+
+
+def test_paper_examples_link_three_papers_and_can_reset(tmp_path: Path):
+    from encyclopedia.core.encyclopedia import AmiEncyclopedia
+
+    records = [
+        {
+            "sentence": "1 Author A grid. The AMOC project.",
+            "source": "PMC1.txt",
+            "start": 0,
+            "end": 1,
+            "matched": "1",
+        },
+        {
+            "sentence": "The AMOC slowed.",
+            "source": "PMC10089918.txt",
+            "start": 4,
+            "end": 8,
+            "matched": "AMOC",
+        },
+        {
+            "sentence": "Later the AMOC recovered.",
+            "source": "PMC10089918.txt",
+            "start": 10,
+            "end": 14,
+            "matched": "AMOC",
+        },
+        {
+            "sentence": "A second paper measured AMOC.",
+            "source": "PMC2.txt",
+            "start": 24,
+            "end": 28,
+            "matched": "AMOC",
+        },
+        {
+            "sentence": "A third paper modelled AMOC.",
+            "source": "PMC3.txt",
+            "start": 23,
+            "end": 27,
+            "matched": "AMOC",
+        },
+        {
+            "sentence": "A fourth paper also found AMOC.",
+            "source": "PMC4.txt",
+            "start": 26,
+            "end": 30,
+            "matched": "AMOC",
+        },
+    ]
+    examples = select_paper_examples(records, max_examples=3)
+    assert [item["source"] for item in examples] == [
+        "PMC10089918.txt",
+        "PMC2.txt",
+        "PMC3.txt",
+    ]
+    assert examples[0]["url"] == "https://europepmc.org/article/PMC/PMC10089918"
+
+    contexts = Path(tmp_path, "wordlist_contexts.jsonl")
+    contexts.write_text(
+        "\n".join(json.dumps({"keyword": "AMOC", **record}) for record in records) + "\n",
+        encoding="utf-8",
+    )
+    wordlist = Path(tmp_path, "wordlist.csv")
+    wordlist.write_text(
+        "term,phrase,frequency,paper_count\nAMOC,AMOC (4 times in 4 papers),4,4\n",
+        encoding="utf-8",
+    )
+    filtered = apply_false_positive_filter(wordlist, max_terms=5, max_paper_examples=3)
+    assert [item["source"] for item in filtered.paper_examples["amoc"]] == [
+        "PMC10089918.txt",
+        "PMC2.txt",
+        "PMC3.txt",
+    ]
+
+    encyclopedia = AmiEncyclopedia(title="AMOC")
+    encyclopedia.paper_example_limit = 3
+    encyclopedia.entries = [
+        {
+            "term": "AMOC",
+            "search_term": "AMOC",
+            "wikidata_id": "Q1",
+            "wikidata_category": "ocean current",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation",
+            "page_title": "Atlantic meridional overturning circulation",
+            "description_html": "<p>The AMOC is an ocean current.</p>",
+            "paper_examples": examples,
+        },
+        {
+            "term": "alpha missing",
+            "search_term": "alpha missing",
+            "content_note": "No description: no Wikipedia article",
+            "description_html": '<p class="no-description">No description: no Wikipedia article</p>',
+            "page_title": "alpha missing",
+            "paper_examples": [examples[0]],
+        },
+    ]
+    html = encyclopedia.create_wiki_normalized_html()
+    assert 'href="https://europepmc.org/article/PMC/PMC10089918"' in html
+    assert 'class="paper-hit">AMOC<' in html
+    assert "PMC4" not in html
+    assert 'id="example-limit"' in html
+    assert 'max="3"' in html
+    assert 'id="example-limit-reset"' in html
+    assert ">Reset<" in html
+    assert "data-example-limit" in html
+    article = html[:html.index('class="encyclopedia-entry missing-articles"')]
+    missing = html[html.index('class="missing-article-list"'):]
+    assert "PMC10089918" in article
+    assert "PMC2" in article
+    assert "PMC10089918" in missing
 
 
 def test_load_terms_by_relevance_sorts_by_count_then_limits(tmp_path: Path):

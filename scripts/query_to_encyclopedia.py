@@ -89,6 +89,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument("--top-n", type=int, default=50, help="Keyphrases kept per paper")
     parser.add_argument("--max-terms", type=int, default=30, help="Terms sent to the encyclopedia")
+    parser.add_argument(
+        "--examples",
+        type=int,
+        default=3,
+        help="Paper examples linked from each entry. Reset in the page restores this maximum (default: 3)",
+    )
     parser.add_argument("--min-count", type=int, default=2, help="Minimum aggregated term count")
     parser.add_argument("--title", default="", help="Encyclopedia title")
     parser.add_argument("--output", type=Path, help="Encyclopedia HTML path")
@@ -166,6 +172,7 @@ def main() -> None:
         top_n=args.top_n,
         max_terms=args.max_terms,
         min_count=args.min_count,
+        max_paper_examples=args.examples,
         title=args.title,
         encyclopedia_html=args.output,
         add_wikipedia=not args.no_wikipedia,

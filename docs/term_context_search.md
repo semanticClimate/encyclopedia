@@ -60,3 +60,5 @@ Case variants are one term. The spelling that occurs most often is kept. A tie k
 The search uses the Python standard library. The sentences come from the plain text already extracted from Europe PMC full text, not from a second model call.
 
 Those sentences are also the context used to choose a page from a Wikipedia disambiguation list. See [Wikipedia disambiguation](wikipedia_disambiguation.md).
+
+Each encyclopedia entry links back to the papers. The default is one sentence from each of three papers, using `source` as `https://europepmc.org/article/PMC/<PMCID>`. The matched span is marked. A control at the top of the page can show fewer examples; Reset restores the maximum, which is also the `--examples` argument (default 3).

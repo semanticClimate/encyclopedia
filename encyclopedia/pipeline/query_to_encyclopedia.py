@@ -12,11 +12,13 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 import csv
+from html import escape
 import json
 import re
 import shlex
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence
+from urllib.parse import quote
 
 from lxml import etree
 
@@ -632,6 +634,8 @@ _YEAR_THEN_PAGES = re.compile(r"\b(?:19|20)\d{2}\b(?:\s+\d+){2,}")
 _DOI = re.compile(r"\b10\.\d{4,9}/\S+")
 _AFFILIATION_PREFIX = re.compile(r"^\d+\s+\d{4}\s+\d{4}\b")
 FALSE_POSITIVE_REASON = "only affiliation or reference hits"
+DEFAULT_PAPER_EXAMPLES = 3
+EUROPE_PMC_ARTICLE = "https://europepmc.org/article/PMC/"
 
 
 def is_boilerplate_sentence(sentence: str) -> bool:
@@ -675,6 +679,70 @@ def split_boilerplate_terms(
     return kept, rejected
 
 
+def europepmc_article_url(source: str) -> str:
+    """Europe PMC article for a paper text file such as PMC10089918.txt."""
+    stem = Path(str(source or "")).stem
+    if stem.upper().startswith("PMC") and stem[3:].isdigit():
+        return f"{EUROPE_PMC_ARTICLE}{stem}"
+    return ""
+
+
+def select_paper_examples(
+    records: Sequence[dict],
+    max_examples: int = DEFAULT_PAPER_EXAMPLES,
+) -> List[dict]:
+    """One body-sentence example from each paper, up to max_examples papers.
+
+    The first saved sentence for a paper is kept. Later hits in that same paper
+    are skipped so the entry links back to distinct papers.
+    """
+    chosen: List[dict] = []
+    seen = set()
+    for record in records:
+        source = str(record.get("source") or "").strip()
+        sentence = str(record.get("sentence") or "").strip()
+        if not source or not sentence or source in seen:
+            continue
+        if is_boilerplate_sentence(sentence):
+            continue
+        seen.add(source)
+        start = record.get("start")
+        end = record.get("end")
+        chosen.append({
+            "source": source,
+            "sentence": sentence,
+            "start": int(start) if str(start or "").lstrip("-").isdigit() else 0,
+            "end": int(end) if str(end or "").lstrip("-").isdigit() else 0,
+            "matched": str(record.get("matched") or ""),
+            "url": europepmc_article_url(source),
+        })
+        if max_examples > 0 and len(chosen) >= max_examples:
+            break
+    return chosen
+
+
+def load_paper_examples(
+    contexts_jsonl: Path,
+    max_examples: int = DEFAULT_PAPER_EXAMPLES,
+) -> Dict[str, List[dict]]:
+    """Paper examples keyed by phrase_key, capped at max_examples."""
+    grouped: Dict[str, List[dict]] = {}
+    path = Path(contexts_jsonl)
+    if not path.is_file():
+        return grouped
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        record = json.loads(line)
+        term = str(record.get("keyword") or "").strip()
+        if term:
+            grouped.setdefault(phrase_key(term), []).append(record)
+    return {
+        key: select_paper_examples(records, max_examples)
+        for key, records in grouped.items()
+    }
+
+
 @dataclass(frozen=True)
 class FalsePositiveFilterResult:
     """Terms kept for the encyclopedia, and the terms removed as false positives."""
@@ -682,6 +750,7 @@ class FalsePositiveFilterResult:
     terms: List[str]
     contexts_by_term: Dict[str, List[str]]
     rejected: List[tuple]
+    paper_examples: Dict[str, List[dict]]
 
 
 def apply_false_positive_filter(
@@ -689,6 +758,7 @@ def apply_false_positive_filter(
     max_terms: int,
     contexts_jsonl: Optional[Path] = None,
     rejected_csv: Optional[Path] = None,
+    max_paper_examples: int = DEFAULT_PAPER_EXAMPLES,
 ) -> FalsePositiveFilterResult:
     """Drop affiliation-only and reference-only terms, then keep the most relevant.
 
@@ -714,7 +784,8 @@ def apply_false_positive_filter(
     if context_path.is_file() or records:
         _write_context_jsonl(context_path, records)
     contexts = load_context_sentences(context_path) if context_path.is_file() else {}
-    return FalsePositiveFilterResult(terms, contexts, rejected)
+    paper_examples = load_paper_examples(context_path, max_paper_examples)
+    return FalsePositiveFilterResult(terms, contexts, rejected, paper_examples)
 
 
 def _write_wordlist_rows(wordlist_csv: Path, rows: Sequence[tuple]) -> None:
@@ -780,6 +851,13 @@ def _limit_ranked_terms(items: Sequence[tuple], max_terms: int) -> Sequence[tupl
 
 WIKIPEDIA_ORIGIN = "https://en.wikipedia.org"
 WIKIDATA_ORIGIN = "https://www.wikidata.org/wiki/"
+THUMBNAIL_WIDTH = 220
+# Wikimedia only renders a few thumbnail widths. 220px returns an error page.
+_SERVED_THUMB_WIDTHS = (120, 250, 330, 500)
+_SKIP_IMAGE = re.compile(
+    r"Wikipedia-logo|padlock|edit-clear|Ambox|Question_book|OOjs_UI|wikimedia-button|1px-",
+    re.IGNORECASE,
+)
 
 
 def _absolutize_wikipedia_html(html: str) -> str:
@@ -852,6 +930,123 @@ def _wikidata_id_from_page(wikipedia_page) -> str:
     return match.group(1) if match else ""
 
 
+def _served_thumb_width(width: int) -> int:
+    """Nearest Wikimedia thumbnail width that the file servers actually return."""
+    if width in _SERVED_THUMB_WIDTHS:
+        return width
+    larger = [item for item in _SERVED_THUMB_WIDTHS if item >= width]
+    return larger[0] if larger else _SERVED_THUMB_WIDTHS[-1]
+
+
+def commons_thumbnail_url(url: str, width: int = 250) -> str:
+    """Stable Wikimedia thumbnail URL that a local encyclopedia page can load.
+
+    Wikipedia's parsed HTML often points at thumb.wikimedia.org with a campaign
+    query, and the browser then prefers a protocol-relative srcset. Those URLs
+    do not load from a saved HTML file. This returns an upload.wikimedia.org
+    thumbnail at a width Wikimedia serves. A 220px request is one of the widths
+    that comes back as an error page, so it is raised to 250px.
+    """
+    cleaned = str(url or "").strip()
+    if not cleaned:
+        return ""
+    if cleaned.startswith("//"):
+        cleaned = "https:" + cleaned
+    cleaned = cleaned.split("?", 1)[0]
+    cleaned = cleaned.replace("https://thumb.wikimedia.org/", "https://upload.wikimedia.org/")
+    cleaned = cleaned.replace("http://thumb.wikimedia.org/", "https://upload.wikimedia.org/")
+    cleaned = cleaned.replace("http://upload.wikimedia.org/", "https://upload.wikimedia.org/")
+    size = re.search(r"/(\d+)px-([^/]+)$", cleaned)
+    if "/wikipedia/commons/thumb/" in cleaned and size:
+        served = _served_thumb_width(int(size.group(1)))
+        return re.sub(r"/\d+px-([^/]+)$", f"/{served}px-\\1", cleaned)
+    match = re.match(
+        r"(https://upload\.wikimedia\.org/wikipedia/commons/)"
+        r"([0-9a-f]/[0-9a-f]{2}/)([^/]+)$",
+        cleaned,
+        re.IGNORECASE,
+    )
+    if not match:
+        return cleaned
+    filename = match.group(3)
+    served = _served_thumb_width(width)
+    thumb_name = f"{served}px-{filename}"
+    if filename.lower().endswith(".svg"):
+        thumb_name += ".png"
+    return f"{match.group(1)}thumb/{match.group(2)}{filename}/{thumb_name}"
+
+
+def thumbnail_html(src: str, file_href: str = "", alt: str = "") -> str:
+    """A small image that links to the Wikipedia file page."""
+    thumb = commons_thumbnail_url(src)
+    if not thumb or "upload.wikimedia.org" not in thumb:
+        return ""
+    href = file_href or thumb
+    alt_text = escape(alt or "", quote=True)
+    return (
+        f'<a class="encyclopedia-thumbnail" href="{escape(href, quote=True)}">'
+        f'<img src="{escape(thumb, quote=True)}" alt="{alt_text}" width="{THUMBNAIL_WIDTH}">'
+        f"</a>"
+    )
+
+
+def _img_src(img) -> str:
+    return str(img.get("src") or img.get("data-src") or "")
+
+
+def _file_href(img) -> str:
+    resource = str(img.get("resource") or "")
+    parent = img.getparent()
+    href = ""
+    if parent is not None and getattr(parent, "tag", None) == "a":
+        href = str(parent.get("href") or "")
+    if resource.startswith("http"):
+        return resource.split("?", 1)[0]
+    if href.startswith("//"):
+        return "https:" + href
+    if href.startswith("/"):
+        return WIKIPEDIA_ORIGIN + href
+    if resource.startswith("/"):
+        return WIKIPEDIA_ORIGIN + resource
+    return href
+
+
+def _usable_thumbnail(img) -> bool:
+    src = _img_src(img)
+    if not src or _SKIP_IMAGE.search(src):
+        return False
+    if "wikimedia.org" not in src:
+        return False
+    try:
+        width = int(img.get("width") or 0)
+    except (TypeError, ValueError):
+        width = 0
+    return not (0 < width < 40)
+
+
+def wikipedia_thumbnail_html(wikipedia_page, figure=None) -> str:
+    """Build one thumbnail from an infobox or lead image on the page."""
+    images = []
+    if figure is not None and hasattr(figure, "xpath"):
+        if getattr(figure, "tag", None) == "img":
+            images.append(figure)
+        images.extend(figure.xpath(".//img"))
+    html_elem = getattr(wikipedia_page, "html_elem", None)
+    if html_elem is not None:
+        images.extend(html_elem.xpath(
+            ".//table[contains(@class,'infobox')]//img"
+            " | .//figure[contains(@typeof,'mw:File')]//img"
+            " | .//a[contains(@class,'mw-file-description') or contains(@class,'image')]//img"
+        ))
+    for img in images:
+        if not _usable_thumbnail(img):
+            continue
+        html = thumbnail_html(_img_src(img), _file_href(img), str(img.get("alt") or ""))
+        if html:
+            return html
+    return ""
+
+
 def links_from_wikipedia_page(wikipedia_page) -> Dict[str, object]:
     """Definition, description, image, Wikipedia URL, and Wikidata id from one page."""
     from encyclopedia.cli.versioned_editor import (
@@ -868,18 +1063,17 @@ def links_from_wikipedia_page(wikipedia_page) -> Dict[str, object]:
     definition_html, description_html = _get_first_paragraph_html_from_wikipedia_page(
         wikipedia_page
     )
-    figure = None
-    image_link = ""
+    extracted_figure = None
     images = _extract_images_from_wikipedia_page(wikipedia_page, verbose=False)
     if images:
-        figure = images[0]
-        _fix_image_urls(figure)
-        if getattr(figure, "tag", None) == "a":
-            image_link = figure.get("href") or ""
-        elif hasattr(figure, "xpath"):
-            anchors = figure.xpath(".//a[@href]")
-            if anchors:
-                image_link = anchors[0].get("href") or ""
+        extracted_figure = images[0]
+        _fix_image_urls(extracted_figure)
+    figure = wikipedia_thumbnail_html(wikipedia_page, extracted_figure)
+    image_link = ""
+    if figure:
+        match = re.search(r'src="([^"]+)"', figure)
+        if match:
+            image_link = match.group(1)
     return {
         "wikipedia_url": wikipedia_url,
         "page_title": page_title,
@@ -887,9 +1081,35 @@ def links_from_wikipedia_page(wikipedia_page) -> Dict[str, object]:
         "content_note": content_note,
         "definition_html": _absolutize_wikipedia_html(definition_html or ""),
         "description_html": _absolutize_wikipedia_html(description_html or ""),
-        "figure_html": figure,
+        "figure_html": figure or None,
         "image_link": image_link,
     }
+
+
+def _absolute_wikipedia_href(href: str) -> str:
+    if href.startswith("//"):
+        return "https:" + href
+    if href.startswith("/"):
+        return WIKIPEDIA_ORIGIN + href
+    return href
+
+
+def redirect_pointer(wikipedia_page, term: str) -> tuple:
+    """Source page when Wikipedia followed a redirect to a different title.
+
+    Returns (url, title). The url opens the redirect itself, with redirect=no.
+    """
+    html_elem = getattr(wikipedia_page, "html_elem", None)
+    if html_elem is not None:
+        links = html_elem.xpath("//*[contains(@class,'mw-redirectedfrom')]//a[@href]")
+        if links:
+            title = " ".join(str(part) for part in links[0].xpath(".//text()")).strip() or term
+            return _absolute_wikipedia_href(str(links[0].get("href") or "")), title
+    page_title = _wikipedia_page_title(wikipedia_page)
+    if page_title and phrase_key(page_title) != phrase_key(term):
+        slug = quote(term.replace(" ", "_"), safe="()_-'")
+        return f"{WIKIPEDIA_ORIGIN}/w/index.php?title={slug}&redirect=no", term
+    return "", ""
 
 
 def _new_entry(term: str) -> Dict[str, object]:
@@ -908,6 +1128,10 @@ def _new_entry(term: str) -> Dict[str, object]:
         "wikipedia_page_retrieved": False,
         "first_paragraph_retrieved": False,
         "disambiguation_history": "",
+        "pointer_kind": "",
+        "pointer_url": "",
+        "pointer_title": "",
+        "paper_examples": [],
     }
 
 
@@ -941,6 +1165,16 @@ def _apply_wikipedia_page(entry: Dict[str, object], wikipedia_page, encyclopedia
         entry["wikidata_category"] = encyclopedia._get_wikidata_category(
             str(extracted["wikidata_id"])
         )
+    if not note:
+        pointer_url, pointer_title = redirect_pointer(wikipedia_page, str(entry.get("term") or ""))
+        if pointer_url:
+            entry["pointer_kind"] = "redirect"
+            entry["pointer_url"] = pointer_url
+            entry["pointer_title"] = pointer_title
+    else:
+        entry["pointer_kind"] = ""
+        entry["pointer_url"] = ""
+        entry["pointer_title"] = ""
 
 
 def create_encyclopedia_from_terms(
@@ -949,6 +1183,8 @@ def create_encyclopedia_from_terms(
     encyclopedia_html: Path,
     add_wikipedia: bool = True,
     contexts_by_term: Optional[Dict[str, List[str]]] = None,
+    paper_examples_by_term: Optional[Dict[str, List[dict]]] = None,
+    max_paper_examples: int = DEFAULT_PAPER_EXAMPLES,
 ):
     """Create encyclopedia entries directly from terms.
 
@@ -959,10 +1195,18 @@ def create_encyclopedia_from_terms(
     from encyclopedia.core.encyclopedia import AmiEncyclopedia
 
     encyclopedia = AmiEncyclopedia(title=title)
+    encyclopedia.paper_example_limit = max_paper_examples
     total = len(terms)
     for index, term in enumerate(terms, start=1):
         print(f"Encyclopedia {index}/{total}: {term}", flush=True)
         entry = _new_entry(term)
+        if paper_examples_by_term:
+            examples = list(paper_examples_by_term.get(phrase_key(term), []))
+            if max_paper_examples > 0:
+                examples = examples[:max_paper_examples]
+            else:
+                examples = []
+            entry["paper_examples"] = examples
         if add_wikipedia:
             try:
                 wikipedia_page = WikipediaPage.lookup_wikipedia_page_for_term(term)
@@ -971,6 +1215,10 @@ def create_encyclopedia_from_terms(
                 print(f"  Wikipedia: lookup failed ({exc})", flush=True)
             if wikipedia_page is None:
                 print("  Wikipedia: not found", flush=True)
+                entry["content_note"] = "No description: no Wikipedia article"
+                entry["description_html"] = (
+                    '<p class="no-description">No description: no Wikipedia article</p>'
+                )
             else:
                 _apply_wikipedia_page(entry, wikipedia_page, encyclopedia)
                 _resolve_disambiguation_entry(
@@ -1020,7 +1268,12 @@ def _resolve_disambiguation_entry(
             chosen_page = None
             print(f"  Disambiguation page failed ({exc})", flush=True)
         if chosen_page is not None:
+            dab_url = str(entry.get("wikipedia_url") or "")
+            dab_title = str(entry.get("page_title") or term)
             _apply_wikipedia_page(entry, chosen_page, encyclopedia)
+            entry["pointer_kind"] = "disambiguation"
+            entry["pointer_url"] = dab_url
+            entry["pointer_title"] = dab_title
     entry["disambiguation_history"] = decision.history
 
 
@@ -1030,6 +1283,8 @@ def build_encyclopedia_from_terms(
     encyclopedia_html: Path,
     add_wikipedia: bool = True,
     contexts_by_term: Optional[Dict[str, List[str]]] = None,
+    paper_examples_by_term: Optional[Dict[str, List[dict]]] = None,
+    max_paper_examples: int = DEFAULT_PAPER_EXAMPLES,
 ):
     """Create and save an encyclopedia from an ordered term list."""
     return create_encyclopedia_from_terms(
@@ -1038,6 +1293,8 @@ def build_encyclopedia_from_terms(
         encyclopedia_html,
         add_wikipedia=add_wikipedia,
         contexts_by_term=contexts_by_term,
+        paper_examples_by_term=paper_examples_by_term,
+        max_paper_examples=max_paper_examples,
     )
 
 
@@ -1081,6 +1338,7 @@ def run_query_to_encyclopedia(
     min_count: int = 2,
     min_term_words: int = 1,
     max_term_words: int = 6,
+    max_paper_examples: int = DEFAULT_PAPER_EXAMPLES,
     title: str = "",
     encyclopedia_html: Optional[Path] = None,
     add_wikipedia: bool = True,
@@ -1187,12 +1445,15 @@ def run_query_to_encyclopedia(
         from encyclopedia.pipeline.wikipedia_disambiguation import load_context_sentences
 
         contexts = load_context_sentences(context_path)
+    paper_examples = load_paper_examples(context_path, max_paper_examples)
     build_encyclopedia_from_terms(
         terms,
         encyclopedia_title,
         html_path,
         add_wikipedia=add_wikipedia,
         contexts_by_term=contexts,
+        paper_examples_by_term=paper_examples,
+        max_paper_examples=max_paper_examples,
     )
     return _finish(
         work_dir, pygetpapers_dir, corpus_path, review_json, wordlist_csv, html_path,

@@ -17,7 +17,7 @@ import lxml.etree as ET
 from pathlib import Path
 from typing import Optional, Dict, List
 from collections import defaultdict, Counter
-from urllib.parse import urlparse, unquote
+from urllib.parse import quote, unquote, urlparse
 from datetime import datetime, timezone
 
 from amilib.ami_html import HtmlLib
@@ -38,6 +38,171 @@ def _joined_disambiguation_history(entries) -> str:
         if note and note not in notes:
             notes.append(note)
     return " ".join(notes)
+
+
+def _is_missing_wikipedia_article(entry) -> bool:
+    """True when the entry has no Wikipedia article to show on its own."""
+    description = str(entry.get("description_html") or "")
+    note = str(entry.get("content_note") or "")
+    if description and "no Wikipedia article" not in description:
+        return False
+    return "no Wikipedia article" in note or "no Wikipedia article" in description
+
+
+def _first_pointer(entries) -> Dict[str, str]:
+    """Redirect or disambiguation source kept from the entries being merged."""
+    for entry in entries:
+        url = str(entry.get("pointer_url") or "").strip()
+        if url:
+            return {
+                "pointer_kind": str(entry.get("pointer_kind") or ""),
+                "pointer_url": url,
+                "pointer_title": str(entry.get("pointer_title") or ""),
+            }
+    return {"pointer_kind": "", "pointer_url": "", "pointer_title": ""}
+
+
+def _merged_content_note(entries) -> str:
+    """Content note for a merged entry, preferring a note about a real page."""
+    notes = [str(entry.get("content_note") or "").strip() for entry in entries]
+    notes = [note for note in notes if note]
+    for note in notes:
+        if "no Wikipedia article" not in note:
+            return note
+    return notes[0] if notes else ""
+
+
+def _merged_paper_examples(entries, limit: int) -> List[dict]:
+    """Distinct papers from the merged terms, capped at the example limit."""
+    chosen: List[dict] = []
+    seen = set()
+    for entry in entries:
+        for example in entry.get("paper_examples") or []:
+            source = str(example.get("source") or "")
+            if not source or source in seen:
+                continue
+            seen.add(source)
+            chosen.append(example)
+            if limit > 0 and len(chosen) >= limit:
+                return chosen
+    return chosen
+
+
+def _highlight_sentence(parent, example: dict) -> None:
+    """Write a sentence with the matched term marked."""
+    sentence = str(example.get("sentence") or "")
+    start = int(example.get("start") or 0)
+    end = int(example.get("end") or 0)
+    matched = str(example.get("matched") or "")
+    hit = ""
+    before = sentence
+    after = ""
+    if 0 <= start < end <= len(sentence):
+        before, hit, after = sentence[:start], sentence[start:end], sentence[end:]
+    elif matched and matched in sentence:
+        start = sentence.find(matched)
+        before, hit, after = sentence[:start], matched, sentence[start + len(matched):]
+    parent.text = before
+    if hit:
+        mark = ET.SubElement(parent, "span")
+        mark.set("class", "paper-hit")
+        mark.text = hit
+        mark.tail = after
+
+
+def _append_paper_examples(parent, examples) -> None:
+    """Links back to the papers, one sentence from each."""
+    if not examples:
+        return
+    listing = ET.SubElement(parent, "ul")
+    listing.set("class", "paper-examples")
+    for index, example in enumerate(examples, start=1):
+        item = ET.SubElement(listing, "li")
+        item.set("class", "paper-example")
+        item.set("data-example", str(index))
+        source = str(example.get("source") or "")
+        label = Path(source).stem or source
+        url = str(example.get("url") or "")
+        if url:
+            link = ET.SubElement(item, "a")
+            link.set("href", url)
+        else:
+            link = ET.SubElement(item, "span")
+        link.set("class", "paper-link")
+        link.text = label
+        sentence = ET.SubElement(item, "span")
+        sentence.set("class", "paper-sentence")
+        _highlight_sentence(sentence, example)
+
+
+def _append_example_limit_control(parent, limit: int) -> None:
+    """Number of paper examples to show, with Reset restoring the maximum."""
+    if limit <= 0:
+        return
+    parent.set("data-example-limit", str(limit))
+    box = ET.SubElement(parent, "div")
+    box.set("class", "example-limit")
+    label = ET.SubElement(box, "label")
+    label.set("for", "example-limit")
+    label.text = "Paper examples "
+    field = ET.SubElement(label, "input")
+    field.set("type", "number")
+    field.set("id", "example-limit")
+    field.set("min", "0")
+    field.set("max", str(limit))
+    field.set("value", str(limit))
+    button = ET.SubElement(box, "button")
+    button.set("type", "button")
+    button.set("id", "example-limit-reset")
+    button.text = "Reset"
+
+
+def _append_example_limit_script(parent) -> None:
+    script = ET.SubElement(parent, "script")
+    script.text = (
+        "(function () {"
+        "var root = document.querySelector('[role=ami_encyclopedia]');"
+        "if (!root) return;"
+        "var max = Number(root.getAttribute('data-example-limit') || '3');"
+        "var input = document.getElementById('example-limit');"
+        "var reset = document.getElementById('example-limit-reset');"
+        "function apply(count) {"
+        "var items = root.querySelectorAll('.paper-example');"
+        "for (var i = 0; i < items.length; i++) {"
+        "var n = Number(items[i].getAttribute('data-example') || '0');"
+        "if (n > count) items[i].setAttribute('hidden', 'hidden');"
+        "else items[i].removeAttribute('hidden');"
+        "}"
+        "}"
+        "if (input) input.addEventListener('input', function () { apply(Number(input.value || '0')); });"
+        "if (reset) reset.addEventListener('click', function () {"
+        "if (input) input.value = String(max); apply(max);"
+        "});"
+        "apply(max);"
+        "})();"
+    )
+
+
+def _append_missing_article_page(parent, items) -> None:
+    """One encyclopedia page listing every term that has no Wikipedia article."""
+    entry = ET.SubElement(parent, "div")
+    entry.set("role", "ami_entry")
+    entry.set("class", "encyclopedia-entry missing-articles")
+    entry.set("term", "No Wikipedia article")
+    entry.set("title", "No Wikipedia article")
+    heading = ET.SubElement(entry, "h2")
+    heading.text = "No Wikipedia article"
+    note = ET.SubElement(entry, "p")
+    note.set("class", "no-description")
+    note.text = "No description: no Wikipedia article"
+    listing = ET.SubElement(entry, "ul")
+    listing.set("class", "missing-article-list")
+    for name, examples in items:
+        item = ET.SubElement(listing, "li")
+        link = ET.SubElement(item, "a")
+        link.set("href", "https://en.wikipedia.org/w/index.php?search=" + quote(name))
+        link.text = name
+        _append_paper_examples(item, examples)
 
 
 class AmiEncyclopedia:
@@ -591,6 +756,13 @@ class AmiEncyclopedia:
                         'wikipedia_page_retrieved': entry.get('wikipedia_page_retrieved', False),
                         'first_paragraph_retrieved': entry.get('first_paragraph_retrieved', False),
                         'disambiguation_history': entry.get('disambiguation_history', ''),
+                        'content_note': entry.get('content_note', ''),
+                        'pointer_kind': entry.get('pointer_kind', ''),
+                        'pointer_url': entry.get('pointer_url', ''),
+                        'pointer_title': entry.get('pointer_title', ''),
+                        'paper_examples': _merged_paper_examples(
+                            [entry], int(getattr(self, "paper_example_limit", 3) or 0)
+                        ),
                         'entry_count': 1,
                         'source_entries': [entry]
                     })
@@ -668,6 +840,7 @@ class AmiEncyclopedia:
                 wikipedia_page_retrieved = any(entry.get('wikipedia_page_retrieved', False) for entry in entries)
                 first_paragraph_retrieved = any(entry.get('first_paragraph_retrieved', False) for entry in entries)
                 disambiguation_history = _joined_disambiguation_history(entries)
+                pointer = _first_pointer(entries)
                 
                 merged_entries.append({
                     'wikidata_id': wikidata_id,
@@ -682,6 +855,13 @@ class AmiEncyclopedia:
                     'wikipedia_page_retrieved': wikipedia_page_retrieved,
                     'first_paragraph_retrieved': first_paragraph_retrieved,
                     'disambiguation_history': disambiguation_history,
+                    'content_note': _merged_content_note(entries),
+                    'pointer_kind': pointer["pointer_kind"],
+                    'pointer_url': pointer["pointer_url"],
+                    'pointer_title': pointer["pointer_title"],
+                    'paper_examples': _merged_paper_examples(
+                        entries, int(getattr(self, "paper_example_limit", 3) or 0)
+                    ),
                     'entry_count': len(entries),
                     'source_entries': entries
                 })
@@ -1063,6 +1243,44 @@ class AmiEncyclopedia:
             background-color: #e0e0e0;
             text-decoration: underline;
         }
+
+        .encyclopedia-thumbnail img {
+            display: block;
+            max-width: 220px;
+            height: auto;
+            margin: 8px 0;
+        }
+
+        .entry-pointer {
+            margin: 6px 0;
+            color: #444;
+        }
+
+        .missing-article-list {
+            margin: 8px 0 16px 1.2em;
+        }
+
+        .example-limit {
+            margin: 0 0 16px;
+        }
+
+        .paper-examples {
+            margin: 8px 0 0 1.2em;
+            padding: 0;
+        }
+
+        .paper-example {
+            margin: 4px 0;
+        }
+
+        .paper-link {
+            margin-right: 0.5em;
+        }
+
+        .paper-hit {
+            font-weight: bold;
+            background-color: #e8f4f8;
+        }
         
         /* Entry checkboxes container */
         .entry-checkboxes {
@@ -1132,12 +1350,31 @@ class AmiEncyclopedia:
         # Add metadata as JSON string in data-metadata attribute
         metadata_json = json.dumps(self.metadata, indent=2)
         encyclopedia_div.attrib["data-metadata"] = metadata_json
+        example_limit = int(getattr(self, "paper_example_limit", 3) or 0)
+        _append_example_limit_control(encyclopedia_div, example_limit)
         
         # Stage 1: Merge synonymous entries with identical Wikidata IDs
         merged_entries = self._merge_synonymous_entries()
+        article_entries = []
+        missing_items = []
+        seen_missing = set()
+        for merged_entry in merged_entries:
+            if _is_missing_wikipedia_article(merged_entry):
+                name = str(
+                    merged_entry.get("canonical_term")
+                    or merged_entry.get("page_title")
+                    or ""
+                ).strip()
+                key = name.casefold()
+                if name and key not in seen_missing:
+                    seen_missing.add(key)
+                    missing_items.append((name, list(merged_entry.get("paper_examples") or [])))
+            else:
+                article_entries.append(merged_entry)
+        missing_items.sort(key=lambda item: item[0].casefold())
         
         # Process merged entries sequentially
-        for idx, merged_entry in enumerate(merged_entries):
+        for idx, merged_entry in enumerate(article_entries):
             entry_div = ET.SubElement(encyclopedia_div, "div")
             entry_div.attrib["role"] = "ami_entry"
             entry_div.attrib["class"] = "encyclopedia-entry"
@@ -1270,6 +1507,18 @@ class AmiEncyclopedia:
                 history_p.attrib["class"] = "disambiguation-history"
                 history_p.text = history
 
+            pointer_url = str(merged_entry.get("pointer_url") or "").strip()
+            pointer_kind = str(merged_entry.get("pointer_kind") or "").strip()
+            if pointer_url and pointer_kind in ("redirect", "disambiguation"):
+                pointer_p = ET.SubElement(entry_div, "p")
+                pointer_p.attrib["class"] = "entry-pointer"
+                pointer_p.text = (
+                    "Redirected from " if pointer_kind == "redirect" else "disambiguated from "
+                )
+                pointer_link = ET.SubElement(pointer_p, "a")
+                pointer_link.attrib["href"] = pointer_url
+                pointer_link.text = str(merged_entry.get("pointer_title") or pointer_url)
+
             # Add description with first sentence highlighted
             description_html = merged_entry.get('description_html', '')
             definition_html = merged_entry.get('definition_html', '')
@@ -1337,6 +1586,8 @@ class AmiEncyclopedia:
                     desc_p = ET.SubElement(entry_div, "p")
                     desc_p.attrib["class"] = "wpage_first_para"
                     desc_p.text = description_html
+
+            _append_paper_examples(entry_div, merged_entry.get("paper_examples") or [])
             
             # Add figure if available
             figure_html = merged_entry.get('figure_html')
@@ -1394,6 +1645,11 @@ class AmiEncyclopedia:
                     image_elem.text = f"📷 {filename}"
                 except Exception as e:
                     logger.warning(f"Could not create image link from image_link for entry '{canonical_term}': {e}")
+
+        if missing_items:
+            _append_missing_article_page(encyclopedia_div, missing_items)
+        if example_limit > 0:
+            _append_example_limit_script(encyclopedia_div)
         
         return XmlLib.element_to_string(html_root, pretty_print=True)
     
