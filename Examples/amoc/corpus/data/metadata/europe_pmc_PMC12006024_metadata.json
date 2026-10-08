@@ -1,0 +1,15 @@
+{
+  "title": "Ocean-atmosphere feedbacks key to NAO decadal predictability.",
+  "abstract": "Evidence has emerged that the North Atlantic Oscillation (NAO) may be predictable on decadal timescales, which may greatly benefit society given the significant climate impacts that accompany the NAO. However, the mechanisms behind the apparent decadal predictability of the NAO, including the role of ocean-atmosphere interactions, have not yet been pinned down. In this study, the decadal prediction skill for the NAO and the interactions with the underlying ocean are assessed in retrospective forecasts spanning 1960-2020 using eight different decadal prediction systems (DPSs) and observation-based data. We find considerable spread in NAO skill across the DPSs and critically, that this is linked to differences in the representation of ocean-NAO interactions between the systems. Evidence is shown that NAO skill is related to positive feedback between subpolar SSTs and the NAO, which varies in strength between DPSs yet may still be too weak even in the most skillful systems compared to an observational estimate. We also report evidence that the positive feedback is opposed by a delayed negative feedback between the NAO and the ocean circulation, which is used to further explain the disparities in NAO skill across systems. Our findings, therefore, suggest that North Atlantic ocean-atmosphere interactions are central to NAO decadal predictability.",
+  "doi": "10.1038/s41612-025-01027-7",
+  "pmcid": "PMC12006024",
+  "pmid": "40256663",
+  "authors": [
+    "Patrizio CR",
+    "Athanasiadis PJ",
+    "Smith DM",
+    "Nicolì D"
+  ],
+  "publication_date": "2025-04-17",
+  "journal": "NPJ climate and atmospheric science"
+}

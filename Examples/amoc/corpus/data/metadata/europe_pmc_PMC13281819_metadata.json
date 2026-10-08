@@ -1,0 +1,25 @@
+{
+  "title": "Synergistic anion-cation descriptor for bidirectional electrocatalyst in Li-CO&lt;sub&gt;2&lt;/sub&gt; battery.",
+  "abstract": "The slow kinetics of lithium carbonate (Li<sub>2</sub>CO<sub>3</sub>) nucleation/decomposition hinder voltage gap minimization in lithium-carbon dioxide (Li-CO<sub>2</sub>) batteries. Although symmetry-broken cation motifs can enhance reactivity, designing optimal catalysts remains challenging. Moving beyond cation-centric views, we recognize anions as active participants that regulate charge and stabilize intermediates, yet their degradation worsens the activity-stability trade-off. To address this, we develop a dual Φ descriptor quantifying anion-cation orbital coupling and reconstruction energy. It establishes a volcano correlation with the voltage gap in metal sulfides, showing that symmetry-broken units optimally balance binding and stability. Guided by this, we synthesize oriented WS<sub>2</sub> rich in C<sub>4v</sub> configurations, achieving a record-low gap of 0.76 volts and superior cycling (>1268 hours) among dichalcogenides. This work shifts the paradigm from cation-only tuning to synergistic anion-cation design, repositioning anions as co-catalytic architects. By linking orbital insights to performance, we provide a universal descriptor for developing efficient, stable Li-CO<sub>2</sub> batteries.",
+  "doi": "10.1126/sciadv.aee9103",
+  "pmcid": "PMC13281819",
+  "pmid": "42319918",
+  "authors": [
+    "Zhai X",
+    "Liu Y",
+    "Luo M",
+    "Wei T",
+    "Wang H",
+    "Zhang J",
+    "Su L",
+    "Fan Z",
+    "Sun Z",
+    "Zhang Z",
+    "Wu L",
+    "Zhang H",
+    "Ye B",
+    "Zhou M"
+  ],
+  "publication_date": "2026-06-19",
+  "journal": "Science advances"
+}

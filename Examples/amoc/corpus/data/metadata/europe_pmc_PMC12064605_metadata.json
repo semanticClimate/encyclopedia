@@ -1,0 +1,15 @@
+{
+  "title": "Environmental impacts from the widespread implementation of ocean thermal energy conversion.",
+  "abstract": "Ocean thermal energy conversion (OTEC) is a renewable energy system that could potentially displace significant amounts of fossil fuel-generated electricity. This study presents numerous multi-century simulations of the University of Victoria Earth System Climate Model, a coupled climate-carbon cycle model, to better understand the global-scale environmental impacts of the widespread implementation of OTEC at varying total power levels (3, 5, 7, 10, and 15 TW). Environmental impacts include reduced warming of the sea surface by up to 3.1 ºC, increased heat uptake at intermediate depths, and enhanced biological production compared to a fossil fuel intensive control scenario. At year 2100, OTEC-induced mixing contributes roughly 60% of the relative cooling, while the remainder is from OTEC-related emission reductions. Once OTEC is terminated, all relative cooling is caused by accumulated emissions reductions. If acting alone, the residual effect of OTEC-induced mixing would contribute to a minor relative warming of the sea surface. The effect of OTEC on the expansion of known oxygen minimum zones was minimal. In many circumstances, OTEC deployment opposes the projected impacts of climate change. Relative to a high carbon emissions control scenario, OTEC deployment is associated with less surface warming, a smaller increase in surface water pCO<sub>2</sub>, a suppression of ocean acidification, and significantly smaller declines in the strength of the Atlantic Meridional Overturning Circulation. Despite the potential engineering challenges and economic costs, early indications suggest that the large-scale implementation of OTEC could make a substantial contribution to climate change mitigation.",
+  "doi": "10.1007/s10584-025-03944-1",
+  "pmcid": "PMC12064605",
+  "pmid": "40352813",
+  "authors": [
+    "Nickoloff AG",
+    "Olim ST",
+    "Eby M",
+    "Weaver AJ"
+  ],
+  "publication_date": "2025-05-10",
+  "journal": "Climatic change"
+}

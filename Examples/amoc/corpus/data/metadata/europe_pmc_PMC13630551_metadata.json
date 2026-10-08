@@ -1,0 +1,14 @@
+{
+  "title": "Irreversible climate changes driven by degree-years of temperature overshoot.",
+  "abstract": "It is becoming increasingly likely that meeting the long-term temperature goal of the Paris Agreement will involve a period of temperature overshoot. Understanding the effect of overshoot on climate outcomes requires an assessment of the reversibility of climate changes caused by overshooting global temperature levels. Here, using an intermediate-complexity Earth system model, we quantify the short-term reversibility of a suite of climate variables across an ensemble of 42 pairs of overshoot and baseline scenarios. For highly irreversible climate variables like permafrost and ocean changes, we show that the outcome of overshoot is linearly related to the time-integrated overshoot magnitude, which we define here as the degree-years of temperature overshoot. Our results show that degree-years of overshoot can be used to predict the changes of a range of irreversible ocean and permafrost variables in overshoot scenarios relative to a baseline scenario, therefore offering important insights into the risks of overshooting climate targets.",
+  "doi": "10.1038/s43247-026-03761-z",
+  "pmcid": "PMC13630551",
+  "pmid": "42827589",
+  "authors": [
+    "Dickau M",
+    "Zickfeld K",
+    "Matthews HD"
+  ],
+  "publication_date": "2026-06-16",
+  "journal": "Communications earth & environment"
+}

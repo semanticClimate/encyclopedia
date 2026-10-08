@@ -1,0 +1,16 @@
+{
+  "title": "Impacts of Atlantic meridional overturning circulation weakening on Arctic amplification.",
+  "abstract": "Enhanced warming of the Arctic region relative to the rest of the globe, known as Arctic amplification, is caused by a variety of diverse factors, many of which are influenced by the Atlantic meridional overturning circulation (AMOC). Here, we quantify the role of AMOC changes in Arctic amplification throughout the twenty-first century by comparing two suites of climate model simulations under the same climate change scenario but with two different AMOC states: one with a weakened AMOC and another with a steady AMOC. We find that a weakened AMOC can reduce annual mean Arctic warming by 2 °C by the end of the century. A primary contributor to this reduction in warming is surface albedo feedback, related to a smaller sea ice loss due to AMOC slowdown. Another major contributor is the changes in ocean heat uptake. The weakened AMOC and its associated anomalous ocean heat transport divergence lead to increased ocean heat uptake and surface cooling. These two factors are inextricably linked on seasonal timescales, and their relative importance for Arctic amplification can vary by season. The weakened AMOC can also abate Arctic warming via lapse rate feedback, creating marked cooling from the surface to lower-to-mid troposphere while resulting in relatively weaker cooling in the upper troposphere. Additionally, the weakened AMOC increases the low-level cloud fraction over the North Atlantic warming hole, causing significant cooling there via shortwave (sw) cloud feedback despite the overall effect of sw cloud feedback being a slight warming of the average temperature over the Arctic.",
+  "doi": "10.1073/pnas.2402322121",
+  "pmcid": "PMC11441504",
+  "pmid": "39284066",
+  "authors": [
+    "Lee YC",
+    "Liu W",
+    "Fedorov AV",
+    "Feldl N",
+    "Taylor PC"
+  ],
+  "publication_date": "2024-09-16",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Observational constraints project a ~50% AMOC weakening by the end of this century.",
+  "abstract": "Climate models show considerable discrepancies in their future projections around the Atlantic, mainly due to uncertainties in the fate of the Atlantic Meridional Overturning Circulation (AMOC). Climate models suggest a reduction in AMOC strength of 32 ± 37% by 2100 (90% probability, Shared Socioeconomic Pathways 2-4.5 scenario, Coupled Model Intercomparison Project Phase 6). To refine this estimate and reduce its uncertainty, we use four different observational constraint methods. The best one, which provides the lowest leave-one-out error, integrates a large set of observable variables using ridge-regularized linear regression-a method unusual in climate science. It gives an estimate of the AMOC slowdown of 51 ± 8% (90% probability), i.e., a weakening ∼ 60% stronger than suggested by the multimodel mean. This refinement mainly results from correcting a bias in South Atlantic surface salinity, consistent with recent studies emphasizing its role in the proximity to an AMOC tipping point. This more substantial AMOC weakening has key implications for future adaptation strategies.",
+  "doi": "10.1126/sciadv.adx4298",
+  "pmcid": "PMC13082334",
+  "pmid": "41984958",
+  "authors": [
+    "Portmann V",
+    "Swingedouw D",
+    "Khattab O",
+    "Chavent M"
+  ],
+  "publication_date": "2026-04-15",
+  "journal": "Science advances"
+}

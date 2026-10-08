@@ -1,0 +1,18 @@
+{
+  "title": "Migration of the intertropical convergence zone driven by ocean circulation changes.",
+  "abstract": "The Intertropical Convergence Zone (ITCZ) is essential to global precipitation patterns and has major socioeconomic and environmental impacts. Yet its future position remains uncertain. Here, using reanalysis data, Earth system model simulations, and targeted sensitivity experiments, we assess risks of the ITCZ crossing any thresholds and find only about one-third of CMIP6 models with a more northern ITCZ mean position-closer to the observed climatological state-simulate a southward ITCZ shift consistent with recent observations. This shift requires a substantial weakening of the Atlantic Meridional Overturning Circulation (AMOC), while the warmer base state alone is insufficient to push it farther north. Furthermore, a collapsed AMOC pushes the ITCZ into the Southern Hemisphere without a warmer base state, and toward the equator when combined with a warmer base state-both cases leading to significant changes in global rainfall patterns. These findings imply that the observed southward ITCZ migration over recent decades is consistent with a weakened AMOC, within the context of coupled atmosphere-ocean interactions.",
+  "doi": "10.1038/s41467-026-73200-2",
+  "pmcid": "PMC13377125",
+  "pmid": "42143041",
+  "authors": [
+    "Guo Y",
+    "Hu A",
+    "Meehl GA",
+    "Molina MJ",
+    "Li H",
+    "Bellomo K",
+    "Rosenbloom N"
+  ],
+  "publication_date": "2026-05-16",
+  "journal": "Nature communications"
+}

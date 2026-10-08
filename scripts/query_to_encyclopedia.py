@@ -6,6 +6,9 @@ Stages: pygetpapers download, semantic_corpus review table, keyphrase wordlist,
 Wikipedia-enriched encyclopedia HTML.
 
 Examples:
+  python scripts/query_to_encyclopedia.py --check-query \\
+      --query "'amoc' AND 'european climate' AND 'adaptation'"
+
   python scripts/query_to_encyclopedia.py \\
       --query '"marine heatwave" AND "ocean current"' \\
       --limit 10 \\
@@ -20,20 +23,47 @@ Examples:
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from encyclopedia.pipeline.query_quotes import (
+    check_query_quotes,
+    format_query_quote_report,
+    query_to_send,
+    read_query_text,
+)
 from encyclopedia.pipeline.query_to_encyclopedia import (
     STOP_AFTER_ENCYCLOPEDIA,
     STOP_AFTER_VALUES,
+    build_pygetpapers_command,
     run_query_to_encyclopedia,
 )
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Download literature with pygetpapers and build an encyclopedia."
     )
     parser.add_argument("--query", default="", help="Europe PMC query string")
+    parser.add_argument(
+        "--query-file",
+        type=Path,
+        help="Read the query from a file, so the shell does not eat the quotes. Use - for stdin.",
+    )
+    parser.add_argument(
+        "--check-query",
+        action="store_true",
+        help="Explain the quotes and brackets, print a suggested query, and exit",
+    )
+    parser.add_argument(
+        "--edit-query",
+        action="store_true",
+        help="Send the suggested query (double quotes for phrases, capitals for AND/OR/NOT)",
+    )
     parser.add_argument(
         "--pygetpapers-dir",
         type=Path,
@@ -78,13 +108,54 @@ def parse_args() -> argparse.Namespace:
         default=STOP_AFTER_ENCYCLOPEDIA,
         help="Last stage to run (default: encyclopedia)",
     )
-    return parser.parse_args()
+    return parser.parse_args(argv)
+
+
+def _checked_query(args: argparse.Namespace) -> str:
+    """Resolve --query/--query-file and stop when the quotes are not usable."""
+    try:
+        query = read_query_text(args.query, args.query_file)
+    except ValueError as exc:
+        raise SystemExit(str(exc)) from exc
+    except OSError as exc:
+        raise SystemExit(f"Could not read the query file: {exc}") from exc
+    if not query.strip():
+        if args.check_query:
+            raise SystemExit("Pass a query with --query or --query-file.")
+        return ""
+
+    report = check_query_quotes(query)
+    command = ""
+    if report.suggested:
+        output = args.pygetpapers_dir
+        if output is None:
+            output = Path(args.work_dir, "pygetpapers") if args.work_dir else Path("OUTPUT")
+        command = build_pygetpapers_command(
+            report.suggested,
+            output,
+            args.limit,
+            download_pdf=args.pdf,
+        )
+    if args.check_query:
+        print(format_query_quote_report(report, command=command))
+        raise SystemExit(0 if report.ok else 1)
+    if not report.ok:
+        print(format_query_quote_report(report, command=command))
+        raise SystemExit(1)
+    chosen = query_to_send(report, edit=args.edit_query)
+    if chosen != query or any(issue.severity == "edit" for issue in report.issues):
+        print(f"Sending:   {chosen}")
+        if not args.edit_query and report.edited != chosen:
+            print(f"Suggested: {report.edited}")
+            print("Add --edit-query to send the suggested query, or --check-query to read it.")
+    return chosen
 
 
 def main() -> None:
     args = parse_args()
+    query = _checked_query(args)
     result = run_query_to_encyclopedia(
-        query=args.query,
+        query=query,
         pygetpapers_dir=args.pygetpapers_dir,
         work_dir=args.work_dir,
         corpus_dir=args.corpus_dir,

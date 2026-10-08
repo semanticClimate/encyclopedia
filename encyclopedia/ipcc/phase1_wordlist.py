@@ -4,9 +4,10 @@ Phase 1 wordlist extraction for IPCC/SYR workflows.
 
 from __future__ import annotations
 
+from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple
+from typing import Dict, Iterable, List, Mapping, Optional, Sequence, Set, Tuple
 import json
 
 import pandas as pd
@@ -46,6 +47,50 @@ class Phase1Result:
 def _normalize_text(value: object) -> str:
     text = str(value).strip()
     return " ".join(text.split())
+
+
+def phrase_key(phrase: str) -> str:
+    """Identity for spellings that differ only by case."""
+    return _normalize_text(phrase).casefold()
+
+
+def _acronym_token(token: str) -> bool:
+    letters = [character for character in token if character.isalpha()]
+    return len(letters) >= 2 and all(character.isupper() for character in letters)
+
+
+def choose_surface_form(forms: Mapping[str, int]) -> str:
+    """Most frequent spelling. A tie keeps an acronym, otherwise lowercase."""
+    if not forms:
+        return ""
+
+    def sort_key(form: str) -> tuple:
+        tokens = form.split()
+        acronyms = sum(1 for token in tokens if _acronym_token(token))
+        lowercase_penalty = 0 if form == form.casefold() else 1
+        return (-forms[form], -acronyms, lowercase_penalty, form.casefold())
+
+    return min(forms, key=sort_key)
+
+
+def fold_counted_terms(pairs: Iterable[Tuple[str, int]]) -> Dict[str, int]:
+    """Sum counts for terms that differ only by case."""
+    grouped: Dict[str, Dict[str, object]] = {}
+    for term, count in pairs:
+        text = _normalize_text(term)
+        if not text or count <= 0:
+            continue
+        bucket = grouped.setdefault(phrase_key(text), {"forms": Counter(), "total": 0})
+        forms = bucket["forms"]
+        assert isinstance(forms, Counter)
+        forms[text] += count
+        bucket["total"] = int(bucket["total"]) + count
+    folded: Dict[str, int] = {}
+    for bucket in grouped.values():
+        forms = bucket["forms"]
+        assert isinstance(forms, Counter)
+        folded[choose_surface_form(forms)] = int(bucket["total"])
+    return folded
 
 
 def _find_column(df: pd.DataFrame, candidates: Sequence[str]) -> Optional[str]:
@@ -98,12 +143,15 @@ def collect_keyword_csvs(path: Path) -> List[Path]:
 
 
 def aggregate_keyword_counts(keyword_csv_paths: Iterable[Path]) -> Dict[str, int]:
-    """Aggregate term counts from keyword CSV files."""
-    counts: Dict[str, int] = {}
+    """Aggregate term counts from keyword CSV files.
+
+    Spellings that differ only by case, such as "Climate change" and
+    "climate change", are one term.
+    """
+    pairs: List[Tuple[str, int]] = []
     for csv_path in keyword_csv_paths:
-        for term, count in _read_keyword_csv(csv_path=csv_path):
-            counts[term] = counts.get(term, 0) + count
-    return counts
+        pairs.extend(_read_keyword_csv(csv_path=csv_path))
+    return fold_counted_terms(pairs)
 
 
 def build_phase1_outputs(

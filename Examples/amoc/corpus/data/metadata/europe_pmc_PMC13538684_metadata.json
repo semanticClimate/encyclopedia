@@ -1,0 +1,17 @@
+{
+  "title": "Regime shifts of AMOC-sea surface temperature relationship.",
+  "abstract": "The Atlantic Meridional Overturning Circulation (AMOC) plays critical roles in regulating climate, and subpolar North Atlantic sea-surface temperature (SST) patterns are widely used to infer changes in its strength. Yet the stationarity of their relationship remains unclear. Here, using Community Earth System Model simulations spanning various climate states and a multi-model ensemble, we show that this relationship is state-dependent. We identify three distinct regimes: strong AMOC with the typical dipole fingerprint; intermediate AMOC with amplified subpolar SST anomalies; and weak AMOC with muted North Atlantic signals. These regimes arise primarily from changes in atmospheric radiative processes, while ocean processes contribute indirectly through air-sea interactions. The year of peak AMOC-SST sensitivity emerges as a predictor of the transition into the weak-AMOC regime and associated decay of the North Atlantic warming hole, offering a physically-based constraint on model uncertainties in climate projections. Our findings also imply that SST-based AMOC indicators must account for state dependence.",
+  "doi": "10.1038/s41467-026-76149-4",
+  "pmcid": "PMC13538684",
+  "pmid": "42686766",
+  "authors": [
+    "Fan Y",
+    "Chan D",
+    "Danabasoglu G",
+    "Kim WM",
+    "Zhang P",
+    "Li L"
+  ],
+  "publication_date": "2026-08-05",
+  "journal": "Nature communications"
+}

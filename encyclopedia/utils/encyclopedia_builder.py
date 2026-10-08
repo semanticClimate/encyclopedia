@@ -56,7 +56,10 @@ def enhance_dictionary_with_wikipedia(
     from amilib.wikimedia import WikipediaPage
     
     enhanced_count = 0
-    for term, ami_entry in dictionary.entry_by_term.items():
+    terms = list(dictionary.entry_by_term.items())
+    total = len(terms)
+    for index, (term, ami_entry) in enumerate(terms, start=1):
+        print(f"Wikipedia page {index}/{total}: {term}", flush=True)
         try:
             wikipedia_page = WikipediaPage.lookup_wikipedia_page_for_term(term)
             if wikipedia_page:
@@ -93,8 +96,30 @@ def convert_dictionary_to_encyclopedia(
     Returns:
         AmiEncyclopedia instance
     """
-    # Create HTML dictionary
-    html_dict = dictionary.create_html_dictionary()
+    # Create HTML dictionary. amilib looks up Wikipedia again for every entry.
+    from amilib.wikimedia import WikipediaPage
+
+    lookup_wikipedia = WikipediaPage.__dict__["lookup_wikipedia_page_for_term"]
+    entry_terms = list(dictionary.entry_by_term)
+    entry_total = len(entry_terms)
+    html_progress = {"index": 0}
+
+    def lookup_wikipedia_with_progress(cls, search_term):
+        html_progress["index"] += 1
+        print(
+            f"  HTML entry {html_progress['index']}/{entry_total}: {search_term}",
+            flush=True,
+        )
+        return lookup_wikipedia.__func__(cls, search_term)
+
+    print(f"  Writing HTML dictionary ({entry_total} entries)...", flush=True)
+    WikipediaPage.lookup_wikipedia_page_for_term = classmethod(lookup_wikipedia_with_progress)
+    try:
+        html_dict = dictionary.create_html_dictionary()
+    finally:
+        WikipediaPage.lookup_wikipedia_page_for_term = lookup_wikipedia
+
+    print("  Checking HTML structure...", flush=True)
     
     # Ensure we have a complete HTML document structure
     from amilib.xml_lib import XmlLib
@@ -202,11 +227,11 @@ def convert_dictionary_to_encyclopedia(
         # If verification fails, log but continue
         pass
     
-    # Save to temporary file
+    print("  Saving dictionary HTML...", flush=True)
     temp_html_path = Path(temp_path, "temp_dictionary.html")
     temp_html_path.write_text(html_content, encoding='utf-8')
-    
-    # Load as encyclopedia (create instance first, then call method)
+
+    print("  Reading encyclopedia entries...", flush=True)
     encyclopedia = AmiEncyclopedia()
     encyclopedia.create_from_html_file(temp_html_path)
     
@@ -331,7 +356,12 @@ def add_wikipedia_descriptions_to_encyclopedia(
         if verbose:
             print(f"  Processing batch {batch_start // batch_size + 1}: entries {batch_start + 1}-{batch_end} of {total_entries}")
         
-        for entry in batch:
+        for offset, entry in enumerate(batch):
+            term = entry.get("term", entry.get("canonical_term", ""))
+            print(
+                f"Wikipedia description {batch_start + offset + 1}/{total_entries}: {term}",
+                flush=True,
+            )
             result = add_wikipedia_description_to_entry(entry, encyclopedia, verbose)
             
             if result['success']:

@@ -1,0 +1,20 @@
+{
+  "title": "Noise-induced tipping of Atlantic Meridional Overturning Circulation under climate mitigation scenarios.",
+  "abstract": "Growing attention to decarbonization to limit global warming raises an important question of whether climate mitigation efforts could effectively prevent a potential collapse of the Atlantic Meridional Overturning Circulation (AMOC), a major tipping element in the climate system. Using CO<sub>2</sub> stabilization simulation with the Community Earth System Model version 1, we show a marked ensemble divergence in AMOC evolution under identical or comparable CO<sub>2</sub> forcing, towards either recovery or a multi-century collapsed state. This divergence arises from the accumulation of stochastic noise near the AMOC stability threshold, characterized by persistent high-pressure anomalies over the subpolar North Atlantic. In other words, internal atmospheric variability can push the AMOC across its stability threshold and trigger collapse, aided by the basin-wide salt-advection feedback. A modest delay in implementing mitigation further increases the likelihood of crossing this threshold, amplifying the risk of collapse. This study underscores high uncertainties in future climate projections in response to climate mitigation efforts and highlights the urgent need for strong and immediate international actions.",
+  "doi": "10.1038/s41467-025-66494-1",
+  "pmcid": "PMC12749622",
+  "pmid": "41390504",
+  "authors": [
+    "Oh JH",
+    "Kug JS",
+    "Shin Y",
+    "Geng X",
+    "Wang S",
+    "Jin FF",
+    "An SI",
+    "Xie SP",
+    "Liu W"
+  ],
+  "publication_date": "2025-12-13",
+  "journal": "Nature communications"
+}

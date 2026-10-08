@@ -1,0 +1,14 @@
+{
+  "title": "Orbital-accelerated transient simulations of glacial-interglacial climate cycles for the last 800,000 years.",
+  "abstract": "Over the last 800,000 years, Earth's climate has experienced periodic glacial and interglacial cycles driven by orbital parameters, CO<sub>2</sub> concentrations, and ice sheet volumes. To understand how these climate forcing factors influence climate on orbital scales, high-resolution and continuous paleoclimate simulations are crucial. This study employed the CESM1.2.2 Earth System Model for four 800,000-year orbital-accelerated transient climate simulations, including a full-forcing experiment and three single-factor forcing experiments. The results were compared with geological proxy records from various regions, showing good agreement in mid-low latitude monsoon systems, mid-latitude sea surface temperatures, and high-latitude North Atlantic climate variability. However, the model underestimated sea surface temperature fluctuations in the tropics and Southern Hemisphere mid-latitudes. Despite this, it accurately depicted high-latitude climate characteristics. These climate simulation datasets include global annual mean surface temperature and precipitation distributions with a horizontal resolution of 3.75°. Overall, these simulations provide a reliable and verifiable climate dataset, offering strong support for studying the driving mechanisms of past glacial-interglacial climate changes and interpreting long-term climate signals in geological records.",
+  "doi": "10.1038/s41597-025-05297-x",
+  "pmcid": "PMC12149303",
+  "pmid": "40490441",
+  "authors": [
+    "Su B",
+    "Sun Y",
+    "Zhou M"
+  ],
+  "publication_date": "2025-06-09",
+  "journal": "Scientific data"
+}

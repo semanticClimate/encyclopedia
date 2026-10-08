@@ -1,0 +1,17 @@
+{
+  "title": "Simulated millennial-scale climate variability driven by a convection-advection oscillator.",
+  "abstract": "The last glacial period, between around 115 and 12 thousand years before present, exhibited strong millennial-scale climate variability. This includes abrupt transitions between cold and warm climates, known as Dansgaard-Oeschger (D-O) cycles. D-O cycles have been linked to switches in dynamical regimes of the Atlantic Overturning Meridional Circulation (AMOC), but the exact mechanisms behind abrupt climate changes and AMOC regime shifts remain poorly understood. This paper introduces the convection-advection oscillator mechanism to explain the millennial-scale oscillations observed in a set of HadCM3 general circulation model simulations forced with snapshots of deglacial meltwater history. The oscillator can be separated into two components acting on different time scales. The fast convection component responds to changes in vertical stratification in the North Atlantic by activating or deactivating deep water formation sites. The slow advection component regulates the accumulation and depletion of salinity in the North Atlantic. This oscillator mechanism is triggered under specific background conditions and freshwater release patterns. The freshwater perturbation causes an instability that triggers a global salt reorganisation, modifying the North Atlantic stratification. For a given forcing pattern, the system oscillates if the salt transport can lead to an alternating reactivation and deactivation of the AMOC. Otherwise, the climate settles in a warm or cold steady state. This mechanism expands existing theories of millennial-scale variability and provides a general framework for understanding abrupt climate change in general circulation models.<h4>Supplementary information</h4>The online version contains supplementary material available at 10.1007/s00382-025-07630-x.",
+  "doi": "10.1007/s00382-025-07630-x",
+  "pmcid": "PMC11885369",
+  "pmid": "40060363",
+  "authors": [
+    "Romé YM",
+    "Ivanovic RF",
+    "Gregoire LJ",
+    "Swingedouw D",
+    "Sherriff-Tadano S",
+    "Börner R"
+  ],
+  "publication_date": "2025-03-07",
+  "journal": "Climate dynamics"
+}

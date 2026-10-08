@@ -1,0 +1,1017 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Adv</journal-id><journal-id journal-id-type="iso-abbrev">Sci Adv</journal-id><journal-id journal-id-type="pmc-domain-id">2850</journal-id><journal-id journal-id-type="pmc-domain">sciadv</journal-id><journal-id journal-id-type="nlm-id">101653440</journal-id><journal-id journal-id-type="publisher-id">sciadv</journal-id><journal-title-group><journal-title>Science Advances</journal-title></journal-title-group><issn pub-type="epub">2375-2548</issn><?publisher_abbrev aaas?><publisher><publisher-name>American Association for the Advancement of Science</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13148317</article-id><article-id pub-id-type="pmcid-ver">PMC13148317.1</article-id><article-id pub-id-type="pmcaid">13148317</article-id><article-id pub-id-type="pmcaiid">13148317</article-id><article-id pub-id-type="pmid">42090504</article-id><article-id pub-id-type="doi">10.1126/sciadv.aee1648</article-id><article-id pub-id-type="publisher-id">aee1648</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-type"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Earth, Environmental, Ecological, and Space Sciences</subject></subj-group><subj-group subj-group-type="legacy-article-type"><subject>SciAdv r-articles</subject></subj-group><subj-group subj-group-type="field"><subject>Geochemistry</subject></subj-group><subj-group subj-group-type="overline"><subject>Geochemistry</subject></subj-group></article-categories><title-group><article-title>Decadal East Asian monsoon anomalies and implications for societal conflicts</article-title><alt-title alt-title-type="short">Monsoon extremes trigger societal upheavals</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8662-9739</contrib-id><name name-style="western"><surname>Zhao</surname><given-names initials="K">Kan</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="afn1" ref-type="author-notes">†</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-4429-8542</contrib-id><name name-style="western"><surname>Liang</surname><given-names initials="Y">Yijia</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="afn1" ref-type="author-notes">†</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-3865-6414</contrib-id><name name-style="western"><surname>Huang</surname><given-names initials="C">Changchun</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="cor1" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-6021-2724</contrib-id><name name-style="western"><surname>Wang</surname><given-names initials="Y">Yongjin</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9043-706X</contrib-id><name name-style="western"><surname>Sun</surname><given-names initials="W">Weiyi</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5305-9458</contrib-id><name name-style="western"><surname>Cheng</surname><given-names initials="H">Hai</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5673-6151</contrib-id><name name-style="western"><surname>Yin</surname><given-names initials="J">Jianjun</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-9125-9979</contrib-id><name name-style="western"><surname>Hu</surname><given-names initials="D">Di</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-4730-3781</contrib-id><name name-style="western"><surname>Yan</surname><given-names initials="M">Mi</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5629-0914</contrib-id><name name-style="western"><surname>Ning</surname><given-names initials="L">Liang</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-4225-9435</contrib-id><name name-style="western"><surname>Yu</surname><given-names initials="Z">Zhaoyuan</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7027-5881</contrib-id><name name-style="western"><surname>Edwards</surname><given-names initials="RL">R. Lawrence</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff5" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><aff id="aff1"><label><sup>1</sup></label>State Key Laboratory of Climate System Prediction and Risk Management; and Key Laboratory for Virtual Geographic Environment of Ministry of Education, Jiangsu Center for Collaborative Innovation in Geographical Information Resource Development and Application, Nanjing 210023, China.</aff><aff id="aff2"><label><sup>2</sup></label>School of Geography, Nanjing Normal University, Nanjing 210023, China.</aff><aff id="aff3"><label><sup>3</sup></label>Institute of Global Environmental Change, Xi’an Jiaotong University, Xi’an 710049, China.</aff><aff id="aff4"><label><sup>4</sup></label>Key Laboratory of Karst Dynamics, Ministry of Natural Resources and Guangxi; and Institute of Karst Geology, Chinese Academy of Geological Sciences, Guilin 541004, China.</aff><aff id="aff5"><label><sup>5</sup></label>Department of Geology and Geophysics, University of Minnesota, Minneapolis, MN 55455, USA.</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Corresponding author. Email: <email xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="huangchangchun@njnu.edu.cn">huangchangchun@njnu.edu.cn</email></corresp><fn id="afn1" fn-type="equal"><label>†</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="collection"><day>08</day><month>5</month><year>2026</year></pub-date><pub-date publication-format="electronic" date-type="pub"><day>06</day><month>5</month><year>2026</year></pub-date><volume>12</volume><issue>19</issue><issue-id pub-id-type="pmc-issue-id">513152</issue-id><elocation-id>eaee1648</elocation-id><history>
+<date date-type="received"><day>23</day><month>11</month><year>2025</year></date>
+<date date-type="accepted"><day>08</day><month>4</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>06</day><month>05</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>07</day><month>05</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-20 09:53:14.413"><day>20</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © 2026 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution License 4.0 (CC BY).</copyright-statement><copyright-year>2026</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense" start_date="2026-05-06">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution license</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="sciadv.aee1648.pdf"><?pdf-name sciadv.aee1648.pdf?><?pdf-size 1361942?><?pdf-md5 805a6125fc6f088ccc80825aa136d4dd?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:4047/13148317/805a6125fc6f/sciadv.aee1648.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="sciadv.aee1648.pdf"/><abstract><p>The East Asian summer monsoon anomalies, responsible for floods and droughts across China, pose great challenges to the climate resilience of human society. However, mechanisms and impacts of decadal-scale monsoon variability remain poorly understood due to limited instrumental data. Our annual-resolution speleothem record (1787–2007 CE) from China, along with simulation results, reveals a persistent monsoon weakening since the end of the Little Ice Age, superimposed by decadal oscillations. Five monsoon extremes, triggered by diminished solar output and further amplified by ocean-atmosphere processes in the Atlantic and Pacific oceans, caused widespread megadroughts in China. One marked flood-drought abrupt alternation in the 1850s substantially contributed to the Taiping Rebellion (1851–1864 CE). Our findings demonstrate that monsoon anomalies can cause crop failure and exacerbate overpopulation, ultimately leading to social unrest, particularly in regions experiencing rapid demographic expansion.</p></abstract><abstract abstract-type="teaser"><p>Extreme flood-drought swings triggered crop shortage and overpopulation, fueling the rise of the Taiping Rebellion.</p></abstract><funding-group specific-use="FundRef"><award-group id="award2522009"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000001</institution-id><institution>National Science Foundation</institution></institution-wrap>
+</funding-source><award-id>2202913</award-id></award-group><award-group id="award2327733"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>2023YFF0804704</award-id></award-group><award-group id="award2327734"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>41931178</award-id></award-group><award-group id="award2327735"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>42071105</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="introduction" disp-level="1"><title>INTRODUCTION</title><p>The East Asian summer monsoon (EASM) plays a critical role in transporting moisture to the most densely populated regions of the Asian continent and deeply affects agriculture, water resources, and socioeconomic activities in China. Instrumental data indicate that the EASM has undergone a persistent weakening since the mid-20th century, resulting in deficient summer rainfall in northern China and excessive rainfall in southern China (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>–<xref rid="R3" ref-type="bibr"><italic toggle="yes">3</italic></xref>). Possible drivers of the EASM weakening include the increasing anthropogenic aerosol emissions (<xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>, <xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>), cooling over the Tibetan Plateau (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>, <xref rid="R2" ref-type="bibr"><italic toggle="yes">2</italic></xref>), warming of tropical oceans (<xref rid="R3" ref-type="bibr"><italic toggle="yes">3</italic></xref>, <xref rid="R6" ref-type="bibr"><italic toggle="yes">6</italic></xref>), and the decline in the Atlantic meridional overturning circulation (AMOC) (<xref rid="R7" ref-type="bibr"><italic toggle="yes">7</italic></xref>). Superimposed on the long-term trend are decadal EASM variabilities, lending to two meridional modes of summer precipitation in China: the dipole pattern (e.g., southern flooding and northern drought) and the tripolar pattern (e.g., drying in the south and north but flooding in the Yangtze River Basin). The decadal variations are likely associated with solar activity (<xref rid="R8" ref-type="bibr"><italic toggle="yes">8</italic></xref>, <xref rid="R9" ref-type="bibr"><italic toggle="yes">9</italic></xref>), the Pacific decadal oscillation (PDO) (<xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>, <xref rid="R10" ref-type="bibr"><italic toggle="yes">10</italic></xref>), the Atlantic multidecadal oscillation (AMO) (<xref rid="R3" ref-type="bibr"><italic toggle="yes">3</italic></xref>, <xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>), and/or tropical volcanic eruptions (<xref rid="R11" ref-type="bibr"><italic toggle="yes">11</italic></xref>, <xref rid="R12" ref-type="bibr"><italic toggle="yes">12</italic></xref>). However, the underlying mechanism of the observed EASM changes, particularly on decadal timescales, remains ambiguous, partly due to uncertainties in the magnitude of the anthropogenic influence, as well as due to the interplay between internal variability and external forcing (<xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>).</p><p>Proxy evidence and model simulations indicate that EASM anomalies and protracted floods/droughts recurred in the historical period and caused profound impacts on ancient Chinese civilizations (<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>, <xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>–<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>). For example, megadroughts during the “Late-Ming Weak Monsoon Periods” (1580–1660 CE) (<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>) resulted in declined grain yields and widespread famine, ultimately contributing to peasant uprisings and the collapse of the Ming Dynasty (<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>, <xref rid="R15" ref-type="bibr"><italic toggle="yes">15</italic></xref>). The Taiping Rebellion (1851–1864 CE), regarded as the deadliest civil war in Chinese history, has been associated with a cooling trend in 19th-century China, accompanied by increased flooding and other extreme climate events (<xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>, <xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>). Cooling and flooding adversely affected grain yields, exacerbating the human-land conflicts during the Qing Dynasty. A recent study indicates that floods influence local armed conflicts, often leading to rebellions (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>). However, the detailed processes of how extreme climate affects human society are not yet fully understood, necessitating continuous high-resolution climate reconstructions to elucidate them.</p><p>Recent studies indicate that precipitation variability on daily-to-multiyear timescales increases under the scenario of global warming, thereby inducing large-amplitude wet-dry swings (<xref rid="R18" ref-type="bibr"><italic toggle="yes">18</italic></xref>, <xref rid="R19" ref-type="bibr"><italic toggle="yes">19</italic></xref>). The frequency of flood-drought abrupt alteration has increased more than threefold during 1979–2022, causing substantial damage to society and the ecosystem (<xref rid="R20" ref-type="bibr"><italic toggle="yes">20</italic></xref>). However, the dynamics and impacts of historical drought-flood abrupt alternation remain poorly understood due to the limited temporal resolution and chronological uncertainties in proxy records. In this study, we present an annual resolution δ<sup>18</sup>O record from an annually laminated speleothem (DG7) spanning the past two centuries from Daoguan Cave (26°30′N, 105°50′E, 1420 m above sea level; fig. S1), southwestern China, to explore the dynamics and effects of the decadal EASM variability. We first present robust evidence indicating that Chinese cave δ<sup>18</sup>O records along the moisture transport pathway from the Indian Ocean (fig. S1) demonstrate a spatially coherent EASM variability, strongly correlated with precipitation changes in northern China. The decadal EASM variability is related to the 11-year solar cyclicity, modulated by the AMOC, PDO, and AMO. We then investigate the connection between the decadal EASM anomalies and the Taiping Rebellion, suggesting that flood-drought abrupt alteration causes agricultural collapse and extreme overpopulation, ultimately contributing to social instability.</p></sec><sec sec-type="results" disp-level="1"><title>RESULTS</title><sec disp-level="2"><title>Chronology</title><p>The DG7 sample was actively growing when collected in 2007 CE (hereafter, CE is omitted to facilitate the flow of the text). The results of x-ray diffraction (XRD) analyses suggest that this stalagmite is composed of calcite minerals (Materials and Methods) (fig. S2). Laminations above the depth of 130.5 mm consist of couplets of white-porous calcites and dark-compact calcites (figs. S2 and S3). These paired white and dark laminae resemble the annual laminations described previously (<xref rid="R21" ref-type="bibr"><italic toggle="yes">21</italic></xref>). Further evidence of annual layer determination is the correspondence between annual cycles in the DG7 δ<sup>13</sup>C record and the paired white and dark laminae; that is, relatively positive δ<sup>13</sup>C values are associated with the dark laminae and more negative values with the white laminae (fig. S3). A total of 220 annual layers were counted to a depth of ~130.5 mm, with a cumulative error of 4 years.</p><p>The age model of DG7 is established on the basis of annual layer counting, with the top layer assigned to 2007 (<xref rid="F1" ref-type="fig">Fig. 1A</xref>). Despite large age uncertainties for <sup>230</sup>Th dating (Materials and Methods) (table S1), our layer-counting age model is supported by two anchors. First, the <sup>210</sup>Pb dating results (Materials and Methods) (table S2) suggest that the carbonate deposits located above a depth of ~60 mm are younger than 110 years before present (<xref rid="F1" ref-type="fig">Fig. 1A</xref> and fig. S4), which is consistent with our age model. Second, two anomalies in δ<sup>13</sup>C values centered on 1945 and 1958, with amplitudes of ~4.4 per mil (‰) (<xref rid="F1" ref-type="fig">Fig. 1B</xref>), are related to the well-documented large-scale deforestation (supplementary text 1 and fig. S5). Sedimentary records from nearby plateau lakes demonstrate two notable peaks in biomass burning during 1940–1960 (<xref rid="R22" ref-type="bibr"><italic toggle="yes">22</italic></xref>, <xref rid="R23" ref-type="bibr"><italic toggle="yes">23</italic></xref>) and align closely with the DG7 δ<sup>13</sup>C record (fig. S6). Therefore, we conclude that the layer-counting timescale from 1787 to 2007 is the most accurate estimate of the DG7 chronology.</p><fig position="float" id="F1" fig-type="image" specific-use="distribute" orientation="portrait"><label>Fig. 1.</label><caption><title>Chronology of DG7 stalagmite.</title><p>(<bold>A</bold>) Age model based on annual layer counting, referring to the top as 2007 CE, when the stalagmite was actively growing at the time of collection (red dot). The shaded yellow rectangle indicates the age constraint from <sup>210</sup>Pb dating results. (<bold>B</bold>) δ<sup>13</sup>C time series with distinct annual cycles. The shaded gray rectangle indicates two anomalies in δ<sup>13</sup>C values centered in 1945 and 1958 CE (<bold>C</bold>) δ<sup>18</sup>O time series. 110a, 110 years; VPDB, Vienna Pee Dee Belemnite.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="sciadv.aee1648-f1.jpg"><?image-name sciadv.aee1648-f1.jpg?><?image-size 163637?><?image-md5 08432c4ffecc9155eb4bccf362c43863?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 4480?><?image-original-width 4196?><?image-scaled-height 814?><?image-scaled-width 762?><?image-cloudpmc-urn urn:cdn:blobs/4047/13148317/08432c4ffecc/sciadv.aee1648-f1.jpg?><?thumb-name sciadv.aee1648-f1.gif?><?thumb-size 14957?><?thumb-md5 4311781b218c6ba2faccd9ba0d417a3e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 107?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/4047/13148317/4311781b218c/sciadv.aee1648-f1.gif?></graphic></fig></sec><sec disp-level="2"><title>DG7 δ<sup>18</sup>O time series and iCESM-LME</title><p>The δ<sup>18</sup>O record covers the past two centuries from 1787 to 2007, with a sampling resolution of ~0.15 years on average (<xref rid="F1" ref-type="fig">Fig. 1C</xref>) (Materials and Methods). The δ<sup>18</sup>O values vary from −10.84 to −6.90‰, with an average value of −8.51‰. The δ<sup>18</sup>O record exhibits a decreasing trend from 1787 until ~1850, followed by a long-term increasing trend that persists to the present. A series of decadal- to interannual-scale fluctuations, with amplitudes of 1 to 2‰, are superimposed on the long-term trend (<xref rid="F1" ref-type="fig">Fig. 1C</xref>). Spectral analysis reveals notable periodicities at ~14 and 1 to 3 years (fig. S7). The Hendy test (fig. S8) (<xref rid="R24" ref-type="bibr"><italic toggle="yes">24</italic></xref>) and good replication of well-dated stalagmite δ<sup>18</sup>O records (fig. S9) indicate that calcite δ<sup>18</sup>O variations are little affected by kinetic fractionation, thus primarily reflecting climate changes (<xref rid="R25" ref-type="bibr"><italic toggle="yes">25</italic></xref>).</p><p>The simulation results were derived from the Community Earth System Model Last Millennium Ensemble (CESM-LME) (<xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>) and isotope-enabled Last Millennium simulations (iCESM-LME) (<xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>) (Materials and Methods). The simulated annual precipitation δ<sup>18</sup>O, annual precipitation, and summer precipitation in northern China (105°E to 120°E, 35°N to 42°N) over the past two centuries are compared with the DG7 δ<sup>18</sup>O record to better interpret the proxy record.</p></sec></sec><sec sec-type="discussion" disp-level="1"><title>DISCUSSION</title><sec disp-level="2"><title>A robust EASM record derived from stalagmite δ<sup>18</sup>O records</title><p>The speleothem δ<sup>18</sup>O has been interpreted as a proxy of the EASM intensity (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>, <xref rid="R29" ref-type="bibr"><italic toggle="yes">29</italic></xref>) based on two mechanisms, i.e., changes in the fraction of monsoon rainfall in annual totals (<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>) and changes in the amount of rainout between tropical sources and cave sites (<xref rid="R31" ref-type="bibr"><italic toggle="yes">31</italic></xref>). Here, we use the DG7 δ<sup>18</sup>O record in conjunction with published data in the monsoon region of China to further investigate this issue. Cave δ<sup>18</sup>O records from southwestern [Daoguan and Dongge Cave (<xref rid="R32" ref-type="bibr"><italic toggle="yes">32</italic></xref>)], central [Heshang Cave (<xref rid="R33" ref-type="bibr"><italic toggle="yes">33</italic></xref>)], and northern China [Shihua Cave (<xref rid="R6" ref-type="bibr"><italic toggle="yes">6</italic></xref>) and Qujia Cave (<xref rid="R7" ref-type="bibr"><italic toggle="yes">7</italic></xref>)] exhibit a coherent variability, especially on the long-term trend (fig. S9, A to D). Correlation analyses also support a broad similarity among these δ<sup>18</sup>O records (table S3). Besides, the decadal oscillations observed in these δ<sup>18</sup>O records are largely comparable. The discrepancies between them are attributable to two main factors: spatial heterogeneities in hydroclimate (e.g., local precipitation and evapotranspiration) and differential isotopic signal smoothing due to site-specific karst processes. It is noteworthy that these caves are situated along the southwestern pathway of moisture transport in the monsoon region of China, with a dominant moisture source from the Indian Ocean (fig. S1). These observations support the remote-depletion effect originating from the Indian Ocean (<xref rid="R31" ref-type="bibr"><italic toggle="yes">31</italic></xref>, <xref rid="R34" ref-type="bibr"><italic toggle="yes">34</italic></xref>, <xref rid="R35" ref-type="bibr"><italic toggle="yes">35</italic></xref>), which is consistent with previous modeling results (<xref rid="R36" ref-type="bibr"><italic toggle="yes">36</italic></xref>, <xref rid="R37" ref-type="bibr"><italic toggle="yes">37</italic></xref>). Therefore, the DG7 δ<sup>18</sup>O primarily reflects the EASM intensity, with lower δ<sup>18</sup>O values corresponding to stronger EASM intensity and more moisture transport from the Indian Ocean.</p><p>Multiple lines of evidence support our interpretation of stalagmite δ<sup>18</sup>O. First, the high-resolution DG7 δ<sup>18</sup>O record demonstrates a strong correlation with the observed EASM index (<xref rid="R3" ref-type="bibr"><italic toggle="yes">3</italic></xref>) and summer precipitation in northern China (<xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>) (<xref rid="F2" ref-type="fig">Fig. 2, A to C</xref>), suggesting that enhanced (weakened) EASM intensity leads to increased (decreased) rainfall in northern China (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>–<xref rid="R3" ref-type="bibr"><italic toggle="yes">3</italic></xref>). Second, the DG7 δ<sup>18</sup>O record displays a high degree of similarity with a tree-ring δ<sup>18</sup>O record from the northern fringe of the EASM region (<xref rid="F2" ref-type="fig">Fig. 2D</xref>) (<xref rid="R39" ref-type="bibr"><italic toggle="yes">39</italic></xref>) and the simulated precipitation δ<sup>18</sup>O in northern China (<xref rid="F2" ref-type="fig">Fig. 2E</xref>) (<xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>), confirming the spatial coherence of the EASM variability (<xref rid="R36" ref-type="bibr"><italic toggle="yes">36</italic></xref>, <xref rid="R37" ref-type="bibr"><italic toggle="yes">37</italic></xref>). Third, the DG7 δ<sup>18</sup>O record is strongly correlated with the simulated annual (<xref rid="F2" ref-type="fig">Fig. 2F</xref>) and summer (<xref rid="F2" ref-type="fig">Fig. 2G</xref>) precipitation in northern China (<xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>), consistent with the meteorological observations (<xref rid="F2" ref-type="fig">Fig. 2, A to C</xref>). Fourth, Chinese cave δ<sup>18</sup>O records along the moisture transport pathway from the Indian Ocean vary broadly similar to summer rainfall of the Indian subcontinent during 1901–2007 (fig. S9) (<xref rid="R40" ref-type="bibr"><italic toggle="yes">40</italic></xref>), supporting the remote-depletion effect (<xref rid="R34" ref-type="bibr"><italic toggle="yes">34</italic></xref>–<xref rid="R37" ref-type="bibr"><italic toggle="yes">37</italic></xref>). Last, the DG7 δ<sup>18</sup>O-based EASM reconstruction exhibits a negative correlation with the regional hydrological record in southwestern China (supplementary text 2 and fig. S10), consistent with the modern precipitation dipole pattern. In conclusion, aligning with previous meteorological (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>–<xref rid="R3" ref-type="bibr"><italic toggle="yes">3</italic></xref>, <xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>) and modeling (<xref rid="R36" ref-type="bibr"><italic toggle="yes">36</italic></xref>, <xref rid="R37" ref-type="bibr"><italic toggle="yes">37</italic></xref>) evidence, we confirm that the DG7 δ<sup>18</sup>O record is a reliable proxy of EASM intensity, with an intensified EASM (lighter δ<sup>18</sup>O) resulting in increased monsoon rainfall over northern China.</p><fig position="float" id="F2" fig-type="image" specific-use="distribute" orientation="portrait"><label>Fig. 2.</label><caption><title>Climatic interpretation of stalagmite δ<sup>18</sup>O.</title><p>Left: Comparison of the annually resolved DG7 δ<sup>18</sup>O record (<bold>A</bold>), observed EASM intensity index from 1948 to 2017 (<xref rid="R3" ref-type="bibr"><italic toggle="yes">3</italic></xref>) (<bold>B</bold>), and normalized anomaly series of summer precipitation across North China (<xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>) (<bold>C</bold>). Right: Comparison of the DG7 δ<sup>18</sup>O record, tree-ring δ<sup>18</sup>O record (<xref rid="R39" ref-type="bibr"><italic toggle="yes">39</italic></xref>) (<bold>D</bold>), simulated annual precipitation δ<sup>18</sup>O (<bold>E</bold>), annual precipitation (<bold>F</bold>), and summer precipitation (<bold>G</bold>) in northern China (35°N to 42°N, 105°E to 120°E). DG7 record is the aquamarine line. Modeling results are from iCESM-LME (<xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>). The black dashed lines indicate a second-order polynomial fitting for all records. The correlation coefficient is calculated with a 1-year equal interval interpolation and a 9-year moving average (significant at the <italic toggle="yes">P</italic> &lt; 0.01 level). VSMOW, Vienna Standard Mean Ocean Water.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="sciadv.aee1648-f2.jpg"><?image-name sciadv.aee1648-f2.jpg?><?image-size 213024?><?image-md5 aa8213388d8771c74c788b6425c90dc5?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 3016?><?image-original-width 4333?><?image-scaled-height 548?><?image-scaled-width 787?><?image-cloudpmc-urn urn:cdn:blobs/4047/13148317/aa8213388d87/sciadv.aee1648-f2.jpg?><?thumb-name sciadv.aee1648-f2.gif?><?thumb-size 15841?><?thumb-md5 c1fc56fa11869bd18690386261880ba5?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 114?><?thumb-cloudpmc-urn urn:cdn:blobs/4047/13148317/c1fc56fa1186/sciadv.aee1648-f2.gif?></graphic></fig><p>Notably, we identify a prominent weakening trend in EASM since the end of the Little Ice Age (LIA; ~1850 CE; <xref rid="F2" ref-type="fig">Fig. 2</xref> and fig. S11A). Although the EASM variations are typically positively correlated with changes in Northern Hemisphere temperatures on various timescales (<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>, <xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>, <xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>), this relationship has reversed since 1850 (fig. S11, A and B), suggesting a substantial anthropogenic influence on monsoon dynamics. Previous Coupled Model Intercomparison Project Phase 5 (CMIP5) models indicate that the observed decreasing trend in global land monsoon precipitation (1948–2005) is attributed to anthropogenic forcing, notably to anthropogenic aerosol forcing (<xref rid="R41" ref-type="bibr"><italic toggle="yes">41</italic></xref>). Here, attribution analysis using the CESM-LME (<xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>) reveals a precipitation decline in northern China since 1850 in both the all-forcing and aerosol-only simulations, in contrast to an increase in the greenhouse-gas-only simulation (fig. S11, D to F). This finding aligns with the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (<xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>), which attributes the 20th-century EASM decline and precipitation reduction to anthropogenic aerosol-induced cooling. The cooling effects of aerosol forcing are twofold: a thermodynamic effect due to the reduction in atmospheric humidity, and a dynamic effect due to the weakening of the land-sea thermal contrast and thus monsoon circulation. Furthermore, increasing aerosol emissions in the Northern Hemisphere have likely driven a southward movement of the Intertropical Convergence Zone (ITCZ) since 1850 (<xref rid="R42" ref-type="bibr"><italic toggle="yes">42</italic></xref>), thereby weakening EASM circulation. These findings underscore that controlling aerosol emissions is critical to mitigating future monsoon rainfall declines.</p></sec><sec disp-level="2"><title>Decadal EASM variabilities and their dynamics</title><p>Spectral analysis (fig. S7) and empirical mode decomposition (table S4A) reveal a notable decadal EASM variability. The ~10.3-year cycle, accounting for ~29.5% of the total variance throughout the past two centuries, is likely related to the 11-year solar cycle (<xref rid="F3" ref-type="fig">Fig. 3A</xref>). Comparison of the EASM and sunspot number change using a band-pass filter (<xref rid="F3" ref-type="fig">Fig. 3B</xref>) and a cross-wavelet transform (fig. S12) displays in-phase coherence during 1787–1870 and 1950–2007. Notably, decadal EASM changes exhibit a high correlation with solar forcing during the strong 11-year solar cycle epoch, with stronger EASM intensity positively correlated with higher solar irradiance (<xref rid="F3" ref-type="fig">Fig. 3</xref>). A pronounced quasi-11-year cycle is also identified in simulated precipitation δ<sup>18</sup>O across the EASM region (<xref rid="R43" ref-type="bibr"><italic toggle="yes">43</italic></xref>) and summer precipitation over northern China (<xref rid="R8" ref-type="bibr"><italic toggle="yes">8</italic></xref>), as well as in observed summer precipitation pattern in China (1958–2020) (<xref rid="R9" ref-type="bibr"><italic toggle="yes">9</italic></xref>), strongly corroborating the solar-EASM relationship. These observations support that solar activity played an important role in driving EASM changes through the top-down stratospheric response and/or the bottom-up tropical ocean-atmosphere response (<xref rid="R44" ref-type="bibr"><italic toggle="yes">44</italic></xref>).</p><fig position="float" id="F3" fig-type="image" specific-use="distribute" orientation="portrait"><label>Fig. 3.</label><caption><title>Solar forcing on decadal EASM variability.</title><p>(<bold>A</bold>) DG7 δ<sup>18</sup>O record (aquamarine) and sunspot number (orange; SILSO data, Royal Observatory of Belgium, Brussels). Black solid and dashed lines represent the mean and 2 SD of the δ<sup>18</sup>O record, respectively. Five brown triangles indicate five weak EASM events. SILSO, Sunspot Index and Long-term Solar Observations. (<bold>B</bold>) Quasi-11-year cycle in EASM (dark green) and sunspot number (orange) by band-pass filter. (<bold>C</bold>) Radionuclide-based reconstruction of changes in solar activity (<xref rid="R48" ref-type="bibr"><italic toggle="yes">48</italic></xref>) (teal) and tree-ring reconstructed ENSO variance (<xref rid="R47" ref-type="bibr"><italic toggle="yes">47</italic></xref>) (yellow). The yellow shadings highlight intervals of strong coupling between the EASM and solar activity during the strong 11-year solar cycle epoch (<xref rid="R8" ref-type="bibr"><italic toggle="yes">8</italic></xref>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="sciadv.aee1648-f3.jpg"><?image-name sciadv.aee1648-f3.jpg?><?image-size 187340?><?image-md5 e2f54db0bff4ac98f319225d3e0edf83?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 2956?><?image-original-width 4334?><?image-scaled-height 537?><?image-scaled-width 788?><?image-cloudpmc-urn urn:cdn:blobs/4047/13148317/e2f54db0bff4/sciadv.aee1648-f3.jpg?><?thumb-name sciadv.aee1648-f3.gif?><?thumb-size 15229?><?thumb-md5 5d1a2858f5f410949619a806a3781048?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 117?><?thumb-cloudpmc-urn urn:cdn:blobs/4047/13148317/5d1a2858f5f4/sciadv.aee1648-f3.gif?></graphic></fig><p>The phase asynchrony between the EASM and solar activity on the 11-year band is observed from 1870 to 1950 (<xref rid="F3" ref-type="fig">Fig. 3</xref>), likely modulated by the enhanced internal climate variability. First, our analysis reveals a pronounced 2- to 4-year cycle in the EASM record from 1870 to 1950, which explains ~39.9% of the total variance (table S4B), largely related to the El Niño–Southern Oscillation (ENSO) variability. Second, the EASM record broadly resembles coral-based ENSO reconstruction from the central tropical Pacific (<xref rid="R45" ref-type="bibr"><italic toggle="yes">45</italic></xref>, <xref rid="R46" ref-type="bibr"><italic toggle="yes">46</italic></xref>). Sliding correlation analysis (29-year moving windows) further reveals strong EASM-ENSO coupling until the late 1950s, followed by weaker coupling thereafter (fig. S13). Third, the ENSO variance notably enhanced from 1870 to 1950 (<xref rid="R47" ref-type="bibr"><italic toggle="yes">47</italic></xref>), coinciding with the interval of reduced solar irradiance (<xref rid="R48" ref-type="bibr"><italic toggle="yes">48</italic></xref>) (<xref rid="F3" ref-type="fig">Fig. 3C</xref>).</p><p>Furthermore, we identify five anomalously weak monsoon events over the past two centuries (<xref rid="F4" ref-type="fig">Fig. 4</xref>), defined by the δ<sup>18</sup>O values exceeding 2 SD above the average (that is, &gt; −7.31‰), following the approach used for Greenland ice core records (<xref rid="R49" ref-type="bibr"><italic toggle="yes">49</italic></xref>). Four events occurred in the second half of the 20th century, around 1965, 1972, 1987, and 1994 (<xref rid="F4" ref-type="fig">Fig. 4A</xref>), respectively, concurrent with widespread extreme droughts in northern China (<xref rid="R50" ref-type="bibr"><italic toggle="yes">50</italic></xref>). The most pronounced one occurred in the 1850s (<xref rid="F4" ref-type="fig">Fig. 4D</xref>), coinciding with a megadrought in northern China from historical documents (<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>). A recent tree-ring δ<sup>18</sup>O-based hydroclimate reconstruction from the Qinling-Bashan Mountains confirms a prominent dry period during 1850–1859 (<xref rid="R52" ref-type="bibr"><italic toggle="yes">52</italic></xref>). This megadrought was also synchronous with megadroughts in India (<xref rid="R53" ref-type="bibr"><italic toggle="yes">53</italic></xref>, <xref rid="R54" ref-type="bibr"><italic toggle="yes">54</italic></xref>), southwestern North America (<xref rid="R55" ref-type="bibr"><italic toggle="yes">55</italic></xref>), and West Africa (<xref rid="R56" ref-type="bibr"><italic toggle="yes">56</italic></xref>) (fig. S14), collectively revealing a hemispheric-scale summer monsoon anomaly that underscores the interconnected nature of global climate dynamics during the LIA termination period.</p><fig position="float" id="F4" fig-type="image" specific-use="distribute" orientation="portrait"><label>Fig. 4.</label><caption><title>Weak EASM events and their dynamics.</title><p>Left: Comparison between stalagmite-based EASM (aquamarine), sunspot number (<bold>A</bold>, orange; SILSO data, Royal Observatory of Belgium, Brussels), AMOC (<xref rid="R58" ref-type="bibr"><italic toggle="yes">58</italic></xref>) (<bold>B</bold>, dark green; derived from HadISST data), PDO (<xref rid="R62" ref-type="bibr"><italic toggle="yes">62</italic></xref>) (<bold>C</bold>, light orange; derived from UKMO Historical SST dataset for 1900–1981 and Reynold’s Optimally Interpolated SST (V1) for 1982–2001), and AMO (<xref rid="R64" ref-type="bibr"><italic toggle="yes">64</italic></xref>) (C, black; derived from Kaplan SST data) records. Black solid and dashed lines represent the mean and 2 SD of the stalagmite δ<sup>18</sup>O record, respectively. Right: Same as the left panel, but comparison between proxy records. (<bold>D</bold>) Sunspot number. (<bold>E</bold>) The AMOC index (<xref rid="R59" ref-type="bibr"><italic toggle="yes">59</italic></xref>) and mean sortable silt size (SS) record from the western North Atlantic (<xref rid="R60" ref-type="bibr"><italic toggle="yes">60</italic></xref>) (dark green). The purple dashed lines represent the mean state of the AMOC intensity during the coldest period of the LIA (1400–1700 CE). (<bold>F</bold>) The PDO (<xref rid="R63" ref-type="bibr"><italic toggle="yes">63</italic></xref>) (light orange) and Atlantic multidecadal variability (AMV) (<xref rid="R65" ref-type="bibr"><italic toggle="yes">65</italic></xref>) (gray) records. The thick black line indicates a 9-year moving average of the AMV record. The vertical shadings indicate five weak EASM events, likely associated with reduced solar irradiance, weakened AMOC, cold AMO/AMV, and warm PDO phase. HadISST, Hadley Centre Global Sea Ice and Sea Surface Temperature; UKMO, U.K. Meteorological Office.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="sciadv.aee1648-f4.jpg"><?image-name sciadv.aee1648-f4.jpg?><?image-size 172742?><?image-md5 b470c42e90836ef741f41b15ac443fe0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 2820?><?image-original-width 4333?><?image-scaled-height 512?><?image-scaled-width 787?><?image-cloudpmc-urn urn:cdn:blobs/4047/13148317/b470c42e9083/sciadv.aee1648-f4.jpg?><?thumb-name sciadv.aee1648-f4.gif?><?thumb-size 15583?><?thumb-md5 c0bde337a2a2ff8e2512184dc0b75041?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 122?><?thumb-cloudpmc-urn urn:cdn:blobs/4047/13148317/c0bde337a2a2/sciadv.aee1648-f4.gif?></graphic></fig><p>Decadal-scale EASM variability is highly associated with the 11-year solar cycle (<xref rid="F4" ref-type="fig">Fig. 4, A and D</xref>), and internal climate dynamics amplify and propagate these solar signals globally (<xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>, <xref rid="R57" ref-type="bibr"><italic toggle="yes">57</italic></xref>). The five weak monsoon events are associated with the rapid weakening in AMOC (<xref rid="F4" ref-type="fig">Fig. 4, B and E</xref>) (<xref rid="R58" ref-type="bibr"><italic toggle="yes">58</italic></xref>–<xref rid="R60" ref-type="bibr"><italic toggle="yes">60</italic></xref>), even declining below mean levels observed during the coldest period of the LIA (1400–1700) (<xref rid="R59" ref-type="bibr"><italic toggle="yes">59</italic></xref>, <xref rid="R60" ref-type="bibr"><italic toggle="yes">60</italic></xref>). The AMOC weakening, combined with reduced solar irradiance, contributed substantially to abrupt EASM weakening through Northern Hemisphere cooling and a southward shift of ITCZ (<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>, <xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>). Furthermore, the sea surface temperature (SST) pattern in the Pacific and Atlantic oceans can modulate the EASM circulation and intensify the north-south rainfall pattern in China (<xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>, <xref rid="R8" ref-type="bibr"><italic toggle="yes">8</italic></xref>–<xref rid="R10" ref-type="bibr"><italic toggle="yes">10</italic></xref>, <xref rid="R61" ref-type="bibr"><italic toggle="yes">61</italic></xref>). Here, four of the five weak monsoon events correspond to the low solar irradiance and warm PDO conditions (<xref rid="R62" ref-type="bibr"><italic toggle="yes">62</italic></xref>, <xref rid="R63" ref-type="bibr"><italic toggle="yes">63</italic></xref>) and all five correspond to the cold AMO/Atlantic multidecadal variability conditions (<xref rid="R64" ref-type="bibr"><italic toggle="yes">64</italic></xref>, <xref rid="R65" ref-type="bibr"><italic toggle="yes">65</italic></xref>) (<xref rid="F4" ref-type="fig">Fig. 4, C and F</xref>). An exception is the weak monsoon event around 1972, which may be attributed to increased volcanic and anthropogenic aerosol emissions and the notable Northern Hemisphere cooling (fig. S11, B and C). Therefore, we confirm that solar forcing on decadal EASM variability can be amplified by Pacific and Atlantic SST patterns. The underlying dynamic mechanism involves the excitation of an anomalous SST pattern by high solar output, which resembles a cold PDO phase. The associated anomalous North Pacific anticyclone dominates the extratropical North Pacific and thereby enhances the EASM, which, in turn, results in abundant rainfall over northern China and deficient rainfall in southern China. In contrast, low solar output with a warm PDO phase can cause weak EASM intensity and drought in northern China (<xref rid="R8" ref-type="bibr"><italic toggle="yes">8</italic></xref>–<xref rid="R10" ref-type="bibr"><italic toggle="yes">10</italic></xref>). The Atlantic SST patterns further affect EASM via the global teleconnection pattern (<xref rid="R61" ref-type="bibr"><italic toggle="yes">61</italic></xref>), enhancing the effect when the Pacific SST and Atlantic SST patterns are in opposite phases (<xref rid="R10" ref-type="bibr"><italic toggle="yes">10</italic></xref>).</p></sec><sec disp-level="2"><title>Monsoon anomaly, population pressure, and social instability</title><p>Of note is the decadal-scale EASM anomaly that occurred during 1848–1859, marked by the most extreme δ<sup>18</sup>O excursion (~3.9‰ in amplitude) over the past 200 years (<xref rid="F5" ref-type="fig">Fig. 5A</xref>). This EASM anomaly temporally coincided with the Taiping Rebellion (1851–1864), the most devastating civil conflict in modern Chinese history, accompanied by unprecedented casualties and demographic collapses (<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>, <xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>, <xref rid="R66" ref-type="bibr"><italic toggle="yes">66</italic></xref>, <xref rid="R67" ref-type="bibr"><italic toggle="yes">67</italic></xref>). In the mid-19th century, the Qing government confronted severe financial stress due to continuous internal rebellions and foreign wars. Meanwhile, an acute societal crisis emerged, fueled by rapid population growth (~430 million in 1851; <xref rid="F5" ref-type="fig">Fig. 5B</xref>) (<xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>, <xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>) alongside continuously decreasing grain production (<xref rid="F5" ref-type="fig">Fig. 5C</xref>) (<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>, <xref rid="R67" ref-type="bibr"><italic toggle="yes">67</italic></xref>). As the peasant majority subsisted on only 30 to 40% of the land, land annexation intensified their conflicts with the Qing government (<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>). The hydroclimate extremes in the 1850s caused widespread agricultural failures, which led to extreme overpopulation (<xref rid="R67" ref-type="bibr"><italic toggle="yes">67</italic></xref>) (supplementary text 3 and <xref rid="F5" ref-type="fig">Fig. 5D</xref>) and served as a critical trigger for the outbreak of the Taiping Rebellion.</p><fig position="float" id="F5" fig-type="image" specific-use="distribute" orientation="portrait"><label>Fig. 5.</label><caption><title>Decadal EASM anomalies contribute to the Taiping Rebellion.</title><p>(<bold>A</bold>) The EASM record (aquamarine). The yellow vertical shading indicates the Taiping Rebellion (1851–1864). (<bold>B</bold> to <bold>D</bold>) Total national grain output (yellow), population size (pea green), and per capita grain output data (teal) (<xref rid="R67" ref-type="bibr"><italic toggle="yes">67</italic></xref>). The red dashed line represents a threshold of extreme overpopulation, defined as per capita grain output of &lt;200 kg at the national scale (<xref rid="R67" ref-type="bibr"><italic toggle="yes">67</italic></xref>). (<bold>E</bold>) The EASM anomalies (aquamarine) and solar activities (orange) during the Taiping Rebellion (1, outbreak; 2, strategic transfer; 3, capital establishment; 4, grain crisis; and 5, Nian Rebellion). The aquamarine and brown horizontal bars in (A) and (E) indicate the strongest (1848–1851) and weakest (1854–1857) EASM intervals over the past 200 years, respectively. The spatial patterns of flood (<bold>F</bold>) and drought (<bold>G</bold>) during the strongest and weakest EASM intervals (<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>). The green star shows the location of Daoguan Cave. Brown dots in (G) indicate the outbreak location of major wars during the Taiping Rebellion (<xref rid="R72" ref-type="bibr"><italic toggle="yes">72</italic></xref>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="sciadv.aee1648-f5.jpg"><?image-name sciadv.aee1648-f5.jpg?><?image-size 221452?><?image-md5 5154ac1c77e9983ed56bdd13fda5c40a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 3951?><?image-original-width 3745?><?image-scaled-height 790?><?image-scaled-width 749?><?image-cloudpmc-urn urn:cdn:blobs/4047/13148317/5154ac1c77e9/sciadv.aee1648-f5.jpg?><?thumb-name sciadv.aee1648-f5.gif?><?thumb-size 18097?><?thumb-md5 90d2e29e04aa7b6c83f83b735ba403fb?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 106?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/4047/13148317/90d2e29e04aa/sciadv.aee1648-f5.gif?></graphic></fig><p>The initial phase of this EASM anomaly featured an exceptionally strong EASM, evidenced by the δ<sup>18</sup>O minima (1848–1851; <xref rid="F5" ref-type="fig">Fig. 5E</xref>), which induced large-scale flooding in the monsoon region of China (<xref rid="F5" ref-type="fig">Fig. 5F</xref>), a pattern corroborated by the yearly charts of dryness/wetness (<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>). Historical documents show that more than 500 counties across six provinces in the Yellow River Basin were affected by flooding. The 1849 flood over the Yangtze River Basin was unprecedented in a century (<xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>, <xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>, <xref rid="R68" ref-type="bibr"><italic toggle="yes">68</italic></xref>). This prolonged flood devastated farmland and displaced large numbers of peasants. Many refugees migrated to southwestern China in search of livelihoods, resulting in the precipitous decline of per capita arable land to &lt;800 m<sup>2</sup> in Guangxi Province by 1851 (<xref rid="R69" ref-type="bibr"><italic toggle="yes">69</italic></xref>) (~1190 m<sup>2</sup> on the national average level). Concurrently, droughts prevailed in southwestern China (<xref rid="F5" ref-type="fig">Fig. 5F</xref>), evidenced by the DG7 trace element record and historical documents (fig. S15). As the drought intensified and spread across Guangxi, food shortages and price inflation exacerbated human-land conflicts and tensions between locals and migrant settlers (<xref rid="R70" ref-type="bibr"><italic toggle="yes">70</italic></xref>, <xref rid="R71" ref-type="bibr"><italic toggle="yes">71</italic></xref>). These compounded pressures became an important catalyst for the outbreak of the Taiping Rebellion in 1851 (<xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>, <xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>, <xref rid="R72" ref-type="bibr"><italic toggle="yes">72</italic></xref>). Thereafter, food insecurity ultimately drove the Taiping forces’ invasion into the agricultural heartland in the middle and lower Yangtze River Basin in 1852, culminating in the establishment of Nanjing as their capital in 1853 (<xref rid="F5" ref-type="fig">Fig. 5E</xref>) (<xref rid="R72" ref-type="bibr"><italic toggle="yes">72</italic></xref>). Subsequently, the Taiping Heavenly Kingdom promulgated the Land System of the Heavenly Dynasty to address the conflict between population and land.</p><p>The second phase of this EASM anomaly is the anomalously weak monsoon event occurred in the 1850s, evidenced by the most positive δ<sup>18</sup>O values over the past 200 years (<xref rid="F5" ref-type="fig">Fig. 5E</xref>). This prolonged EASM failure caused persistent and severe droughts (1854–1857) that affected from northern China to the Yangtze River Basin (<xref rid="F5" ref-type="fig">Fig. 5G</xref>) (<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>). The resultant agricultural collapse with a sharp decline in grain production below subsistence levels (<xref rid="R67" ref-type="bibr"><italic toggle="yes">67</italic></xref>) (&lt;200 kg per capita; <xref rid="F5" ref-type="fig">Fig. 5D</xref>) drove mass famine migrations that both swelled the Taiping ranks and triggered a catastrophic grain crisis by 1854 (<xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>). Most war occurred in the Yangtze River Basin as contending forces vied for control of grain-producing regions (<xref rid="F5" ref-type="fig">Fig. 5G</xref>). Meanwhile, the Nian Rebellion (1853–1868), a peasant uprising in northern China, formed a coalition in 1855, established a unified military structure, and coordinated operations to seize grain (<xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>, <xref rid="R73" ref-type="bibr"><italic toggle="yes">73</italic></xref>). The social unrest, crop failures, and fiscal crisis severely undermined the governing capacity of the Qing regime (<xref rid="R74" ref-type="bibr"><italic toggle="yes">74</italic></xref>). The Qing government was compelled to mobilize regional militia forces to suppress the Taiping Rebellion. The Taiping Rebellion was eventually quelled in 1864 due to a variety of factors, including food shortages and internal strife, with an estimated death toll of 100 million (<xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>, <xref rid="R66" ref-type="bibr"><italic toggle="yes">66</italic></xref>).</p><p>Decadal-scale EASM anomalies, strongly modulated by solar activity and ocean-atmosphere processes in the Atlantic and Pacific oceans, trigger widespread floods and droughts across China. The marked flood-drought abrupt alteration from 1848 to 1857 (<xref rid="F5" ref-type="fig">Fig. 5E</xref>) largely contributed to the outbreak and trajectory of the Taiping Rebellion, implicating that monsoon anomaly-induced harvest failures can fuel subsistence crises and spark social instability. Since the mid-20th century, anomalously weak monsoon events have increased in frequency (<xref rid="F4" ref-type="fig">Fig. 4A</xref>). These climate challenges have been mitigated by government-led water resource management and food security policies, which alleviated disaster impacts and secured social stability. Therefore, our findings underscore that implementing sustainable water management and climate-smart agriculture is critical for addressing future climate extremes and achieving the Sustainable Development Goals.</p></sec></sec><sec sec-type="materials|methods" disp-level="1"><title>MATERIALS AND METHODS</title><sec disp-level="2"><title>Sample DG7</title><p>Daoguan Cave, ~260 km west of Dongge Cave (<xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>), is located on the eastern slopes of the Yunnan-Guizhou Plateau, southwestern China. The cave features a ~900-m-long gallery with two chambers and is overlain by ~20 m of Triassic limestone bedrock. The overlying flora is mainly composed of tussock scrub. One stalagmite (DG7) was collected from a poorly ventilated chamber with ~100% relative humidity. The mean annual temperature at the cave site is ~14°C. Local precipitation increases in early May as the EASM intensifies, marking the onset of the rainy season. The annual precipitation ranges from 800 to 1800 mm, with 76% occurring during the boreal summer (from May to September).</p><p>Stalagmite DG7, ~160 mm in length and 50 mm in diameter, was actively growing at the time of collection in 2007. When halved and polished, regular laminations can be observed in the depth section of 0 to 130.5 mm (figs. S2 and S3).</p></sec><sec disp-level="2"><title><sup>230</sup>Th and <sup>210</sup>Pb dating methods</title><p>Two subsamples were collected for U-Th dating (table S1). The chemical procedures for U and Th separation and purification were similar to those described previously (<xref rid="R75" ref-type="bibr"><italic toggle="yes">75</italic></xref>). The <sup>230</sup>Th dating was performed at the Minnesota Isotope Laboratory with a multicollector inductively coupled plasma mass spectrometer (Thermo-Finnigan Neptune). For <sup>230</sup>Th dating, correction for the effect of <sup>230</sup>Th incorporated at the time of deposition is difficult for the young stalagmites. Any initial <sup>230</sup>Th is always accompanied by a much larger amount of <sup>232</sup>Th. Therefore, samples with <sup>230</sup>Th/<sup>232</sup>Th ratios below an acceptable threshold were objectively identified and excluded (<xref rid="R76" ref-type="bibr"><italic toggle="yes">76</italic></xref>, <xref rid="R77" ref-type="bibr"><italic toggle="yes">77</italic></xref>). As shown in table S1, the <sup>230</sup>Th/<sup>232</sup>Th ratios are too low (&lt;10) for both dates. Therefore, the <sup>230</sup>Th data have generally been regarded as unreliable (<xref rid="R76" ref-type="bibr"><italic toggle="yes">76</italic></xref>, <xref rid="R77" ref-type="bibr"><italic toggle="yes">77</italic></xref>). The <sup>230</sup>Th dating results merely tell us that the DG7 stalagmite is extremely young.</p><p>Eleven subsamples were collected for <sup>210</sup>Pb dating (table S2). About 0.12 to 0.30 g of powder of each sample were dissolved in concentrated HNO<sub>3</sub> and spiked with <sup>209</sup>Po. The Po was self-precipitated onto the silver plate in 0.1 N HCl solution under an 80°C water bath for 6 hours. The silver plate was counted for <sup>210</sup>Po and <sup>209</sup>Po by the ORTEC alpha spectrometer (<xref rid="R78" ref-type="bibr"><italic toggle="yes">78</italic></xref>). The <sup>210</sup>Pb dating was performed at the Institute of Karst Geology, Chinese Academy of Geological Science.</p></sec><sec disp-level="2"><title>XRD analyses</title><p>To confirm the mineralogy of the DG7 stalagmite, five subsamples (at the depths of 20, 60, 85, 100, and 120 mm) were drilled from the polished surface and analyzed for XRD (fig. S2). The measurements were performed on a Rigaku D/ Max 2500 x-ray diffractometer at Nanjing Normal University. The XRD results confirm that this stalagmite is entirely composed of calcite minerals.</p></sec><sec disp-level="2"><title>Stable isotope and trace element analyses</title><p>For stable isotope analyses (δ<sup>18</sup>O and δ<sup>13</sup>C), a total of 1516 subsamples were collected by knife shaving. The stable isotope analyses were performed on a Finnigan MAT-253 mass spectrometer in the Isotope Laboratory of Nanjing Normal University. The precision for δ<sup>18</sup>O is 0.06 and 0.03‰ for δ<sup>13</sup>C at the 1σ level. A total of 131 powdered samples were drilled with a carbide dental burr along the growth axis and used for trace element analyses at Chongqing Key Laboratory of Karst Environment, Southwest University. Each sample weighed 230 ± 50 μg and was dissolved in a solution of 3% HNO<sub>3</sub> and 1% hydrofluoric acid (HF). Mg and Ca were analyzed using an inductively coupled plasma optical emission spectrometer (PerkinElmer), and Sr and Ba were measured using a single-collector inductively coupled plasma mass spectrometer (Element XR). International standard SLRS-5 was used to determine the accuracy and precision of the analyses. The precisions are better than 3% for Ca, 3% for Mg, 5% for Ba, and 10% for Sr.</p></sec><sec disp-level="2"><title>Model simulations</title><p>The CESM-LME (<xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>) is the largest available set of single model simulations spanning the past millennium, thereby providing a unique testbed for exploring climate variability across multiple timescales. Here, we focus on the “All Forcing” ensemble (<italic toggle="yes">n</italic> = 13), forced by solar variability, volcanic eruptions, land-use, greenhouse gas, ozone-aerosol, and orbital changes (<xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>). In addition, we also used the isotope-enabled Last Millennium simulations conducted by the iCESM 1.2 (<xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>), with external forcings corresponding to the configuration of nonisotopic CESM-LME. The resolution of the model for the atmosphere/land components is ∼2°, and the resolution for the ocean/sea-ice components is ∼1°. The iCESM-LME simulations include a preindustrial control experiment, three all-forcing experiments, and five single-forcing sensitivity experiments, including two volcanic eruption experiments, one total solar irradiation experiment, greenhouse gas experiment, and orbital parameter experiment.</p></sec></sec></body><back><ack><title>Acknowledgments</title><p>We thank the editors and reviewers for the constructive comments and suggestions. We thank H. Gao from Lanzhou Jiaotong University for help.</p><sec sec-type="funding"><title>Funding:</title><p>This work was supported by the National Key Research and Development Program of China, grant 2023YFF0804704 (L.N.); the National Natural Science Foundation of China, grants 41931178 (Y.W.) and 42071105 (K.Z.); and the US National Science Foundation, grant 2202913 (R.L.E.).</p></sec><sec sec-type="author-contributions"><title>Author contributions:</title><p>Conceptualization: K.Z., C.H., H.C., and R.L.E. Methodology: K.Z., Y.L., W.S., H.C., J.Y., L.N., and R.L.E. Investigation: Y.W., K.Z., Z.Y., Y.L., D.H., L.N., M.Y., and R.L.E. Resources: H.C., L.N., and R.L.E. Visualization: Y.L., and D.H. Supervision: Y.W., C.H., H.C., and R.L.E. Validation: H.C., L.N., and M.Y. Data curation: D.H. Software: D.H. Formal analysis: W.S., M.Y., and R.L.E. Funding acquisition: Y.W., L.N., H.C., and R.L.E. Writing—original draft: K.Z., Y.L., C.H., and Z.Y. Writing—review and editing: Y.W., C.H., K.Z., Y.L., W.S., H.C., J.Y., L.N., M.Y., Z.Y., and R.L.E.</p></sec><sec sec-type="COI-statement"><title>Competing interests:</title><p>The authors declare that they have no competing interests.</p></sec><sec sec-type="data-availability"><title>Data, code, and materials availability:</title><p>All data and code needed to evaluate and reproduce the results in the paper are present in the paper and/or the Supplementary Materials. This study did not generate new materials. Dataset for this research is available on Mendeley Data (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://data.mendeley.com/drafts/w2vckr3s86" ext-link-type="uri">https://data.mendeley.com/drafts/w2vckr3s86</ext-link>) and CESM-LME <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cesm.ucar.edu/community-projects/lme" ext-link-type="uri">www.cesm.ucar.edu/community-projects/lme</ext-link>).</p></sec></ack><sec sec-type="supplementary-material"><title>Supplementary Materials</title><sec><title>This PDF file includes:</title><supplementary-material position="float" content-type="local-data" orientation="portrait"><caption><p>Supplementary Texts 1 to 3</p><p>Figs. S1 to S17</p><p>Tables S1 to S5</p><p>References</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sciadv.aee1648_sm.pdf" position="float" orientation="portrait"><?suppdata-name sciadv.aee1648_sm.pdf?><?suppdata-size 4031818?><?suppdata-md5 e1853f2f968aa0f03610f4ee94d3462f?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:4047/13148317/e1853f2f968a/sciadv.aee1648_sm.pdf?></media></supplementary-material></sec></sec><ref-list><title>REFERENCES</title><ref id="R1"><label>1</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ding</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Sun</surname></string-name></person-group>, 
+<article-title>Inter-decadal variation of the summer precipitation in East China and its association with decreasing Asian summer monsoon. Part I: Observed evidences</article-title>. <source>Int. J. Climatol.</source>
+<volume>28</volume>, 
+<fpage>1139</fpage>–<lpage>1161</lpage> (<year>2008</year>).</mixed-citation></ref><ref id="R2"><label>2</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ding</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Sun</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Si</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Zhu</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Song</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhang</surname></string-name></person-group>, 
+<article-title>Interdecadal and interannual variabilities of the Asian summer monsoon and its projection of future change</article-title>. <source>Chin. J. Atmos. Sci.</source>
+<volume>37</volume>, 
+<fpage>253</fpage>–<lpage>280</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="R3"><label>3</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ding</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Si</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Zhao</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Song</surname></string-name></person-group>, 
+<article-title>On the characteristics, driving forces and inter-decadal variability of the East Asian summer monsoon</article-title>. <source>Chin. J. Atmos. Sci.</source>
+<volume>42</volume>, 
+<fpage>533</fpage>–<lpage>558</lpage> (<year>2018</year>).</mixed-citation></ref><ref id="R4"><label>4</label><mixed-citation publication-type="book">H. Douville, K. Raghavan, J. Renwick, R. P. Allan, P. A. Arias, M. Barlow, R. Cerezo-Mota, A. Cherchi, T. Y. Gan, J. Gergis, D. Jiang, A. Khan, W. Pokam Mba, D. Rosenfeld, J. Tierney, O. Zolina, <italic toggle="yes">Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change</italic> (Cambridge Univ. Press, 2021).</mixed-citation></ref><ref id="R5"><label>5</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>P.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Chen</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Yang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Tan</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>An</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Dai</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhou</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Jia</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Jin</surname></string-name>, <string-name name-style="western"><given-names>K. R.</given-names>
+<surname>Johnson</surname></string-name></person-group>, 
+<article-title>A test of climate, sun, and culture relationships from an 1810-year Chinese cave record</article-title>. <source>Science</source>
+<volume>322</volume>, 
+<fpage>940</fpage>–<lpage>942</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18988851</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1163965</pub-id></mixed-citation></ref><ref id="R6"><label>6</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Tan</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Ban</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Sinha</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Duan</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ning</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Kathayat</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name></person-group>, 
+<article-title>The East Asian summer monsoon variability over the last 145 years inferred from the Shihua Cave record, North China</article-title>. <source>Sci. Rep.</source>
+<volume>7</volume>, 
+<fpage>7078</fpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28765574</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-017-07251-3</pub-id><pub-id pub-id-type="pmcid">PMC5539322</pub-id></mixed-citation></ref><ref id="R7"><label>7</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhao</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Cao</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Sinha</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Dong</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Pan</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Pérez-Mejías</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Cui</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Yang</surname></string-name></person-group>, 
+<article-title>Orchestrated decline of Asian summer monsoon and Atlantic meridional overturning circulation in global warming period</article-title>. <source>Innov. Geosci.</source>
+<volume>1</volume>, 
+<fpage>100011</fpage> (<year>2023</year>).</mixed-citation></ref><ref id="R8"><label>8</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>Jin</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Yan</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Ning</surname></string-name></person-group>, 
+<article-title>Decadal variations of the East Asian summer monsoon forced by the 11-year insolation cycle</article-title>. <source>J. Climate</source>
+<volume>32</volume>, 
+<fpage>2735</fpage>–<lpage>2745</lpage> (<year>2019</year>).</mixed-citation></ref><ref id="R9"><label>9</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>L.</given-names>
+<surname>Zhao</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Xiao</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ding</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Huo</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name></person-group>, 
+<article-title>Solar 11-year cycle-modulated north-south contrasting patterns of summer precipitation in China</article-title>. <source>J. Climate</source>
+<volume>38</volume>, 
+<fpage>3277</fpage>–<lpage>3294</lpage> (<year>2025</year>).</mixed-citation></ref><ref id="R10"><label>10</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Q.</given-names>
+<surname>Yang</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Ma</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Fan</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Yang</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Xu</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Wu</surname></string-name></person-group>, 
+<article-title>Decadal modulation of precipitation patterns over eastern China by sea surface temperature anomalies</article-title>. <source>J. Climate</source>
+<volume>30</volume>, 
+<fpage>7017</fpage>–<lpage>7033</lpage> (<year>2017</year>).</mixed-citation></ref><ref id="R11"><label>11</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhu</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Zhao</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Cui</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liang</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Kong</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Shao</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Chen</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Pang</surname></string-name></person-group>, 
+<article-title>Decadal modulation of East Asian summer monsoon variations by external forcing and internal variability</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>293</volume>, 
+<fpage>107720</fpage> (<year>2022</year>).</mixed-citation></ref><ref id="R12"><label>12</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>W.</given-names>
+<surname>Sun</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Chen</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Lü</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Ning</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Gao</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name></person-group>, 
+<article-title>Impacts of major volcanic eruptions over the past two millennia on both global and Chinese climates: A review</article-title>. <source>Sci. China Earth Sci.</source>
+<volume>67</volume>, 
+<fpage>61</fpage>–<lpage>78</lpage> (<year>2024</year>).</mixed-citation></ref><ref id="R13"><label>13</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>He</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Kong</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>An</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>M. J.</given-names>
+<surname>Kelly</surname></string-name>, <string-name name-style="western"><given-names>C. A.</given-names>
+<surname>Dykoski</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Li</surname></string-name></person-group>, 
+<article-title>The Holocene Asian monsoon: Links to solar changes and North Atlantic climate</article-title>. <source>Science</source>
+<volume>308</volume>, 
+<fpage>854</fpage>–<lpage>857</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15879216</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1106296</pub-id></mixed-citation></ref><ref id="R14"><label>14</label><mixed-citation publication-type="book">Q. Ge, <italic toggle="yes">Climate Changes in Dynastic China</italic> (Science Press, 2010).</mixed-citation></ref><ref id="R15"><label>15</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>W.</given-names>
+<surname>Sun</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>D. A.</given-names>
+<surname>Bello</surname></string-name>, <string-name name-style="western"><given-names>U.</given-names>
+<surname>Büntgen</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Xoplaki</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Chen</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Shi</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Di Cosmo</surname></string-name></person-group>, 
+<article-title>Impact of the centennial changes in ENSO on the rise of the Chinese Qing empire</article-title>. <source>NPJ Clim. Atmos. Sci.</source>
+<volume>8</volume>, 
+<fpage>61</fpage> (<year>2025</year>).</mixed-citation></ref><ref id="R16"><label>16</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Q.</given-names>
+<surname>Ge</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>Population pressure, climate change and Taiping Rebellion</article-title>. <source>Geogr. Res.</source>
+<volume>14</volume>, 
+<fpage>32</fpage>–<lpage>41</lpage> (<year>1995</year>).</mixed-citation></ref><ref id="R17"><label>17</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>Jiang</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Qiang</surname></string-name>, <string-name name-style="western"><given-names>H. F.</given-names>
+<surname>Lee</surname></string-name></person-group>, 
+<article-title>Exploring the spatial interplay between hydro-climatic extremes and armed conflicts in history</article-title>. <source>NPJ Herit. Sci.</source>
+<volume>13</volume>, 
+<fpage>209</fpage> (<year>2025</year>).</mixed-citation></ref><ref id="R18"><label>18</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>W.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Furtado</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Zhou</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Chadwick</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Marzin</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Rostron</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Sexton</surname></string-name></person-group>, 
+<article-title>Increasing precipitation variability on daily-to-multiyear time scales in a warmer world</article-title>. <source>Sci. Adv.</source>
+<volume>7</volume>, 
+<fpage>eabf8021</fpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34321203</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/sciadv.abf8021</pub-id><pub-id pub-id-type="pmcid">PMC8318378</pub-id></mixed-citation></ref><ref id="R19"><label>19</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>W.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Zhou</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Wu</surname></string-name></person-group>, 
+<article-title>Anthropogenic amplification of precipitation variability over the past century</article-title>. <source>Science</source>
+<volume>385</volume>, 
+<fpage>427</fpage>–<lpage>432</lpage> (<year>2024</year>).<pub-id pub-id-type="pmid">39052805</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.adp0212</pub-id></mixed-citation></ref><ref id="R20"><label>20</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>N.</given-names>
+<surname>He</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Yin</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Fu</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Moulds</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Volchak</surname></string-name></person-group>, 
+<article-title>Global increases in dry-wet abrupt alternation events under climate change</article-title>. <source>Geophys. Res. Lett.</source>
+<volume>52</volume>, 
+<fpage>e2025GL117322</fpage> (<year>2025</year>).</mixed-citation></ref><ref id="R21"><label>21</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>K. R.</given-names>
+<surname>Johnson</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Hu</surname></string-name>, <string-name name-style="western"><given-names>N. S.</given-names>
+<surname>Belshaw</surname></string-name>, <string-name name-style="western"><given-names>G. M.</given-names>
+<surname>Henderson</surname></string-name></person-group>, 
+<article-title>Seasonal trace-element and stable-isotope variations in a Chinese speleothem: The potential for high-resolution paleomonsoon reconstruction</article-title>. <source>Earth Planet. Sci. Lett.</source>
+<volume>244</volume>, 
+<fpage>394</fpage>–<lpage>407</lpage> (<year>2006</year>).</mixed-citation></ref><ref id="R22"><label>22</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M.</given-names>
+<surname>Ji</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Shen</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Chen</surname></string-name></person-group>, 
+<article-title>Biomass burning patterns around Lake Xingyun during the last 137 years based on a high-resolution analysis of macroscopic char coal of lake sediment</article-title>. <source>Quat. Sci.</source>
+<volume>38</volume>, 
+<fpage>963</fpage>–<lpage>970</lpage> (<year>2018</year>).</mixed-citation></ref><ref id="R23"><label>23</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>Huang</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Lu</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>He</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Shang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Bai</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Yu</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Huang</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Zhu</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Yang</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Zhao</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Yu</surname></string-name></person-group>, 
+<article-title>Anthropogenic-driven alterations in black carbon sequestration and the structure in a deep plateau lake</article-title>. <source>Environ. Sci. Technol.</source>
+<volume>55</volume>, 
+<fpage>6467</fpage>–<lpage>6475</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">33886307</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.est.1c00106</pub-id></mixed-citation></ref><ref id="R24"><label>24</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C. H.</given-names>
+<surname>Hendy</surname></string-name></person-group>, 
+<article-title>The isotopic geochemistry of speleothems-I. The calculation of the effects of different modes of formation on the isotopic composition of speleothems and their applicability as palaeoclimatic indicators</article-title>. <source>Geochim. Cosmochim. Acta</source>
+<volume>35</volume>, 
+<fpage>801</fpage>–<lpage>824</lpage> (<year>1971</year>).</mixed-citation></ref><ref id="R25"><label>25</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J. A.</given-names>
+<surname>Dorale</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Liu</surname></string-name></person-group>, 
+<article-title>Limitations of Hendy test criteria in judging the paleoclimatic suitability of speleothems and the need for replication</article-title>. <source>J. Cave Karst Stud.</source>
+<volume>71</volume>, 
+<fpage>73</fpage>–<lpage>80</lpage> (<year>2009</year>).</mixed-citation></ref><ref id="R26"><label>26</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>B. L.</given-names>
+<surname>Otto-Bliesner</surname></string-name>, <string-name name-style="western"><given-names>E. C.</given-names>
+<surname>Brady</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Fasullo</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Jahn</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Landrum</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Stevenson</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Rosenbloom</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Mai</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Strand</surname></string-name></person-group>, 
+<article-title>Climate variability and change since 850 CE: An ensemble approach with the community Earth system model</article-title>. <source>Bull. Am. Meteorol. Soc.</source>
+<volume>97</volume>, 
+<fpage>735</fpage>–<lpage>754</lpage> (<year>2016</year>).</mixed-citation></ref><ref id="R27"><label>27</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>S.</given-names>
+<surname>Stevenson</surname></string-name>, <string-name name-style="western"><given-names>B. L.</given-names>
+<surname>Otto-Bliesner</surname></string-name>, <string-name name-style="western"><given-names>E. C.</given-names>
+<surname>Brady</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Nusbaumer</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Tabor</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Tomas</surname></string-name>, <string-name name-style="western"><given-names>D. C.</given-names>
+<surname>Noone</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Liu</surname></string-name></person-group>, 
+<article-title>Volcanic eruption signatures in the isotope-enabled Last Millennium Ensemble</article-title>. <source>Paleoceanogr. Paleoclimatol.</source>
+<volume>34</volume>, 
+<fpage>1534</fpage>–<lpage>1552</lpage> (<year>2019</year>).</mixed-citation></ref><ref id="R28"><label>28</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Sinha</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Spötl</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Yi</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Chen</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Kelly</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Kathayat</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Kong</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ning</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Zhang</surname></string-name></person-group>, 
+<article-title>The Asian monsoon over the past 640,000 years and ice age terminations</article-title>. <source>Nature</source>
+<volume>534</volume>, 
+<fpage>640</fpage>–<lpage>646</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27357793</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature18591</pub-id></mixed-citation></ref><ref id="R29"><label>29</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liang</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Zhao</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Shao</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Zhao</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Kong</surname></string-name></person-group>, 
+<article-title>East Asian monsoon changes early in the last deglaciation and insights into the interpretation of oxygen isotope changes in the Chinese stalagmite record</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>250</volume>, 
+<fpage>106699</fpage> (<year>2020</year>).</mixed-citation></ref><ref id="R30"><label>30</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>An</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Shen</surname></string-name>, <string-name name-style="western"><given-names>J. A.</given-names>
+<surname>Dorale</surname></string-name></person-group>, 
+<article-title>A high-resolution absolute-dated late Pleistocene monsoon record from Hulu Cave, China</article-title>. <source>Science</source>
+<volume>294</volume>, 
+<fpage>2345</fpage>–<lpage>2348</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11743199</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1064618</pub-id></mixed-citation></ref><ref id="R31"><label>31</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D.</given-names>
+<surname>Yuan</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>C. A.</given-names>
+<surname>Dykoski</surname></string-name>, <string-name name-style="western"><given-names>M. J.</given-names>
+<surname>Kelly</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Qing</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Lin</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>J. A.</given-names>
+<surname>Dorale</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>An</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Cai</surname></string-name></person-group>, 
+<article-title>Timing, duration, and transitions of the last interglacial asian monsoon</article-title>. <source>Science</source>
+<volume>304</volume>, 
+<fpage>575</fpage>–<lpage>578</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15105497</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1091220</pub-id></mixed-citation></ref><ref id="R32"><label>32</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>K.</given-names>
+<surname>Zhao</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Kong</surname></string-name></person-group>, 
+<article-title>A high-resolved record of the Asian Summer Monsoon from Dongge Cave, China for the past 1200 years</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>122</volume>, 
+<fpage>250</fpage>–<lpage>257</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R33"><label>33</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Hu</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Xie</surname></string-name>, <string-name name-style="western"><given-names>K. R.</given-names>
+<surname>Johnson</surname></string-name></person-group>, 
+<article-title>Precipitation in eastern China over the past millennium varied with large-scale climate patterns</article-title>. <source>Commun. Earth Environ.</source>
+<volume>3</volume>, 
+<fpage>321</fpage> (<year>2022</year>).</mixed-citation></ref><ref id="R34"><label>34</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>F. S. R.</given-names>
+<surname>Pausata</surname></string-name>, <string-name name-style="western"><given-names>D. S.</given-names>
+<surname>Battisti</surname></string-name>, <string-name name-style="western"><given-names>K. H.</given-names>
+<surname>Nisancioglu</surname></string-name>, <string-name name-style="western"><given-names>C. M.</given-names>
+<surname>Bitz</surname></string-name></person-group>, 
+<article-title>Chinese stalagmite δ<sup>18</sup>O controlled by changes in the Indian monsoon during a simulated Heinrich event</article-title>. <source>Nat. Geosci.</source>
+<volume>4</volume>, 
+<fpage>474</fpage>–<lpage>480</lpage> (<year>2011</year>).</mixed-citation></ref><ref id="R35"><label>35</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>G.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>H. W.</given-names>
+<surname>Chiang</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Yuan</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Chawchai</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>He</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Lu</surname></string-name>, <string-name name-style="western"><given-names>L. T.</given-names>
+<surname>Aung</surname></string-name>, <string-name name-style="western"><given-names>P. M.</given-names>
+<surname>Maung</surname></string-name>, <string-name name-style="western"><given-names>W. N.</given-names>
+<surname>Tun</surname></string-name>, <string-name name-style="western"><given-names>K. M.</given-names>
+<surname>Oo</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>On the glacial-interglacial variability of the Asian monsoon in speleothem δ<sup>18</sup>O records</article-title>. <source>Sci. Adv.</source>
+<volume>6</volume>, 
+<fpage>eaay8189</fpage> (<year>2020</year>).<pub-id pub-id-type="pmid">32095532</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/sciadv.aay8189</pub-id><pub-id pub-id-type="pmcid">PMC7015693</pub-id></mixed-citation></ref><ref id="R36"><label>36</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Wen</surname></string-name>, <string-name name-style="western"><given-names>E. C.</given-names>
+<surname>Brady</surname></string-name>, <string-name name-style="western"><given-names>B. L.</given-names>
+<surname>Otto-Bliesner</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Yu</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Lu</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Zheng</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ding</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Yang</surname></string-name></person-group>, 
+<article-title>Chinese cave records and the East Asia Summer Monsoon</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>83</volume>, 
+<fpage>115</fpage>–<lpage>128</lpage> (<year>2014</year>).</mixed-citation></ref><ref id="R37"><label>37</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>He</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>B. L.</given-names>
+<surname>Otto-Bliesner</surname></string-name>, <string-name name-style="western"><given-names>E. C.</given-names>
+<surname>Brady</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Zhu</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Tomas</surname></string-name>, <string-name name-style="western"><given-names>P. U.</given-names>
+<surname>Clark</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhu</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Jahn</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Gu</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Nusbaumer</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Noone</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Yan</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Bao</surname></string-name></person-group>, 
+<article-title>Hydroclimate footprint of pan-Asian monsoon water isotope during the last deglaciation</article-title>. <source>Sci. Adv.</source>
+<volume>7</volume>, 
+<fpage>eabe2611</fpage> (<year>2021</year>).<pub-id pub-id-type="pmid">33523950</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/sciadv.abe2611</pub-id><pub-id pub-id-type="pmcid">PMC10964958</pub-id></mixed-citation></ref><ref id="R38"><label>38</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ding</surname></string-name></person-group>, 
+<article-title>Analysis and numerical simulation of the teleconnection between Indian summer monsoon and precipitation in North China</article-title>. <source>Acta. Meteor. Sin.</source>
+<volume>66</volume>, 
+<fpage>789</fpage>–<lpage>799</lpage> (<year>2008</year>).</mixed-citation></ref><ref id="R39"><label>39</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>Qin</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Yang</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Bräuning</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Charpentier Ljungqvist</surname></string-name>, <string-name name-style="western"><given-names>T. J.</given-names>
+<surname>Osborn</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Shishov</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>He</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Kang</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Schneider</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Esper</surname></string-name>, <string-name name-style="western"><given-names>U.</given-names>
+<surname>Büntgen</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Grießinger</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Huang</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Talento</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Xoplaki</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Luterbacher</surname></string-name>, <string-name name-style="western"><given-names>N. C.</given-names>
+<surname>Stenseth</surname></string-name></person-group>, 
+<article-title>Persistent humid climate favored the Qin and Western Han Dynasties in China around 2,200 y ago</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>122</volume>, 
+<fpage>e2415294121</fpage> (<year>2025</year>).<pub-id pub-id-type="pmid">39715434</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.2415294121</pub-id><pub-id pub-id-type="pmcid">PMC11725930</pub-id></mixed-citation></ref><ref id="R40"><label>40</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M. K.</given-names>
+<surname>Roxy</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Ritika</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Terray</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Murtugudde</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Ashok</surname></string-name>, <string-name name-style="western"><given-names>B. N.</given-names>
+<surname>Goswami</surname></string-name></person-group>, 
+<article-title>Drying of Indian subcontinent by rapid Indian Ocean warming and a weakening land-sea thermal gradient</article-title>. <source>Nat. Commun.</source>
+<volume>6</volume>, 
+<fpage>7423</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26077934</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms8423</pub-id></mixed-citation></ref><ref id="R41"><label>41</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>T.</given-names>
+<surname>Zhou</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Qian</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Peng</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Ma</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Dong</surname></string-name></person-group>, 
+<article-title>The dynamic and thermodynamic processes dominating the reduction of global land monsoon precipitation driven by anthropogenic aerosols emission</article-title>. <source>Sci. China Earth Sci.</source>
+<volume>63</volume>, 
+<fpage>919</fpage>–<lpage>933</lpage> (<year>2020</year>).</mixed-citation></ref><ref id="R42"><label>42</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>H. E.</given-names>
+<surname>Ridley</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Asmerom</surname></string-name>, <string-name name-style="western"><given-names>J. U. L.</given-names>
+<surname>Baldini</surname></string-name>, <string-name name-style="western"><given-names>S. F. M.</given-names>
+<surname>Breitenbach</surname></string-name>, <string-name name-style="western"><given-names>V. V.</given-names>
+<surname>Aquino</surname></string-name>, <string-name name-style="western"><given-names>K. M.</given-names>
+<surname>Prufer</surname></string-name>, <string-name name-style="western"><given-names>B. J.</given-names>
+<surname>Culleton</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Polyak</surname></string-name>, <string-name name-style="western"><given-names>F. A.</given-names>
+<surname>Lechleitner</surname></string-name>, <string-name name-style="western"><given-names>D. J.</given-names>
+<surname>Kennett</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Marwan</surname></string-name>, <string-name name-style="western"><given-names>C. G.</given-names>
+<surname>Macpherson</surname></string-name>, <string-name name-style="western"><given-names>L. M.</given-names>
+<surname>Baldini</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Xiao</surname></string-name>, <string-name name-style="western"><given-names>J. L.</given-names>
+<surname>Peterkin</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Awe</surname></string-name>, <string-name name-style="western"><given-names>G. H.</given-names>
+<surname>Haug</surname></string-name></person-group>, 
+<article-title>Aerosol forcing of the position of the intertropical convergence zone since AD 1550</article-title>. <source>Nat. Geosci.</source>
+<volume>8</volume>, 
+<fpage>195</fpage>–<lpage>200</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R43"><label>43</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>Da</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Sun</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Ning</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Chen</surname></string-name></person-group>, 
+<article-title>Decadal variability in δ<sup>18</sup>O over the East Asian monsoon region responding to solar activity over the last millennium</article-title>. <source>Sci. China Earth Sci.</source>
+<volume>68</volume>, 
+<fpage>2853</fpage>–<lpage>2866</lpage> (<year>2025</year>).</mixed-citation></ref><ref id="R44"><label>44</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>G. A.</given-names>
+<surname>Meehl</surname></string-name>, <string-name name-style="western"><given-names>J. M.</given-names>
+<surname>Arblaster</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Matthes</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Sassi</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>van Loon</surname></string-name></person-group>, 
+<article-title>Amplifying the Pacific climate system response to a small 11-year solar cycle forcing</article-title>. <source>Science</source>
+<volume>325</volume>, 
+<fpage>1114</fpage>–<lpage>1118</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19713524</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1172872</pub-id></mixed-citation></ref><ref id="R45"><label>45</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>K. M.</given-names>
+<surname>Cobb</surname></string-name>, <string-name name-style="western"><given-names>C. D.</given-names>
+<surname>Charles</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name></person-group>, 
+<article-title>El Niño/Southern Oscillation and tropical Pacific climate during the last millennium</article-title>. <source>Nature</source>
+<volume>424</volume>, 
+<fpage>271</fpage>–<lpage>276</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12867972</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature01779</pub-id></mixed-citation></ref><ref id="R46"><label>46</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>S. C.</given-names>
+<surname>Sanchez</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Westphal</surname></string-name>, <string-name name-style="western"><given-names>G. H.</given-names>
+<surname>Haug</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Schneider</surname></string-name>, <string-name name-style="western"><given-names>K. M.</given-names>
+<surname>Cobb</surname></string-name>, <string-name name-style="western"><given-names>C. D.</given-names>
+<surname>Charles</surname></string-name></person-group>, 
+<article-title>A continuous record of central tropical pacific climate since the midnineteenth century reconstructed from fanning and palmyra island corals: A case study in coral data reanalysis</article-title>. <source>Paleoceanogr. Paleoclimatol.</source>
+<volume>35</volume>, 
+<fpage>e2020PA003848</fpage> (<year>2020</year>).</mixed-citation></ref><ref id="R47"><label>47</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Xie</surname></string-name>, <string-name name-style="western"><given-names>E. R.</given-names>
+<surname>Cook</surname></string-name>, <string-name name-style="western"><given-names>M. S.</given-names>
+<surname>Morales</surname></string-name>, <string-name name-style="western"><given-names>D. A.</given-names>
+<surname>Christie</surname></string-name>, <string-name name-style="western"><given-names>N. C.</given-names>
+<surname>Johnson</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Chen</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>D’Arrigo</surname></string-name>, <string-name name-style="western"><given-names>A. M.</given-names>
+<surname>Fowler</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Gou</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Fang</surname></string-name></person-group>, 
+<article-title>El Niño modulations over the past seven centuries</article-title>. <source>Nat. Clim. Change</source>
+<volume>3</volume>, 
+<fpage>822</fpage>–<lpage>826</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="R48"><label>48</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>R.</given-names>
+<surname>Muscheler</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Joos</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Beer</surname></string-name>, <string-name name-style="western"><given-names>S. A.</given-names>
+<surname>Müller</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Vonmoos</surname></string-name>, <string-name name-style="western"><given-names>I.</given-names>
+<surname>Snowball</surname></string-name></person-group>, 
+<article-title>Solar activity during the last 1000 yr inferred from radionuclide records</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>26</volume>, 
+<fpage>82</fpage>–<lpage>97</lpage> (<year>2007</year>).</mixed-citation></ref><ref id="R49"><label>49</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>E. R.</given-names>
+<surname>Thomas</surname></string-name>, <string-name name-style="western"><given-names>E. W.</given-names>
+<surname>Wolff</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Mulvaney</surname></string-name>, <string-name name-style="western"><given-names>J. P.</given-names>
+<surname>Steffensen</surname></string-name>, <string-name name-style="western"><given-names>S. J.</given-names>
+<surname>Johnsen</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Arrowsmith</surname></string-name>, <string-name name-style="western"><given-names>J. W. C.</given-names>
+<surname>White</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Vaughn</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Popp</surname></string-name></person-group>, 
+<article-title>The 8.2 kyr event from Greenland ice cores</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>26</volume>, 
+<fpage>70</fpage>–<lpage>81</lpage> (<year>2007</year>).</mixed-citation></ref><ref id="R50"><label>50</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Zhou</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>Extreme meteorological drought events over China (1951–2022): Migration pattern, diversity of temperature extremes, and decadal variations</article-title>. <source>Adv. Atmos. Sci.</source>
+<volume>41</volume>, 
+<fpage>2313</fpage>–<lpage>2336</lpage> (<year>2024</year>).</mixed-citation></ref><ref id="R51"><label>51</label><mixed-citation publication-type="book">Chinese Academy of Meteorological Sciences, <italic toggle="yes">Yearly Charts of Dryness/Wetness in China for the Last 500-Year Period</italic> (Sinomaps Press, 1981).</mixed-citation></ref><ref id="R52"><label>52</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Q.</given-names>
+<surname>Cai</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Xie</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Ren</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Sun</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Song</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Meng</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Chen</surname></string-name></person-group>, 
+<article-title>Tree-ring δ<sup>18</sup>O, a window into the summer hydroclimatic variations in the Central Water Tower of China</article-title>. <source>J. Hydrol.</source>
+<volume>664</volume>, 
+<fpage>134466</fpage> (<year>2026</year>).</mixed-citation></ref><ref id="R53"><label>53</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A.</given-names>
+<surname>Sinha</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Kathayat</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>S. F. M.</given-names>
+<surname>Breitenbach</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Berkelhammer</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Mudelsee</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Biswas</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name></person-group>, 
+<article-title>Trends and oscillations in the Indian summer monsoon rainfall over the last two millennia</article-title>. <source>Nat. Commun.</source>
+<volume>6</volume>, 
+<fpage>6309</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25686877</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms7309</pub-id></mixed-citation></ref><ref id="R54"><label>54</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>G.</given-names>
+<surname>Kathayat</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Sinha</surname></string-name>, <string-name name-style="western"><given-names>S. F. M.</given-names>
+<surname>Breitenbach</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Tan</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Spötl</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Dong</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ning</surname></string-name>, <string-name name-style="western"><given-names>R. J.</given-names>
+<surname>Allan</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Damodaran</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name></person-group>, 
+<article-title>Protracted Indian monsoon droughts of the past millennium and their societal impacts</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>119</volume>, 
+<fpage>e2207487119</fpage> (<year>2022</year>).<pub-id pub-id-type="pmid">36122235</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.2207487119</pub-id><pub-id pub-id-type="pmcid">PMC9522357</pub-id></mixed-citation></ref><ref id="R55"><label>55</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Asmerom</surname></string-name>, <string-name name-style="western"><given-names>V. J.</given-names>
+<surname>Polyak</surname></string-name>, <string-name name-style="western"><given-names>J. B. T.</given-names>
+<surname>Rasmussen</surname></string-name>, <string-name name-style="western"><given-names>S. J.</given-names>
+<surname>Burns</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Lachniet</surname></string-name></person-group>, 
+<article-title>Multidecadal to multicentury scale collapses of Northern Hemisphere monsoons over the past millennium</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>110</volume>, 
+<fpage>9651</fpage>–<lpage>9656</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23716648</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1214870110</pub-id><pub-id pub-id-type="pmcid">PMC3683710</pub-id></mixed-citation></ref><ref id="R56"><label>56</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>T. M.</given-names>
+<surname>Shanahan</surname></string-name>, <string-name name-style="western"><given-names>J. T.</given-names>
+<surname>Overpeck</surname></string-name>, <string-name name-style="western"><given-names>K. J.</given-names>
+<surname>Anchukaitis</surname></string-name>, <string-name name-style="western"><given-names>J. W.</given-names>
+<surname>Beck</surname></string-name>, <string-name name-style="western"><given-names>J. E.</given-names>
+<surname>Cole</surname></string-name>, <string-name name-style="western"><given-names>D. L.</given-names>
+<surname>Dettman</surname></string-name>, <string-name name-style="western"><given-names>J. A.</given-names>
+<surname>Peck</surname></string-name>, <string-name name-style="western"><given-names>C. A.</given-names>
+<surname>Scholz</surname></string-name>, <string-name name-style="western"><given-names>J. W.</given-names>
+<surname>King</surname></string-name></person-group>, 
+<article-title>Atlantic forcing of persistent drought in West Africa</article-title>. <source>Science</source>
+<volume>324</volume>, 
+<fpage>377</fpage>–<lpage>380</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19372429</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1166352</pub-id></mixed-citation></ref><ref id="R57"><label>57</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>G.</given-names>
+<surname>Bond</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Kromer</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Beer</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Muscheler</surname></string-name>, <string-name name-style="western"><given-names>M. N.</given-names>
+<surname>Evans</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Showers</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Hoffmann</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Lotti-Bond</surname></string-name>, <string-name name-style="western"><given-names>I.</given-names>
+<surname>Hajdas</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Bonani</surname></string-name></person-group>, 
+<article-title>Persistent solar influence on North Atlantic climate during the Holocene</article-title>. <source>Science</source>
+<volume>294</volume>, 
+<fpage>2130</fpage>–<lpage>2136</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11739949</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1065680</pub-id></mixed-citation></ref><ref id="R58"><label>58</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>L.</given-names>
+<surname>Caesar</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Rahmstorf</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Robinson</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Feulner</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Saba</surname></string-name></person-group>, 
+<article-title>Observed fingerprint of a weakening Atlantic Ocean overturning circulation</article-title>. <source>Nature</source>
+<volume>556</volume>, 
+<fpage>191</fpage>–<lpage>196</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29643485</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0006-5</pub-id></mixed-citation></ref><ref id="R59"><label>59</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>S.</given-names>
+<surname>Rahmstorf</surname></string-name>, <string-name name-style="western"><given-names>J. E.</given-names>
+<surname>Box</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Feulner</surname></string-name>, <string-name name-style="western"><given-names>M. E.</given-names>
+<surname>Mann</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Robinson</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Rutherford</surname></string-name>, <string-name name-style="western"><given-names>E. J.</given-names>
+<surname>Schaffernicht</surname></string-name></person-group>, 
+<article-title>Exceptional twentieth-century slowdown in Atlantic Ocean overturning circulation</article-title>. <source>Nat. Clim. Change</source>
+<volume>5</volume>, 
+<fpage>475</fpage>–<lpage>480</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R60"><label>60</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D. J. R.</given-names>
+<surname>Thornalley</surname></string-name>, <string-name name-style="western"><given-names>D. W.</given-names>
+<surname>Oppo</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Ortega</surname></string-name>, <string-name name-style="western"><given-names>J. I.</given-names>
+<surname>Robson</surname></string-name>, <string-name name-style="western"><given-names>C. M.</given-names>
+<surname>Brierley</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Davis</surname></string-name>, <string-name name-style="western"><given-names>I. R.</given-names>
+<surname>Hall</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Moffa-Sanchez</surname></string-name>, <string-name name-style="western"><given-names>N. L.</given-names>
+<surname>Rose</surname></string-name>, <string-name name-style="western"><given-names>P. T.</given-names>
+<surname>Spooner</surname></string-name>, <string-name name-style="western"><given-names>I.</given-names>
+<surname>Yashayaev</surname></string-name>, <string-name name-style="western"><given-names>L. D.</given-names>
+<surname>Keigwin</surname></string-name></person-group>, 
+<article-title>Anomalously weak Labrador Sea convection and Atlantic overturning during the past 150 years</article-title>. <source>Nature</source>
+<volume>556</volume>, 
+<fpage>227</fpage>–<lpage>230</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29643484</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0007-4</pub-id></mixed-citation></ref><ref id="R61"><label>61</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D.</given-names>
+<surname>Si</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ding</surname></string-name></person-group>, 
+<article-title>Oceanic forcings of the interdecadal variability in East Asian summer rainfall</article-title>. <source>J. Climate</source>
+<volume>29</volume>, 
+<fpage>7633</fpage>–<lpage>7649</lpage> (<year>2016</year>).</mixed-citation></ref><ref id="R62"><label>62</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>J. M.</given-names>
+<surname>Wallace</surname></string-name>, <string-name name-style="western"><given-names>D. S.</given-names>
+<surname>Battisti</surname></string-name></person-group>, 
+<article-title>ENSO-like interdecadal variability: 1900–93</article-title>. <source>J. Climate</source>
+<volume>10</volume>, 
+<fpage>1004</fpage>–<lpage>1020</lpage> (<year>1997</year>).</mixed-citation></ref><ref id="R63"><label>63</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M. E.</given-names>
+<surname>Mann</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Rutherford</surname></string-name>, <string-name name-style="western"><given-names>R. S.</given-names>
+<surname>Bradley</surname></string-name>, <string-name name-style="western"><given-names>M. K.</given-names>
+<surname>Hughes</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Shindell</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Ammann</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Faluvegi</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Ni</surname></string-name></person-group>, 
+<article-title>Global signatures and dynamical origins of the Little Ice Age and medieval climate anomaly</article-title>. <source>Science</source>
+<volume>326</volume>, 
+<fpage>1256</fpage>–<lpage>1260</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19965474</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1177303</pub-id></mixed-citation></ref><ref id="R64"><label>64</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D. B.</given-names>
+<surname>Enfield</surname></string-name>, <string-name name-style="western"><given-names>A. M.</given-names>
+<surname>Mestas-Nunez</surname></string-name>, <string-name name-style="western"><given-names>P. J.</given-names>
+<surname>Trimble</surname></string-name></person-group>, 
+<article-title>The Atlantic Multidecadal Oscillation and its relationship to rainfall and river flows in the continental U.S</article-title>. <source>Geophys. Res. Lett.</source>
+<volume>28</volume>, 
+<fpage>2077</fpage>–<lpage>2080</lpage> (<year>2001</year>).</mixed-citation></ref><ref id="R65"><label>65</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>F.</given-names>
+<surname>Lapointe</surname></string-name>, <string-name name-style="western"><given-names>R. S.</given-names>
+<surname>Bradley</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Francus</surname></string-name>, <string-name name-style="western"><given-names>N. L.</given-names>
+<surname>Balascio</surname></string-name>, <string-name name-style="western"><given-names>M. B.</given-names>
+<surname>Abbott</surname></string-name>, <string-name name-style="western"><given-names>J. S.</given-names>
+<surname>Stoner</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>St-Onge</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>De Coninck</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Labarre</surname></string-name></person-group>, 
+<article-title>Annually resolved Atlantic sea surface temperature variability over the past 2,900 y</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>117</volume>, 
+<fpage>27171</fpage>–<lpage>27178</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">33046633</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.2014166117</pub-id><pub-id pub-id-type="pmcid">PMC7959532</pub-id></mixed-citation></ref><ref id="R66"><label>66</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>H. F.</given-names>
+<surname>Lee</surname></string-name>, <string-name name-style="western"><given-names>D. D.</given-names>
+<surname>Zhang</surname></string-name></person-group>, 
+<article-title>A tale of two population crises in recent Chinese history</article-title>. <source>Clim. Change</source>
+<volume>116</volume>, 
+<fpage>285</fpage>–<lpage>308</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="R67"><label>67</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>H. F.</given-names>
+<surname>Lee</surname></string-name></person-group>, 
+<article-title>Climate-induced agricultural shrinkage and overpopulation in late imperial China</article-title>. <source>Climate Res.</source>
+<volume>59</volume>, 
+<fpage>229</fpage>–<lpage>242</lpage> (<year>2014</year>).</mixed-citation></ref><ref id="R68"><label>68</label><mixed-citation publication-type="book">W. Gao, <italic toggle="yes">The History of Natural Disasters in China</italic> (Seismological Press, 1997).</mixed-citation></ref><ref id="R69"><label>69</label><mixed-citation publication-type="book">W. Li, <italic toggle="yes">China’s Modern Agricultural History Materials (First Series)</italic> (SDX Joint Publishing Company, 1957).</mixed-citation></ref><ref id="R70"><label>70</label><mixed-citation publication-type="book">Q. Xie, W. Hu, <italic toggle="yes">Guang Xi Tong Zhi (Guangxi Province Gazetteer)</italic> (Guangxi People’s Publishing House, 1988).</mixed-citation></ref><ref id="R71"><label>71</label><mixed-citation publication-type="book">D. Li, C. Shi, <italic toggle="yes">Veritable Records of the Qing Dynasty in Daoguang Period</italic> (Zhonghua Book Company, 1985).</mixed-citation></ref><ref id="R72"><label>72</label><mixed-citation publication-type="book">Y. Guo, <italic toggle="yes">Historical Charts of the Taiping Rebellion</italic> (Sinomaps Press, 1988).</mixed-citation></ref><ref id="R73"><label>73</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A.</given-names>
+<surname>Feuerwerker</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Chiang</surname></string-name></person-group>, 
+<article-title>The nien rebellion</article-title>. <source>Harv. J. Asiat. Stud.</source>
+<volume>19</volume>, 
+<fpage>165</fpage>–<lpage>167</lpage> (<year>1956</year>).</mixed-citation></ref><ref id="R74"><label>74</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.</given-names>
+<surname>Wei</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Fang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Su</surname></string-name></person-group>, 
+<article-title>Climate change, fiscal balance and dynastical cycles in China over the past 2000 years</article-title>. <source>Quat. Sci.</source>
+<volume>40</volume>, 
+<fpage>1180</fpage>–<lpage>1192</lpage> (<year>2020</year>).</mixed-citation></ref><ref id="R75"><label>75</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Shen</surname></string-name>, <string-name name-style="western"><given-names>V. J.</given-names>
+<surname>Polyak</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Asmerom</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Woodhead</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Hellstrom</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Kong</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Spötl</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>E. C.</given-names>
+<surname>Alexander</surname>
+<suffix>Jr.</suffix></string-name></person-group>, 
+<article-title>Improvements in <sup>230</sup>Th dating, <sup>230</sup>Th and <sup>234</sup>U half-life values, and U–Th isotopic measurements by multi-collector inductively coupled plasma mass spectrometry</article-title>. <source>Earth Planet. Sci. Lett.</source>
+<volume>371</volume>, 
+<fpage>82</fpage>–<lpage>91</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="R76"><label>76</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D. A.</given-names>
+<surname>Richards</surname></string-name>, <string-name name-style="western"><given-names>J. A.</given-names>
+<surname>Dorale</surname></string-name></person-group>, 
+<article-title>Uranium-series chronology and environmental applications of speleothems</article-title>. <source>Rev. Mineral. Geochem.</source>
+<volume>52</volume>, 
+<fpage>407</fpage>–<lpage>460</lpage> (<year>2003</year>).</mixed-citation></ref><ref id="R77"><label>77</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J.</given-names>
+<surname>Hellstrom</surname></string-name></person-group>, 
+<article-title>U–Th dating of speleothems with high initial <sup>230</sup>Th using stratigraphical constraint</article-title>. <source>Quat. Geochronol.</source>
+<volume>1</volume>, 
+<fpage>289</fpage>–<lpage>295</lpage> (<year>2006</year>).</mixed-citation></ref><ref id="R78"><label>78</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M.</given-names>
+<surname>Baskaran</surname></string-name>, <string-name name-style="western"><given-names>T. M.</given-names>
+<surname>Iliffe</surname></string-name></person-group>, 
+<article-title>Age determination of recent cave deposits using excess <sup>210</sup>Pb–A new technique</article-title>. <source>Geophys. Res. Lett.</source>
+<volume>20</volume>, 
+<fpage>603</fpage>–<lpage>606</lpage> (<year>1993</year>).</mixed-citation></ref><ref id="R79"><label>79</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J. A.</given-names>
+<surname>Dorale</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Ito</surname></string-name>, <string-name name-style="western"><given-names>L. A.</given-names>
+<surname>González</surname></string-name></person-group>, 
+<article-title>Climate and vegetation history of the midcontinent from 75 to 25 ka: A speleothem record from Crevice Cave, Missouri, USA</article-title>. <source>Science</source>
+<volume>282</volume>, 
+<fpage>1871</fpage>–<lpage>1874</lpage> (<year>1998</year>).<pub-id pub-id-type="pmid">9836633</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.282.5395.1871</pub-id></mixed-citation></ref><ref id="R80"><label>80</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>F.</given-names>
+<surname>Mcdermott</surname></string-name></person-group>, 
+<article-title>Palaeo-climate reconstruction from stable isotope variations in speleothems: A review</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>23</volume>, 
+<fpage>901</fpage>–<lpage>918</lpage> (<year>2004</year>).</mixed-citation></ref><ref id="R81"><label>81</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>L.</given-names>
+<surname>Rong</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Du</surname></string-name></person-group>, 
+<article-title>Responses of δ<sup>13</sup>C values of plant leaves to environmental gradients along environmental gradient factors in rocky desertified area of a typical karst Gorge</article-title>. <source>Environ. Sci.</source>
+<volume>29</volume>, 
+<fpage>2885</fpage>–<lpage>2893</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">19143390</pub-id></mixed-citation></ref><ref id="R82"><label>82</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>X.</given-names>
+<surname>Du</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>Seasonal variations and responses to different rocky desertification degrees of foliar δ<sup>13</sup>C values of 5 local plant species in karst areas</article-title>. <source>Earth Environ.</source>
+<volume>38</volume>, 
+<fpage>129</fpage>–<lpage>137</lpage> (<year>2010</year>).</mixed-citation></ref><ref id="R83"><label>83</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>W.</given-names>
+<surname>Luo</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Xie</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Zhou</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Li</surname></string-name></person-group>, 
+<article-title>Stable carbon isotope variations in cave percolation waters and their implications in four caves of Guizhou, China</article-title>. <source>Acta Geol. Sin-Engl.</source>
+<volume>87</volume>, 
+<fpage>1396</fpage>–<lpage>1411</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="R84"><label>84</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>T.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Huang</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Tian</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Suarez</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Gao</surname></string-name></person-group>, 
+<article-title>Variation of δ<sup>13</sup>C in plant-soil-cave systems in karst regions with different degrees of rocky desertification in southwest China and implications for paleoenvironment reconstruction</article-title>. <source>J. Cave Karst Stud.</source>
+<volume>80</volume>, 
+<fpage>212</fpage>–<lpage>228</lpage> (<year>2018</year>).</mixed-citation></ref><ref id="R85"><label>85</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>F.</given-names>
+<surname>He</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Ge</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Dai</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Lin</surname></string-name></person-group>, 
+<article-title>Quantitative analysis on forest dynamics of China in recent 300 years</article-title>. <source>Acta Geogr. Sin.</source>
+<volume>62</volume>, 
+<fpage>30</fpage>–<lpage>40</lpage> (<year>2007</year>).</mixed-citation></ref><ref id="R86"><label>86</label><mixed-citation publication-type="book">Editorial Committee of Local Annals in Guizhou Province, <italic toggle="yes">Annals of Guizhou province • Annals of Industry and Economy.</italic> (Guizhou People’s Publishing House, 2003).</mixed-citation></ref><ref id="R87"><label>87</label><mixed-citation publication-type="thesis">L. Meng, “Black carbon burial in Chinese lakes: Characteristics, drivers, and carbon sink significance,” thesis, Nanjing Normal University, Nanjing (2025).</mixed-citation></ref><ref id="R88"><label>88</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>I. J.</given-names>
+<surname>Fairchild</surname></string-name>, <string-name name-style="western"><given-names>C. L.</given-names>
+<surname>Smith</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Baker</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Fuller</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Spötl</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Mattey</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>McDermott</surname></string-name></person-group>, 
+<article-title>Modification and preservation of environmental signals in speleothems</article-title>. <source>Earth Sci. Rev.</source>
+<volume>75</volume>, 
+<fpage>105</fpage>–<lpage>153</lpage> (<year>2006</year>).</mixed-citation></ref><ref id="R89"><label>89</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>I. J.</given-names>
+<surname>Fairchild</surname></string-name>, <string-name name-style="western"><given-names>P. C.</given-names>
+<surname>Treble</surname></string-name></person-group>, 
+<article-title>Trace elements in speleothems as recorders of environmental change</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>28</volume>, 
+<fpage>449</fpage>–<lpage>468</lpage> (<year>2009</year>).</mixed-citation></ref><ref id="R90"><label>90</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D. J.</given-names>
+<surname>Sinclair</surname></string-name>, <string-name name-style="western"><given-names>J. L.</given-names>
+<surname>Banner</surname></string-name>, <string-name name-style="western"><given-names>F. W.</given-names>
+<surname>Taylor</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Partin</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Jenson</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Mylroie</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Goddard</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Quinn</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Jocson</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Miklavič</surname></string-name></person-group>, 
+<article-title>Magnesium and strontium systematics in tropical speleothems from the Western Pacific</article-title>. <source>Chem. Geol.</source>
+<volume>294-295</volume>, 
+<fpage>1</fpage>–<lpage>17</lpage> (<year>2012</year>).</mixed-citation></ref><ref id="R91"><label>91</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M. L.</given-names>
+<surname>Griffiths</surname></string-name>, <string-name name-style="western"><given-names>A. K.</given-names>
+<surname>Kimbrough</surname></string-name>, <string-name name-style="western"><given-names>M. K.</given-names>
+<surname>Gagan</surname></string-name>, <string-name name-style="western"><given-names>R. N.</given-names>
+<surname>Drysdale</surname></string-name>, <string-name name-style="western"><given-names>J. E.</given-names>
+<surname>Cole</surname></string-name>, <string-name name-style="western"><given-names>K. R.</given-names>
+<surname>Johnson</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhao</surname></string-name>, <string-name name-style="western"><given-names>B. I.</given-names>
+<surname>Cook</surname></string-name>, <string-name name-style="western"><given-names>J. C.</given-names>
+<surname>Hellstrom</surname></string-name>, <string-name name-style="western"><given-names>W. S.</given-names>
+<surname>Hantoro</surname></string-name></person-group>, 
+<article-title>Western Pacific hydroclimate linked to global climate variability over the past two millennia</article-title>. <source>Nat. Commun.</source>
+<volume>7</volume>, 
+<fpage>11719</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27271972</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms11719</pub-id><pub-id pub-id-type="pmcid">PMC4899856</pub-id></mixed-citation></ref><ref id="R92"><label>92</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>H.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>M. L.</given-names>
+<surname>Griffiths</surname></string-name>, <string-name name-style="western"><given-names>J. C. H.</given-names>
+<surname>Chiang</surname></string-name>, <string-name name-style="western"><given-names>W. W.</given-names>
+<surname>Kong</surname></string-name>, <string-name name-style="western"><given-names>S. T.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Atwood</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Huang</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Ning</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Xie</surname></string-name></person-group>, 
+<article-title>East Asian hydroclimate modulated by the position of the westerlies during Termination I</article-title>. <source>Science</source>
+<volume>362</volume>, 
+<fpage>580</fpage>–<lpage>583</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30385577</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aat9393</pub-id></mixed-citation></ref><ref id="R93"><label>93</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>E.</given-names>
+<surname>Kalnay</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Kanamitsu</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Kistler</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Collins</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Deaven</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Gandin</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Iredell</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Saha</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>White</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Woollen</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Zhu</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Leetmaa</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Reynolds</surname></string-name></person-group>, 
+<article-title>The NCEP/NCAR 40-year reanalysis project</article-title>. <source>Bull. Am. Meteorol. Soc.</source>
+<volume>77</volume>, 
+<fpage>437</fpage>–<lpage>471</lpage> (<year>1996</year>).</mixed-citation></ref><ref id="R94"><label>94</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J. B.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>J. H.</given-names>
+<surname>Chen</surname></string-name>, <string-name name-style="western"><given-names>X. J.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>Z. G.</given-names>
+<surname>Rao</surname></string-name>, <string-name name-style="western"><given-names>F. H.</given-names>
+<surname>Chen</surname></string-name></person-group>, 
+<article-title>Holocene East Asian summer monsoon records in northern China and their inconsistency with Chinese stalagmite δ<sup>18</sup>O records</article-title>. <source>Earth Sci. Rev.</source>
+<volume>148</volume>, 
+<fpage>194</fpage>–<lpage>208</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R95"><label>95</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>R. R.</given-names>
+<surname>Draxler</surname></string-name>, <string-name name-style="western"><given-names>G. D.</given-names>
+<surname>Hess</surname></string-name></person-group>, 
+<article-title>An overview of the HYSPLIT_4 modelling system for trajectories</article-title>. <source>Aust. Met. Mag.</source>
+<volume>47</volume>, 
+<fpage>295</fpage>–<lpage>308</lpage> (<year>1998</year>).</mixed-citation></ref><ref id="R96"><label>96</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A.</given-names>
+<surname>Baker</surname></string-name>, <string-name name-style="western"><given-names>C. L.</given-names>
+<surname>Smith</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Jex</surname></string-name>, <string-name name-style="western"><given-names>I. J.</given-names>
+<surname>Fairchild</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Genty</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Fuller</surname></string-name></person-group>, 
+<article-title>Annually laminated speleothems: A review</article-title>. <source>Int. J. Speleol.</source>
+<volume>37</volume>, 
+<fpage>193</fpage>–<lpage>206</lpage> (<year>2008</year>).</mixed-citation></ref><ref id="R97"><label>97</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M.</given-names>
+<surname>Mudelsee</surname></string-name></person-group>, 
+<article-title>Estimating Pearson’s correlation coefficient with bootstrap confidence interval from serially dependent time series</article-title>. <source>Math. Geol.</source>
+<volume>35</volume>, 
+<fpage>651</fpage>–<lpage>665</lpage> (<year>2003</year>).</mixed-citation></ref><ref id="R98"><label>98</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>R.</given-names>
+<surname>Wilson</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Anchukaitis</surname></string-name>, <string-name name-style="western"><given-names>K. R.</given-names>
+<surname>Briffa</surname></string-name>, <string-name name-style="western"><given-names>U.</given-names>
+<surname>Büntgen</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Cook</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>D’Arrigo</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Davi</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Esper</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Frank</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Gunnarson</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Hegerl</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Helama</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Klesse</surname></string-name>, <string-name name-style="western"><given-names>P. J.</given-names>
+<surname>Krusic</surname></string-name>, <string-name name-style="western"><given-names>H. W.</given-names>
+<surname>Linderholm</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Myglan</surname></string-name>, <string-name name-style="western"><given-names>T. J.</given-names>
+<surname>Osborn</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Rydval</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Schneider</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Schurer</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Wiles</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Zorita</surname></string-name></person-group>, 
+<article-title>Last millennium northern hemisphere summer temperatures from tree rings: Part I: The long term context</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>134</volume>, 
+<fpage>1</fpage>–<lpage>18</lpage> (<year>2016</year>).</mixed-citation></ref><ref id="R99"><label>99</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Q.</given-names>
+<surname>Ge</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Hao</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Zheng</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Shao</surname></string-name></person-group>, 
+<article-title>Temperature changes over the past 2000 yr in China and comparison with the Northern Hemisphere</article-title>. <source>Clim. Past</source>
+<volume>9</volume>, 
+<fpage>1153</fpage>–<lpage>1160</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="R100"><label>100</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M. E.</given-names>
+<surname>Mann</surname></string-name>, <string-name name-style="western"><given-names>M. A.</given-names>
+<surname>Cane</surname></string-name>, <string-name name-style="western"><given-names>S. E.</given-names>
+<surname>Zebiak</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Clement</surname></string-name></person-group>, 
+<article-title>Volcanic and solar forcing of the tropical pacific over the past 1000 years</article-title>. <source>J. Climate</source>
+<volume>18</volume>, 
+<fpage>417</fpage>–<lpage>456</lpage> (<year>2005</year>).</mixed-citation></ref><ref id="R101"><label>101</label><mixed-citation publication-type="book">I. J. Fairchild, A. Baker, <italic toggle="yes">Speleothem Science: From Process to Past Environments</italic> (John Wiley &amp; Sons, 2012).</mixed-citation></ref><ref id="R102"><label>102</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Huang</surname></string-name>, <string-name name-style="western"><given-names>I. J.</given-names>
+<surname>Fairchild</surname></string-name></person-group>, 
+<article-title>Partitioning of Sr<sup>2+</sup> and Mg<sup>2+</sup> into calcite under karst-analogue experimental conditions</article-title>. <source>Geochim. Cosmochim. Acta</source>
+<volume>65</volume>, 
+<fpage>47</fpage>–<lpage>62</lpage> (<year>2001</year>).</mixed-citation></ref><ref id="R103"><label>103</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A. H.</given-names>
+<surname>Jaffey</surname></string-name>, <string-name name-style="western"><given-names>K. F.</given-names>
+<surname>Flynn</surname></string-name>, <string-name name-style="western"><given-names>L. E.</given-names>
+<surname>Glendenin</surname></string-name>, <string-name name-style="western"><given-names>W. C.</given-names>
+<surname>Bentley</surname></string-name>, <string-name name-style="western"><given-names>A. M.</given-names>
+<surname>Essling</surname></string-name></person-group>, 
+<article-title>Precision measurement of half-lives and specific activities of <sup>235</sup>U and <sup>238</sup>U</article-title>. <source>Phys. Rev. C</source>
+<volume>4</volume>, 
+<fpage>1889</fpage>–<lpage>1906</lpage> (<year>1971</year>).</mixed-citation></ref><ref id="R104"><label>104</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Huang</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Long</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Peng</surname></string-name></person-group>, 
+<article-title>On the trend, detrending, and variability of nonlinear and nonstationary time series</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>104</volume>, 
+<fpage>14889</fpage>–<lpage>14894</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17846430</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0701020104</pub-id><pub-id pub-id-type="pmcid">PMC1986583</pub-id></mixed-citation></ref></ref-list></back></article>

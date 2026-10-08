@@ -1,0 +1,12 @@
+{
+  "query": "AMOC",
+  "pygetpapers_command": "pygetpapers -q AMOC -k 100 -o /Users/pm286/temp/amoc/pygetpapers --api europe_pmc -x",
+  "pygetpapers_dir": "/Users/pm286/temp/amoc/pygetpapers",
+  "corpus_dir": "/Users/pm286/temp/amoc/corpus",
+  "review_json": "/Users/pm286/temp/amoc/corpus/analysis/review/review_table.json",
+  "wordlist_csv": "/Users/pm286/temp/amoc/wordlist.csv",
+  "encyclopedia_html": "",
+  "paper_count": 100,
+  "term_count": 300,
+  "stop_after": "wordlist"
+}

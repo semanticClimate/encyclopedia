@@ -1,0 +1,16 @@
+{
+  "title": "Connecting complex and simplified models of tipping elements: a nonlinear two-forcing emulator for the Atlantic meridional overturning circulation.",
+  "abstract": "<h4>Background</h4>Despite its far-reaching implications, accurately characterizing the tipping dynamics of the Atlantic Meridional Overturning Circulation (AMOC) remains a significant challenge. Complex models, including Earth System Models (ESMs) and Earth System Models of Intermediate Complexity (EMICs), offer valuable insights; however, they are computationally expensive and subject to substantial uncertainties in identifying AMOC tipping points. In contrast, simple conceptual models based on non-linear dynamics have been developed to represent tipping elements such as the AMOC. These models can be calibrated against complex models to explore various scenarios and forcing spaces, functioning as emulators. Traditionally, such emulators have focused on a single forcing variable, typically global mean temperature, despite the well-established influence of freshwater fluxes on AMOC dynamics. Moreover, existing two-forcing AMOC emulators lack robust calibration methods against complex models.<h4>Methods</h4>In this study, we develop and validate a two-forcing AMOC emulator that incorporates global mean temperature and freshwater flux, grounded in non-linear dynamics. The emulator is calibrated against the AMOC response within the EMIC cGENIE. After validation, the emulator is integrated into SURFER, a reduced-complexity climate model, enabling rapid simulation of AMOC trajectories under diverse emission scenarios.<h4>Results</h4>By considering Greenland Ice Sheet melt, the emulator captures two additional collapses and one overshoot without tipping trajectories for emission scenarios ranging from SSP3-7.0 to SSP5-8.5. Furthermore, the emulator allows the assessment of the critical forcing manifold of the AMOC in the complex model, enabling the identification of combined forcing thresholds for the AMOC and serving as a tool for comparing the sensitivities of complex models.<h4>Conclusions</h4>With its low computational cost and calibration accuracy, our tool represents a significant advancement in exploring AMOC dynamics in future climatic scenarios. Finally, the methodology used to develop this emulator is generalizable, providing a framework for studying other tipping elements in research.",
+  "doi": "10.12688/openreseurope.19479.1",
+  "pmcid": "PMC12612620",
+  "pmid": "41245468",
+  "authors": [
+    "Laridon A",
+    "Couplet V",
+    "Gérard J",
+    "Thiery W",
+    "Crucifix M"
+  ],
+  "publication_date": "2025-03-31",
+  "journal": "Open research Europe"
+}

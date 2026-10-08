@@ -1,0 +1,18 @@
+{
+  "title": "Structural insights into the catalytic mechanism of ammonia monooxygenase.",
+  "abstract": "Ammonia monooxygenase (AMO) oxidizes ammonia to hydroxylamine. Limited knowledge of the structural information of AMO hinders our understanding of the molecular mechanism underlying ammonia oxidation, impacting the mitigation of greenhouse gas emissions and enhancing agricultural productivity using ammonium as a nitrogen source. Herein, we report the cryo-electron microscopy structure of the AMO complex from an isolated strain of ammonia-oxidizing bacteria (AOB). AMO is a cylinder-shaped homotrimeric assembly composed of five subunits. A single-transmembrane protein and a soluble protein are potentially crucial in signal transduction during ammonia oxidation and mediating interactions with the outer membrane protein assembly machinery. Three modeled coppers, along with an adjacent water-mediated hydrogen-bond network, may facilitate an efficient proton transfer pathway from the periplasmic Cu<sub>B</sub> to the active site Cu<sub>D</sub> within the inner membrane, where Cu<sub>C</sub> and Cu<sub>D</sub> will act in concert to catalyze substrate reaction. The distinctive surface charge characteristics of AMO provide valuable insights into the structural features that govern ammonium assimilation and material transport during ammonia oxidation. These findings shed light on the molecular complexities of AMO and provides a structural foundation for elucidating the catalytic mechanism of ammonia oxidation.",
+  "doi": "10.1038/s41467-025-67194-6",
+  "pmcid": "PMC12804982",
+  "pmid": "41387732",
+  "authors": [
+    "Yang X",
+    "Li Z",
+    "Mao TQ",
+    "Ma C",
+    "Chen GH",
+    "Dong HP",
+    "Sui SF"
+  ],
+  "publication_date": "2025-12-12",
+  "journal": "Nature communications"
+}

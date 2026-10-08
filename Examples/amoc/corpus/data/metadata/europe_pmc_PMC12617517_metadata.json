@@ -1,0 +1,14 @@
+{
+  "title": "Meltwater from West Antarctic ice sheet tipping affects AMOC resilience.",
+  "abstract": "The Atlantic meridional overturning circulation (AMOC) and polar ice sheets are coupled tipping elements, allowing for potential cascading tipping events in which tipping is facilitated by their mutual interactions. However, while an AMOC destabilization driven by Greenland ice sheet (GIS) meltwater release is well documented, the consequences of a West Antarctic ice sheet (WAIS) tipping on the AMOC remain unclear. In the Earth system model of intermediate complexity CLIMBER-X, we perform experiments where meltwater fluxes representing plausible tipping trajectories of the GIS and WAIS are applied. We find that WAIS meltwater input can increase or decrease the AMOC resilience to GIS meltwater. Also, we find that it can completely prevent an AMOC collapse, confirming in a comprehensive model what was previously found in conceptual frameworks. Moreover, we find this stabilization to occur for ice sheet tipping trajectories that are relevant under high future greenhouse gas emission scenarios.",
+  "doi": "10.1126/sciadv.adw3852",
+  "pmcid": "PMC12617517",
+  "pmid": "41237239",
+  "authors": [
+    "Sinet S",
+    "von der Heydt AS",
+    "Dijkstra HA"
+  ],
+  "publication_date": "2025-11-14",
+  "journal": "Science advances"
+}

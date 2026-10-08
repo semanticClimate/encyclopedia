@@ -1,0 +1,25 @@
+{
+  "title": "The coupled reanalysis global meridional overturning circulation imprinted by historic volcanic eruptions.",
+  "abstract": "The global ocean meridional overturning circulation (GMOC) is central for ocean transport and climate variations. However, a comprehensive picture of its historical mean state and variability remains vague due to limitations in modelling and observing systems. Incorporating observations into models offers a viable approach to reconstructing climate history, yet achieving coherent estimates of GMOC has proven challenging due to difficulties in harmonizing ocean stratification. Here, we demonstrate that multiscale data assimilation that integrates atmospheric and oceanic observations into two coupled models in a dynamically consistent way robustly retrieves the past 80-year GMOC. By diagnosing volcanic eruption-induced North Atlantic cooling and surface buoyancy loss, we show historic volcanic eruption events are imprinted in variability of the rebuilt GMOC. The Mt. Pinatubo (1991) volcanic eruption produces a multidecadal characteristic of the overturning evolution by the chain of enhancing diapycnal mixing - strengthening deep convection - mediated by eddy activities.",
+  "doi": "10.1038/s41467-026-75651-z",
+  "pmcid": "PMC13490444",
+  "pmid": "42463681",
+  "authors": [
+    "Jiang Y",
+    "Zhang S",
+    "Gao Y",
+    "Wu L",
+    "Lu L",
+    "Lin Z",
+    "Cai W",
+    "Chen D",
+    "Leung LR",
+    "Wang B",
+    "Shen X",
+    "Li M",
+    "Yu X",
+    "Lin X"
+  ],
+  "publication_date": "2026-07-16",
+  "journal": "Nature communications"
+}

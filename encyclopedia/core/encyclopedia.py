@@ -30,6 +30,16 @@ from amilib.xml_lib import XmlLib
 logger = Util.get_logger(__name__)
 
 
+def _joined_disambiguation_history(entries) -> str:
+    """One short line covering every disambiguation choice in a merged entry."""
+    notes = []
+    for entry in entries:
+        note = str(entry.get("disambiguation_history") or "").strip()
+        if note and note not in notes:
+            notes.append(note)
+    return " ".join(notes)
+
+
 class AmiEncyclopedia:
     """Main encyclopedia class for managing entries and normalization"""
     
@@ -247,8 +257,11 @@ class AmiEncyclopedia:
             
             # Convert AmiEntry objects from entry_by_term to dictionary format
             self.entries = []
-            for ami_entry in self.dictionary.entry_by_term.values():
+            ami_entries = list(self.dictionary.entry_by_term.values())
+            entry_total = len(ami_entries)
+            for entry_index, ami_entry in enumerate(ami_entries, start=1):
                 term = ami_entry.get_term()
+                print(f"  Encyclopedia entry {entry_index}/{entry_total}: {term}", flush=True)
                 entry_element = ami_entry.element
                 
                 # Extract search_term from <p>search term: ...</p>
@@ -537,7 +550,7 @@ class AmiEncyclopedia:
         # Store for later use
         self.synonym_groups = synonym_groups
         return synonym_groups
-    
+
     def _merge_synonymous_entries(self) -> List[Dict]:
         """Merge synonymous entries with identical Wikidata IDs
         
@@ -570,13 +583,14 @@ class AmiEncyclopedia:
                         'canonical_term': entry.get('term', entry.get('search_term', '')),
                         'synonyms': [entry.get('term', entry.get('search_term', ''))],
                         'wikipedia_url': entry.get('wikipedia_url', ''),
-                        'page_title': entry.get('term', entry.get('search_term', '')),
+                        'page_title': entry.get('page_title') or entry.get('term', entry.get('search_term', '')),
                         'description_html': entry.get('description_html', ''),
                         'figure_html': entry.get('figure_html'),
                         'image_link': entry.get('image_link'),
                         'wikidata_category': wikidata_category,
                         'wikipedia_page_retrieved': entry.get('wikipedia_page_retrieved', False),
                         'first_paragraph_retrieved': entry.get('first_paragraph_retrieved', False),
+                        'disambiguation_history': entry.get('disambiguation_history', ''),
                         'entry_count': 1,
                         'source_entries': [entry]
                     })
@@ -596,8 +610,17 @@ class AmiEncyclopedia:
                 # Get Wikipedia URL from first entry
                 wikipedia_url = entries[0].get('wikipedia_url', '') if entries else ''
                 
-                # Get page title from Wikipedia URL
-                page_title = self._extract_page_title_from_url(wikipedia_url) if wikipedia_url else canonical_term
+                page_title = ""
+                for entry in entries:
+                    if entry.get("page_title"):
+                        page_title = entry.get("page_title")
+                        break
+                if not page_title:
+                    page_title = (
+                        self._extract_page_title_from_url(wikipedia_url)
+                        if wikipedia_url
+                        else canonical_term
+                    )
                 
                 # Get best description
                 best_description = self._get_best_description(entries)
@@ -644,6 +667,7 @@ class AmiEncyclopedia:
                 # Get diagnostic attributes (True if any entry has True)
                 wikipedia_page_retrieved = any(entry.get('wikipedia_page_retrieved', False) for entry in entries)
                 first_paragraph_retrieved = any(entry.get('first_paragraph_retrieved', False) for entry in entries)
+                disambiguation_history = _joined_disambiguation_history(entries)
                 
                 merged_entries.append({
                     'wikidata_id': wikidata_id,
@@ -657,6 +681,7 @@ class AmiEncyclopedia:
                     'wikidata_category': wikidata_category,
                     'wikipedia_page_retrieved': wikipedia_page_retrieved,
                     'first_paragraph_retrieved': first_paragraph_retrieved,
+                    'disambiguation_history': disambiguation_history,
                     'entry_count': len(entries),
                     'source_entries': entries
                 })
@@ -1152,6 +1177,9 @@ class AmiEncyclopedia:
             canonical_term = merged_entry.get('canonical_term', '')
             if canonical_term:
                 entry_div.attrib["term"] = canonical_term
+            page_title = merged_entry.get("page_title") or canonical_term
+            if page_title:
+                entry_div.attrib["title"] = page_title
             
             # Add Wikidata ID (primary identifier for merged entries)
             wikidata_id = merged_entry.get('wikidata_id', '')
@@ -1236,6 +1264,12 @@ class AmiEncyclopedia:
                     else:
                         synonym_li.text = synonym
             
+            history = merged_entry.get("disambiguation_history") or ""
+            if history:
+                history_p = ET.SubElement(entry_div, "p")
+                history_p.attrib["class"] = "disambiguation-history"
+                history_p.text = history
+
             # Add description with first sentence highlighted
             description_html = merged_entry.get('description_html', '')
             definition_html = merged_entry.get('definition_html', '')
@@ -1257,8 +1291,10 @@ class AmiEncyclopedia:
                             description_html = None
                     
                     if description_html:
+                        if "no-description" in (desc_elem.get("class") or ""):
+                            entry_div.append(desc_elem)
                         # If we have a definition, wrap first sentence in the paragraph
-                        if definition_html and desc_elem.tag == 'p':
+                        elif definition_html and desc_elem.tag == 'p':
                             # Parse the paragraph and wrap first sentence
                             para_text = desc_elem.text_content() if hasattr(desc_elem, 'text_content') else ''
                             

@@ -1,0 +1,18 @@
+{
+  "title": "Global climate impact of land-surface change driven by radiative effects.",
+  "abstract": "A robust proportionality between radiative forcing and global-mean temperature has been established for most climate drivers. However, land-surface changes are considered an exception due to their potential to alter surface hydrology, introducing non-radiative effects that may rival those from surface albedo changes. Here, comparing Earth-system-model simulations with large-scale perturbations of surface albedo and water availability, we find that the spatially integrated biophysical climate impact is similarly dominated by radiative processes and scales approximately linearly with the resulting shifts in planetary albedo, implying a  ~ 0.4 K surface temperature response per W m<sup>-2</sup> change in top-of-atmosphere net short-wave radiation. Thus, while non-radiative effects strongly influence local temperatures, their net contribution to the global-mean signal is negligible. The planetary-albedo response is primarily governed by regional cloud-cover characteristics, resulting in a substantially stronger temperature response to land-surface change in mid- and high-latitude regions than in the tropics and subtropics.",
+  "doi": "10.1038/s41467-026-77834-0",
+  "pmcid": "PMC13634050",
+  "pmid": "42829382",
+  "authors": [
+    "de Vrese P",
+    "Brovkin V",
+    "Günther M",
+    "Kang SM",
+    "Raddatz T",
+    "Thiery W",
+    "Yao Y"
+  ],
+  "publication_date": "2026-10-03",
+  "journal": "Nature communications"
+}

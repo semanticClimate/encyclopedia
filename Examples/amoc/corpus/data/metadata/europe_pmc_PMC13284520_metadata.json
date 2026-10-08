@@ -1,0 +1,15 @@
+{
+  "title": "A call for caution in the biological interpretation of viral auxiliary metabolic genes.",
+  "abstract": "Virus-encoded auxiliary metabolic genes (AMGs) are non-essential genes that increase viral fitness by maintaining or manipulating host metabolism during infection. AMGs are intriguing from an evolutionary perspective, as most viral genomes are highly compact and have limited coding capacity for accessory genes. Advances in viral (meta)genomics have expanded the detection of putative AMGs from viruses in diverse environments. However, this has also led to many instances of misannotation due to the limitations of annotation tools, resulting in misinterpretations about the roles of some viral genes. Here, we highlight studies that support claims about AMGs with more than just function predictions for guidance on best practices. We then propose the adoption of an expanded, inclusive view of all genes auxiliary to core viral functions with the term 'auxiliary viral genes' (AVGs), alongside an associated eco-evolutionary framework for considering the types of analyses that can better support claims made about AVGs.",
+  "doi": "10.1038/s41564-025-02095-4",
+  "pmcid": "PMC13284520",
+  "pmid": "40866482",
+  "authors": [
+    "Martin C",
+    "Emerson JB",
+    "Roux S",
+    "Anantharaman K"
+  ],
+  "publication_date": "2025-08-27",
+  "journal": "Nature microbiology"
+}

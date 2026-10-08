@@ -1,0 +1,22 @@
+{
+  "title": "Skillful multiyear prediction of flood frequency along the US Northeast Coast using a high-resolution modeling system.",
+  "abstract": "Using tide gauge (TG) observations, we identify pronounced multidecadal fluctuations in sea level along the US Northeast Coast (USNEC) superimposed on a long-term increasing trend. This multidecadal sea level variability, largely arising from fluctuations in the buoyancy-driven Atlantic meridional overturning circulation (AMOC), substantially modulates the frequency of flood occurrences along the USNEC and serves as a source of multiyear predictability. Using an initialized dynamical downscaling decadal prediction system with a <sup>1</sup>/<sub>12</sub>° ocean resolution, we demonstrate that flood frequency along the USNEC can be predicted on multiyear to decadal timescales. The long-term increasing trend in flood frequency, mainly driven by increasing greenhouse gases and associated radiative forcing changes, can be predicted a decade ahead. Furthermore, detrended flood frequency along the USNEC exhibits prediction skill for up to 3 years, as verified by TG observation. This multiyear prediction skill is achieved using prediction models that are initialized from our best estimate of observed AMOC.",
+  "doi": "10.1126/sciadv.ads4419",
+  "pmcid": "PMC12083515",
+  "pmid": "40378208",
+  "authors": [
+    "Zhang L",
+    "Delworth TL",
+    "Koul V",
+    "Ross A",
+    "Stock C",
+    "Yang X",
+    "Zeng F",
+    "Wittenberg A",
+    "Zhao J",
+    "Gu Q",
+    "Li S"
+  ],
+  "publication_date": "2025-05-16",
+  "journal": "Science advances"
+}

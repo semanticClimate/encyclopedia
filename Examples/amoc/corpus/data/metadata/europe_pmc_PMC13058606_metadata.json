@@ -1,0 +1,14 @@
+{
+  "title": "Ammonia monooxygenase: a work in progress.",
+  "abstract": "Ammonia monooxygenase (AMO) is a multimeric, multidomain integral membrane protein belonging to the copper membrane monooxygenase (CuMMO) family. It is responsible for the initiation of nitrification, the process by which certain bacteria and archaea oxidize ammonia (NH<sub>3</sub>) to nitrite (NO<sub>2</sub> <sup>-</sup>) as their primary metabolism. AMO is responsible for the selective conversion of NH<sub>3</sub> to hydroxylamine (NH<sub>2</sub>OH) using the green oxidant dioxygen (O<sub>2</sub>). While the archaeal AMO and bacterial AMO both produce NH<sub>2</sub>OH, the structure and genetic underpinnings of this chemical behavior vary significantly. Further, there are many Cu-binding sites in AMO, and consequently there has been substantial discussion regarding the nature of the Cu site or sites responsible for substrate activation. Overall, AMO has largely eluded direct study because active protein has only recently been purified due to difficulties in cultivation of the native organism and recalcitrance of the protein to recombinant expression. This review is intended to serve as a primer to AMO, yielding the necessary context to understand its importance.",
+  "doi": "10.1039/d6sc01048b",
+  "pmcid": "PMC13058606",
+  "pmid": "41958861",
+  "authors": [
+    "Arndt TC",
+    "Laughlin AL",
+    "Lancaster KM"
+  ],
+  "publication_date": "2026-04-08",
+  "journal": "Chemical science"
+}

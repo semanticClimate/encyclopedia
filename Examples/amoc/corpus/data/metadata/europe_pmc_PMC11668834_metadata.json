@@ -1,0 +1,19 @@
+{
+  "title": "Effects of macro vs. micro initialization and ocean initial-condition memory on the evolution of ensemble spread in the CESM2 large ensemble.",
+  "abstract": "\"Single Model initial-condition Large Ensembles\" (SMILEs) conducted with Earth system models have transformed our ability to quantify internal climate variability and forced climate change at local and regional scales. An important consideration in their experimental design is the choice of initialization procedure as this influences the duration of initial-condition memory, with implications for interpreting the temporal evolution of both the ensemble-mean and ensemble-spread. Here we leverage the strategic design of the 100-member Community Earth System Model version 2 (CESM2) SMILE to investigate the dependence of ensemble spread on the method of initialization (micro- vs. macro- perturbations) and the effects of ocean initial-condition memory. We find that the evolution of ensemble spread in 10-year low-pass filtered data is relatively insensitive to the method of initialization beyond the second decade, with the notable exception of the tropical Indo-Pacific in the 4th decade, when macro-initialization significantly enhances ensemble spread, possibly as a result of a state-dependent response to major volcanic activity. Initial-condition memory associated with the chosen Atlantic Meridional Overturning Circulation (AMOC) states unfolds in two stages: First, in the North Atlantic lasting 4-5 decades, and subsequently, in the Indo-Pacific sector of the Southern Ocean appearing 35-years after initialization and lasting 3-4 decades. Known AMOC dynamics explain the first stage, but the role of AMOC and the mechanisms responsible for the delayed appearance of initial-condition memory in the Southern Ocean remain to be fully elucidated. Implications and recommendations for the design of future SMILEs are provided.<h4>Supplementary information</h4>The online version contains supplementary material available at 10.1007/s00382-024-07553-z.",
+  "doi": "10.1007/s00382-024-07553-z",
+  "pmcid": "PMC11668834",
+  "pmid": "39726716",
+  "authors": [
+    "Deser C",
+    "Kim WM",
+    "Wills RCJ",
+    "Simpson IR",
+    "Yeager S",
+    "Danabasoglu G",
+    "Rodgers K",
+    "Rosenbloom N"
+  ],
+  "publication_date": "2024-12-24",
+  "journal": "Climate dynamics"
+}
