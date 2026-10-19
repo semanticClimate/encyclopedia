@@ -16,6 +16,7 @@ Date: 2025-03-05 (system date)
 from encyclopedia.utils.knowledge_graph.wikipedia_extractor import WikipediaLinkExtractor
 from encyclopedia.utils.knowledge_graph.wikidata_extractor import WikidataRelationshipExtractor
 from encyclopedia.utils.knowledge_graph.weight_calculator import EdgeWeightCalculator
+from encyclopedia.utils.knowledge_graph.entry_graph import build_unweighted_entry_graph
 from encyclopedia.utils.knowledge_graph.graph_builder import KnowledgeGraphBuilder
 from encyclopedia.utils.knowledge_graph.graph_exporter import GraphExporter
 
@@ -25,4 +26,5 @@ __all__ = [
     'EdgeWeightCalculator',
     'KnowledgeGraphBuilder',
     'GraphExporter',
+    'build_unweighted_entry_graph',
 ]
