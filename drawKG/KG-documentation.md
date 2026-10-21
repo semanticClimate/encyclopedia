@@ -1,5 +1,7 @@
 # build_semantic_kg.py
 
+## [Link to Colab notebook](https://colab.research.google.com/drive/1LR162sAcj1sasTjgwerg4gJ_h6kAlmNi?usp=sharing) 
+
 Builds an interactive knowledge graph from an **encyclopedia HTML** (list of terms with Wikipedia entries) and the **source papers** (plain text).
 
 Terms are linked by:
