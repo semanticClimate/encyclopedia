@@ -24,6 +24,46 @@ Terms are linked by:
 4. **Hover card.** Hovering a term shows its **description and figures from the encyclopedia**, together with its ID, mentions, papers, links and aliases. Hovering an ontology concept lists the terms that share it.
 5. **Edge direction.** Directed relations (`onto`, `hierarchy`, `abbrev`) are drawn with arrowheads (toggle in the filter panel) and stored as `source → target` in the CSV/JSON.
 
+### Wikipedia ontology
+
+**Question it answers:** What broader concepts are these scientific terms related to?
+
+**Basis for grouping:** The script examines Wikipedia links associated with each encyclopedia term. When multiple terms link to the same broader Wikipedia concept, that concept becomes an ontology node. The script then uses a greedy set-cover algorithm to assign terms to ontology groups.
+
+For example, imagine your climate encyclopedia contains these terms:
+- Marine heatwave
+- Sea surface temperature
+- Ocean warming
+
+If their Wikipedia entries link to a shared concept such as Ocean, that concept can help group the terms.
+
+### Source paper
+
+**Question it answers:** Which source paper discusses this term most frequently?
+
+**Basis for grouping:** The script searches the loaded full-text papers for encyclopedia terms and counts their mentions in each paper. A term is assigned to the paper in which it occurs most frequently.
+
+When two papers have the same mention count, the script chooses the first paper ID alphabetically. The paper groups help you identify the main source associated with each term.
+
+Ontology concept nodes inherit a group based on the most common group among their neighbouring terms.
+
+### Topic cluster
+
+**Question it answers:** Which terms are structurally related to one another in the knowledge graph?
+
+**Basis for grouping:** The script applies the Louvain community-detection algorithm to the connected graph, using edge weights to identify groups of nodes that are more strongly interconnected.
+
+The graph contains several types of relationships:
+- **Co-occurrence:** Terms appearing together in the same sentence or neighbouring sentences in the papers.
+- **Term hierarchy:** A more specific term contains a more general term, such as “marine heatwave threshold” and “marine heatwave.”
+- **Abbreviation:** A term and its expanded form, such as “sea surface temperature” and “SST.”
+- **Wikipedia links:** Links between encyclopedia terms based on Wikipedia article links.
+- **Ontology relationships:** Connections between terms and shared Wikipedia concept nodes.
+
+Louvain finds communities based on the structure and weights of these relationships, rather than relying on a predefined list of scientific topics.
+
+These grouping methods provide complementary perspectives on the same graph: conceptual organisation, literature provenance and network-based thematic structure. Colour changes affect visual interpretation only; they do not change the underlying nodes or relationships.
+
 ## Install
 
 ```
