@@ -87,7 +87,7 @@ Check the script's command-line help and expected CSV columns before preparing t
 Run the script from the directory containing it:
 
 ```bash
-python build_semantic_kg_counts_v2_generic.py \
+python build_semantic_kg.py \
   --input encyclopediaTest.html \
   --output output-result/semantic_KG_counts_v2.html
 ```
@@ -95,13 +95,13 @@ python build_semantic_kg_counts_v2_generic.py \
 On Windows PowerShell, the command can also be written on one line:
 
 ```powershell
-python build_semantic_kg_counts_v2_generic.py --input encyclopediaTest.html --output output-result/semantic_KG_counts_v2.html
+python build_semantic_kg.py --input encyclopediaTest.html --output output-result/semantic_KG_counts_v2.html
 ```
 
 With extracted text and source papers:
 
 ```bash
-python build_semantic_kg_counts_v2_generic.py \
+python build_semantic_kg.py \
   --input encyclopediaTest.html \
   --output output-result/semantic_KG_counts_v2.html \
   --text-dir text_all \
@@ -146,7 +146,7 @@ python build_semantic_kg_counts_v2_generic.py \
 For the full list of supported options and their exact defaults, run:
 
 ```bash
-python build_semantic_kg_counts_v2_generic.py --help
+python build_semantic_kg.py --help
 ```
 
 ## Relationship types
@@ -205,7 +205,7 @@ Open the generated HTML file in a modern web browser. Depending on the selected 
 
 ```text
 project/
-├── build_semantic_kg_counts_v2_generic.py
+├── build_semantic_kg.py
 ├── encyclopediaTest.html
 ├── text_all/
 │   └── extracted text files
@@ -251,20 +251,6 @@ Create it before running the command, or use an existing directory:
 New-Item -ItemType Directory -Force output-result
 ```
 
-## Reproducibility
 
-For reproducible results:
 
-1. Keep a copy of the input encyclopedia HTML.
-2. Record the text and paper corpus versions.
-3. Save the exact command and script version used.
-4. Retain the CSV and JSON outputs alongside the HTML graph.
-
-## Contributing
-
-Issues, bug reports, and improvements are welcome. Before submitting changes, please include a small reproducible input example and the command used to generate the result.
-
-## License
-
-Add the license used by this repository here. Do not assume a license until it has been selected for the project.
 
