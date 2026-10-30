@@ -20,7 +20,7 @@ Example (Google Colab):
       --papers-dir /content/marine
 
 In the generated graph: click a node to highlight only that term and its connections, and see the
-papers (with links to Europe PMC) and sentences where it is mentioned.
+papers (with links to Europe PMC) and supporting sentences where it appears. Node statistics distinguish total matched occurrences, sentences, and papers.
 
 Requires: beautifulsoup4 networkx pyvis pandas
 """
@@ -43,6 +43,7 @@ ap.add_argument("--papers-dir", "-p", default=None,
                 help="folder with the downloaded papers (pygetpapers output, e.g. /content/marine). Used to show each paper's "
                      "title, authors and year. Without it papers are listed by ID (PMC...) with a link to Europe PMC.")
 ap.add_argument("--merged-csv", default=None, help="optional merged keyphrase CSV; used with --add-merged-phrases")
+ap.add_argument("--aliases-csv", default=None, help="optional CSV of reviewed standalone terms and aliases; columns: action, canonical_label, alternative_label, wikipedia_url, description")
 ap.add_argument("--add-merged-phrases", action="store_true", help="also add phrases from --merged-csv that are not in the encyclopedia")
 ap.add_argument("--min-phrase-count", type=int, default=3, help="min count for --add-merged-phrases (default 3)")
 ap.add_argument("--edges-csv", default=None, help="edge list CSV (default: <output>_edges.csv)")
@@ -84,6 +85,7 @@ PAPERS_DIR = args.papers_dir
 OUT_PAPERS = _stem + "_papers.csv"
 OUT_JSON   = _stem + "_graph.json"
 MERGED_CSV = args.merged_csv
+ALIASES_CSV = args.aliases_csv
 
 USE_COOCCURRENCE  = not args.no_cooccurrence
 USE_HIERARCHY     = not args.no_hierarchy
@@ -204,8 +206,63 @@ if ADD_MERGED_PHRASES and MERGED_CSV and os.path.exists(MERGED_CSV):
     except Exception as e:
         print("Could not read merged.csv:", e)
 
+# ---------------- Optional reviewed term/alias configuration ----------------
+# CSV actions:
+#   add_node: add canonical_label as an independent graph node if not already present
+#   alias: map alternative_label to an existing canonical_label only if it does not
+#          collide with a different independently defined concept.
+# Aliases are never inferred automatically from every encyclopedia synonym list.
+alias_config_rows = []
+if ALIASES_CSV:
+    if not os.path.isfile(ALIASES_CSV):
+        sys.exit(f"Alias configuration file not found: {ALIASES_CSV}")
+    try:
+        alias_df = pd.read_csv(ALIASES_CSV, dtype=str, keep_default_na=False)
+        alias_df.columns = [str(c).strip().lower() for c in alias_df.columns]
+        required = {"action", "canonical_label"}
+        if not required.issubset(alias_df.columns):
+            sys.exit("Alias CSV must contain columns: action, canonical_label; optional: alternative_label, wikipedia_url, description")
+        existing_norms = {norm(t) for t in raw_terms}
+        for _, row in alias_df.iterrows():
+            action = str(row.get("action", "")).strip().lower()
+            canonical = str(row.get("canonical_label", "")).strip()
+            alternative = str(row.get("alternative_label", "")).strip()
+            wikipedia_url = str(row.get("wikipedia_url", "")).strip()
+            description = str(row.get("description", "")).strip()
+            if not canonical:
+                print("⚠️ Skipping alias CSV row with empty canonical_label")
+                continue
+            if action == "add_node":
+                key = norm(canonical)
+                if not key:
+                    print(f"⚠️ Skipping invalid standalone label: {canonical!r}")
+                    continue
+                if key not in existing_norms:
+                    raw_terms.append(canonical)
+                    wiki_url[canonical] = wikipedia_url
+                    entry_links[canonical] = set()
+                    is_disambig[canonical] = False
+                    entry_desc[canonical] = description
+                    entry_figs[canonical] = []
+                    existing_norms.add(key)
+                else:
+                    print(f"ℹ️ Standalone label already represented; not adding duplicate node: {canonical}")
+            elif action == "alias":
+                if not alternative:
+                    print(f"⚠️ Skipping alias row without alternative_label for {canonical!r}")
+                    continue
+                alias_config_rows.append((canonical, alternative))
+            else:
+                print(f"⚠️ Unknown alias CSV action {action!r}; use 'add_node' or 'alias'. Row skipped.")
+        print(f"Loaded alias configuration: {len(alias_config_rows)} alias mapping(s); standalone terms checked")
+    except SystemExit:
+        raise
+    except Exception as e:
+        sys.exit(f"Could not read alias configuration CSV: {e}")
+
 # Merge trivial variants (plural / case): 'Anomalies' + 'anomaly', 'marine heatwaves' + 'marine heatwave'
 vocab, display = {}, {}            # normalised tuple -> node id ; node id -> label
+aliases = {}                        # canonical node -> reviewed/abbreviation aliases
 groups = collections.defaultdict(list)
 for t in raw_terms:
     k = norm(t)
@@ -221,6 +278,34 @@ for k, variants in groups.items():
         is_disambig[label] = is_disambig.get(label, False) and is_disambig.get(v, False)
         if not entry_desc.get(label): entry_desc[label] = entry_desc.get(v, "")
         entry_figs[label] = entry_figs.get(label) or entry_figs.get(v, [])
+# Apply reviewed aliases after canonical nodes have been built.
+# A collision with another existing node is reported and left unresolved.
+if alias_config_rows:
+    aliases_applied = 0
+    aliases_skipped = 0
+    for canonical, alternative in alias_config_rows:
+        canonical_key, alternative_key = norm(canonical), norm(alternative)
+        if not canonical_key or not alternative_key:
+            print(f"⚠️ Skipping invalid alias mapping: {alternative!r} -> {canonical!r}")
+            aliases_skipped += 1
+            continue
+        canonical_node = vocab.get(canonical_key)
+        if canonical_node is None:
+            print(f"⚠️ Alias target is not an existing node; skipped: {alternative!r} -> {canonical!r}")
+            aliases_skipped += 1
+            continue
+        existing_node = vocab.get(alternative_key)
+        if existing_node is None:
+            vocab[alternative_key] = canonical_node
+            aliases.setdefault(canonical_node, set()).add(alternative)
+            aliases_applied += 1
+        elif existing_node == canonical_node:
+            print(f"ℹ️ Alias already resolves to its canonical node: {alternative!r} -> {canonical!r}")
+        else:
+            print(f"⚠️ Alias collision; kept both concepts separate: {alternative!r} already maps to {existing_node!r}, not {canonical_node!r}")
+            aliases_skipped += 1
+    print(f"Reviewed aliases applied: {aliases_applied}; skipped/conflicted: {aliases_skipped}")
+
 nodes = sorted(display)
 print(f"Terms in encyclopedia: {len(raw_terms)}  ->  {len(nodes)} nodes after merging plural/case variants")
 
@@ -288,7 +373,6 @@ def best_long_form(short, long_text):                 # Schwartz & Hearst (2003)
 
 ABBR_RE = re.compile(r"\(([A-Za-z][A-Za-z0-9\-]{1,9})\)")
 abbrev_pairs = collections.Counter()
-aliases = {}
 if USE_ABBREVIATIONS:
     for _, text in docs:
         flat = re.sub(r"\s+", " ", text)
@@ -313,49 +397,163 @@ if USE_ABBREVIATIONS:
 
 # ---------------- 4. Find terms in every sentence ----------------
 MAXN = max(len(k) for k in vocab)
-def find_terms(sentence):
+def find_term_occurrences(sentence):
+    """Return counts of matched term spans in one sentence (not just unique terms).
+
+    If two different vocabulary terms overlap in the text, both are counted when
+    each has a valid match. Repeated appearances of the same term are counted
+    separately.
+    """
     toks = [stem(w) for w in TOKEN_RE.findall(sentence)]
-    found = set()
+    found = collections.Counter()
     for i in range(len(toks)):
         for n in range(1, min(MAXN, len(toks) - i) + 1):
             node = vocab.get(tuple(toks[i:i + n]))
-            if node: found.add(node)
+            if node:
+                found[node] += 1
     return found
 
-freq, docfreq = collections.Counter(), collections.Counter()
-w_same, w_adj, evidence = collections.Counter(), collections.Counter(), {}
-term_paper = collections.defaultdict(collections.Counter)      # term -> {paper id: mentions}
+def find_terms(sentence):
+    """Return unique terms in a sentence for co-occurrence calculations."""
+    return set(find_term_occurrences(sentence))
+
+occurrence_freq = collections.Counter()  # total matched appearances across all papers
+
+sentence_freq = collections.Counter()
+docfreq = collections.Counter()
+
+w_same = collections.Counter()
+w_adj = collections.Counter()
+
+evidence_same = {}
+evidence_adj = {}
+
+# Provenance: supporting papers and evidence occurrence counts per term pair.
+evidence_papers_same = collections.defaultdict(set)
+evidence_papers_adj = collections.defaultdict(set)
+
+evidence_count_same = collections.Counter()
+evidence_count_adj = collections.Counter()
+
+term_paper = collections.defaultdict(collections.Counter)  # term -> {paper id: sentence count}
 snippet = {}                                                   # (term, paper id) -> first sentence
+
 if docs:
     for pid, text in docs:
         seen = set()
         for sents in paragraphs(text):
             prev = set()
+            prev_sentence = ""
+
             for s in sents:
-                cur = find_terms(s)
-                freq.update(cur); seen |= cur
+                occurrences = find_term_occurrences(s)
+                cur = set(occurrences)
+
+                occurrence_freq.update(occurrences)
+                sentence_freq.update(cur)
+                seen |= cur
+
                 for t in cur:
                     term_paper[t][pid] += 1
                     snippet.setdefault((t, pid), s)
-                for a, b in itertools.combinations(sorted(cur), 2):
-                    w_same[(a, b)] += 1
-                    evidence.setdefault((a, b), s)
+
+                # Direct evidence: both terms occur in the same sentence.
+                for a, b in itertools.combinations(sorted(cur), 2): 
+                    k = (a, b)
+                    w_same[k] += 1
+
+                    evidence_same.setdefault(k, s)
+                    evidence_papers_same[k].add(pid)
+                    evidence_count_same[k] += 1
+
+                # Contextual evidence: terms occur in adjacent sentences.
                 for a in cur:
                     for b in prev:
-                        if a != b and b not in cur and a not in prev:   # pair not already counted in one sentence
-                            w_adj[tuple(sorted((a, b)))] += 1
+                        if a != b and b not in cur and a not in prev:
+                            k = tuple(sorted((a, b)))
+                            w_adj[k] += 1
+
+                            evidence_papers_adj[k].add(pid)
+                            evidence_count_adj[k] += 1
+
+                            if k not in evidence_adj and prev_sentence:
+                                evidence_adj[k] = (
+                                    "[Adjacent-sentence context]\n"
+                                    f"Previous sentence: {prev_sentence}\n"
+                                    f"Current sentence: {s}"
+                                )
+
                 prev = cur
+                prev_sentence = s
+
         docfreq.update(seen)
 
 # ---------------- 5. Collect edges by layer ----------------
-edges = collections.defaultdict(lambda: {"types": set(), "weight": 0.0, "evidence": "", "dir": None})
+edges = collections.defaultdict(lambda: {
+    "types": set(),
+    "weight": 0.0,
+    "evidence": "",
+    "evidence_type": "",
+    "source_paper_ids": set(),
+    "evidence_count": 0,
+    "evidence_count_same_sentence": 0,
+    "evidence_count_adjacent_sentences": 0,
+    "source_paper_ids_same_sentence": set(),
+    "source_paper_ids_adjacent_sentences": set(),
+    "provenance_status": "unavailable",
+    "dir": None,
+})
 DIRECTED = {"hierarchy", "onto", "abbrev"}      # (source -> target) is meaningful for these relations
-def add_edge(a, b, typ, w=1.0, ev=""):
-    if a == b: return
+
+def add_edge(
+    a, b, typ, w=1.0, ev="", evidence_type="",
+    source_paper_ids=None, evidence_count=0,
+    evidence_count_same_sentence=0,
+    evidence_count_adjacent_sentences=0,
+    source_paper_ids_same_sentence=None,
+    source_paper_ids_adjacent_sentences=None,
+):
+    if a == b:
+        return
+
     k = tuple(sorted((a, b)))
-    e = edges[k]; e["types"].add(typ); e["weight"] += w
-    if ev and not e["evidence"]: e["evidence"] = ev
-    if typ in DIRECTED and e["dir"] is None: e["dir"] = (a, b)
+    e = edges[k]
+
+    e["types"].add(typ)
+    e["weight"] += w
+
+    if ev and not e["evidence"]:
+        e["evidence"] = ev
+
+    if evidence_type and not e["evidence_type"]:
+        e["evidence_type"] = evidence_type
+
+    if source_paper_ids:
+        e["source_paper_ids"].update(source_paper_ids)
+
+    e["evidence_count"] += evidence_count
+    e["evidence_count_same_sentence"] += evidence_count_same_sentence
+    e["evidence_count_adjacent_sentences"] += evidence_count_adjacent_sentences
+
+    if source_paper_ids_same_sentence:
+        e["source_paper_ids_same_sentence"].update(
+            source_paper_ids_same_sentence
+        )
+
+    if source_paper_ids_adjacent_sentences:
+        e["source_paper_ids_adjacent_sentences"].update(
+            source_paper_ids_adjacent_sentences
+        )
+
+    if e["evidence"] and e["source_paper_ids"]:
+        e["provenance_status"] = "traceable"
+    elif e["evidence"]:
+        e["provenance_status"] = "text_available_source_unknown"
+    else:
+        e["provenance_status"] = "unavailable"
+
+    if typ in DIRECTED and e["dir"] is None:
+        e["dir"] = (a, b)
 
 # 5a. co-occurrence, scored with the Dice coefficient so very common words don't connect to everything
 if USE_COOCCURRENCE:
@@ -363,7 +561,7 @@ if USE_COOCCURRENCE:
     for k in set(w_same) | set(w_adj):
         w = w_same[k] + 0.5 * w_adj[k]
         if w >= MIN_COOC:
-            pairs[k] = (2 * w / (freq[k[0]] + freq[k[1]]), w)
+            pairs[k] = (2 * w / (sentence_freq[k[0]] + sentence_freq[k[1]]), w)
     by_node = collections.defaultdict(list)
     for k, (dice, w) in pairs.items():
         by_node[k[0]].append((dice, k)); by_node[k[1]].append((dice, k))
@@ -371,8 +569,34 @@ if USE_COOCCURRENCE:
     for n, lst in by_node.items():
         keep.update(k for _, k in sorted(lst, reverse=True)[:TOP_K])
     for k in keep:
-        add_edge(*k, "cooc", pairs[k][1], evidence.get(k, ""))
+        # Prefer same-sentence evidence for the displayed representative snippet.
+        if evidence_same.get(k):
+            ev = evidence_same[k]
+            ev_type = "same_sentence"
+        else:
+            ev = evidence_adj.get(k, "")
+            ev_type = "adjacent_sentences" if ev else ""
 
+        paper_ids_same = evidence_papers_same.get(k, set())
+        paper_ids_adj = evidence_papers_adj.get(k, set())
+
+        count_same = evidence_count_same[k]
+        count_adj = evidence_count_adj[k]
+
+        add_edge(
+            *k,
+            "cooc",
+            pairs[k][1],
+            ev,
+            evidence_type=ev_type,
+            source_paper_ids=paper_ids_same | paper_ids_adj,
+            evidence_count=count_same + count_adj,
+            evidence_count_same_sentence=count_same,
+            evidence_count_adjacent_sentences=count_adj,
+            source_paper_ids_same_sentence=paper_ids_same,
+            source_paper_ids_adjacent_sentences=paper_ids_adj,
+        )
+            
 # 5b. hierarchy: a term that contains another term is a more specific version of it
 if USE_HIERARCHY:
     node_key = {}
@@ -437,7 +661,26 @@ G = nx.Graph()
 G.add_nodes_from(nodes)
 G.add_nodes_from(concept_label)
 for (a, b), e in edges.items():
-    G.add_edge(a, b, weight=e["weight"], types=sorted(e["types"]), evidence=e["evidence"], dir=e["dir"])
+    G.add_edge(
+        a,
+        b,
+        weight=e["weight"],
+        types=sorted(e["types"]),
+        evidence=e["evidence"],
+        dir=e["dir"],
+        evidence_type=e["evidence_type"],
+        source_paper_ids=sorted(e["source_paper_ids"]),
+        evidence_count=e["evidence_count"],
+        evidence_count_same_sentence=e["evidence_count_same_sentence"],
+        evidence_count_adjacent_sentences=e["evidence_count_adjacent_sentences"],
+        source_paper_ids_same_sentence=sorted(
+            e["source_paper_ids_same_sentence"]
+        ),
+        source_paper_ids_adjacent_sentences=sorted(
+            e["source_paper_ids_adjacent_sentences"]
+        ),
+        provenance_status=e["provenance_status"],
+    )
 connected = [n for n in G if G.degree(n) > 0]
 connected_terms = [n for n in connected if n in term_set]
 unconnected = sorted(term_set - set(connected))
@@ -462,7 +705,7 @@ for i, r in enumerate(edge_rows, 1):
 
 # ---------------- 6b. Papers ----------------
 paper_meta = {pid: load_meta(pid) for pid, _ in docs}
-paper_terms = collections.defaultdict(list)                   # paper -> [[node id, mentions]]
+paper_terms = collections.defaultdict(list)                   # paper -> [[node id, sentences containing term]]
 for t in connected_terms:
     for pid, c in term_paper[t].items(): paper_terms[pid].append([node_id[t], c])
 for pid in paper_terms: paper_terms[pid].sort(key=lambda x: -x[1])
@@ -512,7 +755,7 @@ for i, c in enumerate(comms):
     cluster_hub[f"cluster:{i}"] = max(c, key=lambda n: H.degree(n, weight="weight"))
     for n in c: cluster_assign[n] = f"cluster:{i}"
 
-# (ii) source paper: a term belongs to the paper that mentions it most (ties -> first paper ID)
+# (ii) source paper: assign by sentence count; ties -> lexicographically first paper ID
 primary_paper, paper_assign = {}, {}
 for t in connected_terms:
     if term_paper[t]: primary_paper[t] = min(term_paper[t].items(), key=lambda x: (-x[1], x[0]))[0]
@@ -555,7 +798,8 @@ def gname(mode, n):
 def node_row(n):
     is_c = n in concept_label
     return {"node_id": node_id[n], "label": label_of(n), "kind": "ontology_concept" if is_c else "term",
-            "mentions": 0 if is_c else freq[n], "papers": 0 if is_c else docfreq[n], "degree": G.degree(n),
+            "mentions": 0 if is_c else occurrence_freq[n], "occurrences": 0 if is_c else occurrence_freq[n],
+            "sentence_count": 0 if is_c else sentence_freq[n], "papers": 0 if is_c else docfreq[n], "degree": G.degree(n),
             "connected": G.degree(n) > 0, "wikipedia": concept_url[n] if is_c else wiki_url.get(n, ""),
             "ontology_group": gname("onto", n), "paper_group": gname("paper", n), "topic_cluster": gname("cluster", n),
             "primary_paper": primary_paper.get(n, ""),
@@ -563,9 +807,41 @@ def node_row(n):
             "paper_ids": "" if is_c else ";".join(p for p, _ in term_paper[n].most_common())}
 node_rows = [node_row(n) for n in sorted(nodes, key=str.lower)] + \
             [node_row(c) for c in sorted(concept_label, key=lambda c: concept_label[c].lower())]
-edge_table = [{"edge_id": r["id"], "source_id": node_id[r["src"]], "target_id": node_id[r["tgt"]],
-               "source": label_of(r["src"]), "target": label_of(r["tgt"]), "types": "+".join(r["d"]["types"]),
-               "relation": r["rel"], "weight": round(r["d"]["weight"], 3), "evidence": r["d"]["evidence"]} for r in edge_rows]
+
+edge_table = [
+    {
+        "edge_id": r["id"],
+        "source_id": node_id[r["src"]],
+        "target_id": node_id[r["tgt"]],
+        "source": label_of(r["src"]),
+        "target": label_of(r["tgt"]),
+        "types": "+".join(r["d"]["types"]),
+        "relation": r["rel"],
+        "weight": round(r["d"]["weight"], 3),
+        "evidence": r["d"]["evidence"],
+        "evidence_type": r["d"].get("evidence_type", ""),
+        "source_paper_ids": ";".join(
+            r["d"].get("source_paper_ids", [])
+        ),
+        "evidence_count": r["d"].get("evidence_count", 0),
+        "evidence_count_same_sentence": r["d"].get(
+            "evidence_count_same_sentence", 0
+        ),
+        "evidence_count_adjacent_sentences": r["d"].get(
+            "evidence_count_adjacent_sentences", 0
+        ),
+        "source_paper_ids_same_sentence": ";".join(
+            r["d"].get("source_paper_ids_same_sentence", [])
+        ),
+        "source_paper_ids_adjacent_sentences": ";".join(
+            r["d"].get("source_paper_ids_adjacent_sentences", [])
+        ),
+        "provenance_status": r["d"].get(
+            "provenance_status", "unavailable"
+        ),
+    }
+    for r in edge_rows
+]
 pd.DataFrame(edge_table).to_csv(OUT_EDGES, index=False)
 pd.DataFrame(node_rows).to_csv(OUT_NODES, index=False)
 pd.DataFrame([{"paper_id": pid, **m, "connected_terms": len(paper_terms[pid])} for pid, m in paper_meta.items()]).to_csv(OUT_PAPERS, index=False)
@@ -585,11 +861,12 @@ for n in connected:
         hover_js[node_id[n]] = {"k": "concept", "n": G.degree(n),
                                 "terms": sorted(label_of(x) for x in G[n] if x in term_set)[:12]}
     else:
-        size = 8 + 5 * math.log2(1 + freq[n]) + 0.4 * G.degree(n)
+        size = 8 + 5 * math.log2(1 + sentence_freq[n]) + 0.4 * G.degree(n)
         d = entry_desc.get(n, "")
         if len(d) > DESC_CHARS: d = d[:DESC_CHARS].rsplit(" ", 1)[0] + "…"
         hover_js[node_id[n]] = {"k": "term", "d": "" if is_disambig.get(n) else d, "dis": bool(is_disambig.get(n)),
-                                "f": entry_figs.get(n, [])[:MAX_FIGS], "m": freq[n], "p": docfreq[n],
+                                "f": entry_figs.get(n, [])[:MAX_FIGS], "m": occurrence_freq[n],
+                                "s": sentence_freq[n], "p": docfreq[n],
                                 "l": G.degree(n), "a": sorted(aliases.get(n, []))}
     attrs = {}
     for m, (gk, ck) in GATTR.items():
@@ -601,11 +878,33 @@ for r in edge_rows:
     d = r["d"]
     prim = next(t for t in ("abbrev", "hierarchy", "cooc", "wiki", "onto") if t in d["types"])
     ev = d["evidence"] or ""
-    net.add_edge(node_id[r["src"]], node_id[r["tgt"]], id=r["id"], color=EDGE_COLOR[prim],
-                 width=1 + math.log2(1 + d["weight"]) * 0.6, dashes=(prim == "onto"),
-                 title=(f"{r['id']} · {r['rel']}\n{ev}")[:300], types=",".join(d["types"]),
-                 w=round(d["weight"], 2), ev=ev, rel=r["rel"],
-                 isDir=bool(d["dir"]), arrows="to" if d["dir"] else "")
+
+    net.add_edge(
+        node_id[r["src"]],
+        node_id[r["tgt"]],
+        id=r["id"],
+        color=EDGE_COLOR[prim],
+        width=1 + math.log2(1 + d["weight"]) * 0.6,
+        dashes=(prim == "onto"),
+        title=(
+            f"{r['id']} · {r['rel']}\n"
+            f"Evidence type: {d.get('evidence_type', '')}\n"
+            f"Source papers: {', '.join(d.get('source_paper_ids', []))}\n"
+            f"Evidence count: {d.get('evidence_count', 0)}\n"
+            f"Provenance: {d.get('provenance_status', 'unavailable')}\n"
+            f"{d['evidence'] or ''}"
+        )[:1000],
+        types=",".join(d["types"]),
+        w=round(d["weight"], 2),
+        ev=d["evidence"],
+        rel=r["rel"],
+        evidenceType=d.get("evidence_type", ""),
+        sourcePaperIds=d.get("source_paper_ids", []),
+        evidenceCount=d.get("evidence_count", 0),
+        provenanceStatus=d.get("provenance_status", "unavailable"),
+        isDir=bool(d["dir"]),
+        arrows="to" if d["dir"] else "",
+    )
 net.barnes_hut(gravity=-9000, spring_length=130, central_gravity=0.2)
 net.write_html(OUT_HTML)
 
@@ -667,7 +966,7 @@ mark{background:#ffd54f;color:#000;padding:0 1px}
 </div></div>
 <div id="legend" class="box"><div class="hd" onclick="toggleBox('legend')"><span id="legendtitle">Groups</span><span class="tg">▾</span></div><div class="bd">
  <div id="legendbody"></div>
- <div style="margin-top:6px" class="muted">Click a group to isolate it · click again to release<br>● term (size = mentions) · ◆ Wikipedia ontology concept · arrow = direction of the relation<br>Hover a link for its ID and supporting sentence · click a link for details</div></div></div>
+ <div style="margin-top:6px" class="muted">Click a group to isolate it · click again to release<br>● term (size = sentences containing term) · ◆ Wikipedia ontology concept · arrow = direction of the relation<br>Hover a link for its ID and supporting sentence · click a link for details</div></div></div>
 <div id="info" class="box"><div class="hd" onclick="toggleBox('info')"><span id="infotitle">Details</span>
  <span><span class="tg" id="tg-info">▾</span><span class="x" onclick="event.stopPropagation();clearSelection()">×</span></span></div><div class="bd" id="infobody"></div></div>
 <div id="hovercard"></div>
@@ -801,7 +1100,7 @@ function showNodeInfo(id){
     h += '<p><b>Papers mentioning this term</b></p>';
     if (!tp.length) h += '<div class="muted">Not found in the loaded papers (the term came from the encyclopedia).</div>';
     tp.forEach(x=>{
-      h += '<div class="item">'+paperLink(x[0])+' <span class="muted">×'+x[1]+(PAPERS[x[0]]&&PAPERS[x[0]].year?' · '+esc(PAPERS[x[0]].year):'')+'</span>'
+      h += '<div class="item">'+paperLink(x[0])+' <span class="muted">'+x[1]+' sentence'+(x[1]===1?'':'s')+(PAPERS[x[0]]&&PAPERS[x[0]].year?' · '+esc(PAPERS[x[0]].year):'')+'</span>'
          + (x[2]?'<div class="muted">“'+markTerm(x[2],n.label)+'”</div>':'')+'</div>';
     });
   }
@@ -898,7 +1197,7 @@ function renderHover(id){
     x += '<div class="muted">Wikipedia ontology concept · shared by '+h.n+' term'+(h.n===1?'':'s')+'</div>';
     if (h.terms && h.terms.length) x += '<div class="hc-d">'+h.terms.map(esc).join(", ")+(h.n>h.terms.length?" …":"")+'</div>';
   } else {
-    x += '<div class="muted">mentions: '+h.m+' · papers: '+h.p+' · links: '+h.l+'</div>';
+    x += '<div class="muted">occurrences: '+h.m+' · sentences: '+h.s+' · papers: '+h.p+' · links: '+h.l+'</div>'; 
     if (h.a && h.a.length) x += '<div class="muted">also: '+h.a.map(esc).join(", ")+'</div>';
     if (h.d) x += '<div class="hc-d">'+esc(h.d)+'</div>';
     else x += '<div class="muted" style="margin:6px 0">'+(h.dis?'Wikipedia disambiguation page – no single description.':'No description in the encyclopedia.')+'</div>';
