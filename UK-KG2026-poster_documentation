@@ -1,0 +1,126 @@
+## Panel 1:  Description
+
+### Background
+
+“Climate literature contains many relationships that are difficult to discover by reading individual papers one by one. A literature search can retrieve relevant publications, but it does not automatically give us a connected view of the concepts discussed across those publications.”
+
+### Research question
+
+Can we transform a collection of **La Niña and climate**-related publications into an explorable knowledge graph while retaining links to the underlying textual evidence?
+
+### Approach
+
+We developed a small-scale test using the search query:
+
+`"La Niña" AND "climate"`
+
+The workflow combines an encyclopedia-based entry point, a collection of scientific texts, terminology processing, relationship extraction, and graph visualisation.
+
+**1. Start with an encyclopedia.** Use the La Niña encyclopedia as a structured entry point for exploring the topic.
+
+**2. Collect literature.** Assemble the corresponding collection of climate-related papers and their available full text.
+
+**3. Identify terms.** Extract relevant terms from the encyclopedia and paper texts.
+
+**4. Normalise terminology.** Merge selected spelling variants and alternative term forms using aliases.
+
+**5. Build relationships.** Identify terms appearing in the same sentence or adjacent sentences and incorporate available hierarchical, abbreviation, Wikipedia, and ontology links.
+
+**6. Attach provenance.** Record supporting text, source-paper identifiers, and evidence counts for co-occurrence relationships.
+
+**7. Explore the graph.** Use the interactive visualisation to inspect concepts, connections, and their supporting evidence.
+
+## Pipeline: Query to Knowledge Graph
+
+![Pipeline: Query to Knowledge Graph](https://raw.githubusercontent.com/semanticClimate/encyclopedia/refs/heads/renu/drawKG/pipeline-query-kg.png)
+
+## Result: The knowledge graph
+
+The graph includes relationships derived from text co-occurrence and additional links from hierarchical, abbreviation, Wikipedia, and ontology sources. The graph provides a starting point for exploring how concepts occur together across the selected literature. 
+
+### Network Grouping & Analytics
+
+The output knowledge graph has **three alternative grouping modes:**
+
+1. Wikipedia ontology
+
+2. Source paper
+
+3. Topic cluster
+
+These are not three different graphs. They are three different ways of grouping and colouring the same network, allowing researchers to explore the knowledge graph from different perspectives.
+The graph structure is primarily built from extracted terms and their relationships. Grouping changes how nodes are classified and displayed, not the underlying scientific evidence or edges.
+
+### 1. Wikipedia ontology grouping
+
+(Concept-based grouping)
+
+**Basis:** Shared Wikipedia-linked concepts between encyclopedia terms.
+
+The script uses a **greedy set-cover algorithm** to assign terms to ontology groups.
+
+**How it works**
+
+- Each extracted term has Wikipedia links associated with its encyclopedia entry. 
+- These links identify shared concepts connecting multiple terms. 
+- The algorithm selects the concept covering the largest number of currently unassigned terms.
+- Those terms are assigned to that concept's group.
+- The process repeats until no more terms can be assigned.
+- Terms without a suitable shared concept remain unassigned.
+
+
+### 2. Source paper grouping
+
+(Literature-based grouping)
+
+**Basis:** The paper in which a term occurs most frequently, measured by sentence count.
+
+**How it works**
+
+- The script counts the sentences containing each term in the loaded full-text corpus.
+- Each term is assigned to its primary paper, where it has the highest sentence count.
+- If two papers have equal counts, the lexicographically first paper ID is selected.
+- If a term occurs in multiple papers, it is still assigned to only one primary-paper group for colouring.
+- Wikipedia ontology concept nodes inherit the majority group of their neighbouring terms.
+
+**Interpretation:** Shows the literature provenance of concepts and which paper contributes most strongly to a term.
+
+### 3. Topic cluster grouping
+
+(Network-based grouping)
+
+**Basis:** Network connectivity and edge weights.
+
+The script uses the **Louvain community detection algorithm** on the connected knowledge graph.
+
+**How it works**
+
+- It constructs a subgraph containing connected nodes.
+- Louvain community detection partitions this graph into communities.
+- The algorithm considers weighted graph connections, including:
+    - Co-occurrence
+    - Term hierarchy
+    - Abbreviations
+    - Wikipedia links
+    - Ontology connections
+- Communities are sorted by size.
+- The most connected node by weighted degree is selected as the cluster hub.
+- The hub term becomes the representative label for the cluster.
+
+If Louvain is unavailable, the script falls back to greedy modularity community detection.
+
+**Interpretation:** Reveals groups of strongly interconnected terms and concepts that may represent emerging scientific themes.
+
+### Inferences from the Knowledge Graph
+
+The graph connects concepts related to:
+- Climate dynamics: ENSO, Niño, temperature, SST anomalies, atmospheric circulation, teleconnections.
+- Hydrology: rainfall, precipitation, moisture, water availability.
+- Regional climate systems: Asian monsoon, Arabian Sea, Amazon, Pacific Ocean.
+- Ecological impacts: marine ecosystems, phytoplankton, coral habitats.
+- Public health: malaria, dengue, diarrhea risk, infectious disease incidence.
+
+**Inference:** La Niña literature is not confined to ocean–atmosphere interactions; its research connections extend into ecological and societal impacts.
+
+Starting from La Nina years, researchers can navigate to rice yield, rice yield anomalies, and Asian summer monsoon circulation, revealing a connection between climate variability and agricultural research.
+
