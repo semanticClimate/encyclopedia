@@ -145,9 +145,15 @@ Starting from La Nina years, researchers can navigate to rice yield, rice yield 
 
 - ### [CLICK HERE to see complete knowledge graph](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/semantic_KG_La_Ni%C3%B1aANDclimate.html)
 
+### figure 1-Source paper groups
+
 ![figure 1-Source paper groups](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/3nov_p1.png)
+
+### figure 2-multiyear La Niña events
 
 ![figure 2-multiyear La Niña events](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/3nov_p2.png)
 
+
+#### figure 3-ENSO Period
 ![figure 3-ENSO Period](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/3nov_p4.png)
 
