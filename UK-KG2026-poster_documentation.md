@@ -143,7 +143,7 @@ Starting from La Nina years, researchers can navigate to rice yield, rice yield 
     - Topic clusters  : 13 legend entries
 
 
-- ### [CLICK HERE](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/semantic_KG_La_Ni%C3%B1aANDclimate.html)
+- ### [CLICK HERE to see complete knowledge graph](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/semantic_KG_La_Ni%C3%B1aANDclimate.html)
 
 ![figure 1-Source paper groups](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/3nov_p1.png)
 
