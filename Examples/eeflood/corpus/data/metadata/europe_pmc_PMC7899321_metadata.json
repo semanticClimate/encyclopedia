@@ -1,0 +1,15 @@
+{
+  "title": "Predicting the effects of reservoir water level management on the reproductive output of a riparian songbird.",
+  "abstract": "Dams and reservoirs alter natural water flow regimes with adverse effects on natural ecosystems. Quantifying and reducing these effects are important as global demands for energy and water, and the number of dams and reservoir, increase. However, costs and logistic constraints typically preclude experimental assessment of reservoir effects on the environment. We developed a stochastic individual-based model (IBM), parameterized using empirical data, to estimate the annual productivity of yellow warblers that breed in riparian habitat within the footprint of the Arrow Lakes Reservoir in British Columbia, Canada. The IBM incorporated information on breeding phenology, nest site selection, brood parasitism, daily nest survival, re-nesting probabilities and post-fledging survival. We used the IBM to estimate the effect of four different water management scenarios on annual productivity. We found that the IBM accurately estimated average nest success (0.39 ± 0.10 SD), the proportion of females that produced at least one fledgling during a breeding season (0.56 ± 0.11), and annual fledging success (2.06 ± 0.43) under current conditions. The IBM estimated that reservoir operations currently reduce the annual productivity of this population by 37%, from an average of 1.62 to 1.06 independent young/female. Delaying when reservoir water levels reach 435m asl (the minimum elevation occupied by yellow warblers) by approximately 2 weeks was predicted to increase annual productivity to 1.44 independent young/female. The standardized effect on annual productivity of reducing the maximum elevation of the reservoir so that yellow warbler habitat is not inundated (Cohen's d = 1.52) or delaying when water is stored (Cohen's d = 0.83) was primarily driven by inundation effects on post-fledging survival. Reservoir operation effects on breeding birds will be species specific, but this IBM can easily be modified to allow the environmental impacts on the entire breeding bird community to be incorporated into water management decisions.",
+  "doi": "10.1371/journal.pone.0247318",
+  "pmcid": "PMC7899321",
+  "pmid": "33617585",
+  "authors": [
+    "Hepp M",
+    "Palsson E",
+    "Thomsen SK",
+    "Green DJ"
+  ],
+  "publication_date": "2021-02-22",
+  "journal": "PloS one"
+}

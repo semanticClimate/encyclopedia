@@ -1,0 +1,291 @@
+/* Corpus review table — edit freely. Reload review_table.html to see changes. */
+
+:root {
+  --bg: #f8fafc;
+  --panel: #ffffff;
+  --text: #1e293b;
+  --muted: #64748b;
+  --border: #cbd5e1;
+  --include: #047857;
+  --exclude: #b91c1c;
+  --review: #b45309;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.5rem;
+}
+
+.summary {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.toolbar {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.toolbar a {
+  color: #2563eb;
+}
+
+.connection-banner {
+  margin: 0 0 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.connection-banner--warn {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+.connection-banner--ok {
+  background: #ecfdf5;
+  border: 1px solid #bbf7d0;
+  color: #166534;
+}
+
+.connection-banner code {
+  font-size: 0.88rem;
+}
+
+.reader-status--error {
+  color: #991b1b;
+  background: #fef2f2;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: #eef2ff;
+  text-align: left;
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+tbody td {
+  vertical-align: top;
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+tbody tr:hover {
+  background: #f1f5f9;
+}
+
+.status-include { color: var(--include); font-weight: 600; }
+.status-exclude { color: var(--exclude); font-weight: 600; }
+.status-review { color: var(--review); font-weight: 600; }
+
+.col-title {
+  min-width: 16rem;
+  max-width: 28rem;
+}
+
+.col-abstract {
+  min-width: 18rem;
+  max-width: 32rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.col-notes {
+  min-width: 10rem;
+  max-width: 16rem;
+}
+
+.col-score {
+  display: none;
+}
+
+.read-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.paper-link {
+  color: #2563eb;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.paper-link:hover {
+  text-decoration: underline;
+}
+
+.col-read {
+  white-space: nowrap;
+}
+
+.btn-read {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #eef2ff;
+  color: #1e40af;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.btn-read:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+body.reader-open {
+  overflow: hidden;
+}
+
+#paper-reader {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(15, 23, 42, 0.35);
+}
+
+#paper-reader.open {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) min(52rem, 58vw);
+  grid-template-rows: 1fr;
+  height: 100vh;
+}
+
+.reader-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+  background: var(--panel);
+  border-left: 1px solid var(--border);
+  box-shadow: -8px 0 24px rgba(15, 23, 42, 0.12);
+}
+
+.reader-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.reader-head-main {
+  display: grid;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.reader-head h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.reader-head > #reader-close {
+  border: 0;
+  border-radius: 6px;
+  background: #e2e8f0;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.reader-formats {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.format-btn {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--text);
+  padding: 0.3rem 0.65rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.format-btn.active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+.format-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.reader-body {
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #fff;
+}
+
+.reader-body iframe {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
+  border: 0;
+  background: #fff;
+}
+
+.reader-status {
+  margin: 0;
+  padding: 1rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+tbody tr.row-reading {
+  background: #dbeafe !important;
+  box-shadow: inset 4px 0 0 #2563eb;
+}
+
+@media (max-width: 900px) {
+  #paper-reader.open {
+    grid-template-columns: 1fr;
+  }
+  .reader-main {
+    display: none;
+  }
+}

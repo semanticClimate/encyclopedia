@@ -1,0 +1,1324 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ece370878" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="pmc-domain-id">1740</journal-id><journal-id journal-id-type="pmc-domain">ece</journal-id><journal-id journal-id-type="nlm-id">101566408</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11755067</article-id><article-id pub-id-type="pmcid-ver">PMC11755067.1</article-id><article-id pub-id-type="pmcaid">11755067</article-id><article-id pub-id-type="pmcaiid">11755067</article-id><article-id pub-id-type="pmid">39850754</article-id><article-id pub-id-type="doi">10.1002/ece3.70878</article-id><article-id pub-id-type="publisher-id">ECE370878</article-id><article-id pub-id-type="other">ECE-2024-09-01922.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Applied Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Biodiversity Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Biogeography</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Community Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Conservation Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Ecosystem Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Environmental Sustainability</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Paleoecology</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Tracing Aquatic Macrophyte Development in Nansi Lake, Northern China's Largest Freshwater Lake: Plant Macrofossils From 1855 to Present</article-title></title-group><contrib-group><contrib id="ece370878-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhang</surname><given-names initials="Q">Qinghui</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0005-1638-2204</contrib-id><xref rid="ece370878-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>qhzhang@sdnu.edu.cn</email></address></contrib><contrib id="ece370878-cr-0002" contrib-type="author"><name name-style="western"><surname>Wu</surname><given-names initials="Y">Yufei</given-names></name><xref rid="ece370878-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece370878-cr-0003" contrib-type="author"><name name-style="western"><surname>Yang</surname><given-names initials="L">Liwei</given-names></name><xref rid="ece370878-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ece370878-cr-0004" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="Z">Zekun</given-names></name><xref rid="ece370878-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece370878-cr-0005" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="Z">Zonglei</given-names></name><xref rid="ece370878-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ece370878-cr-0006" contrib-type="author"><name name-style="western"><surname>Yang</surname><given-names initials="Y">Yuying</given-names></name><xref rid="ece370878-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece370878-cr-0007" contrib-type="author" corresp="yes"><name name-style="western"><surname>Chen</surname><given-names initials="S">Shiyue</given-names></name><xref rid="ece370878-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>chenshiyue@jsnu.edu.cn</email></address></contrib><contrib id="ece370878-cr-0008" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="E">Enfeng</given-names></name><xref rid="ece370878-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="ece370878-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">College of Geography and Environment</named-content>
+<institution>Shandong Normal University</institution>
+<city>Ji'nan</city>
+<named-content content-type="country-part">Shandong</named-content>
+<country country="CN">China</country>
+</aff><aff id="ece370878-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">School of City and Environment</named-content>
+<institution>Jiangsu Normal University</institution>
+<city>Xuzhou</city>
+<named-content content-type="country-part">Jiangsu</named-content>
+<country country="CN">China</country>
+</aff><aff id="ece370878-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>Academic Affairs Division of Xuzhou College of Industrial Technology</institution>
+<city>Xuzhou</city>
+<named-content content-type="country-part">Jiangsu</named-content>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Qinghui Zhang (<email>qhzhang@sdnu.edu.cn</email>)<break/>
+Shiyue Chen (<email>chenshiyue@jsnu.edu.cn</email>)<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>23</day><month>1</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>1</month><year>2025</year></pub-date><volume>15</volume><issue seq="1216">1</issue><issue-id pub-id-type="pmc-issue-id">477780</issue-id><issue-id pub-id-type="doi">10.1002/ece3.v15.1</issue-id><elocation-id>e70878</elocation-id><history>
+<date date-type="rev-recd"><day>03</day><month>12</month><year>2024</year></date>
+<date date-type="received"><day>17</day><month>9</month><year>2024</year></date>
+<date date-type="accepted"><day>08</day><month>1</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>01</day><month>01</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>23</day><month>01</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-06-06 20:25:18.557"><day>06</day><month>06</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Ecology and Evolution</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ECE3-15-e70878.pdf"><?pdf-name ECE3-15-e70878.pdf?><?pdf-size 3021702?><?pdf-md5 6e2c8792eb7f8f0cd8f8aebd7442e48c?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:7dfd/11755067/6e2c8792eb7f/ECE3-15-e70878.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECE3-15-e70878.pdf"/><abstract><title>ABSTRACT</title><p>Examining the impacts of natural and anthropogenic influences on aquatic macrophytes in shallow lakes is crucial for their effective restoration and management. However, there is a lack of direct evidence regarding past species composition or detailed and continuous evidence of recent changes in aquatic macrophyte communities. This study utilized plant macrofossil remains deposited in the sediment, combined with macrophyte surveys from 1983 to 2010, to reconstruct the historical changes in the macrophyte community over approximately 160 years in Lake Weishan, a sub‐lake of Lake Nansi located in the lower Yellow River (Huanghe River) Basin, northern China. Approximately 54.3% of the species historically recorded at the core site were identified through macro‐remains analysis, including five previously unrecorded submerged taxa (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Myriophyllum verticillatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ranunculus trichophyllus</italic>
+</styled-content>, <italic toggle="no">Chara</italic> sp., <italic toggle="no">Nitella</italic> sp., and <italic toggle="no">Vallisneria spinulosa</italic>) discovered during monitoring surveys. The findings revealed four major shifts in the macrophyte community: A transition from a swampy environment dominated by emergent/wetland plants (ca. 1855–1875) to an expanded water body characterized by a rapid proliferation of submerged macrophytes (ca. 1875–1910), followed by mass disappearance of macrophytes (ca. 1910–2005) and subsequent significant resurgence (after 2005). Multiple factor analysis was employed to investigate the correlation between these shifts and changes in paleolimnological indicators (invertebrates, geochemistry, and grain size), as well as documented records related to hydrology, climate changes, and human activities. The results confirmed our hypothesis that climatically and anthropogenically induced hydrological alterations were likely the primary drivers influencing macrophyte composition alteration and succession dynamics in the lake. This study highlights the potential use of plant macrofossils for reconstructing long‐term changes in macrophyte community components, abundance assessment, and ecosystem health evaluation within the lower Yellow River region. To effectively address persistent challenges such as water diversion and climate change, we propose integrating paleoecological methods into standard ecological monitoring protocols employed for water ecological quality assessment.</p></abstract><abstract abstract-type="graphical"><p>This study presents a detailed plant macrofossil record of a floodplain lake in the lower Yellow River (Huanghe River) Basin, which has undergone significant channel modifications and catastrophic floods. The lake also serves as an impoundment along China's Eastern Route of the South‐to‐North Water Diversion Project. The results cover time periods from before the formation of unified Lake Nansi to present times, including the period following the implementation of SNWDP‐ER. These records offer a comprehensive historical account of how aquatic macrophytes have responded to natural changes and human activities, encompassing climate variations and anthropogenic influences.<boxed-text position="anchor" content-type="graphic" id="ece370878-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ECE3-15-e70878-g006.jpg"><?image-name ECE3-15-e70878-g006.jpg?><?image-size 26698?><?image-md5 83f470bc5272bf8658625cd92eb415fe?><?image-image-server-status NEVER_LOAD?><?image-original-height 197?><?image-original-width 331?><?image-scaled-height 197?><?image-scaled-width 331?><?image-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/83f470bc5272/ECE3-15-e70878-g006.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece370878-kwd-0001">aquatic macrophyte</kwd><kwd id="ece370878-kwd-0002">Lake Nansi</kwd><kwd id="ece370878-kwd-0003">multiple factor analysis</kwd><kwd id="ece370878-kwd-0004">plant macrofossil</kwd><kwd id="ece370878-kwd-0005">restoration</kwd><kwd id="ece370878-kwd-0006">the Yellow River (Huanghe River)</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>National Natural Science Foundation of China
+</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap></funding-source><award-id>42007397</award-id><award-id>41807430</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Natural Science Foundation of Shandong Province
+</institution><institution-id institution-id-type="doi">10.13039/501100007129</institution-id></institution-wrap></funding-source><award-id>ZR2020QD002</award-id></award-group><award-group id="funding-0003"><funding-source>College Students’ Innovation and Entrepreneurship Training Program of Shandong Normal University</funding-source><award-id>202410445023</award-id><award-id>2023170136</award-id></award-group></funding-group><counts><fig-count count="8"/><table-count count="2"/><page-count count="17"/><word-count count="11000"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.2 mode:remove_FC converted:27.01.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group id="ece370878-ntgp-0001"><fn fn-type="funding" id="ece370878-note-0001"><p>
+<bold>Funding:</bold> This work was supported by the National Natural Science Foundation of China [grant numbers 42007397 and 41807430]; the Natural Science Foundation of Shandong Province [grant number ZR2020QD002], and College Students’ Innovation and Entrepreneurship Training Program of Shandong Normal University (202410445023; 2023170136).</p></fn></fn-group></notes></front><body id="ece370878-body-0001"><sec id="ece370878-sec-0001"><label>1</label><title>Introduction</title><p>Shallow lakes, serving as pivotal nodes in the intricate interplay of diverse environmental elements on terrestrial surfaces, not only constitute crucial water resources for human survival but also play a vital role in maintaining regional ecological functionalities (Scheffer and van Nes <xref rid="ece370878-bib-0043" ref-type="bibr">2007</xref>; Yang et al. <xref rid="ece370878-bib-0063" ref-type="bibr">2010</xref>). However, the rapid deterioration of these ecosystems presents a global challenge, as evidenced by the decline in both the abundance and diversity of aquatic plants (Davidson <xref rid="ece370878-bib-0013" ref-type="bibr">2014</xref>; Zhang, Jeppesen et al. <xref rid="ece370878-bib-0073" ref-type="bibr">2017</xref>). Research indicates that the eutrophication‐induced decline of submerged plants may trigger a transition from macrophyte to algal dominance, resulting in reduced biodiversity and degradation of habitats (Zhang, Jeppesen et al. <xref rid="ece370878-bib-0073" ref-type="bibr">2017</xref>). As primary producers in lake ecosystems, community structures and diversities of aquatic plants are critical for sustaining ecosystem health and functions (Jeppesen et al. <xref rid="ece370878-bib-0023" ref-type="bibr">1998</xref>; Scheffer <xref rid="ece370878-bib-0042" ref-type="bibr">1998</xref>). Thus, investigating the composition and successional traits of aquatic plant communities is essential for comprehending the changes in lake ecosystems' structure and function, including their dynamics. Such focus is imperative for lake research and necessary for aquatic ecosystem restoration (Bennion et al. <xref rid="ece370878-bib-0003" ref-type="bibr">2018</xref>).</p><p>The current understanding of long‐term changes in aquatic plant communities primarily relies on historical field surveys and analyses of satellite imagery (Huang et al. <xref rid="ece370878-bib-0022" ref-type="bibr">2021</xref>; Luo et al. <xref rid="ece370878-bib-0032" ref-type="bibr">2016</xref>; Wang et al. <xref rid="ece370878-bib-0057" ref-type="bibr">2016</xref>). However, these data collection efforts often commence subsequent to the degradation or extinction of macrophyte communities, resulting in relatively short documentation periods, typically spanning less than half a century. Furthermore, remote sensing archives face challenges such as species ambiguities and limited spatiotemporal resolution, which inherently impact the quality of the data.</p><p>Paleolimnological records provide a unique opportunity to reconstruct the evolutionary trajectory of aquatic plants through the analysis of proxies such as aquatic pollen, diatoms, cladocerans, chironomids, biomarkers, and stable carbon isotopes (Dong, Kattel, and Jeppesen <xref rid="ece370878-bib-0016" ref-type="bibr">2020</xref>; Ge, Zhang, and Yang <xref rid="ece370878-bib-0018" ref-type="bibr">2018</xref>; Karst and Smol <xref rid="ece370878-bib-0025" ref-type="bibr">2000</xref>; Yang et al. <xref rid="ece370878-bib-0065" ref-type="bibr">2006</xref>; Zeng et al. <xref rid="ece370878-bib-0068" ref-type="bibr">2024</xref>; Zhang, Su et al. <xref rid="ece370878-bib-0074" ref-type="bibr">2017</xref>). However, the limited abundance and taxonomic uncertainty of aquatic pollen in sediment records pose challenges for accurately reflecting past vegetation dynamics. Similarly, these indicators—diatoms, cladocerans, chironomids, and biomarkers—provide preliminary insights into variations in the abundance of aquatic plants but are insufficient to fully elucidate changes in community composition.</p><p>Aquatic plant remains, known as plant macrofossils, are preserved in sediments that include seeds, fruits, leaves, bud scales, cuticles, and other durable components (Birks <xref rid="ece370878-bib-0004" ref-type="bibr">2001</xref>). These macrofossils can help us understand past communities and track changes in lake vegetation over time (Mazzini et al. <xref rid="ece370878-bib-0034" ref-type="bibr">2015</xref>; Brzozowski et al. <xref rid="ece370878-bib-0005" ref-type="bibr">2021</xref>). Recently, there has been increased interest in using plant macrofossils to reconstruct historical aquatic macrophyte in lakes within the field of lake paleoecology. Such reconstructions have been useful for restoring aquatic ecosystems (Madgwick et al. <xref rid="ece370878-bib-0033" ref-type="bibr">2011</xref>; Salgado et al. <xref rid="ece370878-bib-0039" ref-type="bibr">2010</xref>; Sayer et al. <xref rid="ece370878-bib-0041" ref-type="bibr">2010</xref>). For instance, Salgado et al. (<xref rid="ece370878-bib-0039" ref-type="bibr">2010</xref>) analyzed plant macrofossils from a sediment core to reveal the historical succession patterns of aquatic vegetation in Loch Leven (Scotland) over 150 years. Their findings highlighted the importance of considering a lake's natural baseline condition before human intervention in ecological restoration projects. Similarly, Madgwick et al. (<xref rid="ece370878-bib-0033" ref-type="bibr">2011</xref>) highlighted the significance of protecting and rehabilitating floating‐leaved and emergent plant communities by reconstructing two centuries' worth of aquatic vegetation based on plant macrofossil analysis conducted at Barton Broad—a shallow eutrophic lake located in eastern England. Moreover, plant macrofossil analysis serves as a crucial resource for investigating the impact of hydrological changes on aquatic vegetation (Mazzini et al. <xref rid="ece370878-bib-0034" ref-type="bibr">2015</xref>), as well as studying the long‐term effects of climate change on submerged vegetation communities spanning decades or even centuries (Brzozowski et al. <xref rid="ece370878-bib-0005" ref-type="bibr">2021</xref>). However, much research has focused on temperate regions while leaving subtropical shallow lakes relatively unexplored for plant macrofossil exploration.</p><p>The Yellow River (Huanghe River), China's second‐largest river, boasts a rich history marked by channel modifications and devastating floods in its lower reaches (Shu and Finlayson <xref rid="ece370878-bib-0047" ref-type="bibr">1993</xref>). Historical records indicate that numerous lakes once dotted these regions, significantly affected by flooding, river migration, and human activities (Zhang <xref rid="ece370878-bib-0069" ref-type="bibr">1987</xref>). Regrettably, most of these lakes have either vanished or experienced significant shrinkage over time (Zhang <xref rid="ece370878-bib-0069" ref-type="bibr">1987</xref>). Among these, Nansi Lake stands out as a large, macrophyte‐dominated shallow floodplain lake, representing the largest among the freshwater lakes in North China, which is composed of four sub‐lakes Nanyang Lake, Dushan Lake, Zhaoyang Lake, and Weishan Lake. In addition to possessing the typical characteristics of shallow lakes, floodplain lakes are naturally dynamic ecosystems that respond to variations in river discharge and flooding both spatially and temporally. These factors influence the productivity composition of macrophyte biomass as well as species richness (Sousa, Thomaz, and Murphy <xref rid="ece370878-bib-0048" ref-type="bibr">2011</xref>; Van Geest et al. <xref rid="ece370878-bib-0053" ref-type="bibr">2005</xref>).</p><p>Nansi Lake plays a crucial role as a pivotal reservoir for the East Route of the South‐to‐North Water Diversion Project (SNWDP‐ER). Previous research indicates that this project has led to increased water recharge into the lake along with material input while also impacting hydrodynamic conditions, hydrological cycle processes, and habitats for aquatic organisms (Qu et al. <xref rid="ece370878-bib-0038" ref-type="bibr">2020</xref>). However, the limited availability of monitoring data hampers our understanding regarding how vegetation responds to natural occurrences and human‐induced impacts within not only Nansi Lake but also other lakes located within the lower Yellow River Basin.</p><p>Weishan Lake, situated in the southernmost region among the four sub‐lakes, stands as the largest one with comparatively superior water quality compared to its counterparts. Our primary research site was chosen as Weishan Lake to evaluate changes in macrophyte communities over the past 160 years by analyzing plant macrofossil remains. We hypothesized that the composition and development of aquatic macrophytes in Weishan Lake during this time period have been influenced by both natural flood events triggered by the Yellow River and anthropogenic activities, including pollutant inputs, water conservancy projects, as well as climate change. Our objective was to determine how well these remains reflect macrophyte composition, understand succession patterns in Nansi Lake, identify factors influencing these communities, and suggest conservation measures for reinstating ecological equilibrium in Nansi Lake and similar lakes within the lower Yellow River Basin.</p></sec><sec sec-type="materials-and-methods" id="ece370878-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="ece370878-sec-0003"><label>2.1</label><title>Study Site</title><p>Nansi Lake (34°27′–35°20' N, 116°34′–117°21′ E), located in the southwestern region of Shandong Province (Figure <xref rid="ece370878-fig-0001" ref-type="fig">1</xref>), is renowned as the largest freshwater lake in North China. It has an average depth of 1.46 m, covers an extensive water surface area of 1266 km<sup>2</sup>, and has a drainage area of 30,453 km<sup>2</sup> (Wang and Dou <xref rid="ece370878-bib-0058" ref-type="bibr">1998</xref>). Since the construction of a dam in 1960, the lake has been divided into upper and lower lakes.</p><fig position="float" fig-type="FIGURE" id="ece370878-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>(a) Location of Nansi Lake in China and specifically in Shandong Province; (b) diversion of the lower Yellow River since 1386, the Yellow River flood area after 1855 (pink highlighted areas), and 1938 (orange highlighted areas); and (c) local setting, showing four sub‐lakes: Nanyang Lake (A), Dushan Lake (B), Shaoyang Lake (C), and Weishan Lake (D), with the core sampling site located in Weishan Lake.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ECE3-15-e70878-g007.jpg"><?image-name ECE3-15-e70878-g007.jpg?><?image-size 124869?><?image-md5 b54d62d7f5fa1c1f14de18da0e0ae9a5?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 591?><?image-original-width 1064?><?image-scaled-height 394?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/b54d62d7f5fa/ECE3-15-e70878-g007.jpg?><?thumb-name ECE3-15-e70878-g007.gif?><?thumb-size 8181?><?thumb-md5 3fcb5a3b95c598246e20067cef9ecfcf?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 144?><?thumb-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/3fcb5a3b95c5/ECE3-15-e70878-g007.gif?></graphic></fig><p>The upper lakes encompass Nanyang Lake, Dushan Lake, and most parts of Zhaoyang Lake. These lakes receive inflows from a total of 29 rivers within a catchment area spanning over 26,934 km<sup>2</sup>, accounting for approximately 88.4% of the entire catchment area (Table <xref rid="ece370878-tbl-0001" ref-type="table">1</xref>). On the other hand, the lower lakes mainly consist of Weishan Lake with a small portion belonging to Zhaoyang Lake. They are fed by a network of 24 rivers; however, there is minimal contribution from large rivers to these lakes. The water collection area for the lower lakes covers about 3519 km<sup>2</sup>, representing around 11.6% of the overall collection area (Table <xref rid="ece370878-tbl-0001" ref-type="table">1</xref>). In terms of hydrological characteristics, there is a discrepancy in water levels between the upper and lower lakes. The eastern part of the Nansi Lake Basin exhibits a mountainous and hilly topography, while the western part is characterized by plains (Figure <xref rid="ece370878-fig-0001" ref-type="fig">1c</xref>). The terrain follows a north–south orientation with higher elevations predominantly located in the northern region (Figure <xref rid="ece370878-fig-0001" ref-type="fig">1c</xref>). All river systems within the drainage basin flow radially toward the lake area (Zhang et al. <xref rid="ece370878-bib-0072" ref-type="bibr">2020</xref>).</p><table-wrap position="float" id="ece370878-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Hydraulic characteristics of Nansi Lake (Ding et al. <xref rid="ece370878-bib-0015" ref-type="bibr">2015</xref>).</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">The upper lakes</th><th align="center" valign="bottom" rowspan="1" colspan="1">The lower lakes</th><th align="center" valign="bottom" rowspan="1" colspan="1">Total</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Surface area km<sup>2</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">602</td><td align="center" valign="top" rowspan="1" colspan="1">664</td><td align="center" valign="top" rowspan="1" colspan="1">1266</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Catchment area km<sup>2</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">26,934</td><td align="center" valign="top" rowspan="1" colspan="1">3519</td><td align="center" valign="top" rowspan="1" colspan="1">30,453</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Maximum storage capacity 10<sup>8</sup> m<sup>3</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">24.5</td><td align="center" valign="top" rowspan="1" colspan="1">25.7</td><td align="center" valign="top" rowspan="1" colspan="1">50.2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Number of inflowing rivers</td><td align="center" valign="top" rowspan="1" colspan="1">29</td><td align="center" valign="top" rowspan="1" colspan="1">24</td><td align="center" valign="top" rowspan="1" colspan="1">53</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Number of outflowing rivers</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">4</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Maximum depth m</td><td align="center" valign="top" rowspan="1" colspan="1">2.76</td><td align="center" valign="top" rowspan="1" colspan="1">2.38</td><td align="center" valign="top" rowspan="1" colspan="1">2.76</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Mean depth m</td><td align="center" valign="top" rowspan="1" colspan="1">1.56</td><td align="center" valign="top" rowspan="1" colspan="1">1.35</td><td align="center" valign="top" rowspan="1" colspan="1">1.46</td></tr></tbody></table></table-wrap><p>Weishan Lake (116°58′ E–117°21′ E, 34°27′ N–34°52′ N) is situated in the southernmost region among the four sub‐lakes and holds the distinction of being the largest, covering an approximate area of 660 km<sup>2</sup>. With an average water depth of around 2.5 m and superior water quality compared to the other three sub‐lakes (Xu et al. <xref rid="ece370878-bib-0061" ref-type="bibr">2019</xref>), Weishan Lake serves as a habitat for diverse aquatic macrophytes, predominantly including <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Potamogeton lucens</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Myriophyllum spicatum</italic>
+</styled-content>, and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Potamogeton crispus</italic>
+</styled-content>. These macrophytes collectively occupy approximately 89.9% of the lake's surface area, making it a prime example of a shallow lake dominated by macrophytes (Cao et al. <xref rid="ece370878-bib-0009" ref-type="bibr">2019</xref>; Xu <xref rid="ece370878-bib-0060" ref-type="bibr">2020</xref>). According to a field investigation conducted in 2019 (Tong et al. <xref rid="ece370878-bib-0052" ref-type="bibr">2024</xref>), the lake exhibits a total phosphorus (TP) concentration of 0.086 ± 0.014 mg/L and a total nitrogen level of 2.367 ± 0.523 mg/L, accompanied by relatively low chlorophyll‐a concentrations ranging from 7.075 ± 3.924 mg/m<sup>3</sup>. The alkalinity remains neutral with a pH value of 8.627 ± 0.548, while the dissolved oxygen (DO) content measures at 9.351 ± 1.164 mg/L and water hardness stands at 60.05 mg/L (CaO), respectively.</p><p>The region exhibits a semi‐humid warm temperate monsoon climate, characterized by an annual mean temperature of 14.2°C and average precipitation of 684 mm per year, accompanied by an annual mean evaporation rate of 704 mm (Wang and Dou <xref rid="ece370878-bib-0058" ref-type="bibr">1998</xref>). Precipitation displays significant interannual variability, resulting in spring and autumn droughts as well as summer floods (Zhang et al. <xref rid="ece370878-bib-0072" ref-type="bibr">2020</xref>). The Nansi Lake Basin frequently experiences both floods and droughts. Historically, there was a recurring cycle of droughts and floods, with floods being more common (Figure <xref rid="ece370878-fig-0002" ref-type="fig">2c</xref>). However, since the 1980s, exacerbated by arid conditions, water diversion upstream, and excessive water consumption near the lake area, drought severity has surpassed that of floods (Zhang, Xin, and Liang <xref rid="ece370878-bib-0076" ref-type="bibr">2007</xref>). Nansi Lake is acknowledged as one of the primary freshwater fishery production bases in Shandong Province, boasting abundant fish resources. Following the adoption of natural fishing practices in the 1950s and 1960s, cage culturing was introduced in the 1990s, leading to extensive cultivation of crabs and fish within cages (Wang <xref rid="ece370878-bib-0054" ref-type="bibr">2014</xref>).</p><fig position="float" fig-type="FIGURE" id="ece370878-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Documented records for Nansi Lake and its basin over the past approximately 70 years include: (a) mean annual temperature and annual precipitation anomaly percentage data from Yu et al. (<xref rid="ece370878-bib-0066" ref-type="bibr">2014</xref>); (b) water‐level fluctuations in Nansi Lake from Yang et al. (<xref rid="ece370878-bib-0064" ref-type="bibr">2009</xref>) and Wu et al. (<xref rid="ece370878-bib-0059" ref-type="bibr">2015</xref>), as well as Palmer Drought Severity Index within its basin; positive values represent moisture, while negative values indicate dryness; (c) information on the disaster area affected by floods and droughts from Zhang, Xin, and Liang (<xref rid="ece370878-bib-0076" ref-type="bibr">2007</xref>); (d) concentrations of total phosphorus (TP) and total nitrogen (TN) from Shu et al. (<xref rid="ece370878-bib-0046" ref-type="bibr">2012</xref>); and finally, data on agricultural and industrial output values (e), population count (f), and fisheries output (f) sourced from the China Statistical Yearbooks Database.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ECE3-15-e70878-g008.jpg"><?image-name ECE3-15-e70878-g008.jpg?><?image-size 124618?><?image-md5 7e9f4fe15de1226ee5bc6eefb335ea2b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1278?><?image-original-width 1064?><?image-scaled-height 852?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/7e9f4fe15de1/ECE3-15-e70878-g008.jpg?><?thumb-name ECE3-15-e70878-g008.gif?><?thumb-size 4174?><?thumb-md5 7eef5cf3554e2ef60b89177e9ce773c0?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 120?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/7eef5cf3554e/ECE3-15-e70878-g008.gif?></graphic></fig></sec><sec id="ece370878-sec-0004"><label>2.2</label><title>Historical Aquatic Macrophyte and Environmental Data</title><p>To validate our paleoecological reconstruction of macrophytes, we obtained historical records of aquatic plants from published sources (Jining Science and Technology Commission <xref rid="ece370878-bib-0024" ref-type="bibr">1987</xref>; Ke et al. <xref rid="ece370878-bib-0026" ref-type="bibr">2018</xref>; Shi <xref rid="ece370878-bib-0045" ref-type="bibr">2002</xref>). These records provided a comprehensive list of aquatic plants surveyed in several years for comparison with our paleoecological data. However, when discussing the representativeness of plant residues in this study, we focused only on submerged taxa with photosynthetic parts that predominantly grow underwater and excluded wetland and emergent plants (Davidson et al. <xref rid="ece370878-bib-0014" ref-type="bibr">2005</xref>). This exclusion was justified as wetland and emergent plants tend to be deposited near their source plant close to the shorelines and are rarely found at core sites.</p><p>To gather background information on the sedimentary records analyzed in this study, we collected long‐term historical data from various sources including published studies (Shu et al. <xref rid="ece370878-bib-0046" ref-type="bibr">2012</xref>; Wu et al. <xref rid="ece370878-bib-0059" ref-type="bibr">2015</xref>; Yang et al. <xref rid="ece370878-bib-0064" ref-type="bibr">2009</xref>; Yu et al. <xref rid="ece370878-bib-0066" ref-type="bibr">2014</xref>; Zhang, Xin, and Liang <xref rid="ece370878-bib-0076" ref-type="bibr">2007</xref>) and the China Statistical Yearbooks Database. These data included parameters such as climate, hydrology, and human activities for Lake Nansi and its surrounding basin (Figure <xref rid="ece370878-fig-0002" ref-type="fig">2a–f</xref>). Major transformations have been observed in Lake Nansi and its surrounding region over the past approximately 70 years due to the combined impacts of climate change and anthropogenic activities.</p></sec><sec id="ece370878-sec-0005"><label>2.3</label><title>Sediment Sampling and Analyses</title><p>In October 2018, a 60 cm long sediment core was collected at a water depth of 2.2 m in Lake Weishan, using a gravity corer with an outer diameter of 60 mm (34°36′39″ N, 117°11′16″ E; Figure <xref rid="ece370878-fig-0001" ref-type="fig">1c</xref>). Sub‐samples were taken at intervals of 1 cm in the field and stored below temperatures of 4°C until further processing for analysis. The sub‐samples underwent examination for radionuclide activity (<sup>210</sup>Pb and <sup>137</sup>Cs), particle size, loss on ignition (LOI<sub>550</sub> and LOI<sub>950</sub>), and plant macrofossils.</p><p>The specific activity test of <sup>210</sup>Pb and <sup>137</sup>Cs involves a gamma‐energy spectrum analysis system consisting of an HPGe well detector (HPGe GwL‐120‐15, EG&amp;G, USA) manufactured by EG&amp;G ORTEC and a 16 K multichannel analyzer integrated with an IBM microcomputer. The specific activity of <sup>210</sup>Pb is determined based on the gamma‐ray peak area at 46.5 keV. The short‐lived radionuclide <sup>214</sup>Pb, derived from the decay of <sup>226</sup>Ra, is used to calculate the specific activity of <sup>226</sup>Ra through spectral peak area measurement (at 352 keV) (Appleby <xref rid="ece370878-bib-0001" ref-type="bibr">2001</xref>; Nahm et al. <xref rid="ece370878-bib-0035" ref-type="bibr">2010</xref>). The difference between the specific activities of <sup>210</sup>Pb and its parent nuclide, i.e., <sup>226</sup>Ra, provides us with the specific activity value for <sup>210</sup>Pb<sub>ex</sub>. Similarly, the specific activity of <sup>137</sup>Cs is calculated using the peak area in its gamma‐ray spectrum at 662 keV. Finally, the deposition age was determined by measuring these specific activities.</p><p>The Malvern Mastersizer‐2000 laser optical particle‐size analyzer (Malvern, United Kingdom) was used to measure the particle size distribution. Prior to analysis, carbonates were eliminated by treating with 10% HCl, and organic matter was removed using 30% H<sub>2</sub>O<sub>2</sub> along with sodium hexametaphosphate as a dispersing agent. Clay particles were categorized as less than 4 μm, fine silt ranged from 4 to 16 μm, coarse silt spanned between 16 and 64 μm, and sand particles were larger than 64 μm. The median particle size (MD) was calculated to determine the central tendency of the particle size distributions.</p><p>The Loss on Ignition (LOI) was determined using standard procedures, involving a 5 h combustion at 550°C and a 2 h combustion at 950°C (Heiri, Lotter, and Lemcke <xref rid="ece370878-bib-0020" ref-type="bibr">2001</xref>). The LOI method is commonly used to measure the mass loss of lacustrine sediments at specific temperatures (550°C and 950°C) in order to quantify the content of organic matter and carbonates. LOI<sub>550</sub> represents the complete decomposition of organic carbon, while LOI<sub>950</sub> indicates the complete decomposition of carbonates (Yang et al. <xref rid="ece370878-bib-0062" ref-type="bibr">2015</xref>).</p><p>For processing plant macrofossil samples, we followed the standard procedure (Birks <xref rid="ece370878-bib-0004" ref-type="bibr">2001</xref>): sediment samples of 25–50 cm<sup>3</sup> were extracted and dispersed using a solution containing 10% Na<sub>4</sub>P<sub>2</sub>O<sub>7</sub>·10H<sub>2</sub>O as a dispersant. The dispersed sediment was then sieved through mesh sieves with pore sizes of 250 μm and 125 μm to obtain plant residues of different sizes. These residues were placed in a petri dish filled with water (depth: 2–3 mm) and identified and counted under a microscope (magnification: 10–100×). All residues larger than 250 μm were counted, while one‐fourth of the residues within the size range of 125–250 μm were counted and adjusted to represent the total count. The identification process primarily involved aquatic plant seeds, fruits, leaves, oospores (such as <italic toggle="yes">Chara</italic>), and scaly roots. Most specimens could be identified at the genus or species level using published model species plates literature by Beijerinck (<xref rid="ece370878-bib-0078" ref-type="bibr">1947</xref>), Berggren (<xref rid="ece370878-bib-0079" ref-type="bibr">1969</xref>, <xref rid="ece370878-bib-0080" ref-type="bibr">1981</xref>), Birks (<xref rid="ece370878-bib-0004" ref-type="bibr">2001</xref>), Haas (<xref rid="ece370878-bib-0081" ref-type="bibr">1994</xref>), Mauquoy &amp; van Geel (<xref rid="ece370878-bib-0082" ref-type="bibr">2007</xref>), the Scientific Database of Chinese Plant Species (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://db.kib.ac.cn/CNFlora/SearchEngine.aspx" ext-link-type="uri">http://db.kib.ac.cn/CNFlora/SearchEngine.aspx</ext-link>), and previously collected remnants of aquatic plants. Additionally, certain animal remains such as cladoceran ephippia and bryozoan statoblasts were also identified during the macrofossil analysis.</p><p>The TiliaGraph procedure was used to illustrate the temporal variation in plant macrofossil concentrations in the lake, generating a stratigraphic figure. These concentration levels directly reflect changes in diverse aquatic plants, providing valuable insights into the composition and evolution of aquatic plant communities over time. To analyze ecological succession patterns within these communities, all plant macrofossil species were categorized based on different types: submerged, floating‐leaved, free‐floating, and emergent plants. Additionally, variations in the diversity of aquatic plants during different time intervals were demonstrated using Hill's N2 diversity index (Hill <xref rid="ece370878-bib-0021" ref-type="bibr">1973</xref>) combined with major environmental variables.</p></sec><sec id="ece370878-sec-0006"><label>2.4</label><title>Data Analysis</title><p>The plant macrofossil zones in the core were identified using the constrained incremental sum of squares (CONISS) facility in computer programs TILIA and TILIAGRAPH (Grimm <xref rid="ece370878-bib-0019" ref-type="bibr">2011</xref>). Temporal patterns of the macrophyte community and their relationships with invertebrate changes and environmental parameters were explored through multiple factor analysis (MFA) using R packages “FactoMiner” and “Factoextra” (Pagès <xref rid="ece370878-bib-0036" ref-type="bibr">2002</xref>). An MFA was initially conducted to compare sediment core records from the past 160 years, including macrophytes, bryozoans, cladocerans, physical parameters, and geochemical parameters. This multivariate technique facilitated classifying core depths based on quantitative variable sets grouped into categories such as macrophytes, bryozoans, cladocerans, physical data (particle size), and geochemical data (LOI<sub>550</sub> and LOI<sub>950</sub>). Subsequently, a narrower time period from the mid‐20th century to present day was examined to investigate the impact of natural and anthropogenic variables on long‐term macrophyte fluctuations in the lake. The MFA incorporated analyses of sediment core groups along with climatic factors (water level and disaster areas of floods and droughts), hydrological factors (water level, disaster areas of floods and droughts), and human‐related factors (total agricultural, industrial, and fishery output values, as well as total population). All data underwent ln (<italic toggle="yes">x</italic> + 1) transformations prior to MFA analysis for consistency across variables. This comprehensive analysis considered contributions from all variable groups when determining multivariate spatial distances between core depth samples (Salgado et al. <xref rid="ece370878-bib-0040" ref-type="bibr">2020</xref>).</p></sec></sec><sec sec-type="results" id="ece370878-sec-0007"><label>3</label><title>Results</title><sec id="ece370878-sec-0008"><label>3.1</label><title>Chronology</title><p>Considering sediment compaction, the mass depth of the sediment was used as a proxy for its actual thickness. The overall decline of <sup>210</sup>Pb activity in the Lake Weishan core followed an exponential trend with increasing mass depth, although there were fluctuations within a wide range (Figure <xref rid="ece370878-fig-0003" ref-type="fig">3a</xref>). Therefore, we established an age–mass depth model for the Lake Weishan core based on the <sup>210</sup>Pb constant rate of supply (CRS) model (Figure <xref rid="ece370878-fig-0003" ref-type="fig">3b</xref>). Dates below 22 g/cm<sup>2</sup> were extrapolated using the average sedimentation rate, and the entire stratigraphy (36 g/cm<sup>2</sup>) represented sediments from approximately 1855–2018.</p><fig position="float" fig-type="FIGURE" id="ece370878-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Chronology of the Weishan Lake core: (a) activity of <sup>210</sup>Pb<sub>total</sub>, <sup>226</sup>Ra, <sup>210</sup>Pb<sub>ex</sub>, and <sup>137</sup>Cs, (b) age–mass depth model. CRS: Constant rate of supply.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ECE3-15-e70878-g005.jpg"><?image-name ECE3-15-e70878-g005.jpg?><?image-size 109247?><?image-md5 e39dcdb7ce7e8943ef9ba553cc438f90?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1404?><?image-original-width 996?><?image-scaled-height 936?><?image-scaled-width 664?><?image-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/e39dcdb7ce7e/ECE3-15-e70878-g005.jpg?><?thumb-name ECE3-15-e70878-g005.gif?><?thumb-size 4338?><?thumb-md5 e64e054b3825a3dca7989eeea49c6283?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 141?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/e64e054b3825/ECE3-15-e70878-g005.gif?></graphic></fig><p>The activity of <sup>137</sup>Cs in the Lake Weishan core shows a surface accumulation trend. In the sediment profile, the time when <sup>137</sup>Cs was first detected (validated by the <sup>210</sup>Pb chronology) is significantly delayed compared to its initial deposition in the early 1950s. This observation aligns with a previous study conducted in Lake Nansi, suggesting that substantial losses of <sup>137</sup>Cs from sediment through diffusion and outflows may contribute to this phenomenon (Ding et al. <xref rid="ece370878-bib-0015" ref-type="bibr">2015</xref>). Additionally, Lake Nansi's characteristics as a large shallow lake dominated by macrophytes, abundant aquatic plants, and organic matter concentrated primarily in the upper sediment layers derived from decaying remains within the lake ecosystem may play a role. Since <sup>137</sup>Cs has a high affinity for adsorption onto organic matter, it accumulates toward the surface accordingly. Therefore, we conclude that using <sup>137</sup>Cs as a temporal indicator for our research is impractical.</p></sec><sec id="ece370878-sec-0009"><label>3.2</label><title>Plant Macrofossils</title><p>The analysis of plant macrofossils identified a total of 26 taxa, including 15 submerged species (<italic toggle="yes">Potamogeton lucens</italic>, <italic toggle="yes">Potamogeton malaianus, Potamogeton maackianus</italic>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Potamogeton crispus</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Myriophyllum spicatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Myriophyllum verticillatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ceratophyllum demersum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Hydrilla verticillata</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Najas marina</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Najas minor</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vallisneria natans</italic>
+</styled-content>, <italic toggle="yes">Vallisneria spinulosa</italic>, <italic toggle="yes">Chara</italic> sp., <italic toggle="yes">Nitella</italic> sp., and <italic toggle="yes">Ranunculus trichophyllu</italic>), four floating‐leaved species (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Trapa natans</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Euryale ferox</italic>
+</styled-content>, Nymphaeaceae, <italic toggle="yes">Nymphoides peltatum</italic>), and seven emergent/wetland species (Cyperaceae, <italic toggle="yes">Polygonum</italic> sp., <italic toggle="yes">Typha</italic> sp., <italic toggle="yes">Rumex</italic> sp., <italic toggle="yes">Alisma plantago</italic>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Rorippa islandica</italic>
+</styled-content>, and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Equisetum fluviatile</italic>
+</styled-content>). CONISS was used to divide the core sample into four zones and further subdivide them into three sub‐zones (Figure <xref rid="ece370878-fig-0004" ref-type="fig">4</xref>).</p><fig position="float" fig-type="FIGURE" id="ece370878-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Stratigraphic plots of macrophyte remains (green—submerged, red—floated‐leaved/free floating, and purple—emerged/wetland) in the Weishan Lake core. Note the variable scaling of the <italic toggle="yes">x</italic>‐axis. Figures <xref rid="ece370878-supitem-0001" ref-type="supplementary-material">S1</xref> and <xref rid="ece370878-supitem-0001" ref-type="supplementary-material">S2</xref> showcase photographs of these remains.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ECE3-15-e70878-g002.jpg"><?image-name ECE3-15-e70878-g002.jpg?><?image-size 93549?><?image-md5 7690527d605f6c3a1f3e93b1e3a4ff3b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 579?><?image-original-width 1064?><?image-scaled-height 386?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/7690527d605f/ECE3-15-e70878-g002.jpg?><?thumb-name ECE3-15-e70878-g002.gif?><?thumb-size 5502?><?thumb-md5 30ec1e24993f05bb96b1697c2a521b54?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 147?><?thumb-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/30ec1e24993f/ECE3-15-e70878-g002.gif?></graphic></fig><p>Zone I, the lowest zone (60–51 cm; ca. 1855–1875), exhibited a diverse assemblage of submerged <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. demersum</italic>
+</styled-content>, floating <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content>, emergent/wetland taxa including <italic toggle="yes">Polygonum</italic> sp., Cyperaceae, and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">R. islandica</italic>
+</styled-content>, along with sporadic occurrences of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. crispus</italic>
+</styled-content>, <italic toggle="yes">Chara</italic> sp., and Nymphaeaceae. The average density per 100 cm<sup>3</sup> was recorded at 1139 individuals. Additionally, there was a relatively high abundance of ephippia from littoral cladocerans and statoblasts from bryozoans.</p><p>Zone II (51–37 cm; ca. 1875–1910) witnessed a rapid increase in the concentrations of submerged macrofossils, with an average of 1999 individuals per 100 cm<sup>3</sup>. Remarkably, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. crispus</italic>
+</styled-content> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. spicatum</italic>
+</styled-content> emerged as dominant species, while novel taxa such as <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. lucens</italic>
+</styled-content>, <italic toggle="yes">P. malaianus</italic>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">H. verticillata</italic>
+</styled-content>, and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. marina</italic>
+</styled-content> were observed. However, the abundance of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. demersum</italic>
+</styled-content> remains declined. Floating‐leaved aquatics showed a significant decrease, with <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content> experiencing a pronounced decline and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">T. natans</italic>
+</styled-content> experiencing an exponential growth. Emergent species had sporadic occurrences with an overall reduction in concentration.</p><p>In Zone III (37–6 cm; ca. 1910–2005), there was a significant decline in the concentrations of submerged, floating, and emergent plants, with an average concentration of 302 individuals per 100 cm<sup>3</sup>. Episodic occurrences of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. demersum</italic>
+</styled-content>, <italic toggle="yes">Potamogeton</italic> species, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. verticillatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. minor</italic>
+</styled-content>, Charophyta, and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content> were noted but at low concentrations. Bryozoans and littoral cladocerans also showed reduced abundance. Zone III was divided into three subzones: III‐1 (37–22 cm; ca. 1910–1967), III‐2 (22–14 cm; ca. 1967–1988), and III‐3 (14–6 cm; ca. 1988–2005). In Zone III‐1, most species either disappeared or experienced a substantial decline in abundance compared to Zone II. However, within Zone III‐2, there was an increase in the concentration of remains for specific submerged plants like Charophyta (<italic toggle="yes">Chara</italic> and <italic toggle="yes">Nitella</italic>), accompanied by a significant enhancement in the N2 diversity index. Nevertheless, starting from Zone III‐3 onward, both macrofossil remains' concentrations and the N2 diversity index declined subsequently.</p><p>In Zone IV (6–0 cm; ca. 2005–2018), macrofossil concentrations significantly increased, with most species either appearing or experiencing abundant growth. Submerged species reached their highest values throughout the core, with an average concentration of 5855 individuals per 100 cm<sup>3</sup> of the sediment. Dominant submerged species included <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. spicatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. lucens</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">H. verticillata</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. demersum</italic>
+</styled-content>, <italic toggle="yes">Vallisneria</italic> species, and Charophyta. Additionally, there was a noticeable increase in floating‐leaved aquatic remains primarily represented by <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content>, Nymphaeaceae, and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">T. natans</italic>
+</styled-content>. Furthermore, emergent/wetland taxa showed a significant rise with an average concentration of 195 individuals per 100 cm<sup>3</sup> including Cyperaceae, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">R. islandica</italic>,</styled-content> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">E. fluviatile</italic>
+</styled-content>.</p></sec><sec id="ece370878-sec-0010"><label>3.3</label><title>Comparison of the Historical and Macrofossil Records</title><p>In total, there were 35 aquatic taxa documented across the three surveys in the historical records: 12 submerged plants, 13 floating‐leaved plants, and 10 floating plants (Table <xref rid="ece370878-tbl-0002" ref-type="table">2</xref>). A successful identification was achieved for 19 species, representing 54.3%, based on the analysis of plant macrofossils. This <italic toggle="yes">includes</italic> 15 submerged and 4 floating‐leaved taxa (see Table <xref rid="ece370878-tbl-0002" ref-type="table">2</xref>). Prominent historical macrophyte species, such as <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">H. verticillata</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. spicatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. lucens</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. crispus</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. demersum</italic>,</styled-content> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content>, exhibited a significant presence based on their well‐preserved macrofossils. Plant macrofossils uncovered five previously unrecorded submerged taxa including <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. verticillatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">R. trichophyllus</italic>
+</styled-content>, <italic toggle="yes">Chara</italic> sp., <italic toggle="yes">Nitella</italic> sp., and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. spinulosa</italic>
+</styled-content>. However, two specific submerged taxa, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Utricularia vulgaris</italic>
+</styled-content> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Potamogeton pectinatus</italic>
+</styled-content>, lacked discernible sedimentary remains. Hence, the plant macrofossils effectively captured the predominant components of the aquatic flora in Weishan Lake with a particular emphasis on representing submerged plants' diversity. However, limited representation in fossilized remains restricts documentation to only four taxa among numerous floating‐leaved and free‐floating plants (Nymphaeaceae, <italic toggle="yes">Trapa</italic> sp., and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content>).</p><table-wrap position="float" id="ece370878-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Aquatic macrophytes recorded in Nansi Lake 1983, 1995–1996, and 2010 with information on their representation by macrofossils (M) in the sediment core. (*shows modern plants in the survey records; M shows macrofossils found in the sediment core; − shows no record;? shows Trapa remains can only be identified as genera and not as specific species.)</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Vegetation type</th><th align="center" valign="bottom" rowspan="1" colspan="1">Species</th><th align="center" valign="bottom" rowspan="1" colspan="1">1983</th><th align="center" valign="bottom" rowspan="1" colspan="1">1995–1996</th><th align="center" valign="bottom" rowspan="1" colspan="1">2010</th><th align="center" valign="bottom" rowspan="1" colspan="1">Macrofossils</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Submerged taxa</td><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ceratophyllum demersum</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Myriophyllum spicatum</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Myriophyllum verticillatum</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Utricularia vulgaris</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Potamogeton crispus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Potamogeton malaianus</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Potamogeton lucens</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Potamogeton maackianus</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Potamogeton pectinatus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Najas marina</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Najas minor</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Hydrilla verticillata</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">
+<styled-content style="fixed-case" toggle="no">Vallisneria spiralis</styled-content>/natans</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Vallisneria spinulosa</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Nitella</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Chara</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ranunculus trichophyllus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Total submerged</td><td align="center" valign="top" rowspan="1" colspan="1">12</td><td align="center" valign="top" rowspan="1" colspan="1">12</td><td align="center" valign="top" rowspan="1" colspan="1">9</td><td align="center" valign="top" rowspan="1" colspan="1">15</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Floated‐leaved taxa</td><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Potamogeton distinctus</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Marsilea quadrifolia</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Polygonum amphibium</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Nelumbo nucifera</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Euryale ferox</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Trapa quadrispinosa</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">?</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Trapa acornis</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">?</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Trapa pseudoincisa</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">?</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Trapa potaninii</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">?</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Trapa bispinosa</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">?</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Nymphoides peltatum</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">M</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Nymphoides indica</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Trapella sinensis</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Total floated‐leaved</td><td align="center" valign="top" rowspan="1" colspan="1">13</td><td align="center" valign="top" rowspan="1" colspan="1">9</td><td align="center" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1">4</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Free‐floating taxa</td><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Hydrocharis dubia</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ceratopteris pteridoides</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Azola imbricata</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Salvinia natans</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lemna trisulca</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lemna minor</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Spirodela polyrrhiza</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Wolffia arrhiza</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Eichhornia crassipes</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Pistia stratiotes</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">*</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Total free‐floating</td><td align="center" valign="top" rowspan="1" colspan="1">8</td><td align="center" valign="top" rowspan="1" colspan="1">9</td><td align="center" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">0</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Total aquatic taxa</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">33</td><td align="center" valign="top" rowspan="1" colspan="1">30</td><td align="center" valign="top" rowspan="1" colspan="1">15</td><td align="center" valign="top" rowspan="1" colspan="1">19</td></tr></tbody></table></table-wrap></sec><sec id="ece370878-sec-0011"><label>3.4</label><title>Multiple Factor Analysis</title><p>The long‐term ecological and environmental evolution is compared comprehensively using various parameters, including plant macrofossils (submerged, floating‐leaved and free‐floating, emergent and wetland plants, and the N2 diversity index of macrophytes), animal remains (such as bryozoan statoblast density and littoral and planktonic cladoceran ephippia), physicochemical data (LOI<sub>550</sub>, LOI<sub>950</sub>, and grain size compositions/median grain size), and hydrological data (flood and drought records, water level). Figure <xref rid="ece370878-fig-0005" ref-type="fig">5</xref> presents a comprehensive comparison of these parameters.</p><fig position="float" fig-type="FIGURE" id="ece370878-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Long‐term records collected for Weishan Lake, including macrofossil density of submerged, floating‐leaved and free‐floating and emergent/wetland plants; macrofossil N2 diversity index; bryozoan statoblast density; littoral and planktonic cladocerans ephippia density; LOI<sub>550</sub> and LOI<sub>950</sub> measurements; median grain size and grain size compositions (from left to right: clay, fine silt, coarse silt, and sand); and water‐level fluctuations and flood/drought records.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ECE3-15-e70878-g001.jpg"><?image-name ECE3-15-e70878-g001.jpg?><?image-size 75819?><?image-md5 6dfaad160f0faa30b2d06d12ce58be92?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 612?><?image-original-width 1064?><?image-scaled-height 408?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/6dfaad160f0f/ECE3-15-e70878-g001.jpg?><?thumb-name ECE3-15-e70878-g001.gif?><?thumb-size 4456?><?thumb-md5 0fe5b4d25b7be7e9428ed4cf56d3d302?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 139?><?thumb-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/0fe5b4d25b7b/ECE3-15-e70878-g001.gif?></graphic></fig><p>The MFA analysis conducted on the complete sediment core records revealed the first two dimensions accounted for 37.3% of the total variation, effectively distinguishing the four macrophyte zones in the MFA biplot (Figure <xref rid="ece370878-fig-0006" ref-type="fig">6</xref>). Samples from Zones I and II vary along the gradient of high sand and organic content, mainly consisting of emergent <italic toggle="yes">Polygonum</italic> sp., floating‐leaved Nymphaeaceae, alongside littoral Cladocera, moving toward the gradient of coarser silt content and increased concentrations of submerged macrophyte remains, bryozoan genera <italic toggle="yes">Lophopodella</italic> and <italic toggle="yes">Plumatella</italic>, and planktonic cladocerans (Figure <xref rid="ece370878-fig-0006" ref-type="fig">6</xref>). In Zone III, there is a noticeable reduction in the abundance of both macrophyte and animal remains; however, it is worth noting that samples taken at a depth of 16–20 cm (approximately corresponding to the years 1972–1983) were found adjacent to Zone II. Finally, Zone IV displays heightened concentrations of various types of macrophytes, suggesting a recent shift into a new state for the lake.</p><fig position="float" fig-type="FIGURE" id="ece370878-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Multiple factor analysis (MFA) plots for the entire sediment core records, showing (a) variation and contribution of biological (macrophyte—triangles; sessile invertebrates <italic toggle="yes">Plumatella</italic> and <italic toggle="yes">Lophopodella</italic>—crosses; Cladocera—star, geochemical (LOI<sub>550</sub> and LOI<sub>950</sub>‐squares) and physical (grain size—rhombuses) sedimentary data for the entire Weishan Lake core. Major zones of macrophyte community changes are indicated with circles (Zone I, light purple area), stars (Zone II, light orange area), squares (Zone III, light blue area), and pentagons (Zone IV, light pink area). The contribution of each variable is indicated according to a color scale, with red denoting the highest and green the lowest value. Black dashed arrows represent the temporal trajectory of the sediment sample change. (b) contributions of quantitative variables to dimension 1 and dimension 2. <italic toggle="yes">My‐spi</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Myriophyllum spicatum</italic>
+</styled-content>, <italic toggle="yes">Pot</italic>‐spp = <italic toggle="yes">Potamogeton</italic> spp., <italic toggle="yes">Tr‐na</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Trapa natans</italic>
+</styled-content>, <italic toggle="yes">Va‐spi</italic> = <italic toggle="yes">Vallisneria spinulosa</italic>, <italic toggle="yes">Hy‐ve</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Hydrilla verticillata</italic>
+</styled-content>, <italic toggle="yes">Pot‐cr</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Potamogeton crispus</italic>
+</styled-content>, <italic toggle="yes">Gl‐ec = Gloeotrichia echinulate, Pot‐lu = Potamogeton lucens, Cyper</italic> = Cyperaceae, <italic toggle="yes">Ro‐is</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Rorippa islandica</italic>
+</styled-content>, <italic toggle="yes">Na‐ma</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Najas marina</italic>
+</styled-content>, <italic toggle="yes">Ch</italic>‐sp = <italic toggle="yes">Chara</italic> sp., <italic toggle="yes">Ni</italic>‐sp = <italic toggle="yes">Nitella</italic> sp., <italic toggle="yes">Ny‐pe</italic> = <italic toggle="yes">Nymphoides peltatum</italic>, <italic toggle="yes">Ce‐de</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ceratophyllum demersum</italic>
+</styled-content>, <italic toggle="yes">Va‐na</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vallisneria natans</italic>
+</styled-content>, <italic toggle="yes">Pot‐ma</italic> = <italic toggle="yes">Potamogeton malaianus, Na‐mi</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Najas minor</italic>
+</styled-content>, <italic toggle="yes">Nymph</italic> = Nymphaeaceae, <italic toggle="yes">Pol‐sp</italic> = <italic toggle="yes">Polygonum</italic> sp., <italic toggle="yes">Plum</italic> = <italic toggle="yes">Plumatella</italic>, <italic toggle="yes">Loph</italic> = <italic toggle="yes">Lophopodella</italic>, L‐Cla = littoral cladocerans, P‐Cla = planktonic cladocerans, F‐silt = fine silt, C‐silt = coarse silt.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="ECE3-15-e70878-g003.jpg"><?image-name ECE3-15-e70878-g003.jpg?><?image-size 89948?><?image-md5 3e8513419063dae9de2cb491f4bea7b8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 631?><?image-original-width 1064?><?image-scaled-height 420?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/3e8513419063/ECE3-15-e70878-g003.jpg?><?thumb-name ECE3-15-e70878-g003.gif?><?thumb-size 5713?><?thumb-md5 9ca818b47c2979fb3f4db5ddeb158618?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 134?><?thumb-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/9ca818b47c29/ECE3-15-e70878-g003.gif?></graphic></fig><p>During the period 1956–2014, an MFA of sediment records, historical climatic and hydrological data, as well as social parameters, revealed that the first two dimensions accounted for 47.2% of the total variation (Figure <xref rid="ece370878-fig-0007" ref-type="fig">7</xref>). The temporal trajectory of sediment sample changes during this period suggests that the lake has undergone intricate and profound alterations in its aquatic macrophyte composition over the past six decades (Figure <xref rid="ece370878-fig-0007" ref-type="fig">7</xref>).</p><fig position="float" fig-type="FIGURE" id="ece370878-fig-0007" orientation="portrait"><label>FIGURE 7</label><caption><p>Multiple factor analysis (MFA) plots for the period 1956–2018 for which historical data were available, showing (a) variation and contribution of the biological, physical, and geochemical sedimentary data with historical hydrological data (WL, Flood and Drought—inverted triangles), climatic data (Temp, Precip and PDSI—circles), human data (Popul, Indust, Agric and Fishery—pentagons). The contribution of each variable is indicated according to a color scale, with red denoting the highest and green the lowest value. Black dashed arrows represent the temporal trajectory of the sediment sample change. (b) Contributions of quantitative variable groups to dimension 1 and dimension 2. <italic toggle="yes">My‐spi</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Myriophyllum spicatum</italic>
+</styled-content>, <italic toggle="yes">Pot</italic>‐spp = <italic toggle="yes">Potamogeton</italic> spp., <italic toggle="yes">Tr‐na</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Trapa natans</italic>
+</styled-content>, <italic toggle="yes">Va‐spi</italic> = <italic toggle="yes">Vallisneria spinulosa</italic>, <italic toggle="yes">Hy‐ve</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Hydrilla verticillata</italic>
+</styled-content>, <italic toggle="yes">Pot‐cr</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Potamogeton crispus</italic>
+</styled-content>, <italic toggle="yes">Gl‐ec = Gloeotrichia echinulate, Pot‐lu = Potamogeton lucens, Cyper</italic> = Cyperaceae, <italic toggle="yes">Ro‐is</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Rorippa islandica</italic>
+</styled-content>, <italic toggle="yes">Na‐ma</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Najas marina</italic>
+</styled-content>, <italic toggle="yes">Ch</italic>‐sp = <italic toggle="yes">Chara</italic> sp., <italic toggle="yes">Ni</italic>‐sp = <italic toggle="yes">Nitella</italic> sp., <italic toggle="yes">Ny‐pe</italic> = <italic toggle="yes">Nymphoides peltatum</italic>, <italic toggle="yes">Ce‐de</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ceratophyllum demersum</italic>
+</styled-content>, <italic toggle="yes">Va‐na</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vallisneria natans</italic>
+</styled-content>, <italic toggle="yes">Pot‐ma</italic> = <italic toggle="yes">Potamogeton malaianus, Na‐mi</italic> = <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Najas minor</italic>
+</styled-content>, <italic toggle="yes">Nymp</italic> = Nymphaeaceae, <italic toggle="yes">Pol‐sp</italic> = <italic toggle="yes">Polygonum</italic> sp., <italic toggle="yes">Ty</italic>‐sp = <italic toggle="yes">Typha</italic> sp., <italic toggle="yes">Plum</italic> = <italic toggle="yes">Plumatella</italic>, <italic toggle="yes">Loph</italic> = <italic toggle="yes">Lophopodella</italic>, L‐Cla = littoral cladocerans, P‐Cla = planktonic cladocerans, F‐silt = fine silt, C‐silt = coarse silt, Precip = precipitation, WL = water level, PDSI = palmer drought severity index, Flood = disaster area affected by floods, Drought = disaster area affected by droughts, Temp = air temperature, Popul = populations, Agric = agricultural output values, Indust = industrial output values, Fishery = fisheries output values.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="ECE3-15-e70878-g004.jpg"><?image-name ECE3-15-e70878-g004.jpg?><?image-size 100084?><?image-md5 c4d0b17fb6acb54aec9f9e14c2d39d92?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 646?><?image-original-width 1064?><?image-scaled-height 430?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/c4d0b17fb6ac/ECE3-15-e70878-g004.jpg?><?thumb-name ECE3-15-e70878-g004.gif?><?thumb-size 5687?><?thumb-md5 d846f162d29409fabddffe167f369e79?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 131?><?thumb-cloudpmc-urn urn:cdn:blobs/7dfd/11755067/d846f162d294/ECE3-15-e70878-g004.gif?></graphic></fig></sec></sec><sec sec-type="discussion" id="ece370878-sec-0012"><label>4</label><title>Discussion</title><sec id="ece370878-sec-0013"><label>4.1</label><title>Long‐Term Dynamics of Aquatic Macrophytes</title><p>Our findings demonstrate that the dominant macrophyte species historically documented in Weishan Lake, such as <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">H. verticillata</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. spicatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. lucens</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. crispus</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. demersum,</italic>
+</styled-content> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content>, are well represented by plant macrofossils. These macrofossils constitute approximately 54.3% of the documented aquatic species in Nansi Lake. This discovery surpasses previous comparative studies conducted on other shallow lakes in Europe (Davidson et al. <xref rid="ece370878-bib-0014" ref-type="bibr">2005</xref>; Madgwick et al. <xref rid="ece370878-bib-0033" ref-type="bibr">2011</xref>; Salgado et al. <xref rid="ece370878-bib-0039" ref-type="bibr">2010</xref>; Kornijów et al. <xref rid="ece370878-bib-0028" ref-type="bibr">2016</xref>; Kowalewski et al. <xref rid="ece370878-bib-0029" ref-type="bibr">2013</xref>) and China's Yangtze region (Zhang et al. <xref rid="ece370878-bib-0071" ref-type="bibr">2019</xref>, <xref rid="ece370878-bib-0070" ref-type="bibr">2022</xref>), which reported preserved macrophyte proportions ranging from 37% to 49% using plant macrofossil records from sediment cores. Our result records date back to before the formation of unified Nansi Lake and extend until present times, encompassing the period following the implementation of SNWDP‐ER. These records offer a comprehensive historical account of how aquatic macrophytes have responded to both natural changes and human activities over time periods spanning climate variations and anthropogenic influences alike. Through multiproxy analysis and MFA (as depicted in Figures <xref rid="ece370878-fig-0005" ref-type="fig">5</xref>, <xref rid="ece370878-fig-0006" ref-type="fig">6</xref>, <xref rid="ece370878-fig-0007" ref-type="fig">7</xref>), we elucidate the impacts of hydrological changes and pollution input on the composition and succession patterns of macrophyte communities in Weishan Lake throughout its history, driven by flood disturbances, climate variations, and human actions. After analyzing multiple indices, long‐term watershed records, and MFA results, four key stages defining the evolution of aquatic macrophyte communities in Weishan Lake over a span exceeding 160 years were identified.</p><sec id="ece370878-sec-0014"><label>4.1.1</label><title>Macrophyte Communities Before the Formation of the Unified Nansi Lake (Zone I; Pre‐ca. 1875)</title><p>From 1855 to 1875, the macrophyte community in Lake Nansi was dominated by emergent and wetland plants such as <italic toggle="yes">Polygonum</italic> sp., <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">R. islandica</italic>
+</styled-content>, and Cyperaceae species. Additionally, floating‐leaved species like <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content> and Nymphaeaceae species were present, along with an underwater rootless submerged taxa <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. demersum</italic>
+</styled-content>. These findings suggest that the lake exhibited swamp‐like environmental conditions during this period due to the preference of these plants for stagnant or slow‐moving waters (Klok and van der Velde <xref rid="ece370878-bib-0027" ref-type="bibr">2022</xref>; Syed et al. <xref rid="ece370878-bib-0049" ref-type="bibr">2018</xref>). The presence of abundant littoral cladocerans associated with macrophytes and detritus further supports a littoral environment (Salgado et al. <xref rid="ece370878-bib-0040" ref-type="bibr">2020</xref>). Documentary evidence indicates shrinkage and declining water levels in the lake during that time due to diversion of Yellow River (Yu et al. <xref rid="ece370878-bib-0067" ref-type="bibr">2004</xref>), which further confirms this observation.</p><p>Historically, the Lake Nansi area has been significantly affected by Yellow River flooding due to its previous course along Route 1 (Figure <xref rid="ece370878-fig-0001" ref-type="fig">1b</xref>), which flowed into the Huai River before reaching the Yellow Sea prior to 1855. However, in 1855, due to avulsion and diversion downstream in Tongwaxiang, Lankao County, Henan Province (Figure <xref rid="ece370878-fig-0001" ref-type="fig">1b</xref>; route 2), the Yellow River changed its course and started discharging into the Bohai Sea instead. As a result of this change in the river flow pattern, reduced vulnerability to floods from the Yellow River was observed in the Nansi Lake area (Zhang et al. <xref rid="ece370878-bib-0075" ref-type="bibr">2002</xref>), while at the same time, there was a decrease in lake size and water levels (Yu et al. <xref rid="ece370878-bib-0067" ref-type="bibr">2004</xref>). An elevated LOI<sub>950</sub> value indicating carbonate enrichment also reflects this decline in lake level (Li et al. <xref rid="ece370878-bib-0030" ref-type="bibr">2019</xref>). The variability in median particle size and component content within Lake Weishan core sediments during this period is relatively minimal, suggesting a stable sedimentary environment at that time. Therefore, this phase was characterized by swampy‐like conditions with abundant emergent/wetland vegetation but limited submerged species.</p></sec><sec id="ece370878-sec-0015"><label>4.1.2</label><title>Flourishing Period of Submerged Plants Following the Integration of Lake Nansi (Zone <styled-content style="fixed-case" toggle="no">II</styled-content>; ca. 1875–1910)</title><p>Between 1875 and 1910, significant changes occurred in the lake ecosystem as a result of the Yellow River avulsion. The breach of the dike in Dongming County, Shandong Province (see Figure <xref rid="ece370878-fig-0001" ref-type="fig">1b</xref>), led to the inundation and merging of Lake Nanyang, Lake Shaoyang, Lake Dushan, and Lake Weishan into a unified natural system now known as Lake Nansi. Consequently, water levels rose and transformed previously swampy areas into a larger body of water. The decrease in the carbonate content observed after the 1870s indicated the dilution of lake water caused by rising levels, supported further by abundant ephippia of planktonic cladocerans during that period, suggesting a well‐developed pelagic community sustained by high lake levels (Zhu, Wang, and Brancelj <xref rid="ece370878-bib-0077" ref-type="bibr">2005</xref>). Except for a few years, variability in median particle size and component content within Lake Weishan's sediment core is minimal, reflecting a relatively stable sedimentary environment. A peak at 43 cm in median particle size dated approximately to 1897 likely indicates an influx of coarse particulate matter resulting from a significant flood event. This aligns with historical records documenting a flood occurrence in 1897.</p><p>These alterations significantly impacted the macrophyte community in Lake Weishan, leading to pronounced changes in submerged plant growth as evidenced by an increased abundance of their remains in lake sediments. This was accompanied by an increase in littoral cladocerans associated with macrophytes and detritus, indicating facilitated macrophyte growth within the lake at that time. Substantial modifications occurred in the composition of submerged macrophytes, including a marked increase in <italic toggle="yes">Potamogeton</italic> species (e.g., <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. crispus</italic>
+</styled-content>, <italic toggle="yes">P. malaianus</italic>, and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. lucens</italic>
+</styled-content>), <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. spicatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">H. verticillata</italic>
+</styled-content>, and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. marina</italic>
+</styled-content>, while there was a decline in nonrooted <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. demersum</italic>
+</styled-content>. Furthermore, there has been a noticeable degradation of emergent and floating plants due to reduced concentration of their remains caused by elevated water levels following habitat condition changes in the lake; this may have resulted in decreased germination and survival rates for emergent and floating plants or their movement toward the lake's edge as water levels rise. Therefore, it can be concluded that between 1875 and 1910 Lake Weishan maintained relatively stable hydrodynamic conditions with higher water levels and increased abundance of submerged macrophytes.</p></sec><sec id="ece370878-sec-0016"><label>4.1.3</label><title>Mass Disappearance of Macrophytes: Impacts of Floods, Droughts, and Human Activity (Zone <styled-content style="fixed-case" toggle="no">III</styled-content>; ca. 1910–2005)</title><p>Between approximately 1910 and 1965, there was a significant decline in aquatic vegetation characterized by sporadic species distribution, including <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. demersum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. lucens</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. crispus</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. spicatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content>, and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Euryale ferox</italic>
+</styled-content>. The reduction in bryozoan statoblasts and littoral cladocerans further suggests diminished substrate attachment due to frequent droughts and floods during this period that altered water levels and hydrodynamic conditions. Floods can have a catastrophic impact on aquatic macrophyte communities due to high water levels and increased turbidity, which reduce light availability during the growing season (Coops, Beklioglu, and Crisman <xref rid="ece370878-bib-0012" ref-type="bibr">2003</xref>). Conversely, drought events with low water levels can also harm plants through wave action in winter and desiccation in summer (Coops, Beklioglu, and Crisman <xref rid="ece370878-bib-0012" ref-type="bibr">2003</xref>). Furthermore, flood events likely played a predominant role in shaping the evolutionary trajectory of aquatic macrophytes during the period 1910–1970 (Zone III‐1), while drought events gained dominance thereafter (Zone III‐2 and III‐3), as supported by the MFA results shown in Figure <xref rid="ece370878-fig-0007" ref-type="fig">7</xref>. Historical data indicate that since the 1970s, there has been a decrease in precipitation and frequent occurrences of droughts in the Nansi Lake basin, resulting in a continuous decline in water levels depicted in Figure <xref rid="ece370878-fig-0002" ref-type="fig">2</xref>.</p><p>However, in the MFA analysis, samples at a depth of 16–20 cm (around 1972–1983) were found adjacent to Zone II samples. These anomalous data points may suggest stable hydrology and declining water levels during the onset of drought, potentially facilitating abundant charophyte (<italic toggle="yes">Chara</italic> and <italic toggle="yes">Nitella</italic>) oospores and species recovery. Previous studies have demonstrated that charophytes adapt their reproductive behavior to cope with fluctuating water levels (Wang, Liu, and Yu <xref rid="ece370878-bib-0055" ref-type="bibr">2015</xref>). For example, reduced water levels and increased light intensity can stimulate sexual reproduction and oospore maturation in charophytes (Casanova <xref rid="ece370878-bib-0010" ref-type="bibr">1994</xref>; Casanova and Brock <xref rid="ece370878-bib-0011" ref-type="bibr">1999</xref>; Wang and Yu <xref rid="ece370878-bib-0056" ref-type="bibr">2008</xref>). Furthermore, contemporary studies indicate that both the number (Asaeda, Rajapakse, and Sanderson <xref rid="ece370878-bib-0002" ref-type="bibr">2007</xref>; Brzozowski and Pełechaty <xref rid="ece370878-bib-0007" ref-type="bibr">2020</xref>) and size of oospores (Brzozowski et al. <xref rid="ece370878-bib-0006" ref-type="bibr">2019</xref>) can vary along a depth gradient, indicating that charophyte oospores may not only serve as sensitive bioindicators of water trophicity (Schubert et al. <xref rid="ece370878-bib-0044" ref-type="bibr">2018</xref>; Brzozowski and Pełechaty <xref rid="ece370878-bib-0008" ref-type="bibr">2022</xref>), but also reflect water level fluctuations (Brzozowski et al. <xref rid="ece370878-bib-0006" ref-type="bibr">2019</xref>). This finding is consistent with previous research conducted at Lake Liangzi (Zhang et al. <xref rid="ece370878-bib-0071" ref-type="bibr">2019</xref>) and Eastern Lake Taihu (Zhang et al. <xref rid="ece370878-bib-0070" ref-type="bibr">2022</xref>) within the Yangtze River floodplain, which revealed a significant increase in charophytes when water levels were lowered and hydrological disturbances were minimized. Therefore, the sample at a depth of 16 cm exhibited a notable rise in charophyte oospores due to the profound desiccation event that occurred in Lake Nansi during 1989. Additionally, charophytes are wintering species well‐suited for growth under stable conditions characterized by clear water with low to moderate nutrient content. Thus, the abundant presence of charophytes at the beginning of Zone III‐2 indicates a stable aquatic environment with good quality. Previous research has indicated that until the mid‐1980s, Lake Nansi's water quality largely complied with drinking standards (Class III).</p><p>However, since the late 1980s, Lake Nansi has experienced significant fluctuations in water levels due to anthropogenic upstream water diversion and excessive evaporation caused by dry climatic conditions. Furthermore, untreated discharge of industrial and agricultural sewage into the Lake Nansi basin has resulted in the degradation of water quality (Tian et al. <xref rid="ece370878-bib-0051" ref-type="bibr">2017</xref>), thereby impeding macrophyte proliferation. Consequently, there have been noticeable declines observed in both species diversity and abundance as indicated by the macrofossil record. Charophytes exhibited a distinct decline, while other species showed either a decline or fell below detection limits. By 2000, annual phosphorus input into the lake exceeded 382.1 tons, surpassing the national Class V water quality standard for phosphorus concentration in Lake Nansi's waters (Liu et al. <xref rid="ece370878-bib-0031" ref-type="bibr">2008</xref>). Therefore, flood events were predominant before the 1980s; however, from the 1980s onward, drought and water pollution became more prevalent factors shaping the evolution of aquatic macrophytes.</p></sec><sec id="ece370878-sec-0017"><label>4.1.4</label><title>Macrophyte Alterations Following Ecological Restoration and the Implementation of Water Diversion Projects (Zone <styled-content style="fixed-case" toggle="no">IV</styled-content>; After 2005)</title><p>Following the emergency ecological water transfers in December 2002, there was a sudden surge in lake water levels (Figure <xref rid="ece370878-fig-0002" ref-type="fig">2b</xref>). The increase in planktonic Cladocera also indicates the establishment of a well‐supported pelagic community of Cladocera due to the elevated water level during this phase. Furthermore, the implementation of pollution control measures in Nansi Lake was made possible by the construction of SNWDP‐ER project in 2002. Through rigorous environmental management and ecological restoration efforts, consistent improvement has been observed in the water quality within the Nansi Lake basin (Tian et al. <xref rid="ece370878-bib-0051" ref-type="bibr">2017</xref>). Hydrological and water quality changes have significantly influenced the aquatic plant community. The plant macrofossil record demonstrates a remarkable increase both in concentration and species abundance of aquatic plant residues, reflecting thriving aquatic vegetation and high biodiversity during this period. Dominant assemblages include <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. lucens</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. spicatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. demersum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">H. verticillata</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. spinulosa</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content> characterizing the aquatic macrophyte community. Additionally, an increase in charophyte species suggests improved water quality as they prefer stable oligotrophic waters with low to medium nutrient levels.</p><p>However, the implementation of the water diversion project in December 2013 has been found to have significant impacts on material input, hydrodynamic conditions, hydrological cycle processes, and habitat environments for aquatic organisms (Tan et al. <xref rid="ece370878-bib-0050" ref-type="bibr">2022</xref>). For example, there was a notable increase in total phosphorus levels, ammonia nitrogen concentrations, chlorophyll‐a content, and algae density during the period from 2013 to 2015 coinciding with the initial operation of the SNWDP‐ER (Tan et al. <xref rid="ece370878-bib-0050" ref-type="bibr">2022</xref>). These impacts could potentially affect both the structure and distribution of the macrophyte community within the lake. Our findings demonstrate a substantial rise in pollutant‐resistant species abundance (e.g., <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. spicatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">N. peltatum</italic>
+</styled-content>) within surface samples, indicating that an unprecedented transition has recently occurred in the lake, as depicted in MFA plots (Figures <xref rid="ece370878-fig-0006" ref-type="fig">6</xref> and <xref rid="ece370878-fig-0007" ref-type="fig">7</xref>). Furthermore, our results highlight interspecific variation nuances observed through a gradual shift from <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. natans</italic>
+</styled-content> dominance toward <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. spinulosa</italic>
+</styled-content> prevalence in surface samples. This discrepancy may stem from the fact that <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. spinulosa</italic>
+</styled-content> displays superior growth performance under elevated nutrient concentrations, while <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. natans</italic>
+</styled-content> exhibits enhanced adaptability to low‐to‐moderate nutrient levels. These results align with our previous investigations conducted in Yangtze floodplain and Lake Dongping within Yellow floodplain which revealed a pronounced increase in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. spinulosa</italic>
+</styled-content> at the expense of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. natans</italic>
+</styled-content> when nutrient loading escalated. In summary, this period witnessed improvements in aquatic environment facilitating abundant vegetation growth and enhanced primary productivity within the lake; however, simultaneous environmental threats also exist.</p></sec></sec><sec id="ece370878-sec-0018"><label>4.2</label><title>Implications for Lake Management</title><p>Our study provides a comprehensive and uninterrupted record of the macrophyte communities in Weishan Lake before disturbance, thereby addressing crucial knowledge gaps in the ecological understanding of lakes in the lower Yellow River region. This research establishes a robust scientific foundation for developing effective restoration and management strategies.</p><p>Furthermore, plant macrofossil analysis revealed five previously undocumented submerged taxa: <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. verticillatum</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">R. trichophyllus</italic>
+</styled-content>, <italic toggle="yes">Chara</italic> sp., <italic toggle="yes">Nitella</italic> sp., and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. spinulosa</italic>
+</styled-content>. Field investigations of aquatic vegetation can occasionally overlook rare plants and subtle interspecific variations due to factors such as dense vegetation, topographical constraints, fishing net barriers, or sampling methods. However, these overlooked species can yield valuable insights into environmental changes as they often leave substantial residues in sediments. For instance, charophyte species identified in this study frequently go unnoticed during field investigations but are recognized for their sensitivity to environmental factors. Monitoring their temporal changes can aid in assessing the ecological status during specific periods. Another challenge arises from <italic toggle="yes">Vallisneria</italic> species in the field due to their small reproductive organs, similar vegetative organs, and pronounced variability (Fu et al. <xref rid="ece370878-bib-0017" ref-type="bibr">2019</xref>). Nevertheless, sedimentary macrofossil analysis enables differentiation between distinct species based on seed remains, thus identifying both <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. spinulosa</italic>
+</styled-content> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. natans</italic>
+</styled-content> in this study. Survey records may not fully represent the aquatic flora at a specific location; however, examining sedimentary macrofossils can overcome this limitation.</p><p>In accordance with the requirements of the SNWDP, comprehensive measures have been implemented in the Nansi Lake basin for water quality monitoring and pollution control. However, persistent challenges remain in restoring and protecting not only Lake Nansi but also other impounded lakes along the SNWDP, including pollutant inputs, introduction of invasive species, hydrological changes due to water diversion, and effects of climate change. To effectively address these issues, we suggest integrating paleoecological methods into standard ecological monitoring protocols used for evaluating water ecological quality. This integration could serve as an early warning system for lake managers and facilitate a scientific assessment of the progressive impacts of water environment restoration efforts. For example, incorporating an examination of biological indicators such as aquatic macrophytes through surface sediment analysis in routine assessments enables prompt evaluation.</p></sec></sec><sec sec-type="conclusions" id="ece370878-sec-0019"><label>5</label><title>Conclusions</title><p>This study highlights the potential of using plant macrofossils to reconstruct long‐term variations in macrophyte community components, abundance, and ecosystem health assessment when monitoring records are limited in the lower Yellow River region. Our findings unveil that Weishan Lake has undergone four significant shifts in its macrophyte community over the past 160 years. These changes have been influenced by the migration of the Yellow River, modifications in hydrology resulting from both climatic fluctuations and human activities (such as anthropogenic upstream water diversion and the implementation of the SNWDP‐ER), as well as alterations in water quality.</p><p>Our study demonstrated a good representation of plant macrofossils, accounting for 54.3%, particularly submerged plants. However, there is still scope for improvement in future investigations including collecting additional sediment core samples dedicated to plant macrofossil analysis and implementing cross‐sectional sampling across various sub‐lakes spanning from coastal zones to open water areas. These measures aim to optimize the extraction of valuable information about aquatic plant residues within lakes. Significant variations exist in water quality and biological communities among different lake regions, especially those with large areas and complex shorelines where the diversity of aquatic vegetation distribution tends to be higher. Additionally, insufficient sample size during the post‐water transfer period resulted in inadequate discussion regarding the response of aquatic plant communities to water transfer projects; this aspect will receive more attention in subsequent studies.</p></sec><sec id="ece370878-sec-0024"><title>Author Contributions</title><p>
+<bold>Qinghui Zhang:</bold> conceptualization (lead), data curation (lead), formal analysis (lead), funding acquisition (lead), investigation (lead), methodology (lead), project administration (lead), resources (lead), software (lead), supervision (lead), validation (lead), visualization (lead), writing – original draft (lead), writing – review and editing (lead). <bold>Yufei Wu:</bold> investigation (supporting), writing – review and editing (supporting). <bold>Liwei Yang:</bold> funding acquisition (supporting), resources (supporting), writing – review and editing (supporting). <bold>Zekun Li:</bold> visualization (supporting), writing – review and editing (supporting). <bold>Zonglei Li:</bold> investigation (supporting), writing – review and editing (supporting). <bold>Yuying Yang:</bold> investigation (supporting), resources (equal), writing – review and editing (supporting). <bold>Shiyue Chen:</bold> conceptualization (supporting), funding acquisition (supporting), resources (supporting), writing – review and editing (supporting). <bold>Enfeng Liu:</bold> conceptualization (supporting), resources (supporting), visualization (supporting), writing – review and editing (supporting).</p></sec><sec sec-type="COI-statement" id="ece370878-sec-0021"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ece370878-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Figure S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-15-e70878-s002.doc" position="float" orientation="portrait"><?suppdata-name ECE3-15-e70878-s002.doc?><?suppdata-size 26838016?><?suppdata-md5 3ff20c64fdc3bac02c344abfd83622d8?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type msword?><?suppdata-cloudpmc-urn urn:app:7dfd/11755067/3ff20c64fdc3/ECE3-15-e70878-s002.doc?></media></supplementary-material><supplementary-material id="ece370878-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Data S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-15-e70878-s001.xlsx" position="float" orientation="portrait"><?suppdata-name ECE3-15-e70878-s001.xlsx?><?suppdata-size 28924?><?suppdata-md5 19784b1bc5730c6c30327b381ebb7cf2?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:7dfd/11755067/19784b1bc573/ECE3-15-e70878-s001.xlsx?></media></supplementary-material></sec></body><back><ack id="ece370878-sec-0020"><title>Acknowledgments</title><p>The authors would like to acknowledge Yunnan Normal University Lingyang KONG for assisting in identifying cladoceran remains.</p></ack><sec sec-type="data-availability" id="ece370878-sec-0023"><title>Data Availability Statement</title><p>The data that support the findings of this study are openly available in the <xref rid="ece370878-supitem-0002" ref-type="supplementary-material">Supporting Informations</xref>.</p></sec><ref-list content-type="cited-references" id="ece370878-bibl-0001"><title>References</title><ref id="ece370878-bib-0001"><mixed-citation publication-type="book" id="ece370878-cit-0001">
+<string-name name-style="western">
+<surname>Appleby</surname>, <given-names>P. G.</given-names>
+</string-name>
+<year>2001</year>. “<part-title>Chronostratigraphic Techniques in Recent Sediments</part-title>.” In <source>Tracking Environmental Change Using Lake Sediments: Basin Analysis, Coring, and Chronological Techniques, Developments in Paleoenvironmental Research</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>W. M.</given-names>
+<surname>Last</surname>
+</string-name>
+</person-group> and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Smol</surname>
+</string-name>
+</person-group>, vol. <volume>1</volume>, <fpage>171</fpage>–<lpage>203</lpage>. <publisher-loc>Dordrecht, the Netherlands</publisher-loc>: <publisher-name>Kluwer Academic Publishers</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0002"><mixed-citation publication-type="journal" id="ece370878-cit-0002">
+<string-name name-style="western">
+<surname>Asaeda</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Rajapakse</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Sanderson</surname>
+</string-name>. <year>2007</year>. “<article-title>Morphological and Reproductive Acclimations to Growth of Two Charophyte Species in Shallow and Deep Water</article-title>.” <source>Aquatic Botany</source>
+<volume>86</volume>, no. <issue>4</issue>: <fpage>393</fpage>–<lpage>401</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0078"><mixed-citation publication-type="book" id="ece370878-cit-0078">
+<string-name name-style="western">
+<surname>Beijerinck</surname>, <given-names>W.</given-names>
+</string-name>
+<year>1947</year>. <source>Zadenatlas der Nederlandsche Flora. Wageningen</source>. <publisher-loc>Holland</publisher-loc>: Reprinted by Bakhuys &amp; Meesters.</mixed-citation></ref><ref id="ece370878-bib-0003"><mixed-citation publication-type="journal" id="ece370878-cit-0003">
+<string-name name-style="western">
+<surname>Bennion</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Sayer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Clarke</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Sedimentary Macrofossil Records Reveal Ecological Change in English Lakes: Implications for Conservation</article-title>.” <source>Journal of Paleolimnology</source>
+<volume>60</volume>: <fpage>329</fpage>–<lpage>348</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0079"><mixed-citation publication-type="book" id="ece370878-cit-0079">
+<string-name name-style="western">
+<surname>Berggren</surname>, <given-names>G.</given-names>
+</string-name>
+<year>1969</year>. <source>Atlas of Seeds and Small Fruits of Northwest‐European Plant Species With Morphological Descriptions. Part 2, Cyperaceae</source>. <publisher-loc>Stockholm, Sweden</publisher-loc>: <publisher-name>Swedish Natural Science Research Council</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0080"><mixed-citation publication-type="book" id="ece370878-cit-0080">
+<string-name name-style="western">
+<surname>Berggren</surname>, <given-names>G.</given-names>
+</string-name>
+<year>1981</year>. <source>Atlas of Seeds and Small Fruits of Northwest‐European Plant Species With Morphological Descriptions. Part 3, Salicaceae‐Cruciferae</source>. <publisher-loc>Stockholm, Sweden</publisher-loc>: <publisher-name>Swedish Natural Science Research Council</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0004"><mixed-citation publication-type="book" id="ece370878-cit-0004">
+<string-name name-style="western">
+<surname>Birks</surname>, <given-names>H. H.</given-names>
+</string-name>
+<year>2001</year>. “<part-title>Plant Macrofossils</part-title>.” In <source>Tracking Environmental Change Using Lake Sediments. Volume 3: Terrestrial, Algal, and Siliceous Indicators</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Smol</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>H. J. B.</given-names>
+<surname>Birks</surname>
+</string-name>
+</person-group>, and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>W. M.</given-names>
+<surname>Last</surname>
+</string-name>
+</person-group>. <publisher-loc>Dordrecht, the Netherlands</publisher-loc>: <publisher-name>Kluwer Academic Publishers</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0005"><mixed-citation publication-type="journal" id="ece370878-cit-0005">
+<string-name name-style="western">
+<surname>Brzozowski</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Kowalewski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Szczuciński</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Kaczmarek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pełechaty</surname>
+</string-name>. <year>2021</year>. “<article-title>Preliminary Evidence of an Endangered Species Benefiting From Moderate Climate Warming: A Palaeolimnological Study of the Charophyte Lychnothamnus Barbatus</article-title>.” <source>Aquatic Conservation: Marine and Freshwater Ecosystems</source>
+<volume>31</volume>, no. <issue>10</issue>: <fpage>2673</fpage>–<lpage>2689</lpage>. <pub-id pub-id-type="doi">10.1002/aqc.3632</pub-id>.</mixed-citation></ref><ref id="ece370878-bib-0006"><mixed-citation publication-type="journal" id="ece370878-cit-0006">
+<string-name name-style="western">
+<surname>Brzozowski</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Palomares Cabanilles</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Kowalewski</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pełechaty</surname>
+</string-name>. <year>2019</year>. “<article-title>Environmental Factors Responsible for the Gyrogonite Formation by an Endangered Macroalga, Lychnothamnus Barbatus, a Fertility Indicator of Past and Present Lacustrine Ecosystems</article-title>.” <source>Limnologica</source>
+<volume>77</volume>: <elocation-id>125686</elocation-id>.</mixed-citation></ref><ref id="ece370878-bib-0007"><mixed-citation publication-type="journal" id="ece370878-cit-0007">
+<string-name name-style="western">
+<surname>Brzozowski</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pełechaty</surname>
+</string-name>. <year>2020</year>. “<article-title>Broad Morphological and Reproductive Variability of the Endangered Macroalga Lychnothamnus Barbatus in the Depth Gradient</article-title>.” <source>Aquatic Botany</source>
+<volume>165</volume>: <elocation-id>103239</elocation-id>.</mixed-citation></ref><ref id="ece370878-bib-0008"><mixed-citation publication-type="journal" id="ece370878-cit-0008">
+<string-name name-style="western">
+<surname>Brzozowski</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pełechaty</surname>
+</string-name>. <year>2022</year>. “<article-title>Overwintering of an Endangered Charophyte During Milder Winters in Central Europe Enhances Lake Water Quality</article-title>.” <source>Limnologica</source>
+<volume>92</volume>: <elocation-id>125944</elocation-id>.</mixed-citation></ref><ref id="ece370878-bib-0009"><mixed-citation publication-type="journal" id="ece370878-cit-0009">
+<string-name name-style="western">
+<surname>Cao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Ye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Jiang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2019</year>. “<article-title>Remote Sensing of Total Suspended Matter Concentration and Turbidity in a Macrophytic Lake</article-title>.” <source>Journal of Remote Sensing</source>
+<volume>23</volume>, no. <issue>6</issue>: <fpage>1253</fpage>–<lpage>1268</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0010"><mixed-citation publication-type="journal" id="ece370878-cit-0010">
+<string-name name-style="western">
+<surname>Casanova</surname>, <given-names>M. T.</given-names>
+</string-name>
+<year>1994</year>. “<article-title>Vegetative and Reproductive Responses of Charophytes to Water‐Level Fluctuations in Permanent and Temporary Wetlands in Australia</article-title>.” <source>Marine and Freshwater Research</source>
+<volume>45</volume>: <fpage>1409</fpage>–<lpage>1419</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0011"><mixed-citation publication-type="journal" id="ece370878-cit-0011">
+<string-name name-style="western">
+<surname>Casanova</surname>, <given-names>M. T.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Brock</surname>
+</string-name>. <year>1999</year>. “<article-title>Charophyte Occurrence, Seed Banks and Establishment in Farm Dams in New South Wales</article-title>.” <source>Australian Journal of Botany</source>
+<volume>47</volume>, no. <issue>3</issue>: <fpage>437</fpage>–<lpage>444</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0012"><mixed-citation publication-type="journal" id="ece370878-cit-0012">
+<string-name name-style="western">
+<surname>Coops</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Beklioglu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. L.</given-names>
+<surname>Crisman</surname>
+</string-name>. <year>2003</year>. “<article-title>The Role of Water‐Level Fluctuations in Shallow Lake Ecosystems – Workshop Conclusions</article-title>.” <source>Hydrobiologia</source>
+<volume>506‐509</volume>, no. <issue>1–3</issue>: <fpage>23</fpage>–<lpage>27</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0013"><mixed-citation publication-type="journal" id="ece370878-cit-0013">
+<string-name name-style="western">
+<surname>Davidson</surname>, <given-names>N. C.</given-names>
+</string-name>
+<year>2014</year>. “<article-title>How Much Wetland Has the World Lost? Long‐Term and Recent Trends in Global Wetland Area</article-title>.” <source>Marine and Freshwater Research</source>
+<volume>65</volume>, no. <issue>10</issue>: <fpage>934</fpage>–<lpage>941</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0014"><mixed-citation publication-type="journal" id="ece370878-cit-0014">
+<string-name name-style="western">
+<surname>Davidson</surname>, <given-names>T. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Sayer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bennion</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>David</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Rose</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Wade</surname>
+</string-name>. <year>2005</year>. “<article-title>A 250 Year Comparison of Historical, Macrofossil and Pollen Records of Aquatic Plants in a Shallow Lake</article-title>.” <source>Freshwater Biology</source>
+<volume>50</volume>, no. <issue>10</issue>: <fpage>1671</fpage>–<lpage>1686</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0015"><mixed-citation publication-type="journal" id="ece370878-cit-0015">
+<string-name name-style="western">
+<surname>Ding</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2015</year>. “<article-title>Effects of Hydraulic Engineering Applications on Recent Sedimentation Rates in Nansi Lake</article-title>.” <source>Research of Environmental Sciences</source>
+<volume>28</volume>, no. <issue>2</issue>: <fpage>242</fpage>–<lpage>249</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0016"><mixed-citation publication-type="journal" id="ece370878-cit-0016">
+<string-name name-style="western">
+<surname>Dong</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Kattel</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Jeppesen</surname>
+</string-name>. <year>2020</year>. “<article-title>Subfossil Cladocerans as Quantitative Indicators of Past Ecological Conditions in Yangtze River Basin Lakes, China</article-title>.” <source>Science of the Total Environment</source>
+<volume>728</volume>: <elocation-id>138794</elocation-id>.<pub-id pub-id-type="pmid">32380413</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.scitotenv.2020.138794</pub-id></mixed-citation></ref><ref id="ece370878-bib-0017"><mixed-citation publication-type="journal" id="ece370878-cit-0017">
+<string-name name-style="western">
+<surname>Fu</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Cao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Li</surname>
+</string-name>. <year>2019</year>. “<article-title>Naming History, Classification and Characteristics of Species From the Genus Vallisneria in China</article-title>.” <source>Plant Science Journal</source>
+<volume>37</volume>: <fpage>448</fpage>–<lpage>453</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0018"><mixed-citation publication-type="journal" id="ece370878-cit-0018">
+<string-name name-style="western">
+<surname>Ge</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yang</surname>
+</string-name>. <year>2018</year>. “<article-title>Long‐Term Succession of Aquatic Plants Reconstructed From Palynological Records in a Shallow Freshwater Lake</article-title>.” <source>Science of the Total Environment</source>
+<volume>643</volume>: <fpage>312</fpage>–<lpage>323</lpage>.<pub-id pub-id-type="pmid">29940443</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.scitotenv.2018.06.203</pub-id></mixed-citation></ref><ref id="ece370878-bib-0019"><mixed-citation publication-type="book" id="ece370878-cit-0019">
+<string-name name-style="western">
+<surname>Grimm</surname>, <given-names>E. C.</given-names>
+</string-name>
+<year>2011</year>. <source>TILIA 1.7. 16. Illinois State Museum</source>. <publisher-loc>Springfield, IL</publisher-loc>: <publisher-name>Research and Collection Center</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0081"><mixed-citation publication-type="journal" id="ece370878-cit-0081">
+<string-name name-style="western">
+<surname>Haas</surname>, <given-names>J. N.</given-names>
+</string-name>
+<year>1994</year>. “<article-title>First Identification Key for Charophyte Oospores From Central Europe</article-title>.” <source>European Journal of Phycology</source>
+<volume>29</volume>: <fpage>227</fpage>–<lpage>235</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0020"><mixed-citation publication-type="journal" id="ece370878-cit-0020">
+<string-name name-style="western">
+<surname>Heiri</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. F.</given-names>
+<surname>Lotter</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lemcke</surname>
+</string-name>. <year>2001</year>. “<article-title>Loss on Ignition as a Method for Estimating Organic and Carbonate Content in Sediments: Reproducibility and Comparability of Results</article-title>.” <source>Journal of Paleolimnology</source>
+<volume>25</volume>: <fpage>101</fpage>–<lpage>110</lpage>. <pub-id pub-id-type="doi">10.1023/A:1008119611481</pub-id>.</mixed-citation></ref><ref id="ece370878-bib-0021"><mixed-citation publication-type="journal" id="ece370878-cit-0021">
+<string-name name-style="western">
+<surname>Hill</surname>, <given-names>M. O.</given-names>
+</string-name>
+<year>1973</year>. “<article-title>Diversity and Evenness: A Unifying Notation and Its Consequences</article-title>.” <source>Ecology</source>
+<volume>54</volume>, no. <issue>2</issue>: <fpage>427</fpage>–<lpage>432</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0022"><mixed-citation publication-type="journal" id="ece370878-cit-0022">
+<string-name name-style="western">
+<surname>Huang</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Huang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Lin</surname>
+</string-name>. <year>2021</year>. “<article-title>Patterns and Trajectories of Macrophyte Change in East China's Shallow Lakes Over the Past One Century</article-title>.” <source>Science China Earth Sciences</source>
+<volume>64</volume>, no. <issue>10</issue>: <fpage>1735</fpage>–<lpage>1745</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0023"><mixed-citation publication-type="book" id="ece370878-cit-0023">
+<string-name name-style="western">
+<surname>Jeppesen</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Søndergaard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Søndergaard</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Christoffersen</surname>
+</string-name>. <year>1998</year>. <source>The Structuring Role of Submerged Macrophytes in Lakes</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Springer‐Verlag</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0024"><mixed-citation publication-type="book" id="ece370878-cit-0024">
+<collab collab-type="authors">Jining Science and Technology Commission</collab>
+. <year>1987</year>. <source>Investigation and Development of Natural Resources in Nansi Lake</source>. <publisher-loc>Jinan</publisher-loc>: <publisher-name>Shandong Science and Technology Press</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0025"><mixed-citation publication-type="journal" id="ece370878-cit-0025">
+<string-name name-style="western">
+<surname>Karst</surname>, <given-names>T. L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Smol</surname>
+</string-name>. <year>2000</year>. “<article-title>Paleolimnological Evidence of Limnetic Nutrient Concentration Equilibrium in a Shallow, Macrophyte‐Dominated Lake</article-title>.” <source>Aquatic Sciences</source>
+<volume>62</volume>, no. <issue>1</issue>: <fpage>20</fpage>–<lpage>38</lpage>. <pub-id pub-id-type="doi">10.1007/s000270050073</pub-id>.</mixed-citation></ref><ref id="ece370878-bib-0026"><mixed-citation publication-type="journal" id="ece370878-cit-0026">
+<string-name name-style="western">
+<surname>Ke</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Dong</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Diversity Analysis of Aquatic Macrophytes in Open Water Area of Nansi Lake</article-title>.” <source>Journal of Shandong Agricultural University (Natural Science)</source>
+<volume>49</volume>, no. <issue>3</issue>: <fpage>408</fpage>–<lpage>413</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0027"><mixed-citation publication-type="journal" id="ece370878-cit-0027">
+<string-name name-style="western">
+<surname>Klok</surname>, <given-names>P. F.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>van der Velde</surname>
+</string-name>. <year>2022</year>. “<article-title>Plant Traits and Environment: Floating Leaf Blade Production and Turnover of Nymphoides Peltata (SG Gmel.) O. Kuntze (Menyanthaceae)</article-title>.” <source>PeerJ</source>
+<volume>10</volume>: <elocation-id>e13976</elocation-id>.<pub-id pub-id-type="pmid">36068866</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7717/peerj.13976</pub-id><pub-id pub-id-type="pmcid">PMC9441140</pub-id></mixed-citation></ref><ref id="ece370878-bib-0028"><mixed-citation publication-type="journal" id="ece370878-cit-0028">
+<string-name name-style="western">
+<surname>Kornijów</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Kowalewski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Sugier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kaczorowska</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gąsiorowski</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Woszczyk</surname>
+</string-name>. <year>2016</year>. “<article-title>Towards a More Precisely Defined Macrophyte‐Dominated Regime: The Recent History of a Shallow Lake in Eastern Poland</article-title>.” <source>Hydrobiologia</source>
+<volume>772</volume>: <fpage>45</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1007/s10750-015-2624-3</pub-id>.</mixed-citation></ref><ref id="ece370878-bib-0029"><mixed-citation publication-type="journal" id="ece370878-cit-0029">
+<string-name name-style="western">
+<surname>Kowalewski</surname>, <given-names>G. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kornijów</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>McGowan</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Persistence of Protected, Vulnerable Macrophyte Species in a Small, Shallow Eutrophic Lake (Eastern Poland) Over the Past Two Centuries: Implications for Lake Management and Conservation</article-title>.” <source>Aquatic Botany</source>
+<volume>106</volume>: <fpage>1</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1016/j.aquabot.2013.01.018</pub-id>.</mixed-citation></ref><ref id="ece370878-bib-0030"><mixed-citation publication-type="journal" id="ece370878-cit-0030">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Cai</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>The Composition of Carbonate Matters in the Sediments From Lake Fuxian and Significance of Paleoclimate and Water Level Changes</article-title>.” <source>Quaternary Science Reviews</source>
+<volume>39</volume>, no. <issue>3</issue>: <fpage>642</fpage>–<lpage>654</lpage>. in Chinese.</mixed-citation></ref><ref id="ece370878-bib-0031"><mixed-citation publication-type="journal" id="ece370878-cit-0031">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Shen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Sun</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2008</year>. “<article-title>Occurrence of Phosphorus in Sediments of Nansihu Lake and Its Main Inflow Rivers</article-title>.” <source>Geochimica et Cosmochimica Acta</source>
+<volume>37</volume>, no. <issue>3</issue>: <fpage>290</fpage>–<lpage>296</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0032"><mixed-citation publication-type="journal" id="ece370878-cit-0032">
+<string-name name-style="western">
+<surname>Luo</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ma</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Applying Remote Sensing Techniques to Monitoring Seasonal and Interannual Changes of Aquatic Vegetation in Taihu Lake, China</article-title>.” <source>Ecological Indicators</source>
+<volume>60</volume>: <fpage>503</fpage>–<lpage>513</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0033"><mixed-citation publication-type="journal" id="ece370878-cit-0033">
+<string-name name-style="western">
+<surname>Madgwick</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Emson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Sayer</surname>
+</string-name>, et al. <year>2011</year>. “<article-title>Centennial‐Scale Changes to the Aquatic Vegetation Structure of a Shallow Eutrophic Lake and Implications for Restoration</article-title>.” <source>Freshwater Biology</source>
+<volume>56</volume>, no. <issue>12</issue>: <fpage>2620</fpage>–<lpage>2636</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0082"><mixed-citation publication-type="book" id="ece370878-cit-0082">
+<string-name name-style="western">
+<surname>Mauquoy</surname>, <given-names>D.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>van Geel</surname>
+</string-name>. <year>2007</year>. “<part-title>Mire and Peat Macros</part-title>.” In <source>Encyclopedia of Quaternary Science</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>A. E.</given-names>
+<surname>Scott</surname>
+</string-name>
+</person-group>, vol. <volume>3</volume>, <fpage>2315</fpage>–<lpage>2336</lpage>. <publisher-loc>Amsterdam, the Netherlands</publisher-loc>: <publisher-name>Elsevier</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0034"><mixed-citation publication-type="journal" id="ece370878-cit-0034">
+<string-name name-style="western">
+<surname>Mazzini</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Gliozzi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Koci</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Historical Evolution and Middle to Late Holocene Environmental Changes in Lake Shkodra (Albania): New Evidences From Micropaleontological Analysis</article-title>.” <source>Palaeogeography, Palaeoclimatology, Palaeoecology</source>
+<volume>419</volume>: <fpage>47</fpage>–<lpage>59</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0035"><mixed-citation publication-type="journal" id="ece370878-cit-0035">
+<string-name name-style="western">
+<surname>Nahm</surname>, <given-names>W. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. H.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. Y.</given-names>
+<surname>Yang</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>A 60‐Year Record of Rainfall From the Sediments of Jinheung Pond, Jeongeup, Korea</article-title>.” <source>Journal of Paleolimnology</source>
+<volume>43</volume>, no. <issue>3</issue>: <fpage>489</fpage>–<lpage>498</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0036"><mixed-citation publication-type="journal" id="ece370878-cit-0036">
+<string-name name-style="western">
+<surname>Pagès</surname>, <given-names>J.</given-names>
+</string-name>
+<year>2002</year>. “<article-title>Analyse Factorielle multiple appliquée aux variables qualitatives et aux données mixtes</article-title>.” <source>REVSTAT‐Statistical Journal</source>
+<volume>50</volume>: <fpage>5</fpage>–<lpage>37</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0038"><mixed-citation publication-type="journal" id="ece370878-cit-0038">
+<string-name name-style="western">
+<surname>Qu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Liu</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>A Holistic Assessment of Water Quality Condition and Spatiotemporal Patterns in Impounded Lakes Along the Eastern Route of China's South‐To‐North Water Diversion Project</article-title>.” <source>Water Research</source>
+<volume>185</volume>: <elocation-id>116275</elocation-id>.<pub-id pub-id-type="pmid">32798894</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.watres.2020.116275</pub-id></mixed-citation></ref><ref id="ece370878-bib-0039"><mixed-citation publication-type="journal" id="ece370878-cit-0039">
+<string-name name-style="western">
+<surname>Salgado</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Sayer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Carvalho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Davidson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Gunn</surname>
+</string-name>. <year>2010</year>. “<article-title>Assessing Aquatic Macrophyte Community Change Through the Integration of Palaeolimnological and Historical Data at Loch Leven, Scotland</article-title>.” <source>Journal of Paleolimnology</source>
+<volume>43</volume>, no. <issue>1</issue>: <fpage>191</fpage>–<lpage>204</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0040"><mixed-citation publication-type="journal" id="ece370878-cit-0040">
+<string-name name-style="western">
+<surname>Salgado</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Velez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Gonzalez‐Arango</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>A Century of Limnological Evolution and Interactive Threats in the Panama Canal: Long‐Term Assessments From a Shallow Basin</article-title>.” <source>Science of the Total Environment</source>
+<volume>729</volume>: <elocation-id>138444</elocation-id>.<pub-id pub-id-type="pmid">32380321</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.scitotenv.2020.138444</pub-id></mixed-citation></ref><ref id="ece370878-bib-0041"><mixed-citation publication-type="journal" id="ece370878-cit-0041">
+<string-name name-style="western">
+<surname>Sayer</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Burgess</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Kari</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>Long‐Term Dynamics of Submerged Macrophytes and Algae in a Small and Shallow, Eutrophic Lake: Implications for the Stability of Macrophyte‐Dominance</article-title>.” <source>Freshwater Biology</source>
+<volume>55</volume>, no. <issue>3</issue>: <fpage>565</fpage>–<lpage>583</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0042"><mixed-citation publication-type="book" id="ece370878-cit-0042">
+<string-name name-style="western">
+<surname>Scheffer</surname>, <given-names>M.</given-names>
+</string-name>
+<year>1998</year>. <source>Ecology of Shallow Lakes</source>. <publisher-loc>London</publisher-loc>: <publisher-name>Chapman and Hall</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0043"><mixed-citation publication-type="journal" id="ece370878-cit-0043">
+<string-name name-style="western">
+<surname>Scheffer</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>E. H.</given-names>
+<surname>van Nes</surname>
+</string-name>. <year>2007</year>. “<article-title>Shallow Lakes Theory Revisited: Various Alternative Regimes Driven by Climate, Nutrients, Depth and Lake Size</article-title>.” <source>Hydrobiology</source>
+<volume>584</volume>: <fpage>455</fpage>–<lpage>466</lpage>. <pub-id pub-id-type="doi">10.1007/s10750-007-0616-7</pub-id>.</mixed-citation></ref><ref id="ece370878-bib-0044"><mixed-citation publication-type="journal" id="ece370878-cit-0044">
+<string-name name-style="western">
+<surname>Schubert</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Blindow</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. C.</given-names>
+<surname>Bueno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Casanova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pełechaty</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Pukacz</surname>
+</string-name>. <year>2018</year>. “<article-title>Ecology of Charophytes – Permanent Pioneers and Ecosystem Engineers</article-title>.” <source>Perspectives in Phycology</source>
+<volume>5</volume>, no. <issue>1</issue>: <fpage>61</fpage>–<lpage>74</lpage>. <pub-id pub-id-type="doi">10.1127/pip/2018/0080</pub-id>.</mixed-citation></ref><ref id="ece370878-bib-0045"><mixed-citation publication-type="journal" id="ece370878-cit-0045">
+<string-name name-style="western">
+<surname>Shi</surname>, <given-names>L.</given-names>
+</string-name>
+<year>2002</year>. “<article-title>A Research on Aquatic Vascular Plant in Nansi Lake Shandong Province</article-title>.” <source>Territory &amp; Natural Resources Stuty</source>
+<volume>2002</volume>, no. <issue>3</issue>: <fpage>69</fpage>–<lpage>70</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0046"><mixed-citation publication-type="journal" id="ece370878-cit-0046">
+<string-name name-style="western">
+<surname>Shu</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Li</surname>
+</string-name>. <year>2012</year>. “<article-title>Spatio‐Temporal Distribution of TN and TP in Water and Evaluation of Eutrophic State of Lake Nansi</article-title>.” <source>Environmental Sciences</source>
+<volume>33</volume>, no. <issue>11</issue>: <fpage>3748</fpage>–<lpage>3752</lpage>.<pub-id pub-id-type="pmid">23323402</pub-id></mixed-citation></ref><ref id="ece370878-bib-0047"><mixed-citation publication-type="journal" id="ece370878-cit-0047">
+<string-name name-style="western">
+<surname>Shu</surname>, <given-names>L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Finlayson</surname>
+</string-name>. <year>1993</year>. “<article-title>Flood Management on the Lower Yellow River: Hydrological and Geomorphological Perspectives</article-title>.” <source>Sedimentary Geology</source>
+<volume>85</volume>: <fpage>285</fpage>–<lpage>296</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0048"><mixed-citation publication-type="journal" id="ece370878-cit-0048">
+<string-name name-style="western">
+<surname>Sousa</surname>, <given-names>W. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Thomaz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Murphy</surname>
+</string-name>. <year>2011</year>. “<article-title>Drivers of Aquatic Macrophyte Community Structure in a Neotropical Riverine Lake</article-title>.” <source>Acta Oecologica</source>
+<volume>37</volume>, no. <issue>5</issue>: <fpage>462</fpage>–<lpage>475</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0049"><mixed-citation publication-type="journal" id="ece370878-cit-0049">
+<string-name name-style="western">
+<surname>Syed</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Fatima</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mohammed</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Siddiqui</surname>
+</string-name>. <year>2018</year>. “<article-title>
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ceratophyllum demersum</italic>
+</styled-content> a Free‐Floating Aquatic Plant: A Review</article-title>.” <source>Indian Journal of Pharmaceutical and Biological Research</source>
+<volume>6</volume>, no. <issue>2</issue>: <fpage>10</fpage>–<lpage>17</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0050"><mixed-citation publication-type="journal" id="ece370878-cit-0050">
+<string-name name-style="western">
+<surname>Tan</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Shu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2022</year>. “<article-title>Variation Characteristics of Algae Density and Water Environment Factors in Lake Nansi Before and After Division of the Water Transfer</article-title>.” <source>Journal of Lake Science</source>
+<volume>34</volume>, no. <issue>6</issue>: <fpage>1802</fpage>–<lpage>1813</lpage>. <pub-id pub-id-type="doi">10.18307/2022.0602</pub-id>.</mixed-citation></ref><ref id="ece370878-bib-0051"><mixed-citation publication-type="journal" id="ece370878-cit-0051">
+<string-name name-style="western">
+<surname>Tian</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Miao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhao</surname>
+</string-name>. <year>2017</year>. “<article-title>Phytoplankton Diversity Effects on Community Biomass and Temporal Stability in Lake Nansihu</article-title>.” <source>China Environmental Science</source>
+<volume>37</volume>, no. <issue>1</issue>: <fpage>319</fpage>–<lpage>327</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0052"><mixed-citation publication-type="journal" id="ece370878-cit-0052">
+<string-name name-style="western">
+<surname>Tong</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Yang</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Spatial Characteristics of Surface‐Deposited Diatoms in Weishan Lake and Their Relationship With the Water Environment (Shandong Province, China)</article-title>.” <source>Journal of Freshwater Ecology</source>
+<volume>39</volume>, no. <issue>1</issue>: <elocation-id>2355915</elocation-id>.</mixed-citation></ref><ref id="ece370878-bib-0053"><mixed-citation publication-type="journal" id="ece370878-cit-0053">
+<string-name name-style="western">
+<surname>Van Geest</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Coops</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Roijackers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Buijse</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Scheffer</surname>
+</string-name>. <year>2005</year>. “<article-title>Succession of Aquatic Vegetation Driven by Reduced Water‐Level Fluctuations in Floodplain Lakes</article-title>.” <source>Journal of Applied Ecology</source>
+<volume>42</volume>, no. <issue>2</issue>: <fpage>251</fpage>–<lpage>260</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0054"><mixed-citation publication-type="miscellaneous" id="ece370878-cit-0054">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>C. L.</given-names>
+</string-name>
+<year>2014</year>. <article-title>“Investigation and Seasonal Dynamic Analysis of Wetland Plant Communities in Nansihu Lake.”</article-title> Master's Thesis, Qufu Normal University. (in Chinese).</mixed-citation></ref><ref id="ece370878-bib-0055"><mixed-citation publication-type="journal" id="ece370878-cit-0055">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Yu</surname>
+</string-name>. <year>2015</year>. “<article-title>Morphological and Reproductive Differences Among Three Charophyte Species in Response to Variation in Water Depth</article-title>.” <source>Aquatic Biology</source>
+<volume>24</volume>, no. <issue>2</issue>: <fpage>91</fpage>–<lpage>100</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0056"><mixed-citation publication-type="journal" id="ece370878-cit-0056">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>H. Y.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K. Y.</given-names>
+<surname>Yu</surname>
+</string-name>. <year>2008</year>. “<article-title>The Interactive Effects of Irradiance and Photoperiod on <italic toggle="yes">Chara vulgaris</italic> L.: Concerted Responses in Morphology, Physiology, and Reproduction</article-title>.” <source>Hydrobiologia</source>
+<volume>610</volume>, no. <issue>1</issue>: <fpage>33</fpage>–<lpage>41</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0057"><mixed-citation publication-type="journal" id="ece370878-cit-0057">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Luo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Chen</surname>
+</string-name>. <year>2016</year>. “<article-title>Remote Sensing Monitoring and Analysis of Dominant Species of Submerged Vegetation in Taihu Lake Over Last 30 Years</article-title>.” <source>Water Resources Protection</source>
+<volume>32</volume>: <fpage>123</fpage>–<lpage>129</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0058"><mixed-citation publication-type="book" id="ece370878-cit-0058">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Dou</surname>
+</string-name>. <year>1998</year>. <source>Lakes in China</source>. <publisher-loc>Beijing</publisher-loc>: <publisher-name>Science Press</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0059"><mixed-citation publication-type="journal" id="ece370878-cit-0059">
+<string-name name-style="western">
+<surname>Wu</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Cai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhao</surname>
+</string-name>. <year>2015</year>. “<article-title>The Analysis of the Levels Characteristics in Lake Nansi in the Southwest Shandong Province and Its Related Variation of Meteorological Elements From 1981 to 2013</article-title>.” <source>Journal of Glaciology and Geocryology</source>
+<volume>37</volume>, no. <issue>4</issue>: <fpage>1087</fpage>–<lpage>1093</lpage>. in Chinese.</mixed-citation></ref><ref id="ece370878-bib-0060"><mixed-citation publication-type="book" id="ece370878-cit-0060">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>C.</given-names>
+</string-name>
+<year>2020</year>. <source>Spatial and Temporal Variation Characteristics and Driving Factors of Plankton Community in Weishan Lake</source>. <publisher-loc>Jinan, Shandong</publisher-loc>: <publisher-name>University of Jinan</publisher-name>.</mixed-citation></ref><ref id="ece370878-bib-0061"><mixed-citation publication-type="journal" id="ece370878-cit-0061">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Sang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Yan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2019</year>. “<article-title>Temporal and Spatial Distribution Characteristics of Water Quality in Nansihu Lake in Recent Ten Years</article-title>.” <source>Transactions of Oceanology and Limnology</source>
+<volume>2</volume>: <fpage>47</fpage>–<lpage>52</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0062"><mixed-citation publication-type="journal" id="ece370878-cit-0062">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Chen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Switzer</surname>
+</string-name>. <year>2015</year>. “<article-title>Changes in Holocene Depositional Environment of Qin'ao Embayment on Nan'ao Island Inferred From Sediment Grain‐Size and Loss‐On‐Ignition</article-title>.” <source>Marine Geology and Quaternary Geology</source>
+<volume>35</volume>, no. <issue>6</issue>: <fpage>41</fpage>–<lpage>51</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0063"><mixed-citation publication-type="journal" id="ece370878-cit-0063">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Yao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2010</year>. “<article-title>Lake Status, Major Problems and Protection Strategy in China</article-title>.” <source>Journal of Lake Science</source>
+<volume>22</volume>, no. <issue>6</issue>: <fpage>799</fpage>–<lpage>810</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0064"><mixed-citation publication-type="journal" id="ece370878-cit-0064">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Zhu</surname>
+</string-name>. <year>2009</year>. “<article-title>Effect of Natural and Human Activities on Water Level Change of Nansihu Lake in Recent 50 Years</article-title>.” <source>China Rural Water Hydropower</source>
+<volume>7</volume>: <fpage>25</fpage>–<lpage>27</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0065"><mixed-citation publication-type="journal" id="ece370878-cit-0065">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Shen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2006</year>. “<article-title>Historical Trophic Evolutions and Their Ecological Responses From Shallow Lakes in the Middle and Lower Reaches of the Yangtze River: Case Studies on Longgan Lake and Taibai Lake</article-title>.” <source>Science in China Series D</source>
+<volume>49</volume>, no. <issue>1</issue>: <fpage>51</fpage>–<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1007/s11430-006-8105-9</pub-id>.</mixed-citation></ref><ref id="ece370878-bib-0066"><mixed-citation publication-type="journal" id="ece370878-cit-0066">
+<string-name name-style="western">
+<surname>Yu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2014</year>. “<article-title>Drought Response Characteristics in the Nansi Lake Wetlands Based on Remote Sensing</article-title>.” <source>Resources Science</source>
+<volume>36</volume>, no. <issue>7</issue>: <fpage>1519</fpage>–<lpage>1526</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0067"><mixed-citation publication-type="journal" id="ece370878-cit-0067">
+<string-name name-style="western">
+<surname>Yu</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Dou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Pei</surname>
+</string-name>. <year>2004</year>. “<article-title>Relationship Between Changes of Dongping Lake and Shifting of the Yellow River in Shandong Province</article-title>.” <source>Journal of Palaeogeography</source>
+<volume>6</volume>, no. <issue>4</issue>: <fpage>469</fpage>–<lpage>479</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0068"><mixed-citation publication-type="journal" id="ece370878-cit-0068">
+<string-name name-style="western">
+<surname>Zeng</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Chen</surname>
+</string-name>. <year>2024</year>. “<article-title>Quantifying Relative Contribution of Submerged Macrophytes to Sedimentary Organic Matter Using Concentrations and δ13C of n‐Alkanes With the Bayesian Multi‐Source Mixing Model: A Case Study From the Yangtze Floodplain</article-title>.” <source>Journal of Geophysical Research – Biogeosciences</source>
+<volume>129</volume>, no. <issue>9</issue>: <elocation-id>e2024JG008159</elocation-id>.</mixed-citation></ref><ref id="ece370878-bib-0069"><mixed-citation publication-type="journal" id="ece370878-cit-0069">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>H.</given-names>
+</string-name>
+<year>1987</year>. “<article-title>Process of Lakes Along the Lower Yellow River in Ancient Time</article-title>.” <source>There is No Journal With That Title in the NCBI Journal Database</source>
+<volume>05</volume>: <fpage>67</fpage>–<lpage>69</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0070"><mixed-citation publication-type="journal" id="ece370878-cit-0070">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yang</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Aquatic Macrophyte Fluctuations Since the 1900s in the Third Largest Chinese Freshwater Lake (Lake Taihu): Evidences, Drivers and Management Implications</article-title>.” <source>Catena</source>
+<volume>213</volume>: <elocation-id>106153</elocation-id>.</mixed-citation></ref><ref id="ece370878-bib-0071"><mixed-citation publication-type="journal" id="ece370878-cit-0071">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. V.</given-names>
+<surname>Odgaard</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Jeppesen</surname>
+</string-name>. <year>2019</year>. “<article-title>Hydrologic and Anthropogenic Influences on Aquatic Macrophyte Development in a Large, Shallow Lake in China</article-title>.” <source>Freshwater Biology</source>
+<volume>64</volume>, no. <issue>4</issue>: <fpage>799</fpage>–<lpage>812</lpage>. <pub-id pub-id-type="doi">10.1111/fwb.13263</pub-id>.</mixed-citation></ref><ref id="ece370878-bib-0072"><mixed-citation publication-type="journal" id="ece370878-cit-0072">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Shan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2020</year>. “<article-title>Spatio‐Temporal Quantification of Landscape Ecological Risk Changes and Its Driving Forces in the Nansihu Lake Basin During 1975–2018</article-title>.” <source>Ecological Sciences</source>
+<volume>39</volume>, no. <issue>3</issue>: <fpage>172</fpage>–<lpage>181</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0073"><mixed-citation publication-type="journal" id="ece370878-cit-0073">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Jeppesen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Liu</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Global Loss of Aquatic Vegetation in Lakes</article-title>.” <source>Earth‐Science Reviews</source>
+<volume>173</volume>: <fpage>259</fpage>–<lpage>265</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0074"><mixed-citation publication-type="journal" id="ece370878-cit-0074">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Yu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jin</surname>
+</string-name>. <year>2017</year>. “<article-title>Lipid Biomarker Evidence for Determining the Origin and Distribution of Organic Matter in Surface Sediments of Lake Taihu, Eastern China</article-title>.” <source>Ecological Indicators</source>
+<volume>77</volume>: <fpage>397</fpage>–<lpage>408</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0075"><mixed-citation publication-type="journal" id="ece370878-cit-0075">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Shen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Sun</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Jiang</surname>
+</string-name>. <year>2002</year>. “<article-title>Formation and Water environment's Evolution of the Nansihu Lake</article-title>.” <source>Oceanologia et Limnologia Sinica</source>
+<volume>33</volume>, no. <issue>3</issue>: <fpage>314</fpage>–<lpage>321</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0076"><mixed-citation publication-type="journal" id="ece370878-cit-0076">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Xin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Liang</surname>
+</string-name>. <year>2007</year>. “<article-title>The Analysis of Hydrological Characteristics and Processes of Ecosystem in Lake Nansi During the Past 50 Years</article-title>.” <source>Geographical Research</source>
+<volume>26</volume>, no. <issue>5</issue>: <fpage>957</fpage>–<lpage>966</lpage>.</mixed-citation></ref><ref id="ece370878-bib-0077"><mixed-citation publication-type="journal" id="ece370878-cit-0077">
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Brancelj</surname>
+</string-name>. <year>2005</year>. “<article-title>A Study on Environmental Changes Based Upon Cladoceran Assemblages From the Core Sediments in Chen co, Southern Tibet</article-title>.” <source>Chinese Science Bulletin</source>
+<volume>50</volume>, no. <issue>13</issue>: <fpage>1386</fpage>–<lpage>1394</lpage>.</mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,15 @@
+{
+  "title": "Quality-control of an hourly rainfall dataset and climatology of extremes for the UK.",
+  "abstract": "Sub-daily rainfall extremes may be associated with flash flooding, particularly in urban areas but, compared with extremes on daily timescales, have been relatively little studied in many regions. This paper describes a new, hourly rainfall dataset for the UK based on ∼1600 rain gauges from three different data sources. This includes tipping bucket rain gauge data from the UK Environment Agency (EA), which has been collected for operational purposes, principally flood forecasting. Significant problems in the use of such data for the analysis of extreme events include the recording of accumulated totals, high frequency bucket tips, rain gauge recording errors and the non-operation of gauges. Given the prospect of an intensification of short-duration rainfall in a warming climate, the identification of such errors is essential if sub-daily datasets are to be used to better understand extreme events. We therefore first describe a series of procedures developed to quality control this new dataset. We then analyse ∼380 gauges with near-complete hourly records for 1992-2011 and map the seasonal climatology of intense rainfall based on UK hourly extremes using annual maxima, n-largest events and fixed threshold approaches. We find that the highest frequencies and intensities of hourly extreme rainfall occur during summer when the usual orographically defined pattern of extreme rainfall is replaced by a weaker, north-south pattern. A strong diurnal cycle in hourly extremes, peaking in late afternoon to early evening, is also identified in summer and, for some areas, in spring. This likely reflects the different mechanisms that generate sub-daily rainfall, with convection dominating during summer. The resulting quality-controlled hourly rainfall dataset will provide considerable value in several contexts, including the development of standard, globally applicable quality-control procedures for sub-daily data, the validation of the new generation of very high-resolution climate models and improved understanding of the drivers of extreme rainfall.",
+  "doi": "10.1002/joc.4735",
+  "pmcid": "PMC5300158",
+  "pmid": "28239235",
+  "authors": [
+    "Blenkinsop S",
+    "Lewis E",
+    "Chan SC",
+    "Fowler HJ"
+  ],
+  "publication_date": "2016-04-24",
+  "journal": "International journal of climatology : a journal of the Royal Meteorological Society"
+}

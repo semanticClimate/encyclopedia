@@ -1,0 +1,878 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d15" for="edge" attr.name="relationship" attr.type="string"/>
+<key id="d14" for="node" attr.name="papers" attr.type="string"/>
+<key id="d13" for="node" attr.name="wikidata_id" attr.type="string"/>
+<key id="d12" for="node" attr.name="wikipedia_url" attr.type="string"/>
+<key id="d11" for="node" attr.name="term" attr.type="string"/>
+<key id="d10" for="graph" attr.name="history_links" attr.type="string"/>
+<key id="d9" for="graph" attr.name="history_stop_after" attr.type="string"/>
+<key id="d8" for="graph" attr.name="history_term_count" attr.type="string"/>
+<key id="d7" for="graph" attr.name="history_paper_count" attr.type="string"/>
+<key id="d6" for="graph" attr.name="history_encyclopedia_html" attr.type="string"/>
+<key id="d5" for="graph" attr.name="history_wordlist_csv" attr.type="string"/>
+<key id="d4" for="graph" attr.name="history_review_json" attr.type="string"/>
+<key id="d3" for="graph" attr.name="history_corpus_dir" attr.type="string"/>
+<key id="d2" for="graph" attr.name="history_pygetpapers_dir" attr.type="string"/>
+<key id="d1" for="graph" attr.name="history_pygetpapers_command" attr.type="string"/>
+<key id="d0" for="graph" attr.name="history_query" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">flood* AND "eastern England"</data>
+<data key="d1">pygetpapers -q 'flood* AND "eastern England"' -k 50 -o Examples/eeflood/pygetpapers --api europe_pmc -x</data>
+<data key="d2">/Users/pm286/workspace/encyclopedia/Examples/eeflood/pygetpapers</data>
+<data key="d3">/Users/pm286/workspace/encyclopedia/Examples/eeflood/corpus</data>
+<data key="d4">/Users/pm286/workspace/encyclopedia/Examples/eeflood/corpus/analysis/review/review_table.json</data>
+<data key="d5">/Users/pm286/workspace/encyclopedia/Examples/eeflood/wordlist.csv</data>
+<data key="d6">/Users/pm286/workspace/encyclopedia/Examples/eeflood/encyclopedia/eeflood_encyclopedia.html</data>
+<data key="d7">50</data>
+<data key="d8">100</data>
+<data key="d9">encyclopedia</data>
+<data key="d10">description</data>
+<node id="accretion rates">
+  <data key="d11">accretion rates</data>
+  <data key="d12">https://en.wikipedia.org/w/index.php?search=accretion%20rates</data>
+  <data key="d13"></data>
+  <data key="d14">[]</data>
+</node>
+<node id="agricultural soils">
+  <data key="d11">agricultural soils</data>
+  <data key="d12">https://en.wikipedia.org/w/index.php?search=agricultural%20soils</data>
+  <data key="d13"></data>
+  <data key="d14">[]</data>
+</node>
+<node id="coastal wetlands">
+  <data key="d11">coastal wetlands</data>
+  <data key="d12">https://en.wikipedia.org/w/index.php?search=coastal%20wetlands</data>
+  <data key="d13"></data>
+  <data key="d14">[]</data>
+</node>
+<node id="Data Availability statement">
+  <data key="d11">Data Availability statement</data>
+  <data key="d12">https://en.wikipedia.org/w/index.php?search=Data%20Availability%20statement</data>
+  <data key="d13"></data>
+  <data key="d14">[]</data>
+</node>
+<node id="electronic supplementary material">
+  <data key="d11">electronic supplementary material</data>
+  <data key="d12">https://en.wikipedia.org/w/index.php?search=electronic%20supplementary%20material</data>
+  <data key="d13"></data>
+  <data key="d14">[]</data>
+</node>
+<node id="funding acquisition">
+  <data key="d11">funding acquisition</data>
+  <data key="d12">https://en.wikipedia.org/w/index.php?search=funding%20acquisition</data>
+  <data key="d13"></data>
+  <data key="d14">[]</data>
+</node>
+<node id="plant macrofossils">
+  <data key="d11">plant macrofossils</data>
+  <data key="d12">https://en.wikipedia.org/w/index.php?search=plant%20macrofossils</data>
+  <data key="d13"></data>
+  <data key="d14">[]</data>
+</node>
+<node id="soil properties">
+  <data key="d11">soil properties</data>
+  <data key="d12">https://en.wikipedia.org/w/index.php?search=soil%20properties</data>
+  <data key="d13"></data>
+  <data key="d14">[]</data>
+</node>
+<node id="tidal marshes">
+  <data key="d11">tidal marshes</data>
+  <data key="d12">https://en.wikipedia.org/w/index.php?search=tidal%20marshes</data>
+  <data key="d13"></data>
+  <data key="d14">[]</data>
+</node>
+<node id="adaptation">
+  <data key="d11">adaptation</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Adaptation</data>
+  <data key="d13">Q483921</data>
+  <data key="d14">[]</data>
+</node>
+<node id="agriculture">
+  <data key="d11">agriculture</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Agriculture</data>
+  <data key="d13">Q11451</data>
+  <data key="d14">[]</data>
+</node>
+<node id="ANOVA">
+  <data key="d11">ANOVA</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Analysis_of_variance</data>
+  <data key="d13">Q42297</data>
+  <data key="d14">[]</data>
+</node>
+<node id="archaeology">
+  <data key="d11">archaeology</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Archaeology</data>
+  <data key="d13">Q23498</data>
+  <data key="d14">[]</data>
+</node>
+<node id="biodiversity">
+  <data key="d11">biodiversity</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Biodiversity</data>
+  <data key="d13">Q47041</data>
+  <data key="d14">[]</data>
+</node>
+<node id="birds">
+  <data key="d11">birds</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Bird</data>
+  <data key="d13">Q5113</data>
+  <data key="d14">[]</data>
+</node>
+<node id="breeding season">
+  <data key="d11">breeding season</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Seasonal_breeder</data>
+  <data key="d13">Q2914623</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Britain">
+  <data key="d11">Britain</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Britain</data>
+  <data key="d13">Q4798430</data>
+  <data key="d14">[]</data>
+</node>
+<node id="British Isles">
+  <data key="d11">British Isles</data>
+  <data key="d12">https://en.wikipedia.org/wiki/British_Isles</data>
+  <data key="d13">Q38272</data>
+  <data key="d14">[]</data>
+</node>
+<node id="calibration">
+  <data key="d11">calibration</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Calibration</data>
+  <data key="d13">Q736777</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Canada">
+  <data key="d11">Canada</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Canada</data>
+  <data key="d13">Q16</data>
+  <data key="d14">[]</data>
+</node>
+<node id="candidate genes">
+  <data key="d11">candidate genes</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Candidate_gene</data>
+  <data key="d13">Q1423575</data>
+  <data key="d14">[]</data>
+</node>
+<node id="carbon sequestration">
+  <data key="d11">carbon sequestration</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Carbon_sequestration</data>
+  <data key="d13">Q15305550</data>
+  <data key="d14">[]</data>
+</node>
+<node id="catchment">
+  <data key="d11">catchment</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Drainage_basin</data>
+  <data key="d13">Q166620</data>
+  <data key="d14">[]</data>
+</node>
+<node id="China">
+  <data key="d11">China</data>
+  <data key="d12">https://en.wikipedia.org/wiki/China</data>
+  <data key="d13">Q148</data>
+  <data key="d14">[]</data>
+</node>
+<node id="climate change">
+  <data key="d11">climate change</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Climate_change</data>
+  <data key="d13">Q125928</data>
+  <data key="d14">[]</data>
+</node>
+<node id="climatology">
+  <data key="d11">climatology</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Climatology</data>
+  <data key="d13">Q52139</data>
+  <data key="d14">[]</data>
+</node>
+<node id="clutch size">
+  <data key="d11">clutch size</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Clutch_(eggs)</data>
+  <data key="d13">Q2750820</data>
+  <data key="d14">[]</data>
+</node>
+<node id="coastal protection">
+  <data key="d11">coastal protection</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Coastal_management</data>
+  <data key="d13">Q1316027</data>
+  <data key="d14">[]</data>
+</node>
+<node id="competing interests">
+  <data key="d11">competing interests</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Conflict_of_interest</data>
+  <data key="d13">Q211067</data>
+  <data key="d14">[]</data>
+</node>
+<node id="conservation">
+  <data key="d11">conservation</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Conservation</data>
+  <data key="d13">Q342041</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Creative Commons Attribution License">
+  <data key="d11">Creative Commons Attribution License</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Creative_Commons_license#BY</data>
+  <data key="d13">Q284742</data>
+  <data key="d14">[]</data>
+</node>
+<node id="data file">
+  <data key="d11">data file</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Data_file</data>
+  <data key="d13">Q5227290</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Denmark">
+  <data key="d11">Denmark</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Denmark</data>
+  <data key="d13">Q35</data>
+  <data key="d14">[]</data>
+</node>
+<node id="diurnal cycle">
+  <data key="d11">diurnal cycle</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Diurnal_cycle</data>
+  <data key="d13">Q1469559</data>
+  <data key="d14">[]</data>
+</node>
+<node id="drought">
+  <data key="d11">drought</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Drought</data>
+  <data key="d13">Q43059</data>
+  <data key="d14">[]</data>
+</node>
+<node id="East Anglia">
+  <data key="d11">East Anglia</data>
+  <data key="d12">https://en.wikipedia.org/wiki/East_Anglia</data>
+  <data key="d13">Q580631</data>
+  <data key="d14">[]</data>
+</node>
+<node id="eastern England">
+  <data key="d11">eastern England</data>
+  <data key="d12">https://en.wikipedia.org/wiki/East_of_England</data>
+  <data key="d13">Q48006</data>
+  <data key="d14">[]</data>
+</node>
+<node id="ecosystem services">
+  <data key="d11">ecosystem services</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Ecosystem_service</data>
+  <data key="d13">Q295865</data>
+  <data key="d14">[]</data>
+</node>
+<node id="ecosystems">
+  <data key="d11">ecosystems</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Ecosystem</data>
+  <data key="d13">Q37813</data>
+  <data key="d14">[]</data>
+</node>
+<node id="England">
+  <data key="d11">England</data>
+  <data key="d12">https://en.wikipedia.org/wiki/England</data>
+  <data key="d13">Q21</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Europe">
+  <data key="d11">Europe</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Europe</data>
+  <data key="d13">Q46</data>
+  <data key="d14">[]</data>
+</node>
+<node id="European Union">
+  <data key="d11">European Union</data>
+  <data key="d12">https://en.wikipedia.org/wiki/European_Union</data>
+  <data key="d13">Q458</data>
+  <data key="d14">[]</data>
+</node>
+<node id="evapotranspiration">
+  <data key="d11">evapotranspiration</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Evapotranspiration</data>
+  <data key="d13">Q828158</data>
+  <data key="d14">[]</data>
+</node>
+<node id="females">
+  <data key="d11">females</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Female</data>
+  <data key="d13">Q43445</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Fenland">
+  <data key="d11">Fenland</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Fenland</data>
+  <data key="d13">Q4451264</data>
+  <data key="d14">[]</data>
+</node>
+<node id="fertilizers">
+  <data key="d11">fertilizers</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Fertilizer</data>
+  <data key="d13">Q83323</data>
+  <data key="d14">[]</data>
+</node>
+<node id="flash flooding">
+  <data key="d11">flash flooding</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Flash_flood</data>
+  <data key="d13">Q860333</data>
+  <data key="d14">[]</data>
+</node>
+<node id="flooding">
+  <data key="d11">flooding</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Flood</data>
+  <data key="d13">Q8068</data>
+  <data key="d14">[]</data>
+</node>
+<node id="formal analysis">
+  <data key="d11">formal analysis</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Formalism_(art)</data>
+  <data key="d13">Q3363772</data>
+  <data key="d14">[]</data>
+</node>
+<node id="France">
+  <data key="d11">France</data>
+  <data key="d12">https://en.wikipedia.org/wiki/France</data>
+  <data key="d13">Q142</data>
+  <data key="d14">[]</data>
+</node>
+<node id="genes">
+  <data key="d11">genes</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Gene</data>
+  <data key="d13">Q7187</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Germany">
+  <data key="d11">Germany</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Germany</data>
+  <data key="d13">Q183</data>
+  <data key="d14">[]</data>
+</node>
+<node id="gravels">
+  <data key="d11">gravels</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Gravel</data>
+  <data key="d13">Q133833</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Great Britain">
+  <data key="d11">Great Britain</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Great_Britain</data>
+  <data key="d13">Q23666</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Greece">
+  <data key="d11">Greece</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Greece</data>
+  <data key="d13">Q41</data>
+  <data key="d14">[]</data>
+</node>
+<node id="groundwater">
+  <data key="d11">groundwater</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Groundwater</data>
+  <data key="d13">Q161598</data>
+  <data key="d14">[]</data>
+</node>
+<node id="heatwaves">
+  <data key="d11">heatwaves</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Heat_wave</data>
+  <data key="d13">Q215864</data>
+  <data key="d14">[]</data>
+</node>
+<node id="hydrology">
+  <data key="d11">hydrology</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Hydrology</data>
+  <data key="d13">Q42250</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Iron Age">
+  <data key="d11">Iron Age</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Iron_Age</data>
+  <data key="d13">Q11764</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Italy">
+  <data key="d11">Italy</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Italy</data>
+  <data key="d13">Q38</data>
+  <data key="d14">[]</data>
+</node>
+<node id="land use">
+  <data key="d11">land use</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Land_use</data>
+  <data key="d13">Q1165944</data>
+  <data key="d14">[]</data>
+</node>
+<node id="macrophytes">
+  <data key="d11">macrophytes</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Aquatic_plant</data>
+  <data key="d13">Q186101</data>
+  <data key="d14">[]</data>
+</node>
+<node id="managed realignment">
+  <data key="d11">managed realignment</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Managed_retreat</data>
+  <data key="d13">Q6746652</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Management">
+  <data key="d11">Management</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Management</data>
+  <data key="d13">Q2920921</data>
+  <data key="d14">[]</data>
+</node>
+<node id="nature conservation">
+  <data key="d11">nature conservation</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Nature_conservation</data>
+  <data key="d13">Q20113959</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Netherlands">
+  <data key="d11">Netherlands</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Netherlands</data>
+  <data key="d13">Q55</data>
+  <data key="d14">[]</data>
+</node>
+<node id="northern England">
+  <data key="d11">northern England</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Northern_England</data>
+  <data key="d13">Q1788657</data>
+  <data key="d14">[]</data>
+</node>
+<node id="peatlands">
+  <data key="d11">peatlands</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Peatland</data>
+  <data key="d13">Q36449705</data>
+  <data key="d14">[]</data>
+</node>
+<node id="PLOS ONE">
+  <data key="d11">PLOS ONE</data>
+  <data key="d12">https://en.wikipedia.org/wiki/PLOS_One</data>
+  <data key="d13">Q564954</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Poland">
+  <data key="d11">Poland</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Poland</data>
+  <data key="d13">Q36</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Portugal">
+  <data key="d11">Portugal</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Portugal</data>
+  <data key="d13">Q45</data>
+  <data key="d14">[]</data>
+</node>
+<node id="precipitation">
+  <data key="d11">precipitation</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Precipitation</data>
+  <data key="d13">Q25257</data>
+  <data key="d14">[]</data>
+</node>
+<node id="productivity">
+  <data key="d11">productivity</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Productivity</data>
+  <data key="d13">Q2111958</data>
+  <data key="d14">[]</data>
+</node>
+<node id="protocols">
+  <data key="d11">protocols</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Protocol</data>
+  <data key="d13">Q1584993</data>
+  <data key="d14">[]</data>
+</node>
+<node id="rainfall">
+  <data key="d11">rainfall</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Rain</data>
+  <data key="d13">Q7925</data>
+  <data key="d14">[]</data>
+</node>
+<node id="restoration">
+  <data key="d11">restoration</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Restoration</data>
+  <data key="d13">Q3933541</data>
+  <data key="d14">[]</data>
+</node>
+<node id="rivers">
+  <data key="d11">rivers</data>
+  <data key="d12">https://en.wikipedia.org/wiki/River</data>
+  <data key="d13">Q4022</data>
+  <data key="d14">[]</data>
+</node>
+<node id="salt marshes">
+  <data key="d11">salt marshes</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Salt_marsh</data>
+  <data key="d13">Q29925</data>
+  <data key="d14">[]</data>
+</node>
+<node id="sand">
+  <data key="d11">sand</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Sand</data>
+  <data key="d13">Q34679</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Scotland">
+  <data key="d11">Scotland</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Scotland</data>
+  <data key="d13">Q22</data>
+  <data key="d14">[]</data>
+</node>
+<node id="sea level rise">
+  <data key="d11">sea level rise</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Sea_level_rise</data>
+  <data key="d13">Q841083</data>
+  <data key="d14">[]</data>
+</node>
+<node id="soil pH">
+  <data key="d11">soil pH</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Soil_pH</data>
+  <data key="d13">Q565649</data>
+  <data key="d14">[]</data>
+</node>
+<node id="southern England">
+  <data key="d11">southern England</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Southern_England</data>
+  <data key="d13">Q1134643</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Spain">
+  <data key="d11">Spain</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Spain</data>
+  <data key="d13">Q29</data>
+  <data key="d14">[]</data>
+</node>
+<node id="surface water">
+  <data key="d11">surface water</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Surface_water</data>
+  <data key="d13">Q752112</data>
+  <data key="d14">[]</data>
+</node>
+<node id="temperature">
+  <data key="d11">temperature</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Temperature</data>
+  <data key="d13">Q11466</data>
+  <data key="d14">[]</data>
+</node>
+<node id="UK">
+  <data key="d11">UK</data>
+  <data key="d12">https://en.wikipedia.org/wiki/United_Kingdom</data>
+  <data key="d13">Q145</data>
+  <data key="d14">[]</data>
+</node>
+<node id="uncertainty">
+  <data key="d11">uncertainty</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Uncertainty</data>
+  <data key="d13">Q13649246</data>
+  <data key="d14">[]</data>
+</node>
+<node id="United States">
+  <data key="d11">United States</data>
+  <data key="d12">https://en.wikipedia.org/wiki/United_States</data>
+  <data key="d13">Q30</data>
+  <data key="d14">[]</data>
+</node>
+<node id="vegetation">
+  <data key="d11">vegetation</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Vegetation</data>
+  <data key="d13">Q187997</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Wales">
+  <data key="d11">Wales</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Wales</data>
+  <data key="d13">Q25</data>
+  <data key="d14">[]</data>
+</node>
+<node id="water quality">
+  <data key="d11">water quality</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Water_quality</data>
+  <data key="d13">Q625376</data>
+  <data key="d14">[]</data>
+</node>
+<node id="weathering">
+  <data key="d11">weathering</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Weathering</data>
+  <data key="d13">Q179177</data>
+  <data key="d14">[]</data>
+</node>
+<node id="Western Europe">
+  <data key="d11">Western Europe</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Western_Europe</data>
+  <data key="d13">Q27496</data>
+  <data key="d14">[]</data>
+</node>
+<node id="wetlands">
+  <data key="d11">wetlands</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Wetland</data>
+  <data key="d13">Q170321</data>
+  <data key="d14">[]</data>
+</node>
+<node id="wheat">
+  <data key="d11">wheat</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Wheat</data>
+  <data key="d13">Q15645384</data>
+  <data key="d14">[]</data>
+</node>
+<node id="wildfires">
+  <data key="d11">wildfires</data>
+  <data key="d12">https://en.wikipedia.org/wiki/Wildfire</data>
+  <data key="d13">Q169950</data>
+  <data key="d14">[]</data>
+</node>
+<edge source="biodiversity" target="ecosystems" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="British Isles" target="France" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="British Isles" target="UK" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="British Isles" target="Great Britain" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="catchment" target="surface water" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="climatology" target="climate change" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="clutch size" target="birds" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="coastal protection" target="climate change" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="coastal protection" target="sea level rise" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Denmark" target="Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Denmark" target="European Union" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="drought" target="ecosystems" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="drought" target="agriculture" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="drought" target="heatwaves" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="drought" target="wildfires" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="drought" target="evapotranspiration" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="East Anglia" target="eastern England" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="eastern England" target="East Anglia" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="ecosystem services" target="ecosystems" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="England" target="Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="England" target="UK" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="European Union" target="Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="evapotranspiration" target="vegetation" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="flash flooding" target="flooding" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="flash flooding" target="rivers" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="flash flooding" target="rainfall" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="flooding" target="sea level rise" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="flooding" target="agriculture" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="flooding" target="climate change" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="France" target="Spain" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="France" target="Germany" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="France" target="UK" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="France" target="Western Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="France" target="Italy" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Germany" target="France" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Germany" target="Netherlands" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Germany" target="Western Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Germany" target="Poland" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Germany" target="Denmark" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Greece" target="Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Greece" target="European Union" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="groundwater" target="hydrology" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="groundwater" target="wetlands" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="hydrology" target="catchment" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Italy" target="France" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Italy" target="Western Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="land use" target="wetlands" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="macrophytes" target="rivers" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="macrophytes" target="wetlands" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="managed realignment" target="climate change" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Netherlands" target="Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Netherlands" target="European Union" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="northern England" target="England" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="peatlands" target="vegetation" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="peatlands" target="wetlands" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Poland" target="Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Poland" target="European Union" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="precipitation" target="rainfall" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="rainfall" target="ecosystems" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="rainfall" target="precipitation" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="rivers" target="precipitation" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="salt marshes" target="coastal protection" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="sand" target="gravels" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Scotland" target="Great Britain" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Scotland" target="UK" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Scotland" target="England" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="sea level rise" target="climate change" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="southern England" target="England" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="southern England" target="Wales" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="southern England" target="eastern England" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Spain" target="France" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Spain" target="Portugal" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Spain" target="European Union" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Spain" target="Western Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="UK" target="British Isles" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="UK" target="Great Britain" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="UK" target="England" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="UK" target="Wales" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="UK" target="Scotland" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="United States" target="Canada" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Wales" target="Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Wales" target="UK" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Western Europe" target="United States" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="Western Europe" target="Europe" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="wetlands" target="vegetation" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="wetlands" target="ecosystems" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="wetlands" target="water quality" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="wheat" target="agriculture" id="0">
+  <data key="d15">links_to</data>
+</edge>
+<edge source="wildfires" target="vegetation" id="0">
+  <data key="d15">links_to</data>
+</edge>
+</graph></graphml>

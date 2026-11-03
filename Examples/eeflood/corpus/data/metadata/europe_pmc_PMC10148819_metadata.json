@@ -1,0 +1,14 @@
+{
+  "title": "Short-term forecasts of streamflow in the UK based on a novel hybrid artificial intelligence algorithm.",
+  "abstract": "In recent years, the growing impact of climate change on surface water bodies has made the analysis and forecasting of streamflow rates essential for proper planning and management of water resources. This study proposes a novel ensemble (or hybrid) model, based on the combination of a Deep Learning algorithm, the Nonlinear AutoRegressive network with eXogenous inputs, and two Machine Learning algorithms, Multilayer Perceptron and Random Forest, for the short-term streamflow forecasting, considering precipitation as the only exogenous input and a forecast horizon up to 7 days. A large regional study was performed, considering 18 watercourses throughout the United Kingdom, characterized by different catchment areas and flow regimes. In particular, the predictions obtained with the ensemble Machine Learning-Deep Learning model were compared with the ones achieved with simpler models based on an ensemble of both Machine Learning algorithms and on the only Deep Learning algorithm. The hybrid Machine Learning-Deep Learning model outperformed the simpler models, with values of R<sup>2</sup> above 0.9 for several watercourses, with the greatest discrepancies for small basins, where high and non-uniform rainfall throughout the year makes the streamflow rate forecasting a challenging task. Furthermore, the hybrid Machine Learning-Deep Learning model has been shown to be less affected by reductions in performance as the forecasting horizon increases compared to the simpler models, leading to reliable predictions even for 7-day forecasts.",
+  "doi": "10.1038/s41598-023-34316-3",
+  "pmcid": "PMC10148819",
+  "pmid": "37120698",
+  "authors": [
+    "Di Nunno F",
+    "de Marinis G",
+    "Granata F"
+  ],
+  "publication_date": "2023-04-29",
+  "journal": "Scientific reports"
+}

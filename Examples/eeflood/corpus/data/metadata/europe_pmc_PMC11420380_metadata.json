@@ -1,0 +1,14 @@
+{
+  "title": "Climatology of severe hail potential in Europe based on a convection-permitting simulation.",
+  "abstract": "We present a new approach to identify severe hailstorms in a convection-permitting climate model, and build a climatology of severe hail potential in Europe using an ingredients-based approach based on a 20-year long hindcast simulation. Severe hail in Europe occurs mostly in southern regions (up to 40 times a year per 10,000 km<sup>2</sup> around Northern Italy), and from May to August. It peaks from afternoon to evening hours on land, whilst sea areas are prone to hail at any time of the day. The Mediterranean Sea experiences severe hailstorms mostly in autumn: the central Mediterranean has the highest frequency among all regions studied, and may be considered as an unknown alley for hailstorms in Europe. Results derived from the high-resolution model are in very good agreement with existing hail climatologies constructed from observations, including the fine scale spatial variation. We conclude that our approach provides a reliable proxy for studying future changes in severe hail in convection-permitting simulations.",
+  "doi": "10.1007/s00382-024-07227-w",
+  "pmcid": "PMC11420380",
+  "pmid": "39323901",
+  "authors": [
+    "Kahraman A",
+    "Kendon EJ",
+    "Fowler HJ"
+  ],
+  "publication_date": "2024-05-18",
+  "journal": "Climate dynamics"
+}

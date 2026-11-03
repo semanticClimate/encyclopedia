@@ -7,7 +7,7 @@ project root when you want the live download and Wikipedia lookups:
 
     python Examples/eeflood_query_to_encyclopedia.py --max-terms 100
 
-Output is ~/temp/eeflood. Papers go in pygetpapers/, the corpus in corpus/,
+Output is Examples/eeflood. Papers go in pygetpapers/, the corpus in corpus/,
 and the encyclopedia in encyclopedia/eeflood_encyclopedia.html.
 
 Date: October 5, 2026 (system date)
@@ -35,12 +35,12 @@ from encyclopedia.pipeline.query_to_encyclopedia import (
 
 QUERY = 'flood* AND "eastern England"'
 PAPER_LIMIT = 50
-# Sent to pygetpapers as -q. The shell form, with -k 50 and -o ~/temp/eeflood/pygetpapers, is:
-# pygetpapers -q 'flood* AND "eastern England"' -k 50 -o ~/temp/eeflood/pygetpapers --api europe_pmc -x
+# Sent to pygetpapers as -q. The shell form is:
+# pygetpapers -q 'flood* AND "eastern England"' -k 50 -o Examples/eeflood/pygetpapers --api europe_pmc -x
 MAX_TERMS = 100
 TITLE = "Floods in eastern England"
 
-EEFLOOD_ROOT = Path(Path.home(), "temp", "eeflood")
+EEFLOOD_ROOT = Path(ROOT, "Examples", "eeflood")
 PYGETPAPERS_DIR = Path(EEFLOOD_ROOT, "pygetpapers")
 CORPUS_DIR = Path(EEFLOOD_ROOT, "corpus")
 ENCYCLOPEDIA_HTML = Path(EEFLOOD_ROOT, "encyclopedia", "eeflood_encyclopedia.html")
@@ -62,8 +62,8 @@ def parse_args() -> argparse.Namespace:
 def build_eeflood_encyclopedia(max_terms: int = MAX_TERMS):
     """Download up to 50 papers and write the corpus and encyclopedia.
 
-    Reuses ~/temp/eeflood/pygetpapers when that directory already contains papers.
-    Reuses keyword files under ~/temp/eeflood/keywords when they exist, and does
+    Reuses Examples/eeflood/pygetpapers when that directory already contains papers.
+    Reuses keyword files under Examples/eeflood/keywords when they exist, and does
     not download or ingest again.
     """
     wordlist_csv = Path(EEFLOOD_ROOT, "wordlist.csv")

@@ -2,10 +2,10 @@
 """
 Build a knowledge graph from the eastern England flood encyclopedia.
 
-The papers, corpus, and encyclopedia are already at ~/temp/eeflood. This
-example does not download papers or call Wikipedia. It writes GraphML whose
-graph-level history records the query, the pygetpapers command, the corpus,
-and the encyclopedia.
+The papers, corpus, and encyclopedia are in Examples/eeflood. This example
+does not download papers or call Wikipedia. It writes GraphML in that folder.
+The graph-level history records the query, the pygetpapers command, the
+corpus, and the encyclopedia.
 
     python Examples/eeflood_encyclopedia_to_kg.py
 
@@ -27,12 +27,13 @@ from scripts.encyclopedia_to_kg import main
 
 
 QUERY = 'flood* AND "eastern England"'
+EEFLOOD_ROOT = Path(ROOT, "Examples", "eeflood")
 PYGETPAPERS_COMMAND = (
     "pygetpapers -q 'flood* AND \"eastern England\"' -k 50 "
-    "-o ~/temp/eeflood/pygetpapers --api europe_pmc -x"
+    "-o Examples/eeflood/pygetpapers --api europe_pmc -x"
 )
-ENCYCLOPEDIA_HTML = Path.home() / "temp" / "eeflood" / "encyclopedia" / "eeflood_encyclopedia.html"
-OUTPUT = Path(ROOT, "temp", "eeflood_kg.graphml")
+ENCYCLOPEDIA_HTML = Path(EEFLOOD_ROOT, "encyclopedia", "eeflood_encyclopedia.html")
+OUTPUT = Path(EEFLOOD_ROOT, "eeflood_kg.graphml")
 
 
 def build_eeflood_graph() -> None:

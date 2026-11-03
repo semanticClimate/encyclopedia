@@ -1,0 +1,16 @@
+{
+  "title": "A phylogenetic analysis of <i>Bromus</i> (Poaceae: Pooideae: Bromeae) based on nuclear ribosomal and plastid data, with a focus on <i>Bromus</i> sect. <i>Bromus</i>.",
+  "abstract": "To investigate phylogenetic relationships among and within major lineages of <i>Bromus</i>, with focus on <i>Bromus</i> sect. <i>Bromus</i>, we analyzed DNA sequences from two nuclear ribosomal (ITS, ETS) and two plastid (<i>rpl32-trnL<sub>UAG</sub></i> , <i>matK</i>) regions. We sampled 103 ingroup accessions representing 26 taxa of <i>B</i>. section <i>Bromus</i> and 15 species of other <i>Bromus</i> sections. Our analyses confirm the monophyly of <i>Bromus</i> s.l. and identify incongruence between nuclear ribosomal and plastid data partitions for relationships within and among major <i>Bromus</i> lineages. Results support classification of <i>B. pumilio</i> and <i>B. gracillimus</i> within <i>B</i>. sect. <i>Boissiera</i> and <i>B</i>. sect. <i>Nevskiella</i>, respectively. These species are sister groups and are closely related to <i>B. densus</i> (<i>B</i>. sect. <i>Mexibromus</i>) in nrDNA trees and <i>Bromus</i> sect. <i>Ceratochloa</i> in plastid trees. <i>Bromus</i> sect. <i>Bromopsis</i> is paraphyletic. In nrDNA trees, species of <i>Bromus</i> sects. <i>Bromopsis</i>, <i>Ceratochloa</i>, <i>Neobromus</i>, and <i>Genea</i> plus <i>B. rechingeri</i> of <i>B</i>. sect. <i>Bromus</i> form a clade, in which <i>B. tomentellus</i> is sister to a <i>B</i>. sect. <i>Genea</i>-<i>B. rechingeri</i> clade. In the plastid trees, by contrast, <i>B</i>. sect. <i>Bromopsis</i> species except <i>B. tomentosus</i> form a clade, and <i>B. tomentosus</i> is sister to a clade comprising <i>B</i>. sect. <i>Bromus</i> and <i>B</i>. sect. <i>Genea</i> species. Affinities of <i>B. gedrosianus</i>, <i>B. pulchellus</i>, and <i>B. rechingeri</i> (members of the <i>B. pectinatus</i> complex), as well as <i>B. oxyodon</i> and <i>B. sewerzowii</i>, are discordant between nrDNA and plastid trees. We infer these species may have obtained their plastomes <i>via</i> chloroplast capture from species of <i>B</i>. sect. <i>Bromus</i> and <i>B</i>. sect. <i>Genea</i>. Within <i>B</i>. sect. <i>Bromus</i>, <i>B. alopecuros</i> subsp. <i>caroli-henrici</i>, a clade comprising <i>B. hordeaceus</i> and <i>B. interruptus</i>, and <i>B. scoparius</i> are successive sister groups to the rest of the section in the nrDNA phylogeny. Most relationships among the remaining species of <i>B</i>. sect. <i>Bromus</i> are unresolved in the nrDNA and plastid trees. Given these results, we infer that most <i>B</i>. sect. <i>Bromus</i> species likely diversified relatively recently. None of the subdivisional taxa proposed for <i>Bromus</i> sect. <i>Bromus</i> over the last century correspond to natural groups identified in our phylogenetic analyses except for a group including <i>B. hordeaceus</i> and <i>B. interruptus</i>.",
+  "doi": "10.7717/peerj.13884",
+  "pmcid": "PMC9526414",
+  "pmid": "36193423",
+  "authors": [
+    "Nasiri A",
+    "Kazempour-Osaloo S",
+    "Hamzehee B",
+    "Bull RD",
+    "Saarela JM"
+  ],
+  "publication_date": "2022-09-28",
+  "journal": "PeerJ"
+}

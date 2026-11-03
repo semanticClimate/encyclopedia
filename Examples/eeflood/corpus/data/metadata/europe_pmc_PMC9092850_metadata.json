@@ -1,0 +1,17 @@
+{
+  "title": "QTL mapping of drought-related traits in the hybrids of Populus deltoides 'Danhong'×Populus simonii 'Tongliao1'.",
+  "abstract": "<h4>Background</h4>Poplar trees provide a large amount of wood material, but many parts of the world are arid or semi-arid areas because of insufficient annual precipitation, which seriously affects the growth of poplar trees. Populus simonii 'Tongliao1' shows strong tolerance to stress environments, and Populus deltoides 'Danhong' shows a stronger growth rate in a suitable environment. To identify drought tolerance-related QTLs and genes, an F<sub>1</sub> population derived from the cross between the 'Danhong' and 'Tongliao 1' Populus was assessed under drought stress.<h4>Results</h4>We measured drought-related traits such as the relative height growth, relative diameter growth, leaf senescence number, specific leaf area, and leaf relative water content in the population under control and drought environments. The results showed that drought stress reduced the plant height relative growth, ground diameter relative growth, specific leaf area and leaf relative water content and increased the number of leaf drops. A total of 208 QTLs were identified by QTL mapping analysis, and they consisted of 92, 63 and 53 QTLs under control, drought stress treatment and drought index conditions, respectively. A molecular identification marker for drought tolerance, np2841, which was associated with a QTL (qDLRWC-LG10-1) for relative leaf water content, was initially developed. We mined 187 candidate genes for QTL regions of five traits under a drought environment. The reference genome annotation for Populus trichocarpa and a homologous gene analysis of Arabidopsis thaliana identified two candidate genes, Potri.003G171300 and Potri.012G123900, with significant functions in response to drought stress. We identified five key regulatory genes (Potri.006G273500, Potri.007G111500, Potri.007G111600, Potri.007G111700, and Potri.007G111800) related to drought tolerance through the poplar coexpression network.<h4>Conclusion</h4>In this study, our results indicate that the QTLs can effectively enhance the drought tolerance of poplar. It is a step closer towards unravelling the genetic basis of poplar drought tolerance-related traits, and to providing validated candidate genes and molecular markers for future genetic improvement.",
+  "doi": "10.1186/s12870-022-03613-w",
+  "pmcid": "PMC9092850",
+  "pmid": "35545765",
+  "authors": [
+    "Du C",
+    "Sun P",
+    "Cheng X",
+    "Zhang L",
+    "Wang L",
+    "Hu J"
+  ],
+  "publication_date": "2022-05-11",
+  "journal": "BMC plant biology"
+}

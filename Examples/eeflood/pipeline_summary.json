@@ -1,0 +1,12 @@
+{
+  "query": "flood* AND \"eastern England\"",
+  "pygetpapers_command": "pygetpapers -q 'flood* AND \"eastern England\"' -k 50 -o Examples/eeflood/pygetpapers --api europe_pmc -x",
+  "pygetpapers_dir": "/Users/pm286/workspace/encyclopedia/Examples/eeflood/pygetpapers",
+  "corpus_dir": "/Users/pm286/workspace/encyclopedia/Examples/eeflood/corpus",
+  "review_json": "/Users/pm286/workspace/encyclopedia/Examples/eeflood/corpus/analysis/review/review_table.json",
+  "wordlist_csv": "/Users/pm286/workspace/encyclopedia/Examples/eeflood/wordlist.csv",
+  "encyclopedia_html": "/Users/pm286/workspace/encyclopedia/Examples/eeflood/encyclopedia/eeflood_encyclopedia.html",
+  "paper_count": 50,
+  "term_count": 100,
+  "stop_after": "encyclopedia"
+}

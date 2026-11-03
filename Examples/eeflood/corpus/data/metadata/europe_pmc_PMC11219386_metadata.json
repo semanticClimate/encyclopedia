@@ -1,0 +1,23 @@
+{
+  "title": "Environmental behaviour of iron and steel slags in coastal settings.",
+  "abstract": "Iron and steel slags have a long history of both disposal and beneficial use in the coastal zone. Despite the large volumes of slag deposited, comprehensive assessments of potential risks associated with metal(loid) leaching from iron and steel by-products are rare for coastal systems. This study provides a national-scale overview of the 14 known slag deposits in the coastal environment of Great Britain (those within 100 m of the mean high-water mark), comprising geochemical characterisation and leaching test data (using both low and high ionic strength waters) to assess potential leaching risks. The seaward facing length of slag deposits totalled at least 76 km, and are predominantly composed of blast furnace (iron-making) slags from the early to mid-20th Century. Some of these form tidal barriers and formal coastal defence structures, but larger deposits are associated with historical coastal disposal in many former areas of iron and steel production, notably the Cumbrian coast of England. Slag deposits are dominated by melilite phases (e.g. gehlenite), with evidence of secondary mineral formation (e.g. gypsum, calcite) indicative of weathering. Leaching tests typically show lower element (e.g. Ba, V, Cr, Fe) release under seawater leaching scenarios compared to deionised water, largely ascribable to the pH buffering provided by the former. Only Mn and Mo showed elevated leaching concentrations in seawater treatments, though at modest levels (<3 mg/L and 0.01 mg/L, respectively). No significant leaching of potentially ecotoxic elements such as Cr and V (mean leachate concentrations <0.006 mg/L for both) were apparent in seawater, which micro-X-Ray Absorption Near Edge Structure (μXANES) analysis show are both present in slags in low valence (and low toxicity) forms. Although there may be physical hazards posed by extensive erosion of deposits in high-energy coastlines, the data suggest seawater leaching of coastal iron and steel slags in the UK is likely to pose minimal environmental risk.",
+  "doi": "10.1007/s11356-024-33897-4",
+  "pmcid": "PMC11219386",
+  "pmid": "38877192",
+  "authors": [
+    "Riley AL",
+    "Cameron J",
+    "Burke IT",
+    "Onnis P",
+    "MacDonald JM",
+    "Gandy CJ",
+    "Crane RA",
+    "Byrne P",
+    "Comber S",
+    "Jarvis AP",
+    "Hudson-Edwards KA",
+    "Mayes WM"
+  ],
+  "publication_date": "2024-06-14",
+  "journal": "Environmental science and pollution research international"
+}

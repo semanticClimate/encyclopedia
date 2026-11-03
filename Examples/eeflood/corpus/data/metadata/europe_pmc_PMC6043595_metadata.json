@@ -1,0 +1,18 @@
+{
+  "title": "Predicting marsh vulnerability to sea-level rise using Holocene relative sea-level data.",
+  "abstract": "Tidal marshes rank among Earth's vulnerable ecosystems, which will retreat if future rates of relative sea-level rise (RSLR) exceed marshes' ability to accrete vertically. Here, we assess the limits to marsh vulnerability by analyzing >780 Holocene reconstructions of tidal marsh evolution in Great Britain. These reconstructions include both transgressive (tidal marsh retreat) and regressive (tidal marsh expansion) contacts. The probability of a marsh retreat was conditional upon Holocene rates of RSLR, which varied between -7.7 and 15.2 mm/yr. Holocene records indicate that marshes are nine times more likely to retreat than expand when RSLR rates are ≥7.1 mm/yr. Coupling estimated probabilities of marsh retreat with projections of future RSLR suggests a major risk of tidal marsh loss in the twenty-first century. All of Great Britain has a >80% probability of a marsh retreat under Representative Concentration Pathway (RCP) 8.5 by 2100, with areas of southern and eastern England achieving this probability by 2040.",
+  "doi": "10.1038/s41467-018-05080-0",
+  "pmcid": "PMC6043595",
+  "pmid": "30002365",
+  "authors": [
+    "Horton BP",
+    "Shennan I",
+    "Bradley SL",
+    "Cahill N",
+    "Kirwan M",
+    "Kopp RE",
+    "Shaw TA"
+  ],
+  "publication_date": "2018-07-12",
+  "journal": "Nature communications"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Continuity and Discontinuity in Artefact Distributions from Multi-Period Archaeological Sites.",
+  "abstract": "Artefact finds recovered by metal detecting and reported by members of the public are a growing source of archaeological information, with over 1.2 million finds recorded to date by the Portable Antiquities Scheme in England and Wales. Heritage schemes in many other European countries where hobby detecting for archaeology is legal likewise report growing numbers of finds. Using point pattern analysis, this paper presents a worked-out set of computational methods to study diachronic processes within artefact assemblages at field or local (<i>e.g.</i> parish) levels. We present a simulated 'toy' example to illustrate the methodology and test it with two large artefact assemblages from the counties of North Yorkshire and Norfolk that differ in terms of finds record quality and known contextual archaeological landscape information. The proposed approach and example code can be reapplied to other archaeological point patterns. It formalises a spatial statistical workflow that produces an assessment regarding landscape persistence and reuse, and which can be used, for example, to assist fieldwork or planning decisions by identifying areas for further research. The case studies highlight the considerable need for formal analytical workflows in public finds research, which can be easily deployed at different sites and local assemblages. Moreover, while the proposed workflow has been designed with public finds scatters in mind, it is scale-agnostic and can be reapplied to investigate a range of archaeological phenomena from monument distributions across a larger region to investigating artefact scatters within an excavated area.<h4>Supplementary information</h4>The online version contains supplementary material available at https://doi.org/10.1007/s10816-026-09821-0.",
+  "doi": "10.1007/s10816-026-09821-0",
+  "pmcid": "PMC13574920",
+  "pmid": "42746013",
+  "authors": [
+    "Oksanen E",
+    "Bevan A",
+    "Carter A"
+  ],
+  "publication_date": "2026-09-14",
+  "journal": "Journal of archaeological method and theory"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Stability of Patches of Higher Population Density within the Heterogenous Distribution of the Gray Field Slug <i>Deroceras reticulatum</i> in Arable Fields in the UK.",
+  "abstract": "Exploitation of heterogenous distributions of <i>Deroceras reticulatum</i>, in arable fields by targeting molluscicide applications toward areas with higher slug densities, relies on these patches displaying sufficient spatio-temporal stability. Regular sampling of slug activity/distribution was undertaken using 1 ha rectangular grids of 100 refuge traps established in 22 commercial arable field crops. Activity varied significantly between the three years of the study, and the degree of aggregation (Taylor's Power Law) was higher in fields with higher mean trap catches. Hot spot analysis detected statistically significant spatial clusters in all fields, and in 162 of the 167 individual assessment visits. The five assessment visits in which no clusters were detected coincided with low slug activity (≤0.07 per trap). Generalized Linear Models showed significant spatial stability of patches in 11 fields, with non-significant fields also characterized by low slug activity (≤1.2 per trap). Mantel's permutation tests revealed a high degree of correlation between location of individual patches between sampling dates. It was concluded that patches of higher slug density were spatio-temporally stable, but detection using surface refuge traps (which rely on slug activity on the soil surface) was less reliable when adverse environmental conditions resulted in slugs retreating into the upper soil horizons.",
+  "doi": "10.3390/insects12010009",
+  "pmcid": "PMC7823367",
+  "pmid": "33375590",
+  "authors": [
+    "Forbes E",
+    "Back M",
+    "Brooks A",
+    "Petrovskaya NB",
+    "Petrovskii SV",
+    "Pope T",
+    "Walters KFA"
+  ],
+  "publication_date": "2020-12-25",
+  "journal": "Insects"
+}

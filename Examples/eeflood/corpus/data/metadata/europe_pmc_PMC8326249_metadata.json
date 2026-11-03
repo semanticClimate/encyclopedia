@@ -1,0 +1,17 @@
+{
+  "title": "Spatio-temporal distribution and agroecological factors associated with canine leptospirosis in Great Britain.",
+  "abstract": "Leptospirosis is an important global zoonotic disease that affects a wide range of mammalian species. Canine leptospirosis outbreaks have been reported after metereological events such as flooding (eg. in Brazil and the United States of America) suggesting an environmental association, but there has been no such study in Great Britain (GB). The distribution of cases across GB is also unreported. Objectives of this study were to: (1) assess the spatio-temporal variation of leptospirosis test submissions (2) explore associations between agroecological risk factors and distribution of different canine leptospirosis serogroups in GB, and (3) generate probability of presence maps for the different serogroups. Data analysed comprised laboratory submissions (n = 3986) to IDEXX laboratories between 1<sup>st</sup> January 2009 and 31<sup>st</sup> December 2018 for PCR or MAT leptospirosis testing. Spatial and seasonal scan statistics were used to investigate spatial and temporal clustering of positive tests, logistic regression was used to identify significant agroecological risk factors for positive tests, and the Maxent algorithm was used to model the environmental niche of four serogroups. There was an increased risk of a positive test result in the West Midlands of England (relative risk = 2.16) and between October and January (relative risk = 1.54). Logistic regression identified season and region to be significantly associated with a positive diagnosis,with higher odds of a positive test in Autumn (OR = 1.86 95 %CI 1.29-2.69) and Winter (OR = 1.51, 95 %CI 1.02-2.23) and in the East (OR = 2.20, 95 %CI = 1.31-3.71) and West Midlands (OR = 2.32, 95 %CI 1.45-3.71). The increased test-positive proportion in Autumn together with the increased odds of a positive diagnosis in Autumn suggests there may be a seasonal pattern to the canine leptospirosis in GB. The most important variable associated with higher leptospirosis presence in all ecological niche models was higher average annual temperature. The importance and retention of other variables differed between serogroups. Overall, a higher probability of leptospirosis presence was predicted in southern England and a low probability in Scotland and northern England. Although leptospirosis vaccine usage provides protection against the majority of serogroups identified here, one is not represented in the currently licensed vaccine formulations and therefore leptospirosis should remain a differential diagnosis in vaccinated dogs demonstrating consistent clinical signs of the disease.",
+  "doi": "10.1016/j.prevetmed.2021.105407",
+  "pmcid": "PMC8326249",
+  "pmid": "34153840",
+  "authors": [
+    "Taylor C",
+    "Brodbelt DC",
+    "Dobson B",
+    "Catchpole B",
+    "O'Neill DG",
+    "Stevens KB"
+  ],
+  "publication_date": "2021-06-06",
+  "journal": "Preventive veterinary medicine"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Challenges in developing reliable phosphorus predictive models: Unpredictable release under soil redox changes.",
+  "abstract": "Phosphorus (P), crucial for plant nutrition, is unevenly distributed in the Earth's crust, necessitating its supplementation in agriculture through fertilizers. However, excessive use can lead to water pollution. Our research focuses on the P adsorbing complex, investigating P release due to flooding, using 12 well-characterized soils with contrasting properties. Our research measures directly the P-adsorbing complex using adsorption/desorption isotherms. We observed that the P concentration in the solution -sufficient to prevent desorption yet low enough to avoid further sorption by the soil- decreases when the soil undergoes complete reduction (anoxia). When grouped by similarity, calcareous soils exhibit higher maximum P adsorption capacities (X<sub>max</sub>) under alternating reducing conditions (ARC) compared to continuous reducing conditions (CRC). In slightly acidic soils, CRC leads to a wider spread in X<sub>max</sub> values than ARC. For acidic, organic matter-rich soils, ARC results in the highest X<sub>max</sub> values (123 mmol P kg<sup>-1</sup> soil) compared to CRC, whereas in acidic, light-textured soils, CRC shows significantly higher mean X<sub>max</sub> values than ARC. Nevertheless, we were unable to develop a predictive model for soil P desorption based on key intrinsic properties and climate. When an environmental or anthropogenic transformation induces anoxia, the P released does not follow a predictable pattern.",
+  "doi": "10.1016/j.heliyon.2024.e40160",
+  "pmcid": "PMC11629194",
+  "pmid": "39660203",
+  "authors": [
+    "Saiano F",
+    "Scalenghe R"
+  ],
+  "publication_date": "2024-11-06",
+  "journal": "Heliyon"
+}

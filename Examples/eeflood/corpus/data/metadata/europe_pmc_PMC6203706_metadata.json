@@ -1,0 +1,20 @@
+{
+  "title": "Mortality induced by PM<sub>2.5</sub> exposure following the 1783 Laki eruption using reconstructed meteorological fields.",
+  "abstract": "The 1783-1784 Laki eruption provides a natural experiment to evaluate the performance of chemistry-transport models in predicting the health impact of air particulate pollution. There are few existing daily meteorological observations during the second part of the 18<sup>th</sup> century. Hence, creating reasonable climatological conditions for such events constitutes a major challenge. We reconstructed meteorological fields for the period 1783-1784 based on a technique of analogues described in the Methods. Using these fields and including detailed chemistry we describe the concentrations of sulphur (SO<sub>2</sub>/SO<sub>4</sub>) that prevail over the North Atlantic, the adjoining seas and Western Europe during these 2 years. To evaluate the model, we analyse these results through the prism of two datasets contemporary to the Laki period: • The date of the first appearance of 'dry fogs' over Europe, • The excess mortality recorded in French parishes over the period June-September 1783. The sequence of appearances of the dry fogs is reproduced with a very-high degree of agreement to the first dataset. High concentrations of SO<sub>2</sub>/SO<sub>4</sub> are simulated in June 1783 that coincide with a rapid rise of the number of deceased in French parishes records. We show that only a small part of the deceased of the summer of 1783 can be explained by the present-day relationships between PM2.5 and relative risk. The implication of this result is that other external factors such as the particularly warm summer of 1783, and the lack of health care at the time, must have contributed to the sharp increase in mortality over France recorded from June to September 1783.",
+  "doi": "10.1038/s41598-018-34228-7",
+  "pmcid": "PMC6203706",
+  "pmid": "30367172",
+  "authors": [
+    "Balkanski Y",
+    "Menut L",
+    "Garnier E",
+    "Wang R",
+    "Evangeliou N",
+    "Jourdain S",
+    "Eschstruth C",
+    "Vrac M",
+    "Yiou P"
+  ],
+  "publication_date": "2018-10-26",
+  "journal": "Scientific reports"
+}
