@@ -120,7 +120,34 @@ The graph connects concepts related to:
 - Ecological impacts: marine ecosystems, phytoplankton, coral habitats.
 - Public health: malaria, dengue, diarrhea risk, infectious disease incidence.
 
+![Example1](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/3nov_p3.png)
+
 **Inference:** La Niña literature is not confined to ocean–atmosphere interactions; its research connections extend into ecological and societal impacts.
 
 Starting from La Nina years, researchers can navigate to rice yield, rice yield anomalies, and Asian summer monsoon circulation, revealing a connection between climate variability and agricultural research.
+
+## KG for query "La Niña" AND "climate" 
+
+### [Link to Colab Notebook](https://colab.research.google.com/drive/1LR162sAcj1sasTjgwerg4gJ_h6kAlmNi?usp=sharing)
+
+- ### Research Papers = 30
+
+- Connected terms: 2072 / 2081   |   ontology concepts: 150   |   edges: 10088
+    - cooc       (edges: 8270)
+    - hierarchy  (edges: 1195)
+    - abbrev     (edges: 41)
+    - wiki       (edges: 518)
+    - onto       (edges: 872)
+    - Ontology groups : 14 legend entries
+    - Paper groups    : 14 legend entries
+    - Topic clusters  : 13 legend entries
+
+
+- ### [CLICK HERE](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/semantic_KG_La_Ni%C3%B1aANDclimate.html)
+
+![figure 1-Source paper groups](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/3nov_p1.png)
+
+![figure 2-multiyear La Niña events](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/3nov_p2.png)
+
+![figure 3-ENSO Period](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/network_examples/3nov_p4.png)
 
