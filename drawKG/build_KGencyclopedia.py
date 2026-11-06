@@ -377,6 +377,12 @@ import random
 def paper_nbrs(G, t):
     return [n for n in G[t] if G.nodes[n].get("kind") == "paper"]
 
+SIZE_LO, SIZE_HI = 8, 70          # node radius range (vis-network px)
+
+def size_for(count, cmax):
+    """Term node radius from a mention count (square-root scale, so hubs do not swamp everything)."""
+    return SIZE_LO + (SIZE_HI - SIZE_LO) * math.sqrt(max(count, 0) / cmax) if cmax else SIZE_LO
+
 def bipartite_layout(G):
     """Papers on a ring (similar papers side by side), terms shared by 2+ papers inside the
     ring, terms found in a single paper fanned out just outside their paper."""
@@ -433,7 +439,7 @@ def bipartite_layout(G):
             pos[t] = (x, y)
 
         # nudge overlapping dots apart (sizes follow the node size used below)
-        rad = {t: 8 + len(paper_nbrs(G, t)) * 1.5 for t in shared}
+        rad = {t: size_for(TOTAL[t], CMAX) for t in shared}
         for _ in range(80):
             moved = False
             for i in range(len(shared)):
@@ -477,6 +483,14 @@ def force_layout(G):
     rel = nx.spring_layout(G, k=2.0 / math.sqrt(n), iterations=400, seed=42)
     f = 120 * math.sqrt(n)
     return {k: (float(v[0]) * f, float(v[1]) * f) for k, v in rel.items()}
+
+if BIPARTITE:
+    # corpus frequency of every term = total mentions over all papers
+    TOTAL = {n: sum(G[n][p]["count"] for p in paper_nbrs(G, n))
+             for n in G if G.nodes[n].get("kind") != "paper"}
+    CMAX = max(TOTAL.values()) if TOTAL else 1
+    top = sorted(TOTAL.items(), key=lambda kv: -kv[1])[:5]
+    print("  Most frequent terms in the corpus: " + ", ".join(f"{t} ({c})" for t, c in top))
 
 POS = bipartite_layout(G) if BIPARTITE else force_layout(G)
 
@@ -541,7 +555,9 @@ for node, data in G.nodes(data=True):
             color=color,
             originalColor=color,
             originalFont=T["FONT"],
-            size=8 + deg * 1.5,
+            size=size_for(TOTAL[node], CMAX),          # size = frequency in the whole corpus
+            baseSize=size_for(TOTAL[node], CMAX),      # remembered so Reset can restore it
+            totalCount=TOTAL[node],
             x=x, y=y,
             scaling={"label": {"drawThreshold": 5 if deg > TH_LOW else 9}},   # small labels appear on zoom
             kind="term",
@@ -624,6 +640,7 @@ custom_ui = r"""
    <option value="faint">Faint</option>
    <option value="hide">Hide</option>
  </select>
+ <div id="sizeInfo" style="margin-top:6px;font-size:12px;opacity:.85"></div>
 </div>
 
 <div id="legend">
@@ -644,6 +661,38 @@ const DIM_FONT = "__DIM_FONT__";
 const DIM_EDGE = "__DIM_EDGE__";
 const EDGE_ON  = "__EDGE_ON__";
 const EDGE_DEF = "__EDGE_DEF__";
+const SIZE_LO = __SIZE_LO__, SIZE_HI = __SIZE_HI__;
+
+function sizeFor(c, cmax){ return cmax ? SIZE_LO + (SIZE_HI - SIZE_LO) * Math.sqrt(c / cmax) : SIZE_LO; }
+
+function setSizeInfo(text){
+ const el = document.getElementById("sizeInfo");
+ if(el) el.textContent = BIPARTITE ? text : "";
+}
+setSizeInfo("Node size = mentions in the whole corpus");
+
+// term size: whole-corpus frequency by default; mentions inside one paper when a paper is clicked
+function applySizes(id){
+ if(!BIPARTITE) return;
+ const N = network.body.data.nodes, E = network.body.data.edges;
+ const node = (id !== null && id !== undefined) ? N.get(id) : null;
+ if(node && node.kind === "paper"){
+   const cnt = new Map(); let cmax = 0;
+   E.get().forEach(e => {
+     if(e.count && (e.from === id || e.to === id)){
+       cnt.set(e.from === id ? e.to : e.from, e.count);
+       if(e.count > cmax) cmax = e.count;
+     }
+   });
+   N.update(N.get().filter(n => n.kind === "term").map(n => ({
+     id: n.id, size: cnt.has(n.id) ? sizeFor(cnt.get(n.id), cmax) : n.baseSize
+   })));
+   setSizeInfo("Node size = mentions in " + node.label);
+ }else{
+   N.update(N.get().filter(n => n.kind === "term").map(n => ({ id: n.id, size: n.baseSize })));
+   setSizeInfo("Node size = mentions in the whole corpus");
+ }
+}
 
 let focusedId = null;
 
@@ -675,6 +724,7 @@ function focusNode(id){
      width: on ? (e.origWidth || 1.6) + 1 : 1
    };
  }));
+ applySizes(id);
 }
 
 // ---------- RESET ----------
@@ -688,6 +738,7 @@ function resetGraph(){
  E.update(E.get().map(e => ({
    id: e.id, hidden: false, color: e.origColor || EDGE_DEF, width: e.origWidth || 1.6
  })));
+ applySizes(null);
  hideTip(true);
  network.fit();
 }
@@ -761,6 +812,16 @@ function connLine(node){
  let html = '<div style="margin-top:8px;font-size:12px">' + txt +
         (top.length ? '<br><span style="opacity:.8">' + (node.kind === "paper" ? "Top terms: " : "Top papers: ") +
         top.join(", ") + '</span>' : "");
+ if(BIPARTITE && node.kind !== "paper"){
+   html += '<br><span style="opacity:.8">Mentions in corpus: <b>' + (node.totalCount || 0) + '</b>';
+   const fp = (focusedId !== null) ? network.body.data.nodes.get(focusedId) : null;
+   if(fp && fp.kind === "paper"){
+     const ed = network.body.data.edges.get().find(e => e.count &&
+                ((e.from === fp.id && e.to === node.id) || (e.to === fp.id && e.from === node.id)));
+     if(ed) html += ' · in ' + esc(fp.label) + ': <b>' + ed.count + '</b>';
+   }
+   html += '</span>';
+ }
  if(BIPARTITE && node.kind !== "paper" && nT){
    const rel = nb.filter(n => n.kind !== "paper").map(n => esc(n.label)).sort().slice(0, 8);
    html += '<br><span style="opacity:.8">Related terms: ' + rel.join(", ") + (nT > 8 ? " …" : "") + '</span>';
@@ -859,14 +920,14 @@ LEGEND_TERMS = """ <div><span class="legend-dot" style="background:__C1__"></spa
  <div><span class="legend-dot" style="background:__C4__"></span>__C4__ → Related Concepts</div>"""
 
 LEGEND_BIPARTITE = (
- ' <div><b>Terms</b> <small>(colour = no. of papers)</small></div>\n'
+ ' <div><b>Terms</b> <small>(colour = no. of papers · size = mentions)</small></div>\n'
  f' <div><span class="legend-dot" style="background:__C1__"></span>__C1__ → in more than {TH_HI} papers</div>\n'
  f' <div><span class="legend-dot" style="background:__C2__"></span>__C2__ → in {TH_MID + 1}–{TH_HI} papers</div>\n'
  f' <div><span class="legend-dot" style="background:__C3__"></span>__C3__ → in {TH_LOW + 1}–{TH_MID} papers</div>\n'
  f' <div><span class="legend-dot" style="background:__C4__"></span>__C4__ → in {TH_LOW} paper{"s" if TH_LOW != 1 else ""} or fewer</div>\n'
  ' <div style="margin-top:6px"><span style="display:inline-block;width:16px;height:11px;border-radius:3px;'
  'background:__PAPER__;margin-right:6px"></span><b>Paper</b> card</div>\n'
- ' <div><small>Inside ring = shared terms · outside = single-paper terms<br>Solid edge = term in paper (width = mentions)</small></div>'
+ ' <div><small>Inside ring = shared terms · outside = single-paper terms<br>Solid edge = term in paper (width = mentions)<br>Click a paper → size = mentions in that paper</small></div>'
 )
 if TERM_LINKS:
     LEGEND_BIPARTITE += (' <div style="margin-top:4px"><span style="display:inline-block;width:24px;'
@@ -875,6 +936,7 @@ if TERM_LINKS:
 
 custom_ui = custom_ui.replace("__LEGEND_ROWS__", LEGEND_BIPARTITE if BIPARTITE else LEGEND_TERMS)
 custom_ui = custom_ui.replace("__BIPARTITE__", "true" if BIPARTITE else "false")
+custom_ui = custom_ui.replace("__SIZE_LO__", str(SIZE_LO)).replace("__SIZE_HI__", str(SIZE_HI))
 custom_ui = custom_ui.replace("__ANIMATE__", "true" if args.animate else "false")
 for key, val in T.items():
     custom_ui = custom_ui.replace(f"__{key}__", val)

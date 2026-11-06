@@ -1,265 +1,270 @@
-# build_KGencyclopedia.py
+# Encyclopedia Knowledge Graph Builder
 
-## Interactive Knowledge Graph from an Encyclopedia
+`build_KGencyclopedia.py` turns an **encyclopedia of terms** (an HTML file) and, optionally, a **folder of research papers** into an interactive, self-contained knowledge graph that opens in any web browser.
 
-`build_KGencyclopedia.py` is a Python script for generating an interactive HTML knowledge graph from an encyclopedia HTML file. It supports two graph representations:
+It can build two kinds of graph:
 
-1. **Term–term graph** — connects encyclopedia terms through cross-references in their entries.
-2. **Paper–term graph (bipartite layer)** — connects research papers to encyclopedia terms found in their text. Optionally, encyclopedia cross-reference links between terms can also be included.
+| Mode | What it shows | Needs |
+|---|---|---|
+| **Term graph** (`terms`) | Encyclopedia terms linked to each other through the cross-references inside the encyclopedia entries | encyclopedia HTML |
+| **Paper–term graph** (`bipartite`) | Which papers mention which terms (bipartite layer), plus the term–term cross-references on top | encyclopedia HTML + papers folder |
 
-The generated graph is an interactive, browser-based visualization with search, node focus, color legends, and Wikipedia/paper information tooltips.
+The graph is **static** (positions are pre-computed, nothing drifts around) and every node can be clicked to isolate its neighbours and hovered for details.
 
 ---
 
-## Features
+## Contents
 
-- Reads encyclopedia entries from HTML elements with `role="ami_entry"`.
-- Extracts terms, Wikipedia links, and links to other encyclopedia/Wikipedia entries.
-- Builds a term–term or paper–term graph.
-- Supports Europe PMC/pygetpapers paper folders containing `fulltext.xml` and `eupmc_result.json`, as well as plain `.txt` paper files.
-- Reads optional paper metadata overrides from CSV.
-- Counts term mentions in papers and filters paper–term connections using a minimum count.
-- Uses a precomputed static layout by default; optional physics animation is available.
-- Provides dark and light visualization themes.
-- Supports node search, direct-neighbour focus, faint/hide display of unrelated nodes, and graph reset.
-- Shows Wikipedia summaries, descriptions, thumbnails (when available), and a link to the Wikipedia page in term tooltips.
-- Shows paper metadata and a link to the paper in paper tooltips.
-- Displays term connectivity and, in paper–term mode, the number of papers containing a term.
+- [Quick start](#quick-start)
+- [Requirements](#requirements)
+- [Input formats](#input-formats)
+- [Command-line options](#command-line-options)
+- [How it works](#how-it-works)
+- [Reading the graph](#reading-the-graph)
+- [Using the graph](#using-the-graph)
+- [Customising](#customising)
+- [Tips and limitations](#tips-and-limitations)
+- [Troubleshooting](#troubleshooting)
 
-## Graph representations
+---
 
-### 1. Term–term graph (`terms`)
+## Quick start
 
-- **Nodes:** encyclopedia terms.
-- **Edges:** links between encyclopedia entries, when the linked target is also present in the encyclopedia.
-- Isolated nodes are removed.
+```bash
+# 1. install the libraries (once)
+pip install beautifulsoup4 lxml networkx numpy pyvis
 
-This representation highlights relationships and connectivity among encyclopedia concepts.
+# 2a. term graph only
+python build_KGencyclopedia.py --input encyclopedia.html -o term_KG.html
 
-### 2. Paper–term graph (`bipartite`)
+# 2b. paper-term graph (papers folder given -> bipartite mode is chosen automatically)
+python build_KGencyclopedia.py --input encyclopedia.html --papers paper_all/ -o paper_term_KG.html
+```
 
-- **Paper nodes:** research papers.
-- **Term nodes:** encyclopedia terms detected in paper text.
-- **Paper–term edges:** a term is connected to a paper when it occurs at least the configured number of times in the paper.
-- **Edge weight:** number of term matches in the paper.
-- **Optional term–term edges:** encyclopedia cross-references are added as a separate layer (dashed edges).
+On Windows, paths work the same way:
 
-The paper–term layer is bipartite by construction: paper nodes and term nodes form two sets, and paper–term edges connect nodes across those sets. If term–term edges are enabled, the complete graph is a **mixed-layer graph**, and is no longer strictly bipartite.
+```bat
+python build_KGencyclopedia.py --input encyclopedia.html --papers D:\paper_all -o paper_term_KG.html
+```
 
-In the bipartite layout:
-- Papers are arranged around a ring.
-- Terms shared by multiple papers are placed inside the ring.
-- Terms occurring in one paper are placed outside the ring near that paper.
-- Papers sharing terms are positioned near one another.
+The script prints a short summary and opens the result in your browser. Add `--no-open` to skip opening it (useful on servers or in Colab).
+
+Example console output:
+
+```
+Read 50 paper folder(s) (fulltext.xml) and 0 .txt file(s)
+Graph: 45 papers + 284 terms = 329 nodes
+  863 paper-term edges (bipartite layer) + 68 term-term edges = 931 edges
+  Encyclopedia terms found in no paper: 16 of 300
+  Most frequent terms in the corpus: temperature (642), El Niño (…), …
+Saved: /path/to/paper_term_KG.html
+```
 
 ---
 
 ## Requirements
 
-Python 3.10+ is recommended.
+- **Python 3.8+**
+- Libraries:
 
-Install the required packages:
+| Library | Used for |
+|---|---|
+| `beautifulsoup4` | reading the encyclopedia HTML and each paper's `fulltext.xml` |
+| `lxml` | faster XML parsing (optional: the script falls back to Python's built-in parser without it) |
+| `networkx` | building the graph, checking it is bipartite, ordering papers, computing layouts |
+| `numpy` | layout calculations |
+| `pyvis` | generating the interactive web page (wraps *vis-network*) |
+| `scipy` | optional, can help with paper ordering; the script falls back to alphabetical order if ordering fails |
 
-```bash
-pip install beautifulsoup4 networkx pyvis numpy lxml
-```
-
-`lxml` is used for XML parsing when available. The script falls back to BeautifulSoup's HTML parser if the XML parser is unavailable.
+At view time the page loads **vis-network 9.1.2** from a CDN and the Wikipedia REST API for tooltips, so the browser needs internet access.
 
 ---
 
-## Input files
+## Input formats
 
-### Encyclopedia HTML
+### 1. Encyclopedia HTML (`--input`, required)
 
-The input HTML should contain encyclopedia entries in this structure:
+Each entry is a `<div>` with `role="ami_entry"` and a `term` attribute. The entry may contain:
+
+- an `<a class="wikipedia-link" href="...">` pointing to the term's Wikipedia page (used for the tooltip and the ↗ button);
+- ordinary links of the form `/wiki/Some_Page`. When such a link's page name matches **another entry's term** (case-insensitive, underscores treated as spaces), a term–term edge is created.
 
 ```html
-<div role="ami_entry" term="Example term">
-    <a class="wikipedia-link" href="https://en.wikipedia.org/wiki/Example_term">
-        Wikipedia
-    </a>
-    <a href="https://en.wikipedia.org/wiki/Related_term">Related term</a>
+<div role="ami_entry" term="biodiversity">
+  <a class="wikipedia-link" href="https://en.wikipedia.org/wiki/Biodiversity">Wikipedia</a>
+  <p>The variety of life ... see <a href="/wiki/Ecosystem">ecosystem</a>.</p>
 </div>
 ```
 
-The script reads:
-- `term` attribute of each `div[role="ami_entry"]`
-- the link with class `wikipedia-link`
-- links containing `/wiki/` to identify cross-referenced terms
+Superscript tags (`<sup>…</sup>`, e.g. footnote markers) are removed before reading.
 
-### Paper inputs (bipartite mode)
+### 2. Papers folder (`--papers`, optional)
 
-Either of the following formats can be used:
+Two layouts are supported (they can even be mixed):
 
-**Europe PMC / pygetpapers folders**
+**a) Europe PMC folders** (as produced by `pygetpapers`)
 
-Each paper folder should contain:
-- `fulltext.xml`
-- `eupmc_result.json` (optional metadata source)
+```
+paper_all/
+├── eupmc_results.json          (ignored)
+├── saved_config.ini            (ignored)
+├── PMC12032349/
+│   ├── eupmc_result.json       metadata
+│   └── fulltext.xml            full text (JATS XML)
+├── PMC12130294/
+│   ├── eupmc_result.json
+│   └── fulltext.xml
+└── ...
+```
 
-The script extracts paper metadata from JSON and/or XML and uses the abstract and main body as text. Reference lists, acknowledgements, and selected back matter are excluded.
+- **Metadata** (title, first author, year, journal, DOI, PMC ID) comes from `eupmc_result.json`. Any missing field is filled from the XML header.
+- **Text searched** = abstract + main body. The reference list, acknowledgements, footnotes and citation numbers are removed, so terms that only appear in a bibliography are **not** counted.
 
-**Plain text papers**
+**b) Plain `.txt` files** placed directly in the folder (PMC-style header with PMC ID, DOI, title and author, then an `Abstract` heading). The body is read from `Abstract` up to `Acknowledgements` / `Footnotes` / `References`.
 
-Use `.txt` files directly inside the papers directory. The parser attempts to identify PMCID, DOI, title, author, year, abstract, and body from the text file's header and section structure.
+### 3. Metadata override CSV (`--meta`, optional)
 
-### Optional metadata CSV
-
-The CSV should contain these columns:
+Use it when a paper's header could not be read. Columns:
 
 ```csv
 file,title,year,authors,doi
-PMC1234567,Example paper title,2024,"Author One, Author Two",10.1234/example
+PMC12032349,Climate-driven succession in marine microbiome,2025,"Larkin, A.",10.1038/s41467-025-59382-1
 ```
 
-The `file` field should match a paper folder name or `.txt` filename (with or without its extension). Non-empty `title`, `year`, `doi`, and `authors` values override parsed metadata.
-
----
-
-## Usage
-
-Run commands from the directory containing the script, or provide full paths.
-
-### Term–term graph
-
-```bash
-python build_KGencyclopedia.py --input encyclopedia.html --output semantic_KG.html
-```
-
-Explicitly select term mode:
-
-```bash
-python build_KGencyclopedia.py -i encyclopedia.html -o semantic_KG.html --mode terms
-```
-
-### Paper–term graph
-
-```bash
-python build_KGencyclopedia.py \
-  --input encyclopedia.html \
-  --papers papers/ \
-  --output paper_term_KG.html
-```
-
-The presence of `--papers` automatically selects bipartite mode unless `--mode` is specified.
-
-### Pure bipartite graph (without term–term edges)
-
-```bash
-python build_KGencyclopedia.py \
-  --input encyclopedia.html \
-  --papers papers/ \
-  --output pure_bipartite_KG.html \
-  --no-term-links
-```
-
-### Paper–term graph with metadata overrides
-
-```bash
-python build_KGencyclopedia.py \
-  --input encyclopedia.html \
-  --papers papers/ \
-  --meta paper_metadata.csv \
-  --output paper_term_KG.html
-```
-
-### Light theme and animation
-
-```bash
-python build_KGencyclopedia.py \
-  --input encyclopedia.html \
-  --papers papers/ \
-  --theme light \
-  --animate \
-  --output paper_term_KG_light.html
-```
-
-To prevent the output from opening automatically:
-
-```bash
-python build_KGencyclopedia.py \
-  --input encyclopedia.html \
-  --output semantic_KG.html \
-  --no-open
-```
+- `file` is the folder name (e.g. `PMC12032349`) or the `.txt` file name.
+- `authors`: put the first author's surname first (text before the first comma becomes the label, e.g. "Larkin 2025").
+- Empty cells are ignored, so you only need to fill what you want to change.
 
 ---
 
 ## Command-line options
 
-| Option | Description | Default |
+| Option | Default | Description |
 |---|---|---|
-| `--input`, `-i` | Input encyclopedia HTML (required) | — |
-| `--output`, `-o` | Output graph HTML | `semantic_KG.html` |
-| `--theme`, `-t` | Graph/UI theme: `dark` or `light` | `dark` |
-| `--papers`, `-p` | Paper folder; enables paper–term mode | — |
-| `--mode` | `terms` or `bipartite` | Auto-selected |
-| `--meta` | CSV metadata overrides | — |
-| `--min-count` | Minimum term mentions for a paper–term edge | `1` |
-| `--no-term-links` | Disable term–term links in bipartite mode | Off |
-| `--animate` | Keep physics simulation running | Off |
-| `--no-open` | Do not open graph after generation | Off |
+| `--input`, `-i` | *(required)* | Encyclopedia HTML file |
+| `--output`, `-o` | `semantic_KG.html` | Output graph file (folders are created if needed) |
+| `--papers`, `-p` | none | Folder of papers. Giving it switches to paper–term mode |
+| `--mode` | auto | `terms` or `bipartite`. Auto = `bipartite` if `--papers` is given, otherwise `terms` |
+| `--meta` | none | Metadata override CSV (see above) |
+| `--min-count` | `1` | Paper–term mode: minimum mentions of a term in a paper before an edge is drawn. Raise it (e.g. `3`) to remove passing mentions |
+| `--no-term-links` | off | Paper–term mode: do **not** add term–term edges, giving a pure bipartite graph |
+| `--theme`, `-t` | `dark` | `dark` or `light` colour theme |
+| `--animate` | off | Keep the physics simulation running (nodes drift). Default is a static layout |
+| `--no-open` | off | Do not open the result in a browser |
 
-The script uses `parse_known_args()`, so unknown command-line arguments are ignored (useful in notebook environments).
+Examples:
 
----
+```bash
+# pure bipartite graph, only terms mentioned at least 3 times in a paper, light theme
+python build_KGencyclopedia.py -i encyclopedia.html -p paper_all -o kg.html --min-count 3 --no-term-links --theme light
 
-## Interacting with the graph
-
-- **Hover over a term:** displays a Wikipedia summary, description, thumbnail (if available), and an arrow link to Wikipedia.
-- **Hover over a paper:** displays paper title, author/year/journal/DOI metadata, and a link to the paper when available.
-- **Click a node:** highlights that node and its direct neighbours and connected edges.
-- **Others → Faint:** dims unrelated nodes and edges while retaining the full graph.
-- **Others → Hide:** hides unrelated nodes and edges.
-- **Click empty graph space:** resets the graph.
-- **Search:** enter a node label and select **Go** (or press Enter) to focus it.
-- **Reset:** restores all nodes and edges and fits the graph to the view.
-- **Wikipedia arrow (↗):** opens the term's Wikipedia page in a new tab.
+# fix paper labels with a CSV
+python build_KGencyclopedia.py -i encyclopedia.html -p paper_all --meta papers.csv -o kg.html
+```
 
 ---
 
-## How to interpret the graph
+## How it works
 
-- **Highly connected terms:** connect to many other terms or, in paper–term mode, occur across many papers.
-- **Shared terms:** terms connected to multiple papers can indicate concepts appearing across the selected literature.
-- **Single-paper terms:** terms connected to one paper may represent paper-specific topics or concepts.
-- **Paper–term edge counts:** thicker edges indicate more matches of a term in that paper.
-- **Term–term cross-references:** dashed pink edges in bipartite mode represent encyclopedia links, not term occurrences in papers.
+1. **Read the encyclopedia.** Every entry gives a term, its Wikipedia URL and the list of Wikipedia pages it links to.
+2. **Read the papers** (paper–term mode). Metadata is read from the JSON/XML header; the searchable text is the abstract plus main body.
+3. **Match terms to papers.** Each term is searched in each paper as a **whole word**, ignoring capitalisation, and tolerating simple plurals (*dragonfly* also matches *dragonflies*). Multi-word terms allow any whitespace between words. Short ALL-CAPS terms such as `ENSO` or `AMOC` are matched **case-sensitively** to avoid matching ordinary words.
+4. **Build the graph.**
+   - Paper ↔ term edge, weighted by the number of mentions (kept if ≥ `--min-count`).
+   - Term ↔ term edge when one encyclopedia entry links to another (unless `--no-term-links`).
+   - Terms found in no paper, and papers that match no term, are dropped. The paper–term layer is verified to be bipartite.
+5. **Compute a static layout** (see below).
+6. **Render** with PyVis and inject the custom interface (search box, legend, tooltips, click behaviour).
 
-Graph connectivity indicates relationships encoded by the encyclopedia or term matches in the selected text corpus. It should not be interpreted automatically as causality, semantic similarity, or scientific importance.
+### Layout (paper–term mode)
+
+- **Papers** are placed on a large ring, ordered so that papers sharing many terms sit next to each other.
+- **Terms shared by two or more papers** sit **inside** the ring, positioned by a force-directed relaxation with the papers held fixed (related terms are pulled together), followed by an overlap-removal pass.
+- **Terms found in only one paper** are fanned out **just outside** that paper.
+
+In term-graph mode a standard force-directed layout is computed once and frozen.
+
+---
+
+## Reading the graph
+
+### Paper–term mode
+
+| Element | Meaning |
+|---|---|
+| Rounded gray **card** | A paper, labelled *Author Year* (card text is slightly larger for papers covering more terms) |
+| **Dot** | An encyclopedia term |
+| Dot **size** | Frequency: total mentions in the whole corpus (see below for the per-paper view) |
+| Dot **colour** | Number of papers mentioning the term: 🟢 more than ~33% of the papers, 🔵 ~17–33%, 🟠 ~7–17%, ⚪ the rest (the legend shows the exact numbers for your data) |
+| **Solid** line | Paper mentions the term; thicker = more mentions |
+| **Dashed pink** line | Encyclopedia cross-reference between two terms |
+
+### Term-graph mode
+
+Dots are terms; size and colour reflect the number of connections (green > 25, blue > 10, orange > 4, otherwise the fourth colour).
+
+---
+
+## Using the graph
+
+| Action | Result |
+|---|---|
+| **Hover a term** | Tooltip with the Wikipedia summary, a thumbnail, corpus total mentions, top papers, related terms, and a **↗** button that opens the Wikipedia page |
+| **Hover a paper** | Tooltip with title, authors, year, journal, DOI, top terms, and a **↗** button that opens the paper (PMC or DOI) |
+| **Click a node** | Only the node and its direct neighbours stay visible; everything else is faded or hidden (choose with the *Others: Faint / Hide* menu) |
+| **Click a paper** | As above, **and term sizes change to the number of mentions inside that paper** (the panel tells you which size mode is active) |
+| **Click empty space / Reset** | Everything returns to normal, sizes back to whole-corpus frequency |
+| **Search box** | Type an exact node label (a term, or a paper label such as `Larkin 2025`) and press **Enter** or **Go** |
+| **Zoom** | Small term labels appear as you zoom in. Paper cards are always labelled |
+| **Drag** | You can move individual nodes by hand |
+
+---
+
+## Customising
+
+Most appearance settings are plain values near the top of the script.
+
+| What | Where |
+|---|---|
+| All colours (nodes, edges, panels, paper cards, tooltip) | the `THEMES` dictionary (one block for `dark`, one for `light`) |
+| Colour of the four term levels | `C1`…`C4` in `THEMES` |
+| Paper card colour and text colour | `PAPER`, `PAPER_FONT` in `THEMES` |
+| Colour of term–term edges | `EDGE_TT`, `EDGE_TT_ON` in `THEMES` |
+| Term size range | `SIZE_LO`, `SIZE_HI` (default 8 and 70) |
+| Colour thresholds in paper–term mode | `TH_HI`, `TH_MID`, `TH_LOW` (fractions of the number of papers) |
+| Ring size / spacing | `R` inside `bipartite_layout` |
+
+---
+
+## Tips and limitations
+
+- **An edge means "appears in the text", not "is important" or "causes".** Treat co-occurrence as a starting point for reading, not as evidence of a relationship.
+- Only terms found in at least one paper appear as nodes in paper–term mode. A term–term link to a term that no paper mentions is not drawn.
+- Term–term edges have **no direction**; they come from the encyclopedia's own cross-references, not from the papers.
+- Matching is string-based. Synonyms and variants (*El Niño*, *El Niño event*, *ENSO events*; *SST* vs *sea surface temperature*) are **separate** nodes unless your encyclopedia merges them.
+- Very general words (e.g. *Investigation*, *Methodology*) can appear as hubs. Remove them from the encyclopedia if you want only subject terms.
+- Terms nested inside longer terms count for both (*sea surface temperature* also adds a match for *temperature*).
+- Large graphs get crowded in the middle. Increase `--min-count`, or use `--no-term-links`.
+- Papers with no extractable text, year or first author are listed in the console so you can fix them with `--meta`.
+
+---
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| `Error: input file not found` | Check the `--input` path |
+| `Error: no paper folders (with fulltext.xml) or .txt files found` | `--papers` must point to the folder that **contains** the `PMC…` sub-folders (or the `.txt` files) |
+| Labels show a PMC ID instead of *Author Year* | The metadata could not be read; supply `--meta papers.csv` |
+| A paper is missing from the graph | It matched none of your terms (the console prints *Papers with no matching terms*) or it has no readable text |
+| Page opens blank | The browser could not load vis-network from the CDN. Check your internet connection |
+| Tooltips say *No Wikipedia summary available* | The Wikipedia page name could not be resolved, or there is no internet access |
+| Graph looks broken after moving the HTML elsewhere | PyVis writes a `lib/` folder next to the output file. Move or share the `lib/` folder together with the HTML |
+| `UnicodeEncodeError` in a Windows console | The script already switches the console to UTF-8. If it still happens, run `set PYTHONUTF8=1` first |
+| Nodes keep moving | Run without `--animate` (the default is static) |
 
 ---
 
 ## Output
 
-The script writes a self-contained HTML visualization (with JavaScript/CSS and graph data) to the specified output path. Open the HTML file in a modern web browser.
-
-Example:
-
-```text
-semantic_KG.html
-```
-
-The script also prints graph statistics and the saved output path to the terminal.
-
----
-
-## Notes and limitations
-
-- Term matching is based on regular expressions and whole-word matching, with plural tolerance for most terms. Short all-uppercase acronyms (up to five characters) are case-sensitive.
-- Matching is lexical: a term can be counted even when it is used in a different context or meaning.
-- Paper–term edges indicate detected mentions, not validated semantic relations.
-- Wikipedia tooltip summaries require an internet connection when the tooltip is first requested. Results are cached in the browser session.
-- A Wikipedia summary may be unavailable for a term; the direct Wikipedia link can still be used.
-- Terms absent from the paper corpus do not appear as connected term nodes in bipartite mode.
-- Isolated graph nodes are removed.
-- In bipartite mode, the optional term–term layer means the combined graph is not a strict bipartite graph.
-
-## Citation / acknowledgement
-
-If you use or adapt this script in research, please cite or acknowledge the relevant project/script and describe the encyclopedia source, paper corpus, and term-matching procedure used in your analysis.
-
-## License
-
-Apache License Version 2.0 | See [LICENSE](LICENSE) file for details.
+A single HTML file (plus the `lib/` helper folder created by PyVis). It can be opened in any modern browser, so it is easy to share or screenshot for posters and reports.
