@@ -1,5 +1,7 @@
 # Encyclopedia Knowledge Graph Builder
 
+## [build_KGencyclopedia.py](https://github.com/semanticClimate/encyclopedia/blob/renu/drawKG/build_KGencyclopedia.py)
+
 `build_KGencyclopedia.py` turns an **encyclopedia of terms** (an HTML file) and, optionally, a **folder of research papers** into an interactive, self-contained knowledge graph that opens in any web browser.
 
 It can build two kinds of graph:
@@ -242,7 +244,6 @@ Most appearance settings are plain values near the top of the script.
 - Only terms found in at least one paper appear as nodes in paper–term mode. A term–term link to a term that no paper mentions is not drawn.
 - Term–term edges have **no direction**; they come from the encyclopedia's own cross-references, not from the papers.
 - Matching is string-based. Synonyms and variants (*El Niño*, *El Niño event*, *ENSO events*; *SST* vs *sea surface temperature*) are **separate** nodes unless your encyclopedia merges them.
-- Very general words (e.g. *Investigation*, *Methodology*) can appear as hubs. Remove them from the encyclopedia if you want only subject terms.
 - Terms nested inside longer terms count for both (*sea surface temperature* also adds a match for *temperature*).
 - Large graphs get crowded in the middle. Increase `--min-count`, or use `--no-term-links`.
 - Papers with no extractable text, year or first author are listed in the console so you can fix them with `--meta`.
