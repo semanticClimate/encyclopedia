@@ -36,16 +36,16 @@ The graph is **static** (positions are pre-computed, nothing drifts around) and 
 pip install beautifulsoup4 lxml networkx numpy pyvis
 
 # 2a. term graph only
-python build_KGencyclopedia.py --input encyclopedia.html -o term_KG.html
+python buildKGencyclopedia_rdf.py --input encyclopedia.html -o term_KG.html
 
 # 2b. paper-term graph (papers folder given -> bipartite mode is chosen automatically)
-python build_KGencyclopedia.py --input encyclopedia.html --papers paper_all/ -o paper_term_KG.html
+python buildKGencyclopedia_rdf.py --input encyclopedia.html --papers paper_all/ -o paper_term_KG.html
 ```
 
 On Windows, paths work the same way:
 
 ```bat
-python build_KGencyclopedia.py --input encyclopedia.html --papers D:\paper_all -o paper_term_KG.html
+python buildKGencyclopedia_rdf.py --input encyclopedia.html --papers D:\paper_all -o paper_term_KG.html
 ```
 
 The script prints a short summary and opens the result in your browser. Add `--no-open` to skip opening it (useful on servers or in Colab).
@@ -161,10 +161,10 @@ Examples:
 
 ```bash
 # pure bipartite graph, only terms mentioned at least 3 times in a paper, light theme
-python build_KGencyclopedia.py -i encyclopedia.html -p paper_all -o kg.html --min-count 3 --no-term-links --theme light
+python buildKGencyclopedia_rdf.py -i encyclopedia.html -p paper_all -o kg.html --min-count 3 --no-term-links --theme light
 
 # fix paper labels with a CSV
-python build_KGencyclopedia.py -i encyclopedia.html -p paper_all --meta papers.csv -o kg.html
+python buildKGencyclopedia_rdf.py -i encyclopedia.html -p paper_all --meta papers.csv -o kg.html
 ```
 
 ---
@@ -215,7 +215,7 @@ Dots are terms; size and colour reflect the number of connections (green > 25, b
 Add `--rdf graph.ttl` to also write the graph as **RDF in Turtle**, so it can be loaded into any triple store or queried with SPARQL.
 
 ```bash
-python build_KGencyclopedia.py -i encyclopedia.html -p paper_all -o kg.html \
+python buildKGencyclopedia_rdf.py -i encyclopedia.html -p paper_all -o kg.html \
     --rdf kg.ttl --base-uri https://w3id.org/yourproject/kg/
 ```
 
@@ -271,21 +271,6 @@ Most appearance settings are plain values near the top of the script.
 | Term size range | `SIZE_LO`, `SIZE_HI` (default 8 and 70) |
 | Colour thresholds in paper–term mode | `TH_HI`, `TH_MID`, `TH_LOW` (fractions of the number of papers) |
 | Ring size / spacing | `R` inside `bipartite_layout` |
-
----
-
-## Tips and limitations
-
-- **An edge means "appears in the text", not "is important" or "causes".** Treat co-occurrence as a starting point for reading, not as evidence of a relationship.
-- Only terms found in at least one paper appear as nodes in paper–term mode. A term–term link to a term that no paper mentions is not drawn.
-- The RDF export links concepts to **Wikipedia pages**, not to Wikidata or DBpedia identifiers; mapping to those is a possible next step.
-- Term–term edges have **no direction**; they come from the encyclopedia's own cross-references, not from the papers.
-- Matching is string-based. Synonyms and variants (*El Niño*, *El Niño event*, *ENSO events*; *SST* vs *sea surface temperature*) are **separate** nodes unless your encyclopedia merges them.
-- Keyphrase lists made automatically can contain function words, publisher names and file-format words. Function words are removed by default; list other unwanted terms in a file and pass it with `--exclude-terms`.
-- Very general words (e.g. *Investigation*, *Methodology*) can appear as hubs. Remove them from the encyclopedia if you want only subject terms.
-- Terms nested inside longer terms count for both (*sea surface temperature* also adds a match for *temperature*).
-- Large graphs get crowded in the middle. Increase `--min-count`, or use `--no-term-links`.
-- Papers with no extractable text, year or first author are listed in the console so you can fix them with `--meta`.
 
 ---
 
