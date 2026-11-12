@@ -1,6 +1,6 @@
 # Encyclopedia Knowledge Graph Builder
 
-`build_KGencyclopedia.py` turns an **encyclopedia of terms** (an HTML file) and, optionally, a **folder of research papers** into an interactive, self-contained knowledge graph that opens in any web browser.
+`buildKGencyclopedia_rdf.py` turns an **encyclopedia of terms** (an HTML file) and, optionally, a **folder of research papers** into an interactive, self-contained knowledge graph that opens in any web browser.
 
 It can build two kinds of graph:
 
